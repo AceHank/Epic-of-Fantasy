@@ -1,0 +1,18 @@
+[
+	//Dwarven Kingdom
+	{
+		"name": "Orichalcum Golem",
+		"uniqueTo": "Dwargon",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"promotions": ["Exposed Core", "Construct"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+]

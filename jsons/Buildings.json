@@ -1,0 +1,29 @@
+[
+	//Dwarven Kingdom
+	{
+		"name": "Higba's Legacy",
+		"uniqueTo": "Dwarven Kingdom",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unbuildable", "Unsellable", "Must be on [Hill]", "Will not be displayed in Civilopedia",
+					"Destroyed when the city is captured", "Cannot be purchased",
+					"[+1 Production] [in this city] <starting from the [Classical era]>",
+					"[+1 Production] [in this city] <starting from the [Renaissance era]>",
+					"[+1 Production] [in this city] <starting from the [Modern era]>",
+					"[+1 Production] [in this city] <starting from the [Information era]>"]
+	},
+	
+	{
+		"name": "Tinkerer's Depot",
+		"uniqueTo": "Dwarven Kingdom",
+		"replaces": "Observatory",
+		"maintenance": 0,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Must be next to [Mountain]", 
+					"[+1 Science] from [Mine] tiles [in this city]"],
+		"requiredTech": "Astronomy"
+	},
+	
+	
+	
+]

@@ -1,0 +1,11 @@
+[
+	//Dwarven Kingdom
+	{
+		"name": "Construct",
+		"uniques": ["[+25]% Strength <when defending>"]
+	},
+	{
+		"name": "Exposed Core",
+		"uniques": ["[+50]% Strength <when below [40] HP>"],
+	},
+]

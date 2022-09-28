@@ -1,0 +1,38 @@
+[	
+	//Higba of Dwarven Kingdom
+	{
+		"name": "Dwarven Kingdom",
+		"leaderName": "Higba",
+		"adjective": ["Dwarven"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwargon surely will brings forth advances and breakthroughs.",
+		"startIntroPart2": "King Higba, your brilliant mind echoed throughout the lands. Will you stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You has transgessed our agenda, we won't let you have it your way!",
+		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
+		"defeated": "I'm sorry, I've failed my people.",
+		"introduction": "Greetings stranger, I am King Higba of Dwarven Kingdom. Leader of the Dwarven, conqueror of the mountains.",
+		
+		"neutralHello": "Greetings, your Highness.",
+		"hateHello": "What now?",
+		"tradeRequest": "I think it would be beneficial for both of us to conduct in a trade.",
+		
+		"outerColor": [ 35, 35, 35],
+		"innerColor": [246,205,137],
+		"uniqueName": "Higba's Ingenuity",
+		"uniqueText": "+1 Production from every 2 ages for cities settled on Hill\n+1 Science from every Strategic Resource",
+		"uniques": ["[+1 Science] from every [Strategic resource]"", 
+					"Gain a free [Higba's Legacy] [in all cities] <in [Hill] tiles>"],
+		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
+			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
+		"civilopediaText": [
+			{"text":"Dwarven Kingdom is a dwarfs civilization, led by King Higba. Dwarves are very skilled at mechanical construction and scientific revelation."},
+			{"text":"Tips to play:"}
+			{"text":"You want to settles your cities on Hill, especially next to Mountain."},
+        ]
+	},
+	
+	//
+]
