@@ -19,20 +19,150 @@
 		"hateHello": "What now?",
 		"tradeRequest": "I think it would be beneficial for both of us to conduct in a trade.",
 		
-		"outerColor": [ 35, 35, 35],
-		"innerColor": [246,205,137],
+		"outerColor": [ 27, 53, 63]
+		"innerColor": [213,249,255],
 		"uniqueName": "Higba's Ingenuity",
 		"uniqueText": "+1 Production from every 2 ages for cities settled on Hill\n+1 Science from every Strategic Resource",
-		"uniques": ["[+1 Science] from every [Strategic resource]"", 
+		"uniques": ["[+1 Science] from every [Strategic resource]", 
 					"Gain a free [Higba's Legacy] [in all cities] <in [Hill] tiles>"],
 		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
 			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
 		"civilopediaText": [
-			{"text":"Dwarven Kingdom is a dwarfs civilization, led by King Higba. Dwarves are very skilled at mechanical construction and scientific revelation."},
-			{"text":"Tips to play:"}
+			{"text":"Dwarven Kingdom has great Production and Science output."},
 			{"text":"You want to settles your cities on Hill, especially next to Mountain."},
         ]
 	},
 	
-	//
+	//Fasthur of Drow Village
+	{
+		"name": "Drow Village",
+		"leaderName": "Fasthur",
+		"adjective": ["Drow"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [ 35, 35, 35],
+		"innerColor": [246,205,137],
+		"uniqueName": "Revenge of the Fallen",
+		"uniqueText": "+1 Food, +1 Production for Desert tiles adjacent to City Center\nMelee units gain the Vengeful promotion",
+		"uniques": ["[+1 Food, +1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
+					"[{Melee}] units gain the [Vengeful] promotion"], 
+		"cities": ["Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argach","Lashire","Chenlaena","Ordton","Xaryna","Kurx",
+			"Alerough","Yauntyrr","Shurdriira","Zauiryn","Goyln"],
+		"civilopediaText": [
+			{"text":"Drow Village can turn Desert tiles into essentially Plains tiles around its City Center. They are good at military."},
+			{"text":"Settle near Desert Hill and/or Oasis to maximize Drow Village's National Ability."},
+        ]
+	},
+	
+	//Rog of Orc Horde
+	{
+		"name": "Orc Horde",
+		"leaderName": "Rog",
+		"adjective": ["Orc"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [ 41,83,42],
+		"innerColor": [146,221,9],
+		"uniqueName": "Endless Horde",
+		"uniqueText": "+15% Production when constructing Military Land units in all cities\n+15% Flank attack bonuses",
+		"uniques": ["[15]% Production when constructing [{Military} {Land}] units [in all cities]",
+					"[15]% to Flank Attack bonuses"], 
+		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
+			"Nargol","Yotul","Homraz","Gonk","Mor"],
+		"civilopediaText": [
+			{"text":"Orc Horde can spit untold amount of units thanks to their NA. They are good at military."},
+			{"text":"Prioritize moving melee units into range before attacking for the extra Flank Attack bonuses."},
+        ]
+	},
+	
+	//Undwyck of Uldra
+	{
+		"name": "Uldra",
+		"leaderName": "Undwyck",
+		"adjective": ["Uldra"],
+		"startBias": ["Tundra"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [215,225,225],
+		"innerColor": [  0,  0,  0],
+		"uniqueName": "Chilling Touch",
+		"uniqueText": "+1 Food, +1 Production, +1 Culture, and +1 Science from every Snow tiles\n+1 Population from cities settled on Tundra",
+		"uniques": ["[+1 Food, +1 Production, +1 Culture, +1 Science] from every [Snow]"], 
+		"cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nabû-Shar",
+			"Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
+		"civilopediaText": [
+			{"text":"Uldra is a defensive civilization. They have good Production output on Tundra tiles. Especially on Snow Hill tiles."},
+			{"text":"Frost Giant is a good defensive unit as your start bias is Tundra. Turtle up and pump whatever victory you want to achieve with the extra Production from Tundra tiles."},
+        ]
+	},
+	
+	//Remia of Merfolk Council
+	{
+		"name": "Merfolk Council",
+		"leaderName": "Remia",
+		"adjective": ["Merfolk"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [78,244,234],
+		"innerColor": [85, 74, 32],
+		"uniqueName": "Song of the Seas",
+		"uniqueText": "+2 Culture for cities settled on Coastal tiles after discovering Drama and Poetry\n+1 Faith from every Atoll",
+		"uniques": ["Gain a free [CoastCulture] [in all cities] <in [Coastal] tiles>", "[+1 Faith] from every [Atoll]",
+					"[Work Boats] units gain the [Floating City Builder] promotion"], 
+		"cities": ["Rimulus","Cyreus","Aenon","Seirus","Cari","Muriel","Laguna","Osharus","Nadah","Adriene","Raina","Ara",
+			"Cherith","Tishtar","Nerrocen","Orta","Tertis"],
+		"civilopediaText": [
+			{"text":"Merfolk Council has strong Culture output if settled on Coastal tile."},
+			{"text":"Your Work Boats can construct Merfolk Council Unique Improvement which further boost its Culture output with added Production bonus."},
+        ]
+	},
 ]

@@ -24,6 +24,43 @@
 		"requiredTech": "Astronomy"
 	},
 	
+	//Drow Village
+	{
+		"name": "Training Ground",
+		"replaces": "Barracks",
+		"uniqueTo": "Drow Village",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [25] Experience [in this city]"],
+		"requiredTech": "Bronze Working"
+	},
 	
+	//Uldra
+	{
+		"name": "Iceygloo",
+		"replaces": "Aqueduct",
+		"uniqueTo": "Uldra",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Production] from [Tundra] tiles [in this city]"],
+		"requiredTech": "Engineering"
+	},
 	
+	{
+		"name": "TundraFreePop",
+		"uniqueTo": "Uldra",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia",
+					"[+1] population [in this city]"]
+	},
+	
+	//Merfolk Council
+	{
+		"name": "CoastCulture",
+		"uniqueTo": "Merfolk Council",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [Coastal]", "Will not be displayed in Civilopedia", "[+2 Culture] [in this city] <after discovering [Drama and Poetry]>"]
+	},
 ]

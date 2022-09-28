@@ -6,6 +6,30 @@
 	},
 	{
 		"name": "Exposed Core",
-		"uniques": ["[+50]% Strength <when below [40] HP>"],
+		"uniques": ["[+50]% Strength <when below [40] HP>"]
 	},
+	
+	//Drow Village
+	{
+		"name": "Elusive",
+		"uniques": ["May withdraw before melee ([66]%)"]
+	},	
+	{
+		"name": "Vengeful",
+		"uniques": ["[+50]% Strength <when below [26] HP>"]
+	},	
+	
+	//Uldra
+	{
+		"name": "Snowman",
+		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
+					"[+25]% Strength <when fighting in [Tundra] tiles>"]
+	},	
+	
+	//Merfolk Council
+	{
+		"name": "Floating City Builder",
+		"uniques": ["Can construct [Floating City]"]
+	},	
+	
 ]

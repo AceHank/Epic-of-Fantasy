@@ -2,17 +2,88 @@
 	//Dwarven Kingdom
 	{
 		"name": "Orichalcum Golem",
-		"uniqueTo": "Dwargon",
+		"uniqueTo": "Dwarven Kingdom",
+		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 24,
+		"strength": 23,
 		"cost": 120,
 		"requiredResource": "Iron",
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"promotions": ["Exposed Core", "Construct"],
+		"promotions": ["Exposed Core"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
+	
+	//Drow Village
+	{
+		"name": "Bladedancer",
+		"uniqueTo": "Drow Village",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Elusive"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	//Orc Horde
+	{
+		"name": "Orc Brute",
+		"uniqueTo": "Orc Horde",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 85,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": ["[-15]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	//Uldra
+	{
+		"name": "Frost Giant",
+		"uniqueTo": "Uldra",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Trapping",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Snowman"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	
+	//Merfolk Council
+	{
+		"name": "Naga",
+		"uniqueTo": "Merfolk Council",
+		"replaces": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 15,
+		"range": 2,
+		"cost": 90,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"attackSound": "arrow"
+	},
+	
 ]
