@@ -32,4 +32,12 @@
 		"uniques": ["Can construct [Floating City]"]
 	},	
 	
+	//Beastmen Empire
+	{
+		"name": "Intimidation",
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
+	},
+	
+	
+	
 ]

@@ -165,4 +165,48 @@
 			{"text":"Your Work Boats can construct Merfolk Council Unique Improvement which further boost its Culture output with added Production bonus."},
         ]
 	},
+	
+	//Rozagh of Beastmen Empire
+	{
+		"name": "Beastmen Empire",
+		"leaderName": "Rozagh",
+		"adjective": ["Beastmen"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [ 55, 25,  8],
+		"innerColor": [156,197,237],
+		"uniqueName": "Roar of Victory",
+	//	"uniqueText": "+2 Culture for cities settled on Coastal tiles after discovering Drama and Poetry\n+1 Faith from every Atoll",
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "[+1 Happiness] from every [Courthouse]"], 
+		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
+			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
+		"civilopediaText": [
+			{"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
+			{"text":"Your Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning your Wardrummer correctly is key."},
+        ]
+	},
+	
+	//Sylvanna of Elven Kingdom
+	
+	
+	//Orz'athoth of Zhin'enyah
+	
+	
+	//Baradul of Dragonborn Union
+	
+	
+	//Lavrence of Vigilo Order
+	
 ]

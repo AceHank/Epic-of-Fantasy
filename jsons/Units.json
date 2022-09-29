@@ -86,4 +86,34 @@
 		"attackSound": "arrow"
 	},
 	
+	//Beastmen Empire
+	{
+		"name": "Wardrummer",
+		"unitType": "Civilian",
+		"uniqueTo": "Beastmen Empire",
+		"replaces": "Great General",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"promotions": ["Intimidation"],
+		"movement": 4
+	},
+	{
+		"name": "Wyvern Rider",
+		"uniqueTo": "Beastmen Empire",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
+	},
+	
 ]
