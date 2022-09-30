@@ -155,7 +155,7 @@
 		"outerColor": [78,244,234],
 		"innerColor": [85, 74, 32],
 		"uniqueName": "Song of the Seas",
-		"uniqueText": "+2 Culture for cities settled on Coastal tiles after discovering Drama and Poetry\n+1 Faith from every Atoll",
+		"uniqueText": "+3 Culture for cities settled on Coastal tiles after discovering Drama and Poetry\n+1 Faith from every Atoll",
 		"uniques": ["Gain a free [CoastCulture] [in all cities] <in [Coastal] tiles>", "[+1 Faith] from every [Atoll]",
 					"[Work Boats] units gain the [Floating City Builder] promotion"], 
 		"cities": ["Rimulus","Cyreus","Aenon","Seirus","Cari","Muriel","Laguna","Osharus","Nadah","Adriene","Raina","Ara",
@@ -188,7 +188,6 @@
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Roar of Victory",
-	//	"uniqueText": "+2 Culture for cities settled on Coastal tiles after discovering Drama and Poetry\n+1 Faith from every Atoll",
 		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "[+1 Happiness] from every [Courthouse]"], 
 		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
 			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
@@ -199,13 +198,103 @@
 	},
 	
 	//Sylvanna of Elven Kingdom
+	{
+		"name": "Elven Kingdom",
+		"leaderName": "Sylvanna",
+		"adjective": ["Elven"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [255,255,78],
+		"innerColor": [ 70,  0, 4],
+		"uniqueName": "One with Nature",
+		"uniqueText": "+1 Culture from every Forest tiles adjacent to Jungle tile\n+1 Faith from every Jungle tiles adjacent to Forest tile",
+		"uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>"], 
+		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
+			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
+		"civilopediaText": [
+			{"text":"Elven Kingdom is a good Cultural civilization when starting with plenty of Forest and good early game aggresion with Elven Ranger."},
+			{"text":"Your unique National Wonder provide Culture and Faith from each Trade Route, so build wide to maximize this effect."},
+        ]
+	},
 	
-	
-	//Orz'athoth of Zhin'enyah
-	
+	//Orz'athoth of Children of Deep Dweller
+	{
+		"name": "Children of Deep Dweller",
+		"leaderName": "Orz'athoth",
+		"adjective": ["Cultist"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [0, 43, 11],
+		"innerColor": [0,242,189],
+		"uniqueName": "Sunken Moon Salvation",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]"], 
+		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
+			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
+		"civilopediaText": [
+			{"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
+			{"text":"Your Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning your Wardrummer correctly is key."},
+        ]
+	},
 	
 	//Baradul of Dragonborn Union
-	
+	{
+		"name": "Dragonborn Union",
+		"leaderName": "Baradul",
+		"adjective": ["Dragonborn"],
+		"startBias": ["Mountain"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [242,101,0],
+		"innerColor": [89, 255,0],
+		"uniqueName": "Draconic Wisdom",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "Gain [15] Influence with a [Military] gift to a City-State"], 
+		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One","Itlognig",
+				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
+				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
+				   "Jaigerynth, the Skinny One","Dondrentarth, the Mysterious","Nudroilth, Eternal Fire",
+				   "Eovnayntein, the Quiet","Srialia, the Tyrant"],
+		"civilopediaText": [
+			{"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
+			{"text":"Your Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning your Wardrummer correctly is key."},
+        ]
+	},
 	
 	//Lavrence of Vigilo Order
 	

@@ -116,4 +116,70 @@
 		"attackSound": "arrow"
 	},
 	
+	//Elven Kingdom
+	{
+		"name": "Elven Ranger",
+		"uniqueTo": "Elven Kingdom",
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 14,
+		"cost": 80,
+		"promotions": ["Woodsman"],
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	
+	//Orz'athoth of Children of Deep Dweller
+	{
+		"name": "Deep One",
+		"uniqueTo": "Children of Deep Dweller",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 46,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>"],
+		"attackSound": "nonmetalhit",
+	},
+	
+	//Dragonborn Union
+	{
+		"name": "Dragon Knight",
+		"uniqueTo": "Dragonborn Union",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Gryphon",
+		"uniqueTo": "Dragonborn Union",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can pass through impassable tiles", "Ignores terrain cost"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	
+	//
 ]

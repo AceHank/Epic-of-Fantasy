@@ -61,6 +61,32 @@
 		"uniqueTo": "Merfolk Council",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Coastal]", "Will not be displayed in Civilopedia", "[+2 Culture] [in this city] <after discovering [Drama and Poetry]>"]
+		"uniques": ["Unsellable", "Must be on [Coastal]", "Will not be displayed in Civilopedia", "[+3 Culture] [in this city] <after discovering [Drama and Poetry]>"]
 	},
+	
+	//Elven Kingdom
+	{
+		"name": "Ancestor Tree",
+		"uniqueTo": "Elven Kingdom",
+		"cost": 150,
+		"culture": 2,
+		"faith": 1,
+		"isNationalWonder": true,
+		"uniques": ["[+2 Culture, +1 Faith] from each Trade Route"],
+		"requiredTech": "Civil Service"
+	},
+	
+	//Orz'athoth of Children of Deep Dweller
+	{
+		"name": "Old God Monument",
+		"uniqueTo": "Children of Deep Dweller",
+		"culture": 2,
+		"faith": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [10] Experience [in this city]"]
+	},
+	
+	
 ]
