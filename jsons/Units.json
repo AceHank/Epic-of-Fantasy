@@ -25,7 +25,7 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 16,
+		"strength": 17,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -181,5 +181,5 @@
 		"attackSound": "horse"
 	},
 	
-	//
+	//Vigilo Order
 ]

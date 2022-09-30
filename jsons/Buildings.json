@@ -30,6 +30,7 @@
 		"replaces": "Barracks",
 		"uniqueTo": "Drow Village",
 		"hurryCostModifier": 25,
+		"happiness": 1,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [25] Experience [in this city]"],
 		"requiredTech": "Bronze Working"
@@ -87,6 +88,8 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [10] Experience [in this city]"]
 	},
+	
+	//Vigilo Order
 	
 	
 ]
