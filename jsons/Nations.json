@@ -89,9 +89,9 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Endless Horde",
-		"uniqueText": "+15% Production when constructing Military Land units in all cities\n+15% Flank attack bonuses",
-		"uniques": ["[15]% Production when constructing [{Military} {Land}] units [in all cities]",
-					"[15]% to Flank Attack bonuses"], 
+		"uniqueText": "+20% Production when constructing Military Land units in all cities\n+15% Flank attack bonuses",
+		"uniques": ["[20]% Production when constructing [{Military} {Land}] units [in all cities]",
+					"[20]% to Flank Attack bonuses"], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
@@ -122,8 +122,8 @@
 		"outerColor": [215,225,225],
 		"innerColor": [  0,  0,  0],
 		"uniqueName": "Chilling Touch",
-		"uniqueText": "+1 Food, +1 Production, +1 Culture, and +1 Science from every Snow tiles\n+1 Population from cities settled on Tundra",
-		"uniques": ["[+1 Food, +1 Production, +1 Culture, +1 Science] from every [Snow]"], 
+		"uniqueText": "+1 Food, +1 Production, +1 Faith, +1 Culture, and +1 Science from every Snow tiles\n+1 Population from cities settled on Tundra or Snow",
+		"uniques": ["[+1 Food, +1 Production, +1 Faith, +1 Culture, +1 Science] from every [Snow]"], 
 		"cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nabû-Shar",
 			"Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
 		"civilopediaText": [
@@ -297,5 +297,40 @@
 	},
 	
 	//Lavrence of Vigilo Order
+	{
+		"name": "Vigilo Order",
+		"leaderName": "Lavrence",
+		"adjective": ["Order"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [237,197,82],
+		"innerColor": [186, 60, 3],
+		"uniqueName": "Lavrence's Opus",
+		"uniques": ["Receive free [Great Engineer] when you discover [Chemistry]", "[+50 Gold, +25 Science] whenever a Great Person is expended"], 
+		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
+			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
+		"civilopediaText": [
+			{"text":"Vigilo Order is a strong scientific civilization in mid-game to late game. Potionist helps you to defend your territory."},
+			{"text":"Your Alchemical Society has unique specialist (Alchemist) which has double the GPP of normal Scientist. Assigning those Alchemist is crucial."},
+        ]
+	},
+	
+	//Menedaius of Argonautian States
+	
+	
+	//xxx of Demonic Clan
+	
 	
 ]

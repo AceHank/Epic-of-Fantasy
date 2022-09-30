@@ -182,4 +182,15 @@
 	},
 	
 	//Vigilo Order
+	{
+		"name": "Potionist",
+		"unitType": "Civilian",
+		"uniqueTo": "Vigilo Order",
+		"movement": 2,
+		"promotions": ["Medic I", "Medic II"],
+		"requiredTech": "Guilds",
+		"cost": 90
+	},
+	
+	//
 ]

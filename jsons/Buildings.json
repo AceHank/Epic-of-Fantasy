@@ -43,16 +43,23 @@
 		"uniqueTo": "Uldra",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Production] from [Tundra] tiles [in this city]"],
+		"uniques": ["[60]% Food is carried over after population increases [in this city]", "[+1 Production] from [Tundra] tiles [in this city]"],
 		"requiredTech": "Engineering"
 	},
-	
 	{
 		"name": "TundraFreePop",
 		"uniqueTo": "Uldra",
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia",
+					"[+1] population [in this city]"]
+	},
+	{
+		"name": "SnowFreePop",
+		"uniqueTo": "Uldra",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia",
 					"[+1] population [in this city]"]
 	},
 	
@@ -90,6 +97,17 @@
 	},
 	
 	//Vigilo Order
-	
+	{
+		"name": "Alchemical Society",
+		"replaces": "University",
+		"uniqueTo": "Vigilo Order",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Alchemist": 3},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist Specialist slots (+6 Great Scientist Point from each)"],
+		"requiredTech": "Education"
+	},
 	
 ]
