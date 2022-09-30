@@ -187,7 +187,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Vigilo Order",
 		"movement": 2,
-		"promotions": ["Medic I", "Medic II"],
+		"promotions": ["Medic", "Medic II"],
 		"requiredTech": "Guilds",
 		"cost": 90
 	},
