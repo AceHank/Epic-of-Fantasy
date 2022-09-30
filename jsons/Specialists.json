@@ -2,7 +2,7 @@
 	{
 		"name":"Alchemist",
 		"science":3,
-		"greatPersonPoints": {"Great Scientist":6},
+		"greatPersonPoints": {"Great Scientist":5},
 		"color": [0,0,255]
 	},
 ]

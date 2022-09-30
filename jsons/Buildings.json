@@ -106,7 +106,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Alchemist": 3},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist Specialist slots (+6 Great Scientist Point from each)"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist Specialist slots (+5 Great Scientist Point from each)"],
 		"requiredTech": "Education"
 	},
 	
