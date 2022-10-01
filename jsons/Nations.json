@@ -89,7 +89,7 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Endless Horde",
-		"uniqueText": "+20% Production when constructing Military Land units in all cities\n+15% Flank attack bonuses",
+		"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
 		"uniques": ["[+20]% Production when constructing [{Military} {Land}] units [in all cities]",
 					"[+20]% to Flank Attack bonuses"], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
