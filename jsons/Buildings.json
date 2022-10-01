@@ -110,4 +110,75 @@
 		"requiredTech": "Education"
 	},
 	
+	//Argonautian States
+	{
+		"name": "Recall Achilles",
+		"uniqueTo": "Argonautian States",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Classical era]>", "Only available <in cities with a [Palace]>",
+					"Free [Achilles] appears"]
+	},
+	{
+		"name": "Recall Orion",
+		"uniqueTo": "Argonautian States",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Medieval era]>", "Only available <in cities with a [Palace]>",
+					"Free [Orion] appears"]
+	},
+	{
+		"name": "Recall Agathinus",
+		"uniqueTo": "Argonautian States",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Renaissance era]>", "Only available <in cities with a [Palace]>",
+					"Free [Agathinus] appears"]
+	},
+	{
+		"name": "Recall Daedalus",
+		"uniqueTo": "Argonautian States",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Industrial era]>", "Only available <in cities with a [Palace]>",
+					"Free [Daedalus] appears"]
+	},
+	{
+		"name": "Recall Theopompus",
+		"uniqueTo": "Argonautian States",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Modern era]>", "Only available <in cities with a [Palace]>",
+					"Free [Theopompus] appears"]
+	},
+	{
+		"name": "Recall Castor & Pollux",
+		"uniqueTo": "Argonautian States",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Atomic era]>", "Only available <in cities with a [Palace]>",
+					"Free [Castor] appears", "Free [Pollux] appears"]
+	},
+	{
+		"name": "Recall Isagoras",
+		"uniqueTo": "Argonautian States",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Information era]>", "Only available <in cities with a [Palace]>",
+					"Free [Isagoras] appears"]
+	},
+	
+	//Pyre Clan
+	{
+		"name": "Demonic Portal",
+		"replaces": "Heroic Epic",
+		"uniqueTo": "Pyre Clan",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city", "[+50]% Production when constructing [{Military} {Land}] units [in this city]", "[+1] Movement <during a Golden Age>", "[+1] Sight <during a Golden Age>"],
+		"requiredTech": "Iron Working"
+	},
+	
 ]

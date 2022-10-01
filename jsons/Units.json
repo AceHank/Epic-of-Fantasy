@@ -192,5 +192,153 @@
 		"cost": 90
 	},
 	
-	//
+	//Argonautian States
+	{
+		"name": "Peltast",
+		"replaces": "Spearman",
+		"uniqueTo": "Argonautian States",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 11,
+		"range": 1,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Agoge"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sarissa Hippeus",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Argonautian States",
+		"movement": 4,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"promotions": ["Agoge", "Impetus"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+		//Heroic Generals
+		{
+			"name": "Achilles",
+			"uniqueTo": "Argonautian States",
+			"unitType": "Sword",
+			"movement": 2,
+			"strength": 16,
+			"upgradesTo": "Longswordsman",
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Great Person - [War]", "Can construct [Citadel]",
+						"Can start an [8]-turn golden age", "Gain [250] [Gold] <by consuming this unit>"],
+			"promotions": ["Agoge", "Heroic General",
+					   "Bloodbath"],
+			"attackSound": "metalhit"
+		},
+		{
+			"name": "Orion",
+			"uniqueTo": "Argonautian States",
+			"unitType": "Archery",
+			"movement": 2,
+			"strength": 16,
+			"rangedStrength": 20,
+			"range": 2,
+			"upgradesTo": "Gatling Gun",
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Great Person - [War]", "Can construct [Citadel]",
+						"Gain [100] [Culture] <by consuming this unit>", "Can construct [Orion's Monument]", "Can move after attacking"],
+			"promotions": ["Agoge", "Heroic General",
+					   "Accuracy I", "Barrage I"],
+			"attackSound": "arrow"
+		},
+		{
+			"name": "Agathinus",
+			"unitType": "Civilian",
+			"uniqueTo": "Argonautian States",
+			"movement": 2,
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Great Person - [War]", "Can construct [Citadel]",
+						"Can hurry technology research", "Can construct [Academy]", "Uncapturable"],
+			"promotions": ["Medic", "Medic II"],
+		},
+		{
+			"name": "Daedalus",
+			"uniqueTo": "Argonautian States",
+			"unitType": "Mounted",
+			"movement": 4,
+			"strength": 38,
+			"upgradesTo": "Landship",
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Great Person - [War]", "Can construct [Citadel]",
+						"Can speed up construction of a building", "Can construct [Basilikoi Paides]"],
+			"promotions": ["Agoge", "Heroic General",
+					   "Warbanner"],
+			"attackSound": "metalhit"
+		},
+		{
+			"name": "Theopompus",
+			"uniqueTo": "Argonautian States",
+			"unitType": "Gunpowder",
+			"movement": 2,
+			"strength": 60,
+			"upgradesTo": "Infantry",
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Great Person - [War]", "Can construct [Citadel]",
+						"Can start an [8]-turn golden age", "Can construct [Landmark]"],
+			"promotions": ["Agoge", "Heroic General",
+					   "Blitz", "Ignores ZOC"],
+			"attackSound": "metalhit"
+		},
+		{
+			"name": "Castor",
+			"unitType": "Civilian",
+			"uniqueTo": "Argonautian States",
+			"movement": 2,
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Great Person - [War]", "Can construct [Citadel]",
+						"Free Technology <by consuming this unit>", "Uncapturable"]
+		},
+		{
+			"name": "Pollux",
+			"unitType": "Civilian",
+			"uniqueTo": "Argonautian States",
+			"movement": 2,
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Great Person - [War]", "Can construct [Citadel]",
+						"Free Social Policy <by consuming this unit>", "Uncapturable"]
+		},
+		{
+			"name": "Isagoras",
+			"uniqueTo": "Argonautian States",
+			"unitType": "Ranged Gunpowder",
+			"movement": 2,
+			"strength": 90,
+			"rangedStrength": 90,
+			"range": 2,
+			"upgradesTo": "Infantry",
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Great Person - [War]", "Can construct [Citadel]",
+						"Free Great Person <by consuming this unit>"],
+			"promotions": ["Agoge", "Heroic General",
+					   "Logistics"],
+			"attackSound": "metalhit"
+		},
+	
+	//Pyre Clan
+	{
+		"name": "Pitlord",
+		"replaces": "Knight",
+		"uniqueTo": "Pyre Clan",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+			"promotions": ["Decaying Aura"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	
 ]

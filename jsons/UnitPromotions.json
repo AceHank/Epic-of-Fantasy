@@ -38,6 +38,36 @@
 		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
 	},
 	
+	//Argonautian States
+	{
+		"name": "Agoge",
+		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>", "Earn [50]% of killed [Military] unit's [Strength] as [Culture]"],
+	},
+	{
+		"name": "Heroic General",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"],
+	},
+	{
+		"name": "Impetus",
+		"uniques": ["[+25]% Strength <when attacking> <when above [99] HP>"]
+	},
+	{
+		"name": "Bloodbath",
+		"uniques": ["Heals [33] damage if it kills a unit"],
+	},
+	{
+		"name": "Warbanner",
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
+	},
+	{
+		"name": "Ignores ZOC",
+		"uniques": ["Ignores Zone of Control"],
+	},
 	
+	//Pyre Clan
+	{
+		"name": "Decaying Aura",
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
+	},
 	
 ]

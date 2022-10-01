@@ -19,4 +19,22 @@
 		"terrainsCanBeBuiltOn": ["Ocean", "Coast"],
 		"uniques": ["[+1 Culture] <with [1] to [6] neighboring [Water resource] tiles>"]
 	},
+	
+	//Argonautian States
+	{
+		"name": "Orion's Monument",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 2,
+		"faith": 2,
+		"gold": 2,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Basilikoi Paides",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 3,
+		"production": 3,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	
 ]

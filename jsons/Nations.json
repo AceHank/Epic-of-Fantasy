@@ -90,8 +90,8 @@
 		"innerColor": [146,221,9],
 		"uniqueName": "Endless Horde",
 		"uniqueText": "+20% Production when constructing Military Land units in all cities\n+15% Flank attack bonuses",
-		"uniques": ["[20]% Production when constructing [{Military} {Land}] units [in all cities]",
-					"[20]% to Flank Attack bonuses"], 
+		"uniques": ["[+20]% Production when constructing [{Military} {Land}] units [in all cities]",
+					"[+20]% to Flank Attack bonuses"], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
@@ -128,7 +128,7 @@
 			"Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
 		"civilopediaText": [
 			{"text":"Uldra is a defensive civilization. They have good Production output on Tundra tiles. Especially on Snow Hill tiles."},
-			{"text":"Frost Giant is a good defensive unit as your start bias is Tundra. Turtle up and pump whatever victory you want to achieve with the extra Production from Tundra tiles."},
+			{"text":"Frost Giant is a good defensive unit as Uldra's start bias is Tundra. Turtle up and pump whatever victory you want to achieve with the extra Production from Tundra tiles."},
         ]
 	},
 	
@@ -162,7 +162,7 @@
 			"Cherith","Tishtar","Nerrocen","Orta","Tertis"],
 		"civilopediaText": [
 			{"text":"Merfolk Council has strong Culture output if settled on Coastal tile."},
-			{"text":"Your Work Boats can construct Merfolk Council Unique Improvement which further boost its Culture output with added Production bonus."},
+			{"text":"Merfolk Council's Work Boats can construct Merfolk Council Unique Improvement which further boost its Culture output with added Production bonus."},
         ]
 	},
 	
@@ -188,12 +188,12 @@
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Roar of Victory",
-		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "[+1 Happiness] from every [Courthouse]"], 
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "[+2 Happiness] from every [Courthouse]"], 
 		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
 			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
 		"civilopediaText": [
 			{"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
-			{"text":"Your Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning your Wardrummer correctly is key."},
+			{"text":"Beastmen Empire Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning the Wardrummer correctly is key."},
         ]
 	},
 	
@@ -226,7 +226,7 @@
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
 		"civilopediaText": [
 			{"text":"Elven Kingdom is a good Cultural civilization when starting with plenty of Forest and good early game aggresion with Elven Ranger."},
-			{"text":"Your unique National Wonder provide Culture and Faith from each Trade Route, so build wide to maximize this effect."},
+			{"text":"Elven Kingdom unique National Wonder provide Culture and Faith from each Trade Route, so build wide to maximize this effect."},
         ]
 	},
 	
@@ -257,8 +257,8 @@
 		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
 			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
 		"civilopediaText": [
-			{"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
-			{"text":"Your Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning your Wardrummer correctly is key."},
+			{"text":"Children of Deep Dweller is a good early-game Military civilization."},
+			{"text":"Its unique unit Deep One is a stronger replacement to Warrior and has the abilities of +10% Strength when near water source."},
         ]
 	},
 	
@@ -291,8 +291,8 @@
 				   "Jaigerynth, the Skinny One","Dondrentarth, the Mysterious","Nudroilth, Eternal Fire",
 				   "Eovnayntein, the Quiet","Srialia, the Tyrant"],
 		"civilopediaText": [
-			{"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
-			{"text":"Your Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning your Wardrummer correctly is key."},
+			{"text":"Dragonborn Union is a good all-around civilization. They are particularly good at Diplomacy with their bonus on gifting units to City-states."},
+			{"text":"Dragonborn Union can be a good domination civilization as well in mid game with its strong unique units which can bypass impassable terrain."},
         ]
 	},
 	
@@ -322,15 +322,74 @@
 		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
 			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
 		"civilopediaText": [
-			{"text":"Vigilo Order is a strong scientific civilization in mid-game to late game. Potionist helps you to defend your territory."},
-			{"text":"Your Alchemical Society has unique specialist (Alchemist) which has double the GPP of normal Scientist. Assigning those Alchemist is crucial."},
+			{"text":"Vigilo Order is a strong scientific civilization in mid-game to late game. Potionist helps you defend its territory."},
+			{"text":"Its Alchemical Society has unique specialist (Alchemist) which has almost double the GPP of normal Scientist. Assigning those Alchemist is crucial."},
         ]
 	},
 	
 	//Menedaius of Argonautian States
+	{
+		"name": "Argonautian States",
+		"leaderName": "Menedaius",
+		"adjective": ["Argonauts"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [0,136,230],
+		"innerColor": [255,255,255],
+		"uniqueName": "Heroic Tales",
+		"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free Heroic General every era in capital",
+		"uniques": ["[Great General] is earned [-100]% faster"], 
+		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
+			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
+		"civilopediaText": [
+			{"text":"Argonautian States is a really strong domination civilization. Both of its Unique units has good promotion, so build a lot of them so the promotion sticks when you upgrade them."},
+			{"text":"Its Heroic General each has unique ability beside the +15% Strength Aura and constructing Citadel. Make sure to make use of that, or you can upgrade them if you want to keep them as Military units."},
+        ]
+	},
 	
-	
-	//xxx of Demonic Clan
-	
+	//Goroth of Pyre Clan
+	{
+		"name": "Pyre Clan",
+		"leaderName": "Goroth",
+		"adjective": ["Demons"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [220,20,60],
+		"innerColor": [0,0,0],
+		"uniqueName": "Crimson Sky",
+		"uniqueText": "+1 Happiness from every Military building\nStarts with Honor adopted",
+		"uniques": ["[+1 Happiness] from every [Barracks]", "[+1 Happiness] from every [Armory]", "[+1 Happiness] from every [Military Academy]", 
+					"Starts with [Honor] adopted"], 
+		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
+			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
+		"civilopediaText": [
+			{"text":"Pyre Clan is a strong domination civilization with good production bonus on city with its unique National Wonder."},
+			{"text":"Its unit are particularly strong at Golden Age with +1 to Movement and Sight after its unique National Wonder is created."},
+        ]
+	},
 	
 ]
