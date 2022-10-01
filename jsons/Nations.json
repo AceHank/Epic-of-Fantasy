@@ -349,7 +349,7 @@
 		"outerColor": [0,136,230],
 		"innerColor": [255,255,255],
 		"uniqueName": "Heroic Tales",
-		"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free Heroic General every era in capital",
+		"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free unique Heroic General every era in capital",
 		"uniques": ["[Great General] is earned [-100]% faster"], 
 		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
 			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],

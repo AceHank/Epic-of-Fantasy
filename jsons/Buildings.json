@@ -106,7 +106,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Alchemist": 3},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist Specialist slots (+5 Great Scientist Point from each)"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist Specialist slots (+4 Great Scientist Point from each)"],
 		"requiredTech": "Education"
 	},
 	
@@ -116,7 +116,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Classical era]>", "Only available <in cities with a [Palace]>",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Classical era]>", "Can only be built [in capital]",
 					"Free [Achilles] appears"]
 	},
 	{
@@ -124,7 +124,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Medieval era]>", "Only available <in cities with a [Palace]>",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Medieval era]>", "Can only be built [in capital]",
 					"Free [Orion] appears"]
 	},
 	{
@@ -132,7 +132,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Renaissance era]>", "Only available <in cities with a [Palace]>",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Renaissance era]>", "Can only be built [in capital]",
 					"Free [Agathinus] appears"]
 	},
 	{
@@ -140,7 +140,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Industrial era]>", "Only available <in cities with a [Palace]>",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Industrial era]>", "Can only be built [in capital]",
 					"Free [Daedalus] appears"]
 	},
 	{
@@ -148,7 +148,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Modern era]>", "Only available <in cities with a [Palace]>",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Modern era]>", "Can only be built [in capital]",
 					"Free [Theopompus] appears"]
 	},
 	{
@@ -156,7 +156,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Atomic era]>", "Only available <in cities with a [Palace]>",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Atomic era]>", "Can only be built [in capital]",
 					"Free [Castor] appears", "Free [Pollux] appears"]
 	},
 	{
@@ -164,7 +164,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Information era]>", "Only available <in cities with a [Palace]>",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Information era]>", "Can only be built [in capital]",
 					"Free [Isagoras] appears"]
 	},
 	
