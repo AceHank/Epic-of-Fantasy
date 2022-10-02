@@ -384,12 +384,13 @@
 		"uniqueText": "+1 Happiness from every Military building\nStarts with Honor adopted",
 		"uniques": ["[+1 Happiness] from every [Barracks]", "[+1 Happiness] from every [Armory]", "[+1 Happiness] from every [Military Academy]", 
 					"Starts with [Honor] adopted"], 
-		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
-			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
+		"cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
+			"Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith"],
 		"civilopediaText": [
 			{"text":"Pyre Clan is a strong domination civilization with good production bonus on city with its unique National Wonder."},
 			{"text":"Its unit are particularly strong at Golden Age with +1 to Movement and Sight after its unique National Wonder is created."},
         ]
 	},
 	
+	//Aellerin of High Elf Concordat
 ]
