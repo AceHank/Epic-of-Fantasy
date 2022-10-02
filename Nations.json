@@ -1,0 +1,396 @@
+[	
+	//Higba of Dwarven Kingdom
+	{
+		"name": "Dwarven Kingdom",
+		"leaderName": "Higba",
+		"adjective": ["Dwarven"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwargon surely will brings forth advances and breakthroughs.",
+		"startIntroPart2": "King Higba, your brilliant mind echoed throughout the lands. Will you stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You has transgessed our agenda, we won't let you have it your way!",
+		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
+		"defeated": "I'm sorry, I've failed my people.",
+		"introduction": "Greetings stranger, I am King Higba of Dwarven Kingdom. Leader of the Dwarven, conqueror of the mountains.",
+		
+		"neutralHello": "Greetings, your Highness.",
+		"hateHello": "What now?",
+		"tradeRequest": "I think it would be beneficial for both of us to conduct in a trade.",
+		
+		"outerColor": [ 27, 53, 63]
+		"innerColor": [213,249,255],
+		"uniqueName": "Higba's Ingenuity",
+		"uniqueText": "+1 Production from every 2 ages for cities settled on Hill\n+1 Science from every Strategic Resource",
+		"uniques": ["[+1 Science] from every [Strategic resource]", 
+					"Gain a free [Higba's Legacy] [in all cities] <in [Hill] tiles>"],
+		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
+			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
+		"civilopediaText": [
+			{"text":"Dwarven Kingdom has great Production and Science output."},
+			{"text":"You want to settles your cities on Hill, especially next to Mountain."},
+        ]
+	},
+	
+	//Fasthur of Drow Village
+	{
+		"name": "Drow Village",
+		"leaderName": "Fasthur",
+		"adjective": ["Drow"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [ 35, 35, 35],
+		"innerColor": [246,205,137],
+		"uniqueName": "Revenge of the Fallen",
+		"uniqueText": "+1 Food, +1 Production for Desert tiles adjacent to City Center\nMelee units gain the Vengeful promotion",
+		"uniques": ["[+1 Food, +1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
+					"[{Melee}] units gain the [Vengeful] promotion"], 
+		"cities": ["Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argach","Lashire","Chenlaena","Ordton","Xaryna","Kurx",
+			"Alerough","Yauntyrr","Shurdriira","Zauiryn","Goyln"],
+		"civilopediaText": [
+			{"text":"Drow Village can turn Desert tiles into essentially Plains tiles around its City Center. They are good at military."},
+			{"text":"Settle near Desert Hill and/or Oasis to maximize Drow Village's National Ability."},
+        ]
+	},
+	
+	//Rog of Orc Horde
+	{
+		"name": "Orc Horde",
+		"leaderName": "Rog",
+		"adjective": ["Orc"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [ 41,83,42],
+		"innerColor": [146,221,9],
+		"uniqueName": "Endless Horde",
+		"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
+		"uniques": ["[+20]% Production when constructing [{Military} {Land}] units [in all cities]",
+					"[+20]% to Flank Attack bonuses"], 
+		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
+			"Nargol","Yotul","Homraz","Gonk","Mor"],
+		"civilopediaText": [
+			{"text":"Orc Horde can spit untold amount of units thanks to their NA. They are good at military."},
+			{"text":"Prioritize moving melee units into range before attacking for the extra Flank Attack bonuses."},
+        ]
+	},
+	
+	//Undwyck of Uldra
+	{
+		"name": "Uldra",
+		"leaderName": "Undwyck",
+		"adjective": ["Uldra"],
+		"startBias": ["Tundra"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [215,225,225],
+		"innerColor": [  0,  0,  0],
+		"uniqueName": "Chilling Touch",
+		"uniqueText": "+1 Food, +1 Production, +1 Faith, +1 Culture, and +1 Science from every Snow tiles\n+1 Population from cities settled on Tundra or Snow",
+		"uniques": ["[+1 Food, +1 Production, +1 Faith, +1 Culture, +1 Science] from every [Snow]"], 
+		"cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nabû-Shar",
+			"Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
+		"civilopediaText": [
+			{"text":"Uldra is a defensive civilization. They have good Production output on Tundra tiles. Especially on Snow Hill tiles."},
+			{"text":"Frost Giant is a good defensive unit as Uldra's start bias is Tundra. Turtle up and pump whatever victory you want to achieve with the extra Production from Tundra tiles."},
+        ]
+	},
+	
+	//Remia of Merfolk Council
+	{
+		"name": "Merfolk Council",
+		"leaderName": "Remia",
+		"adjective": ["Merfolk"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [78,244,234],
+		"innerColor": [85, 74, 32],
+		"uniqueName": "Song of the Seas",
+		"uniqueText": "+3 Culture for cities settled on Coastal tiles after discovering Drama and Poetry\n+1 Faith from every Atoll",
+		"uniques": ["Gain a free [CoastCulture] [in all cities] <in [Coastal] tiles>", "[+1 Faith] from every [Atoll]",
+					"[Work Boats] units gain the [Floating City Builder] promotion"], 
+		"cities": ["Rimulus","Cyreus","Aenon","Seirus","Cari","Muriel","Laguna","Osharus","Nadah","Adriene","Raina","Ara",
+			"Cherith","Tishtar","Nerrocen","Orta","Tertis"],
+		"civilopediaText": [
+			{"text":"Merfolk Council has strong Culture output if settled on Coastal tile."},
+			{"text":"Merfolk Council's Work Boats can construct Merfolk Council Unique Improvement which further boost its Culture output with added Production bonus."},
+        ]
+	},
+	
+	//Rozagh of Beastmen Empire
+	{
+		"name": "Beastmen Empire",
+		"leaderName": "Rozagh",
+		"adjective": ["Beastmen"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [ 55, 25,  8],
+		"innerColor": [156,197,237],
+		"uniqueName": "Roar of Victory",
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "[+2 Happiness] from every [Courthouse]"], 
+		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
+			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
+		"civilopediaText": [
+			{"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
+			{"text":"Beastmen Empire Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning the Wardrummer correctly is key."},
+        ]
+	},
+	
+	//Sylvanna of Elven Kingdom
+	{
+		"name": "Elven Kingdom",
+		"leaderName": "Sylvanna",
+		"adjective": ["Elven"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [255,255,78],
+		"innerColor": [ 70,  0, 4],
+		"uniqueName": "One with Nature",
+		"uniqueText": "+1 Culture from every Forest tiles adjacent to Jungle tile\n+1 Faith from every Jungle tiles adjacent to Forest tile",
+		"uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>"], 
+		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
+			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
+		"civilopediaText": [
+			{"text":"Elven Kingdom is a good Cultural civilization when starting with plenty of Forest and good early game aggresion with Elven Ranger."},
+			{"text":"Elven Kingdom unique National Wonder provide Culture and Faith from each Trade Route, so build wide to maximize this effect."},
+        ]
+	},
+	
+	//Orz'athoth of Children of Deep Dweller
+	{
+		"name": "Children of Deep Dweller",
+		"leaderName": "Orz'athoth",
+		"adjective": ["Cultist"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [0, 43, 11],
+		"innerColor": [0,242,189],
+		"uniqueName": "Sunken Moon Salvation",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]"], 
+		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
+			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
+		"civilopediaText": [
+			{"text":"Children of Deep Dweller is a good early-game Military civilization."},
+			{"text":"Its unique unit Deep One is a stronger replacement to Warrior and has the abilities of +10% Strength when near water source."},
+        ]
+	},
+	
+	//Baradul of Dragonborn Union
+	{
+		"name": "Dragonborn Union",
+		"leaderName": "Baradul",
+		"adjective": ["Dragonborn"],
+		"startBias": ["Mountain"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [242,101,0],
+		"innerColor": [89, 255,0],
+		"uniqueName": "Draconic Wisdom",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "Gain [15] Influence with a [Military] gift to a City-State"], 
+		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One","Itlognig",
+				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
+				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
+				   "Jaigerynth, the Skinny One","Dondrentarth, the Mysterious","Nudroilth, Eternal Fire",
+				   "Eovnayntein, the Quiet","Srialia, the Tyrant"],
+		"civilopediaText": [
+			{"text":"Dragonborn Union is a good all-around civilization. They are particularly good at Diplomacy with their bonus on gifting units to City-states."},
+			{"text":"Dragonborn Union can be a good domination civilization as well in mid game with its strong unique units which can bypass impassable terrain."},
+        ]
+	},
+	
+	//Lavrence of Vigilo Order
+	{
+		"name": "Vigilo Order",
+		"leaderName": "Lavrence",
+		"adjective": ["Order"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [237,197,82],
+		"innerColor": [186, 60, 3],
+		"uniqueName": "Lavrence's Opus",
+		"uniques": ["Receive free [Great Engineer] when you discover [Chemistry]", "[+50 Gold, +25 Science] whenever a Great Person is expended"], 
+		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
+			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
+		"civilopediaText": [
+			{"text":"Vigilo Order is a strong scientific civilization in mid-game to late game. Potionist helps you defend its territory."},
+			{"text":"Its Alchemical Society has unique specialist (Alchemist) which has almost double the GPP of normal Scientist. Assigning those Alchemist is crucial."},
+        ]
+	},
+	
+	//Menedaius of Argonautian States
+	{
+		"name": "Argonautian States",
+		"leaderName": "Menedaius",
+		"adjective": ["Argonauts"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [0,136,230],
+		"innerColor": [255,255,255],
+		"uniqueName": "Heroic Tales",
+		"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free unique Heroic General every era in capital",
+		"uniques": ["[Great General] is earned [-100]% faster"], 
+		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
+			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
+		"civilopediaText": [
+			{"text":"Argonautian States is a really strong domination civilization. Both of its Unique units has good promotion, so build a lot of them so the promotion sticks when you upgrade them."},
+			{"text":"Its Heroic General each has unique ability beside the +15% Strength Aura and constructing Citadel. Make sure to make use of that, or you can upgrade them if you want to keep them as Military units."},
+        ]
+	},
+	
+	//Goroth of Pyre Clan
+	{
+		"name": "Pyre Clan",
+		"leaderName": "Goroth",
+		"adjective": ["Demons"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [220,20,60],
+		"innerColor": [0,0,0],
+		"uniqueName": "Crimson Sky",
+		"uniqueText": "+1 Happiness from every Military building\nStarts with Honor adopted",
+		"uniques": ["[+1 Happiness] from every [Barracks]", "[+1 Happiness] from every [Armory]", "[+1 Happiness] from every [Military Academy]", 
+					"Starts with [Honor] adopted"], 
+		"cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
+			"Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith"],
+		"civilopediaText": [
+			{"text":"Pyre Clan is a strong domination civilization with good production bonus on city with its unique National Wonder."},
+			{"text":"Its unit are particularly strong at Golden Age with +1 to Movement and Sight after its unique National Wonder is created."},
+        ]
+	},
+	
+	//Aellerin of High Elf Concordat
+]
