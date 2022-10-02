@@ -17,7 +17,7 @@
 		"production": 1,
 		"techRequired": "Optics",
 		"terrainsCanBeBuiltOn": ["Ocean", "Coast"],
-		"uniques": ["[+1 Culture] <with [1] to [6] neighboring [Water resource] tiles>"]
+		"uniques": ["[+2 Culture] <with [1] to [6] neighboring [Water resource] tiles>"]
 	},
 	
 	//Argonautian States
