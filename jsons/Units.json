@@ -360,4 +360,21 @@
 		"attackSound": "metalhit"
 	},
 	
+	//Necrontia
+	{
+		"name": "Lich",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Necrontia",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 19,
+		"range": 2,
+		"cost": 120,
+		"requiredTech": "Theology",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": ["Research Theology vs Machinery"],
+		"attackSound": "arrow"
+	},
 ]

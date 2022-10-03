@@ -75,4 +75,10 @@
 		"name": "Zealotry",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 	},
+	
+	//Necrontia
+	{
+		"name": "Sacrifice",
+		"uniques": ["Gain [15] [Culture] <by consuming this unit>"],
+	},
 ]

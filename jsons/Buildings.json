@@ -1,5 +1,7 @@
 [
 	//Dwarven Kingdom
+	
+	/* No need anymore
 	{
 		"name": "Higba's Legacy",
 		"uniqueTo": "Dwarven Kingdom",
@@ -12,7 +14,7 @@
 					"[+1 Production] [in this city] <starting from the [Modern era]>",
 					"[+1 Production] [in this city] <starting from the [Information era]>"]
 	},
-	
+	No need anymore */ 
 	{
 		"name": "Tinkerer's Depot",
 		"uniqueTo": "Dwarven Kingdom",
@@ -51,7 +53,7 @@
 		"uniqueTo": "Uldra",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia",
+		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia", 
 					"[+1] population [in this city]"]
 	},
 	{
@@ -63,6 +65,7 @@
 					"[+1] population [in this city]"]
 	},
 	
+	/* No need anymore
 	//Merfolk Council
 	{
 		"name": "CoastCulture",
@@ -71,6 +74,7 @@
 		"cost": 1,
 		"uniques": ["Unsellable", "Must be on [Coastal]", "Will not be displayed in Civilopedia", "[+3 Culture] [in this city] <after discovering [Drama and Poetry]>"]
 	},
+	No need anymore */
 	
 	//Elven Kingdom
 	{
@@ -275,4 +279,38 @@
 			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Order Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
+	
+	//Necrontia
+	{
+		"name": "Necrontia Courthouse",
+		"replaces": "Courthouse",
+		"uniqueTo": "Necrontia",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities", "Unsellable", "Never destroyed when the city is captured",
+					"Can only be built [in annexed cities]", "Will not be displayed in Civilopedia",
+					"Free [Warrior] appears <before discovering [Iron Working]>", 
+					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]>",
+					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]>",
+					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]>",
+					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
+					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
+					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
+					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]>",
+					],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Throne of the Dead",
+		"replaces": "National Epic",
+		"uniqueTo": "Necrontia",
+		"cost": 125,
+		"culture": 1,
+		"faith": 4,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city",
+					"[Civilian] units gain the [Sacrifice] promotion"],
+		"requiredTech": "Drama and Poetry"
+	},
+	
 ]
