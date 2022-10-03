@@ -13,7 +13,6 @@
 	{
 		"name": "Floating City",
 		"uniqueTo": "Merfolk Council",
-		"turnsToBuild": 6,
 		"production": 1,
 		"techRequired": "Optics",
 		"terrainsCanBeBuiltOn": ["Ocean", "Coast"],

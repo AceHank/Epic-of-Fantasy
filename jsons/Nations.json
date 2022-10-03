@@ -220,8 +220,9 @@
 		"outerColor": [255,255,78],
 		"innerColor": [ 70,  0, 4],
 		"uniqueName": "One with Nature",
-		"uniqueText": "+1 Culture from every Forest tiles adjacent to Jungle tile\n+1 Faith from every Jungle tiles adjacent to Forest tile",
-		"uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>"], 
+		"uniqueText": "Starts with Archery\n+1 Culture from every Forest tiles adjacent to Jungle tile\n+1 Faith from every Jungle tiles adjacent to Forest tile",
+		"uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>",
+					"Starts with [Archery]"], 
 		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
 		"civilopediaText": [
@@ -393,4 +394,33 @@
 	},
 	
 	//Aellerin of High Elf Concordat
+	{
+		"name": "High Elf Concordat",
+		"leaderName": "Aellerin",
+		"adjective": ["High Elven"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [140,190,214],
+		"innerColor": [90, 60, 80],
+		"uniqueName": "Artisan of the Arcane",
+		"uniqueText": "Gain a free Pantheon belief after completing a Policy Tree\n+3 Culture, +1 Production in cities with at least 7 population",
+		"uniques": ["[+3 Culture, +1 Production] <in cities with at least [7] [Population]>"], 
+		"cities": ["Aethlone","Kna Serine","Yal Taesi","Allna Aethel","Lylvatheas","Ulvenoris","E’ma Thalore","Aana Edhil","Eya Taesi","Omyveluna","Uym Allanar","Yllenhona",
+			"Ulyfalean","Nilanbel","Ollf Belanore","Narenshara","Ryne Asari"],
+		"civilopediaText": [
+			{"text":"High Elf Concordat is a flexible civilization. They have good balance between Science, Culture, and Faith output."},
+			{"text":"High Elf Concordat's cities have a powerspike after reaching 5 population. So make sure to prioritize Food before everything else."},
+        ]
+	},
 ]

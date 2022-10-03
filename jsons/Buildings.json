@@ -181,4 +181,98 @@
 		"requiredTech": "Iron Working"
 	},
 	
+	//High Elf Concordat
+	{
+		"name": "Arcane Spire",
+		"replaces": "Temple",
+		"uniqueTo": "High Elf Concordat",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+1 Science] per [7] population [in this city]"]
+	},
+		
+		//Free Pantheon
+		{
+			"name": "FreePantheon Tradition",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Tradition Complete]>",
+					"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Liberty",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Liberty Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Honor",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Honor Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Piety",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Piety Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Patronage",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Patronage Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Commerce",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Commerce Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Rationalism",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Rationalism Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Freedom",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Freedom Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Autocracy",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Autocracy Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
+		{
+			"name": "FreePantheon Order",
+			"uniqueTo": "High Elf Concordat",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Order Complete]>",
+						"Gain a free [Pantheon] belief"]
+		},
 ]

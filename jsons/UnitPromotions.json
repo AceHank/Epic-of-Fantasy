@@ -41,7 +41,7 @@
 	//Argonautian States
 	{
 		"name": "Agoge",
-		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>", "Earn [50]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>", "Earn [33]% of killed [Military] unit's [Strength] as [Culture]"],
 	},
 	{
 		"name": "Heroic General",
@@ -70,4 +70,9 @@
 		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
 	},
 	
+	//High Elf Concordat
+	{
+		"name": "Zealotry",
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+	},
 ]
