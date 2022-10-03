@@ -420,7 +420,7 @@
 			"Ulyfalean","Nilanbel","Ollf Belanore","Narenshara","Ryne Asari"],
 		"civilopediaText": [
 			{"text":"High Elf Concordat is a flexible civilization. They have good balance between Science, Culture, and Faith output."},
-			{"text":"High Elf Concordat's cities have a powerspike after reaching 5 population. So make sure to prioritize Food before everything else."},
+			{"text":"High Elf Concordat's cities have a powerspike after reaching 7 population. Prioritizing a city's growth is important."},
         ]
 	},
 ]
