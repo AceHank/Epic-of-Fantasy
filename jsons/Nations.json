@@ -357,6 +357,7 @@
 		"civilopediaText": [
 			{"text":"Argonautian States is a really strong domination civilization. Both of its Unique units has good promotion, so build a lot of them so the promotion sticks when you upgrade them."},
 			{"text":"Its Heroic General each has unique ability beside the +15% Strength Aura and constructing Citadel. Make sure to make use of that, or you can upgrade them if you want to keep them as Military units."},
+			{"text":"Purchase the Recall Heroes building as soon as you enter a new era."},
         ]
 	},
 	
@@ -421,6 +422,7 @@
 		"civilopediaText": [
 			{"text":"High Elf Concordat is a flexible civilization. They have good balance between Science, Culture, and Faith output."},
 			{"text":"High Elf Concordat's cities have a powerspike after reaching 7 population. Prioritizing a city's growth is important."},
+			{"text":"Purchase the free Pantheon building as soon as you finish a Policy Tree."},
         ]
 	},
 ]
