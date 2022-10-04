@@ -5,6 +5,5 @@
 
 #Icons
 
-    Unciv basegame
     TheNounProject
     FlatIcon
