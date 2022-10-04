@@ -4,3 +4,6 @@
     amfauzn - Co-author: Codes, lores, ideas, icons
 
 #Icons
+    TheNounProject
+    FlatIcon
+    
