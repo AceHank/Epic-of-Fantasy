@@ -330,6 +330,7 @@
 		"uniqueTo": "Sacred Sun Theocracy",
 		"maintenance": 0,
 		"faith": 2,
+		"happiness": 2,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities", "Can be built on your own cities"],
 		"requiredTech": "Mathematics"
