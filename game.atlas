@@ -2328,6 +2328,13 @@ UnitPromotionIcons/Ignores ZOC
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Snowman
+  rotate: false
+  xy: 264, 50
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Impetus
   rotate: false
   xy: 322, 50
