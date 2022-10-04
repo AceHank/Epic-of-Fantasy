@@ -5,5 +5,6 @@
 
 #Icons
 
+    Unciv
     TheNounProject
     FlatIcon
