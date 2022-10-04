@@ -81,4 +81,10 @@
 		"name": "Sacrifice",
 		"uniques": ["Gain [15] [Culture] <by consuming this unit>"],
 	},
+	
+	//Sacred Sun Theocracy
+	{
+		"name": "Protector of Realm",
+		"uniques": ["[+15]% <when fighting in [Friendly Land] tiles>"],
+	},
 ]

@@ -251,7 +251,7 @@
 			"range": 2,
 			"upgradesTo": "Gatling Gun",
 			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can construct [Citadel]",
-						"Gain [100] [Culture] <by consuming this unit>", "Can construct [Orion's Monument]", "Can move after attacking"],
+						"Gain [75] [Culture] <by consuming this unit>", "Can construct [Orion's Monument]", "Can move after attacking"],
 			"promotions": ["Agoge", "Heroic General",
 					   "Accuracy I", "Barrage I"],
 			"attackSound": "arrow"
@@ -376,5 +376,24 @@
 		"obsoleteTech": "Industrialization",
 		"uniques": ["Research Theology vs Machinery"],
 		"attackSound": "arrow"
+	},
+	
+	//Sacred Sun Theocracy
+	
+	{
+		"name": "Devotee",
+		"replaces": "Swordsman",
+		"uniqueTo": "Sacred Sun Theocracy",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Protector of Realm"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 ]

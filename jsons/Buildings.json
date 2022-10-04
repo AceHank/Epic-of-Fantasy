@@ -120,7 +120,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Classical era]>", "Can only be built [in capital]",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Classical era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
 					"Free [Achilles] appears"]
 	},
 	{
@@ -128,7 +128,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Medieval era]>", "Can only be built [in capital]",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Medieval era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
 					"Free [Orion] appears"]
 	},
 	{
@@ -136,7 +136,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Renaissance era]>", "Can only be built [in capital]",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Renaissance era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
 					"Free [Agathinus] appears"]
 	},
 	{
@@ -144,7 +144,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Industrial era]>", "Can only be built [in capital]",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Industrial era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
 					"Free [Daedalus] appears"]
 	},
 	{
@@ -152,7 +152,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Modern era]>", "Can only be built [in capital]",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Modern era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
 					"Free [Theopompus] appears"]
 	},
 	{
@@ -160,7 +160,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Atomic era]>", "Can only be built [in capital]",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Atomic era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
 					"Free [Castor] appears", "Free [Pollux] appears"]
 	},
 	{
@@ -168,7 +168,7 @@
 		"uniqueTo": "Argonautian States",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Information era]>", "Can only be built [in capital]",
+		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Information era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
 					"Free [Isagoras] appears"]
 	},
 	
@@ -204,15 +204,17 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Tradition Complete]>",
-					"Gain a free [Pantheon] belief"]
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Tradition Complete]>", 
+						"Gain a free [Pantheon] belief"]
 		},
 		{
 			"name": "FreePantheon Liberty",
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Liberty Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Liberty Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 		{
@@ -220,7 +222,8 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Honor Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Honor Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 		{
@@ -228,7 +231,8 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Piety Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Piety Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 		{
@@ -236,7 +240,8 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Patronage Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Patronage Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 		{
@@ -244,7 +249,8 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Commerce Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Commerce Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 		{
@@ -252,7 +258,8 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Rationalism Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Rationalism Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 		{
@@ -260,7 +267,8 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Freedom Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Freedom Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 		{
@@ -268,7 +276,8 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Autocracy Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Autocracy Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 		{
@@ -276,7 +285,8 @@
 			"uniqueTo": "High Elf Concordat",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <after adopting [Order Complete]>",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+						"Only available <after adopting [Order Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
 	
@@ -313,4 +323,15 @@
 		"requiredTech": "Drama and Poetry"
 	},
 	
+	//Sacred Sun Theocracy
+	{
+		"name": "Holy Tribunal",
+		"replaces": "Courthouse",
+		"uniqueTo": "Sacred Sun Theocracy",
+		"maintenance": 0,
+		"faith": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities", "Can be built on your own cities"],
+		"requiredTech": "Mathematics"
+	},
 ]
