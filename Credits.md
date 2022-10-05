@@ -6,5 +6,6 @@
 #Icons
 
     Unciv
+    Fantasia
     TheNounProject
     FlatIcon
