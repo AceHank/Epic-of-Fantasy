@@ -1,6 +1,6 @@
 #Development
 
-    AceHank - Author: Codes, lores, ideas
+    AceHank - Author: Codes, lores, ideas, icons
     amfauzn - Co-author: Codes, lores, ideas, icons
 
 #Icons
