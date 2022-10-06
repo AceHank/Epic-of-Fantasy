@@ -48,7 +48,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["[-15]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles"],
+		"uniques": ["[-15]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -379,7 +379,6 @@
 	},
 	
 	//Sacred Sun Theocracy
-	
 	{
 		"name": "Devotee",
 		"replaces": "Swordsman",
@@ -396,4 +395,46 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
+	
+	//Nature's Keeper
+	{
+		"name": "Treant Worker",
+		"uniqueTo": "Nature's Keeper",
+		"replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"promotions": ["Woodsman"],
+		"cost": 50
+	},
+	
+	//Clockwerk Church
+	{
+		"name": "Mechanite",
+		"uniqueTo": "Clockwerk Church",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 170,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Cover I", "Survivalism I"],
+		"attackSound": "shot"
+	},	
+	{
+		"name": "Cyborg Priest",
+		"uniqueTo": "Clockwerk Church",
+		"replaces": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Clockwerk Temple] <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	
 ]

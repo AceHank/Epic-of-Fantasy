@@ -16,7 +16,7 @@
 	},	
 	{
 		"name": "Vengeful",
-		"uniques": ["[+50]% Strength <when below [26] HP>"]
+		"uniques": ["[+15]% Strength <when below [100] HP>"]
 	},	
 	
 	//Uldra

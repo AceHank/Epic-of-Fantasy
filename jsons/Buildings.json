@@ -53,7 +53,7 @@
 		"uniqueTo": "Uldra",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia", 
+		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia",
 					"[+1] population [in this city]"]
 	},
 	{
@@ -334,5 +334,46 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities", "Can be built on your own cities"],
 		"requiredTech": "Mathematics"
+	},
+	
+	//Nature's Keeper
+	{
+		"name": "Mother Tree",
+		"uniqueTo": "Nature's Keeper",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"production": 4,
+		"science": 4,
+		"gold": 4,
+		"culture": 2,
+		"cityStrength": 2,
+		"cost": 1,
+		"percentStatBonus": {"science": 15, "faith": 15, "culture": 15,},
+		"uniques": ["Indicates the capital city", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Dryad's Hut",
+		"uniqueTo": "Nature's Keeper",
+		"replaces": "Garden",
+		"specialistSlots": {"Artist": 2},
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Forest]", "+2 Artist slots"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	
+	//Clockwerk Church
+	{
+		"name": "Church of Gears",
+		"replaces": "Temple",
+		"uniqueTo": "Clockwerk Church",
+		"faith": 2,
+		"production": 2,
+		"percentStatBonus": {"faith": 15},
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "+15% Faith in this city"]
 	},
 ]

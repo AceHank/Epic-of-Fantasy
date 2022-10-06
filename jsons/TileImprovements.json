@@ -5,8 +5,9 @@
 		"uniqueTo": "Orc Horde",
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
+		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%", "[+2 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>"]
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%", "[+2 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>", "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>"]
 	},
 	
 	//Merfolk Council
@@ -34,6 +35,16 @@
 		"science": 3,
 		"production": 3,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	
+	//Clockwerk Church
+	{
+		"name": "Clockwerk Temple",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 4,
+		"science": 2,
+		"production": 2,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold, +20 Science]"]
 	},
 	
 ]

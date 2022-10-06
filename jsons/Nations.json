@@ -191,7 +191,7 @@
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Roar of Victory",
-		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "[+2 Happiness] from every [Courthouse]"], 
+		"uniques": ["Upon capturing a city, receive [2] times its [Production] production as [Culture] immediately", "[+2 Happiness] from every [Courthouse]"], 
 		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
 			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
 		"civilopediaText": [
@@ -451,8 +451,8 @@
 		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
 		"uniqueName": "Necropoleis",
-		"uniqueText": "Receive free Settler in capital after discovering Calendar\nA free strongest available Sword-type or Gunpowder-type unit appears after you build Courthouse",
-		"uniques": ["Receive free [Settler] when you discover [Calendar]"], 
+		"uniqueText": "A free strongest available Sword-type or Gunpowder-type unit appears after you build Courthouse",
+	//	"uniques": ["Receive free [Settler] when you discover [Calendar]"], 
 		"cities": ["Necroheim","Fallenmere","Blightthorn","Shadowmoor","Amberburgh","Illmere","Deathfall","Bleakford","Nighthorne","Reaperton","Dreadmore","Grimmington",
 			"Woebrook","Weepingborough","Saurridge","Baneville","Netherbrooke"],
 		"civilopediaText": [
@@ -488,6 +488,72 @@
 		"civilopediaText": [
 			{"text":"Sacred Sun Theocracy is a defensive civilization that has good early game Faith output."},
 			{"text":"Its unique unit further enhance Theocracy's defensive capabilies."},
+        ]
+	},
+	
+	//Oakenfir of Nature's Keeper
+	{
+		"name": "Nature's Keeper",
+		"leaderName": "Oakenfir",
+		"adjective": ["Keepers"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [146,221,9],
+		"innerColor": [  0,  0,9],
+		"uniqueName": "Mother Tree Takes Root",
+		"uniqueText": "Replaces Palace with Mother Tree\n+15% Culture in all cities connected with Capital",
+		"uniques": ["[+15]% [Culture] [in all cities connected to capital]"], 
+		"cities": ["Trillis","Haldine","Laurelena","Cinnamae","Viticella","Moraea","Fragaria","Elinoire","Aquilegia","Eucolonia","Daisis","Samisia",
+			"Nerine","Azolla","Apricis","Hemponia","Lilise"],
+		"civilopediaText": [
+			{"text":"Nature's Keeper is a good cultural civilization. They are the easiest civ at one-city challenge as well."},
+			{"text":"Dryad's Hut can only be built adjacent to a Forest and has two Artist slot, don't forget that. Treant Worker is good early game economic boost."},
+        ]
+	},
+	
+	//David of Clockwerk Church
+	
+	{
+		"name": "Clockwerk Church",
+		"leaderName": "David",
+		"adjective": ["Devouts"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [139,69,19],
+		"innerColor": [128,0,0],
+		"uniqueName": "Broken God",
+		"uniqueText": "Gain access to Cyborg Priest instead of Great Prophet that can construct Clockwerk Temple instead of Holy Site\n-15% Faith cost of generating Cyborg Priest",
+		"uniques": ["[-15]% Faith cost of generating Great Prophet equivalents"], 
+		"cities": ["Anachron","Trillium","Aerodrift","Cooperwall","Automaguard","Steampoint","Neddingfall","Chronoedge","Pitchpoint","Cantmourne","Blackwatch","Glockthain",
+			"Coverdrift","Steelhollow","Ironburg","Cinderguard","Blagfort"],
+		"civilopediaText": [
+			{"text":"Clockwerk Church is a good Faith generating civilization with great flexibility thanks to its unique improvement."},
+			{"text":"Church of Gears has a percentage bonus to Faith output, making it valuable in high Faith cities. Be careful not to let enemies pillage Clockwerk Temple as they provide more to the pillager."},
         ]
 	},
 ]
