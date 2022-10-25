@@ -23,7 +23,7 @@
 		"innerColor": [213,249,255],
 		"uniqueName": "Higba's Ingenuity",
 		"uniqueText": "+1 Production every 2 eras for cities settled on Hill\n+1 Science from every Strategic Resource",
-		"uniques": ["[+1 Science] from every [Strategic resource]", 
+		"uniques": ["[+1 Science] from every [Strategic resource]",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]>",
@@ -525,7 +525,6 @@
 	},
 	
 	//David of Clockwerk Church
-	
 	{
 		"name": "Clockwerk Church",
 		"leaderName": "David",
@@ -556,4 +555,86 @@
 			{"text":"Church of Gears has a percentage bonus to Faith output, making it valuable in high Faith cities. Be careful not to let enemies pillage Clockwerk Temple as they provide more to the pillager."},
         ]
 	},
+	
+	//Lord Kemm of Inquisitorial Illuminate
+	
+	{
+		"name": "Inquisitorial Illuminate",
+		"leaderName": "Lord Kemm",
+		"adjective": ["Templars"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,0],
+		"uniqueName": "Heresy Watch",
+		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[+34]% Natural religion spread [in all cities]", "[+34]% Spread Religion Strength"], 
+		"cities": ["Serenity","Sanctum","Endurance","Forsaken","Aepligura","Knowledge","Exalted","Estuary","Erukami","Avretalis","Garden","Nutrahara",
+			"Pious","Radiant","Reliquary","Cardinal","Solstice"],
+		"civilopediaText": [
+			{"text":"Inquisitorial Illuminate is a strong religion civilization. With strong religion, they can be flexible at what victory they want to achieve."},
+			{"text":"Inquisitorial Illuminate can purchase Military units with both Gold and Faith, that makes them strong at domination as well."},
+        ]
+	},
+	
+	//Korvash of Lizardmen Tribes
+	{
+		"name": "Lizardmen Tribes",
+		"leaderName": "Korvash",
+		"adjective": ["Lizardmen"],
+		"startBias": ["Fresh Water"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [130,116,116],
+		"innerColor": [48,156,54],
+		"uniqueName": "Survival Instinct",
+		"uniqueText": "+50% Yield from every Land Improvement in Fresh Water tiles\n+15% Strength for Wounded units when defending"
+		"uniques": ["[+50]% Yield from every [Farm] <in [Fresh Water] tiles>", "[+15]% Strength <for [Wounded] units> <when defending>",
+					"[+50]% Yield from every [Trading post] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Plantation] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Mine] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Lumber Mill] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Camp] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Oil well] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Pasture] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Quarry] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Moai] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Polder] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Terrace farm] <in [Fresh Water] tiles>",], 
+		"cities": ["Chauitzetl","Bhizzujix","Bhitta","Qraxl","Igriuchit","Chuttox","Quzdo","Ukeqax","Guxizo","Avretalis","Grinjoxxut","Sess",
+			"Ajiagzex","Zaetlis","Azus","Olzaro","Rhigris"],
+		"civilopediaText": [
+			{"text":"Lizardmen Tribe has a good defensive capability with its National Ability and good economic bonus for Fresh Water tiles."},
+			{"text":"They are relentless at defending and its Unique Unit has good movement bonus on Fresh Water tiles."},
+        ]
+	},
+	
+	//Bloodhoof of Centaur Tribes
+	
+	
+	//Takashi no Seimei of Shinso
+	
 ]

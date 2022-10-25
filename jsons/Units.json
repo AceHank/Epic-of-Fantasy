@@ -59,7 +59,7 @@
 		"uniqueTo": "Uldra",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 13,
+		"strength": 14,
 		"cost": 56,
 		"requiredTech": "Trapping",
 		"upgradesTo": "Longswordsman",
@@ -437,4 +437,40 @@
 		"religiousStrength": 1000
 	},
 	
+	//Inquisitorial Illuminate
+	{
+		"name": "Templar",
+		"replaces": "Swordsman",
+		"uniqueTo": "Inquisitorial Illuminate",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": ["Can [Remove Foreign religions from your own cities] [2] times",],
+		"promotions": ["Divine Watch"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	//Lizardmen Tribes
+	
+	{
+		"name": "Katak",
+		"uniqueTo": "Lizardmen Tribes",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Amphibious", "Amphibious II"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
 ]

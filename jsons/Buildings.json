@@ -61,7 +61,7 @@
 		"uniqueTo": "Uldra",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia",
+		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia", 
 					"[+1] population [in this city]"]
 	},
 	
@@ -346,6 +346,7 @@
 		"science": 4,
 		"gold": 4,
 		"culture": 2,
+		"faith": 1,
 		"cityStrength": 2,
 		"cost": 1,
 		"percentStatBonus": {"science": 15, "faith": 15, "culture": 15,},
@@ -376,4 +377,31 @@
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "+15% Faith in this city"]
 	},
+	
+	//Inquisitorial Illuminate
+	{
+		"name": "Covenant Temple",
+		"replaces": "Temple",
+		"uniqueTo": "Inquisitorial Illuminate",
+		"faith": 4,
+		"requiredBuilding": "Shrine",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+	
+	//Lizardmen Tribes
+	{
+		"name": "Fish Farm",
+		"uniqueTo": "Lizardmen Tribes",
+		"replaces": "Water Mill",
+		"maintenance": 2,
+		"food": 3,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Fresh Water]", "[+2 Culture] <after discovering [Civil Service]>"],
+		"requiredTech": "The Wheel"
+	},
+	
 ]

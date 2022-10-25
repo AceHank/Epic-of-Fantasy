@@ -85,6 +85,18 @@
 	//Sacred Sun Theocracy
 	{
 		"name": "Protector of Realm",
-		"uniques": ["[+15]% <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
+	},
+	
+	//Inquisitorial Illuminate
+	{
+		"name": "Divine Watch",
+		"uniques": ["Prevents spreading of religion to the city it is next to"],
+	},
+	
+	//Lizardmen Tribes
+	{
+		"name": "Amphibious II",
+		"uniques": ["Double movement in [Fresh Water]"],
 	},
 ]
