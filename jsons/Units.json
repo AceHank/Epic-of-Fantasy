@@ -367,14 +367,14 @@
 		"replaces": "Crossbowman",
 		"uniqueTo": "Necrontia",
 		"movement": 2,
-		"strength": 13,
+		"strength": 10,
 		"rangedStrength": 19,
 		"range": 2,
 		"cost": 120,
 		"requiredTech": "Theology",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Research Theology vs Machinery"],
+		"uniques": ["Research Theology vs Machinery","May capture killed [Military] units <with [20]% chance>"],
 		"attackSound": "arrow"
 	},
 	
@@ -457,7 +457,6 @@
 	},
 	
 	//Lizardmen Tribes
-	
 	{
 		"name": "Katak",
 		"uniqueTo": "Lizardmen Tribes",
@@ -472,5 +471,55 @@
 		"promotions": ["Amphibious", "Amphibious II"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+	},
+	
+	//Centaur Tribes
+	{
+		"name": "Centaur Warchief",
+		"uniqueTo": "Centaur Tribes",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Charge"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	
+	//Shinso
+	{
+		"name": "Onmyouji",
+		"uniqueTo": "Shinso",
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Tsukaima",
+		"uniqueTo": "Shinso",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"promotions": ["Mobility I"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
 	},
 ]

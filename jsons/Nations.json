@@ -10,7 +10,7 @@
 		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwargon surely will brings forth advances and breakthroughs.",
 		"startIntroPart2": "King Higba, your brilliant mind echoed throughout the lands. Will you stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "You has transgessed our agenda, we won't let you have it your way!",
+		"declaringWar": "You have transgressed our agenda, we won't let you have it your way!",
 		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
 		"defeated": "I'm sorry, I've failed my people.",
 		"introduction": "Greetings stranger, I am King Higba of Dwarven Kingdom. Leader of the Dwarven, conqueror of the mountains.",
@@ -31,6 +31,7 @@
 		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
 			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
 		"civilopediaText": [
+			{"text":"Dwarven Kingdom is a dwarf civilization. Led by its King, Higba, Dwarven Kingdom prospers. Dwarves are very skilled at mining and scientific progression."},
 			{"text":"Dwarven Kingdom has great Production and Science output."},
 			{"text":"You want to settles your cities on Hill, especially next to Mountain."},
         ]
@@ -65,6 +66,7 @@
 		"cities": ["Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argach","Lashire","Chenlaena","Ordton","Xaryna","Kurx",
 			"Alerough","Yauntyrr","Shurdriira","Zauiryn","Goyln"],
 		"civilopediaText": [
+			{"text":"Drow Village is a Dark Elf civilization. They live inside caves on hilly desert. They are exiled Elf from their forest and seek refuge inside caves from the scorch of the sun. They seek revenge upon those who left them to their demise."},
 			{"text":"Drow Village can turn Desert tiles into essentially Plains tiles around its City Center. They are good at military."},
 			{"text":"Settle near Desert Hill and/or Oasis to maximize Drow Village's National Ability."},
         ]
@@ -80,25 +82,26 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Itz time! Itz time to WAAAGH diz pathetic weaklingz!",
+		"attacked": "HAHAHAHA! Diz iz juzt hilarious! Get em, boiz!",
+		"defeated": "Gahh... I hate when dat happenz...",
+		"introduction": "Ai'm Rog, chief of my great army. You seem like you'd maik a gud treat for diz beasts here, heheh...",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Hrgh? Wat do you want?",
+		"hateHello": "Hghh...",
+		"tradeRequest": "Letz banter, ey? I give you good stuff, you give us good stuff, deal?",
 		
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Endless Horde",
-		"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
+	//	"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
 		"uniques": ["[+20]% Production when constructing [{Military} {Land}] units [in all cities]",
 					"[+20]% to Flank Attack bonuses"], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
-			{"text":"Orc Horde can spit untold amount of units thanks to their NA. They are good at military."},
+			{"text":"Orc Horde is a warmonger Orc civilization. Warlord Rog led them by force. They are very ruthless and crude creature. Opting for improved weaponry and arsenal. Orc are very fast at breeding and thus they need more space by invading other civilization's land."},
+			{"text":"Orc Horde can spit an untold amount of units thanks to their NA. They are good at military."},
 			{"text":"Prioritize moving melee units into range before attacking for the extra Flank Attack bonuses."},
         ]
 	},
@@ -130,8 +133,9 @@
 		"cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nabû-Shar",
 			"Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
 		"civilopediaText": [
+			{"text":"Uldra is a creature of ice who lives in the arctics. They form a close relationship with their nature and can hardly live outside of it. But they tamed the unhospitable nature of arctic and it made them stronger."},
 			{"text":"Uldra is a defensive civilization. They have good Production output on Tundra tiles. Especially on Snow Hill tiles."},
-			{"text":"Frost Giant is a good defensive unit as Uldra's start bias is Tundra. Turtle up and pump whatever victory you want to achieve with the extra Production from Tundra tiles."},
+			{"text":"Frost Giant is a good defensive unit as Uldra's start bias is Tundra. Turtle up and pump whatever victory you want to achieve with the extra population and Production from Tundra tiles."},
         ]
 	},
 	
@@ -164,6 +168,7 @@
 		"cities": ["Rimulus","Cyreus","Aenon","Seirus","Cari","Muriel","Laguna","Osharus","Nadah","Adriene","Raina","Ara",
 			"Cherith","Tishtar","Nerrocen","Orta","Tertis"],
 		"civilopediaText": [
+			{"text":"Merfolk Council is a council made of several Merfolk villages. Merfolk is a creature of the sea, of half fish and half human. They can't live without access to water, but they could easily dominate water terrain."},
 			{"text":"Merfolk Council has strong Culture output if settled on Coastal tile."},
 			{"text":"Merfolk Council's Work Boats can construct Merfolk Council Unique Improvement which further boost its Culture output with added Production bonus."},
         ]
@@ -195,8 +200,9 @@
 		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
 			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
 		"civilopediaText": [
+			{"text":"Beastmen Empire is a diverse civilization consisted of many Demihuman and Beastmen races. Their leader Rozagh is a strong and warlike leader that can unite all these different races into one."},
 			{"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
-			{"text":"Beastmen Empire Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning the Wardrummer correctly is key."},
+			{"text":"Beastmen Empire's Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning the Wardrummer correctly is key."},
         ]
 	},
 	
@@ -229,6 +235,7 @@
 		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
 		"civilopediaText": [
+			{"text":"Elven Kingdom is a kingdom of elves who lives in Forest. They are adept at archery and has a deep cultural and faith bonds with the nature."},
 			{"text":"Elven Kingdom is a good Cultural civilization when starting with plenty of Forest and Jungle. They have good early game aggresion with Elven Ranger."},
 			{"text":"Elven Kingdom unique National Wonder provides Culture and Faith from each Trade Route, so build wide to maximize this effect."},
         ]
@@ -261,6 +268,7 @@
 		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
 			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
 		"civilopediaText": [
+			{"text":"Children of Deep Dweller is a lovecraftian cultist civilization. They worships the Old God that dwells deep in the ocean."},
 			{"text":"Children of Deep Dweller is a good early-game Military civilization."},
 			{"text":"Its unique unit Deep One is a stronger replacement to Warrior and has the abilities of +10% Strength when near water source."},
         ]
@@ -295,6 +303,7 @@
 				   "Jaigerynth, the Skinny One","Dondrentarth, the Mysterious","Nudroilth, Eternal Fire",
 				   "Eovnayntein, the Quiet","Srialia, the Tyrant"],
 		"civilopediaText": [
+			{"text":"Dragonborn Union is a civilization of half human-half dragon races. They are the direct descendant of Dragons who once ruled over the sky and the earth. Now long gone, only their descendant can brought back their old glory. The Dragonborn shares great strength and wisdom from their ancestors."},
 			{"text":"Dragonborn Union is a good all-around civilization. They are particularly good at Diplomacy with their bonus on gifting units to City-states."},
 			{"text":"Dragonborn Union can be a good domination civilization as well in mid game with its strong unique units which can bypass impassable terrain."},
         ]
@@ -326,8 +335,9 @@
 		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
 			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
 		"civilopediaText": [
+			{"text":"Vigilo order is a human secret society which excels at alchemy. They rose from their hide and shown themselves when they see a threat to the world's balance. They seek balance in power and scientific progression as their agenda."},
 			{"text":"Vigilo Order is a strong scientific civilization in mid-game to late game. Potionist helps you defend its territory."},
-			{"text":"Its Alchemical Society has unique specialist (Alchemist) which has almost double the GPP of normal Scientist. Assigning those Alchemist is crucial."},
+			{"text":"Its Alchemical Society has unique specialist (Alchemist) which has +33% Great Scientist Points that of a normal Scientist. Assigning those Alchemists is crucial."},
         ]
 	},
 	
@@ -358,6 +368,7 @@
 		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
 			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
 		"civilopediaText": [
+			{"text":"Argonautian States is a demigod civilization based on Greek tales and mythology. Their people has stronger quality than normal humans. Smarter, stronger, and wiser than any of normal humans, they are built different. They formed their own states which then united under one banner, The Argonautian."},
 			{"text":"Argonautian States is a really strong domination civilization. Both of its Unique units has good promotion, so build a lot of them so the promotion sticks when you upgrade them."},
 			{"text":"Its Heroic General each has unique ability beside the +15% Strength Aura and constructing Citadel. Make sure to make use of that, or you can upgrade them if you want to keep them as Military units."},
 			{"text":"Purchase the Recall Heroes building as soon as you enter a new era."},
@@ -392,6 +403,7 @@
 		"cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
 			"Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith"],
 		"civilopediaText": [
+			{"text":"Pyre Clan is a demonic civilization. They came hailing from another dimension and opened a portal in which more and more demons came from. They came to invade and conquer all of this world."},
 			{"text":"Pyre Clan is a strong domination civilization with good production bonus on city with its unique National Wonder."},
 			{"text":"Its unit are particularly strong at Golden Age with +1 to Movement and Sight after its unique National Wonder is created."},
         ]
@@ -423,6 +435,7 @@
 		"cities": ["Aethlone","Kna Serine","Yal Taesi","Allna Aethel","Lylvatheas","Ulvenoris","E’ma Thalore","Aana Edhil","Eya Taesi","Omyveluna","Uym Allanar","Yllenhona",
 			"Ulyfalean","Nilanbel","Ollf Belanore","Narenshara","Ryne Asari"],
 		"civilopediaText": [
+			{"text":"High Elf Concordat, led by Aellerin is a high elven civilization that excels in wizardry. Their understanding of the arcane puts them one step ahead of the other civilization."},
 			{"text":"High Elf Concordat is a flexible civilization. They have good balance between Science, Culture, and Faith output."},
 			{"text":"High Elf Concordat's cities have a powerspike after reaching 7 population. Prioritizing a city's growth is important."},
 			{"text":"Purchase the free Pantheon building in Capital as soon as you finish a Policy Tree."},
@@ -456,6 +469,7 @@
 		"cities": ["Necroheim","Fallenmere","Blightthorn","Shadowmoor","Amberburgh","Illmere","Deathfall","Bleakford","Nighthorne","Reaperton","Dreadmore","Grimmington",
 			"Woebrook","Weepingborough","Saurridge","Baneville","Netherbrooke"],
 		"civilopediaText": [
+			{"text":"Necrontia is an Undead civilization led by Demilich Withermoore. They came in horde after horde, raising the deads from captured city and turned them into slaves of war."},
 			{"text":"Necrontia is a strong domination civilization that can raise the dead of the enemy to join their cause. Sacrifice innocent people for rituals."},
 			{"text":"Sacrifice innocent people for rituals."},
         ]
@@ -486,6 +500,7 @@
 		"cities": ["Origins"," Shūr Daraq","Kāydūn","Kalāt","Targhī","Borāk"," Mīān Deh","Jeyāvān","Kūh-e Rīg","Kūhsār","Sārī Qayeh","Shūrbek",
 			"Qalandarī","Kalīlābād","Negār","Eqbālābād","Nesā’ Kūh"],
 		"civilopediaText": [
+			{"text":"Sacred Sun Theocracy is a human isolationist nation. They don't like other races than human and believes strongly in human supremacy. Thus their isolationist philoshopy in regarding international relationship with non-human races."},
 			{"text":"Sacred Sun Theocracy is a defensive civilization that has good early game Faith output."},
 			{"text":"Its unique unit further enhance Theocracy's defensive capabilies."},
         ]
@@ -519,6 +534,7 @@
 		"cities": ["Trillis","Haldine","Laurelena","Cinnamae","Viticella","Moraea","Fragaria","Elinoire","Aquilegia","Eucolonia","Daisis","Samisia",
 			"Nerine","Azolla","Apricis","Hemponia","Lilise"],
 		"civilopediaText": [
+			{"text":"Nature's Keeper is consisted from dweller of the forest. Dryads, Fae, Fairies, and other smaller races into one unity that protects their land from outsider that mean harms."},
 			{"text":"Nature's Keeper is a good cultural civilization. They are the easiest civ at one-city challenge as well."},
 			{"text":"Dryad's Hut can only be built adjacent to a Forest and has two Artist slot, don't forget that. Treant Worker is good early game economic boost."},
         ]
@@ -551,6 +567,7 @@
 		"cities": ["Anachron","Trillium","Aerodrift","Cooperwall","Automaguard","Steampoint","Neddingfall","Chronoedge","Pitchpoint","Cantmourne","Blackwatch","Glockthain",
 			"Coverdrift","Steelhollow","Ironburg","Cinderguard","Blagfort"],
 		"civilopediaText": [
+			{"text":"Clockwerk Church is a human machine cultist civilization. They worship their machine god which is now malfunctioning and they are waiting for Its return to this world. They believes in the spirit of clockwerk and gears machinery."},
 			{"text":"Clockwerk Church is a good Faith generating civilization with great flexibility thanks to its unique improvement."},
 			{"text":"Church of Gears has a percentage bonus to Faith output, making it valuable in high Faith cities. Be careful not to let enemies pillage Clockwerk Temple as they provide more to the pillager."},
         ]
@@ -583,6 +600,7 @@
 		"cities": ["Serenity","Sanctum","Endurance","Forsaken","Aepligura","Knowledge","Exalted","Estuary","Erukami","Avretalis","Garden","Nutrahara",
 			"Pious","Radiant","Reliquary","Cardinal","Solstice"],
 		"civilopediaText": [
+			{"text":"Inquisitorial Illuminate is a human secret order that secretly control parts of the world's nations. They come to the surface world and reveal themselve at the sight of great heresy and aim to remove it."},
 			{"text":"Inquisitorial Illuminate is a strong religion civilization. With strong religion, they can be flexible at what victory they want to achieve."},
 			{"text":"Inquisitorial Illuminate can purchase Military units with both Gold and Faith, that makes them strong at domination as well."},
         ]
@@ -616,7 +634,7 @@
 					"[+50]% Yield from every [Trading post] <in [Fresh Water] tiles>",
 					"[+50]% Yield from every [Plantation] <in [Fresh Water] tiles>",
 					"[+50]% Yield from every [Mine] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Lumber Mill] <in [Fresh Water] tiles>",
+					"[+50]% Yield from every [Lumber mill] <in [Fresh Water] tiles>",
 					"[+50]% Yield from every [Camp] <in [Fresh Water] tiles>",
 					"[+50]% Yield from every [Oil well] <in [Fresh Water] tiles>",
 					"[+50]% Yield from every [Pasture] <in [Fresh Water] tiles>",
@@ -627,6 +645,7 @@
 		"cities": ["Chauitzetl","Bhizzujix","Bhitta","Qraxl","Igriuchit","Chuttox","Quzdo","Ukeqax","Guxizo","Avretalis","Grinjoxxut","Sess",
 			"Ajiagzex","Zaetlis","Azus","Olzaro","Rhigris"],
 		"civilopediaText": [
+			{"text":"Lizardmen Tribe is a small nation consisted of several tribes into one nation. They are a group of Lizardmen race that lives on Fresh Water terrain. They are very good at maximizing output from Fresh Water lands."},
 			{"text":"Lizardmen Tribe has a good defensive capability with its National Ability and good economic bonus for Fresh Water tiles."},
 			{"text":"They are relentless at defending and its Unique Unit has good movement bonus on Fresh Water tiles."},
         ]
@@ -634,7 +653,66 @@
 	
 	//Bloodhoof of Centaur Tribes
 	
+	{
+		"name": "Centaur Tribes",
+		"leaderName": "Bloodhoof",
+		"adjective": ["Centaurs"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [150,41,41],
+		"innerColor": [74,35,35],
+		"uniqueName": "Running with the Pack",
+		"uniques": ["[+1] Movement <for [Land] units>",], 
+		"cities": ["Konstan","Apios","Oretus","Stergeneus","Barbadia","Naesima","Depheis","Monolea","Kaselaia","Arganassa","Haiderine","Zeran",
+			"Erasandrou","Perridas","Thomeimon","Coleros","Eusantes"],
+		"civilopediaText": [
+			{"text":"Centaur Tribes is consisted from several Centaur packs. Led by Bloodhoof, strong warlike leader, Centaur Tribes conquer the plains at ease."},
+			{"text":"Centaur Tribes has good National Ability with +1 Movement providing a lot of flexibility for both military and economic purposes."},
+			{"text":"They are particularly good at Plains tile where its Unique Building provide food from it."},
+        ]
+	},
 	
 	//Takashi no Seimei of Shinso
-	
+	{
+		"name": "Shinso",
+		"leaderName": "Takashi no Seimei",
+		"adjective": ["Shinso"],
+		
+		"startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, taking all of which this world has to offer.",
+		"startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You won't stand a chance against our mighty casters!",
+		"attacked": "You dare to touch our sacred lands? It will be your grave!",
+		"defeated": "A pity that I won't be able to see Prosperity.",
+		"introduction": "I am Takashi no Seimei, welcome to our land! Please, take off your shoes.",
+		
+		"neutralHello": "Greetings sir, what matters bring you here?",
+		"hateHello": "The vermin wants to talk, then you shall talk.",
+		"tradeRequest": "We've come to bargain Sir.",
+		
+		"outerColor": [218,165,32],
+		"innerColor": [0,0,205],
+		"uniqueName": "Pillars of Heaven",
+		"uniqueText": "Gain access to four Unique National Wonders (Food, Gold, Science, Faith)",
+		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
+			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
+		"civilopediaText": [
+			{"text":"Shinso is a human civilization resembling that of Onmyouji faith and culture from the Japanese."},
+			{"text":"Shinso has a strong economical bonus after building their Unique Wonders, but are very weak before that. Especially from foreign attack."},
+			{"text":"You don't need to rush these Wonders, make sure to defend your land from war and barbarians, Shinso is not early game civilization."},
+        ]
+	},
 ]

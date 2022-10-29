@@ -404,4 +404,68 @@
 		"requiredTech": "The Wheel"
 	},
 	
+	//Centaur Tribes
+	{
+		"name": "Posha",
+		"uniqueTo": "Centaur Tribes",
+		"replaces": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", "[+1 Food] from [Plains] tiles [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	
+	//Shinso
+	{
+		"name": "Pillar of Learning",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"science": "4",
+		"specialistSlots": {"Scientist": 2},
+		"isNationalWonder": true,
+		"uniques": ["[+2 Science] from each Trade Route", 
+					//"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Prosperity]> <in cities without a [Pillar of Faith]>", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Pillar of Life",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"food": "4",
+		"specialistSlots": {"Engineer": 2},
+		"isNationalWonder": true,
+		"uniques": ["[+15]% growth [in all cities]", 
+					//"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]> <in cities without a [Pillar of Faith]>", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Pillar of Faith",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"faith": "4",
+		"specialistSlots": {"Artist": 2},
+		"isNationalWonder": true,
+		"uniques": ["[+3 Culture] from [Mountain] tiles [in all cities]", 
+					//"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]>", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Pillar of Prosperity",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"gold": "4",
+		"specialistSlots": {"Merchant": 2},
+		"isNationalWonder": true,
+		"uniques": ["[+1 Gold] from every [Market]", "[+1 Gold] from every [Bank]", 
+					//"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Life]> <in cities without a [Pillar of Faith]>", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Guilds"
+	},
 ]
