@@ -1,7 +1,7 @@
 # Development
 
     AceHank - Author: Codes, lores, ideas, icons
-    [amfauzn](https://github.com/amfauzn) - Co-author: Codes, lores, ideas, icons
+    [amfauzn](https://pages.github.com/) - Co-author: Codes, lores, ideas, icons
 
 #### Nations Lines
      gohwala: Orc Horde
