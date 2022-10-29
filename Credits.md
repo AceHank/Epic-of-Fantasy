@@ -1,9 +1,12 @@
-#Development
+# Development
 
     AceHank - Author: Codes, lores, ideas, icons
-    amfauzn - Co-author: Codes, lores, ideas, icons
+    [amfuzn](https://github.com/amfauzn) - Co-author: Codes, lores, ideas, icons
 
-#Icons
+#### Nations Lines
+     gohwala: Orc Horde
+
+# Icons
 
     Unciv
     Fantasia
