@@ -745,7 +745,7 @@
 			"Clockwerk City","Steeltown","Thermacog","Gears City","Windforge","Area Zero","Shocktek City"],
 		"civilopediaText": [
 			{"text":"Gnome Alliance is a gnomish civilization. They pursue scientific innovation and progress, one might say they're the brightest race of this world."},
-			{"text":"Gnome Alliance has a good Great Scientist generation thanks to its National Ability. Make sure to prioritize production building in your cities. Their national ability mostly comes from mid to late-game buildings, which is its weakness."},
+			{"text":"Gnome Alliance has a good Great Scientist generation thanks to its National Ability. Make sure to prioritize scientific building in your cities especially in the early game to start ramping up its Great Scientist points."},
 			{"text":"They can harness Mountain tiles which other civilization deemed unworkable. Gnome Alliance's ornithopter flyer unique unit is good for rushing as it comes a little bit earlier than its counterpart."},
         ]
 	},
