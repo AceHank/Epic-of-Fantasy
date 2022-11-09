@@ -529,8 +529,9 @@
 		"outerColor": [146,221,9],
 		"innerColor": [  0,  0,9],
 		"uniqueName": "Mother Tree Takes Root",
-		"uniqueText": "Replaces Palace with Mother Tree\n+15% Culture in all cities connected with Capital",
-		"uniques": ["[+15]% [Culture] [in all cities connected to capital]"], 
+		"uniqueText": "Replaces Palace with Mother Tree\n+15% Culture in all cities connected with Capital\n+1 Culture from every Forest tiles adjacent to at least 2 Forest tiles",
+		"uniques": ["[+15]% [Culture] [in all cities connected to capital]",
+					"[+1 Culture] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>"], 
 		"cities": ["Trillis","Haldine","Laurelena","Cinnamae","Viticella","Moraea","Fragaria","Elinoire","Aquilegia","Eucolonia","Daisis","Samisia",
 			"Nerine","Azolla","Apricis","Hemponia","Lilise"],
 		"civilopediaText": [
@@ -562,7 +563,7 @@
 		"outerColor": [139,69,19],
 		"innerColor": [128,0,0],
 		"uniqueName": "Broken God",
-		"uniqueText": "Gain access to Cyborg Priest instead of Great Prophet that can construct Clockwerk Temple instead of Holy Site\n-15% Faith cost of generating Cyborg Priest",
+		"uniqueText": "Gain access to Priest of Cog instead of Great Prophet that can construct Clockwerk Temple instead of Holy Site\n-15% Faith cost of generating Priest of Cog",
 		"uniques": ["[-15]% Faith cost of generating Great Prophet equivalents"], 
 		"cities": ["Anachron","Trillium","Aerodrift","Cooperwall","Automaguard","Steampoint","Neddingfall","Chronoedge","Pitchpoint","Cantmourne","Blackwatch","Glockthain",
 			"Coverdrift","Steelhollow","Ironburg","Cinderguard","Blagfort"],
@@ -715,4 +716,74 @@
 			{"text":"You don't need to rush these Wonders, make sure to defend your land from war and barbarians, Shinso is not early game civilization."},
         ]
 	},
+	
+	//Ironcrank of Gnome Alliance
+	{
+		"name": "Gnome Alliance",
+		"leaderName": "Ironcrank",
+		"adjective": ["Gnomes"],
+		"startBias": ["Mountain"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [46,80,184],
+		"innerColor": [173,76,76],
+		"uniqueName": "Tink Master",
+		"uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 Production from every Mountain tiles in all cities",
+		"uniques": ["[+2 Production] from every [Mountain]"],
+		"cities": ["Ironforge","Tinkertown","Techno City","Gnomenia","Cogfrenzy","Mekatorque","Steelgrill","Mechastation","Raceway","Gadgetstan","New Tinkertown",
+			"Clockwerk City","Steeltown","Thermacog","Gears City","Windforge","Area Zero","Shocktek City"],
+		"civilopediaText": [
+			{"text":"Gnome Alliance is a gnomish civilization. They pursue scientific innovation and progress, one might say they're the brightest race of this world."},
+			{"text":"Gnome Alliance has a good Great Scientist generation thanks to its National Ability. Make sure to prioritize production building in your cities. Their national ability mostly comes from mid to late-game buildings, which is its weakness."},
+			{"text":"They can harness Mountain tiles which other civilization deemed unworkable. Gnome Alliance's ornithopter flyer unique unit is good for rushing as it comes a little bit earlier than its counterpart."},
+        ]
+	},
+	
+	/*
+	//The Walrus People
+	{
+		"name": "The Walrus People",
+		"leaderName": "Yurr",
+		"adjective": ["Walrus People"],
+		"startBias": ["Tundra"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [99,39,39],
+		"innerColor": [46,133,108],
+		"uniqueName": "Howling Fjord",
+		"uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+2 Food, +2 Production, and +2 Culture in all cities with less than 4 population, +1 more of these yields if settled on Snow or Tundra",
+		"uniques": ["[+2 Culture, +2 Food, +2 Production] [in all cities]", "[-2 Culture, -2 Food, -2 Production] [in all cities] <in cities with at least [4] [Population]>",
+					"[+3 Culture, +3 Food, +3 Production] in cities on [Tundra] tiles", "[-3 Culture, -3 Food, -3 Production] in cities on [Tundra] tiles <in cities with at least [4] [Population]>",
+					"[+3 Culture, +3 Food, +3 Production] in cities on [Snow] tiles", "[-3 Culture, -3 Food, -3 Production] in cities on [Snow] tiles <in cities with at least [4] [Population]>"], 
+		"cities": ["Nainarfet","Coldstone","Ikkash","Paimejuq","Qoqnirk","So'kak","Icyrock","Mook'urna","Tusk","Darurraq","Brownfur","Uudwernot",
+			"Mook'urna","Hrewengit","Sha'iliish","Hurrachiiq","Kepvaii"],
+		"civilopediaText": [
+			{"text":"The Walrus People is a walrus-like creature civilization. They live nomadic life, often changing one settlement to another after a period of time and their food supply ran short."},
+			{"text":"The Walrus people has a good but tricky bonus to wide empire and a strong early game defense to boot. Their free Settlers and yields are very good only under certain circumstances."},
+			{"text":"Make sure to manage your happiness and don't rush to settle many cities on Snow tiles for consecutive free Settler. More cities mean more unhappiness."},
+        ]
+	},
+	*/
 ]

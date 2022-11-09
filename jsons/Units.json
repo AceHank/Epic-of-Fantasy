@@ -424,7 +424,7 @@
 		"attackSound": "shot"
 	},	
 	{
-		"name": "Cyborg Priest",
+		"name": "Priest of Cog",
 		"uniqueTo": "Clockwerk Church",
 		"replaces": "Great Prophet",
 		"unitType": "Civilian",
@@ -521,5 +521,40 @@
 		"promotions": ["Mobility I"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
+	},
+	
+	//Gnome Alliance
+	{
+		"name": "Gnomish Flyer",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Bomber",
+		"obsoleteTech": "Radar",
+		"uniques": ["Research Steam Power vs Flight"],
+		"attackSound": "bombing"
+	},
+	
+	//The Walrus People
+	{
+		"name": "Tuskarr",
+		"replaces": "Spearman",
+		"uniqueTo": "The Walrus People",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "May capture killed [Barbarian] units <with [66]% chance>"],
+		"attackSound": "metalhit"
 	},
 ]

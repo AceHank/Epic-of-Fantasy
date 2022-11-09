@@ -20,7 +20,7 @@
 		"uniqueTo": "Dwarven Kingdom",
 		"replaces": "Observatory",
 		"maintenance": 0,
-		"percentStatBonus": {"science": 50},
+		"percentStatBonus": {"science": 50, "production": 10},
 		"uniques": ["Must be next to [Mountain]", 
 					"[+1 Science] from [Mine] tiles [in this city]"],
 		"requiredTech": "Astronomy"
@@ -53,7 +53,7 @@
 		"uniqueTo": "Uldra",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia",
+		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
 					"[+1] population [in this city]"]
 	},
 	{
@@ -61,7 +61,7 @@
 		"uniqueTo": "Uldra",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia", 
+		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
 					"[+1] population [in this city]"]
 	},
 	
@@ -468,4 +468,169 @@
 					"Will not be displayed in Civilopedia"],
 		"requiredTech": "Guilds"
 	},
+	
+	//Gnome Alliance
+	/*
+	{
+		"name": "Gnomish Workshop",
+		"replaces": "Workshop",
+		"uniqueTo": "Gnome Alliance",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"uniques": ["Destroyed when the city is captured", "Will not be displayed in Civilopedia"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Gnomish Factory",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"greatPersonPoints": {"Great Scientist": 1},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"uniques": ["Destroyed when the city is captured", "Will not be displayed in Civilopedia"],
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Gnomish Hydro Plant",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Hydro Plant",
+		"requiredResource": "Aluminum",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Gnomish Solar Plant",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"greatPersonPoints": {"Great Scientist": 1},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Desert]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+	{
+		"name": "Gnomish Nuclear Plant",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"greatPersonPoints": {"Great Scientist": 1},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Only available <in cities without a [Solar Plant]>","Destroyed when the city is captured", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Gnomish Spaceship Factory",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Spaceship Factory",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"production": 3,
+		"requiredResource": "Aluminum",
+		"cost": 360,
+		"requiredBuilding": "Factory",
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"],
+		"requiredTech": "Robotics"
+	},
+	*/
+	{
+		"name": "Gnomish Library",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Library",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Gnomish University",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "University",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Gnomish Public School",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Public School",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Gnomish Research Lab",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Research Lab",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Inventor's Assembly",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Ironworks",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+2 Science] from [Mountain] tiles [in all cities]"],
+		"requiredTech": "Machinery"
+	},
+	
+	
+	//The Walrus People
+	{
+		"name": "Snow Free Settler",
+		"uniqueTo": "The Walrus People",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia","Never destroyed when the city is captured",
+					"Free [Settler] appears"]
+	},
+	{
+		"name": "Frosten Theater",
+		"uniqueTo": "The Walrus People",
+		"replaces": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+1 Culture] per [4] population [in this city]"],
+		"requiredTech": "Drama and Poetry"
+	},
+	
 ]
