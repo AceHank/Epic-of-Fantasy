@@ -60,9 +60,9 @@
 		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
 		"uniqueName": "Revenge of the Fallen",
-		"uniqueText": "+1 Food, +1 Production for Desert tiles adjacent to City Center\nMelee units gain the Vengeful promotion",
+		"uniqueText": "+1 Food, +1 Production for Desert tiles adjacent to City Center\nMelee Land units gain the Vengeful promotion",
 		"uniques": ["[+1 Food, +1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
-					"[{Melee}] units gain the [Vengeful] promotion"], 
+					"[{Melee} {Land}] units gain the [Vengeful] promotion"], 
 		"cities": ["Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argach","Lashire","Chenlaena","Ordton","Xaryna","Kurx",
 			"Alerough","Yauntyrr","Shurdriira","Zauiryn","Goyln"],
 		"civilopediaText": [
@@ -162,8 +162,8 @@
 		"outerColor": [78,244,234],
 		"innerColor": [85, 74, 32],
 		"uniqueName": "Song of the Seas",
-		"uniqueText": "+3 Culture for cities settled on Coastal tiles after discovering Drama and Poetry\n+2 Faith from every Atoll",
-		"uniques": ["[+3 Culture] in cities on [Coastal] tiles <after discovering [Drama and Poetry]>", "[+2 Faith] from every [Atoll]",
+		"uniqueText": "+2 Culture for cities settled on Coastal tiles after discovering Drama and Poetry\n+2 Faith from every Atoll",
+		"uniques": ["[+2 Culture] in cities on [Coastal] tiles <after discovering [Drama and Poetry]>", "[+2 Faith] from every [Atoll]",
 					"[Work Boats] units gain the [Floating City Builder] promotion"], 
 		"cities": ["Rimulus","Cyreus","Aenon","Seirus","Cari","Muriel","Laguna","Osharus","Nadah","Adriene","Raina","Ara",
 			"Cherith","Tishtar","Nerrocen","Orta","Tertis"],
@@ -296,8 +296,8 @@
 		"outerColor": [242,101,0],
 		"innerColor": [89, 255,0],
 		"uniqueName": "Draconic Wisdom",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "Gain [15] Influence with a [Military] gift to a City-State"], 
-		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One","Itlognig",
+		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State"], 
+		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
 				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
 				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
 				   "Jaigerynth, the Skinny One","Dondrentarth, the Mysterious","Nudroilth, Eternal Fire",
@@ -430,8 +430,8 @@
 		"outerColor": [140,190,214],
 		"innerColor": [90, 60, 80],
 		"uniqueName": "Artisan of the Arcane",
-		"uniqueText": "Gain a free Pantheon belief after completing a Policy Tree\n+3 Culture, +1 Production in cities with at least 7 population",
-		"uniques": ["[+3 Culture, +1 Production] <in cities with at least [7] [Population]>"], 
+		"uniqueText": "Gain a free Pantheon belief after completing a Policy Tree\n+2 Culture, +2 Production in cities with at least 7 population",
+		"uniques": ["[+2 Culture, +2 Production] <in cities with at least [7] [Population]>"], 
 		"cities": ["Aethlone","Kna Serine","Yal Taesi","Allna Aethel","Lylvatheas","Ulvenoris","E’ma Thalore","Aana Edhil","Eya Taesi","Omyveluna","Uym Allanar","Yllenhona",
 			"Ulyfalean","Nilanbel","Ollf Belanore","Narenshara","Ryne Asari"],
 		"civilopediaText": [
@@ -631,18 +631,7 @@
 		"innerColor": [48,156,54],
 		"uniqueName": "Survival Instinct",
 		"uniqueText": "+50% Yield from every Land Improvement in Fresh Water tiles\n+15% Strength for Wounded units when defending"
-		"uniques": ["[+50]% Yield from every [Farm] <in [Fresh Water] tiles>", "[+15]% Strength <for [Wounded] units> <when defending>",
-					"[+50]% Yield from every [Trading post] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Plantation] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Mine] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Lumber mill] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Camp] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Oil well] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Pasture] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Quarry] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Moai] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Polder] <in [Fresh Water] tiles>",
-					"[+50]% Yield from every [Terrace farm] <in [Fresh Water] tiles>",], 
+		"uniques": ["[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>", "[+15]% Strength <for [Wounded] units> <when defending>"], 
 		"cities": ["Chauitzetl","Bhizzujix","Bhitta","Qraxl","Igriuchit","Chuttox","Quzdo","Ukeqax","Guxizo","Avretalis","Grinjoxxut","Sess",
 			"Ajiagzex","Zaetlis","Azus","Olzaro","Rhigris"],
 		"civilopediaText": [
@@ -707,7 +696,7 @@
 		"outerColor": [218,165,32],
 		"innerColor": [0,0,205],
 		"uniqueName": "Pillars of Heaven",
-		"uniqueText": "Gain access to four Unique National Wonders (Food, Gold, Science, Faith)",
+		"uniqueText": "Gain access to 4 unique National Wonders after researching Mathematics, Guilds, Writing, and Theology",
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
 		"civilopediaText": [
@@ -739,7 +728,7 @@
 		"outerColor": [46,80,184],
 		"innerColor": [173,76,76],
 		"uniqueName": "Tink Master",
-		"uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 Production from every Mountain tiles in all cities",
+		"uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 Production from Mountain",
 		"uniques": ["[+2 Production] from every [Mountain]"],
 		"cities": ["Ironforge","Tinkertown","Techno City","Gnomenia","Cogfrenzy","Mekatorque","Steelgrill","Mechastation","Raceway","Gadgetstan","New Tinkertown",
 			"Clockwerk City","Steeltown","Thermacog","Gears City","Windforge","Area Zero","Shocktek City"],
@@ -749,6 +738,43 @@
 			{"text":"They can harness Mountain tiles which other civilization deemed unworkable. Gnome Alliance's ornithopter flyer unique unit is good for rushing as it comes a little bit earlier than its counterpart."},
         ]
 	},
+	
+	//Zephyr of Harpies Tribe
+	{
+		"name": "Harpies Tribe",
+		"leaderName": "Zephyr",
+		"adjective": ["Harpies"],
+		"startBias": ["Mountain"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [24,217,82],
+		"innerColor": [153,118,29],
+		"uniqueName": "Valley of Rejuvenation",
+		"uniqueText": "+1 Production from Land tiles adjacent to a Mountain after discovering Civil Service\n+1 Food from Unimproved Hill tiles after discovering Trapping\nCivilian units can pass impassable tile",
+		"uniques": ["[+1 Production] from [Land] tiles [in all cities] <with [1] to [6] neighboring [Mountain] tiles> <after discovering [Civil Service]>",
+					"[+1 Food] from every [Hill] <in tiles without [Tag]> <after discovering [Trapping]>",
+					"[Civilian] units gain the [Harpy] promotion"],
+		"cities": ["Stormclaw","Alpenia Peak","Bloodfeather","Anzalor Valley","Strongbeak","Marmouth Hills","Emberwing","Sorania Cliff","Stingtail","Marsia Forest","Featherfall",
+			"Koronea Heights","Steelfang"],
+		"civilopediaText": [
+			{"text":"Harpies Tribe is a half-human half-bird civilization. They are mountaineous creature and can harness Mountain to its fullest potential."},
+			{"text":"Harpies Tribe has great bonus after discovering certain techs. Researching those techs ASAP is crucial."},
+			{"text":"Their unique unit is very strong not only on Mountain tiles but Forest, Jungle, and Hill tiles as well for they also count as obstacles for ranged units."},
+        ]
+	},
+	
+	//Redleaf of Gaia Preserver
 	
 	/*
 	//The Walrus People
@@ -773,10 +799,10 @@
 		"outerColor": [99,39,39],
 		"innerColor": [46,133,108],
 		"uniqueName": "Howling Fjord",
-		"uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+2 Food, +2 Production, and +2 Culture in all cities with less than 4 population, +1 more of these yields if settled on Snow or Tundra",
-		"uniques": ["[+2 Culture, +2 Food, +2 Production] [in all cities]", "[-2 Culture, -2 Food, -2 Production] [in all cities] <in cities with at least [4] [Population]>",
-					"[+3 Culture, +3 Food, +3 Production] in cities on [Tundra] tiles", "[-3 Culture, -3 Food, -3 Production] in cities on [Tundra] tiles <in cities with at least [4] [Population]>",
-					"[+3 Culture, +3 Food, +3 Production] in cities on [Snow] tiles", "[-3 Culture, -3 Food, -3 Production] in cities on [Snow] tiles <in cities with at least [4] [Population]>"], 
+		"uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+1 Food, +1 Production, and +1 Culture in all cities with less than 3 population, double these yields if settled on Snow or Tundra",
+		"uniques": ["[+1 Culture, +1 Food, +1 Production] [in all cities]", "[-1 Culture, -1 Food, -1 Production] [in all cities] <in cities with at least [3] [Population]>",
+					"[+2 Culture, +2 Food, +2 Production] in cities on [Tundra] tiles", "[-2 Culture, -2 Food, -2 Production] in cities on [Tundra] tiles <in cities with at least [3] [Population]>",
+					"[+2 Culture, +2 Food, +2 Production] in cities on [Snow] tiles", "[-2 Culture, -2 Food, -2 Production] in cities on [Snow] tiles <in cities with at least [3] [Population]>"], 
 		"cities": ["Nainarfet","Coldstone","Ikkash","Paimejuq","Qoqnirk","So'kak","Icyrock","Mook'urna","Tusk","Darurraq","Brownfur","Uudwernot",
 			"Mook'urna","Hrewengit","Sha'iliish","Hurrachiiq","Kepvaii"],
 		"civilopediaText": [

@@ -195,7 +195,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+1 Science] per [7] population [in this city]"]
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+2 Science] per [7] population [in this city]"]
 	},
 		
 		//Free Pantheon
@@ -423,7 +423,7 @@
 	{
 		"name": "Pillar of Learning",
 		"uniqueTo": "Shinso",
-		"cost": 300,
+		"cost": 250,
 		"science": "4",
 		"specialistSlots": {"Scientist": 2},
 		"isNationalWonder": true,
@@ -435,7 +435,7 @@
 	{
 		"name": "Pillar of Life",
 		"uniqueTo": "Shinso",
-		"cost": 300,
+		"cost": 250,
 		"food": "4",
 		"specialistSlots": {"Engineer": 2},
 		"isNationalWonder": true,
@@ -447,7 +447,7 @@
 	{
 		"name": "Pillar of Faith",
 		"uniqueTo": "Shinso",
-		"cost": 300,
+		"cost": 250,
 		"faith": "4",
 		"specialistSlots": {"Artist": 2},
 		"isNationalWonder": true,
@@ -459,7 +459,7 @@
 	{
 		"name": "Pillar of Prosperity",
 		"uniqueTo": "Shinso",
-		"cost": 300,
+		"cost": 250,
 		"gold": "4",
 		"specialistSlots": {"Merchant": 2},
 		"isNationalWonder": true,
