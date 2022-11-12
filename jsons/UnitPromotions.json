@@ -764,7 +764,7 @@
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ANTI ERROR MEASURE ENDS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 	
-	//Dwarven Kingdom~~~~~~~
+	//Dwarven Kingdom
 	{
 		"name": "Construct",
 		"uniques": ["[+25]% Strength <when defending>"],
@@ -778,7 +778,7 @@
     //    "row": 0
 	},
 	
-	//Drow Village~~~~~~~
+	//Drow Village
 	{
 		"name": "Elusive",
 		"uniques": ["May withdraw before melee ([66]%)"],
@@ -792,7 +792,7 @@
     //    "row": 0
 	},	
 	
-	//Uldra~~~~~~~
+	//Uldra
 	{
 		"name": "Snowman",
 		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
@@ -801,7 +801,7 @@
     //    "row": 0
 	},	
 	
-	//Merfolk Council~~~~~~~
+	//Merfolk Council
 	{
 		"name": "Floating City Builder",
 		"uniques": ["Can construct [Floating City]"],
@@ -809,7 +809,7 @@
     //    "row": 0
 	},	
 	
-	//Beastmen Empire~~~~~~~
+	//Beastmen Empire
 	{
 		"name": "Intimidation",
 		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
@@ -817,7 +817,7 @@
     //    "row": 0
 	},
 	
-	//Argonautian States~~~~~~~
+	//Argonautian States
 	{
 		"name": "Agoge",
 		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>", "Earn [33]% of killed [Military] unit's [Strength] as [Culture]"],
@@ -855,7 +855,7 @@
     //    "row": 0
 	},
 	
-	//Pyre Clan~~~~~~~
+	//Pyre Clan
 	{
 		"name": "Decaying Aura",
 		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
@@ -863,7 +863,7 @@
     //    "row": 0
 	},
 	
-	//High Elf Concordat~~~~~~~
+	//High Elf Concordat
 	{
 		"name": "Zealotry",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
@@ -871,7 +871,7 @@
     //    "row": 0
 	},
 	
-	//Necrontia~~~~~~~
+	//Necrontia
 	{
 		"name": "Sacrifice",
 		"uniques": ["Gain [15] [Culture] <by consuming this unit>"],
@@ -879,7 +879,7 @@
     //    "row": 0
 	},
 	
-	//Sacred Sun Theocracy~~~~~~~
+	//Sacred Sun Theocracy
 	{
 		"name": "Protector of Realm",
 		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
@@ -887,7 +887,7 @@
     //    "row": 0
 	},
 	
-	//Inquisitorial Illuminate~~~~~~~
+	//Inquisitorial Illuminate
 	{
 		"name": "Divine Watch",
 		"uniques": ["Prevents spreading of religion to the city it is next to"],
@@ -895,26 +895,11 @@
     //    "row": 0
 	},
 	
-	//Lizardmen Tribes~~~~~~~
+	//Lizardmen Tribes
 	{
 		"name": "Amphibious II",
 		"uniques": ["Double movement in [Fresh Water]"],
 	//	"column": 45,
     //    "row": 0
 	},
-	
-	//Harpies Tribe
-	{
-		"name": "[Stormwing] ability",
-		"uniques": ["Ranged attacks may be performed over obstacles"],
-	//	"column": 46,
-    //    "row": 0
-	},
-	{
-		"name": "Harpy",
-		"uniques": ["Can pass through impassable tiles"],
-	//	"column": 47,
-    //    "row": 0
-	},
-	
 ]

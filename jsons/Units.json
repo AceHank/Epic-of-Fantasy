@@ -557,44 +557,4 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "May capture killed [Barbarian] units <with [66]% chance>"],
 		"attackSound": "metalhit"
 	},
-	
-	//Harpies Tribe
-	/*
-	{
-		"name": "Harpies Settler",
-		"replaces": "Settler",
-		"uniqueTo": "Harpies Tribe",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction", "Can pass through impassable tiles", "Will not be displayed in Civilopedia",
-			"Requires at least [2] population"],
-		"hurryCostModifier": 20
-	},
-	{
-		"name": "Harpies Worker",
-		"replaces": "Worker",
-		"uniqueTo": "Harpies Tribe",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Will not be displayed in Civilopedia", "Can construct [Mountain Settlement]"],
-		"cost": 70
-	},
-	*/
-	{
-		"name": "Stormwing",
-		"replaces": "Crossbowman",
-		"uniqueTo": "Harpies Tribe",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 18,
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"promotions": ["[Stormwing] ability"],
-		"attackSound": "arrow"
-	},
-	
 ]
