@@ -593,7 +593,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"promotions": ["[Stormwing] ability"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "arrow"
 	},
 	
@@ -610,6 +610,42 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Invisible to non-adjacent units"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
+	//The Titans
+	{
+		"name": "Jatte",
+		"uniqueTo": "The Titans",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Blitz"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	//The Kobolds
+	{
+		"name": "Kobold Taskmaster",
+		"uniqueTo": "The Kobolds",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+	//	"requiredResource": "Iron",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Drill I"],
+		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	

@@ -727,8 +727,9 @@
 		"outerColor": [46,80,184],
 		"innerColor": [173,76,76],
 		"uniqueName": "Tink Master",
-		"uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 Production from Mountain",
-		"uniques": ["[+2 Production] from every [Mountain]"],
+		"uniqueText": "+1 Great Scientist point from every scientific buildings\n+1 Science from every Workshop and Factory",
+		"uniques": ["[+1 Science] from every [Workshop]",
+					"[+1 Science] from every [Factory]"],
 		"cities": ["Ironforge","Tinkertown","Techno City","Gnomenia","Cogfrenzy","Mekatorque","Steelgrill","Mechastation","Raceway","Gadgetstan","New Tinkertown",
 			"Clockwerk City","Steeltown","Thermacog","Gears City","Windforge","Area Zero","Shocktek City"],
 		"civilopediaText": [
@@ -807,6 +808,85 @@
         ]
 	},
 	
+	//Mårg of The Titans
+	{
+		"name": "The Titans",
+		"leaderName": "Mårg",
+		"adjective": ["Titans"],
+	//	"startBias": ["Mountain"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [77,145,129],
+		"innerColor": [15,247,193],
+		"uniqueName": "Byggare",
+		"uniqueText": "+25% Production when constructing World Wonder for the first time in a city\nMilitary land units are +15% stronger but more expensive to produce",
+		"uniques": ["[+25]% Production when constructing [World Wonder] wonders [in all cities]",
+					"[-25]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]",
+					"[+15]% Strength <for [{Military} {Land}] units>", 
+					"[Gold] cost of purchasing [{Military} {Land}] units [+43]%", 
+					"[Faith] cost of purchasing [{Military} {Land}] units [+43]%", 
+					"[-30]% Production when constructing [{Military} {Land}] units [in all cities]"],
+		"cities": ["Jättens Gångväg","Storafötter","Starkarm","Blodigthuvud","Skarpaögon","Stampa","Tungtben","Stålfjäder","Längtansplats","Förundrans","Undra",
+			"Bergig","Höjd"],
+		"civilopediaText": [
+			{"text":"The Titans is a civilization consisted of giants. They are peaceful civilization. But don't be fooled, they are good at war and fighting because of their sheer size and lots of training in the Arena."},
+			{"text":"The Titans has a good bonus towards wonder construction, but only the first wonder in a city. It's a little bit tricky bonus that you have to expand wide to maximize its bonus. But you also want to build tall so you can build Wonder more easily."},
+			{"text":"Their unique unit has the Blitz promotion which makes them strong at war. Make sure to spam it so you can keep the promotion. Their unique building also provide their units with Shock I promotion, making The Titans' unit particularly strong because of promotions stacking."},
+        ]
+	},
+	
+	//Goldsnuffle of The Kobolds
+	{
+		"name": "The Kobolds",
+		"leaderName": "Goldsnuffle",
+		"adjective": ["Kobolds"],
+		"startBias": ["Mountain"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [61,37,37],
+		"innerColor": [240,200,0],
+		"uniqueName": "Dig, Dig, Dig!",
+		"uniqueText": "-25% tile improvement construction time in Hill tiles\n+2 Gold from resources improved with Lodepit",
+		"uniques": ["[-25]% tile improvement construction time <in [Hill] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Iron] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Coal] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Aluminum] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Uranium] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Gems] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Gold Ore] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Silver] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Copper] tiles>",
+					"[+2 Gold] from every [Lodepit] <in [Salt] tiles>"],
+		"cities": ["Candle Rock","Whitetunnel","Gravelsnout","Highmountain","Drypickaxe","Mucksnout","Boulderslide","Mudwhisker","Flintdagger","Goldtooth","Bluewax",
+			"Silver Rock","Steel Mountain"],
+		"civilopediaText": [
+			{"text":"The Kobolds is a civilization consisted of Kobold, which is a rat-like mountain dweller creature. They are usually found at mines, tunnel, and any cave on mountainous terrain. They are good at digging and finding treasure under the ground."},
+			{"text":"The Kobolds has a good economic bonus from their national ability and unique improvement. They gain extra gold and culture from them."},
+			{"text":"Their unique unit is a Swordsman that doesn't require Iron, which is good for rushing. And comes with Drill I promotion to boot"},
+        ]
+	},
 	
 	/*
 	//The Walrus People

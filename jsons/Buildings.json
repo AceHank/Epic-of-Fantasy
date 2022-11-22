@@ -606,7 +606,7 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+2 Science] from [Mountain] tiles [in all cities]"],
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+3 Science, +3 Production] from [Mountain] tiles [in all cities]"],
 		"requiredTech": "Machinery"
 	},
 	
@@ -644,6 +644,18 @@
 		"requiredTech": "Metal Casting",
 		"uniques": ["[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]"]
+	},
+	
+	//The Titans
+	{
+		"name": "Arena of Blood",
+		"uniqueTo": "The Titans",
+		"replaces": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"],
+		"requiredTech": "Construction"
 	},
 	
 ]
