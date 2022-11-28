@@ -658,4 +658,95 @@
 		"requiredTech": "Construction"
 	},
 	
+	//Fanrong Republic
+	{
+		"name": "Qingbai Wares",
+		"uniqueTo": "Fanrong Republic",
+		"replaces": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city", "Provides [3] [Porcelain]"],
+		"requiredTech": "Guilds"
+	},
+	
+	//The Wizard Council
+	{
+		"name": "Magic Sanctuary",
+		"uniqueTo": "The Wizard Council",
+		"faith": 3,
+		"science": 3,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "Only available <in cities with a [Library]>", "Only available <in cities with a [Temple]>"]
+	},
+	
+		//Peacemaker Spell
+		{
+			"name": "Peacemaker I",
+			"uniqueTo": "The Wizard Council",
+			"cost": 1,
+			"uniques": ["Only available <starting from the [Classical era]> <in cities with a [Palace]>","Never destroyed when the city is captured",
+						"Free [Peacemaker Spell] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Peacemaker II",
+			"uniqueTo": "The Wizard Council",
+			"cost": 1,
+			"uniques": ["Only available <starting from the [Medieval era]> <in cities with a [Palace]>", "Never destroyed when the city is captured",
+						"Free [Peacemaker Spell] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Peacemaker III",
+			"uniqueTo": "The Wizard Council",
+			"cost": 1,
+			"uniques": ["Only available <starting from the [Renaissance era]> <in cities with a [Palace]>","Never destroyed when the city is captured",
+						"Free [Peacemaker Spell] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Peacemaker IV",
+			"uniqueTo": "The Wizard Council",
+			"cost": 1,
+			"uniques": ["Only available <starting from the [Industrial era]> <in cities with a [Palace]>", "Never destroyed when the city is captured",
+						"Free [Peacemaker Spell] appears", 
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Peacemaker V",
+			"uniqueTo": "The Wizard Council",
+			"cost": 1,
+			"uniques": ["Only available <starting from the [Modern era]> <in cities with a [Palace]>", "Never destroyed when the city is captured",
+						"Free [Peacemaker Spell] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Peacemaker VI",
+			"uniqueTo": "The Wizard Council",
+			"cost": 1,
+			"uniques": ["Only available <starting from the [Atomic era]> <in cities with a [Palace]>", "Never destroyed when the city is captured",
+						"Free [Peacemaker Spell] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Peacemaker VII",
+			"uniqueTo": "The Wizard Council",
+			"cost": 1,
+			"uniques": ["Only available <starting from the [Information era]> <in cities with a [Palace]>","Never destroyed when the city is captured",
+						"Free [Peacemaker Spell] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Peacemaker VIII",
+			"uniqueTo": "The Wizard Council",
+			"cost": 1,
+			"uniques": ["Only available <starting from the [Future era]> <in cities with a [Palace]>", "Never destroyed when the city is captured",
+						"Free [Peacemaker Spell] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+
 ]

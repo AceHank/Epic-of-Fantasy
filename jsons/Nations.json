@@ -196,7 +196,7 @@
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Roar of Victory",
-		"uniques": ["Upon capturing a city, receive [2] times its [Production] production as [Culture] immediately", "[+2 Happiness] from every [Courthouse]"], 
+		"uniques": ["Upon capturing a city, receive [3] times its [Production] production as [Culture] immediately", "[+2 Happiness] from every [Courthouse]"], 
 		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
 			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
 		"civilopediaText": [
@@ -885,6 +885,75 @@
 			{"text":"The Kobolds is a civilization consisted of Kobold, which is a rat-like mountain dweller creature. They are usually found at mines, tunnel, and any cave on mountainous terrain. They are good at digging and finding treasure under the ground."},
 			{"text":"The Kobolds has a good economic bonus from their national ability and unique improvement. They gain extra gold and culture from them."},
 			{"text":"Their unique unit is a Swordsman that doesn't require Iron, which is good for rushing. And comes with Drill I promotion to boot"},
+        ]
+	},
+	
+	//Zhu Xi of Fanrong Republic
+	{
+		"name": "Fanrong Republic",
+		"leaderName": "Zhu Xi",
+		"adjective": ["The Fanrongs"],
+		"startBias": ["Coast"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [240,200,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Abundance of Wealth",
+		"uniqueText": "+1 Gold from Coast\n+1 Culture from Lighthouse, Harbor, and Seaport",
+		"uniques": ["[+1 Gold] from every [Coast]",
+					"[+1 Culture] from every [Lighthouse]",
+					"[+1 Culture] from every [Harbor]",
+					"[+1 Culture] from every [Seaport]"],
+		"cities": ["Gwangjing","Fushu","Zhongging","Dong Zhe","Ba Chuan","Lauzhun","Dongguang","Chang Shi","Xinzhong","Huideguang","Jan Hai",
+			"Shijiang","Yunshan"],
+		"civilopediaText": [
+			{"text":"Fanrong Republic is a human nations. They are prosperous mercantile nation and is the center of trades."},
+			{"text":"Fanrong Republic has a good Culture output for cities that has coastal buildings. So make sure to settle on coastal to maximize its effect."},
+			{"text":"They gain access to Porcelain which for other civilization only available from City States. Make sure to use this advantage."},
+        ]
+	},
+	
+	//Eleanor of The Wizard Council
+	{
+		"name": "The Wizard Council",
+		"leaderName": "Eleanor",
+		"adjective": ["The Wizards"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [85,0,255],
+		"innerColor": [245,91,206],
+		"uniqueName": "Peacemaker Project",
+		"uniqueText": "Receive free Peacemaker Spell in capital every era\n+1 Science from every Shrine and Temple",
+		"uniques": ["[+1 Science] from every [Shrine]",
+					"[+1 Science] from every [Temple]"],
+		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
+			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"],
+		"civilopediaText": [
+			{"text":"The Wizard Council is a multi-racial civilization consisted of witch, wizard, warlock, and the likes of it."},
+			{"text":"Despite its Peacemaker name, they are quite good at warfare, thanks to it. Peacemaker Spell is basically a 'guided missile' that you can get from early on for free. They are not good for targeting cities, but can one shot pretty much any units."},
+			{"text":"Their unique units has a Besiege promotion which is not common for ranged unit as they can be stacked with Volley promotion for a whopping +100% Strength vs cities."},
         ]
 	},
 	

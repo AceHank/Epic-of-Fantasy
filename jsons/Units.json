@@ -368,13 +368,13 @@
 		"uniqueTo": "Necrontia",
 		"movement": 2,
 		"strength": 10,
-		"rangedStrength": 19,
+		"rangedStrength": 20,
 		"range": 2,
 		"cost": 120,
 		"requiredTech": "Theology",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Research Theology vs Machinery","May capture killed [Military] units <with [20]% chance>"],
+		"uniques": ["Research Theology vs Machinery","May capture killed [Military] units <with [75]% chance>"],
 		"attackSound": "arrow"
 	},
 	
@@ -647,6 +647,53 @@
 		"promotions": ["Drill I"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+	},
+	
+	//Fanrong Republic
+	{
+		"name": "Junk Ship",
+		"uniqueTo": "Fanrong Republic",
+		"replaces": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+		"promotions": ["Boarding Party I"],
+	},
+	
+	//The Wizard Council
+	{
+		"name": "Warlock",
+		"uniqueTo": "The Wizard Council",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["Besiege"],
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Peacemaker Spell",
+		"unitType": "Missile",
+		"uniqueTo": "The Wizard Council",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 10,
+		"cost": 1,
+		"uniques": ["Unbuildable", "[-90]% Strength <vs cities>", "[-100]% maintenance costs"],
+		"attackSound": "missile"
 	},
 	
 ]
