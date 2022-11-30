@@ -11,5 +11,6 @@
 # Icons
 * Unciv
 * Fantasia
+* RekMod
 * TheNounProject
 * FlatIcon
