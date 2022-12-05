@@ -315,7 +315,7 @@
 		"replaces": "National Epic",
 		"uniqueTo": "Necrontia",
 		"cost": 125,
-		"culture": 1,
+		"culture": 4,
 		"faith": 4,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city",
@@ -385,7 +385,7 @@
 		"uniqueTo": "Inquisitorial Illuminate",
 		"faith": 4,
 		"requiredBuilding": "Shrine",
-		"maintenance": 0,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
@@ -748,5 +748,43 @@
 						"Free [Peacemaker Spell] appears",
 						"Unsellable", "Will not be displayed in Civilopedia"]
 		},
-
+	
+	//Troll Tribes
+	{
+		"name": "Troll's Hut",
+		"uniqueTo": "Troll Tribes",
+		"replaces": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"uniques": ["[+2 Production] from [Camp] tiles [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+	
+	//Tauren Clan
+	{
+		"name": "Rite of Strength",
+		"uniqueTo": "Tauren Clan",
+		"replaces": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion"]
+	},
+	
+	//Scazari Hive
+	{
+		"name": "Spawning Pool",
+		"uniqueTo": "Scazari Hive",
+		"replaces": "Barracks",
+		"hurryCostModifier": 25,
+		"food": 2,
+		"maintenance": 1,
+		"specialistSlots": {"Spawner Drone": 2},
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "+2 Spawner Drone specialists (+1 Food +3 Culture from each)"],
+		"requiredTech": "Bronze Working"
+	},
 ]

@@ -48,7 +48,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["[-15]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["[-10]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -331,7 +331,7 @@
 		"uniqueTo": "Pyre Clan",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 24,
+		"strength": 22,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -391,7 +391,8 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"promotions": ["Protector of Realm"],
+		"uniques": ["Religious Unit"],
+		"promotions": ["Protector of Realm", "Divine Watch"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -416,7 +417,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 24,
-		"cost": 170,
+		"cost": 160,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
@@ -431,7 +432,7 @@
 		"uniques": ["Can construct [Clockwerk Temple] <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", "Will not be displayed in Civilopedia",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -450,7 +451,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"uniques": ["Can [Remove Foreign religions from your own cities] [2] times",],
+		"uniques": ["Can [Remove Foreign religions from your own cities] [2] times", "Religious Unit"],
 		"promotions": ["Divine Watch"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -503,6 +504,7 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
+		"promotions": ["Accuracy I"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
@@ -657,7 +659,7 @@
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 20,
-		"cost": 100,
+		"cost": 90,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
@@ -688,12 +690,62 @@
 		"unitType": "Missile",
 		"uniqueTo": "The Wizard Council",
 		"movement": 1,
-		"strength": 100,
-		"rangedStrength": 100,
-		"range": 10,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 15,
 		"cost": 1,
-		"uniques": ["Unbuildable", "[-90]% Strength <vs cities>", "[-100]% maintenance costs"],
+		"uniques": ["Unbuildable", "[+400]% Strength", "[-90]% Strength <vs cities>", "[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
 	
+	//Troll Tribes
+	{
+		"name": "Troll Headhunter",
+		"uniqueTo": "Troll Tribes",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["[Troll Headhunter] ability"],
+		"attackSound": "metalhit"
+	},
+	
+	//Tauren Clan
+	{
+		"name": "Tauren Totemwielder",
+		"uniqueTo": "Tauren Clan",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"promotions": ["[Tauren Totemwielder] ability"],
+		"attackSound": "metalhit"
+	},
+	
+	//Scazari Hive
+	{
+		"name": "Motaari",
+		"replaces": "Pikeman",
+		"uniqueTo": "Scazari Hive",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"promotions": ["[Motaari] ability"],
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
 ]

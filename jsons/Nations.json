@@ -22,8 +22,12 @@
 		"outerColor": [ 27, 53, 63]
 		"innerColor": [213,249,255],
 		"uniqueName": "Higba's Ingenuity",
-		"uniqueText": "+1 Production every 2 eras for cities settled on Hill\n+1 Science from every Strategic Resource",
+		"uniqueText": "+1 Production every 2 eras for cities settled on Hill\n+1 Science from every Strategic Resource\n+1 Production from every Strategic Resource improved with Mine",
 		"uniques": ["[+1 Science] from every [Strategic resource]",
+					"[+1 Production] from every [Mine] <in [Iron] tiles>",
+					"[+1 Production] from every [Mine] <in [Coal] tiles>",
+					"[+1 Production] from every [Mine] <in [Aluminum] tiles>",
+					"[+1 Production] from every [Mine] <in [Uranium] tiles>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]>",
@@ -68,7 +72,7 @@
 		"civilopediaText": [
 			{"text":"Drow Village is a Dark Elf civilization. They live inside caves on hilly desert. They are exiled Elf from their forest and seek refuge inside caves from the scorch of the sun. They seek revenge upon those who left them to their demise."},
 			{"text":"Drow Village can turn Desert tiles into essentially Plains tiles around its City Center. They are good at military."},
-			{"text":"Settle near Desert Hill and/or Oasis to maximize Drow Village's National Ability."},
+			{"text":"Settle near Desert Hill and/or Oasis to maximize Drow Village's unique Ability."},
         ]
 	},
 	
@@ -101,7 +105,7 @@
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
 			{"text":"Orc Horde is a warmonger Orc civilization. Warlord Rog led them by force. They are very ruthless and crude creature. Opting for improved weaponry and arsenal. Orc are very fast at breeding and thus they need more space by invading other civilization's land."},
-			{"text":"Orc Horde can spit an untold amount of units thanks to their NA. They are good at military."},
+			{"text":"Orc Horde can spit an untold amount of units thanks to their unique ability. They are good at military."},
 			{"text":"Prioritize moving melee units into range before attacking for the extra Flank Attack bonuses."},
         ]
 	},
@@ -196,7 +200,7 @@
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Roar of Victory",
-		"uniques": ["Upon capturing a city, receive [3] times its [Production] production as [Culture] immediately", "[+2 Happiness] from every [Courthouse]"], 
+		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Culture] immediately", "[+2 Happiness] from every [Courthouse]"], 
 		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
 			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
 		"civilopediaText": [
@@ -628,23 +632,23 @@
 		"tradeRequest": ".",
 		
 		"outerColor": [130,116,116],
-		"innerColor": [48,156,54],
+		"innerColor": [134,255,41],
 		"uniqueName": "Survival Instinct",
-		"uniqueText": "+50% Yield from every Land Improvement in Fresh Water tiles\n+15% Strength for Wounded units when defending"
+	//	"uniqueText": "+50% Yield from every Improvement in Fresh Water tiles\n+15% Strength for Wounded units when defending"
 		"uniques": ["[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>", "[+15]% Strength <for [Wounded] units> <when defending>"], 
 		"cities": ["Chauitzetl","Bhizzujix","Bhitta","Qraxl","Igriuchit","Chuttox","Quzdo","Ukeqax","Guxizo","Avretalis","Grinjoxxut","Sess",
 			"Ajiagzex","Zaetlis","Azus","Olzaro","Rhigris"],
 		"civilopediaText": [
 			{"text":"Lizardmen Tribe is a small nation consisted of several tribes into one nation. They are a group of Lizardmen race that lives on Fresh Water terrain. They are very good at maximizing output from Fresh Water lands."},
-			{"text":"Lizardmen Tribe has a good defensive capability with its National Ability and good economic bonus for Fresh Water tiles."},
+			{"text":"Lizardmen Tribe has a good defensive capability with its unique Ability and good economic bonus for Fresh Water tiles."},
 			{"text":"They are relentless at defending and its Unique Unit has good movement bonus on Fresh Water tiles."},
         ]
 	},
 	
-	//Bloodhoof of Centaur Tribes
+	//Grimhorn of Centaur Tribes
 	{
 		"name": "Centaur Tribes",
-		"leaderName": "Bloodhoof",
+		"leaderName": "Grimhorn",
 		"adjective": ["Centaurs"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
@@ -668,8 +672,8 @@
 		"cities": ["Konstan","Apios","Oretus","Stergeneus","Barbadia","Naesima","Depheis","Monolea","Kaselaia","Arganassa","Haiderine","Zeran",
 			"Erasandrou","Perridas","Thomeimon","Coleros","Eusantes"],
 		"civilopediaText": [
-			{"text":"Centaur Tribes is consisted from several Centaur packs. Led by Bloodhoof, strong warlike leader, Centaur Tribes conquer the plains at ease."},
-			{"text":"Centaur Tribes has good National Ability with +1 Movement providing a lot of flexibility for both military and economic purposes."},
+			{"text":"Centaur Tribes is consisted from several Centaur packs. Led by Grimhorn, strong warlike leader, Centaur Tribes conquer the plains at ease."},
+			{"text":"Centaur Tribes has good unique Ability with +1 Movement providing a lot of flexibility for both military and economic purposes."},
 			{"text":"They are particularly good at Plains tile where its Unique Building provide food from it."},
         ]
 	},
@@ -711,6 +715,7 @@
 		"leaderName": "Ironcrank",
 		"adjective": ["Gnomes"],
 		"startBias": ["Mountain"],
+		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -734,7 +739,7 @@
 			"Clockwerk City","Steeltown","Thermacog","Gears City","Windforge","Area Zero","Shocktek City"],
 		"civilopediaText": [
 			{"text":"Gnome Alliance is a gnomish civilization. They pursue scientific innovation and progress, one might say they're the brightest race of this world."},
-			{"text":"Gnome Alliance has a good Great Scientist generation thanks to its National Ability. Make sure to prioritize scientific building in your cities especially in the early game to start ramping up its Great Scientist points."},
+			{"text":"Gnome Alliance has a good Great Scientist generation thanks to its unique Ability. Make sure to prioritize scientific building in your cities especially in the early game to start ramping up its Great Scientist points."},
 			{"text":"They can harness Mountain tiles which other civilization deemed unworkable. Gnome Alliance's ornithopter flyer unique unit is good for rushing as it comes a little bit earlier than its counterpart."},
         ]
 	},
@@ -745,6 +750,7 @@
 		"leaderName": "Zephyr",
 		"adjective": ["Harpies"],
 		"startBias": ["Mountain"],
+		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -780,6 +786,7 @@
 		"leaderName": "Redleaf",
 		"adjective": ["Preservers"],
 		"startBias": ["Forest", "Jungle"],
+		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -813,7 +820,7 @@
 		"name": "The Titans",
 		"leaderName": "Mårg",
 		"adjective": ["Titans"],
-	//	"startBias": ["Mountain"],
+		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -883,7 +890,7 @@
 			"Silver Rock","Steel Mountain"],
 		"civilopediaText": [
 			{"text":"The Kobolds is a civilization consisted of Kobold, which is a rat-like mountain dweller creature. They are usually found at mines, tunnel, and any cave on mountainous terrain. They are good at digging and finding treasure under the ground."},
-			{"text":"The Kobolds has a good economic bonus from their national ability and unique improvement. They gain extra gold and culture from them."},
+			{"text":"The Kobolds has a good economic bonus from their unique ability and unique improvement. They gain extra gold and culture from them."},
 			{"text":"Their unique unit is a Swordsman that doesn't require Iron, which is good for rushing. And comes with Drill I promotion to boot"},
         ]
 	},
@@ -894,6 +901,7 @@
 		"leaderName": "Zhu Xi",
 		"adjective": ["The Fanrongs"],
 		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -918,7 +926,7 @@
 		"cities": ["Gwangjing","Fushu","Zhongging","Dong Zhe","Ba Chuan","Lauzhun","Dongguang","Chang Shi","Xinzhong","Huideguang","Jan Hai",
 			"Shijiang","Yunshan"],
 		"civilopediaText": [
-			{"text":"Fanrong Republic is a human nations. They are prosperous mercantile nation and is the center of trades."},
+			{"text":"Fanrong Republic is a human nation. They are prosperous mercantile nation and is the center of trades."},
 			{"text":"Fanrong Republic has a good Culture output for cities that has coastal buildings. So make sure to settle on coastal to maximize its effect."},
 			{"text":"They gain access to Porcelain which for other civilization only available from City States. Make sure to use this advantage."},
         ]
@@ -929,6 +937,7 @@
 		"name": "The Wizard Council",
 		"leaderName": "Eleanor",
 		"adjective": ["The Wizards"],
+		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -957,13 +966,118 @@
         ]
 	},
 	
+	//Jinzak of Troll Tribes
+	{
+		"name": "Troll Tribes",
+		"leaderName": "Jinzak",
+		"adjective": ["Trolls"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [ 66,59,59],
+		"innerColor": [255,178,72],
+		"uniqueName": "The Great Hunt",
+		"uniqueText": "Land units gain the Woodsman promotion\nReceive free Troll Headhunter when you discover Calendar, Trapping, and Bronze Working",
+		"uniques": ["[Land] units gain the [Woodsman] promotion",
+					"Receive free [Troll Headhunter] when you discover [Trapping]",
+					"Receive free [Troll Headhunter] when you discover [Calendar]",
+					"Receive free [Troll Headhunter] when you discover [Bronze Working]"],
+		"cities": ["Trezzahn","Zulabar","Nuenvan","Vinji","Jinthaiya","Alunja","Vinji","Usitutie","Zulrea","Khijazi","Kizi",
+			"Katzine","Girisha","Zuljin","Teza","Zulwatha"],
+		"civilopediaText": [
+			{"text":"Troll Tribes lives deep inside the jungle. They often come out from the jungle to hunt for humans. They eat humans for breakfast."},
+			{"text":"Troll Tribes has a solid early domination bonus after you discover first column techs. So prioritizing those techs is advised before you go to war."},
+			{"text":"Their unique building has a good production bonus but their unique unit require a bit of luck to be strong."},
+        ]
+	},
+	
+	//Silithar of Scazari Hive
+	{
+		"name": "Scazari Hive",
+		"leaderName": "Silithar",
+		"adjective": ["Scazarian"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [75,135,30],
+		"innerColor": [255,239,8],
+		"uniqueName": "We Are Billions",
+		"uniqueText": "+2 Production, +1 Happiness in all cities\n+5% Culture from every Food buildings",
+		"uniques": ["[+2 Production, +1 Happiness] [in all cities]", "[+5]% [Culture] from every [Food]"],
+		"cities": ["Vurl Raxl","Aklac","Raxibb","Ypaccib","Avixail","Haxizabb","Tymcrix","Oxocodolf","Varlinaca","Lobbtika","Ufpol",
+			"Laxtric","Nobhax","Pomic Krac","Leexidanaca","Crumtica"],
+		"civilopediaText": [
+			{"text":"Scazari Hive is a sentient hive-minded insectoid civilization. They have mantis-like appearance. Scazarian are able to telepathically communicate with their Queen directly. They are just seeking to breed their own species to ensure survival of the colony"},
+			{"text":"Scazari Hive has a solid economic bonus from its unique ability. Countering the unhappiness from every city built."},
+			{"text":"Their unique building has a good specialist that produces Food and Culture (which doesn't consume food for some reason). And their unique unit has a very good defensive bonus."},
+        ]
+	},
+	
 	/*
+	//Bloodhoof of Tauren Clan
+	{
+		"name": "Tauren Clan",
+		"leaderName": "Bloodhoof",
+		"adjective": ["Taurens"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [84, 43, 11],
+		"innerColor": [12,242,189],
+		"uniqueName": "Grimhorn's Nemesis",
+		"uniques": ["[+1 Gold, +1 Faith] from every [Farm] <in [Grassland] tiles>",
+					"[+33]% XP gained from combat"],
+		"cities": ["Thunderbluff","Bloodroar","Softsinger","Gloomblend","Rainhide","Threeforest","Proudhorn","Mistshot","Wintertotem","Truthwood","Ragewalker",
+			"Thundertusk","Swiftwinds","Suntotem","Wheatmane","Dawnrunner"],
+		"civilopediaText": [
+			{"text":"Tauren Clan is a Tauren civilization, which is a Minotaur-like, bottom-half human and upper-half bull, creature from Warcraft lore. They are constantly at war with the Centaur Tribes, contesting the same plains and grasslands to feed on."},
+			{"text":"Tauren Clan's unit are particularly good at warfare thanks to its unique ability gaining extra experience from every combat."},
+			{"text":"And their unique building also boost Tauren Clan's unit's capabilities with a free promotion."},
+        ]
+	},
+	
 	//The Walrus People
 	{
 		"name": "The Walrus People",
 		"leaderName": "Yurr",
 		"adjective": ["Walrus People"],
 		"startBias": ["Tundra"],
+		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",

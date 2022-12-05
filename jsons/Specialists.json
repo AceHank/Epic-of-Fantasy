@@ -1,8 +1,17 @@
 [
+	//Vigilo Order
 	{
 		"name":"Alchemist",
 		"science":3,
 		"greatPersonPoints": {"Great Scientist":4},
 		"color": [0,0,255]
+	},
+	
+	//Scazari Hive
+	{
+		"name":"Spawner Drone",
+		"food": 1,
+		"culture": 3,
+		"color": [0,255,34]
 	},
 ]

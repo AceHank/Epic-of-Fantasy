@@ -1,6 +1,6 @@
 [
+	/*
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ANTI ERROR MEASURE STARTS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
@@ -763,158 +763,139 @@
     }
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ANTI ERROR MEASURE ENDS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	*/
 	
 	//Dwarven Kingdom~~~~~~~
 	{
 		"name": "Construct",
-		"uniques": ["[+25]% Strength <when defending>"],
-	//	"column": 27,
-    //    "row": 0
+		"uniques": ["[+25]% Strength <when defending>"]
 	},
 	{
 		"name": "Exposed Core",
-		"uniques": ["[+50]% Strength <when below [40] HP>"],
-	//	"column": 28,
-    //    "row": 0
+		"uniques": ["[+50]% Strength <when below [40] HP>"]
 	},
 	
 	//Drow Village~~~~~~~
 	{
 		"name": "Elusive",
-		"uniques": ["May withdraw before melee ([66]%)"],
-	//	"column": 29,
-    //    "row": 0
+		"uniques": ["May withdraw before melee ([66]%)"]
 	},	
 	{
 		"name": "Vengeful",
-		"uniques": ["[+15]% Strength <when below [100] HP>"],
-	//	"column": 30,
-    //    "row": 0
+		"uniques": ["[+15]% Strength <when below [100] HP>"]
 	},	
 	
 	//Uldra~~~~~~~
 	{
 		"name": "Snowman",
 		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
-					"[+25]% Strength <when fighting in [Tundra] tiles>"],
-	//	"column": 31,
-    //    "row": 0
+					"[+25]% Strength <when fighting in [Tundra] tiles>"]
 	},	
 	
 	//Merfolk Council~~~~~~~
 	{
 		"name": "Floating City Builder",
-		"uniques": ["Can construct [Floating City]"],
-	//	"column": 32,
-    //    "row": 0
+		"uniques": ["Can construct [Floating City]"]
 	},	
 	
 	//Beastmen Empire~~~~~~~
 	{
 		"name": "Intimidation",
-		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
-	//	"column": 33,
-    //    "row": 0
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"]
 	},
 	
 	//Argonautian States~~~~~~~
 	{
 		"name": "Agoge",
-		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>", "Earn [33]% of killed [Military] unit's [Strength] as [Culture]"],
-	//	"column": 34,
-    //    "row": 0
+		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>", "Earn [33]% of killed [Military] unit's [Strength] as [Culture]"]
 	},
 	{
 		"name": "Heroic General",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"],
-	//	"column": 35,
-    //    "row": 0
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
 	},
 	{
 		"name": "Impetus",
-		"uniques": ["[+25]% Strength <when attacking> <when above [99] HP>"],
-	//	"column": 36,
-	//	"row": 0
+		"uniques": ["[+25]% Strength <when attacking> <when above [99] HP>"]
 	},
 	{
 		"name": "Bloodbath",
-		"uniques": ["Heals [33] damage if it kills a unit"],
-	//	"column": 37,
-    //    "row": 0
+		"uniques": ["Heals [33] damage if it kills a unit"]
 	},
 	{
 		"name": "Warbanner",
-		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
-	//	"column": 38,
-    //    "row": 0
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"]
 	},
 	{
 		"name": "Ignores ZOC",
-		"uniques": ["Ignores Zone of Control"],
-	//	"column": 39,
-    //    "row": 0
+		"uniques": ["Ignores Zone of Control"]
 	},
 	
 	//Pyre Clan~~~~~~~
 	{
 		"name": "Decaying Aura",
-		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
-	//	"column": 40,
-    //    "row": 0
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"]
 	},
 	
 	//High Elf Concordat~~~~~~~
 	{
 		"name": "Zealotry",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
-	//	"column": 41,
-    //    "row": 0
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"]
 	},
 	
 	//Necrontia~~~~~~~
 	{
 		"name": "Sacrifice",
-		"uniques": ["Gain [15] [Culture] <by consuming this unit>"],
-	//	"column": 42,
-    //    "row": 0
+		"uniques": ["Gain [15] [Culture] <by consuming this unit>"]
 	},
 	
 	//Sacred Sun Theocracy~~~~~~~
 	{
 		"name": "Protector of Realm",
-		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
-	//	"column": 43,
-    //    "row": 0
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]
 	},
 	
 	//Inquisitorial Illuminate~~~~~~~
 	{
 		"name": "Divine Watch",
-		"uniques": ["Prevents spreading of religion to the city it is next to"],
-	//	"column": 44,
-    //    "row": 0
+		"uniques": ["Prevents spreading of religion to the city it is next to"]
 	},
 	
 	//Lizardmen Tribes~~~~~~~
 	{
 		"name": "Amphibious II",
-		"uniques": ["Double movement in [Fresh Water]"],
-	//	"column": 45,
-    //    "row": 0
+		"uniques": ["Double movement in [Fresh Water]"]
 	},
 	
 	//Harpies Tribe
 	{
 		"name": "[Stormwing] ability",
-		"uniques": ["Ranged attacks may be performed over obstacles"],
-	//	"column": 46,
-    //    "row": 0
+		"uniques": ["Ranged attacks may be performed over obstacles"]
 	},
 	{
 		"name": "Harpy",
-		"uniques": ["Can pass through impassable tiles"],
-	//	"column": 47,
-    //    "row": 0
+		"uniques": ["Can pass through impassable tiles"]
 	},
 	
+	//Troll Tribes
+	{
+		"name": "[Troll Headhunter] ability",
+		"uniques": ["[+50]% Strength <with [50]% chance>"]
+	},
+	
+	//Tauren Clan
+	{
+		"name": "Strengths",
+		"uniques": ["[+10]% Strength <when attacking>"]
+	},
+	{
+		"name": "[Tauren Totemwielder] ability",
+		"uniques": ["All adjacent units heal [+10] HP when healing"]
+	},
+	
+	//Scazari Hive
+	{
+		"name": "[Motaari] ability",
+		"uniques": ["[+25]% Strength <when defending>", "[+10] HP when healing"]
+	},
+
 ]
