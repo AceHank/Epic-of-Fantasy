@@ -135,7 +135,10 @@
 		"techRequired": "Engineering",
 		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%", "[+2 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>", "Improvement", "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>"]
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%", "[+2 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>", "Improvement", "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>"],
+		"civilopediaText": [
+			{"text": "A crude barricade made from what's available on the battlefield."},
+        ]
 	},
 	
 	//Merfolk Council
@@ -145,7 +148,10 @@
 		"production": 1,
 		"techRequired": "Optics",
 		"terrainsCanBeBuiltOn": ["Ocean", "Coast"],
-		"uniques": ["Improvement", "[+1 Gold] <after discovering [Guilds]>", "[+2 Culture] <with [1] to [6] neighboring [Water resource] tiles>"]
+		"uniques": ["Improvement", "[+1 Gold] <after discovering [Guilds]>", "[+2 Culture] <with [1] to [6] neighboring [Water resource] tiles>"],
+		"civilopediaText": [
+			{"text": "THe Merfolk often has cities on the sea surface."},
+        ]
 	},
 	
 	//Argonautian States

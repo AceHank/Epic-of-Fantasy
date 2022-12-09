@@ -797,6 +797,16 @@
 		"name": "Floating City Builder",
 		"uniques": ["Can construct [Floating City]"]
 	},	
+	{
+		"name": "Water Creature",		//TLDR: yes water good, no water bad
+		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <with [0] to [0] neighboring [Coast] tiles>",
+					"[+15]% Strength <when fighting in [Land] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+					"[+1] Movement <in [Fresh Water] tiles> <with [0] to [0] neighboring [Coast] tiles>",
+					"[-1] Movement <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>",
+				//	"[+15]% Strength <when fighting in [Coast] tiles>","[+1] Movement <in [Coast] tiles>",
+					"Normal vision when embarked","Defense bonus when embarked",
+					"Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river"]
+	},
 	
 	//Beastmen Empire~~~~~~~
 	{
@@ -855,10 +865,6 @@
 	},
 	
 	//Inquisitorial Illuminate~~~~~~~
-	{
-		"name": "Divine Watch",
-		"uniques": ["Prevents spreading of religion to the city it is next to"]
-	},
 	
 	//Lizardmen Tribes~~~~~~~
 	{
@@ -885,17 +891,57 @@
 	//Tauren Clan
 	{
 		"name": "Strengths",
-		"uniques": ["[+10]% Strength <when attacking>"]
+		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	{
-		"name": "[Tauren Totemwielder] ability",
-		"uniques": ["All adjacent units heal [+10] HP when healing"]
+		"name": "Courage",
+		"uniques": ["[+30]% Strength <when below [50] HP>", "Only available <for units with [Strengths]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Honor",
+		"uniques": ["[+20]% Strength <when adjacent to a [Melee] unit>", "Only available <for units with [Strengths]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Winds",
+		"uniques": ["May withdraw before melee ([66]%)", "Only available <for units with [Strengths]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Vision",
+		"uniques": ["[+15]% to Flank Attack bonuses", "Only available <for units with [Strengths]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Wisdom",
+		"uniques": ["[+25]% Strength <when defending>","[+10] HP when healing", "Only available <for units with [Strengths]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
 	},
 	
 	//Scazari Hive
 	{
 		"name": "[Motaari] ability",
 		"uniques": ["[+25]% Strength <when defending>", "[+10] HP when healing"]
+	},
+	
+	//The Walrus People
+	{
+		"name": "[Tuskarr] ability",
+		"uniques": ["May capture killed [Barbarian] units <with [75]% chance>"]
+	},
+	
+	
+	
+	
+	//Mixed
+	{
+		"name": "Healer",
+		"uniques": ["All adjacent units heal [+10] HP when healing"]
+	},
+	{
+		"name": "Divine Watch",
+		"uniques": ["Prevents spreading of religion to the city it is next to"]
 	},
 
 ]

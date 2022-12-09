@@ -15,7 +15,10 @@
 		"promotions": ["Exposed Core"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A construct made of Orichalcum. Its sturdiness exceeds that of a Diamond. This makes the golem a formidable foe in the battlefield."},
+        ]
 	},
 	
 	//Drow Village
@@ -33,7 +36,10 @@
 		"promotions": ["Elusive"],
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Notorious for its agility and nimble movements, Bladedancer is an elusive target to hit. They move like a wind."},
+        ]
 	},
 	
 	//Orc Horde
@@ -50,7 +56,10 @@
 		"obsoleteTech": "Steel",
 		"uniques": ["[-10]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A crude yet effective monster, a menace to those who dare to oppose. Swings hammer like no other. Prepare to be brutalized."},
+        ]
 	},
 	
 	//Uldra
@@ -66,7 +75,10 @@
 		"obsoleteTech": "Steel",
 		"promotions": ["Snowman"],
 		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A giant tamed and trained to be a tool of warfare. The Uldras capture and trains these natural predator easily."},
+        ]
 	},
 	
 	//Merfolk Council
@@ -83,7 +95,10 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A giant creature that lurks the deep sea. Developed a mutual symbiotic relationship with the Merfolks, these monster of the sea will help them defend its territory. Or conquer others."},
+        ]
 	},
 	
 	//Beastmen Empire
@@ -95,7 +110,10 @@
 		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"promotions": ["Intimidation"],
-		"movement": 4
+		"movement": 4,
+		"civilopediaText": [
+			{"text": "The sound from a Wardrummer will intimidate its foe, while improving the morale of the Beastmen. The sounds of destruction and untold battlefield gore."},
+        ]
 	},
 	{
 		"name": "Wyvern Rider",
@@ -113,7 +131,10 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Beastmen Empire's aerial force consisted of Wyvern Rider. A dragon-like creature tamed and ridden, proved effective for war."},
+        ]
 	},
 	
 	//Elven Kingdom
@@ -130,10 +151,13 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Elves are famous for their archery. Especially the Ranger. Strong at both swordmanship and archery, their skills are invaluable at the battlefield."},
+        ]
 	},
 	
-	//Orz'athoth of Children of Deep Dweller
+	//Children of Deep Dweller
 	{
 		"name": "Deep One",
 		"uniqueTo": "Children of Deep Dweller",
@@ -141,11 +165,14 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
-		"cost": 46,
+		"cost": 48,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>"],
 		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Horror creature from the abysmal sea. Surfaced from the prayer and calling of the Cultist."},
+        ]
 	},
 	
 	//Dragonborn Union
@@ -162,7 +189,10 @@
 		"uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Dragonoid which has been going through rigorous training will declared a knight."},
+        ]
 	},
 	{
 		"name": "Gryphon",
@@ -178,7 +208,10 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can pass through impassable tiles", "Ignores terrain cost"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "A hybrid monster of Eagle and Lion, tamed and trained to be a valuable assets on the battlefield."},
+        ]
 	},
 	
 	//Vigilo Order
@@ -189,7 +222,10 @@
 		"movement": 2,
 		"promotions": ["Medic", "Medic II"],
 		"requiredTech": "Guilds",
-		"cost": 90
+		"cost": 90,
+		"civilopediaText": [
+			{"text": "Master of alchemy, using their knowledge to cure the wounded in battlefield, a Potionist."},
+        ]
 	},
 	
 	//Argonautian States
@@ -208,7 +244,10 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Agoge"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Trained since children, with the States' Agoge policy, Peltast is the main infantry for Argonautian States."},
+        ]
 	},
 	{
 		"name": "Sarissa Hippeus",
@@ -225,7 +264,10 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"promotions": ["Agoge", "Impetus"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Trained since Children with the State's Agoge policy, Sarissa Hippeus charge the enemy with their horse and spear with great courage."},
+        ]
 	},
 		//Heroic Generals
 		{
@@ -340,6 +382,9 @@
 		"promotions": ["Decaying Aura"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
+		"civilopediaText": [
+			{"text": "A creature from hell, the guardian of hell, a creature of four-legged demon with huge body. A menace to society."},
+        ]
 	},
 	
 	//High Elf Concordat
@@ -358,6 +403,9 @@
 		"promotions": ["Zealotry"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "A devout follower of the High Elven doctrine, a Zealot will charge through the battlefield with great vigor."},
+        ]
 	},
 	
 	//Necrontia
@@ -375,7 +423,10 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"uniques": ["Research Theology vs Machinery","May capture killed [Military] units <with [75]% chance>"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A high-ranking undead, an undead of great intelligence, master of necromancy, a Lich will ressurect its killed enemies to serve them."},
+        ]
 	},
 	
 	//Sacred Sun Theocracy
@@ -394,7 +445,10 @@
 		"uniques": ["Religious Unit"],
 		"promotions": ["Protector of Realm", "Divine Watch"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A fanatic of the religion, will defend its country and religion to death."},
+        ]
 	},
 	
 	//Nature's Keeper
@@ -406,7 +460,10 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"promotions": ["Woodsman"],
-		"cost": 50
+		"cost": 50,
+		"civilopediaText": [
+			{"text": "An anthromorphic tree, a tree that has developed sentient. Comes to live to help their Keeper defend the forest."},
+        ]
 	},
 	
 	//Clockwerk Church
@@ -422,7 +479,10 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["Cover I", "Survivalism I"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "A human with far too many clockwerk attached, a machine-infested human. Willingly modify their body so they can be closer to the Broken God. A human far beyond recognition."},
+        ]
 	},	
 	{
 		"name": "Priest of Cog",
@@ -435,7 +495,10 @@
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", "Will not be displayed in Civilopedia",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
-		"religiousStrength": 1000
+		"religiousStrength": 1000,
+		"civilopediaText": [
+			{"text": "A high-ranking priest in the Cult of Broken God."},
+        ]
 	},
 	
 	//Inquisitorial Illuminate
@@ -454,7 +517,10 @@
 		"uniques": ["Can [Remove Foreign religions from your own cities] [2] times", "Religious Unit"],
 		"promotions": ["Divine Watch"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Devout and fanatic follower of the religion. Specialize both in religion and war. They also fill the role of Inquisitor while being able to go to war."},
+        ]
 	},
 	
 	//Lizardmen Tribes
@@ -471,7 +537,10 @@
 		"obsoleteTech": "Steel",
 		"promotions": ["Amphibious", "Amphibious II"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A special unit of the Lizardmen Tribes. Adept at amphibious terrain."},
+        ]
 	},
 	
 	//Centaur Tribes
@@ -489,7 +558,10 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Charge"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "From the many tribes of Centaur, their Warchief status is earned by proving one's strength."},
+        ]
 	},
 	
 	//Shinso
@@ -506,7 +578,10 @@
 		"obsoleteTech": "Machinery",
 		"promotions": ["Accuracy I"],
 		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A practioner of the art Onmyodo, a master of yin yang."},
+        ]
 	},
 	{
 		"name": "Tsukaima",
@@ -522,7 +597,10 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"promotions": ["Mobility I"],
 		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A familiar. A creature summoned by the Onmyoji to serve."},
+        ]
 	},
 	
 	//Gnome Alliance
@@ -541,23 +619,10 @@
 		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
 		"uniques": ["Research Steam Power vs Flight"],
-		"attackSound": "bombing"
-	},
-	
-	//The Walrus People
-	{
-		"name": "Tuskarr",
-		"replaces": "Spearman",
-		"uniqueTo": "The Walrus People",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 13,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "May capture killed [Barbarian] units <with [66]% chance>"],
-		"attackSound": "metalhit"
+		"attackSound": "bombing",
+		"civilopediaText": [
+			{"text": "Earliest record of flying vehicle is achieved by the Gnomes. Using steam power on its engine, they require Coal to be used."},
+        ]
 	},
 	
 	//Harpies Tribe
@@ -596,7 +661,10 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Indirect Fire"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "An elite group of the Harpies, they are able to fly far and high to aim their target with magic from a height advantage anywhere."},
+        ]
 	},
 	
 	//Gaia Preserver
@@ -612,7 +680,10 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Invisible to non-adjacent units"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "The protector of woods. Serves both as protector and attendant of the Forest. Grovetender is a master at camouflage."},
+        ]
 	},
 	
 	//The Titans
@@ -630,7 +701,10 @@
 		"obsoleteTech": "Steel",
 		"promotions": ["Blitz"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A giant so big that you can only see their legs. Or at least what is told across the lands."},
+        ]
 	},
 	
 	//The Kobolds
@@ -648,7 +722,10 @@
 		"obsoleteTech": "Steel",
 		"promotions": ["Drill I"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A taskmaster on a Mine, their ruthless attitude towards the worker has earned them a notorius reputation."},
+        ]
 	},
 	
 	//Fanrong Republic
@@ -667,6 +744,9 @@
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 		"promotions": ["Boarding Party I"],
+		"civilopediaText": [
+			{"text": "A type of Chinese sailing ship with fully battened sails. Famous for their easy to produce frame."},
+        ]
 	},
 	
 	//The Wizard Council
@@ -683,7 +763,10 @@
 		"upgradesTo": "Gatling Gun",
 		"promotions": ["Besiege"],
 		"obsoleteTech": "Industrialization",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A master of the arcane, Warlock can use a spell or two to raze a city easily."},
+        ]
 	},
 	{
 		"name": "Peacemaker Spell",
@@ -695,7 +778,10 @@
 		"range": 15,
 		"cost": 1,
 		"uniques": ["Unbuildable", "[+400]% Strength", "[-90]% Strength <vs cities>", "[-100]% maintenance costs"],
-		"attackSound": "missile"
+		"attackSound": "missile",
+		"civilopediaText": [
+			{"text": "Strategic-type spell that only used in emergency. A very strong spell but limited by its long preparation. Only a limit amount of the are cast along the Wizard Council's history."},
+        ]
 	},
 	
 	//Troll Tribes
@@ -712,25 +798,12 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["[Troll Headhunter] ability"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Elite squad of the Troll, infamous for their maniacal interests in eating human's head. They has a 50% headshot rate."},
+        ]
 	},
 	
-	//Tauren Clan
-	{
-		"name": "Tauren Totemwielder",
-		"uniqueTo": "Tauren Clan",
-		"replaces": "Longswordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 24,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"promotions": ["[Tauren Totemwielder] ability"],
-		"attackSound": "metalhit"
-	},
 	
 	//Scazari Hive
 	{
@@ -746,6 +819,70 @@
 		"upgradesTo": "Lancer",
 		"promotions": ["[Motaari] ability"],
 		"obsoleteTech": "Metallurgy",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Particularly strong Mantis are assigned to be the guard for the Queen. A replaceable component for the Hive."},
+        ]
 	},
+	
+	//Tauren Clan
+	{
+		"name": "Tauren Totemwielder",
+		"uniqueTo": "Tauren Clan",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"promotions": ["Healer"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Wield Totem as its weapon, this Tauren can both hurt enemies and heal allies with their Totem prayer."},
+        ]
+	},
+	
+	//Nerubian Kingdom
+	{
+		"name": "Nerubian Weaver",
+		"unitType": "Archery",
+		"uniqueTo": "Nerubian Kingdom",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 8,
+		"cost": 48,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"promotions": ["Accuracy I","Barrage I"],
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Elite unit of the Nerubian Kingdom, the Weaver is a web-spewing giant arachnid that easily disarm its foes."},
+        ]
+	},
+	
+	//The Walrus People
+	{
+		"name": "Tuskarr",
+		"replaces": "Spearman",
+		"uniqueTo": "The Walrus People",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["[Tuskarr] ability"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Hunter of the Walrus People, a master of the harpoon, they hunt beast effectively. And hunt their enemies while at it."},
+        ]
+	},
+	
 ]

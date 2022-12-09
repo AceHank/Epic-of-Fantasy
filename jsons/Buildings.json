@@ -23,7 +23,10 @@
 		"percentStatBonus": {"science": 50, "production": 10},
 		"uniques": ["Must be next to [Mountain]", 
 					"[+1 Science] from [Mine] tiles [in this city]"],
-		"requiredTech": "Astronomy"
+		"requiredTech": "Astronomy",
+		"civilopediaText": [
+			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
+        ]
 	},
 	
 	//Drow Village
@@ -35,7 +38,10 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [25] Experience [in this city]"],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Bronze Working",
+		"civilopediaText": [
+			{"text": "Drow trains to the death in this place."},
+        ]
 	},
 	
 	//Uldra
@@ -46,7 +52,10 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[60]% Food is carried over after population increases [in this city]", "[+1 Production] from [Tundra] tiles [in this city]"],
-		"requiredTech": "Engineering"
+		"requiredTech": "Engineering",
+		"civilopediaText": [
+			{"text": "A place for storage, both food and non-food. To protect it from the harsh cold of the arctic."},
+        ]
 	},
 	{
 		"name": "TundraFreePop",
@@ -85,7 +94,10 @@
 		"faith": 1,
 		"isNationalWonder": true,
 		"uniques": ["[+2 Culture, +1 Faith] from each Trade Route"],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Civil Service",
+		"civilopediaText": [
+			{"text": "A tree sprout from the fallen body of the first Elven born. Ancestor Tree is a sacred site for the Elven Kingdom."},
+        ]
 	},
 	
 	//Orz'athoth of Children of Deep Dweller
@@ -97,7 +109,10 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [10] Experience [in this city]"]
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [10] Experience [in this city]"],
+		"civilopediaText": [
+			{"text": "Monument for the Old God. An altar of worship."},
+        ]
 	},
 	
 	//Vigilo Order
@@ -111,7 +126,10 @@
 		"specialistSlots": {"Alchemist": 3},
 		"requiredBuilding": "Library",
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist Specialist slots (+4 Great Scientist Point from each)"],
-		"requiredTech": "Education"
+		"requiredTech": "Education",
+		"civilopediaText": [
+			{"text": "A place to learn for young alchemist."},
+        ]
 	},
 	
 	//Argonautian States
@@ -181,8 +199,11 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city", "[+50]% Production when constructing [{Military} {Land}] units [in this city]", "[+1] Movement <during a Golden Age>", "[+1] Sight <during a Golden Age>"],
-		"requiredTech": "Iron Working"
+			"Cost increases by [30] per owned city", "[+50]% Production when constructing [{Military} {Land}] units [in this city]", "[+1] Movement <for [All] units> <during a Golden Age>", "[+1] Sight <for [All] units> <during a Golden Age>"],
+		"requiredTech": "Iron Working",
+		"civilopediaText": [
+			{"text": "A rift opened from the other dimension. The Demons managed to breach through it and invade this dimension with untold amount of them."},
+        ]
 	},
 	
 	//High Elf Concordat
@@ -195,7 +216,10 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+2 Science] per [7] population [in this city]"]
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+2 Science] per [7] population [in this city]"],
+		"civilopediaText": [
+			{"text": "Tower of learning, the High Elves learn and develop arcane arts in here."},
+        ]
 	},
 		
 		//Free Pantheon
@@ -320,7 +344,10 @@
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city",
 					"[Civilian] units gain the [Sacrifice] promotion"],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Drama and Poetry",
+		"civilopediaText": [
+			{"text": "Throne made from skulls and skeletons. A throne to be worshipped."},
+        ]
 	},
 	
 	//Sacred Sun Theocracy
@@ -333,7 +360,10 @@
 		"happiness": 2,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities", "Can be built on your own cities"],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Mathematics",
+		"civilopediaText": [
+			{"text": "Infamous for their extreme law, Holy Tribunal is a place where Sacred Sun Theocracy judge the criminal with extreme prejudices. And all non-humans are criminal."},
+        ]
 	},
 	
 	//Nature's Keeper
@@ -607,31 +637,12 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+3 Science, +3 Production] from [Mountain] tiles [in all cities]"],
-		"requiredTech": "Machinery"
+		"requiredTech": "Machinery",
+		"civilopediaText": [
+			{"text": "The royal inventors of the Gnomish Alliance will come together every once a year to discuss and share their newest invention."},
+        ]
 	},
 	
-	
-	//The Walrus People
-	{
-		"name": "Snow Free Settler",
-		"uniqueTo": "The Walrus People",
-		"maintenance": 0,
-		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia","Never destroyed when the city is captured",
-					"Free [Settler] appears"]
-	},
-	{
-		"name": "Frosten Theater",
-		"uniqueTo": "The Walrus People",
-		"replaces": "Amphitheater",
-		"culture": 3,
-		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured", "[+1 Culture] per [3] population [in this city]"],
-		"requiredTech": "Drama and Poetry"
-	},
 	
 	//Gaia Preserver
 	{
@@ -655,7 +666,10 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"],
-		"requiredTech": "Construction"
+		"requiredTech": "Construction",
+		"civilopediaText": [
+			{"text": "The Titans has a tradition of fighting for entertainment. Even though it has 'Blood' in the name, the Arena of Blood outlaw the act of killing and incapacitating in the Arena."},
+        ]
 	},
 	
 	//Fanrong Republic
@@ -668,7 +682,10 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city", "Provides [3] [Porcelain]"],
-		"requiredTech": "Guilds"
+		"requiredTech": "Guilds",
+		"civilopediaText": [
+			{"text": "Fanrong Republic is famous for their Porcelain. Industry of Porcelain as its main commodity,"},
+        ]
 	},
 	
 	//The Wizard Council
@@ -680,7 +697,10 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Theology",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "Only available <in cities with a [Library]>", "Only available <in cities with a [Temple]>"]
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "Only available <in cities with a [Library]>", "Only available <in cities with a [Temple]>"],
+		"civilopediaText": [
+			{"text": "Place where magic scrolls and text are safe-guarded."},
+        ]
 	},
 	
 		//Peacemaker Spell
@@ -763,17 +783,6 @@
 		"requiredTech": "Metal Casting"
 	},
 	
-	//Tauren Clan
-	{
-		"name": "Rite of Strength",
-		"uniqueTo": "Tauren Clan",
-		"replaces": "Shrine",
-		"faith": 1,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion"]
-	},
 	
 	//Scazari Hive
 	{
@@ -785,6 +794,64 @@
 		"maintenance": 1,
 		"specialistSlots": {"Spawner Drone": 2},
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "+2 Spawner Drone specialists (+1 Food +3 Culture from each)"],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Bronze Working",
+		"civilopediaText": [
+			{"text": "Place where new Scazari are bred. A place where the eggs laid by their Queen are kept and protected. A spawner drone will hatch the laid eggs."},
+        ]
 	},
+	
+	//Tauren Clan
+	{
+		"name": "Rites of the Earthmother",
+		"uniqueTo": "Tauren Clan",
+		"replaces": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion"],
+		"civilopediaText": [
+			{"text": "A special rites for the Tauren to prove their worth. Consisted of six rites. Rite of Strength, Courage, Honor, the Winds, Vision and Wisdom. Unit with Strengths promotion will gain access to 5 other promotions."},
+        ]
+	},
+	
+	//The Walrus People
+	{
+		"name": "Snow Free Settler",
+		"uniqueTo": "The Walrus People",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia","Never destroyed when the city is captured",
+					"Free [Settler] appears"]
+	},
+	{
+		"name": "Frosten Theater",
+		"uniqueTo": "The Walrus People",
+		"replaces": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+2 Culture] per [5] population [in this city]"],
+		"requiredTech": "Drama and Poetry"
+	},
+	
+	//Nerubian Kingdom
+	{
+		"name": "Ziggurat Fortress",
+		"uniqueTo": "Nerubian Kingdom",
+		"replaces": "Castle",
+		"cost": 120,
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured", "[+1 Science] from [Tundra] tiles [in this city]"],
+		"civilopediaText": [
+			{"text": "Ancient fortress of the Nerubian. Contain a lot of lost knowledge of the past."},
+        ]
+	},
+	
 ]
