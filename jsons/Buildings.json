@@ -854,4 +854,55 @@
         ]
 	},
 	
+	//Lyrian Kingdom
+	{
+		"name": "Bulwark",
+		"uniqueTo": "Lyrian Kingdom",
+		"replaces": "Walls",
+	//	"cityStrength": 5
+		"cityHealth": 150,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured", 
+					"[+1 Culture] <starting from the [Classical era]>", 
+					"[+1 Culture] <starting from the [Renaissance era]>", 
+					"[+1 Culture] <starting from the [Modern era]>", 
+					"[+1 Culture] <starting from the [Information era]>"],
+		"civilopediaText": [
+			{"text": "Walls so tall, so wonderful, decorated with ornaments, a beautiful protective layer for the Lyrian people."},
+        ]
+	},
+	
+	//Holy Lunar Theocracy
+	{
+		"name": "Aspect of the Moon",
+		"uniqueTo": "Holy Lunar Theocracy",
+		"replaces": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+1 Faith, +1 Science] from every specialist [in this city]"],
+		"civilopediaText": [
+			{"text": "Holy Lunar reveals to those who are deemed worthy."},
+        ]
+	},
+		{
+			"name": "Free Great Prophet",
+			"uniqueTo": "Holy Lunar Theocracy",
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Palace]> <in cities with a [Aspect of the Moon]>","Never destroyed when the city is captured",
+						"Free [Great Prophet] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Free Great Scientist",
+			"uniqueTo": "Holy Lunar Theocracy",
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Palace]>", "Can only be built [in all cities with a world wonder]", "Never destroyed when the city is captured",
+						"Free [Great Scientist] appears",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+	
 ]

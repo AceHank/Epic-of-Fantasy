@@ -777,10 +777,6 @@
 	
 	//Drow Village~~~~~~~
 	{
-		"name": "Elusive",
-		"uniques": ["May withdraw before melee ([66]%)"]
-	},	
-	{
 		"name": "Vengeful",
 		"uniques": ["[+15]% Strength <when below [100] HP>"]
 	},	
@@ -931,6 +927,11 @@
 		"uniques": ["May capture killed [Barbarian] units <with [75]% chance>"]
 	},
 	
+	//Holy Lunar Theocracy
+	{
+		"name": "Conqueror of Realm",
+		"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
+	},
 	
 	
 	
@@ -941,7 +942,11 @@
 	},
 	{
 		"name": "Divine Watch",
-		"uniques": ["Prevents spreading of religion to the city it is next to"]
+		"uniques": ["Prevents spreading of religion to the city it is next to", "Religious Unit"]
 	},
+	{
+		"name": "Elusive",
+		"uniques": ["May withdraw before melee ([66]%)"]
+	},	
 
 ]

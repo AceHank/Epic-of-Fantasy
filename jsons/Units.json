@@ -442,7 +442,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"uniques": ["Religious Unit"],
+	//	"uniques": ["Religious Unit"],
 		"promotions": ["Protector of Realm", "Divine Watch"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
@@ -514,7 +514,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"uniques": ["Can [Remove Foreign religions from your own cities] [2] times", "Religious Unit"],
+		"uniques": ["Can [Remove Foreign religions from your own cities] [2] times"],
 		"promotions": ["Divine Watch"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
@@ -885,4 +885,41 @@
         ]
 	},
 	
+	//Lyrian Kingdom
+	{
+		"name": "Paladin",
+		"uniqueTo": "Lyrian Kingdom",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		"promotions": ["Healer"],
+		"civilopediaText": [
+			{"text": "Protector of the weak, ally of justice, just to name a few of their name, Paladin is a knight of renowned chivalry and heroism."},
+        ]
+	},
+	
+	//Holy Lunar Theocracy
+	{
+		"name": "Arbiter",
+		"uniqueTo": "Holy Lunar Theocracy",
+		"replaces": "Pikeman"
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Elusive", "Conqueror of Realm", "Divine Watch"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
 ]

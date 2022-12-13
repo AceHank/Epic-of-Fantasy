@@ -7,7 +7,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwargon surely will brings forth advances and breakthroughs.",
+		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwarven land surely will brings forth advances and breakthroughs.",
 		"startIntroPart2": "King Higba, your brilliant mind echoed throughout the lands. Will you stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You have transgressed our agenda, we won't let you have it your way!",
@@ -49,17 +49,17 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": ".",
-		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "High Chief Fasthur, the leader of Drow. Banished and exiled by the usurper of your throne, your wrath overflows, seeking revenge against those who wronged you. Your name echoed across the land of your enemy. Asking for mercy from your rage.",
+		"startIntroPart2": "Oh Fasthur, your people urged you to lead them to victory. Will you reclaim your land back? Will you retake whats rightfully yours? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Our time has come! Prepare to face our wraths!",
+		"attacked": "So you dare to defy me? You will regret this dearly.",
+		"defeated": "No, I failed you my people.",
+		"introduction": "I am High Chief Fasthur, the vengeful, leader of the Drow. You will bow before me!",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Be quick, I'm busy.",
+		"hateHello": "What?",
+		"tradeRequest": "Accept this now!",
 		
 		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
@@ -83,8 +83,8 @@
 		"adjective": ["Orc"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": ".",
-		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Rog the Destroyer, your sheer strength, size, and power has lift you to your throne. Respected and feared among the Orcs, you wage one war after another to your heeart desire. Violence and destruction follows your lead. None you gave mercy. Thousands you killed.",
+		"startIntroPart2": "O, mighty Destroyer, your people follows you to your victories. Will you plow through your opponent? Will you destroy those who dare to oppose? Can you ruin civilizations until the end of time?",
 		
 		"declaringWar": "Itz time! Itz time to WAAAGH diz pathetic weaklingz!",
 		"attacked": "HAHAHAHA! Diz iz juzt hilarious! Get em, boiz!",
@@ -117,17 +117,17 @@
 		"adjective": ["Uldra"],
 		"startBias": ["Tundra"],
 		
-		"startIntroPart1": ".",
-		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "The leader of the  Uldra, Undwyck, your people held you high of your achivement leading them. Your peaceful reign has ushered Uldra into an age of ease. Famous for uniting the various tribes of Uldra into one singular banner.",
+		"startIntroPart2": "Undwyck, your people need you once more. Will you unite your peole? Will you survive in this cold and harsh winterland? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "There is no choice. I shall take peace by force!",
+		"attacked": "I truly hope there is another way for the best of us.",
+		"defeated": "Please, rule them with mercy.",
+		"introduction": "I am Undwyck, leader of the Uldra. Please good sir, come, have a sit and let's talk for a moment.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Good day sir.",
+		"hateHello": "No good will come of this.",
+		"tradeRequest": "Let us conduct in a trade.",
 		
 		"outerColor": [215,225,225],
 		"innerColor": [  0,  0,  0],
@@ -154,14 +154,14 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "The Council has no choice, it is inevitable.",
+		"attacked": "We hope we can reconcile.",
+		"defeated": "Please be merciful to our people.",
+		"introduction": "Tala, I am Remia, leader of the Council, I welcome you to our magnificent cities.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Hello.",
+		"hateHello": "What?",
+		"tradeRequest": "We request you to agree.",
 		
 		"outerColor": [78,244,234],
 		"innerColor": [85, 74, 32],
@@ -188,14 +188,14 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Blow the horns, bang the drums, Rozagh is coming to town!",
+		"attacked": "Agh, you mess with me, you'll pay, you'll pay...",
+		"defeated": "No, Rozagh knows no defeat!",
+		"introduction": "Well met stranger, I am Rozagh the Undefeated, are you a warrior? Come and spar with me.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Good day to you.",
+		"hateHello": "What is it?",
+		"tradeRequest": "A trade request one might say.",
 		
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
@@ -221,14 +221,14 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Ohtatimeár! A war is brewing, and it's your time to fall.",
+		"attacked": "Damn you, I will not fall.",
+		"defeated": "The forest doesn't favor me it seems, my time has come.",
+		"introduction": "A na márië, I am Sylvanna, the Queen of Elven, what brings you to our sacred lands?",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Namárië.",
+		"hateHello": "Begone.",
+		"tradeRequest": "We have a proposition for you.",
 		
 		"outerColor": [255,255,78],
 		"innerColor": [ 70,  0, 4],
@@ -256,18 +256,18 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Come child, come to our cause, the Old One seeks you.",
+		"attacked": "Oh dear child, you know nothing, you see nothing, you are nothing.",
+		"defeated": "Mwuahahaha, you think this is the end? You still have to answers to the Old One!",
+		"introduction": "Oh, another lost child, come, let us guide you to the right path.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "May you come to us.",
+		"hateHello": "What?",
+		"tradeRequest": "It is time for a trade.",
 		
 		"outerColor": [0, 43, 11],
 		"innerColor": [0,242,189],
-		"uniqueName": "Sunken Moon Salvation",
+		"uniqueName": "Darkest Salvation",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]"], 
 		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
 			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
@@ -288,7 +288,7 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
+		"declaringWar": "You have threathened the balance of this world, we shall remove you!",
 		"attacked": ".",
 		"defeated": ".",
 		"introduction": ".",
@@ -323,7 +323,7 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
+		"declaringWar": "We are light in shadows. And you are blight in this world.",
 		"attacked": ".",
 		"defeated": ".",
 		"introduction": ".",
@@ -362,7 +362,7 @@
 		
 		"neutralHello": ".",
 		"hateHello": ".",
-		"tradeRequest": ".",
+		"tradeRequest": "Well met stranger, .",
 		
 		"outerColor": [0,136,230],
 		"innerColor": [255,255,255],
@@ -401,7 +401,7 @@
 		"outerColor": [220,20,60],
 		"innerColor": [0,0,0],
 		"uniqueName": "Crimson Sky",
-		"uniqueText": "+1 Happiness from every Military building\nStarts with Honor adopted",
+		"uniqueText": "+1 Happiness from every Barracks, Armory, and Military Academy\nStarts with Honor adopted",
 		"uniques": ["[+1 Happiness] from every [Barracks]", "[+1 Happiness] from every [Armory]", "[+1 Happiness] from every [Military Academy]", 
 					"Starts with [Honor] adopted"], 
 		"cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
@@ -422,7 +422,7 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
+		"declaringWar": "By the decree of the highest order, we declare war upon you!",
 		"attacked": ".",
 		"defeated": ".",
 		"introduction": ".",
@@ -434,8 +434,8 @@
 		"outerColor": [140,190,214],
 		"innerColor": [90, 60, 80],
 		"uniqueName": "Artisan of the Arcane",
-		"uniqueText": "Gain a free Pantheon belief after completing a Policy Tree\n+2 Culture, +2 Production in cities with at least 7 population",
-		"uniques": ["[+2 Culture, +2 Production] <in cities with at least [7] [Population]>"], 
+		"uniqueText": "Gain a free Pantheon belief after completing a Policy Tree\n+2 Culture, +2 Production, +2 Faith in cities with at least 7 population",
+		"uniques": ["[+2 Culture, +2 Production, +2 Faith] <in cities with at least [7] [Population]>"], 
 		"cities": ["Aethlone","Kna Serine","Yal Taesi","Allna Aethel","Lylvatheas","Ulvenoris","E’ma Thalore","Aana Edhil","Eya Taesi","Omyveluna","Uym Allanar","Yllenhona",
 			"Ulyfalean","Nilanbel","Ollf Belanore","Narenshara","Ryne Asari"],
 		"civilopediaText": [
@@ -504,8 +504,8 @@
 		"cities": ["Origins"," Shūr Daraq","Kāydūn","Kalāt","Targhī","Borāk"," Mīān Deh","Jeyāvān","Kūh-e Rīg","Kūhsār","Sārī Qayeh","Shūrbek",
 			"Qalandarī","Kalīlābād","Negār","Eqbālābād","Nesā’ Kūh"],
 		"civilopediaText": [
-			{"text":"Sacred Sun Theocracy is a human isolationist nation. They don't like other races than human and believes strongly in human supremacy. Thus their isolationist philoshopy in regarding international relationship with non-human races."},
-			{"text":"Sacred Sun Theocracy is a defensive civilization that has good early game Faith output."},
+			{"text":"Sacred Sun Theocracy is a human isolationist nation. Sacred Sun Theocracy worship the Sun as their deity, making Holy Lunar Theocracy as their rival nation, which worship the Lunar. They don't like other races than human and believes strongly in human supremacy. Thus their isolationist philoshopy in regarding international relationship with non-human races."},
+			{"text":"Sacred Sun Theocracy is a civilization that has good early game Faith output. Their unique building is a Courthouse replacement that can be built on their own cities."},
 			{"text":"Its unique unit further enhance Theocracy's defensive capabilies."},
         ]
 	},
@@ -522,8 +522,8 @@
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
+		"attacked": "You dare to step your filthy foot in our forest? Come then!",
+		"defeated": "No... I failed you Great Mother...",
 		"introduction": ".",
 		
 		"neutralHello": ".",
@@ -555,14 +555,14 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
+		"declaringWar": "Praise be the Broken God, we shall offer Thee this tribute!",
 		"attacked": ".",
 		"defeated": ".",
-		"introduction": ".",
+		"introduction": "I am High Priest David of Clockwerk Church. Messenger of the Broken God, leader of our devouts. You shall bear witness of His maginificence.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Greetings, have you heard of the Broken God?",
+		"hateHello": "Clearly not a time for this.",
+		"tradeRequest": "We've come to trade.",
 		
 		"outerColor": [139,69,19],
 		"innerColor": [128,0,0],
@@ -579,7 +579,6 @@
 	},
 	
 	//Lord Kemm of Inquisitorial Illuminate
-	
 	{
 		"name": "Inquisitorial Illuminate",
 		"leaderName": "Lord Kemm",
@@ -589,14 +588,14 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "By the grace of God, we declare war on you!",
+		"attacked": "You shall not trample our temple!",
+		"defeated": "If this is the will of God, we shall accept it.",
+		"introduction": "Well met stranger, have you heard about our lord and saviour?",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Greetings sir",
+		"hateHello": "I don't have time for this.",
+		"tradeRequest": "You shall accept our trade request!",
 		
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
@@ -705,7 +704,7 @@
 		"civilopediaText": [
 			{"text":"Shinso is a human civilization resembling that of Onmyouji faith and culture from the Japanese."},
 			{"text":"Shinso has a strong economical bonus after building their Unique Wonders, but are very weak before that. Especially from foreign attack."},
-			{"text":"You don't need to rush these Wonders, make sure to defend your land from war and barbarians, Shinso is not early game civilization."},
+			{"text":"You don't need to rush these Wonders, make sure to defend your land from war and barbarians, Shinso is not an early game civilization."},
         ]
 	},
 	
@@ -792,8 +791,8 @@
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": ".",
-		"attacked": ".!",
-		"defeated": ".",
+		"attacked": "Stay away from our sacred ground!",
+		"defeated": "Our forest will burn and our people gone...",
 		"introduction": ".",
 		
 		"neutralHello": ".",
@@ -837,9 +836,9 @@
 		"outerColor": [77,145,129],
 		"innerColor": [15,247,193],
 		"uniqueName": "Byggare",
-		"uniqueText": "+25% Production when constructing World Wonder for the first time in a city\nMilitary land units are +15% stronger but more expensive to produce",
-		"uniques": ["[+25]% Production when constructing [World Wonder] wonders [in all cities]",
-					"[-25]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]",
+		"uniqueText": "+33% Production when constructing World Wonder for the first time in a city\nMilitary land units are +15% stronger but more expensive to produce",
+		"uniques": ["[+33]% Production when constructing [World Wonder] wonders [in all cities]",
+					"[-33]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]",
 					"[+15]% Strength <for [{Military} {Land}] units>", 
 					"[Gold] cost of purchasing [{Military} {Land}] units [+43]%", 
 					"[Faith] cost of purchasing [{Military} {Land}] units [+43]%", 
@@ -913,7 +912,7 @@
 		
 		"neutralHello": ".",
 		"hateHello": ".",
-		"tradeRequest": ".",
+		"tradeRequest": "This aggrement will most definitely benefits both of us.",
 		
 		"outerColor": [240,200,0],
 		"innerColor": [0,0,0],
@@ -977,14 +976,14 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".!",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Time for hunt!",
+		"attacked": "Hunting time comes early this year!",
+		"defeated": "GAAAHHHH, kill me now! I will not kneel before you!",
+		"introduction": "Muahahaha I am Jinzak, Warlord of the Trolls. Tell me one reason not to chop your head right off.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Azdingo, yes?",
+		"hateHello": "You are dead to me.",
+		"tradeRequest": "Let's conduct in a trade.",
 		
 		"outerColor": [ 66,59,59],
 		"innerColor": [255,178,72],
@@ -1007,20 +1006,20 @@
 	{
 		"name": "Scazari Hive",
 		"leaderName": "Silithar",
-		"adjective": ["Scazarian"],
+		"adjective": ["Scazari"],
 		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".!",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "I deemed you a threat to the colony.",
+		"attacked": "We are billions. You will fall.",
+		"defeated": "No... My children, I'm sorry.",
+		"introduction": "I am the Queen of Scazari, immortal Mother of all Scazari. What matter brings you here?",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Yes?",
+		"hateHello": "Don't come near us!",
+		"tradeRequest": "We could form a mutual agreement.",
 		
 		"outerColor": [75,135,30],
 		"innerColor": [255,239,8],
@@ -1049,13 +1048,13 @@
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": ".",
-		"attacked": ".!",
+		"attacked": ".",
 		"defeated": ".",
 		"introduction": ".",
 		
 		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"hateHello": "What now?.",
+		"tradeRequest": "This will certainly lived up to your expectation.",
 		
 		"outerColor": [213,249,255],
 		"innerColor": [139,96,230],
@@ -1080,17 +1079,17 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": ".",
-		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "High Chieftain Bloodhoof of the Taurens, whisperer of the Spirits, defender of the Earthmother. You've proven your worth in the Rites of the Earthmother. And you continued to prove your worth, leading the Tauren various Clans into one, uniting them under one  banner. You've made the Sky Father proud of your accomplishment.",
+		"startIntroPart2": "O, Bloodhoof, your people need you once more. Will you lead them to triumph? Will you make Earthmother and Sky Father proud? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".!",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "The clans has decided, your end is nigh!",
+		"attacked": "Don't you dare to defy the will of the Spirits!",
+		"defeated": "Our legacy... Please, let our legacy be free.",
+		"introduction": "Well met stranger, I am High Chieftain Bloodhoof, leader of the Taurens.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Greetings.",
+		"hateHello": "State your need!",
+		"tradeRequest": "A trade request, one that assist both of us.",
 		
 		"outerColor": [84, 43, 11],
 		"innerColor": [12,242,189],
@@ -1129,16 +1128,84 @@
 		"outerColor": [99,39,39],
 		"innerColor": [46,133,108],
 		"uniqueName": "Howling Fjord",
-		"uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+2 Food, +2 Production, and +2 Culture in all cities with less than 5 population, double these yields if settled on Snow or Tundra",
-		"uniques": ["[+2 Culture, +2 Food, +2 Production] [in all cities]", "[-2 Culture, -2 Food, -2 Production] [in all cities] <in cities with at least [5] [Population]>",
-					"[+2 Culture, +2 Food, +2 Production] in cities on [Tundra] tiles", "[-2 Culture, -2 Food, -2 Production] in cities on [Tundra] tiles <in cities with at least [5] [Population]>",
-					"[+2 Culture, +2 Food, +2 Production] in cities on [Snow] tiles", "[-2 Culture, -2 Food, -2 Production] in cities on [Snow] tiles <in cities with at least [5] [Population]>"], 
+		"uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+1 Food, +1 Production, and +1 Culture in all cities with less than 5 population, +2 if settled on Tundra, +4 if settled on Snow",
+		"uniques": ["[+1 Culture, +1 Food, +1 Production] [in all cities]", "[-1 Culture, -1 Food, -1 Production] [in all cities] <in cities with at least [5] [Population]>",
+					"[+1 Culture, +1 Food, +1 Production] in cities on [Tundra] tiles", "[-1 Culture, -1 Food, -1 Production] in cities on [Tundra] tiles <in cities with at least [5] [Population]>",
+					"[+3 Culture, +3 Food, +3 Production] in cities on [Snow] tiles", "[-3 Culture, -3 Food, -3 Production] in cities on [Snow] tiles <in cities with at least [5] [Population]>"], 
 		"cities": ["Nainarfet","Coldstone","Ikkash","Paimejuq","Qoqnirk","So'kak","Icyrock","Mook'urna","Tusk","Darurraq","Brownfur","Uudwernot",
 			"Mook'urna","Hrewengit","Sha'iliish","Hurrachiiq","Kepvaii"],
 		"civilopediaText": [
 			{"text":"The Walrus People is a walrus-like creature civilization. They live nomadic life, often changing one settlement to another after a period of time and their food supply ran short."},
 			{"text":"The Walrus people has a good but tricky bonus to wide empire and a strong early game defense to boot. Their free Settlers and yields are very good only under certain circumstances."},
 			{"text":"Make sure to manage your happiness and don't rush to settle many cities on Snow tiles for consecutive free Settler. More cities mean more unhappiness."},
+        ]
+	},
+	
+	//Argeon of Lyrian Kingdom
+	{
+		"name": "Lyrian Kingdom",
+		"leaderName": "Argeon",
+		"adjective": ["Lyrian"],
+	//	"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Hail King Argeon, ruler of Lyrian. Your reign is a golden age of cultural advancement. Solidifying the country's policies has ushered the Kingdom unto an age of prosperity. A new effective and efficient bureaucracy you've devised has made your Kingdom opulent.",
+		"startIntroPart2": "O, King Argeon, your people need you once more to lead them in this trying times. Will you ushered into a new prosperous era? Will you defend your people from upcoming crisis? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "For the sake of my people, I declare war on thee!",
+		"attacked": "So this is it. You've lost your senses!",
+		"defeated": "Even our walls can't protect us from your might...",
+		"introduction": "Well met, I am King Argeon, leader of Lyrian, one who stands unchallenged!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What is it now?",
+		"tradeRequest": "This aggrement would surely benefits both of us!",
+		
+		"outerColor": [255,223,107],
+		"innerColor": [115,82,235],
+		"uniqueName": "Royal Decree",
+		"uniques": ["[+2 Gold] per [2] social policies adopted",
+					"[-10]% Culture cost of adopting new Policies"],
+		"cities": ["Lyonar","Amalgam","Koromia","Fogcastle","Ceteus","Harsmouth","Keinberg","Norwanlan","Exica","Fjordon","Kastovic",
+			"Spelford","Leronia","Blackvale","Northwestex","Rostburgh"],
+		"civilopediaText": [
+			{"text":"Lyrian Kingdom is a human civilization. Having a very defensive doctrine, they don't usually wage war against other. Protecting the country's land and sovereignty and improving upon their own internal affairs."},
+			{"text":"Lyrian Kingdom unique ability is very good for cultural victory, combined with their unique building, Lyrian Kingdom can grab policy like no tomorrow."},
+			{"text":"Their unique unit has the Healer promotion, making adjacent unit heals more when healing."},
+        ]
+	},
+	
+	//Holy Lunar Theocracy
+	{
+		"name": "Holy Lunar Theocracy",
+		"leaderName": "Celeste",
+		"adjective": ["Lunari"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Celeste of Holy Lunar Theocracy, by the grace of the Moon, you've led your people through troubled times. By Her guide and Her messenger, you ruled the Theocracy with mercy while you conquer those who dared to defy with great vigor.",
+		"startIntroPart2": "O, Celeste, the Lunar has favored you, granted you power and cunningness for you to rule. Will you meet Her expectations? Will you build a nation upon Her mercy? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your country shall receive our judgement!",
+		"attacked": "You dare to oppose us? The Lunar's own child?",
+		"defeated": "Oh mighty Lunar, why hast thou forsaken us?",
+		"introduction": "Greetings, I am Celeste, supreme leader of Lunari people! I welcome you to my court.",
+		
+		"neutralHello": "By the Lunar's grace, we greet thee.",
+		"hateHello": "Not now.",
+		"tradeRequest": "The Lunar has spoken to us that you will accept this bargain.",
+		
+		"outerColor": [113,12,201],
+		"innerColor": [182,186,224],
+		"uniqueName": "Lunar's Revelations",
+		"uniqueText": "Receive free Great Prophet when you complete Aspect of the Moon for the first time in Capital\nReceive free Great Scientist when you complete a World Wonder for the first time in Capital",
+	//	"uniques": ["Receive free [Settler] when you discover [Calendar]"],
+		"cities": ["Lunarius","Aeris","Xyranthius","Korolia","Mirias","Yolis","Valecia","Nightfall","Estest","Mellago","Albua",
+			"Vrybergam","Rahvun","Rumul","Cygnus","Diana"],
+		"civilopediaText": [
+			{"text":"Holy Lunar Theocracy is a Lunari civilization, a nocturnal humanoid race, rival of the Sacred Sun Theocracy, often having dispute of their exact opposite believe and being a non-human civilization. Holy Lunar Theocracy often conquer other land by the Lunar's order."},
+			{"text":"Holy Lunar Theocracy unique ability pretty much guarantee a religion which is very good, especially in higher difficulty game."},
+			{"text":"Their unique building provides your specialist with extra Faith and Science yield, making their specialist good for achieving Scientific victory. The Arbiter has a really good promotions, making them quite good at warfare as well."},
         ]
 	},
 	
