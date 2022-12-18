@@ -83,7 +83,7 @@
 		"adjective": ["Orc"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Rog the Destroyer, your sheer strength, size, and power has lift you to your throne. Respected and feared among the Orcs, you wage one war after another to your heeart desire. Violence and destruction follows your lead. None you gave mercy. Thousands you killed.",
+		"startIntroPart1": "Rog the Destroyer, your sheer strength, size, and power has lifted you to your throne. Respected and feared among the Orcs, you wage one war after another to your heeart desire. Violence and destruction follows your lead. None you gave mercy. Thousands you killed.",
 		"startIntroPart2": "O, mighty Destroyer, your people follows you to your victories. Will you plow through your opponent? Will you destroy those who dare to oppose? Can you ruin civilizations until the end of time?",
 		
 		"declaringWar": "Itz time! Itz time to WAAAGH diz pathetic weaklingz!",
@@ -218,7 +218,7 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": ".",
+		"startIntroPart1": "Aia Sylvanna! The Queen of the Elven, protector of the sacred lands. ",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "Ohtatimeár! A war is brewing, and it's your time to fall.",
@@ -320,17 +320,17 @@
 		"adjective": ["Order"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": ".",
-		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Glory upon the Order! Lavrence, your people always strive for knowledge, even the forbidden ones. The Order trains and nurtures the young into a fine Alchemist. Giving them knowledge and mastery of alchemy. Unveiling the secrets of this world little by little. It is now time for your people to surface and be known to the world now it needs a power balance.",
+		"startIntroPart2": "O, Lavrence, the Order relies upon your shoulder. Will you lead the Order into glory and praise? Can you create an era of enlightenment? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "We are light in shadows. And you are blight in this world.",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Your uneducated people are insufferable. The Order will lead them better, the Order will guide them better. Wasted potentials are not to be allowed!",
+		"attacked": "I guess some people truly only have 3 braincells. Ah, who am I kidding, it's just you.",
+		"defeated": "No, you know nothing of what you've done! This won't be the last of us! Veritas vincit.",
+		"introduction": "Well met our astute guests. I assume you seek the Truth as well. Let us exchange knowledge of this world.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Ah, my most revered guest. What shall we speak about today?",
+		"hateHello": "Our secrets are not for the simple-minded. What do you seek?",
+		"tradeRequest": "The Order demands for your fiscal cooperation yet again!",
 		
 		"outerColor": [237,197,82],
 		"innerColor": [186, 60, 3],
@@ -352,22 +352,22 @@
 		"adjective": ["Argonauts"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": ".",
-		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Honorable warrior Menedaius, the leader of the Argonauts. Your reign unites all surrounding smaller states into one unified great nation. Under your rule, they prosper. Your Agoge mandate recruits young and strong descendant of the gods, a demigod, into a great warrior of your caliber, leading them into a path of glory in battle.",
+		"startIntroPart2": "O, Menedaius, your people call upon your name once more. Will you lead them to glory? Will you take Argonautian States into a leading force upon this world? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "In battle we are the most glorious. Let's dance on the battlefield, shall we?.",
+		"attacked": "Oho, a battle you say? Come then, we will strike you down!",
+		"defeated": "I respect your abilities in warfare. It's my loss.",
+		"introduction": "Well met stranger, I am Menedaius, the head of the Argonautian States. Do I see a fellow warrior of honor?",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": "Well met stranger, .",
+		"neutralHello": "My honorable guest, greetings.",
+		"hateHello": "What?",
+		"tradeRequest": "Our generous nation makes you this offer.",
 		
 		"outerColor": [0,136,230],
 		"innerColor": [255,255,255],
 		"uniqueName": "Heroic Tales",
-		"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free unique Heroic General every era in capital",
+		"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free different unique Heroic General every era in capital",
 		"uniques": ["[Great General] is earned [-100]% faster"], 
 		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
 			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
@@ -423,13 +423,13 @@
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "By the decree of the highest order, we declare war upon you!",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"attacked": "Come then, testify our might!.",
+		"defeated": "Phacadam! This will not be the last of us!.",
+		"introduction": "Suilië, stranger. I am Aellerin of the Concordat. A master of the Arcane. Would you like to learn a trick or two?",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Suilië.",
+		"hateHello": "Begone.",
+		"tradeRequest": "I have a request for you.",
 		
 		"outerColor": [140,190,214],
 		"innerColor": [90, 60, 80],
@@ -468,7 +468,7 @@
 		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
 		"uniqueName": "Necropoleis",
-		"uniqueText": "A free strongest available Sword-type or Gunpowder-type unit appears after you build Courthouse",
+		"uniqueText": "A free strongest available Melee unit appears after you build Courthouse",
 	//	"uniques": ["Receive free [Settler] when you discover [Calendar]"], 
 		"cities": ["Necroheim","Fallenmere","Blightthorn","Shadowmoor","Amberburgh","Illmere","Deathfall","Bleakford","Nighthorne","Reaperton","Dreadmore","Grimmington",
 			"Woebrook","Weepingborough","Saurridge","Baneville","Netherbrooke"],
@@ -1024,8 +1024,8 @@
 		"outerColor": [75,135,30],
 		"innerColor": [255,239,8],
 		"uniqueName": "We Are Billions",
-		"uniqueText": "+2 Production, +1 Happiness in all cities\n+5% Culture from every Food buildings",
-		"uniques": ["[+2 Production, +1 Happiness] [in all cities]", "[+5]% [Culture] from every [Food]"],
+		"uniqueText": "+1 Production, +1 Happiness in all cities\n+5% Culture from every Food buildings",
+		"uniques": ["[+1 Production, +1 Happiness] [in all cities]", "[+5]% [Culture] from every [Food]"],
 		"cities": ["Vurl Raxl","Aklac","Raxibb","Ypaccib","Avixail","Haxizabb","Tymcrix","Oxocodolf","Varlinaca","Lobbtika","Ufpol",
 			"Laxtric","Nobhax","Pomic Krac","Leexidanaca","Crumtica"],
 		"civilopediaText": [
@@ -1206,6 +1206,75 @@
 			{"text":"Holy Lunar Theocracy is a Lunari civilization, a nocturnal humanoid race, rival of the Sacred Sun Theocracy, often having dispute of their exact opposite believe and being a non-human civilization. Holy Lunar Theocracy often conquer other land by the Lunar's order."},
 			{"text":"Holy Lunar Theocracy unique ability pretty much guarantee a religion which is very good, especially in higher difficulty game."},
 			{"text":"Their unique building provides your specialist with extra Faith and Science yield, making their specialist good for achieving Scientific victory. The Arbiter has a really good promotions, making them quite good at warfare as well."},
+        ]
+	},
+	
+	//Vaath II of Magnar Empire
+	{
+		"name": "Magnar Empire",
+		"leaderName": "Vaath II",
+		"adjective": ["Magnarian"],
+	//	"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "The Great Emperor Vaath II of Magnar Empire! Ruthless but cunning, you lead your people with iron fist. Although your people suffer from your tyrannical rule, your empire succeded where others fall. You came and conquer one nation after another. Forced their citizen upon your uncontested rule, a cruel yet effective directive.",
+		"startIntroPart2": "You will rise once more. Rule your unwilling citizen again. Will you rule over the weak? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I'll conquer your land, take your citizen, and hang you!",
+		"attacked": "How DARE you!?",
+		"defeated": "No, this can't be true. I am Vaath II, my reign is eternal!",
+		"introduction": "I am Emperor Vaath II, the Great ruler of Magnar Empire. You may call me Your Majesty.",
+		
+		"neutralHello": "Oh, it's you.",
+		"hateHello": "Begone NOW!",
+		"tradeRequest": "You will accept this.",
+		
+		"outerColor": [54,158,94],
+		"innerColor": [0,0,0],
+		"uniqueName": "Forced Levy",
+		"uniqueText": "May purchase strongest available Melee unit with population once per city\n+2 Gold, +2 Production in annexed cities",
+		"uniques": ["[+2 Gold, +2 Production] [in annexed cities]",
+					"New [Wrecker Maceman] units start with [15] Experience [in all cities]"],
+		"cities": ["Drogon","Taygete","Grimrock","Haruspex","Hatena","Kujata","Makantor","Moloki","Rizen","Thulu","Isenmaar",
+			"Knosph","Squelor","Atabury","Golonac","Ototh"],
+		"civilopediaText": [
+			{"text":"Magnar Empire is a human empire built on slavery. Their cruel and tyrannical emperor, Vaath the Second, ruled with iron fist. Forciing its citizen to partake in Military effort."},
+			{"text":"Magnar Empire unique ability is strong, but is a little bit tricky. You don't want to sacrifice your population for weak and unimpactful units. Rather use some timing to better maximize its effect."},
+			{"text":"Their unique unit starts with extra experience. Combined with experience giving building, this is a massive boost to Magnar warfar capabilities."},
+        ]
+	},
+	
+	//Kronus of Lithoid Combine
+	{
+		"name": "Lithoid Combine",
+		"leaderName": "Kronus",
+		"adjective": ["Lithoids"],
+		"startBias": ["Hill"],
+	//	"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "All hail mighty Kronus of the Lithoid Combine! Awakened from your deep slumber, you call forth upon your buried people. Waking them from their sleep, leading them to glory once more. Cities and countries now long gone, your people must start anew in this foreign world.",
+		"startIntroPart2": "O, Kronus, your people call upon your name once more. Will you rise and lead them to glory? Will you stand up and challenge this unknown world? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "We can't tolerate you! I'll smash you into pieces!",
+		"attacked": "Oh, so you chose death.",
+		"defeated": "The Lithoids will survive.",
+		"introduction": "I am Kronus, leader of the Lithoid Combine. I welcome you, stranger.",
+		
+		"neutralHello": "Ah, my venerated guest.",
+		"hateHello": "What?",
+		"tradeRequest": "This inquiry will certainly intrigue you.",
+		
+		"outerColor": [117,67,20],
+		"innerColor": [49,173,169],
+		"uniqueName": "Deep Slumber",
+		"uniqueText": "May unearth population from adjacent Hill or Mountain up to 3 times per city",
+		"cities": ["Forgefall","Kiln Edge","Leevoss","Pittenrock","Bordstone","Armstane","Falkid","Eskrick","Undulonn","Rask","Ousten Bank",
+			"Ratholl","Baikenvoss","Apitea","Mennia","Lamder"],
+		"civilopediaText": [
+			{"text":"Lithoid is an ancient sentient creature made up of rock and earthly minerals. They are waking up from their deep slumber inside the earth. They can eat minerals for their sustenance instead of normal organic food like other creature."},
+			{"text":"Lithoid Combine is a good tall civilization thanks to their unique abilities. Settle cities adjacent to Hill and Mountain to use their unique abilities. It is particularly good for tall playstyle because they can basically turn production into population."},
+			{"text":"Don't be too hasty on unearthing Lithoid population. Make sure they don't starve before you unearth new Lithoid. Or wait until you have a hard time raising your population."},
+			{"text":"Their unique building further improve upon their ability with +1 Food to Mine. Their unique unit is a better Trebuchet that doesn't to set up to attack."},
         ]
 	},
 	

@@ -20,9 +20,9 @@
 		"uniqueTo": "Dwarven Kingdom",
 		"replaces": "Observatory",
 		"maintenance": 0,
-		"percentStatBonus": {"science": 50, "production": 10},
+		"percentStatBonus": {"science": 50},
 		"uniques": ["Must be next to [Mountain]", 
-					"[+1 Science] from [Mine] tiles [in this city]"],
+					"[+1 Science] from [Mine] tiles [in this city]", "[+10]% [Production] [in this city]"],
 		"requiredTech": "Astronomy",
 		"civilopediaText": [
 			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
@@ -125,7 +125,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Alchemist": 3},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist Specialist slots (+4 Great Scientist Point from each)"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist slots (+4 Great Scientist Point from each)"],
 		"requiredTech": "Education",
 		"civilopediaText": [
 			{"text": "A place to learn for young alchemist."},
@@ -321,7 +321,7 @@
 		"uniqueTo": "Necrontia",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Unsellable", "Never destroyed when the city is captured",
+		"uniques": ["Remove extra unhappiness from annexed cities", "Unsellable",
 					"Can only be built [in annexed cities]", "Will not be displayed in Civilopedia",
 					"Free [Warrior] appears <before discovering [Iron Working]>", 
 					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]>",
@@ -793,7 +793,7 @@
 		"food": 2,
 		"maintenance": 1,
 		"specialistSlots": {"Spawner Drone": 2},
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "+2 Spawner Drone specialists (+1 Food +3 Culture from each)"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "+2 Spawner Drone slots (+1 Food +3 Culture from each)"],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
 			{"text": "Place where new Scazari are bred. A place where the eggs laid by their Queen are kept and protected. A spawner drone will hatch the laid eggs."},
@@ -905,4 +905,96 @@
 						"Unsellable", "Will not be displayed in Civilopedia"]
 		},
 	
+	//Magnar Empire
+	{
+		"name": "Dueling Ground",
+		"uniqueTo": "Magnar Empire",
+		"replaces": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Worker] appears"],
+		"requiredTech": "Construction",
+		"civilopediaText": [
+			{"text": "The denizens of Magnar Empire have a tradition of dueling to settle dispute. And often, the losers will be sent into labor slavery."},
+        ]
+	},
+		{
+			"name": "Forced Levy",
+			"uniqueTo": "Magnar Empire",
+			"cost": 1,
+			"uniques": ["Only available <in cities with at least [2] [Population]>","Never destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia", 
+						"[-1] population [in this city]",
+						"Free [Warrior] appears <before discovering [Iron Working]>", 
+						"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]>",
+						"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]>",
+						"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]>",
+						"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
+						"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
+						"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
+						"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]>",]
+		},
+		
+	//Lithoid Combine
+	{
+		"name": "Catalyst",
+		"uniqueTo": "Lithoid Combine",
+		"replaces": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Mine] tiles [in this city]"],
+		"requiredTech": "Pottery",
+		"civilopediaText": [
+			{"text": "A catalyst to make earthly minerals so they can grow. A farm of rocks one might say."},
+        ]
+	},
+		{
+			"name": "Unearth Lithoid I (Hill)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 75,
+			"uniques": ["Unsellable", "Cannot be purchased", "Only available <in cities without a [Unearth Lithoid I (Mountain)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid II (Hill)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 100,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid I (Hill)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid III (Hill)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 125,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid II (Hill)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid I (Mountain)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 75,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities without a [Unearth Lithoid I (Hill)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid II (Mountain)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 100,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid I (Mountain)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
+		{
+			"name": "Unearth Lithoid III (Mountain)",
+			"uniqueTo": "Lithoid Combine",
+			"maintenance": 0,
+			"cost": 125,
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid II (Mountain)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+					"[+1] population [in this city]"]
+		},
 ]

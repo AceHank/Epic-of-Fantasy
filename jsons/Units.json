@@ -6,7 +6,7 @@
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 23,
+		"strength": 21,
 		"cost": 120,
 		"requiredResource": "Iron",
 		"requiredTech": "Steel",
@@ -50,7 +50,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 19,
-		"cost": 85,
+		"cost": 100,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
@@ -185,9 +185,9 @@
 		"strength": 24,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
+		"upgradesTo": "Rifleman",
 		"uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -222,7 +222,7 @@
 		"movement": 2,
 		"promotions": ["Medic", "Medic II"],
 		"requiredTech": "Guilds",
-		"cost": 90,
+		"cost": 50,
 		"civilopediaText": [
 			{"text": "Master of alchemy, using their knowledge to cure the wounded in battlefield, a Potionist."},
         ]
@@ -921,5 +921,50 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "The elite inquisitor group of the Holy Lunar Theocracy. Will crack down foes and heretics alike."},
+        ]
+	},
+	
+	//Magnar Empire
+	{
+		"name": "Wrecker Maceman",
+		"uniqueTo": "Magnar Empire",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Starts with 15 experience"],
+		"promotions": ["Besiege"],
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "They swing mace harder than a rock swung by catapult. Yes, it's an exaggeration, but they could certainly level a building with ease."},
+        ]
+	},
+	
+	//Lithoid Combine
+	{
+		"name": "Rockspewer",
+		"uniqueTo": "Lithoid Combine",
+		"replaces": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "A Rockspewer can spew rock at incredible speed, making them particularly good at razing walls and castles alike to the ground."},
+        ]
 	},
 ]

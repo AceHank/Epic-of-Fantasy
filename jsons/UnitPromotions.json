@@ -851,7 +851,7 @@
 	//Necrontia~~~~~~~
 	{
 		"name": "Sacrifice",
-		"uniques": ["Gain [15] [Culture] <by consuming this unit>"]
+		"uniques": ["Gain [20] [Culture] <by consuming this unit>"]
 	},
 	
 	//Sacred Sun Theocracy~~~~~~~
