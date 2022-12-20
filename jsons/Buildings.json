@@ -1006,7 +1006,7 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured","[+3 Food, +1 Science] from [Mountain] tiles [in this city]","[+2 Food, +1 Science] from [City ruins] tiles [in this city]",],
+		"uniques": ["Destroyed when the city is captured","[+2 Food] from [Mountain] tiles [in this city]","[+1 Food, +1 Science] from [City ruins] tiles [in this city]",],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -1016,8 +1016,8 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns>","Nullifies [Faith] [in this city] <for [10] turns>"
 						"[+50]% [Culture] [in this city] <for [10] turns>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>",
-						"Limited to [1] per Civilization <during the [Ancient era]>","Limited to [2] per Civilization <during the [Classical era]>","Limited to [3] per Civilization <during the [Medieval era]>","Limited to [4] per Civilization <during the [Renaissance era]>",
-						"Limited to [5] per Civilization <during the [Industrial era]>","Limited to [6] per Civilization <during the [Modern era]>","Limited to [7] per Civilization <during the [Atomic era]>","Limited to [8] per Civilization <starting from the [Information era]>",
+						"Limited to [1] per Civilization <during the [Ancient era]>","Limited to [1] per Civilization <during the [Classical era]>","Limited to [2] per Civilization <during the [Medieval era]>","Limited to [2] per Civilization <during the [Renaissance era]>",
+						"Limited to [3] per Civilization <during the [Industrial era]>","Limited to [3] per Civilization <during the [Modern era]>","Limited to [4] per Civilization <during the [Atomic era]>","Limited to [4] per Civilization <starting from the [Information era]>",
 						"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 ]
