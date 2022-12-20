@@ -1304,14 +1304,14 @@
 		"uniqueText": "Melee Land units deal extra damage against cities, but are harder to sustain\n Mountains and Ruins yield extra gold \n may trigger an eruption once per era in any city next to mountain",
 		"uniques": ["[+3 Gold] from every [Mountain]","[+2 Gold] from every [City ruins]","[+1 Gold] from every [City ruins] <after discovering [Civil Service]>",
 					"[{Melee} {Land}] units gain the [Besiege] promotion","[-1] Unit Supply per city","[+20]% maintenance costs <for [{Land} {Melee}] units>"],
-		"cities": ["Forgefall","Kiln Edge","Leevoss","Pittenrock","Bordstone","Armstane","Falkid","Eskrick","Undulonn","Rask","Ousten Bank",
-			"Ratholl","Baikenvoss","Apitea","Mennia","Lamder"],
-		"civilopediaText": [
+		"cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
+			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkulljö"],
+		/*"civilopediaText": [
 			{"text":"Lithoid is an ancient sentient creature made up of rock and earthly minerals. They are waking up from their deep slumber inside the earth. They can eat minerals for their sustenance instead of normal organic food like other creature."},
 			{"text":"Lithoid Combine is a good tall civilization thanks to their unique abilities. Settle cities adjacent to Hill and Mountain to use their unique abilities. It is particularly good for tall playstyle because they can basically turn production into population."},
 			{"text":"Don't be too hasty on unearthing Lithoid population. Make sure they don't starve before you unearth new Lithoid. Or wait until you have a hard time raising your population."},
 			{"text":"Their unique building further improve upon their ability with +1 Food to Mine. Their unique unit is a better Trebuchet that doesn't to set up to attack."},
-        ]
+        ]*/
 	},
 	
 ]
