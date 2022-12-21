@@ -1017,8 +1017,8 @@
 			"uniqueTo": "Basalt Remainers",
 			"cost": 50,
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured",
-						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns>","Nullifies [Faith] [in this city] <for [10] turns>"
-						"[+50]% [Culture] [in this city] <for [10] turns>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>",
+						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption]>",
+						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption]>",
 						"Limited to [1] per Civilization <during the [Ancient era]>","Limited to [1] per Civilization <during the [Classical era]>","Limited to [2] per Civilization <during the [Medieval era]>","Limited to [2] per Civilization <during the [Renaissance era]>",
 						"Limited to [3] per Civilization <during the [Industrial era]>","Limited to [3] per Civilization <during the [Modern era]>","Limited to [4] per Civilization <during the [Atomic era]>","Limited to [4] per Civilization <starting from the [Information era]>",
 						"Unsellable", "Will not be displayed in Civilopedia"],
