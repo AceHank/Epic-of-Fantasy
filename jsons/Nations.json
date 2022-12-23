@@ -1306,7 +1306,7 @@
 					"[{Melee} {Land}] units gain the [Besiege] promotion","[-1] Unit Supply per city","[+20]% maintenance costs <for [{Land} {Melee}] units>"],
 		"cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
 			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkulljö"],
-		/*"civilopediaText": [
+		"civilopediaText": [
 			{"text":"Basaltlings are constructs and zombie likes consisting of volcanic ash and rocks. They were once human beings that became victims of an active volcano. They now have a special relation to mountains. They are ready to defend them with their otherwise meaningless lives. They can even awaken volcanoes slumbering deep below when threatened."},
 			{"text":"Basalt Remainers are a good civ for both defense and early wars, with free besiege promotion for melee units and early Swordsman unique. You may also use eruptions to get missile-like units and gain a high military production."},
 			{"text":"Be aware that eruptions will also stop growth and faith gain in all cities that erupted once, so think twice before triggering them. You should settle all your cities next to mountains or razed cities to use the full potential"},
