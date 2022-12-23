@@ -1308,10 +1308,9 @@
 			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkulljö"],
 		/*"civilopediaText": [
 			{"text":"Basaltlings are constructs and zombie likes consisting of volcanic ash and rocks. They were once human beings that became victims of an active volcano. They now have a special relation to mountains. They are ready to defend them with their otherwise meaningless lives. They can even awaken volcanoes slumbering deep below when threatened."},
-			{"text":"Lithoid Combine is a good tall civilization thanks to their unique abilities. Settle cities adjacent to Hill and Mountain to use their unique abilities. It is particularly good for tall playstyle because they can basically turn production into population."},
-			{"text":"Don't be too hasty on unearthing Lithoid population. Make sure they don't starve before you unearth new Lithoid. Or wait until you have a hard time raising your population."},
-			{"text":"Their unique building further improve upon their ability with +1 Food to Mine. Their unique unit is a better Trebuchet that doesn't to set up to attack."},
-        ]*/
+			{"text":"Basalt Remainers are a good civ for both defense and early wars, with free besiege promotion for melee units and early Swordsman unique. You may also use eruptions to get missile-like units and gain a high military production."},
+			{"text":"Be aware that eruptions will also stop growth and faith gain in all cities that erupted once, so think twice before triggering them. You should settle all your cities next to mountains or razed cities to use the full potential"},
+			{"text":"When playing Basalt Remainers you should avoid automatizing your workers as they will replace the city ruins with other improvements."},
+           ],
 	},
-	
 ]
