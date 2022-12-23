@@ -494,6 +494,83 @@ BuildingIcons/Trigger Eruption
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Trigger Eruption 10
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 11
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 12
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 2
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 3
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 4
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 5
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 6
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 7
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 8
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trigger Eruption 9
+  rotate: false
+  xy: 4, 1424
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Troll's Hut
   rotate: false
   xy: 652, 860
