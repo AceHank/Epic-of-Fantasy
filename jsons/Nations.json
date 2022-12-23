@@ -1301,7 +1301,7 @@
 		"outerColor": [90,93,95],
 		"innerColor": [154,170,170],
 		"uniqueName": "From ashes to a new Fate",
-		"uniqueText": "Melee Land units deal extra damage against cities, but are harder to sustain\n Mountains and Ruins yield extra gold \n may trigger an eruption once per era in any city next to mountain",
+		"uniqueText": "Melee Land units deal extra damage against cities, but are harder to sustain\n Mountains and Ruins yield extra gold \n May trigger an eruption once in every city next to mountain when at war",
 		"uniques": ["[+3 Gold] from every [Mountain]","[+2 Gold] from every [City ruins]","[+1 Gold] from every [City ruins] <after discovering [Civil Service]>",
 					"[{Melee} {Land}] units gain the [Besiege] promotion","[-1] Unit Supply per city","[+20]% maintenance costs <for [{Land} {Melee}] units>"],
 		"cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
@@ -1309,7 +1309,7 @@
 		"civilopediaText": [
 			{"text":"Basaltlings are constructs and zombie likes consisting of volcanic ash and rocks. They were once human beings that became victims of an active volcano. They now have a special relation to mountains. They are ready to defend them with their otherwise meaningless lives. They can even awaken volcanoes slumbering deep below when threatened."},
 			{"text":"Basalt Remainers are a good civ for both defense and early wars, with free besiege promotion for melee units and early Swordsman unique. You may also use eruptions to get missile-like units and gain a high military production."},
-			{"text":"Be aware that eruptions will also stop growth and faith gain in all cities that erupted once, so think twice before triggering them. You should settle all your cities next to mountains or razed cities to use the full potential"},
+			{"text":"Be aware that eruptions will also stop growth and faith gain in all cities that erupted once, so think twice before triggering them. You should settle all your cities next to mountains or razed cities to use the nation's full potential"},
 			{"text":"When playing Basalt Remainers you should avoid automatizing your workers as they will replace the city ruins with other improvements."},
            ],
 	},
