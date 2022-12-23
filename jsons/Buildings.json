@@ -1119,5 +1119,44 @@
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 12]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 12]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 12]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 12]>",
 						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 11] is constructed>"],
-	}
+	},
+	
+	//The Chroniclers
+	{
+		"name": "Archive",
+		"uniqueTo": "The Chroniclers",
+		"replaces": "Library",
+		"specialistSlots": {"Archiver": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "+1 Archiver slot (+3 Science, +3 Culture, +4 Great Scientist Points)"],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{"text": "A place where the Archiver store their records of the world."},
+        ]
+	},
+	
+	//Salamander Empire
+	{
+		"name": "Everburning Temple",
+		"uniqueTo": "Salamander Empire",
+		"replaces": "Temple",
+		"faith": 2,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+		{
+			"name": "Construct Sun Obelisk",
+			"uniqueTo": "Salamander Empire",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Must be next to [Desert]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+						"Free [Sun Obelisk] appears"]
+		},
+		
 ]
