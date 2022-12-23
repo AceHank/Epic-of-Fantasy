@@ -62,7 +62,7 @@
 		"uniqueTo": "Uldra",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+		"uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 	},
 	{
@@ -70,7 +70,7 @@
 		"uniqueTo": "Uldra",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 	},
 	
@@ -919,11 +919,11 @@
 			{"text": "The denizens of Magnar Empire have a tradition of dueling to settle dispute. And often, the losers will be sent into labor slavery."},
         ]
 	},
-		{
+{
 			"name": "Forced Levy",
 			"uniqueTo": "Magnar Empire",
 			"cost": 1,
-			"uniques": ["Only available <in cities with at least [2] [Population]>","Never destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia", 
+			"uniques": ["Only available <in cities with at least [2] [Population]>","Destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia", 
 						"[-1] population [in this city]",
 						"Free [Warrior] appears <before discovering [Iron Working]>", 
 						"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]>",
@@ -954,7 +954,7 @@
 			"uniqueTo": "Lithoid Combine",
 			"maintenance": 0,
 			"cost": 75,
-			"uniques": ["Unsellable", "Cannot be purchased", "Only available <in cities without a [Unearth Lithoid I (Mountain)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+			"uniques": ["Unsellable", "Cannot be purchased", "Only available <in cities without a [Unearth Lithoid I (Mountain)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 		},
 		{
@@ -962,7 +962,7 @@
 			"uniqueTo": "Lithoid Combine",
 			"maintenance": 0,
 			"cost": 100,
-			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid I (Hill)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid I (Hill)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 		},
 		{
@@ -970,7 +970,7 @@
 			"uniqueTo": "Lithoid Combine",
 			"maintenance": 0,
 			"cost": 125,
-			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid II (Hill)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid II (Hill)]>", "Must be next to [Hill]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 		},
 		{
@@ -978,7 +978,7 @@
 			"uniqueTo": "Lithoid Combine",
 			"maintenance": 0,
 			"cost": 75,
-			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities without a [Unearth Lithoid I (Hill)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities without a [Unearth Lithoid I (Hill)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 		},
 		{
@@ -986,7 +986,7 @@
 			"uniqueTo": "Lithoid Combine",
 			"maintenance": 0,
 			"cost": 100,
-			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid I (Mountain)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid I (Mountain)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 		},
 		{
@@ -994,7 +994,7 @@
 			"uniqueTo": "Lithoid Combine",
 			"maintenance": 0,
 			"cost": 125,
-			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid II (Mountain)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Never destroyed when the city is captured",
+			"uniques": ["Unsellable","Cannot be purchased", "Only available <in cities with a [Unearth Lithoid II (Mountain)]>", "Must be next to [Mountain]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 		},
 	//Basalt Remainers
