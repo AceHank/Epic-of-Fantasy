@@ -3,6 +3,9 @@
 * AceHank - Author: Codes, lores, ideas, icons
 * [amfauzn](https://github.com/amfauzn) - Co-author: Codes, lores, ideas, icons
 
+#### Nations Contributors
+* [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers
+
 #### Nation Suggestion
 * gohwala - Fanrong Republic
 * Ân - The Wizard Council
