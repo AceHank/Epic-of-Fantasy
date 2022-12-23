@@ -933,6 +933,18 @@
 		"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	
+	//The Chroniclers
+	{
+		"name": "[Sentinel] ability",
+		"uniques": ["[+33]% Strength <when fighting units from a Civilization with more Cities than you>", "[+1] Movement <in [Friendly Land] tiles>"]
+	},
+	
+	//Salamander Empire
+	{
+		"name": "[Scorcher] ability",
+		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
+	},
+	
 	
 	
 	//Mixed
