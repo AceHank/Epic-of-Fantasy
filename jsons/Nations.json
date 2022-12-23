@@ -1278,7 +1278,7 @@
         ]
 	},
 
-	//Kronus of Lithoid Combine
+	//Ash Ignimbrite of Basalt Remainers
 	{
 		"name": "Basalt Remainers",
 		"leaderName": "Ash Ignimbrite",
@@ -1286,8 +1286,8 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "All hail mighty Kronus of the Lithoid Combine! Awakened from your deep slumber, you call forth upon your buried people. Waking them from their sleep, leading them to glory once more. Cities and countries now long gone, your people must start anew in this foreign world.",
-		"startIntroPart2": "O, Kronus, your people call upon your name once more. Will you rise and lead them to glory? Will you stand up and challenge this unknown world? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Rising emperor Ash Ignimbrite, buried under the ashes and lava of an old world volcano for centuries, you and your people emerge from the desolation to roam the world once more and continue living by a determined fate. They were risen from the dead as constructs and humanoid basalt creatures by the arcane powers slumbering within the volcano. It also granted them abilities and burdens of normal human beings. Being fate-bonded to volcanic ash, you posess the power to awaken any mountain as a volcano.",
+		"startIntroPart2": "Ash Igimbrite, you and your people were given a second chance. Can you lead your people to a glorious new fate? Will you protect the volcanoes that you now call home? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "May your soul be buried under ashes like mine has been",
 		"attacked": "The magma is designated for you!",
@@ -1307,7 +1307,7 @@
 		"cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
 			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkulljö"],
 		/*"civilopediaText": [
-			{"text":"Lithoid is an ancient sentient creature made up of rock and earthly minerals. They are waking up from their deep slumber inside the earth. They can eat minerals for their sustenance instead of normal organic food like other creature."},
+			{"text":"Basaltlings are constructs and zombie likes consisting of volcanic ash and rocks. They were once human beings that became victims of an active volcano. They now have a special relation to mountains. They are ready to defend them with their otherwise meaningless lives. They can even awaken volcanoes slumbering deep below when threatened."},
 			{"text":"Lithoid Combine is a good tall civilization thanks to their unique abilities. Settle cities adjacent to Hill and Mountain to use their unique abilities. It is particularly good for tall playstyle because they can basically turn production into population."},
 			{"text":"Don't be too hasty on unearthing Lithoid population. Make sure they don't starve before you unearth new Lithoid. Or wait until you have a hard time raising your population."},
 			{"text":"Their unique building further improve upon their ability with +1 Food to Mine. Their unique unit is a better Trebuchet that doesn't to set up to attack."},
