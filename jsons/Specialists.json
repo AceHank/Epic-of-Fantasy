@@ -14,4 +14,13 @@
 		"culture": 3,
 		"color": [0,255,34]
 	},
+	
+	//Chronicler
+	{
+		"name":"Archiver",
+		"science": 3,
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist":4},
+		"color": [5,125,145]
+	},
 ]
