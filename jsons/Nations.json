@@ -1274,8 +1274,43 @@
 			{"text":"Lithoid is an ancient sentient creature made up of rock and earthly minerals. They are waking up from their deep slumber inside the earth. They can eat minerals for their sustenance instead of normal organic food like other creature."},
 			{"text":"Lithoid Combine is a good tall civilization thanks to their unique abilities. Settle cities adjacent to Hill and Mountain to use their unique abilities. It is particularly good for tall playstyle because they can basically turn production into population."},
 			{"text":"Don't be too hasty on unearthing Lithoid population. Make sure they don't starve before you unearth new Lithoid. Or wait until you have a hard time raising your population."},
-			{"text":"Their unique building further improve upon their ability with +1 Food to Mine. Their unique unit is a better Trebuchet that doesn't to set up to attack."},
+			{"text":"Their unique building further improve upon their ability with +1 Food to Mine. Their unique unit is a better Trebuchet that doesn't have to set up to attack."},
         ]
 	},
-	
+
+	//Ash Ignimbrite of Basalt Remainers
+	{
+		"name": "Basalt Remainers",
+		"leaderName": "Ash Ignimbrite",
+		"adjective": ["Basaltlings"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Rising emperor Ash Ignimbrite, buried under the ashes and lava of an old world volcano for centuries, you and your people emerge from the desolation to roam the world once more and continue living by a determined fate. They were risen from the dead as constructs and humanoid basalt creatures by the arcane powers slumbering within the volcano. It also granted them abilities and burdens of normal human beings. Being fate-bonded to volcanic ash, you posess the power to awaken any mountain as a volcano.",
+		"startIntroPart2": "Ash Igimbrite, you and your people were given a second chance. Can you lead your people to a glorious new fate? Will you protect the volcanoes that you now call home? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "May your soul be buried under ashes like mine has been",
+		"attacked": "The magma is designated for you!",
+		"defeated": "We may have fallen now, but We will rise back from the ashes. It wouldn't be the first time.",
+		"introduction": "You may call me Ash Ignimbrite, it's not my name, but it serves the same purpose. I hope you stay away from our volcanoes, or we'll turn up the heat",
+		
+		"neutralHello": "May your soul have a better fate than mine",
+		"hateHello": "Do you mind if I have better things to do?",
+		"tradeRequest": "The Basaltlings are ready to offer this trade",
+		
+		"outerColor": [90,93,95],
+		"innerColor": [154,170,170],
+		"uniqueName": "From ashes to a new Fate",
+		"uniqueText": "Melee Land units deal extra damage against cities, but are harder to sustain\n Mountains and Ruins yield extra gold \n May trigger an eruption once in every city next to mountain when at war",
+		"uniques": ["[+3 Gold] from every [Mountain]","[+2 Gold] from every [City ruins]","[+1 Gold] from every [City ruins] <after discovering [Civil Service]>",
+					"[{Melee} {Land}] units gain the [Besiege] promotion","[-1] Unit Supply per city","[+20]% maintenance costs <for [{Land} {Melee}] units>"],
+		"cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
+			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkulljö"],
+		"civilopediaText": [
+			{"text":"Basaltlings are constructs and zombie likes consisting of volcanic ash and rocks. They were once human beings that became victims of an active volcano. They now have a special relation to mountains. They are ready to defend them with their otherwise meaningless lives. They can even awaken volcanoes slumbering deep below when threatened."},
+			{"text":"Basalt Remainers are a good civ for both defense and early wars, with free besiege promotion for melee units and early Swordsman unique. You may also use eruptions to get missile-like units and gain a high military production."},
+			{"text":"Be aware that eruptions will also stop growth and faith gain in all cities that erupted once, so think twice before triggering them. You should settle all your cities next to mountains or razed cities to use the nation's full potential"},
+			{"text":"When playing Basalt Remainers you should avoid automatizing your workers as they will replace the city ruins with other improvements."},
+           ],
+	},
 ]

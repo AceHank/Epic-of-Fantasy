@@ -967,4 +967,39 @@
 			{"text": "A Rockspewer can spew rock at incredible speed, making them particularly good at razing walls and castles alike to the ground."},
         ]
 	},
+
+	//Basalt Remainers
+	{
+		"name": "Basalt Construct",
+		"unitType": "Sword",
+		"uniqueTo": "Basalt Remainers",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Masonry",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"hurryCostModifier": 20,
+		"promotions": ["Morale","Protector of Realm"],
+		"uniques": ["Unlocked at Masonry","[-10]% Strength <when fighting in [Foreign Land] tiles>","Invisible to others <when above [99] HP> <within [1] tiles of a [Mountain]>"],
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "The largest creature that emerged from the ashes, but not really the smartest. It is camouflaged in Mountainous Hills and Volcanic Ash"},
+        ]
+	},
+	{
+		"name": "Lava Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 5,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 1000,
+		"uniques": ["Unbuildable", "[+100]% maintenance costs","[+100]% Strength <starting from the [Medieval era]>","[+150]% Strength <starting from the [Industrial era]>","[+150]% Strength <starting from the [Modern era]>","[+150]% Strength <starting from the [Atomic era]>","[+150]% Strength <starting from the [Information era]>","Self-destructs when attacking","Destroys tile improvements when attacking","[+1] Range <starting from the [Renaissance era]>","[+1] Range <starting from the [Modern era]>","[+1] Range <starting from the [Information era]>","Limited to [2] per Civilization"],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{"text": "A lava bomb is a mass of partially molten rock larger than 64 mm in diameter. It can be thrown out when an eruption is triggered.\n Because of the arcane energy within, it may leave a desolation where it lands.\n It appears to be aimed by a mysterious force pressing buttons"},
+        ]
+	},
 ]
