@@ -1313,4 +1313,76 @@
 			{"text":"When playing Basalt Remainers you should avoid automatizing your workers as they will replace the city ruins with other improvements."},
            ],
 	},
+	
+	//Huwbert of The Chroniclers
+	{
+		"name": "The Chroniclers",
+		"leaderName": "Huwbert",
+		"adjective": ["Chroniclers"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Hail Huwbert the Lorekeeper. Your secret order now has revealed to the world. Time for you to rise and protect the history of the world. Your order has always been watching the changes of the world. Recording each and every major events that changed the course of this world.",
+		"startIntroPart2": "Oh great Lorekeeper, will you record the happenings of this new world you've been brought into? Will you defend your archive from barbarous people? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "We are the preserver of history, except yours.",
+		"attacked": "You will not be remembered.",
+		"defeated": "Our legacy, all of history, now gone, burned to the ground.",
+		"introduction": "Well met strangers. Allow me to introduce myself as Huwbert, we are the Chroniclers, we perserve histories. What will you leave for the world to see?",
+		
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "What?",
+		"tradeRequest": "We hereby request your assistance.",
+		
+		"outerColor": [232,230,230],
+		"innerColor": [5,125,145],
+		"uniqueName": "Shrouded Archivist",
+		"uniques": ["Gain a free [Archive] [in all cities] <in [Desert] tiles>","[+34]% Production when constructing [Science] buildings [in all cities]"],
+		"cities": ["Matabbah","Al Karak","Madai'in","Jissa","Ohakim","Abboud","Shaurya","Kumar","Nadeer","Imani","Matshediso",
+			"Kunlun","Ararat"],
+		"civilopediaText": [
+			{"text":"Chroniclers is a secret societies that records all the happenings in the world. A historian of the world. Making sure no history left to be buried. And making sure no knowledge is to be forgotten."},
+			{"text":"Chroniclers has a good Science output in early game thanks to their unique ability and unique building. Settle as many of your cities in Desert tile to instantly receive an Archive for free."},
+			{"text":"Their unique unit is a good defending force to protect your cities in the mid-game."}
+        ]
+	},
+	
+	//Zalash of Salamander Empire
+	{
+		"name": "Salamander Empire",
+		"leaderName": "Zalash",
+		"adjective": ["Salamanders"],
+		"startBias": ["Desert"],
+		
+		"startIntroPart1": "Great Emperor Zalash of the Salamanders! Your name echoed through the realm, your people praised your benevolent rule. You protected the empire with honor, guarding it from those who seek destruction upon the empire. Your understanding of the Sun magic helps you construct the most beautiful of craft. The Sun Obelisk that will destroy those who dare to defy your will.",
+		"startIntroPart2": "O, mighty Zalash. Your people call upon your name once more. Will you answer them and lead them once more? Will you lead them and defend them? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your empire shall fall, while ours rise and conquer!",
+		"attacked": "You will not live to see the end of this!",
+		"defeated": "Oh great Sun, wasn't your power enough to protect us?",
+		"introduction": "Indeed you have heard of me! I am Zalash, the Emperor of the Salamanders, consider yourself lucky to be in my presence.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What?",
+		"tradeRequest": "I request you to accept this trade offer.",
+		
+		"outerColor": [245,93,5],
+		"innerColor": [255,255,255],
+		"uniqueName": "Incandescent Ray",
+		"uniqueText": "Receive free Sun Obelisk in cities settled next to Desert tiles\n+1 [Food] in City Center for each adjacent Desert tiles\n+1 [Faith] in City Center for every 2 adjacent Desert tiles",
+		"uniques": ["[+1 Food] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
+					"[+2 Food, +1 Faith] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
+					"[+3 Food, +1 Faith] [in all cities] <with [3] to [3] neighboring [Desert] tiles>",
+					"[+4 Food, +2 Faith] [in all cities] <with [4] to [4] neighboring [Desert] tiles>",
+					"[+5 Food, +2 Faith] [in all cities] <with [5] to [5] neighboring [Desert] tiles>",
+					"[+6 Food, +3 Faith] [in all cities] <with [6] to [6] neighboring [Desert] tiles>"],
+		"cities": ["Ra'Bothnor","Ka'Tanab","Ata'Podossa","Pan'Kischa","Na'Valus","Bid'Tarakii","Shil'Tanask","Fal'Kaboss","Gal'Suposk","Ro'Essek","Nas'Simmir",
+			"Shi'Poltan","Ira'Monosk"],
+		"civilopediaText": [
+			{"text":"Salamnder is a variant race of the Lizardmen. They live in desert instead of river or lake. They have particularly high resistance to heat. They worship the sun and can harness its power through magic."},
+			{"text":"Salamander Empire is a good defensive civilization. They have an extra defensive building from their unique building. And they gain access to Sun Obelisk which basically lets your cities attack twice."},
+			{"text":"Their unique unit is also good for defending your land because of their promotion and start bias."},
+			{"text":"Make sure to purchase the Construct Sun Obelisk building to receive Sun Obelisk in cities settled next to Desert. And don't forget to upgrade your Sun Obelisk every era."},
+        ]
+	},
 ]
