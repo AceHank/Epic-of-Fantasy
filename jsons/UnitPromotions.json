@@ -765,6 +765,23 @@
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ANTI ERROR MEASURE ENDS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 	*/
 	
+	//Overwrites Stuff
+	{
+		"name": "Ambush I",
+		"uniques": ["[+33]% Strength <vs [Armored] units>", "[+25]% Strength <vs [Construct] units>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
+        "column": 25,
+        "row": 1
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>", "[+25]% Strength <vs [Construct] units>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
+        "column": 25,
+        "row": 2
+	},
+	
 	//Dwarven Kingdom~~~~~~~
 	{
 		"name": "Construct",
