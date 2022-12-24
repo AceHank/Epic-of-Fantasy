@@ -771,7 +771,6 @@
 	{
 		"name": "Peacemaker Spell",
 		"unitType": "Missile",
-		"uniqueTo": "The Wizard Council",
 		"movement": 1,
 		"strength": 20,
 		"rangedStrength": 20,
@@ -780,7 +779,7 @@
 		"uniques": ["Unbuildable", "[+400]% Strength", "[-90]% Strength <vs cities>", "[-100]% maintenance costs"],
 		"attackSound": "missile",
 		"civilopediaText": [
-			{"text": "Strategic-type spell that only used in emergency. A very strong spell but limited by its long preparation. Only a limit amount of the are cast along the Wizard Council's history."},
+			{"text": "Strategic-type spell that only used in emergency. A very strong spell but limited by its long preparation. Only a limit amount of the are cast throughout the Wizard Council's history."},
         ]
 	},
 	
