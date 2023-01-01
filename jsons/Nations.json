@@ -1393,8 +1393,8 @@
 		"adjective": ["Eternals"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Hail Aetera, the leader amongst the Eternals! ",
-		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Long live Aetera, leader amongst the Eternals! It has been ages since your bodies turned into mere bone. But you preserved and feed upon those who can't fight back against your might. You've led your people for centuries, and for more centuries to come. You won't let the glory of the Eternals be disrupted by others.",
+		"startIntroPart2": "O, Aetera, your people seek your wisdom once more. Will you lead them to glory? Will you live long enough to see others bend to your will? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "Our victory is guaranteed, you are already defeated!",
 		"attacked": "So you dare to defy our will? Very well, prepare to be utterly destroyed!",
@@ -1414,7 +1414,7 @@
 		"cities": ["Cloctii","Xulzenoca","Icti","Tect","Nuitz","Mezactii","Aquetoc","Aeqantzi","Eopt","Huctl","Auiza",
 			"Eluqec","Inqotl"],
 		"civilopediaText": [
-			{"text":"The Eternals are long-lived creatures that feeds from the life essence of other race, soul-vampirism one might say, they are Necrophages. Though their soul last long, their body doesn't, eventually becoming more and more rotten and until only skeleton left. They see other lesser being as cattle for them to feed upon."},
+			{"text":"The Eternals are long-lived creatures that feeds from the life essence of other race, soul-vampirism one might say, they are Necrophages. Though their soul last long, their body doesn't, eventually becoming more and more rotten and until only bone left. They see other lesser being as cattle for them to feed upon."},
 			{"text":"The Eternals is a good domination and scientific civilization. Their unique ability lets military unit heals after they kill a unit. The unique unit is a Warrior which can ignore terrain cost, can be a good Scout replacement considering their cost is almost as cheap as Scout."},
 			{"text":"Their unique building is a great University replacement with bonus to Great Person generation durin Golden Age. Combined with the Happiness gained from unique ability, it is a good building."},
         ]
@@ -1427,8 +1427,8 @@
 		"adjective": ["Precursors"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": ".",
-		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Great Aran of the Precursor! As the firstborn, your people have gone through the most out of them all. Your civilization rose and fell with the passing of times. Until finally, met with your demise from internal conflict. Your people gone, your technology lost, and this world you once ruled, have forgotten you.",
+		"startIntroPart2": "Oh venerated Aran, you and your people called once more to start all over again. Will you lead your people to golden age? Will you prevent the demise of your people? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You stand no chance against our army. Prepare for war!",
 		"attacked": "So, we can't understand each other after all?",
