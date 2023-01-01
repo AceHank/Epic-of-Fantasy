@@ -125,7 +125,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Alchemist": 3},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist slots (+4 Great Scientist Point from each)"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist slots (+3 [Science], +4 Great Scientist Point from each)"],
 		"requiredTech": "Education",
 		"civilopediaText": [
 			{"text": "A place to learn for young alchemist."},
@@ -372,11 +372,11 @@
 		"uniqueTo": "Nature's Keeper",
 		"replaces": "Palace",
 		"isNationalWonder": true,
-		"production": 4,
-		"science": 4,
-		"gold": 4,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
 		"culture": 2,
-		"faith": 1,
+	//	"faith": 1,
 		"cityStrength": 2,
 		"cost": 1,
 		"percentStatBonus": {"science": 15, "faith": 15, "culture": 15,},
@@ -790,10 +790,10 @@
 		"uniqueTo": "Scazari Hive",
 		"replaces": "Barracks",
 		"hurryCostModifier": 25,
-		"food": 2,
+		"food": 1,
 		"maintenance": 1,
 		"specialistSlots": {"Spawner Drone": 2},
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "+2 Spawner Drone slots (+1 Food +3 Culture from each)"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "+2 Spawner Drone slots (+2 [Food], +3 [Culture] from each)"],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
 			{"text": "Place where new Scazari are bred. A place where the eggs laid by their Queen are kept and protected. A spawner drone will hatch the laid eggs."},
@@ -1129,7 +1129,7 @@
 		"specialistSlots": {"Archiver": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]", "+1 Archiver slot (+3 Science, +3 Culture, +4 Great Scientist Points)"],
+		"uniques": ["[+1 Science] per [2] population [in this city]", "+1 Archiver slot (+3 [Science], +3 [Culture], +4 Great Scientist Points)"],
 		"requiredTech": "Writing",
 		"civilopediaText": [
 			{"text": "A place where the Archiver store their records of the world."},
@@ -1159,4 +1159,32 @@
 						"Free [Sun Obelisk] appears"]
 		},
 		
+	//The Eternals
+	{
+		"name": "Aethenaeum",
+		"uniqueTo": "The Eternals",
+		"replaces": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+20]% [Science] [in this city] <while the empire is happy>", "[+50]% Great Person generation [in this city] <during a Golden Age>"],
+		"requiredTech": "Education"
+	},
+		
+	//Precursor
+	{
+		"name": "Arcanum",
+		"uniqueTo": "Precursor",
+		"replaces": "Shrine",
+		"faith": 1,
+		"science": 1,
+		"culture": 1,
+		"specialistSlots": {"Scientist": 1},
+		"cost": 50,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled", "+1 Scientist slot"]
+	},
 ]

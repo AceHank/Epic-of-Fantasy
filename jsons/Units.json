@@ -68,7 +68,7 @@
 		"uniqueTo": "Uldra",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 14,
+		"strength": 13,
 		"cost": 56,
 		"requiredTech": "Trapping",
 		"upgradesTo": "Longswordsman",
@@ -831,7 +831,7 @@
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 24,
+		"strength": 23,
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
@@ -1168,4 +1168,39 @@
 			"attackSound": "shot"
 		},
 		*/
+	
+	//The Eternals
+	{
+		"name": "Summoned Undead",
+		"replaces": "Warrior",
+		"uniqueTo": "The Eternals",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	
+	//Precursor
+	{
+		"name": "Seer",
+		"uniqueTo": "Precursor",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost", "Scouting I"],
+		"attackSound": "nonmetalhit"
+	},
+	
 ]

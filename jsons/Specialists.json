@@ -10,7 +10,7 @@
 	//Scazari Hive
 	{
 		"name":"Spawner Drone",
-		"food": 1,
+		"food": 2,
 		"culture": 3,
 		"color": [0,255,34]
 	},

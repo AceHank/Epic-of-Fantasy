@@ -962,6 +962,11 @@
 		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
 	},
 	
+	//The Eternals
+	{
+		"name": "Eternal",
+		"uniques": ["Heals [20] damage if it kills a unit"]
+	},
 	
 	
 	//Mixed
