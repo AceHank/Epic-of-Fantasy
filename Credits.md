@@ -19,8 +19,8 @@
 
 # Icons
 * Unciv
-* Fantasia
-* DeCiv Redux
-* RekMod
+* [Fantasia](https://github.com/amfauzn/Fantasia)
+* [DeCiv Redux](https://github.com/SpacedOutChicken/DeCiv-Redux)
+* [RekMod](https://github.com/ravignir/RekMOD/tree/master/jsons)
 * TheNounProject
 * FlatIcon
