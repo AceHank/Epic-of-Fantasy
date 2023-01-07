@@ -20,6 +20,7 @@
 # Icons
 * Unciv
 * Fantasia
+* DeCiv Redux
 * RekMod
 * TheNounProject
 * FlatIcon
