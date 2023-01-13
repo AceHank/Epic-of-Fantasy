@@ -3,6 +3,9 @@
 * AceHank - Author: Codes, lores, ideas, icons
 * [amfauzn](https://github.com/amfauzn) - Co-author: Codes, lores, ideas, icons
 
+#### Sprites
+* [carriontrooper](https://github.com/carriontrooper) - AbsoluteUnits tileset unit sprites
+
 #### Nations Contributors
 * [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers
 
