@@ -275,7 +275,7 @@
 			"uniqueTo": "Argonautian States",
 			"unitType": "Sword",
 			"movement": 2,
-			"strength": 16,
+			"strength": 17,
 			"upgradesTo": "Longswordsman",
 			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can construct [Citadel]",
 						"Can start an [8]-turn golden age", "Gain [250] [Gold] <by consuming this unit>"],
@@ -288,8 +288,8 @@
 			"uniqueTo": "Argonautian States",
 			"unitType": "Archery",
 			"movement": 2,
-			"strength": 16,
-			"rangedStrength": 20,
+			"strength": 18,
+			"rangedStrength": 21,
 			"range": 2,
 			"upgradesTo": "Gatling Gun",
 			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can construct [Citadel]",
@@ -312,7 +312,7 @@
 			"uniqueTo": "Argonautian States",
 			"unitType": "Mounted",
 			"movement": 4,
-			"strength": 38,
+			"strength": 40,
 			"upgradesTo": "Landship",
 			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can construct [Citadel]",
 						"Can speed up construction of a building", "Can construct [Basilikoi Paides]"],
@@ -416,7 +416,7 @@
 		"uniqueTo": "Necrontia",
 		"movement": 2,
 		"strength": 10,
-		"rangedStrength": 20,
+		"rangedStrength": 18,
 		"range": 2,
 		"cost": 120,
 		"requiredTech": "Theology",
@@ -1009,8 +1009,9 @@
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 26,
+		"strength": 27,
 		"cost": 150,
+		"uniques": ["Construct"],
 		"promotions": ["[Sentinel] ability"],
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -1184,7 +1185,7 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
+			{"text": "Undead fighter has no fatigue thus can march more efficiently than regular army."}
 		]
 	},
 	
@@ -1201,6 +1202,66 @@
 		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost", "Scouting I"],
 		"attackSound": "nonmetalhit"
+	},
+	
+	//Celestial Beings
+	{
+		"name": "Archon",
+		"uniqueTo": "Celestial Beings",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 18,
+		"cost": 140,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": ["Construct"],
+		"promotions": ["Volatile Core"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "A construct made from metal using a highly reactive crystal for its core. Fused with the essence of the angels this construct is particularly dangerous for its foes."}
+		]
+	},
+	
+	//Hellbourne
+	{
+		"name": "Bloodfiend",
+		"uniqueTo": "Hellbourne",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Bloodbath"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Some demons can sap their fallen enemy's blood to nourish themselves."},
+        ]
+	},
+	{
+		"name": "Archdemon Azaniroth",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 20,
+		"promotions": ["Intimidation", "Bloodbath"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", 
+					"[+75]% Strength <during the [Renaissance era]>",
+					"[+100]% Strength <during the [Industrial era]>",
+					"[+300]% Strength <during the [Modern era]>",
+					"[+375]% Strength <during the [Atomic era]>",
+					"[+450]% Strength <during the [Information era]>",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "The Archdemons are old and powerful demons, their age represents their power as they grow more and more powerful with the passing of times. One such ancient archdemon is Azaniroth."}
+		]
 	},
 	
 ]

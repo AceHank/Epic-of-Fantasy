@@ -1064,7 +1064,7 @@
 		"cities": ["Krezon","Za'as","Greltusab","Hertuzet","Kril'thek","Nenilrir","Krilthon","Trik'thok","Yishishral","Sakh'il","Kumos",
 			"Hunot","Susthelas"],
 		"civilopediaText": [
-			{"text":"Nerubian is an arachnid creature from the Warcraft lore. They are ancient creature that live in the arctic."},
+			{"text":"Nerubian is a human-arachnid species from the Warcraft lore. They are ancient species that live in the arctic."},
 			{"text":"Nerubian Kingdom unique ability is a solid production bonus when constructing Ranged units. While their Ranged units get stronger with Nerubian Kingdom's other unique ability."},
 			{"text":"Their unique building has a good [Science] bonus in Tundra tile. And their unique unit is an expensive but stronger version of Archer."},
         ]
@@ -1317,18 +1317,18 @@
 	//Huwbert of The Chroniclers
 	{
 		"name": "The Chroniclers",
-		"leaderName": "Huwbert",
+		"leaderName": "Muarakh",
 		"adjective": ["Chroniclers"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "Hail Huwbert the Lorekeeper. Your secret order now has revealed to the world. Time for you to rise and protect the history of the world. Your order has always been watching the changes of the world. Recording each and every major events that changed the course of this world.",
+		"startIntroPart1": "Hail Muarakh the Lorekeeper. Your secret order now has revealed to the world. Time for you to rise and protect the history of the world. Your order has always been watching the changes of the world. Recording each and every major events that changed the course of this world.",
 		"startIntroPart2": "Oh great Lorekeeper, will you record the happenings of this new world you've been brought into? Will you defend your archive from barbarous people? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "We are the preserver of history, except yours.",
 		"attacked": "You will not be remembered.",
 		"defeated": "Our legacy, all of history, now gone, burned to the ground.",
-		"introduction": "Well met strangers. Allow me to introduce myself as Huwbert, we are the Chroniclers, we perserve histories. What will you leave for the world to see?",
+		"introduction": "Well met strangers. Allow me to introduce myself as Muarakh, we are the Chroniclers, we perserve histories. What will you leave for the world to see?",
 		
 		"neutralHello": "Peace be upon you.",
 		"hateHello": "What?",
@@ -1450,6 +1450,79 @@
 			{"text":"Precursor is the primordial race on this world. Time before other races appeared, Precursor was there, they are the first of many. Precursor are very intelegent races, they were technologically advanced race. Now long gone but brought back on equal footing."},
 			{"text":"Precursor is good at early scientific thanks to their unique abilities providing free Arcanum in capital. The free +1 [Science] from their unique building is massive when combined with the Scientist that comes with it.Thanks to their other unique abilities, the Scientist can be immediatly put to use, generating +4 Great Scientist point from turn 1. Free Aranum in Capital also means Precursor has +1 [Faith] from turn 1."},
 			{"text":"Their unique unit is a better Scout which has +1 Sight and can be upgraded to Composite Bowman instead of Archer. Making them great at scouting for potential threat or land to settle."},
+        ]
+	},
+	
+	//Tarqiel of Celestial Being
+	{
+		"name": "Celestial Beings",
+		"leaderName": "Tarqiel",
+		"adjective": ["Celestials"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Praise be Archangel Tarqiel of Celestial Beings. Your people came from the Higher Plane to preach the ignorant and primitive natives of your path. Your rule is fair and just, your people held high regards of the way you guide the people.",
+		"startIntroPart2": "O, Tarqiel, now an unprecedented challenges has been brought upon you. Will you become the light that shines in the darkness? Will you guide the ignorants on the correct path? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You shall receive Judgement!",
+		"attacked": "You shall repent!",
+		"defeated": "This is not the end, we will be brought back.",
+		"introduction": "Greetings, I am Tarqiel, one who leads the Celestials. We've come to enlighten you and your people",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Infidel.",
+		"tradeRequest": "I strongly suggest you accept this offer.",
+		
+		"outerColor": [237,216,184],
+		"innerColor": [  0, 54,255],
+		"uniqueName": "Enlightenment",
+		"uniqueText": "+1 [Faith] from every Defensive buildings\nWhen spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]",
+		"uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]",
+					"[+1 Faith] from every [Curative Spire]",
+					"[+1 Faith] from every [Walls]",
+					"[+1 Faith] from every [Castle]",
+					"[+1 Faith] from every [Arsenal]",
+					"[+1 Faith] from every [Military Base]"],
+		"cities": ["Thraemeus","Oriel","Jazriul","Melevon","Zachriel","Jophiel","Dumah","Edelbart","Ruhiel","Zagzagel","Sealtiel",
+			"Halalia","Serradus"],
+		"civilopediaText": [
+			{"text":"Celestial Beings is a civilization from the higher plane of existence. They came to this world to enlighten the natives of their way."},
+			{"text":"Celestial Beings is a good cultural and religion civilization. Their unique ability gaining [Faith] from Defensive building can help with your religious endeavor, which when succesful, they gain boost in [Culture]."},
+			{"text":"Their unique unit is a ranged unit that isn't weak against melee attacker. When their HP is very low, they can do suicide attack which can deal a lot of damage."},
+        ]
+	},
+	
+	//Zorgorath of Hellbourne
+	{
+		"name": "Hellbourne",
+		"leaderName": "Zorgorath",
+		"adjective": ["Hellborns"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Great Demon Lord Zorgorath, will command to victory! The Hellbourne has risen from the depths of Hell, surfacing into an unknowing and unprepared world. You ready to conquer, your people eager to claim yet another world for their own.",
+		"startIntroPart2": "O, Zorgorath, the Hellborns need a strong leader like you. Will you rise and conquer this new world? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "We have come to destroy and conquer.",
+		"attacked": "You will face the wrath of the Hellbourne!",
+		"defeated": "Damn you! I'll curse your blood with my last remaining power!",
+		"introduction": "Ash dägül! I am Zorgorath, the great demon lord of Hellbourne, you will bow before us!",
+		
+		"neutralHello": "Speak.",
+		"hateHello": "Get out.",
+		"tradeRequest": "It's unusual for us to bargain, but alas.",
+		
+		"outerColor": [245,70,22],
+		"innerColor": [  0, 0,0],
+		"uniqueName": "From the Depths of Hell",
+		"uniqueText": "Receive free Archdemon Azaniroth after discovering Theology (can be revived at an increasing price of 500 [Faith])\n+30% [Production] when constructing Military units when at peace",
+		"uniques": ["Receive free [Archdemon Azaniroth] when you discover [Theology]",
+					"May buy [Archdemon Azaniroth] units for [500] [Faith] [in all cities] at an increasing price ([500]) <after discovering [Theology]>",
+					"[+30]% Production when constructing [Military] units [in all cities] <when not at war>"],
+		"cities": ["Xaphempunzu","Baalakibu","Gothi","Sovil","Xellaym","Muratzo","Kragoch","Pazunatas","Xaphirou","Zothra","Vasso",
+			"Sucorei","Xgorgon"],
+		"civilopediaText": [
+			{"text":"Hellbourne is a civilization rising from the depths of Hell. Their greed led them to conquer this world."},
+			{"text":"Hellbourne is a good domination civilization thanks to its unique abilities. They can easily pump military units to prepare for war when at peace. They also gain access to Archdemon Azakroth which is a good hero unit that scales with era."},
+			{"text":"Their unique unit can heal after they kill an enemy, so make sure to last hit with the lowest HP Bloodfiend to keep them alive."},
         ]
 	},
 ]

@@ -1,4 +1,5 @@
 [
+	
 	// Bonus resources
 	{
 		"name": "Bananas",
@@ -272,4 +273,5 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>"]
 	}
+	
 ]

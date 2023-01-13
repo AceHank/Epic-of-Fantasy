@@ -968,6 +968,13 @@
 		"uniques": ["Heals [20] damage if it kills a unit"]
 	},
 	
+	//Celestial Beings
+	//	Doesn't Work as intended (self-destruct below 15 HP)
+	{
+		"name": "Volatile Core",
+		"uniques": ["[+200]% Strength <when attacking> <when below [15] HP>", "[-34]% Strength <when attacking> <vs cities> <when below [15] HP>", "Self-destructs when attacking <when below [15] HP>"]
+	},
+	
 	
 	//Mixed
 	{

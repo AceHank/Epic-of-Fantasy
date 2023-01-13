@@ -1149,6 +1149,9 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+		"civilopediaText": [
+			{"text": "A temple to the Sun, decorated with the everburning flame inside. The temple is well guarded to prevent the everburning flame to be stolen."},
+        ]
 	},
 		{
 			"name": "Construct Sun Obelisk",
@@ -1186,5 +1189,35 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": ["Hidden when religion is disabled", "+1 Scientist slot"]
+		"civilopediaText": [
+			{"text": "The Precursors study the secrets of the arcane in this place."},
+        ]
+	},
+	
+	//Celestial Beings
+	{
+		"name": "Curative Spire",
+		"uniqueTo": "Celestial Beings"
+		"cost": 30,
+		"cityStrength": 3,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"requiredTech": "Agriculture",
+		"uniques": ["Destroyed when the city is captured", "[Land] Units adjacent to this city heal [15] HP per turn when healing"]
+	},
+	
+	//Hellbourne
+	{
+		"name": "Monolith",
+		"replaces": "Monument",
+		"uniqueTo": "Hellbourne",
+		"culture": 2,
+		"faith": 1,
+		"production": 1,
+		"cost": 30,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
 	},
 ]
