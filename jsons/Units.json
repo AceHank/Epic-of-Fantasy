@@ -1251,7 +1251,7 @@
 		"movement": 2,
 		"strength": 20,
 		"promotions": ["Intimidation", "Bloodbath"],
-		"uniques": ["Unbuildable", "Limited to [1] per Civilization", 
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Only available <if [Altar of Azaniroth] is constructed>",
 					"[+75]% Strength <during the [Renaissance era]>",
 					"[+100]% Strength <during the [Industrial era]>",
 					"[+300]% Strength <during the [Modern era]>",

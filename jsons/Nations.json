@@ -1514,7 +1514,7 @@
 		"innerColor": [  0, 0,0],
 		"uniqueName": "From the Depths of Hell",
 		"uniqueText": "Receive free Archdemon Azaniroth after discovering Theology (can be revived at an increasing price of 500 [Faith])\n+30% [Production] when constructing Military units when at peace",
-		"uniques": ["Receive free [Archdemon Azaniroth] when you discover [Theology]",
+		"uniques": ["Receive free [Archdemon Azaniroth] when you discover [Theology]", "Gain a free [Altar of Azaniroth] [in capital]",
 					"May buy [Archdemon Azaniroth] units for [500] [Faith] [in all cities] at an increasing price ([500]) <after discovering [Theology]>",
 					"[+30]% Production when constructing [Military] units [in all cities] <when not at war>"],
 		"cities": ["Xaphempunzu","Baalakibu","Gothi","Sovil","Xellaym","Muratzo","Kragoch","Pazunatas","Xaphirou","Zothra","Vasso",

@@ -1215,6 +1215,13 @@
 	
 	//Hellbourne
 	{
+		"name": "Altar of Azaniroth",
+		"uniqueTo": "Hellbourne",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Unbuildable","Will not be displayed in Civilopedia", "Never destroyed when the city is captured"]
+	},
+	{
 		"name": "Monolith",
 		"replaces": "Monument",
 		"uniqueTo": "Hellbourne",
