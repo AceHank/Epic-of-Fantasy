@@ -1013,13 +1013,19 @@
         ]
 	},
 	{
+			"name": "Crater",
+			"uniqueTo": "Basalt Remainers",
+			"cost": 1,
+			"uniques": ["Unbuildable","Unsellable","Blocks further eruptions in this city","Will not be displayed in Civilopedia","Never destroyed when the city is captured"],
+	},
+	{
 			"name": "Trigger Eruption",
 			"uniqueTo": "Basalt Remainers",
 			"cost": 50,
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 2",
@@ -1028,7 +1034,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 2]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 2]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 2]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 2]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 3",
@@ -1037,7 +1043,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 3]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 3]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 3]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 3]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 2] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 2] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 4",
@@ -1055,7 +1061,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 5]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 5]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 5]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 5]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 4] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 4] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 6",
@@ -1064,7 +1070,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 6]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 6]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 6]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 6]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 5] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 5] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 7",
@@ -1073,7 +1079,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 7]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 7]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 7]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 7]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 6] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 6] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 8",
@@ -1082,7 +1088,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 8]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 8]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 8]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 8]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 7] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 7] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 9",
@@ -1091,7 +1097,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 9]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 9]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 9]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 9]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 8] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 8] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 10",
@@ -1100,7 +1106,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 10]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 10]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 10]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 10]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 9] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 9] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 11",
@@ -1109,7 +1115,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 11]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 11]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 11]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 11]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 10] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 10] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
         {
 			"name": "Trigger Eruption 12",
@@ -1118,7 +1124,7 @@
 			"uniques": ["Only available <when at war>","Must be next to [Mountain]","Never destroyed when the city is captured", "Will not be displayed in Civilopedia",
 						"[2] free [Lava Bomb] units appear","Nullifies Growth [in this city] <for [10] turns> <in cities with a [Trigger Eruption 12]>","Nullifies [Faith] [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 12]>",
 						"[+50]% [Culture] [in this city] <for [10] turns> <in cities with a [Trigger Eruption 12]>","[+100]% Production when constructing [Military] units [in this city] <for [10] turns>  <in cities with a [Trigger Eruption 12]>",
-						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 11] is constructed>"],
+						"Limited to [1] per Civilization", "Triggers a global alert upon completion", "Only available <if [Trigger Eruption 11] is constructed>","Only available <in cities without a [Crater]>","Gain a free [Crater] [in this city]"],
 	},
 	
 	//The Chroniclers
