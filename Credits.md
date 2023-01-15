@@ -9,7 +9,7 @@
 #### Nations Contributors
 * [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers
 
-#### Nation Suggestion
+#### Nations Suggestions
 * gohwala - Fanrong Republic
 * Ân - The Wizard Council
 * Rendieval - Lyrian Kingdom, Scazari Hive
