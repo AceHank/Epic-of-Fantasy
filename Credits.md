@@ -25,5 +25,6 @@
 * [Fantasia](https://github.com/amfauzn/Fantasia)
 * [DeCiv Redux](https://github.com/SpacedOutChicken/DeCiv-Redux)
 * [RekMod](https://github.com/ravignir/RekMOD/tree/master/jsons)
+* [Civ6-mod](https://github.com/DW8030/Civ6-mod)
 * TheNounProject
 * FlatIcon
