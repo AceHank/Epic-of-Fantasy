@@ -1054,7 +1054,7 @@
 						"[+350]% Strength <during the [Industrial era]>",
 						"[+650]% Strength <during the [Modern era]>",
 						"[+800]% Strength <during the [Atomic era]>",
-						"[+1000]% Strength <during the [Information era]>"],
+						"[+1000]% Strength <starting from the [Information era]>"],
 		//	"upgradesTo": "Sun Obelisk II",
 			"promotions": ["Air Repair"],
 			"attackSound": "shot"
@@ -1168,7 +1168,7 @@
 			"promotions": ["Air Repair"],
 			"attackSound": "shot"
 		},
-		*/
+		NOT YET WORKING*/
 	
 	//The Eternals
 	{
@@ -1253,10 +1253,10 @@
 		"promotions": ["Intimidation", "Bloodbath"],
 		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Only available <if [Altar of Azaniroth] is constructed>",
 					"[+75]% Strength <during the [Renaissance era]>",
-					"[+100]% Strength <during the [Industrial era]>",
-					"[+300]% Strength <during the [Modern era]>",
-					"[+375]% Strength <during the [Atomic era]>",
-					"[+450]% Strength <during the [Information era]>",
+					"[+125]% Strength <during the [Industrial era]>",
+					"[+325]% Strength <during the [Modern era]>",
+					"[+400]% Strength <during the [Atomic era]>",
+					"[+525]% Strength <starting from the [Information era]>",
 					"Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [

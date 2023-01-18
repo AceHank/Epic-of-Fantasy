@@ -47,12 +47,15 @@
 	//Uldra
 	{
 		"name": "Iceygloo",
-		"replaces": "Aqueduct",
+		"replaces": "Workshop",
 		"uniqueTo": "Uldra",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["[60]% Food is carried over after population increases [in this city]", "[+1 Production] from [Tundra] tiles [in this city]"],
-		"requiredTech": "Engineering",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+		"uniques": ["[20]% Food is carried over after population increases [in this city]", "[+1 Production] from [Tundra] tiles [in this city]"],
 		"civilopediaText": [
 			{"text": "A place for storage, both food and non-food. To protect it from the harsh cold of the arctic."},
         ]
