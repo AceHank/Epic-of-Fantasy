@@ -1281,23 +1281,6 @@
 	},
 	
 	//Gnoll Warband
-		{
-			"name": "Payday 1",
-			"uniqueTo": "Gnoll Warband",
-			"gold": 5,
-			"cost": 1,
-			"uniques": ["Never destroyed when the city is captured", "Unbuildable",
-						"Unsellable", "Will not be displayed in Civilopedia"]
-		},
-		{
-			"name": "Payday 2",
-			"uniqueTo": "Gnoll Warband",
-			"gold": 5,
-			"cost": 1,
-			"uniques": ["Never destroyed when the city is captured", "Unbuildable",
-						"Unsellable", "Will not be displayed in Civilopedia"]
-		},
-	
 	{
 		"name": "Spoils Depot",
 		"uniqueTo": "Gnoll Warband",
