@@ -1644,11 +1644,16 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		
-		"outerColor": [84,78,72],
-		"innerColor": [158,179,27],
+		"outerColor": [192,128,39],
+		"innerColor": [121,60,39],
 		"uniqueName": "Asserted Dominance",
-		"uniqueText": "",
-		"uniques": [""],
+		"uniqueText": "Gain 1 extra Population in a random city upon conquering a city, enhanced by +1 starting after reaching Medieval and Modern era\n Gain 20% of damage dont to Land units as [Faith]",
+		"uniques": [
+			"[+1] population in a random city <upon conquering a city> <before the [Medieval era]>",
+			"[+2] population in a random city <upon conquering a city> <starting from the [Medieval era]> <before the [Modern era]>",
+			"[+3] population in a random city <upon conquering a city> <starting from the [Modern era]>",
+			"Earn [20]% of the damage done to [Land] units as [Faith]"
+		],
 		"cities": [""],
 		"civilopediaText": [
 			{"text":"Troglodyte is cave-dwelling lizardmen civilization. They are isolationist civilization that rarely go out from their cave. They will hold their ground against any attacker."},
