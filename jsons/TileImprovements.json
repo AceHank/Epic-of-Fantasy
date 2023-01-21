@@ -189,7 +189,7 @@
 		"turnsToBuild": 1,
 		"techRequired": "Civil Service",
 		"terrainsCanBeBuiltOn": ["Mountain"],
-		"uniqueText": "+1 Culture for each adjacent different-type of Improvement",
+		"replacementTextForUniques": "+1 Culture for each adjacent different-type of Improvement",
 		"uniques": [ "Improvement", "+1 Culture for each adjacent different-type of Improvement",
 					"[+1 Culture] <with [1] to [6] neighboring [Farm] tiles>",
 					"[+1 Culture] <with [1] to [6] neighboring [Trading post] tiles>",

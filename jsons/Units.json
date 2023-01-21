@@ -1264,4 +1264,67 @@
 		]
 	},
 	
+	//Gnoll Warband
+	{
+		"name": "Gnoll Basher",
+		"uniqueTo": "Gnoll Warband",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Quick Study"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "These ruthless Gnolls are feared on the battlefield, their innate talent of warfare and their ability to swing gigantic hammer with ease are forces to be reckoned with."},
+        ]
+	},
+	
+	//Troglodyte
+	{
+		"name": "Juggernaut",
+		"uniqueTo": "Troglodyte",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Consumes [2] [Iron]"],
+		"promotions": ["[Juggernaut] ability", "Great Generals I"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "The Juggernauts are equipped with the heaviest of armors, able to sustain a lot of punishment. But their armor is harder to forge than normal armor."},
+        ]
+	},
+	
+	//Leonin Kingdom
+	{
+		"name": "Vanguard",
+		"uniqueTo": "Leonin Kingdom",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 23,
+		"cost": 140,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["[+25]% Strength <vs [Spearman] units>", "[+25]% Strength <vs [Pikeman] units>", "[+25]% Strength <vs [Lancer] units>", "Consumes [1] [Iron]",
+					"Can move after attacking", "Never appears as a Barbarian unit"],
+		"promotions": ["[Vanguard] ability"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "The heaviest of cavalry unit, prioritizing armor over mobility."},
+        ]
+	},
+	
 ]

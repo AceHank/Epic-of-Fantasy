@@ -475,7 +475,6 @@
 		"civilopediaText": [
 			{"text":"Necrontia is an Undead civilization led by Demilich Withermoore. They came in horde after horde, raising the deads from captured city and turned them into slaves of war."},
 			{"text":"Necrontia is a strong domination civilization that can raise the dead of the enemy to join their cause. Sacrifice innocent people for rituals."},
-			{"text":"Sacrifice innocent people for rituals."},
         ]
 	},
 	
@@ -634,7 +633,7 @@
 		"innerColor": [134,255,41],
 		"uniqueName": "Survival Instinct",
 	//	"uniqueText": "+50% Yield from every Improvement in Fresh Water tiles\n+15% Strength for Wounded units when defending"
-		"uniques": ["[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>", "[+15]% Strength <for [Wounded] units> <when defending>"], 
+		"uniques": ["[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>", "[+20]% Strength <for [Wounded] units> <when defending>"], 
 		"cities": ["Chauitzetl","Bhizzujix","Bhitta","Qraxl","Igriuchit","Chuttox","Quzdo","Ukeqax","Guxizo","Avretalis","Grinjoxxut","Sess",
 			"Ajiagzex","Zaetlis","Azus","Olzaro","Rhigris"],
 		"civilopediaText": [
@@ -728,8 +727,8 @@
 		"hateHello": ".",
 		"tradeRequest": ".",
 		
-		"outerColor": [46,80,184],
-		"innerColor": [173,76,76],
+		"outerColor": [34,60,138],
+		"innerColor": [193,120,120],
 		"uniqueName": "Tink Master",
 		"uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 [Science] from every Workshop and Factory",
 		"uniques": ["[+2 Science] from every [Workshop]",
@@ -763,8 +762,8 @@
 		"hateHello": ".",
 		"tradeRequest": ".",
 		
-		"outerColor": [24,217,82],
-		"innerColor": [153,118,29],
+		"outerColor": [58,222,107],
+		"innerColor": [20,100,24],
 		"uniqueName": "Valley of Rejuvenation",
 		"uniqueText": "+1 [Production] from Land tiles adjacent to a Mountain after discovering Civil Service\n+1 [Food] from unimproved Hill tiles after discovering Trapping\nCivilian units can pass impassable tile",
 		"uniques": ["[+1 Production] from [Land] tiles [in all cities] <with [1] to [6] neighboring [Mountain] tiles> <after discovering [Civil Service]>", "[Civilian] units gain the [Harpy] promotion",
@@ -1525,4 +1524,104 @@
 			{"text":"Their unique unit can heal after they kill an enemy, so make sure to last hit with the lowest HP Bloodfiend to keep them alive."},
         ]
 	},
+	
+	//Dreckfang of Gnoll Warband
+	{
+		"name": "Gnoll Warband",
+		"leaderName": "Dreckfang",
+		"adjective": ["Gnolls"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Mighty Dreckfang of Gnoll Warband, your strength and cunningness is respected among the Gnolls. You claim leadership of the Gnolls by force, and made them into fearsome mercenaries. Your thirst for war is unquenchable.",
+		"startIntroPart2": "O, Dreckfang, you will lead your people once more into the battlefield. Will you triumph over your opponent? Will you satisfy your thirst for war? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Mwahahah you will fall before our might!",
+		"attacked": "Finally a worthy opponent!",
+		"defeated": "You've been a worthy challenge for the mighty Dreckfang..",
+		"introduction": "I am Dreckfang the Mighty, are you ready for a challenge?",
+		
+		"neutralHello": "What do you want?",
+		"hateHello": "Move away!",
+		"tradeRequest": "Gah, we need something.",
+		
+		"outerColor": [81,69,55],
+		"innerColor": [212,139,80],
+		"uniqueName": "Feared Mercenaries",
+		"uniques": ["Gain [750]-[1000] [Gold] <upon declaring war with a major Civilization>"],
+		"cities": ["Krohir","Thrurr","Miarguargg","Kur","Boznorr","Rixyr","Krigreh","Gohrua","Thraht","Szorr","Tagler",
+			"Kyngrath","Aagurr"],
+		"civilopediaText": [
+			{"text":"Gnoll Warband is a Gnoll civilization, demihuman race with hyena feature. They are ruthless warlike race that is led by Dreckfang, the strongest of Gnoll."},
+			{"text":"Gnoll Warband unique ability let them gain instant [Gold] upon declaring war with another civilization. It is good for maintaining or recruitting more armies for the war effort."},
+			{"text":"Their unique unit is a better Swordsman which can gain experience faster, so make sure to keep them alive and stack a lot of promotions."},
+        ]
+	},
+	
+	//Khuldak of Troglodyte
+	{
+		"name": "Troglodyte",
+		"leaderName": "Khuldak",
+		"adjective": ["Trogs"],
+		"startBias": ["Mountain"],
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": "!",
+		"defeated": "!",
+		"introduction": "!",
+		
+		"neutralHello": "What do you want?",
+		"hateHello": "Move away!",
+		"tradeRequest": "Gah, we need something.",
+		
+		"outerColor": [84,78,72],
+		"innerColor": [158,179,27],
+		"uniqueName": "We Withstand All",
+		"uniqueText": "+100% Yield in tiles with Fort unadjacent to another Fort\n+200% Yield in tiles with Citadel",
+		"uniques": ["[+100]% Yield from every [Land] <in [Fort] tiles> <with [0] to [0] neighboring [Fort] tiles>","[+200]% Yield from every [Land] <in [Citadel] tiles>"],
+		"cities": ["Skrart","H'plezdill","Grez'takt","Min'tist","S'sluztin","Zonkikk","Kiz'lelk","Thulall","Plir'zist","Zaz'led","Mis'zess",
+			"Kroz'dall","Graz'let"],
+		"civilopediaText": [
+			{"text":"Troglodyte is cave-dwelling lizardmen civilization. They are isolationist civilization that rarely go out from their cave. They will hold their ground against any attacker."},
+			{"text":"Troglodyte is a good defensive civilization, they can gain yield from building Fort and Citadel, making them still useful economic-wise while being able to provide extra defensive Strength for units."},
+			{"text":"Cavernhold provides extra [Production] based on adjacent Mountain tiles, so settling next to mountain is advisable to maximize its effect."},
+			{"text":"Their unique unit is strong against Melee unit and can accumulate great general points faster at the cost of being expensive."},
+        ]
+	},
+	
+	/*
+	//Hyghmane of Leonin Kingdom
+	{
+		"name": "Leonin Kingdom",
+		"leaderName": "Hyghmane",
+		"adjective": ["Leonins"],
+	//	"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": "!",
+		"defeated": "!",
+		"introduction": "!",
+		
+		"neutralHello": "What?",
+		"hateHello": "Go away from our land!",
+		"tradeRequest": "This trade offer will interest you.",
+		
+		"outerColor": [  7,  0, 54],
+		"innerColor": [228,134,228],
+		"uniqueName": "Honor of the Pride",
+		"uniques": ["Empire enters golden age <upon declaring friendship>"],
+		"cities": ["Tyrtagus","Gior","Tegez","Bathes","Irin","Rixyr","Xeoz","Axamioz","Dathakir","Prios","Ocale",
+			"Driole","Koite"],
+		"civilopediaText": [
+			{"text":"Leonin Kingdom is a Leonin civilization, lion demihuman race. They are wise and peaceful race, they are diplomatic virtuoso."},
+			{"text":"Leonin Kingdom is a civilization that should aim for friendship with another civilization to maximize their unique ability."},
+			{"text":"Their unique unit is a slower but stronger Knight replacement. During Golden Age, they can mitigate the bonus damage received from anti-cavalry units."},
+        ]
+	},
+	*/
 ]

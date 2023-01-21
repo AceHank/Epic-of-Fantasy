@@ -1213,7 +1213,10 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"requiredTech": "Agriculture",
-		"uniques": ["Destroyed when the city is captured", "[Land] Units adjacent to this city heal [15] HP per turn when healing"]
+		"uniques": ["Destroyed when the city is captured", "[Land] Units adjacent to this city heal [15] HP per turn when healing"],
+		"civilopediaText": [
+			{"text": "A tower for the well-being of the Celestials."},
+        ]
 	},
 	
 	//Hellbourne
@@ -1236,4 +1239,57 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	
+	//Gnoll Warband
+	{
+		"name": "Spoils Depot",
+		"uniqueTo": "Gnoll Warband",
+		"replaces": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"requiredBuilding": "Barracks",
+		"uniques": ["[+1 Happiness, +2 Culture] <when at war>",
+					"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel",
+		"civilopediaText": [
+			{"text": "Spoils of war are trophy for the Gnolls."},
+        ]
+	},
+	
+	//Troglodyte
+	{
+		"name": "Cavernhold",
+		"uniqueTo": "Troglodyte",
+		"replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"replacementTextForUniques": "+1 [Production] for each adjacent mountain",
+		"uniques": ["Destroyed when the city is captured", "Provides [2] [Iron]",
+					"[+1 Production] <with [1] to [1] neighboring [Mountain] tiles>",
+					"[+2 Production] <with [2] to [2] neighboring [Mountain] tiles>",
+					"[+3 Production] <with [3] to [3] neighboring [Mountain] tiles>",
+					"[+4 Production] <with [4] to [4] neighboring [Mountain] tiles>",
+					"[+5 Production] <with [5] to [5] neighboring [Mountain] tiles>",
+					"[+6 Production] <with [6] to [6] neighboring [Mountain] tiles>"],
+		"civilopediaText": [
+			{"text": "Stronghold of the Troglodytes, under the cavern."},
+        ]
+	},
+	
+	//Leonin Kingdom
+	{
+		"name": "Bastion",
+		"uniqueTo": "Leonin Kingdom",
+		"replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured", "[+3 Production, +3 Science] <during a Golden Age>"]
+	},
+	
 ]
