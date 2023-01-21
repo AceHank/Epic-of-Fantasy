@@ -1564,13 +1564,13 @@
 		"adjective": ["Trogs"],
 		"startBias": ["Mountain"],
 		
-		"startIntroPart1": ".",
-		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Khuldak of the Trogs, the survival of the Trogs relies upon your shoulders. Your reign on these troubled times only proven your worth to defend Trogs' land against any invaders. Your valiant warriors follow behind your back, ready to defen the motherland at all cost.",
+		"startIntroPart2": "Khuldak, the Trogs is once against at the mercy of other unknown forces. Will you protect your people? Will you defend against those who seek your demise? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": "!",
-		"defeated": "!",
-		"introduction": "!",
+		"declaringWar": "Your presence threatens our safety, you forced us to take the offensive!",
+		"attacked": "Come then, you will not made it through our strongholds!",
+		"defeated": "Curses! This is not the end! Mark my words.",
+		"introduction": "I am Khuldak, one who leads the Trogs. We won't interfere with your agenda as long as you don't interfere with ours.",
 		
 		"neutralHello": "What do you want?",
 		"hateHello": "Move away!",
