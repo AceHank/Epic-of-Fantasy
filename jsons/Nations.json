@@ -1624,4 +1624,37 @@
         ]
 	},
 	*/
+
+	//Legion of Hostile Spirits Pact
+	{
+		"name": "Hostile Spirits Pact",
+		"leaderName": "Legion",
+		"adjective": ["Spirits"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [84,78,72],
+		"innerColor": [158,179,27],
+		"uniqueName": "Asserted Dominance",
+		"uniqueText": "",
+		"uniques": [""],
+		"cities": [""],
+		"civilopediaText": [
+			{"text":"Troglodyte is cave-dwelling lizardmen civilization. They are isolationist civilization that rarely go out from their cave. They will hold their ground against any attacker."},
+			{"text":"Troglodyte is a good defensive civilization, they can gain yield from building Fort and Citadel, making them still useful economic-wise while being able to provide extra defensive Strength for units."},
+			{"text":"Cavernhold provides extra [Production] based on adjacent Mountain tiles, so settling next to mountain is advisable to maximize its effect."},
+			{"text":"Their unique unit is strong against Melee unit and can accumulate great general points faster at the cost of being expensive."},
+        ]
+	},
 ]
