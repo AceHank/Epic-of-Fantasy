@@ -1640,41 +1640,48 @@
 	},
 	*/
 
-	//Legion of Hostile Spirits Pact
+	//Legion of Spirits Pact
 	{
-		"name": "Hostile Spirits Pact",
+		"name": "Spirit Pact",
 		"leaderName": "Legion",
 		"adjective": ["Spirits"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Welcome to this world demon called Legion. You are send to controll lesser races and let them die for your thriving domination. Your hellish origin and obsession for seizing possession over others will give you the power needed to dominate.",
+		"startIntroPart2": "Oh greatest of hostile spirits and feared character among demons, can you assert your dominance? Can you make your evil plans become reality? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
+		"declaringWar": "My spirits will haunt you!",
+		"attacked": "Seems like you would greatfully accept foreign control",
+		"defeated": "You successfully dispelled my Legion of spirits. I will now take a rest in hell",
+		"introduction": "Hello new face. My name is Legion, because we are many",
 		
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": "",
+		"neutralHello": "I accept your presence, so what do you like to discuss?",
+		"hateHello": "Get out or get possessed. Your choice",
+		"tradeRequest": "My controlled people bring you this offer",
 		
-		"outerColor": [192,128,39],
-		"innerColor": [121,60,39],
-		"uniqueName": "Asserted Dominance",
-		"uniqueText": "Gain 1 extra Population in a random city upon conquering a city, enhanced by +1 starting after reaching Medieval and Modern era\n Gain 20% of damage dont to Land units as [Faith]",
+		"outerColor": [198,140,60],
+		"innerColor": [108,54,35],
+		"uniqueName": "Possesion Seizing",
+		"uniqueText": "Can capture killed enemy units during a golden age, which is started automatically when reaching medieval era\nGain 10% of damage dont to Land units as [Faith]\nUnits obtained in other ways than constructing them gain a Strength bonus when attacking, destroy tile improvements on attack and ignores damage when determining unit strength, but suffer -15% Penalty when defending and -10 Health when healing",
 		"uniques": [
-			"[+1] population in a random city <upon conquering a city> <before the [Medieval era]>",
-			"[+2] population in a random city <upon conquering a city> <starting from the [Medieval era]> <before the [Modern era]>",
-			"[+3] population in a random city <upon conquering a city> <starting from the [Modern era]>",
-			"Earn [20]% of the damage done to [Land] units as [Faith]"
+			"Empire enters golden age <upon entering the [Medieval era]>",
+			"[Military] units gain the [Spirit II] promotion",
+			"Earn [10]% of the damage done to [Land] units as [Faith]",
+			"May buy [Spirify] buildings for [100] [Faith] [in annexed cities]",
+			"All newly-trained [All] units [in all cities] receive the [Spirit] promotion",
+			"[All] units gain the [Spirit] promotion <before [1] turns>",
+			"[+30]% Strength <when attacking> <for units without [Spirit]>",
+			"[-15]% Strength <when defending> <for units without [Spirit]>",
+			"Destroys tile improvements when attacking <for units without [Spirit]>",
+			"Damage is ignored when determining unit Strength <for units without [Spirit]>",
+			"[+10] HP when healing <for units without [Spirit]>"
 		],
-		"cities": [""],
+		"cities": ["Trensotio", "Spirrsoth", "Contorl", "Demonport", "Ouverthrou","Agregvatro","Ispretify","Homansleive","Enafmenas","Eimdanfur"],
 		"civilopediaText": [
-			{"text":"Troglodyte is cave-dwelling lizardmen civilization. They are isolationist civilization that rarely go out from their cave. They will hold their ground against any attacker."},
-			{"text":"Troglodyte is a good defensive civilization, they can gain yield from building Fort and Citadel, making them still useful economic-wise while being able to provide extra defensive Strength for units."},
-			{"text":"Cavernhold provides extra [Production] based on adjacent Mountain tiles, so settling next to mountain is advisable to maximize its effect."},
-			{"text":"Their unique unit is strong against Melee unit and can accumulate great general points faster at the cost of being expensive."},
+			{"text":"Spirit pact is a faction consisting of other folks from other races, that are possessed by evil spirits. This explains their dominant, aggressive and furious nature."},
+			{"text":"Spirit pact is a good domination civilization, only suited for all out war over anything else. Your ability allows for capturing enemy units during golden Ages, that also gain extra attacking strength."},
+			{"text":"You should aim for a good happiness production and a constant war to earn you Golden Age points and Great Generals to start them. Your faith bonus helps also helps you to buy their unique Courthouse replacement, further reducing unhappiness"},
+			{"text":"Their unique unit has a promotion allow for good early war benefits, gaining a bit of extra strength when attacking and healing a bit of health for kills. They keep their ability throughout the entire game"},
         ]
 	},
 ]

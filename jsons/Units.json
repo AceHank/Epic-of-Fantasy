@@ -1327,4 +1327,22 @@
         ]
 	},
 	
+	//Spirit Pact
+	{
+		"name": "Possessed Human",
+		"replaces": "Warrior",
+		"uniqueTo": "Spirit Pact",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Swordsman] through ruins-like effects"],
+		"promotions": ["Inner Flame"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "A human being filled with several evil spirits, making them go insane"}
+		]
+	},
 ]
