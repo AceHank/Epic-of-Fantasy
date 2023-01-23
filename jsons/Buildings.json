@@ -503,7 +503,7 @@
 	},
 	
 	//Gnome Alliance
-	/*
+	/*NO NEED ANYMORE
 	{
 		"name": "Gnomish Workshop",
 		"replaces": "Workshop",
@@ -581,7 +581,6 @@
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"],
 		"requiredTech": "Robotics"
 	},
-	*/
 	{
 		"name": "Gnomish Library",
 		"uniqueTo": "Gnome Alliance",
@@ -631,6 +630,47 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Plastics"
 	},
+	NO NEED ANYMORE*/
+		{
+			"name": "Library Great Scientist Point",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "University Great Scientist Point",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Public School Great Scientist Point",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Observatory Great Scientist Point",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Research Lab Great Scientist Point",
+			"uniqueTo": "Gnome Alliance",
+			"greatPersonPoints": {"Great Scientist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
 	{
 		"name": "Inventor's Assembly",
 		"uniqueTo": "Gnome Alliance",

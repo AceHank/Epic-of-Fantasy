@@ -220,7 +220,7 @@
 		"name": "Gaia's Farm",
 		"replaces": "Farm",
 		"uniqueTo": "Gaia Preserver",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains", "Forest", "Jungle"],
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
@@ -233,7 +233,7 @@
 	{
 		"name": "Gaia's Mine",
 		"uniqueTo": "Gaia Preserver",
-		"terrainsCanBeBuiltOn": ["Hill", "Jungle", "Forest"],
+		"terrainsCanBeBuiltOn": ["Jungle", "Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
