@@ -60,6 +60,7 @@
 			{"text": "A place for storage, both food and non-food. To protect it from the harsh cold of the arctic."},
         ]
 	},
+	/* NO NEED ANYMORE
 	{
 		"name": "TundraFreePop",
 		"uniqueTo": "Uldra",
@@ -76,6 +77,7 @@
 		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"[+1] population [in this city]"]
 	},
+	NO NEED ANYMORE */
 	
 	/* No need anymore
 	//Merfolk Council
@@ -136,6 +138,7 @@
 	},
 	
 	//Argonautian States
+	/* NO NEED ANYMORE
 	{
 		"name": "Recall Achilles",
 		"uniqueTo": "Argonautian States",
@@ -192,6 +195,7 @@
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Information era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
 					"Free [Isagoras] appears"]
 	},
+	NO NEED ANYMORE */
 	
 	//Pyre Clan
 	{
@@ -224,7 +228,7 @@
 			{"text": "Tower of learning, the High Elves learn and develop arcane arts in here."},
         ]
 	},
-		
+		/* NO NEED ANYMORE
 		//Free Pantheon
 		{
 			"name": "FreePantheon Tradition",
@@ -316,6 +320,7 @@
 						"Only available <after adopting [Order Complete]>",
 						"Gain a free [Pantheon] belief"]
 		},
+		NO NEED ANYMORE */
 	
 	//Necrontia
 	{
@@ -859,6 +864,7 @@
 	},
 	
 	//The Walrus People
+	/* NO NEED ANYMORE
 	{
 		"name": "Snow Free Settler",
 		"uniqueTo": "The Walrus People",
@@ -867,6 +873,7 @@
 		"uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia","Never destroyed when the city is captured",
 					"Free [Settler] appears"]
 	},
+	NO NEED ANYMORE */
 	{
 		"name": "Frosten Theater",
 		"uniqueTo": "The Walrus People",
@@ -1202,6 +1209,7 @@
 			{"text": "A temple to the Sun, decorated with the everburning flame inside. The temple is well guarded to prevent the everburning flame to be stolen."},
         ]
 	},
+		/* NO NEED ANYMORE
 		{
 			"name": "Construct Sun Obelisk",
 			"uniqueTo": "Salamander Empire",
@@ -1210,6 +1218,7 @@
 			"uniques": ["Unsellable", "Must be next to [Desert]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 						"Free [Sun Obelisk] appears"]
 		},
+		NO NEED ANYMORE */
 		
 	//The Eternals
 	{

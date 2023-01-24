@@ -814,10 +814,9 @@
 		"name": "Water Creature",		//TLDR: yes water good, no water bad
 		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <with [0] to [0] neighboring [Coast] tiles>",
 					"[+15]% Strength <when fighting in [Land] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-					"[+1] Movement <in [Fresh Water] tiles> <with [0] to [0] neighboring [Coast] tiles>",
-					"[-1] Movement <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>",
+					"[-10]% Strength <when fighting in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles> <in tiles without [Fresh Water]>",
 				//	"[+15]% Strength <when fighting in [Coast] tiles>","[+1] Movement <in [Coast] tiles>",
-					"Normal vision when embarked","Defense bonus when embarked",
+					"Normal vision when embarked","Defense bonus when embarked", "[+1] Movement <for [Embarked] units>",
 					"Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river"]
 	},
 	
