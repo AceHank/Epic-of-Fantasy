@@ -1290,6 +1290,8 @@
 	},
 	
 	//Gnoll Warband
+	
+		/* NOT WORKING
 		{
 			"name": "Payday 1",
 			"uniqueTo": "Gnoll Warband",
@@ -1306,7 +1308,7 @@
 			"uniques": ["Never destroyed when the city is captured", "Unbuildable",
 						"Unsellable", "Will not be displayed in Civilopedia"]
 		},
-	
+		NOT WORKING */
 	{
 		"name": "Spoils Depot",
 		"uniqueTo": "Gnoll Warband",
