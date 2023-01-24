@@ -7,7 +7,7 @@
 * [carriontrooper](https://github.com/carriontrooper) - AbsoluteUnits tileset unit sprites
 
 #### Nations Contributors
-* [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers
+* [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers, Spirit Pact
 
 #### Nations Suggestions
 * gohwala - Fanrong Republic
