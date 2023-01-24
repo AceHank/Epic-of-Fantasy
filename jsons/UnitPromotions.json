@@ -987,6 +987,16 @@
 		"uniques": ["[+25]% Strength <during a Golden Age>"]
 	},
 	
+	//Spirit Pact
+	
+	{
+		"name": "Spirit",
+		"uniques": ["Spirit", "Uncapturable"]
+	},
+	{
+		"name": "Spirit II",
+		"uniques": ["May capture killed [Military] units <with [50]% chance> <during a Golden Age>","Will not be displayed in Civilopedia"]
+	},
 	
 	//Mixed
 	{
@@ -1000,6 +1010,10 @@
 	{
 		"name": "Elusive",
 		"uniques": ["May withdraw before melee ([66]%)"]
+	},
+	{
+		"name": "Inner Flame",
+		"uniques": ["[+10]% Strength <when attacking>","[-10]% Strength <when defending>","Damage is ignored when determining unit Strength","Heals [10] damage if it kills a unit"]
 	},	
 
 ]

@@ -1659,4 +1659,49 @@
         ]
 	},
 	*/
+
+	//Legion of Spirits Pact
+	{
+		"name": "Spirit Pact",
+		"leaderName": "Legion",
+		"adjective": ["Spirits"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Welcome to this world demon called Legion. You are send to controll lesser races and let them die for your thriving domination. Your hellish origin and obsession for seizing possession over others will give you the power needed to dominate.",
+		"startIntroPart2": "Oh greatest of hostile spirits and feared character among demons, can you assert your dominance? Can you make your evil plans become reality? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "My spirits will haunt you!",
+		"attacked": "Seems like you would greatfully accept foreign control",
+		"defeated": "You successfully dispelled my Legion of spirits. I will now take a rest in hell",
+		"introduction": "Hello new face. My name is Legion, because we are many",
+		
+		"neutralHello": "I accept your presence, so what do you like to discuss?",
+		"hateHello": "Get out or get possessed. Your choice",
+		"tradeRequest": "My controlled people bring you this offer",
+		
+		"outerColor": [198,140,60],
+		"innerColor": [108,54,35],
+		"uniqueName": "Possesion Seizing",
+		"uniqueText": "Can capture killed enemy units during a golden age, which is started automatically when reaching medieval era\nGain 10% of damage dont to Land units as [Faith]\nUnits obtained in other ways than constructing them gain a Strength bonus when attacking, destroy tile improvements on attack and ignores damage when determining unit strength, but suffer -15% Penalty when defending and -10 Health when healing",
+		"uniques": [
+			"Empire enters golden age <upon entering the [Medieval era]>",
+			"[Military] units gain the [Spirit II] promotion",
+			"Earn [10]% of the damage done to [Land] units as [Faith]",
+			"May buy [Spirify] buildings for [100] [Faith] [in annexed cities]",
+			"All newly-trained [All] units [in all cities] receive the [Spirit] promotion",
+			"[All] units gain the [Spirit] promotion <before [1] turns>",
+			"[+30]% Strength <when attacking> <for units without [Spirit]>",
+			"[-15]% Strength <when defending> <for units without [Spirit]>",
+			"Destroys tile improvements when attacking <for units without [Spirit]>",
+			"Damage is ignored when determining unit Strength <for units without [Spirit]>",
+			"[+10] HP when healing <for units without [Spirit]>"
+		],
+		"cities": ["Trensotio", "Spirrsoth", "Contorl", "Demonport", "Ouverthrou","Agregvatro","Ispretify","Homansleive","Enafmenas","Eimdanfur"],
+		"civilopediaText": [
+			{"text":"Spirit pact is a faction consisting of other folks from other races, that are possessed by evil spirits. This explains their dominant, aggressive and furious nature."},
+			{"text":"Spirit pact is a good domination civilization, only suited for all out war over anything else. Your ability allows for capturing enemy units during golden Ages, that also gain extra attacking strength."},
+			{"text":"You should aim for a good happiness production and a constant war to earn you Golden Age points and Great Generals to start them. Your faith bonus helps also helps you to buy their unique Courthouse replacement, further reducing unhappiness"},
+			{"text":"Their unique unit has a promotion allow for good early war benefits, gaining a bit of extra strength when attacking and healing a bit of health for kills. They keep their ability throughout the entire game"},
+        ]
+	},
 ]

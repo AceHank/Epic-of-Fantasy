@@ -1290,6 +1290,23 @@
 	},
 	
 	//Gnoll Warband
+		{
+			"name": "Payday 1",
+			"uniqueTo": "Gnoll Warband",
+			"gold": 5,
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured", "Unbuildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Payday 2",
+			"uniqueTo": "Gnoll Warband",
+			"gold": 5,
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured", "Unbuildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+	
 	{
 		"name": "Spoils Depot",
 		"uniqueTo": "Gnoll Warband",
@@ -1340,5 +1357,21 @@
 		"requiredTech": "Chivalry",
 		"uniques": ["Destroyed when the city is captured", "[+3 Production, +3 Science] <during a Golden Age>"]
 	},
-	
+
+	//Spirit Pact
+	{
+		"name": "Spirify",
+		"uniqueTo": "Spirit Pact",
+		"replaces": "Courthouse",
+		"maintenance": 4,
+		"cost": 80,
+		"happiness": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Can be bought for 100 [Faith]",
+			"Can only be built [in annexed cities]"
+			],
+		"requiredTech": "Mathematics"
+	},
 ]
