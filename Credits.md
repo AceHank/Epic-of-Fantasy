@@ -18,6 +18,9 @@
 #### Nations Lines
 * gohwala - Orc Horde
 
+#### Translations
+* foccio - Russian
+
 #### Discord community in general for suggestion, feedback, and criticism
 
 # Icons
