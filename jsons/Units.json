@@ -776,7 +776,7 @@
 		"rangedStrength": 20,
 		"range": 15,
 		"cost": 1,
-		"uniques": ["Unbuildable", "[+400]% Strength", "[-90]% Strength <vs cities>", "[-100]% maintenance costs"],
+		"uniques": ["Unbuildable", "[+400]% Strength", "[-375]% Strength <vs cities>", "[-100]% maintenance costs"],
 		"attackSound": "missile",
 		"civilopediaText": [
 			{"text": "Strategic-type spell that only used in emergency. A very strong spell but limited by its long preparation. Only a limit amount of the are cast throughout the Wizard Council's history."},
