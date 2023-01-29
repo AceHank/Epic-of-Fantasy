@@ -1781,7 +1781,7 @@
 		"outerColor": [121,201,193],
 		"innerColor": [39,112,31],
 		"uniqueName": "The Mana Flows",
-		"uniqueText": "Free Worker appears upon settling cities on River\nMay dows for Manaline, the Manaline can provide yields without assigned population and gain +1 [Culture] every 2 eras\nMay dows one more Manaline in cities with at least 10 populations",
+		"uniqueText": "Free Worker appears upon settling cities on River\nMay dowse for Manaline, the Manaline can provide yields without assigned population and gain +1 [Culture] every 2 eras\nMay dowse one more Manaline in cities with at least 10 populations",
 		"uniques": ["Free [Worker] appears <upon founding a city> <in [River] tiles>"],
 		"cities": ["Aquiline","Nereida","Lirien","Melusine","Ondine","Naiadine","Calypso","Coralene","Selkie","Tritonessa","Merrow",
 			"Syrena","Mariana"],
