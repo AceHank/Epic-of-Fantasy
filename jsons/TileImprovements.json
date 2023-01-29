@@ -273,4 +273,28 @@
 		"shortcutKey": "M"
 	},
 	
+	//Undines
+	{
+		"name": "Manaline",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement", "Does not need removal of [Forest]", "Does not need removal of [Forest]", 
+					//Provides all luxury resources
+					"Provides [1] [Citrus] <in [Citrus] tiles>", "Provides [1] [Furs] <in [Furs] tiles>", "Provides [1] [Cotton] <in [Cotton] tiles>",
+					"Provides [1] [Dyes] <in [Dyes] tiles>", "Provides [1] [Gems] <in [Gems] tiles>", "Provides [1] [Gold Ore] <in [Gold Ore] tiles>",
+					"Provides [1] [Silver] <in [Silver] tiles>", "Provides [1] [Ivory] <in [Ivory] tiles>", "Provides [1] [Silk] <in [Silk] tiles>",
+					"Provides [1] [Incense] <in [Incense] tiles>", "Provides [1] [Spices] <in [Spices] tiles>", "Provides [1] [Wine] <in [Wine] tiles>",
+					"Provides [1] [Sugar] <in [Sugar] tiles>", "Provides [1] [Marble] <in [Marble] tiles>", "Provides [1] [Copper] <in [Copper] tiles>",
+					"Provides [1] [Salt] <in [Salt] tiles>", "Provides [1] [Truffles] <in [Truffles] tiles>",
+					//Provides all luxury resources
+					"Irremovable", "Unpillagable", "Tile provides yield without assigned population",
+					"[+1 Culture] <starting from the [Classical era]>",
+					"[+1 Culture] <starting from the [Renaissance era]>",
+					"[+1 Culture] <starting from the [Modern era]>",
+					"[+1 Culture] <starting from the [Information era]>"],
+		"civilopediaText": [
+			{"text": "Manaline is a magical and spiritual energy pathway that runs through the earth. If we can find them, we can harness their energy for our cause."},
+        ]
+	},
+	
+	
 ]

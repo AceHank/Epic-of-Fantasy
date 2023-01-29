@@ -49,16 +49,17 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 19,
-		"cost": 100,
+		"strength": 18,
+		"cost": 110,
 		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques": ["[-10]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": "A crude yet effective monster, a menace to those who dare to oppose. Swings hammer like no other. Prepare to be brutalized."},
+			{"text": "Crude yet effective, a menace to those who dare to oppose. Swings hammer like no other. Prepare to be brutalized."},
         ]
 	},
 	
@@ -1345,4 +1346,43 @@
 			{"text": "A human being filled with several evil spirits, making them go insane"}
 		]
 	},
+	
+	//The Amazons
+	{
+		"name": "Amazoness Chainmaster",
+		"uniqueTo": "The Amazons",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 50,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	//Undines
+	{
+		"name": "Hydromancer",
+		"uniqueTo": "Undines",
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 13,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+	//	"uniques": ["Research Trapping vs Construction"],
+		"promotions": ["[Hydromancer] ability"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A mage capable of utilizing water spell at great efficient and power."},
+        ]
+	},
+	
 ]

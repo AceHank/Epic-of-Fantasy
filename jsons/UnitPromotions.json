@@ -998,6 +998,12 @@
 		"uniques": ["May capture killed [Military] units <with [50]% chance> <during a Golden Age>","Will not be displayed in Civilopedia"]
 	},
 	
+	//Undines
+	{
+		"name": "[Hydromancer] ability",
+		"uniques": ["[+15]% Strength <when fighting in [Fresh Water] tiles>"]
+	},
+	
 	//Mixed
 	{
 		"name": "Healer",

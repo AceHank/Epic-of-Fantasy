@@ -1704,4 +1704,93 @@
 			{"text":"Their unique unit has a promotion allow for good early war benefits, gaining a bit of extra strength when attacking and healing a bit of health for kills. They keep their ability throughout the entire game"},
         ]
 	},
+	
+	//Hippolyta of The Amazons
+	{
+		"name": "The Amazons",
+		"leaderName": "Hippolyta",
+		"adjective": ["Amazonian"],
+		"startBias": ["Jungle"],
+		
+		"startIntroPart1": "Hippolyta, the fierce and powerful Queen of the Amazons, a tribe of warrior women. Known for your exceptional strength and combat skills, as well as your leadership and wisdom, you lead your people with great vigor. The most revered among the Amazons, you dedicate yourself for the well being of the Amazons.",
+		"startIntroPart2": "O, great Hippolyta, your people seeks you once more. Will you battle through any obstacle thrown at your people? Will you stay strong and lead your people to glory? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Finally a worthy opponent! Our battle will be remembered through the ages!",
+		"attacked": "A challenge worthy of my power!",
+		"defeated": "You've done well warrior, please lead my people with mercy.",
+		"introduction": "I am Hippolyta, Queen of the Amazons. Born and raised on the mystical island of Themyscira, I am the leader of the fierce and powerful Amazon tribe.",
+		
+		"neutralHello": "Ah, fellow warrior, what can I help?",
+		"hateHello": "Go away from our land!",
+		"tradeRequest": "We are interested in a trade agreement with your people.",
+		
+		"outerColor": [194,160,119],
+		"innerColor": [162,9,50],
+		"uniqueName": "Fierce and Courageous ",
+		"uniqueText": "Military land units gain +7% Strength for each promotion they gained from the promotions tree\nGain free Palisade for cities settled next to Jungle",
+		"uniques": ["Gain a free [Palisade] [in all cities] <with [1] to [6] neighboring [Jungle] tiles>",
+					//Melee, Mounted, Armor
+					"[+7]% Strength <for units with [Shock I]>", "[+7]% Strength <for units with [Shock II]>", "[+7]% Strength <for units with [Shock III]>",
+					"[+7]% Strength <for units with [Drill I]>", "[+7]% Strength <for units with [Drill II]>", "[+7]% Strength <for units with [Drill III]>",
+					"[+7]% Strength <for units with [Charge]>", "[+7]% Strength <for units with [Besiege]>", "[+7]% Strength <for units with [Blitz]>",
+					"[+7]% Strength <for units with [Formation I]>", "[+7]% Strength <for units with [Formation II]>",
+					"[+7]% Strength <for units with [Woodsman]>", "[+7]% Strength <for units with [Amphibious]>", "[+7]% Strength <for units with [Medic]>", "[+7]% Strength <for units with [Medic II]>",
+					//Ranged, Siege
+					"[+7]% Strength <for units with [Accuracy I]>", "[+7]% Strength <for units with [Accuracy II]>", "[+7]% Strength <for units with [Accuracy III]>",
+					"[+7]% Strength <for units with [Barrage I]>", "[+7]% Strength <for units with [Barrage II]>", "[+7]% Strength <for units with [Barrage III]>",
+					"[+7]% Strength <for units with [Volley]>", "[+7]% Strength <for units with [Extended Range]>", "[+7]% Strength <for units with [Indirect Fire]>",
+					//Scout
+					"[+7]% Strength <for units with [Scouting I]>", "[+7]% Strength <for units with [Scouting II]>", "[+7]% Strength <for units with [Scouting III]>",
+					"[+7]% Strength <for units with [Survivalism I]>", "[+7]% Strength <for units with [Survivalism II]>", "[+7]% Strength <for units with [Survivalism III]>",
+					//Helicopter
+					"[+7]% Strength <for units with [Mobility I]>", "[+7]% Strength <for units with [Mobility II]>", "[+7]% Strength <for units with [Anti-Armor I]>", "[+7]% Strength <for units with [Anti-Armor II]>",
+					//Mixed but for Land only
+					"[+7]% Strength <for [Land] units> <for units with [Cover I]>", "[+7]% Strength <for [Land] units> <for units with [Cover II]>", 
+					"[+7]% Strength <for [Land] units> <for units with [March]>", "[+7]% Strength <for [Land] units> <for units with [Mobility]>",
+					"[+7]% Strength <for [Land] units> <for units with [Sentry]>", "[+7]% Strength <for [Land] units> <for units with [Logistics]>",
+					"[+7]% Strength <for [Land] units> <for units with [Ambush I]>", "[+7]% Strength <for [Land] units> <for units with [Ambush II]>",
+					],
+		"cities": ["Antiopea","Melanippe","Hippolyta","Thermodosa","Orithyia","Andromacheia","Lysippeia","Euryaleia","Cyreneia","Myrineia","Arktos",
+			"Xandar","Mynaria"],
+		"civilopediaText": [
+			{"text":"The Amazons is a matriarch warrior civilization. They are a group of female warriors and fighters, who surpassed all men in physical agility and strength, in archery, riding skills, and the arts of combat."},
+			{"text":"The Amazons is a good domination civilization thanks to their unique ability providing extra strength for each promotion gained. Not letting a veteran unit dies is a top priority."},
+			{"text":"Their unique unit is a cheaper and stronger replacement for Swordsman. Make sure to settle next to Jungle as much as possible to gain the free Palisade."}
+        ]
+	},
+	
+	//Vieya of Undines
+	{
+		"name": "Undines",
+		"leaderName": "Vieya",
+		"adjective": ["Undines"],
+		"startBias": ["Flood Plains"],
+		
+		"startIntroPart1": "Vieya, the leader of Undines, you are a respected figure among your people. You guide them through difficult times, plowing through the storm that hinders your people. O, Vieya, your wisdom unites all of Undines, separated from one lake to another, from one river to another, you unite them all under one banner.",
+		"startIntroPart2": "Vieya, your people still in need of a wise leader such as yourself. Will you lead them once more? Will you survive and defend the Undines in these troubling times? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You will vanish! We will cast you into oblivion!",
+		"attacked": "You will not live to see the end of this!",
+		"defeated": "Please, be merciful to my people.",
+		"introduction": "Ashvalani, stranger. I am Vieya, the leader of the Undines, we wish to build a mutual relationship with your people.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Don't disturb us!",
+		"tradeRequest": "We are in need for your assistance.",
+		
+		"outerColor": [121,201,193],
+		"innerColor": [39,112,31],
+		"uniqueName": "The Mana Flows",
+		"uniqueText": "Free Worker appears upon settling cities on River\nMay dows for Manaline, the Manaline can provide yields without assigned population and gain +1 [Culture] every 2 eras\nMay dows one more Manaline in cities with at least 10 populations",
+		"uniques": ["Free [Worker] appears <upon founding a city> <in [River] tiles>"],
+		"cities": ["Aquiline","Nereida","Lirien","Melusine","Ondine","Naiadine","Calypso","Coralene","Selkie","Tritonessa","Merrow",
+			"Syrena","Mariana"],
+		"civilopediaText": [
+			{"text":"The Undines are water nymphs, humanoid water-elementals. They are the guardian of rivers."},
+			{"text":"Undines is good at tall and cultural playstyle. Their unique ability is a great early game boost with free Worker. And the Manaline from unique abilities also provide free yield to the city."},
+			{"text":"Manaline can provide any resource they are built on, making them useful if you need the happiness from the luxury fast. Manaline also gains +1 [Culture] every 2 eras, which make them good at cultural win. Manaline is permanent improvement, making Undines' cities particularly desireable for conquer."},
+			{"text":"Their unique unit is a stronger Composite Bowman, but be wary, it has Water Creature promotion which makes them weaker in tiles without access to water."},
+        ]
+	},
+	
 ]

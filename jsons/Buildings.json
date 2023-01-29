@@ -857,7 +857,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion"],
+		"uniques": ["Hidden when religion is disabled","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion", "Destroyed when the city is captured"],
 		"civilopediaText": [
 			{"text": "A special rites for the Tauren to prove their worth. Consisted of six rites. Rite of Strength, Courage, Honor, the Winds, Vision and Wisdom. Unit with Strengths promotion will gain access to 5 other promotions."},
         ]
@@ -1376,4 +1376,51 @@
 			],
 		"requiredTech": "Mathematics"
 	},
+	
+	//The Amazons
+	{
+		"name": "Palisade",
+		"uniqueTo": "The Amazons",
+		"replaces": "Walls",
+		"production": 1,
+		"culture": 1,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	
+	//Undines
+	{
+		"name": "Pensubur",
+		"uniqueTo": "Undines",
+		"replaces": "Granary",
+	//	"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[Food] 0 vs 2",
+					"[+1 Food] from [Land] tiles [in this city] <with [1] to [6] neighboring [City center] tiles>"],
+		"requiredTech": "Pottery",
+		"civilopediaText": [
+			{"text": "It's easy to fertilize a land with enough knowledge in magic."},
+        ]
+	},
+	
+		//Manaline stuff
+		{
+			"name": "Manaline Dowsing I",
+			"uniqueTo": "Undines",
+			"cost": 30,
+			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia",
+						"Creates a [Manaline] improvement on a specific tile"]
+		},
+		{
+			"name": "Manaline Dowsing II",
+			"uniqueTo": "Undines",
+			"cost": 90,
+			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia", "Only available <in cities with at least [10] [Population]>",
+						"Creates a [Manaline] improvement on a specific tile"]
+		},
+	
 ]
