@@ -808,7 +808,7 @@
 	//Merfolk Council~~~~~~~
 	{
 		"name": "Floating City Builder",
-		"uniques": ["Can construct [Floating City]"]
+		"uniques": ["Can instantly construct a [Floating City] improvement <by consuming this unit>"]
 	},	
 	{
 		"name": "Water Creature",		//TLDR: yes water good, no water bad
@@ -816,7 +816,7 @@
 					"[+15]% Strength <when fighting in [Land] tiles> <with [1] to [6] neighboring [Coast] tiles>",
 					"[-10]% Strength <when fighting in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles> <in tiles without [Fresh Water]>",
 				//	"[+15]% Strength <when fighting in [Coast] tiles>","[+1] Movement <in [Coast] tiles>",
-					"Normal vision when embarked","Defense bonus when embarked", "[+1] Movement <for [Embarked] units>",
+					"[+2] Sight <for [Embarked] units>","Defense bonus when embarked", "[+1] Movement <for [Embarked] units>",
 					"Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river"]
 	},
 	

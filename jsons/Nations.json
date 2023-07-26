@@ -1692,7 +1692,6 @@
 			"[All] units gain the [Spirit] promotion <before [1] turns>",
 			"[+30]% Strength <when attacking> <for units without [Spirit]>",
 			"[-15]% Strength <when defending> <for units without [Spirit]>",
-			"Destroys tile improvements when attacking <for units without [Spirit]>",
 			"Damage is ignored when determining unit Strength <for units without [Spirit]>",
 			"[-10] HP when healing <for units without [Spirit]>"
 		],
