@@ -610,7 +610,7 @@
 	{
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
-		"uniques": ["[+1] Sight"],
+		"uniques": ["[+1] Sight", "Can see invisible [Camouflage] units"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
         "column": 24,
         "row": 4
@@ -781,6 +781,33 @@
         "column": 25,
         "row": 2
 	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"uniques": ["[+1] Sight", "Can see invisible [Camouflage] units"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
+        "column": 24,
+        "row": 4
+	},
+	
+	/* Still don't know
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", "Can see invisible [Grovetender] units"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 4,
+        "row": 3
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "Can see invisible [Grovetender] units"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 3
+	},
+	*/
 	
 	//Dwarven Kingdom~~~~~~~
 	{
@@ -795,7 +822,11 @@
 	//Drow Village~~~~~~~
 	{
 		"name": "Vengeful",
-		"uniques": ["[+15]% Strength <when below [100] HP>"]
+		"uniques": ["Killing this unit will incite the revenge of their brethren", "[+50]% Strength <when attacking> <vs [Revengee] units>", "Avenged"]
+	},	
+	{
+		"name": "Revenge Target",
+		"uniques": ["Revengee"]
 	},	
 	
 	//Uldra~~~~~~~
@@ -808,7 +839,7 @@
 	//Merfolk Council~~~~~~~
 	{
 		"name": "Floating City Builder",
-		"uniques": ["Can instantly construct a [Floating City] improvement <by consuming this unit>"]
+		"uniques": ["Can instantly construct a [Floating City] improvement <once>"]
 	},	
 	{
 		"name": "Water Creature",		//TLDR: yes water good, no water bad
@@ -824,6 +855,18 @@
 	{
 		"name": "Intimidation",
 		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"]
+	},
+	
+	//Centaur Tribes~~~~~~~
+	{
+		"name": "Centaurian",
+		"uniques": ["[+25]% Strength <vs [Spearman] units>", "[+25]% Strength <vs [Pikeman] units>", "[+25]% Strength <vs [Lancer] units>"]
+	},
+	
+	//Clockwerk Church~~~~~~~
+	{
+		"name": "Regenerative Bio-Steel",
+		"uniques": ["Heal this unit by [5] HP <upon ending a turn in a [All] tile>", "[+15]% Strength <when defending>"]
 	},
 	
 	//Argonautian States~~~~~~~
@@ -851,11 +894,25 @@
 		"name": "Ignores ZOC",
 		"uniques": ["Ignores Zone of Control"]
 	},
+	{
+		"name": "Agathinus' Recovery",
+		"uniques": ["Heal this unit by [10] HP <upon ending a turn in a [All] tile> <when adjacent to a [Agathinus] unit>"]
+	},
 	
 	//Pyre Clan~~~~~~~
 	{
 		"name": "Decaying Aura",
 		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"]
+	},
+	
+	//Hellbourne~~~~~~~
+	{
+		"name": "Menacing Aura",
+		"uniques": ["Adjacent enemy units ending their turn take 20 damage"]
+	},
+	{
+		"name": "Hellborn",
+		"uniques": ["This unit is immune to Archdemon Azaniroth's Menacing Aura"]
 	},
 	
 	//High Elf Concordat~~~~~~~
@@ -869,12 +926,12 @@
 		"name": "Sacrifice",
 		"uniques": ["Gain [20] [Culture] <by consuming this unit>"]
 	},
+	{
+		"name": "[Lich] ability",
+		"uniques": ["May capture killed [Military] units <with [67]% chance>"]
+	}
 	
 	//Sacred Sun Theocracy~~~~~~~
-	{
-		"name": "Protector of Realm",
-		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]
-	},
 	
 	//Inquisitorial Illuminate~~~~~~~
 	
@@ -891,7 +948,7 @@
 	},
 	{
 		"name": "Harpy",
-		"uniques": ["Can pass through impassable tiles"]
+		"uniques": ["Flying", "Can pass through impassable tiles", "Can see over obstacles"]
 	},
 	
 	//Troll Tribes
@@ -937,6 +994,26 @@
 		"uniques": ["[+25]% Strength <when defending>", "[+10] HP when healing"]
 	},
 	
+	//Orc Horde
+	{
+		"name": "Crafty",
+		"uniques": ["Can build [Improved Barricade] improvements on tiles"]
+	},
+	{
+		"name": "[Orc Brute] ability",
+		"uniques": ["[-10]% Strength <when defending>", "[+20]% Strength <when attacking>"]
+	}
+	
+	//The Wizard Council
+	{
+		"name": "Mana Shield",
+		"uniques": ["[+200]% Strength <when defending> <vs [Ranged] units> <when above [99] HP>"]
+	},
+	{
+		"name": "Dome of Protection",
+		"uniques": ["+15% Strength for adjacent allies when defending against ranged attacks", "Protection"]
+	}
+
 	//The Walrus People
 	{
 		"name": "[Tuskarr] ability",
@@ -944,10 +1021,6 @@
 	},
 	
 	//Holy Lunar Theocracy
-	{
-		"name": "Conqueror of Realm",
-		"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
-	},
 	
 	//The Chroniclers
 	{
@@ -958,7 +1031,7 @@
 	//Salamander Empire
 	{
 		"name": "[Scorcher] ability",
-		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
+		"uniques": ["[+25]% Strength <when fighting in [Desert] tiles>", "[+25]% Strength <when fighting in [Friendly Land] tiles>"]
 	},
 	
 	//The Eternals
@@ -968,10 +1041,9 @@
 	},
 	
 	//Celestial Beings
-	//	Doesn't Work as intended (self-destruct below 15 HP)
 	{
 		"name": "Volatile Core",
-		"uniques": ["[+150]% Strength <when attacking> <when below [15] HP>", "[-33]% Strength <when attacking> <vs cities> <when below [15] HP>"]
+		"uniques": ["Volatile", "This unit explodes when defeated, dealing 40 damage to Melee unit defeating this unit"]
 	},
 	
 	//Troglodyte
@@ -979,7 +1051,6 @@
 		"name": "[Juggernaut] ability",
 		"uniques": ["[+25]% Strength <vs [Melee] units>"]
 	},
-	
 	
 	//Leonin Kingdom
 	{
@@ -1004,10 +1075,38 @@
 		"uniques": ["[+15]% Strength <when fighting in [Fresh Water] tiles>"]
 	},
 	
+	//Enkantos	
+	/*
+		'Dodge' enemy's attack then create an Illusion. 
+		This supposedly takes advantage of an existing same-percentage uniques bug, so it will guarantee to trigger both uniques when it does happen. 
+		But unfortunately (or fortunately?) the bug seems to only appears on Building (in my limited testing).
+	*/
+	{					
+		"name": "Mirage",			
+		"uniques": ["Heal this unit by [25] HP <upon losing at least [20] HP in a single attack> <with [25]% chance>",	
+					"Free [Illusion] appears <upon losing at least [20] HP in a single attack> <with [25]% chance>"]
+	},
+
 	//Mixed
 	{
-		"name": "Healer",
-		"uniques": ["All adjacent units heal [+10] HP when healing"]
+		"name": "Woods Camouflage",
+		"uniques": ["Invisible to others <with [25]% chance>",
+					"Invisible to others <with [50]% chance> <in [Jungle] tiles>",		//The bug involving same-percentage uniques seems to only appears on Building (in my limited testing)
+					"Invisible to others <with [50]% chance> <in [Forest] tiles>", 
+					"Camouflage"]
+	},
+	{
+		"name": "Healer I",
+		"uniques": ["Healer 1", "All adjacent Land units heal [5] HP on turn end"]
+	},
+	{
+		"name": "Healer II",
+		"prerequisites":["Healer I"],
+		"uniques": ["Healer 2", "All adjacent Land units heal [5] HP on turn end"]
+	},
+	{
+		"name": "Spiked Carapace",		//Need <upon attacking> TriggerCondition to be functional
+		"uniques": ["Spikey", "Deals 10 damage to Melee units attacking this unit"]
 	},
 	{
 		"name": "Divine Watch",
@@ -1021,5 +1120,26 @@
 		"name": "Inner Flame",
 		"uniques": ["[+10]% Strength <when attacking>","[-10]% Strength <when defending>","Damage is ignored when determining unit Strength","Heals [10] damage if it kills a unit"]
 	},	
-
+	{
+		"name": "Conqueror of Realm",
+		"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
+	},
+	{
+		"name": "Protector of Realm",
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Fervor",
+		"uniques": ["[+25]% Strength <during a Golden Age>"]
+	},
+	{
+		"name": "Wings",
+		"uniques": ["Flying", "Can pass through impassable tiles", "Can see over obstacles"]
+	},
+	{
+		"name": "Chameleon Cloak",
+		"uniques": ["Invisible to others <with [50]% chance>", 
+					"Camouflage"]
+	},
+	
 ]

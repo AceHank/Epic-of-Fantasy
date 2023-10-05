@@ -28,7 +28,7 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 17,
+		"strength": 16,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -49,14 +49,15 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 18,
-		"cost": 110,
+		"strength": 15,
+		"cost": 90,
 		"requiredTech": "Iron Working",
 		"requiredResource": "Iron",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["[-10]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
+	//	"uniques": ["Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
+		"promotions": ["[Orc Brute] ability", "Crafty"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Crude yet effective, a menace to those who dare to oppose. Swings hammer like no other. Prepare to be brutalized."},
@@ -187,7 +188,8 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
-		"uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
+	//	"uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
+	//	"promotions": ["Charge"],
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit",
@@ -207,7 +209,8 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can pass through impassable tiles", "Ignores terrain cost"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Flying", "Can pass through impassable tiles", "Can see over obstacles"],
+	//	"promotions": [""],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
 		"civilopediaText": [
@@ -221,7 +224,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Vigilo Order",
 		"movement": 2,
-		"promotions": ["Medic", "Medic II"],
+		"promotions": ["Healer I", "Healer II"],
 		"requiredTech": "Guilds",
 		"cost": 50,
 		"civilopediaText": [
@@ -278,7 +281,7 @@
 			"movement": 2,
 			"strength": 17,
 			"upgradesTo": "Longswordsman",
-			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 						"Empire enters a [8]-turn Golden Age <by consuming this unit>", "Gain [250] [Gold] <by consuming this unit>"],
 			"promotions": ["Agoge", "Heroic General",
 					   "Bloodbath"],
@@ -305,8 +308,8 @@
 			"uniqueTo": "Argonautian States",
 			"movement": 2,
 			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-						"Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Uncapturable"],
-			"promotions": ["Medic", "Medic II", "Heroic General"],
+						"Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Uncapturable"],
+			"promotions": ["Heroic General", "Healer I", "Healer II", "Medic"],
 		},
 		{
 			"name": "Daedalus",
@@ -423,7 +426,8 @@
 		"requiredTech": "Theology",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Research Theology vs Machinery","May capture killed [Military] units <with [75]% chance>"],
+		"uniques": ["Research [Theology] vs [Machinery]"],
+		"promotions": ["[Lich] ability"],
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "A high-ranking undead, an undead of great intelligence, master of necromancy, a Lich will ressurect its killed enemies to serve them."},
@@ -479,7 +483,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["Cover I", "Survivalism I"],
+		"promotions": ["Cover I", "Regenerative Bio-Steel"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{"text": "A human with far too many clockwerk attached, a machine-infested human. Willingly modify their body so they can be closer to the Broken God. A human far beyond recognition."},
@@ -515,7 +519,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"uniques": ["Can [Remove Foreign religions from your own cities] [2] times"],
+		"uniques": ["Can remove other religions from cities <once>", "Can Spread Religion <once>", "Takes your religion over the one in their birth city"],
 		"promotions": ["Divine Watch"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
@@ -619,7 +623,7 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
-		"uniques": ["Research Steam Power vs Flight"],
+		"uniques": ["Requires a [Coal]", "Research [Steam Power] vs [Flight]"],
 		"attackSound": "bombing",
 		"civilopediaText": [
 			{"text": "Earliest record of flying vehicle is achieved by the Gnomes. Using steam power on its engine, they require Coal to be used."},
@@ -655,7 +659,7 @@
 		"uniqueTo": "Harpies Tribe",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 13,
+		"strength": 10,
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Machinery",
@@ -678,12 +682,13 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Invisible to non-adjacent units"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit",
+		"promotions": ["Woodsman", "Woods Camouflage"],
 		"civilopediaText": [
-			{"text": "The protector of woods. Serves both as protector and attendant of the Forest. Grovetender is a master at camouflage."},
+			{"text": "The protector of Gaia. Serves both as protector and attendant of the woods. Grovetender is a master at camouflage."},
         ]
 	},
 	
@@ -752,7 +757,7 @@
 	
 	//The Wizard Council
 	{
-		"name": "Warlock",
+		"name": "Sorcerer",
 		"uniqueTo": "The Wizard Council",
 		"replaces": "Crossbowman",
 		"unitType": "Archery",
@@ -762,11 +767,11 @@
 		"cost": 120,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
-		"promotions": ["Besiege"],
+		"promotions": ["Mana Shield", "Dome of Protection"],
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow",
 		"civilopediaText": [
-			{"text": "A master of the arcane, Warlock can use a spell or two to raze a city easily."},
+			{"text": "A master of the arcane, Sorcerer uses protective spell to strengthen nearby allies and themselves."},
         ]
 	},
 	{
@@ -838,7 +843,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"promotions": ["Healer"],
+		"promotions": ["Healer I"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Wield Totem as its weapon, this Tauren can both hurt enemies and heal allies with their Totem prayer."},
@@ -900,7 +905,7 @@
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
-		"promotions": ["Healer"],
+		"promotions": ["Healer I"],
 		"civilopediaText": [
 			{"text": "Protector of the weak, ally of justice, just to name a few of their name, Paladin is a knight of renowned chivalry and heroism."},
         ]
@@ -1248,16 +1253,17 @@
 	},
 	{
 		"name": "Archdemon Azaniroth",
+	//	"uniqueTo": "Hellbourne",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 20,
-		"promotions": ["Intimidation", "Bloodbath"],
+		"promotions": ["Intimidation", "Bloodbath", "Menacing Aura"],
 		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Only available <if [Altar of Azaniroth] is constructed>",
 					"[+75]% Strength <during the [Renaissance era]>",
 					"[+125]% Strength <during the [Industrial era]>",
 					"[+325]% Strength <during the [Modern era]>",
-					"[+400]% Strength <during the [Atomic era]>",
-					"[+525]% Strength <starting from the [Information era]>",
+					"[+375]% Strength <during the [Atomic era]>",
+					"[+450]% Strength <starting from the [Information era]>",
 					"Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
@@ -1272,12 +1278,12 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 17,
+		"strength": 15,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"promotions": ["Quick Study"],
+		"promotions": ["Quick Study", "Fervor"],
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
@@ -1354,7 +1360,7 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 16,
+		"strength": 15,
 		"cost": 50,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -1382,6 +1388,38 @@
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "A mage capable of utilizing water spell at great efficient and power."},
+        ]
+	},
+	
+	//Enkantos
+	{
+		"name": "Illusionist",
+		"uniqueTo": "Enkantos",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+	//	"uniques": ["Free [Illusion] appears <with [25]% chance>"],
+		"promotions": ["Mirage"],
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "A master of illusions. Their enemies might've seen more than what they supposed to see."},
+        ]
+	},
+	{
+		"name": "Illusion",
+		"unitType": "Gunpowder",
+		"strength": 24,
+		"movement": 2,
+		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>"],
+		"promotions": ["Mirage"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "Kagebunshin no Jutsu?"},
         ]
 	},
 	

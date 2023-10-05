@@ -135,7 +135,9 @@
 		"techRequired": "Engineering",
 		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%", "[+2 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>", "Improvement", "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [25]%", "Adjacent enemy units ending their turn take [10] damage",
+					"[-10 Food, -10 Culture, -10 Science, -10 Gold, -10 Faith, -10 Production] <in [Enemy Land] tiles>",
+					"[+1 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>", "Improvement", "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>"],
 		"civilopediaText": [
 			{"text": "A crude barricade made from what's available on the battlefield."},
         ]
@@ -178,7 +180,8 @@
 		"faith": 4,
 		"science": 2,
 		"production": 2,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold, +20 Science]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold, +20 Science]",
+					"[+1 Faith, +3 Culture] <after adopting [Piety Complete]>","[+1 Faith, +3 Science] <after adopting [Rationalism Complete]>"]
 	},
 	
 	
@@ -190,7 +193,8 @@
 		"techRequired": "Civil Service",
 		"terrainsCanBeBuiltOn": ["Mountain"],
 		"replacementTextForUniques": "+1 Culture for each adjacent different-type of Improvement",
-		"uniques": [ "Improvement", "+1 Culture for each adjacent different-type of Improvement",
+		"uniques": ["Improvement", "[+1 Culture] for each adjacent [Improvement]",
+					/* OLD UNIQUES
 					"[+1 Culture] <with [1] to [6] neighboring [Farm] tiles>",
 					"[+1 Culture] <with [1] to [6] neighboring [Trading post] tiles>",
 					"[+1 Culture] <with [1] to [6] neighboring [Plantation] tiles>",
@@ -211,7 +215,9 @@
 					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Farm] tiles>",
 					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Mine] tiles>",
 					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Oil well] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Plantation] tiles>",]
+					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Plantation] tiles>",
+					*/
+					]
 	},
 	
 	

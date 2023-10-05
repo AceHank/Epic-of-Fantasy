@@ -3,7 +3,7 @@
 	{
 		"name":"Alchemist",
 		"science":3,
-		"greatPersonPoints": {"Great Scientist":4},
+		"greatPersonPoints": {"Great Scientist":5},
 		"color": [0,0,255]
 	},
 	
@@ -23,4 +23,16 @@
 		"greatPersonPoints": {"Great Scientist":4},
 		"color": [5,125,145]
 	},
+	
+	//Shinso
+	{
+		"name":"Zen Overseer",
+		"science": 2,
+		"culture": 2,
+		"faith": 2,
+		"food": 2,
+		"gold": 2,
+		"color": [255,20,147]
+	},
+	
 ]

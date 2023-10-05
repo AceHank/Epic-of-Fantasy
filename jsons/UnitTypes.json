@@ -1,0 +1,240 @@
+[
+	//Hellbourne stuffs are pending, for now <when adjacent to a unitFilter> only applies to ally unitFilter
+	
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+		"uniques": [
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					],
+    },
+    {
+        "name": "Sword",
+        "movementType": "Land",
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Celestials
+					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 		
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Spikey
+					"Heal this unit by [-200] HP <upon losing at least [1] HP in a single attack> <when attacking> <vs [Spikey] units>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [{Enemy} {Archdemon Azaniroth}] unit>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Gunpowder",
+        "movementType": "Land",
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Celestials
+					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 		
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land",
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Ranged Gunpowder",
+        "movementType": "Land",
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land",
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Celestials
+					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 	
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land",
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Celestials
+					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 	
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land"
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Celestials
+					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 	
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+	
+	//WATER
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+	//	"uniques": ["Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+	//				]
+    },
+    {
+        "name": "Melee Water",
+        "movementType": "Water"
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+				//	"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water"
+		"uniques": [
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					]
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", 
+		
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>", //Hellbourne
+					]
+    },
+    {
+        "name": "Aircraft Carrier",
+        "movementType": "Water"
+	//	"uniques": ["Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+	//				]
+    },
+	
+	//AIR
+    {
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep",]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft",]
+    },
+    {
+        "name": "Atomic Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles", 
+		
+					//Drow Vengefull stuff
+					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Celestials
+					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 	
+					//Healer
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit>" //Hellbourne
+					]
+    },
+
+    // Deprecated unit types required for mods without a UnitTypes.json file to work
+
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
+]

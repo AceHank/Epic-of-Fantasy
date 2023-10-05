@@ -21,8 +21,7 @@
 		"replaces": "Observatory",
 		"maintenance": 0,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Must be next to [Mountain]", 
-					"[+1 Science] from [Mine] tiles [in this city]", "[+10]% [Production] [in this city]"],
+		"uniques": ["Can be built in all cities"],
 		"requiredTech": "Astronomy",
 		"civilopediaText": [
 			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
@@ -94,23 +93,40 @@
 	{
 		"name": "Ancestor Tree",
 		"uniqueTo": "Elven Kingdom",
-		"cost": 150,
-		"culture": 2,
+		"cost": 175,
+		"culture": 1,
 		"faith": 1,
-		"isNationalWonder": true,
-		"uniques": ["[+2 Culture, +1 Faith] from each Trade Route"],
+	//	"isNationalWonder": true,
+	"uniques": ["Cannot be purchased", "[+1 Faith, +1 Culture] from every [Ancestor Tree] <in cities with a [Palace]>",
+	//				"Unbuildable", "Unsellable", "Never destroyed when the city is captured"
+					],
 		"requiredTech": "Civil Service",
 		"civilopediaText": [
-			{"text": "A tree sprout from the fallen body of the first Elven born. Ancestor Tree is a sacred site for the Elven Kingdom."},
+			{"text": "A tree sprout from the fallen body of the first ever Elven. Ancestor Tree is a sacred site, a rememberance of the ever-changing nature of life."},
         ]
 	},
+	
+		/* Scrapped concept
+		{
+			"name": "Ancestor Tree Sapling",
+			"uniqueTo": "Elven Kingdom",
+			"cost": 175,
+			"culture": 2,
+			"faith": 1,
+			"requiredTech": "Civil Service",
+			"civilopediaText": [
+				{"text": ""},
+			]
+		},
+		*/
 	
 	//Orz'athoth of Children of Deep Dweller
 	{
 		"name": "Old God Monument",
 		"uniqueTo": "Children of Deep Dweller",
-		"culture": 2,
+		"culture": 1,
 		"faith": 1,
+		"science": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
@@ -128,9 +144,9 @@
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Alchemist": 3},
+		"specialistSlots": {"Alchemist": 2},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+3 Alchemist slots (+3 [Science], +4 Great Scientist Point from each)"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+2 Alchemist slots (+3 [Science], +5 Great Scientist Point from each)"],
 		"requiredTech": "Education",
 		"civilopediaText": [
 			{"text": "A place to learn for young alchemist."},
@@ -205,7 +221,7 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+		"uniques": ["Only available <in cities with a [Barracks]>", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city", "[+50]% Production when constructing [{Military} {Land}] units [in this city]", "[+1] Movement <for [All] units> <during a Golden Age>", "[+1] Sight <for [All] units> <during a Golden Age>"],
 		"requiredTech": "Iron Working",
 		"civilopediaText": [
@@ -383,23 +399,39 @@
 		"production": 3,
 		"science": 3,
 		"gold": 3,
-		"culture": 2,
+		"culture": 1,
 	//	"faith": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"percentStatBonus": {"science": 15, "faith": 15, "culture": 15,},
+		"percentStatBonus": {"science": 10, "faith": 10, "culture": 10},
 		"uniques": ["Indicates the capital city", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Dryad's Hut",
 		"uniqueTo": "Nature's Keeper",
 		"replaces": "Garden",
-		"specialistSlots": {"Artist": 2},
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Forest]", "+2 Artist slots"],
+		"specialistSlots": {"Artist": 1, "Scientist": 1},
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must have an owned [Forest] within [2] tiles", "+1 Artist slot", "+1 Scientist slot"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
 	},
+		{
+			"name": "Artistic Allure",
+			"uniqueTo": "Nature's Keeper",
+			"greatPersonPoints": {"Great Artist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Scientific Allure",
+			"uniqueTo": "Nature's Keeper",
+			"greatPersonPoints": {"Great Scientist": 1},
+			"cost": 1,
+			"uniques": ["Unbuildable","Destroyed when the city is captured",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
 	
 	//Clockwerk Church
 	{
@@ -461,50 +493,67 @@
 	{
 		"name": "Pillar of Learning",
 		"uniqueTo": "Shinso",
-		"cost": 250,
-		"science": "4",
-		"specialistSlots": {"Scientist": 2},
+		"cost": 225,
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+2 Science] from each Trade Route", 
-					//"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Prosperity]> <in cities without a [Pillar of Faith]>", 
+		"uniques": ["[+2 Science] from each Trade Route",
 					"Will not be displayed in Civilopedia"],
 		"requiredTech": "Writing"
 	},
 	{
 		"name": "Pillar of Life",
 		"uniqueTo": "Shinso",
-		"cost": 250,
-		"food": "4",
-		"specialistSlots": {"Engineer": 2},
+		"cost": 225,
+		"food": 3,
+		"specialistSlots": {"Engineer": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+15]% growth [in all cities]", 
-					//"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]> <in cities without a [Pillar of Faith]>", 
+		"uniques": ["[+15]% growth [in all cities]",
 					"Will not be displayed in Civilopedia"],
 		"requiredTech": "Mathematics"
 	},
 	{
 		"name": "Pillar of Faith",
 		"uniqueTo": "Shinso",
-		"cost": 250,
-		"faith": "4",
-		"specialistSlots": {"Artist": 2},
+		"cost": 225,
+		"faith": 3,
 		"isNationalWonder": true,
-		"uniques": ["[+3 Culture] from [Mountain] tiles [in all cities]", 
-					//"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]>", 
+		"uniques": ["[+1 Faith] from [Land] tiles [in all cities] <with [1] to [6] neighboring [Mountain] tiles>",
 					"Will not be displayed in Civilopedia"],
 		"requiredTech": "Theology"
 	},
 	{
-		"name": "Pillar of Prosperity",
+		"name": "Pillar of Wealth",
 		"uniqueTo": "Shinso",
-		"cost": 250,
-		"gold": "4",
-		"specialistSlots": {"Merchant": 2},
+		"cost": 225,
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+1 Gold] from every [Market]", "[+1 Gold] from every [Bank]", 
-					//"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Life]> <in cities without a [Pillar of Faith]>", 
+		"uniques": ["[+1 Gold] from every [Market]", "[+1 Gold] from every [Bank]",
 					"Will not be displayed in Civilopedia"],
 		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Pillar of Legacy",
+		"uniqueTo": "Shinso",
+		"cost": 225,
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"isNationalWonder": true,
+		"uniques": ["[+1 Culture] from every [Wonders]",
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Gate of Prosperity",
+		"uniqueTo": "Shinso",
+		"cost": 1,
+		"specialistSlots": {"Zen Overseer": 1},
+		"uniques": ["Free Great Person", 
+					"Only available <in cities with a [Palace]> <if [Pillar of Learning] is constructed> <if [Pillar of Life] is constructed> <if [Pillar of Faith] is constructed> <if [Pillar of Wealth] is constructed> <if [Pillar of Legacy] is constructed>"
+					"Unsellable", "Never destroyed when the city is captured",
+					"Will not be displayed in Civilopedia"],
+		"replacementTextForUniques": "Free Great Person"
 	},
 	
 	//Gnome Alliance
@@ -684,7 +733,7 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+3 Science, +3 Production] from [Mountain] tiles [in all cities]"],
+		"uniques": ["Cost increases by [30] per owned city", "[+3 Science, +3 Production] from [Mountain] tiles [in all cities]"],
 		"requiredTech": "Machinery",
 		"civilopediaText": [
 			{"text": "The royal inventors of the Gnomish Alliance will come together every once a year to discuss and share their newest invention."},
@@ -723,17 +772,25 @@
 	//Fanrong Republic
 	{
 		"name": "Qingbai Wares",
-		"uniqueTo": "Fanrong Republic",
-		"replaces": "National Treasury",
-		"cost": 125,
-		"gold": 8,
-		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city", "Provides [3] [Porcelain]"],
+		"uniques": ["Provides [3] [Porcelain]",
+					"Unbuildable", "Unsellable", "Never destroyed when the city is captured"],
 		"requiredTech": "Guilds",
 		"civilopediaText": [
 			{"text": "Fanrong Republic is famous for their Porcelain. Industry of Porcelain as its main commodity,"},
         ]
+	},
+	{
+		"name": "Trade Hub",
+		"uniqueTo": "Fanrong Republic",
+		"replaces": "Seaport",
+		"cost": 250,
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "[+1 Culture] from [Luxury resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Astronomy"
 	},
 	
 	//The Wizard Council
@@ -827,7 +884,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"uniques": ["[+2 Production] from [Camp] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Camp] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	
@@ -841,7 +898,7 @@
 		"food": 1,
 		"maintenance": 1,
 		"specialistSlots": {"Spawner Drone": 2},
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "+2 Spawner Drone slots (+2 [Food], +3 [Culture] from each)"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "+2 Spawner Drone slots (+2 [Food], +2 [Culture] from each)"],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
 			{"text": "Place where new Scazari are bred. A place where the eggs laid by their Queen are kept and protected. A spawner drone will hatch the laid eggs."},
@@ -892,7 +949,8 @@
 		"name": "Ziggurat Fortress",
 		"uniqueTo": "Nerubian Kingdom",
 		"replaces": "Castle",
-		"cost": 120,
+		"cost": 130,
+		"production": 2,
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
@@ -939,20 +997,20 @@
         ]
 	},
 		{
-			"name": "Free Great Prophet",
+			"name": "Lunar's Revelation",
 			"uniqueTo": "Holy Lunar Theocracy",
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Palace]> <in cities with a [Aspect of the Moon]>","Never destroyed when the city is captured",
+			"uniques": ["Only available <in cities with a [Palace]> <in cities with a [Aspect of the Moon]>",
 						"Free [Great Prophet] appears",
-						"Unsellable", "Will not be displayed in Civilopedia"]
+						"Unsellable", "Never destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 		},
 		{
-			"name": "Free Great Scientist",
+			"name": "Lunar's Invention",
 			"uniqueTo": "Holy Lunar Theocracy",
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Palace]>", "Can only be built [in all cities with a world wonder]", "Never destroyed when the city is captured",
+			"uniques": ["Only available <in cities with a [Palace]>", "Can only be built [in all cities with a world wonder]", 
 						"Free [Great Scientist] appears",
-						"Unsellable", "Will not be displayed in Civilopedia"]
+						"Unsellable", "Never destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 		},
 	
 	//Magnar Empire
@@ -962,6 +1020,8 @@
 		"replaces": "Colosseum",
 		"maintenance": 1,
 		"happiness": 2,
+		"culture": 2,
+		"cost": 130,
 		"hurryCostModifier": 25,
 		"uniques": ["Free [Worker] appears"],
 		"requiredTech": "Construction",
@@ -1056,7 +1116,7 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured","[+2 Food] from [Mountain] tiles [in this city]","[+1 Food, +2 Happiness, +1 Culture] from [City ruins] tiles [in this city]",],
+		"uniques": ["Destroyed when the city is captured","[+2 Food] from [Mountain] tiles [in this city]","[+1 Food, +2 Happiness, +1 Culture, +2 Faith] from [City ruins] tiles [in this city]",],
 		"requiredTech": "Drama and Poetry",
 		"civilopediaText": [
 			{"text": "A Monument to remember the day of the eruptions, the end of a lot of mortal lives under the ashes. It's also a great place to plan wars and regulate agriculture."},
@@ -1215,7 +1275,7 @@
 			"uniqueTo": "Salamander Empire",
 			"maintenance": 0,
 			"cost": 1,
-			"uniques": ["Unsellable", "Must be next to [Desert]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+			"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 						"Free [Sun Obelisk] appears"]
 		},
 		NO NEED ANYMORE */
@@ -1314,9 +1374,9 @@
 		"uniqueTo": "Gnoll Warband",
 		"replaces": "Armory",
 		"hurryCostModifier": 25,
-		"maintenance": 0,
+		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["[+1 Happiness, +2 Culture] <when at war>",
+		"uniques": ["[+1 Gold, +1 Culture] <during a Golden Age>", "[+1 Gold, +1 Culture] <when at war>",
 					"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel",
 		"civilopediaText": [
@@ -1336,12 +1396,10 @@
 		"requiredTech": "Chivalry",
 		"replacementTextForUniques": "+1 [Production] for each adjacent mountain",
 		"uniques": ["Destroyed when the city is captured", "Provides [2] [Iron]",
-					"[+1 Production] <with [1] to [1] neighboring [Mountain] tiles>",
-					"[+2 Production] <with [2] to [2] neighboring [Mountain] tiles>",
-					"[+3 Production] <with [3] to [3] neighboring [Mountain] tiles>",
-					"[+4 Production] <with [4] to [4] neighboring [Mountain] tiles>",
-					"[+5 Production] <with [5] to [5] neighboring [Mountain] tiles>",
-					"[+6 Production] <with [6] to [6] neighboring [Mountain] tiles>"],
+					"[+1 Production] from [Iron] tiles [in this city]",
+					"[+1 Production] from [Coal] tiles [in this city]",
+					"[+1 Production] from [Aluminum] tiles [in this city]",
+					"[+1 Production] from [Uranium] tiles [in this city]"],
 		"civilopediaText": [
 			{"text": "Stronghold of the Troglodytes, under the cavern."},
         ]
@@ -1422,5 +1480,19 @@
 			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia", "Only available <in cities with at least [10] [Population]>",
 						"Creates a [Manaline] improvement on a specific tile"]
 		},
+	
+	//Enkantos
+	{
+		"name": "Dreamweaver Theatre",
+		"uniqueTo": "Enkantos",
+		"replaces": "Theatre",
+		"happiness": 3,
+		"culture": 2,
+		"hurryCostModifier": 10,
+		"uniques": ["[+1 Science] from [Water resource] tiles [in this city]"],
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
 	
 ]
