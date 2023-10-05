@@ -1,0 +1,277 @@
+v3.0
+
+New Civs:
+-The Enkantos: Enchanted people of the ethereal city of Biringan inspired from Philippines mythology 
+
+Changes:
+-Argonautian: Agathinus (Heroic General) now heal adjacent allies by 10 and has Medic promotion
+-Beastmen: +2 Happiness from Courthouse to annexed cities
+-Celestials: Archon's Volatile Core is now actually Volatile
+-Centaurs: Mounted units resist half of Anti-cav bonus Strength
+-Deep Dweller: 100% Faith to 50% Faith and Science, UB: +1 Faith, Science, Culture
+-Clockwerk: UU now regenerate HP every turn
+-Dragonborn: Now has actual Dragonborn, which can fly
+-Drow: Vengeful now actually involves 'revenge'
+-Dwarven: UB doesn't require Mountain
+-Elven: Nerfed Ancestor Tree, isn't National Wonder and reduced yield
+-Fanrong: Changed original UB into UA, new UB Trade Hub
+-Gaia: UU invis now chance-based and promotion. Countered by `Sight` promotion
+-Gnoll: UA change from Gold to short Golden Age, UB's yield separated, UU gain new promotion
+-Harpies: Now actually flies but reduced UA yield, UI buffed for simplicity
+-Hellbourne: Azaniroth is cheaper to revive
+-Inquisitorial: Now can remove and spread religion once
+-Lyrian: Healer promotion changed
+-Magnar: UB cost more but has +2 Culture
+-Merfolk: may enter ocean after Compass, Work Boats now construct UI without consuming
+-Keeper: UA reworked, UB less reliant on Forest
+-Necrontia: +50% Production when constructing Courthouse, UU Lich ability is now promotion
+-Nerubian: UB cost more but has +2 Production
+-Orc: UA reduced by 5%, Orc Brute ability now promotion, UI now sabotage enemies and is mini-Citadel
+-Pyre: 2 Free Pitlords upon finishing first Policy tree
+-Salamander: Sun Obelisk now doesn't need Desert, UU promotion from 50% Desert to 25% Desert and Friendly Land
+-Scazari: Unique Specialist from +3 Culture to +2
+-Shinso: 1 Extra unique Wonder and everything is cheaper. Completing them give free Great Person and unique Specialist
+-Tauren: Healer promotion changed
+-Amazons: UA now less reliant on Jungle
+-Chroniclers: UA now less reliant on Desert but needs Writing
+-Titans: UA buff to +40% Production
+-Wizard: UU changed to Sorcerer, new promotions
+-Troglodyte: UB +1 Production from mined strategic resource
+-Troll: UA buffed to last the entire game, UB nerfed from +2 Production to +1 Production
+-Uldra: UA now less reliant on terrain
+-Vigilo: UU now grants passive healing to adjacent allies
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.7
+
+New Civs:
+-The Amazons: A matriarch civilization inspired from Greeks mythology
+-Undines: Water nymph civilization
+
+Changes:
+-Orc Horde: Nerfed Orc Brute, increased cost, reduce strength, added Iron requirement
+-Tauren Clan: Rites of the Earthmother now destroyed when the city is captured, preventing the promotions to be used by other civs
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.6
+
+New Civs:
+-Spirit Pact (by @Bamboolord): Evil spirits possesing everyone to dominate the world
+
+Changes:
+-Argonautian States: UA now uses trigger condition
+-Merfolk Council: Changed Water Creature promotion, removed -1 Movement speed but added -10% Strength in tiles without access to water
+-Salamander Empire: UA now uses trigger condition and buffed condition to on Desert and next to Desert tile
+-The Walrus People: UA now uses trigger condition
+-Uldra: Changed +UA now uses trigger condition, indirectly nerfing them (But this is the intended design)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.5 
+
+New Civs:
+-Gnoll Warband: Hyena demihuman civilization
+-Troglodyte: Cave-dwelling lizardmen civilization
+
+Changes:
+-Changed Gnome Alliance color
+-Changed Harpies Tribe color
+-Celestial Beings: Removed self-destruct from Volatile Core because it's not working, and nerfed from +200% to +150%
+-Lizardmen Tribes: Buffed UA from 15% Strength to +20% Strength
+-Scazari Hive: Nerfed Spawner Drone from +3 Culture to +2 Culture
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.4 Here Comes Some Sprites!!
+
+Added sprites for all unique units, uses AbsoluteUnits tileset - by Indonesian Gentleman
+
+New Civs:
+-Celestial Beings: Angelic civilization coming from the Higher Plane
+-Hellbourne: Creature from the abysmal Hell surfaces to conquer the land
+
+Changes:
+-Argonautian States: Buffed the Strength of Achilles, Orion, and Daedalus 
+-Necrontia: Nerfed Lich from 20 Ranged Strength to 18 Ranged Strength
+-The Chroniclers: Changed leader name into a more lore-friendly one, Buffed Sentinel and changed into Construct
+-The Kobolds: Buffed Lodepit with +1 Culture
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.3
+
+New Civs:
+-Precursor: Primordial highly intelegent race, they are among the first sentient being in the world
+-The Eternals: Long-lived creatures able to drain the life-essence of other lesser being.
+
+Changes:
+-Nature's Keeper: Nerfed Mother Tree (UA), reduced all 5 flat yields by 1
+-Scazari Hive: Adjusted Spawning Pool from +2 Food to +1 Food but increases Spawner Drone from +1 Food from +2 Food
+-Tauren Clan: Nerfed Tauren Totemwielder, reduced Strength to 23 from 24
+-Uldra: Nerfed Frost Giant, reduced Strength to 13 from 14
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.2 
+
+New Civs:
+-Basalt Remainer (by Bamboolord): Undeads construct consisting of volcanic ash and rocks
+-Salamander Empire: Lizardmen variant that lives in the Desert
+-The Chroniclers: Secret societies that aims to record all history of the world
+
+Changes:
+-Added explanation on some civilization's mechanic in Civilopedia
+-Ambush promotions now deals extra damage to Construct units
+-Dwarven Kingdom: Nerfed Orichalcum Golem, removed +25% Strength when defending but added Strength to 22 from 21
+-Lithoid Combine: Buffed UA to be able to build extra population again after being conquered
+-Magnar Empire: Buffed UA to be able to build Forced Levy again after being conquered
+-Uldra: Buffed UA to be able to build extra population again after being conquered
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+V2.1 
+
+New Civs:
+-Magnar Empire: A human Empire built on slavery
+-The Lithoids: Sentient rock creature civilization
+
+Fixes:
+-Fixed some missing icons
+-Fixed Argonautian States different Heroic General having the same icon
+
+Changes:
+-Added some more nation lines to existing civilizations
+-Dragonborn Union: Buffed Dragon Knight, upgrades to Rifleman instead of Musketman
+-Dwarven Kingdom: Nerfed Orichalcum Golem, reduced Strength to 21 from 23
+-Necrontia: Buffed UB's Sacrifice promotion to +20 Culture from +15
+-Orc Horde: Nerfed Orc Brute to cost 100 from 85
+-Scazari Hive: Nerfed UA to +1 Production from +2 Production
+-Vigilo Order: Buffed Potionist to cost 50 Production from 90
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v2.0 
+
+New Civs:
+-Holy Lunar Theocracy: Lunari civilization, a nocturnal humanoid race, rival nation of Sacred Sun Theocracy
+-Lyrian Kingdom: Human civilization
+
+Fixes:
+-Fixed Divine Watch promotion not working as intended (Again!)
+
+Changes:
+-Added lines to some existing civilizations
+-High Elf Concordat: Buffed UA added +2 Faith
+-The Walrus People: Nerfed UA to +1 yield on non-Snow/Tundra, +2 on Tundra
+-The Titans: Buffed UA to +33% from +25% when constructing World Wonder for the first time
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.9 The Warcraft Specials!
+
+New Civs:
+-Nerubian Kingdom: Ancient arachnid kingdom
+-Tauren Clan: Half human half bull, minotaur-like civilization
+-The Walrus People: Walrus-like race
+
+Fixes:
+-Fixed same icons
+
+Changes:
+-Added civilopedia entries for most unique components of every civilizations
+-Merfolk Council: Land units gain the Water Creature promotion (Stronger in tile with access to water and the other way around)
+-The Wizard Council: Buffed UA +2 Science from Shrine and Temple from +1 Science
+-Children of Deep Dweller: Nerfed Deep One cost to 48 from 46
+-Gnome Alliance: Buffed UA to +2 Science from +1 Science
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.8 A big one incoming!
+
+New Civs:
+-Scazari Hive (suggested by @rendieval): Sentient hive-minded insectoid civilization (Epic of Sci-fi?)
+-Troll Tribes
+
+Fixes:
+-Fixed units with 'Divine Watch' promotion not working correctly
+-Fixed icons
+-Fixed some missing prefered victory from civilization
+-Fixed Lizardmen color scheme
+
+Changes:
+-Beastmen Empire: Buffed unique ability, 5x production -> Culture from 3x
+-Clockwerk Church: Buffed Mechanite, reduced cost to 160 from 170
+-Dwarven Kingdom: Buffed unique ability, +1 Production from mined strategic resource
+-Fanrong Republic: Buffed Junk Ship, reduced cost to 90 from 100
+-Inquisitorial Illuminate: Nerfed Covenant Temple, added 2 maintenance from 0
+-Merfolk Council: Buffed Floating City, +1 Gold after discovering Guilds
+-Necrontia: Buffed Throne of the Dead from +1 Culture into +4 Culture
+-Orc Horde: Buffed Orc Brute, -10% Strength from -15%
+-Pyre Clan: Nerfed Pitlord, reduce Strength to 22 from 24
+-Sacred Sun Theocracy: Buffed Devotee, ddded 'Divine Watch' promotion
+-Shinso: Buffed Onmyouji, added Accuracy I promotion
+-The Wizard COuncil: Nerfed Peacemaker Spell, now won't 'prevent' the AI from attacking player
+
+Current Issues:
+-Battle preview involving Troll Headhunter (and its upgraded version) can be misleading because the chance of it's being true is 50%
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.7 Player suggestion special
+
+Fixes:
+-Fixed missing icons (yet another missing icons!)
+
+Changes:
+-2 new civs: Fanrong Republic and The Wizard Council
+-Beastmen Empire: 2x Production -> Culture changed into 3x Production -> Culture
+-Necrontia: Buffed Lich capture chance from 20% chance into 75% chance && Lich's Ranged Strength into 20 from 19
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.6
+
+Fixes:
+-Fixed missing icons
+
+Changes:
+-2 new civ: The Titans and The Kobolds
+-Harpies Tribe: Changed promotions of Stormwing into a more relevant one
+-Gnome Alliance: Buffed National Ability and unique National Wonder
+
+Current Issues:
+-When playing as Gaia Preserver and The Kobolds, automating Worker may potentially puts Worker in a loop of swapping between improvement on the same tile
+ Solution: You need to uncheck Automated worker replace improvement in Gameplay option
+-Another issue when playing The Kobolds, they will prioritize Mine over Lodepit.
+ Solution: You need to manually build Lodepit
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.5
+
+Fixes:
+-Fixed Drow Village Vengeful promotion affecting Water units
+
+Changes:
+-2 new civs: Harpies Tribe and Gaia Preserver
+-Merfolk Council: Nerfed NA from +3 Culture to +2 Culture
+-High Elf Concordat: Changed NA from +3 Culture, +1 Production into +2 Culture, +2 Production &&& Buffed Arcane Spire from +1 Science to +2 Science
+-Dragonborn Union: Changed NA so not to copy-paste from Austria into +10% Strength within 2 tiles of Mountain &&& Nerfed influence gain from 15 to 10
+-Shinso: Buffed unique Wonders by reducing their cost
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.4
+
+Fixes:
+-Fixed exploitable Uldra's free population
+-Fixed missing icons (yet again!)
+-Fixed promotions for the new Unciv 4.2.17 update 
+
+Changes:
+-1 new civ: Gnome Alliance
+-Dwarven Kingdom: Tinkerer's Depot +10% Production Bonus
+-Nature's Keepers: Buffed NA to better reflect on its attribute as Forest-based civilization
+-Clockwerk Church: Name changed from Cyborg Priest into Priest of Cog
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.3
+
+Fixes:
+-Fixed Fresh Water Lumber mill bonus not working on Lizardmen Tribes
+-Fixed missing icons
+-Added civilopedia text to explain details on a civilization's history and lore
+
+Changes:
+-2 new civs: Shinso (Imported from Fantasia) and Centaur Tribes
+-Buffed Lich: May capture Military units with 20% chance
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
