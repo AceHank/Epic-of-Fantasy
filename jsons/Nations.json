@@ -1851,7 +1851,7 @@
 		
 		"outerColor": [58, 101, 143],
 		"innerColor": [197, 230, 255]
-		"uniqueName": "The Mana Flows",
+		"uniqueName": "The Enchanted Ones",
 		"uniqueText": "Gain [Science] upon building [Happiness] building\n+1 population in a random city upon entering new era",
 		"uniques": ["Gain [20] [Science] <upon constructing [Circus]>",
 					"Gain [25] [Science] <upon constructing [Colosseum]>",
