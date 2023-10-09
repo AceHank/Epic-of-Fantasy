@@ -549,7 +549,8 @@
 		"uniqueTo": "Shinso",
 		"cost": 1,
 		"specialistSlots": {"Zen Overseer": 1},
-		"uniques": ["Free Great Person", 
+		"isNationalWonder": true,
+		"uniques": ["Free Great Person", "Automatically built in all cities where it is buildable",
 					"Only available <in cities with a [Palace]> <if [Pillar of Learning] is constructed> <if [Pillar of Life] is constructed> <if [Pillar of Faith] is constructed> <if [Pillar of Wealth] is constructed> <if [Pillar of Legacy] is constructed>"
 					"Unsellable", "Never destroyed when the city is captured",
 					"Will not be displayed in Civilopedia"],
@@ -1000,7 +1001,7 @@
 			"name": "Lunar's Revelation",
 			"uniqueTo": "Holy Lunar Theocracy",
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Palace]> <in cities with a [Aspect of the Moon]>",
+			"uniques": ["Only available <in cities with a [Palace]> <in cities with a [Aspect of the Moon]>", "Automatically built in all cities where it is buildable",
 						"Free [Great Prophet] appears",
 						"Unsellable", "Never destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 		},
@@ -1008,7 +1009,7 @@
 			"name": "Lunar's Invention",
 			"uniqueTo": "Holy Lunar Theocracy",
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Palace]>", "Can only be built [in all cities with a world wonder]", 
+			"uniques": ["Only available <in cities with a [Palace]>", "Can only be built [in all cities with a world wonder]",  "Automatically built in all cities where it is buildable",
 						"Free [Great Scientist] appears",
 						"Unsellable", "Never destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 		},

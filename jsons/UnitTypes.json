@@ -1,5 +1,5 @@
 [
-	//Hellbourne stuffs are pending, for now <when adjacent to a unitFilter> only applies to ally unitFilter
+	//Hellbourne stuffs are pending, for now <when adjacent to a unitFilter> only applies to ally unitFilter, wait {Enemy} unitFilter
 	
     {
         "name": "Civilian",
@@ -22,9 +22,10 @@
 					//Healer
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-					//Spikey
-					"Heal this unit by [-200] HP <upon losing at least [1] HP in a single attack> <when attacking> <vs [Spikey] units>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [{Enemy} {Archdemon Azaniroth}] unit>",	//Hellbourne
+					//Spikey *Need <upon attacking> to work
+	//				"Heal this unit by [-200] HP <upon losing at least [1] HP in a single attack> <when attacking> <vs [Spikey] units>",
+					//Hellbourne
+	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [{Enemy} {Archdemon Azaniroth}] unit>",	
 					]
     },
     {
