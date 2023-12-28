@@ -8,7 +8,7 @@
 					//Healer
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+	//				"This Unit takes [20] damage <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
 					],
     },
     {
@@ -18,7 +18,7 @@
 					//Drow Vengefull stuff
 					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 		
+					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 		
 					//Healer
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
@@ -35,7 +35,7 @@
 					//Drow Vengefull stuff
 					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 		
+					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 		
 					//Healer
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
@@ -73,7 +73,7 @@
 					//Drow Vengefull stuff
 					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 	
+					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 	
 					//Healer
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
@@ -87,7 +87,7 @@
 					//Drow Vengefull stuff
 					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 	
+					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 	
 					//Healer
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
@@ -101,7 +101,7 @@
 					//Drow Vengefull stuff
 					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 	
+					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 	
 					//Healer
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
@@ -192,7 +192,7 @@
 					//Drow Vengefull stuff
 					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"Heal this unit by [-40] HP <upon defeating a [Volatile] unit>", 	
+					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 	
 					//Healer
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
 					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
