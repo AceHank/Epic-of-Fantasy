@@ -2,12 +2,12 @@
 	//Higba of Dwarven Kingdom
 	{
 		"name": "Dwarven Kingdom",
-		"leaderName": "Higba",
+		"leaderName": "Dionatan",
 		"adjective": ["Dwarven"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwarven land surely will brings forth advances and breakthroughs.",
+		"startIntroPart1": "Most majestic King Dionatan, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwarven land surely will brings forth advances and breakthroughs.",
 		"startIntroPart2": "King Higba, your brilliant mind echoed throughout the lands. Will you stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You have transgressed our agenda, we won't let you have it your way!",
@@ -21,7 +21,7 @@
 		
 		"outerColor": [ 27, 53, 63]
 		"innerColor": [213,249,255],
-		"uniqueName": "Higba's Ingenuity",
+		"uniqueName": "Dionatan's Ingenuity",
 		"uniqueText": "+1 [Production] every 2 eras for cities settled on Hill\n+1 [Science] from every Strategic Resource\n+1 [Production] from every Strategic Resource improved with Mine",
 		"uniques": ["[+1 Science] from every [Strategic resource]",
 					"[+1 Production] from every [Mine] <in [Iron] tiles>",
@@ -35,7 +35,7 @@
 		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
 			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
 		"civilopediaText": [
-			{"text":"Dwarven Kingdom is a dwarf civilization. Led by its King, Higba, Dwarven Kingdom prospers. Dwarves are very skilled at mining and scientific progression."},
+			{"text":"Dwarven Kingdom is a dwarf civilization. Led by its King, Dionatan, Dwarven Kingdom prospers. Dwarves are very skilled at mining and scientific progression."},
 			{"text":"Dwarven Kingdom has great [Production] and [Science] output."},
 			{"text":"You want to settles your cities on Hill, especially next to Mountain."},
         ]
