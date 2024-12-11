@@ -67,6 +67,7 @@
 	//Uldra
 	{
 		"name": "Frost Giant",
+		"replaces": "Spearman",
 		"uniqueTo": "Uldra",
 		"unitType": "Sword",
 		"movement": 2,
@@ -75,7 +76,8 @@
 		"requiredTech": "Trapping",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"promotions": ["Snowman"],
+		"uniques": ["Comment [Unlocked at [Trapping] vs [Bronze Working]]", "[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Snowman", "Winter's Grasp"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -96,6 +98,7 @@
 		"cost": 90,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
+		"promotions": ["Floating City Builder"],
 		"upgradesTo": "Frigate",
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -109,7 +112,10 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Beastmen Empire",
 		"replaces": "Great General",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"promotions": ["Intimidation"],
 		"movement": 4,
@@ -131,7 +137,8 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Wings"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -146,9 +153,9 @@
 		"replaces": "Composite Bowman",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 10,
-		"rangedStrength": 13,
-		"cost": 80,
+		"strength": 11,
+		"rangedStrength": 12,
+		"cost": 75,
 		"promotions": ["Woodsman"],
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
@@ -170,7 +177,8 @@
 		"cost": 48,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>"],
+		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>", "Only available <in cities with a [Old God Monument]>"],
+		"promotions": ["Water Creature"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Horror creature from the abysmal sea. Surfaced from the prayer and calling of the Cultist."},
@@ -184,12 +192,12 @@
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 24,
+		"strength": 22,
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
 	//	"uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
-	//	"promotions": ["Charge"],
+		"promotions": ["Executioner"],
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit",
@@ -224,6 +232,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Vigilo Order",
 		"movement": 2,
+		"uniques": ["Uncapturable", "Comment [Removes most negative statuses from adjacent units on turn end]"],
 		"promotions": ["Healer I", "Healer II"],
 		"requiredTech": "Guilds",
 		"cost": 50,
@@ -275,7 +284,7 @@
 	},
 		//Heroic Generals
 		{
-			"name": "Achilles",
+			"name": "Achilles",		//Classical
 			"uniqueTo": "Argonautian States",
 			"unitType": "Sword",
 			"movement": 2,
@@ -288,7 +297,7 @@
 			"attackSound": "metalhit"
 		},
 		{
-			"name": "Orion",
+			"name": "Orion",		//Medieval
 			"uniqueTo": "Argonautian States",
 			"unitType": "Archery",
 			"movement": 2,
@@ -303,16 +312,16 @@
 			"attackSound": "arrow"
 		},
 		{
-			"name": "Agathinus",
+			"name": "Agathinus",		//Renaissance
 			"unitType": "Civilian",
 			"uniqueTo": "Argonautian States",
 			"movement": 2,
 			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 						"Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Uncapturable"],
-			"promotions": ["Heroic General", "Healer I", "Healer II", "Medic"],
+			"promotions": ["Heroic General", "Healer I", "Healer II"],
 		},
 		{
-			"name": "Daedalus",
+			"name": "Daedalus",			//Industrial
 			"uniqueTo": "Argonautian States",
 			"unitType": "Mounted",
 			"movement": 4,
@@ -325,7 +334,7 @@
 			"attackSound": "metalhit"
 		},
 		{
-			"name": "Theopompus",
+			"name": "Theopompus",		//Modern
 			"uniqueTo": "Argonautian States",
 			"unitType": "Gunpowder",
 			"movement": 2,
@@ -338,7 +347,7 @@
 			"attackSound": "metalhit"
 		},
 		{
-			"name": "Castor",
+			"name": "Castor",			//Atomic
 			"unitType": "Civilian",
 			"uniqueTo": "Argonautian States",
 			"movement": 2,
@@ -347,7 +356,7 @@
 			"promotions": ["Heroic General"],
 		},
 		{
-			"name": "Pollux",
+			"name": "Pollux",			//Atomic
 			"unitType": "Civilian",
 			"uniqueTo": "Argonautian States",
 			"movement": 2,
@@ -356,7 +365,7 @@
 			"promotions": ["Heroic General"],
 		},
 		{
-			"name": "Isagoras",
+			"name": "Isagoras",			//Information
 			"uniqueTo": "Argonautian States",
 			"unitType": "Ranged Gunpowder",
 			"movement": 2,
@@ -369,6 +378,8 @@
 					   "Logistics"],
 			"attackSound": "metalhit"
 		},
+		
+			//Heroes' Spells list
 	
 	//Pyre Clan
 	{
@@ -377,13 +388,13 @@
 		"uniqueTo": "Pyre Clan",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 22,
+		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"promotions": ["Decaying Aura"],
+		"promotions": ["Mark of Bane"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 		"civilopediaText": [
@@ -404,6 +415,26 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
+		"uniques": ["Comment [Revive with 1 HP upon being defeated and is protected from all attack for 1 turn. Ignores terrain, ZOC, and can't attack during the duration. Trigger only once.]", "Free [Revived Zealot] appears <upon being defeated> <hidden from users>"],
+		"promotions": ["Zealotry"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "A devout follower of the High Elven doctrine, a Zealot will charge through the battlefield with great vigor."},
+        ]
+	},
+	{
+		"name": "Revived Zealot",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": ["[This Unit] takes [99] damage", "Unbuildable", "Cannot be purchased", "Only available <for [High Elf Concordat] Civilizations>",
+					"[This Unit] gains the [Sanctuary] status for [1] turn(s)"],
 		"promotions": ["Zealotry"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -426,8 +457,8 @@
 		"requiredTech": "Theology",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Research [Theology] vs [Machinery]"],
-		"promotions": ["[Lich] ability"],
+		"uniques": ["Comment [Unlocked at [Theology] vs [Machinery]]"],
+		"promotions": ["[Lich] ability", "Ice Attack"],
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "A high-ranking undead, an undead of great intelligence, master of necromancy, a Lich will ressurect its killed enemies to serve them."},
@@ -448,7 +479,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 	//	"uniques": ["Religious Unit"],
-		"promotions": ["Protector of Realm", "Divine Watch"],
+		"promotions": ["Protector of Realm", "Divine Watch", "Devoted Learner"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -463,9 +494,10 @@
 		"replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles", "Comment [Can instantly construct a land resource improvement once]",
+					"[This Unit] gains the [Fast Worker] promotion <hidden from users>"],
 		"promotions": ["Woodsman"],
-		"cost": 50,
+		"cost": 70,
 		"civilopediaText": [
 			{"text": "An anthromorphic tree, a tree that has developed sentient. Comes to live to help their Keeper defend the forest."},
         ]
@@ -479,11 +511,11 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 24,
-		"cost": 160,
+		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["Cover I", "Regenerative Bio-Steel"],
+		"promotions": ["Overdrive Protocol", "Regenerative Bio-Steel"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{"text": "A human with far too many clockwerk attached, a machine-infested human. Willingly modify their body so they can be closer to the Broken God. A human far beyond recognition."},
@@ -494,10 +526,10 @@
 		"uniqueTo": "Clockwerk Church",
 		"replaces": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Clockwerk Temple] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
+		"uniques": ["Can instantly construct a [Clockwerk Temple] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can Spread Religion <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", "Will not be displayed in Civilopedia",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>", "Will not be displayed in Civilopedia",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000,
@@ -513,19 +545,31 @@
 		"uniqueTo": "Inquisitorial Illuminate",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 17,
+		"strength": 16,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"uniques": ["Can remove other religions from cities <once>", "Can Spread Religion <once>", "Takes your religion over the one in their birth city"],
+		"uniques": ["Can remove other religions from cities <once>", "Takes your religion over the one in their birth city"],
 		"promotions": ["Divine Watch"],
+		"religiousStrength": 1000,
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Devout and fanatic follower of the religion. Specialize both in religion and war. They also fill the role of Inquisitor while being able to go to war."},
         ]
+	},
+	{
+		"name": "Apostle",
+		"unitType": "Civilian",
+		"uniques": [
+			"Is part of Great Person group [Inquisitorial Apostle]", "Takes your religion over the one in their birth city",
+            "Can Spread Religion <for [4] movement> <once> <after which this unit is consumed>", "Removes other religions when spreading religion",
+            "May enter foreign tiles without open borders",
+			"Cannot be purchased", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 2,
+		"religiousStrength": 1000
 	},
 	
 	//Lizardmen Tribes
@@ -535,7 +579,7 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 15,
+		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -555,13 +599,13 @@
 		"replaces": "Horseman",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 14,
+		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Charge"],
+		"promotions": ["Stampede"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
 		"civilopediaText": [
@@ -576,12 +620,12 @@
 		"replaces": "Composite Bowman",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 11,
+		"strength": 8,
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
-		"promotions": ["Accuracy I"],
+		"promotions": ["Accuracy I", "Withering Curse"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -600,14 +644,13 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
-		"promotions": ["Mobility I"],
+		"promotions": ["Elusive"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A familiar. A creature summoned by the Onmyoji to serve."},
         ]
 	},
-	
 	//Gnome Alliance
 	{
 		"name": "Gnomish Flyer",
@@ -623,7 +666,7 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
-		"uniques": ["Requires a [Coal]", "Research [Steam Power] vs [Flight]"],
+		"uniques": ["Comment [Requires a [Coal]]", "Comment [Unlocked at [Steam Power] vs [Flight]]"],
 		"attackSound": "bombing",
 		"civilopediaText": [
 			{"text": "Earliest record of flying vehicle is achieved by the Gnomes. Using steam power on its engine, they require Coal to be used."},
@@ -631,41 +674,19 @@
 	},
 	
 	//Harpies Tribe
-	/*
-	{
-		"name": "Harpies Settler",
-		"replaces": "Settler",
-		"uniqueTo": "Harpies Tribe",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction", "Can pass through impassable tiles", "Will not be displayed in Civilopedia",
-			"Requires at least [2] population"],
-		"hurryCostModifier": 20
-	},
-	{
-		"name": "Harpies Worker",
-		"replaces": "Worker",
-		"uniqueTo": "Harpies Tribe",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Will not be displayed in Civilopedia", "Can construct [Mountain Settlement]"],
-		"cost": 70
-	},
-	*/
 	{
 		"name": "Stormwing",
 		"replaces": "Crossbowman",
 		"uniqueTo": "Harpies Tribe",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 10,
+		"strength": 13,
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"promotions": ["Indirect Fire"],
+		"promotions": ["Indirect Fire", "Galestorm Leap"],
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "An elite group of the Harpies, they are able to fly far and high to aim their target with magic from a height advantage anywhere."},
@@ -686,7 +707,7 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit",
-		"promotions": ["Woodsman", "Woods Camouflage"],
+		"promotions": ["Woodsman", "Chameleon Cloak"],
 		"civilopediaText": [
 			{"text": "The protector of Gaia. Serves both as protector and attendant of the woods. Grovetender is a master at camouflage."},
         ]
@@ -742,14 +763,14 @@
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 20,
-		"cost": 90,
+		"cost": 120,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
-		"promotions": ["Boarding Party I"],
+		"promotions": ["Boarding Party I", "Supply"],
 		"civilopediaText": [
 			{"text": "A type of Chinese sailing ship with fully battened sails. Famous for their easy to produce frame."},
         ]
@@ -763,7 +784,7 @@
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 13,
-		"rangedStrength": 20,
+		"rangedStrength": 19,
 		"cost": 120,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
@@ -782,7 +803,8 @@
 		"rangedStrength": 20,
 		"range": 15,
 		"cost": 1,
-		"uniques": ["Unbuildable", "[+400]% Strength", "[-375]% Strength <vs cities>", "[-100]% maintenance costs"],
+		"uniques": ["Comment [Stun target unit for 2 turns]", "[Target Unit] gains the [Stunned] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+					"Unbuildable", "[+400]% Strength", "[-375]% Strength <vs cities>", "[-100]% maintenance costs"],
 		"attackSound": "missile",
 		"civilopediaText": [
 			{"text": "Strategic-type spell that only used in emergency. A very strong spell but limited by its long preparation. Only a limit amount of the are cast throughout the Wizard Council's history."},
@@ -802,7 +824,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions": ["[Troll Headhunter] ability"],
+		"promotions": ["Hunter's Mark"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Elite squad of the Troll, infamous for their maniacal interests in eating human's head. They has a 50% headshot rate."},
@@ -837,13 +859,13 @@
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 23,
+		"strength": 22,
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"promotions": ["Healer I"],
+		"promotions": ["Healer I", "Enchant Totem"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Wield Totem as its weapon, this Tauren can both hurt enemies and heal allies with their Totem prayer."},
@@ -857,12 +879,12 @@
 		"uniqueTo": "Nerubian Kingdom",
 		"replaces": "Archer",
 		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 8,
-		"cost": 48,
+		"strength": 7,
+		"rangedStrength": 7,
+		"cost": 50,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"promotions": ["Accuracy I","Barrage I"],
+		"promotions": ["Accuracy I","Shukuchi"],
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -883,7 +905,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions": ["[Tuskarr] ability"],
+		"promotions": ["Frostbrand"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Hunter of the Walrus People, a master of the harpoon, they hunt beast effectively. And hunt their enemies while at it."},
@@ -897,7 +919,7 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 16,
+		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -905,7 +927,7 @@
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
-		"promotions": ["Healer I"],
+		"promotions": ["Healer I", "Divine Smite"],
 		"civilopediaText": [
 			{"text": "Protector of the weak, ally of justice, just to name a few of their name, Paladin is a knight of renowned chivalry and heroism."},
         ]
@@ -918,7 +940,7 @@
 		"replaces": "Pikeman"
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 16,
+		"strength": 17,
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
@@ -929,6 +951,17 @@
 		"civilopediaText": [
 			{"text": "The elite inquisitor group of the Holy Lunar Theocracy. Will crack down foes and heretics alike."},
         ]
+	},
+	{
+		"name": "Lunarian Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+			"Is part of Great Person group [Lunar Missionary]", "Takes your religion over the one in their birth city",
+            "Can Spread Religion <for [4] movement> <[4] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders",
+			"Cannot be purchased", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000
 	},
 	
 	//Magnar Empire
@@ -942,8 +975,8 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Starts with 15 experience"],
-		"promotions": ["Besiege"],
+		"uniques": ["[This Unit] gains [15] XP"],
+		"promotions": ["Besiege", "Bonebreaker"],
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
@@ -961,12 +994,13 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 12,
-		"rangedStrength": 16,
+		"rangedStrength": 15,
 		"cost": 120,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Never appears as a Barbarian unit"],
+		"promotions": ["Reckless Spewing"],
 		"attackSound": "throw",
 		"civilopediaText": [
 			{"text": "A Rockspewer can spew rock at incredible speed, making them particularly good at razing walls and castles alike to the ground."},
@@ -987,7 +1021,7 @@
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"promotions": ["Morale","Protector of Realm"],
-		"uniques": ["Unlocked at Masonry","[-10]% Strength <when fighting in [Foreign Land] tiles>","Invisible to others <when above [99] HP> <within [1] tiles of a [Mountain]>", "Construct"],
+		"uniques": ["Comment [Unlocked at [Masonry] vs [Iron Working]]","[-10]% Strength <when fighting in [Foreign Land] tiles>","Invisible to others <when above [99] HP> <within [1] tiles of a [Mountain]>", "Invisibility", "Construct"],
 		"attackSound": "throw",
 		"civilopediaText": [
 			{"text": "The largest creature that emerged from the ashes, but not really the smartest. It is camouflaged in Mountainous Hills and Volcanic Ash"},
@@ -1015,10 +1049,10 @@
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 27,
+		"strength": 26,
 		"cost": 150,
 		"uniques": ["Construct"],
-		"promotions": ["[Sentinel] ability"],
+		"promotions": ["[Sentinel] ability", "Sentry"],
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
@@ -1040,7 +1074,7 @@
 		"cost": 120,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
-		"promotions": ["[Scorcher] ability"],
+		"promotions": ["[Scorcher] ability", "Scorching Blow"],
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
@@ -1051,9 +1085,9 @@
 			"movement": 1,
 			"strength": 10,
 			"rangedStrength": 10,
-			"range": 1,
+			"range": 2,
 			"cost": 1,
-			"uniques": ["Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","Damage is ignored when determining unit Strength",
+			"uniques": ["Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","No damage penalty for wounded units", "Cannot move",
 						"[+50]% Strength <during the [Classical era]>",
 						"[+150]% Strength <during the [Medieval era]>",
 						"[+250]% Strength <during the [Renaissance era]>",
@@ -1062,119 +1096,12 @@
 						"[+800]% Strength <during the [Atomic era]>",
 						"[+1000]% Strength <starting from the [Information era]>"],
 		//	"upgradesTo": "Sun Obelisk II",
-			"promotions": ["Air Repair"],
+			"promotions": ["Scorching Blow", "Air Repair"],
 			"attackSound": "shot"
 			"civilopediaText": [
 				{"text": "An Obelisk that can harness the power of the sun. Obelisk that can shoot magical ray of heat that scorch any enemies dare to approach the cities of Salamander Empire."},
 			]
 		},
-		/* NOT YET WORKING
-		{
-			"name": "Sun Obelisk II",
-			"uniqueTo": "Salamander Empire",
-			"unitType": "Bomber",
-			"movement": 1,
-			"strength": 18,
-			"rangedStrength": 18,
-			"range": 1,
-			"cost": 1,
-			"uniques": ["Will not be displayed in Civilopedia", "Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","Damage is ignored when determining unit Strength",
-						"Only available <after discovering [Writing]>"],
-			"upgradesTo": "Sun Obelisk III",
-			"promotions": ["Air Repair"],
-			"attackSound": "shot"
-		},
-		{
-			"name": "Sun Obelisk III",
-			"uniqueTo": "Salamander Empire",
-			"unitType": "Bomber",
-			"movement": 1,
-			"strength": 24,
-			"rangedStrength": 24,
-			"range": 1,
-			"cost": 1,
-			"uniques": ["Will not be displayed in Civilopedia", "Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","Damage is ignored when determining unit Strength",
-						"Only available <starting the [Medieval era]>"],
-			"upgradesTo": "Sun Obelisk IV",
-			"promotions": ["Air Repair"],
-			"attackSound": "shot"
-		},
-		{
-			"name": "Sun Obelisk IV",
-			"uniqueTo": "Salamander Empire",
-			"unitType": "Bomber",
-			"movement": 1,
-			"strength": 30,
-			"rangedStrength": 30,
-			"range": 1,
-			"cost": 1,
-			"uniques": ["Will not be displayed in Civilopedia", "Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","Damage is ignored when determining unit Strength",
-						"Only available <starting from the [Renaissance era]>"],
-			"upgradesTo": "Sun Obelisk V",
-			"promotions": ["Air Repair"],
-			"attackSound": "shot"
-		},
-		{
-			"name": "Sun Obelisk V",
-			"uniqueTo": "Salamander Empire",
-			"unitType": "Bomber",
-			"movement": 1,
-			"strength": 40,
-			"rangedStrength": 40,
-			"range": 1,
-			"cost": 1,
-			"uniques": ["Will not be displayed in Civilopedia", "Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","Damage is ignored when determining unit Strength",
-						"Only available <starting from the [Industrial era]>"],
-			"upgradesTo": "Sun Obelisk VI",
-			"promotions": ["Air Repair"],
-			"attackSound": "shot"
-		},
-		{
-			"name": "Sun Obelisk VI",
-			"uniqueTo": "Salamander Empire",
-			"unitType": "Bomber",
-			"movement": 1,
-			"strength": 75,
-			"rangedStrength": 75,
-			"range": 1,
-			"cost": 1,
-			"uniques": ["Will not be displayed in Civilopedia", "Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","Damage is ignored when determining unit Strength",
-						"Only available <starting from the [Modern era]>"],
-			"upgradesTo": "Sun Obelisk VII",
-			"promotions": ["Air Repair"],
-			"attackSound": "shot"
-		},
-		{
-			"name": "Sun Obelisk VII",
-			"uniqueTo": "Salamander Empire",
-			"unitType": "Bomber",
-			"movement": 1,
-			"strength": 90,
-			"rangedStrength": 90,
-			"range": 1,
-			"cost": 1,
-			"uniques": ["Will not be displayed in Civilopedia", "Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","Damage is ignored when determining unit Strength",
-						"Only available <starting from the [Atomic era]>"],
-			"upgradesTo": "Sun Obelisk VIII",
-			"promotions": ["Air Repair"],
-			"attackSound": "shot"
-		},
-		{
-			"name": "Sun Obelisk VIII",
-			"uniqueTo": "Salamander Empire",
-			"unitType": "Bomber",
-			"movement": 1,
-			"strength": 110,
-			"rangedStrength": 110,
-			"range": 1,
-			"cost": 1,
-			"uniques": ["Will not be displayed in Civilopedia", "Unbuildable", "Cannot be intercepted", "[-100]% maintenance costs","Damage is ignored when determining unit Strength",
-						"Only available <starting from the [Information era]>"],
-		//	"upgradesTo": "Sun Obelisk IX",
-			"promotions": ["Air Repair"],
-			"attackSound": "shot"
-		},
-		NOT YET WORKING*/
 	
 	//The Eternals
 	{
@@ -1253,18 +1180,51 @@
 	},
 	{
 		"name": "Archdemon Azaniroth",
-	//	"uniqueTo": "Hellbourne",
+		"uniqueTo": "Hellbourne",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 20,
-		"promotions": ["Intimidation", "Bloodbath", "Menacing Aura"],
-		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Only available <if [Altar of Azaniroth] is constructed>",
-					"[+75]% Strength <during the [Renaissance era]>",
-					"[+125]% Strength <during the [Industrial era]>",
-					"[+325]% Strength <during the [Modern era]>",
-					"[+375]% Strength <during the [Atomic era]>",
-					"[+450]% Strength <starting from the [Information era]>",
-					"Never appears as a Barbarian unit"],
+		"promotions": ["Intimidation", "Bloodbath"],
+		"uniques": ["Comment [Strength scales with era\n\nAbilities List:]",
+					"Comment [Gain 1 [Mana] on turn end and upon defeating a non-Barbarian unit (up to 100 [Mana])\n]",
+					
+					//Abilities	
+					"Comment [[Hellstride]: Teleport up to 8 tiles from inside friendly territory. Cost 8 [Mana]. Cooldown: 8 turns.]", 
+					"Comment [[Infernal Regeneration]: Instantly heals 25 HP. Cost 10 [Mana]. Cooldown: 10 turns.]",
+					"Comment [[Negative Energy Touch]: Attack deals extra 30 damage for this turn. Cost 15 [Mana]. Cooldown: 5 turns.]",
+					"Comment [[True Demon Form]: Heals 15 HP on turn end. All damage is increased by 15. +1 Movement and gain Flying. All other abilities cos 0 [Mana]. Duration: 3 turns. Cost 99 [Mana].]",	
+
+					//Hellstride
+					"[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement> <costs [8] [Azaniroth Mana]> <when above [7] [Azaniroth Mana]> <for units without [Hellstride Cooldown]> <for units without [True Demon Form]> <hidden from users>",
+					"[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement> <for units without [Hellstride Cooldown]> <for units with [True Demon Form]> <hidden from users>",
+					"[This Unit] gains the [Hellstride Cooldown] status for [10] turn(s) <upon gaining the [Hellstride] status> <hidden from users>", 
+					
+					//Infernal Regeneration
+					"[This Unit] gains the [Infernal Regeneration] status for [1] turn(s) <for [0] movement> <costs [10] [Azaniroth Mana]> <when above [9] [Azaniroth Mana]> <for units without [Infernal Regeneration Cooldown]> <for units without [True Demon Form]> <hidden from users>",
+					"[This Unit] gains the [Infernal Regeneration] status for [1] turn(s) <for [0] movement> <for units without [Infernal Regeneration Cooldown]> <for units with [True Demon Form]> <hidden from users>",
+					"[This Unit] heals [25] HP <upon gaining the [Infernal Regeneration] promotion> <hidden from users>",
+					"[This Unit] gains the [Infernal Regeneration Cooldown] status for [10] turn(s) <upon gaining the [Infernal Regeneration] promotion> <hidden from users>",
+					
+					//Negative Energy Touch
+					"[This Unit] gains the [Negative Energy Touch] status for [1] turn(s) <for [0] movement> <costs [15] [Azaniroth Mana]> <when above [14] [Azaniroth Mana]> <for units without [Negative Energy Touch Cooldown]> <for units without [True Demon Form]> <hidden from users>",
+					"[This Unit] gains the [Negative Energy Touch] status for [1] turn(s) <for units without [Negative Energy Touch Cooldown]> <for units with [True Demon Form]> <hidden from users>",
+					"[This Unit] gains the [Negative Energy Touch Cooldown] status for [5] turn(s) <upon gaining the [Negative Energy Touch] status> <hidden from users>",
+				
+					//True Demon Form
+					"[This Unit] gains the [True Demon Form] status for [3] turn(s) <for [0] movement> <costs [99] [Azaniroth Mana]> <when above [98] [Azaniroth Mana]> <for units without [True Demon Form]> <hidden from users>",
+					
+					//Mana
+					"Instantly provides [1] [Azaniroth Mana] <upon turn end> <when below [100] [Azaniroth Mana]> <hidden from users>",
+					"Instantly provides [1] [Azaniroth Mana] <upon defeating a [non-[Barbarian]] unit> <when below [100] [Azaniroth Mana]> <hidden from users>",
+					
+					//Stuffs
+					"[+75]% Strength <during the [Renaissance era]> <hidden from users>",
+					"[+125]% Strength <during the [Industrial era]> <hidden from users>",
+					"[+325]% Strength <during the [Modern era]> <hidden from users>",
+					"[+375]% Strength <during the [Atomic era]> <hidden from users>",
+					"[+450]% Strength <starting from the [Information era]> <hidden from users>",
+					"Limited to [1] per Civilization <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", "Unbuildable <hidden from users>"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "The Archdemons are old and powerful demons, their age represents their power as they grow more and more powerful with the passing of times. One such ancient archdemon is Azaniroth."}
@@ -1283,7 +1243,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"promotions": ["Quick Study", "Fervor"],
+		"promotions": ["Quick Study", "Bonebreaker"],
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
@@ -1304,8 +1264,9 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques": ["Consumes [2] [Iron]"],
-		"promotions": ["[Juggernaut] ability", "Great Generals I"],
+		"requiredResource": "Iron",
+		"uniques": ["Comment [Consumes 2 [Iron] vs 1 [Iron]]", "Consumes [1] [Iron] <hidden from users>"],
+		"promotions": ["Retribution", "Heavily Armored", "Great Generals I"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "The Juggernauts are equipped with the heaviest of armors, able to sustain a lot of punishment. But their armor is harder to forge than normal armor."},
@@ -1314,20 +1275,33 @@
 	
 	//Leonin Kingdom
 	{
+		"name": "Pride of Tyrian",
+		"uniqueTo": "Leonin Kingdom",
+		"replaces": "Privateer",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Boarding Party I", "Chain Shot", "Coastal Raider I", "[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Vanguard",
 		"uniqueTo": "Leonin Kingdom",
 		"replaces": "Knight",
 		"unitType": "Mounted",
 		"movement": 3,
-		"strength": 23,
+		"strength": 22,
 		"cost": 140,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["[+25]% Strength <vs [Spearman] units>", "[+25]% Strength <vs [Pikeman] units>", "[+25]% Strength <vs [Lancer] units>", "Consumes [1] [Iron]",
+		"uniques": ["Consumes [1] [Iron]",
 					"Can move after attacking", "Never appears as a Barbarian unit"],
-		"promotions": ["[Vanguard] ability"],
+		"promotions": ["Sturdy", "Overwhelming Attack"],
 		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": "The heaviest of cavalry unit, prioritizing armor over mobility."},
@@ -1360,10 +1334,11 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 15,
-		"cost": 50,
+		"strength": 14,
+		"cost": 60,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
+		"promotions": ["Disarming Strike"],
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
@@ -1378,12 +1353,12 @@
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 7,
-		"rangedStrength": 13,
+		"rangedStrength": 12,
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 	//	"uniques": ["Research Trapping vs Construction"],
-		"promotions": ["[Hydromancer] ability"],
+		"promotions": ["[Hydromancer] ability", "Regeneration"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -1400,7 +1375,6 @@
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
-	//	"uniques": ["Free [Illusion] appears <with [25]% chance>"],
 		"promotions": ["Mirage"],
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -1422,5 +1396,24 @@
 			{"text": "Kagebunshin no Jutsu?"},
         ]
 	},
+	
+	//Phrygian Kingdom
+	{
+		"name": "Paragon",
+		"unitType": "Sword",
+		"uniqueTo": "Phrygian Kingdom",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"promotions": ["Mountainborn", "Gordian Knot"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
 	
 ]

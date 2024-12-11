@@ -1,0 +1,1763 @@
+[
+	/* TEMPLATE
+	{
+		"name": "PersonalityName",
+		"preferredVictoryType": "preferredVictoryType",
+		
+		//Stats
+		"culture": 10,
+		"faith": 10,
+		"science": 10,
+		"food": 10,
+		"gold": 10,
+		"happiness": 10,
+		"production": 10,
+		
+		//Behaviour
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 10,
+		
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 10,
+			"Honor": 10,
+			"Piety": 10,
+			"Patronage": 10,
+			"Commerce": 10,
+			"Rationalism": 10,
+			"Freedom": 10,
+			"Autocracy": 10,
+			"Order": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	//"preferredVictoryType": Scientific, Diplomatic, Cultural, Domination
+	*/
+
+	//Argonautian States
+	{
+		"name": "Heroic King",	
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 4,
+		"faith": 3,
+		"science": 7,
+		"food": 3,
+		"gold": 6,
+		"happiness": 4,
+		"production": 6,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 6,
+		"declareWar": 7,
+		"commerce": 6,
+		"diplomacy": 8,
+		"loyal": 10,
+		"expansion": 7,
+		
+		"priorities": {
+			"Liberty": 10,
+			"Honor": 20,
+			"Commerce": 20,
+			"Order": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Basalt Remainers
+	{
+		"name": "Harbinger of Ruin",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 4,
+		"faith": 7,
+		"science": 5,
+		"food": 3,
+		"gold": 4,
+		"happiness": 3,
+		"production": 5,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 2,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 8,
+		
+		"priorities": {
+			"Honor": 30,
+			"Piety": 20,
+			"Autocracy": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Beastmen Empire
+	{
+		"name": "Glorious Warrior",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 6,
+		"faith": 4,
+		"science": 5,
+		"food": 4,
+		"gold": 6,
+		"happiness": 7,
+		"production": 6,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 6,
+		"declareWar": 7,
+		"commerce": 4,
+		"diplomacy": 5,
+		"loyal": 7,
+		"expansion": 7,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Honor": 30,
+			"Autocracy": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Celestial Beings
+	{
+		"name": "Divine Envoy",
+		"preferredVictoryType": "Diplomatic",
+		
+		//Stats
+		"culture": 8,
+		"faith": 10,
+		"science": 5,
+		"food": 4,
+		"gold": 2,
+		"happiness": 7,
+		"production": 5,
+		
+		//Behaviour
+		"military": 6,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 7,
+		"diplomacy": 10,
+		"loyal": 8,
+		"expansion": 6,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Piety": 40,
+			"Patronage": 30,
+			"Freedom": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Centaur Tribes
+	{
+		"name": "Verdant Pioneer",
+		
+		//Stats
+		"culture": 5,
+		"faith": 5,
+		"science": 5,
+		"food": 4,
+		"gold": 6,
+		"happiness": 4,
+		"production": 6,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 6,
+		"declareWar": 4,
+		"commerce": 7,
+		"diplomacy": 7,
+		"loyal": 9,
+		"expansion": 9,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Honor": 30,
+			"Patronage": 40,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Children of Deep Dweller
+	{
+		"name": "The Blighted",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 6,
+		"faith": 8,
+		"science": 7,
+		"food": 4,
+		"gold": 4,
+		"happiness": 4,
+		"production": 6,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 6,
+		"declareWar": 8,
+		"commerce": 2,
+		"diplomacy": 2,
+		"loyal": 2,
+		"expansion": 8,
+		
+		"priorities": {
+			"Honor": 20,
+			"Piety": 30,
+			"Autocracy": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Clockwerk Church
+	{
+		"name": "Syncretic Cult",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 3,
+		"faith": 10,
+		"science": 9,
+		"food": 4,
+		"gold": 3,
+		"happiness": 5,
+		"production": 7,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 4,
+		"commerce": 4,
+		"diplomacy": 4,
+		"loyal": 4,
+		"expansion": 6,
+		
+		"priorities": {
+			"Liberty": 10,
+			"Piety": 30,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Dragonborn Union
+	{
+		"name": "Wise King",
+		"preferredVictoryType": "Diplomatic",
+		
+		//Stats
+		"culture": 6,
+		"faith": 5,
+		"science": 7,
+		"food": 5,
+		"gold": 9,
+		"happiness": 7,
+		"production": 7,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 4,
+		"declareWar": 3,
+		"commerce": 10,
+		"diplomacy": 8,
+		"loyal": 8,
+		"expansion": 6,
+		
+		"priorities": {
+			"Honor": 10,
+			"Patronage": 30,
+			"Commerce": 20,
+			"Rationalism": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Drow Village
+	{
+		"name": "Vengeful Remnant",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 4,
+		"faith": 2,
+		"science": 5,
+		"food": 6,
+		"gold": 4,
+		"happiness": 5,
+		"production": 8,
+		
+		//Behaviour
+		"military": 8,
+		"aggressive": 7,
+		"declareWar": 7,
+		"commerce": 3,
+		"diplomacy": 2,
+		"loyal": 1,
+		"expansion": 9,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Honor": 30,
+			"Autocracy": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Dwarven Kingdom
+	{
+		"name": "Ingenious Artisan",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 4,
+		"faith": 4,
+		"science": 10,
+		"food": 5,
+		"gold": 5,
+		"happiness": 6,
+		"production": 10,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 6,
+		"declareWar": 4,
+		"commerce": 10,
+		"diplomacy": 7,
+		"loyal": 7,
+		"expansion": 6,
+		
+		"priorities": {
+			"Liberty": 10,
+			"Commerce": 20,
+			"Rationalism": 30,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Elven Kingdom
+	{
+		"name": "Warden of Harmony",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 9,
+		"faith": 7,
+		"science": 5,
+		"food": 3,
+		"gold": 5,
+		"happiness": 6,
+		"production": 5,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 4,
+		"declareWar": 3,
+		"commerce": 6,
+		"diplomacy": 6,
+		"loyal": 8,
+		"expansion": 10,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Piety": 30,
+			"Freedom": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Enkantos
+	{
+		"name": "The Enchanted",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 6,
+		"faith": 4,
+		"science": 8,
+		"food": 5,
+		"gold": 4,
+		"happiness": 7,
+		"production": 5,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 8,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 5,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Rationalism": 30,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Fanrong Republic
+	{
+		"name": "Renowed Merchant",
+		"preferredVictoryType": "Diplomatic",
+		
+		//Stats
+		"culture": 7,
+		"faith": 4,
+		"science": 6,
+		"food": 5,
+		"gold": 10,
+		"happiness": 8,
+		"production": 5,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 4,
+		"declareWar": 3,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 6,
+		"expansion": 6,
+		
+		"priorities": {
+			"Patronage": 40,
+			"Commerce": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Gaia Preserver
+	{
+		"name": "Sanctuary Preserver",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 7,
+		"faith": 4,
+		"science": 6,
+		"food": 5,
+		"gold": 4,
+		"happiness": 8,
+		"production": 6,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 4,
+		"diplomacy": 4,
+		"loyal": 5,
+		"expansion": 2,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Piety": 10,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Gnoll Warband
+	{
+		"name": "Ferocious Mercenary",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 6,
+		"faith": 2,
+		"science": 5,
+		"food": 4,
+		"gold": 9,
+		"happiness": 4,
+		"production": 5,
+		
+		//Behaviour
+		"military": 8,
+		"aggressive": 7,
+		"declareWar": 7,
+		"commerce": 4,
+		"diplomacy": 6,
+		"loyal": 5,
+		"expansion": 6,
+		
+		"priorities": {
+			"Honor": 30,
+			"Autocracy": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Gnome Alliance
+	{
+		"name": "Bright Tinkerer",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 3,
+		"faith": 3,
+		"science": 10,
+		"food": 4,
+		"gold": 5,
+		"happiness": 6,
+		"production": 8,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 4,
+		"declareWar": 3,
+		"commerce": 7,
+		"diplomacy": 7,
+		"loyal": 5,
+		"expansion": 6,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Commerce": 10,
+			"Rationalism": 40,
+			"Freedom": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Harpies Tribe
+	{
+		"name": "Mountain Hermit",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 9,
+		"faith": 5,
+		"science": 5,
+		"food": 7,
+		"gold": 5,
+		"happiness": 5,
+		"production": 5,
+		
+		//Behaviour
+		"military": 3,
+		"aggressive": 3,
+		"declareWar": 2,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 7,
+		"expansion": 3,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Piety": 10,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Hellbourne
+	{
+		"name": "Agent of Chaos",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 3,
+		"faith": 7,
+		"science": 5,
+		"food": 3,
+		"gold": 5,
+		"happiness": 5,
+		"production": 9,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 6,
+		"declareWar": 8,
+		"commerce": 2,
+		"diplomacy": 4,
+		"loyal": 1,
+		"expansion": 9,
+		
+		"priorities": {
+			"Liberty": 10,
+			"Honor": 30,
+			"Piety": 20,
+			"Autocracy": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//High Elf Concordat
+	{
+		"name": "Arcane Scholar",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 10,
+		"faith": 6,
+		"science": 10,
+		"food": 6,
+		"gold": 2,
+		"happiness": 5,
+		"production": 5,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 2,
+		"declareWar": 3,
+		"commerce": 6,
+		"diplomacy": 7,
+		"loyal": 7,
+		"expansion": 6,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Rationalism": 40,
+			"Freedom": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Holy Lunar Theocracy
+	{
+		"name": "Enlightened Mind",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 5,
+		"faith": 9,
+		"science": 9,
+		"food": 4,
+		"gold": 3,
+		"happiness": 5,
+		"production": 4,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 4,
+		"declareWar": 4,
+		"commerce": 5,
+		"diplomacy": 6,
+		"loyal": 6,
+		"expansion": 9,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Piety": 20,
+			"Freedom": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Inquisitorial Brotherhood	
+	{
+		"name": "Zealous Inquisitor",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 4,
+		"faith": 10,
+		"science": 5,
+		"food": 4,
+		"gold": 7,
+		"happiness": 5,
+		"production": 7,
+		
+		//Behaviour
+		"military": 6,
+		"aggressive": 8,
+		"declareWar": 6,
+		"commerce": 4,
+		"diplomacy": 4,
+		"loyal": 8,
+		"expansion": 7,
+		
+		"priorities": {
+			"Honor": 20,
+			"Piety": 40,
+			"Autocracy": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Leonin Kingdom
+	{
+		"name": "Resolute King",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 8,
+		"faith": 4,
+		"science": 6,
+		"food": 4,
+		"gold": 5,
+		"happiness": 7,
+		"production": 7,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 10,
+		"expansion": 3,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Honor": 20,
+			"Piety": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Lithoid Combine
+	{
+		"name": "Awakened Earth",
+		
+		//Stats
+		"culture": 6,
+		"faith": 5,
+		"science": 5,
+		"food": 7,
+		"gold": 5,
+		"happiness": 6,
+		"production": 7,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 4,
+		"declareWar": 4,
+		"commerce": 6,
+		"diplomacy": 6,
+		"loyal": 6,
+		"expansion": 4,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Rationalism": 20,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Lizardmen Tribes
+	{
+		"name": "Enduring Survivor",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 8,
+		"faith": 4,
+		"science": 5,
+		"food": 7,
+		"gold": 5,
+		"happiness": 6,
+		"production": 7,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 4,
+		"declareWar": 4,
+		"commerce": 7,
+		"diplomacy": 5,
+		"loyal": 8,
+		"expansion": 4,
+		
+		"priorities": {
+			"Tradition": 20,
+			"Piety": 20,
+			"Freedom": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Lyrian Kingdom
+	{
+		"name": "Brave Royalty",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 10,
+		"faith": 5,
+		"science": 5,
+		"food": 5,
+		"gold": 7,
+		"happiness": 6,
+		"production": 4,
+		
+		//Behaviour
+		"military": 6,
+		"aggressive": 5,
+		"declareWar": 3,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 9,
+		"expansion": 3,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Piety": 10,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Magnar Empire
+	{
+		"name": "Iron Fist Emperor",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 6,
+		"faith": 2,
+		"science": 5,
+		"food": 3,
+		"gold": 8,
+		"happiness": 4,
+		"production": 8,
+		
+		//Behaviour
+		"military": 8,
+		"aggressive": 10,
+		"declareWar": 7,
+		"commerce": 4,
+		"diplomacy": 4,
+		"loyal": 1,
+		"expansion": 8,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Honor": 30,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Merfolk Council
+	{
+		"name": "Seasinger",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 10,
+		"faith": 4,
+		"science": 5,
+		"food": 5,
+		"gold": 6,
+		"happiness": 8,
+		"production": 6,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 4,
+		"declareWar": 2,
+		"commerce": 9,
+		"diplomacy": 9,
+		"loyal": 7,
+		"expansion": 8,
+		
+		"priorities": {
+			"Liberty": 30,
+			"Piety": 20,
+			"Freedom": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Nature's Keeper
+	{
+		"name": "Keeper of the Forest",
+	//	"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 7,
+		"faith": 5,
+		"science": 7,
+		"food": 7,
+		"gold": 5,
+		"happiness": 6,
+		"production": 6,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 4,
+		"declareWar": 3,
+		"commerce": 7,
+		"diplomacy": 6,
+		"loyal": 9,
+		"expansion": 6,
+		
+		"priorities": {
+			"Liberty": 30,
+			"Commerce": 20,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Necrontia
+	{
+		"name": "The Necromancer",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 6,
+		"faith": 6,
+		"science": 5,
+		"food": 4,
+		"gold": 4,
+		"happiness": 4,
+		"production": 5,
+		
+		//Behaviour
+		"military": 8,
+		"aggressive": 7,
+		"declareWar": 7,
+		"commerce": 3,
+		"diplomacy": 3,
+		"loyal": 2,
+		"expansion": 7,
+		
+		"priorities": {
+			"Honor": 30,
+			"Piety": 20,
+			"Autocracy": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Nerubian Kingdom
+	{
+		"name": "Ancient Weaver",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 4,
+		"faith": 4,
+		"science": 8,
+		"food": 5,
+		"gold": 6,
+		"happiness": 5,
+		"production": 7,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 6,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 4,
+		"expansion": 7,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Honor": 20,
+			"Order": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Orc Horde
+	{
+		"name": "Greenskins Raider",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 3,
+		"faith": 3,
+		"science": 5,
+		"food": 8,
+		"gold": 5,
+		"happiness": 8,
+		"production": 8,
+		
+		//Behaviour
+		"military": 8,
+		"aggressive": 10,
+		"declareWar": 9,
+		"commerce": 4,
+		"diplomacy": 3,
+		"loyal": 1,
+		"expansion": 10,
+		
+		"priorities": {
+			"Honor": 30,
+			"Autocracy": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Phyrgian Kingdom
+	{
+		"name": "The Greedy King",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 6,
+		"faith": 4,
+		"science": 5,
+		"food": 5,
+		"gold": 10,
+		"happiness": 9,
+		"production": 5,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 7,
+		"declareWar": 7,
+		"commerce": 8,
+		"diplomacy": 8,
+		"loyal": 6,
+		"expansion": 10,
+		
+		"priorities": {
+			"Liberty": 30,
+			"Honor": 20,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Precursor
+	{
+		"name": "The Firstborn",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 5,
+		"faith": 5,
+		"science": 9,
+		"food": 9,
+		"gold": 4,
+		"happiness": 7,
+		"production": 6,
+		
+		//Behaviour
+		"military": 3,
+		"aggressive": 4,
+		"declareWar": 4,
+		"commerce": 8,
+		"diplomacy": 6,
+		"loyal": 7,
+		"expansion": 4,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Rationalism": 20,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Pyre Clan
+	{
+		"name": "Crimson Conqueror",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 5,
+		"faith": 4,
+		"science": 6,
+		"food": 4,
+		"gold": 6,
+		"happiness": 7,
+		"production": 7,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 8,
+		"declareWar": 7,
+		"commerce": 5,
+		"diplomacy": 4,
+		"loyal": 6,
+		"expansion": 7,
+		
+		"priorities": {
+			"Honor": 40,
+			"Autocracy": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Sacred Sun Theocracy
+	{
+		"name": "Inward Perfection",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 8,
+		"faith": 8,
+		"science": 6,
+		"food": 6,
+		"gold": 3,
+		"happiness": 6,
+		"production": 6,
+		
+		//Behaviour
+		"military": 6,
+		"aggressive": 6,
+		"declareWar": 3,
+		"commerce": 4,
+		"diplomacy": 3,
+		"loyal": 7,
+		"expansion": 3,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Honor": 10,
+			"Piety": 40,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Salamander Empire
+	{
+		"name": "Flame of the Desert",
+	//	"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 6,
+		"faith": 8,
+		"science": 6,
+		"food": 8,
+		"gold": 4,
+		"happiness": 6,
+		"production": 4,
+		
+		//Behaviour
+		"military": 3,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 9,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 2,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Piety": 20,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Scazari Hive
+	{
+		"name": "Endless Swarm",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 10,
+		"faith": 5,
+		"science": 5,
+		"food": 10,
+		"gold": 4,
+		"happiness": 5,
+		"production": 4,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 2,
+		"declareWar": 3,
+		"commerce": 7,
+		"diplomacy": 6,
+		"loyal": 7,
+		"expansion": 4,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Piety": 10,
+			"Freedom": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Shinso
+	{
+		"name": "Venerated Oracle",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 9,
+		"faith": 9,
+		"science": 6,
+		"food": 6,
+		"gold": 4,
+		"happiness": 6,
+		"production": 8,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 4,
+		"declareWar": 4,
+		"commerce": 8,
+		"diplomacy": 8,
+		"loyal": 7,
+		"expansion": 5,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Piety": 20,
+			"Freedom": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Spirit Pact
+	{
+		"name": "Spectral Legion",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 5,
+		"faith": 7,
+		"science": 6,
+		"food": 4,
+		"gold": 5,
+		"happiness": 7,
+		"production": 5,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 10,
+		"declareWar": 8,
+		"commerce": 4,
+		"diplomacy": 4,
+		"loyal": 1,
+		"expansion": 8,
+		
+		"priorities": {
+			"Honor": 30,
+			"Piety": 10,
+			"Autocracy": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Tauren Clan
+	{
+		"name": "Earthmother Champion",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 4,
+		"faith": 8,
+		"science": 5,
+		"food": 6,
+		"gold": 6,
+		"happiness": 5,
+		"production": 4,
+		
+		//Behaviour
+		"military": 6,
+		"aggressive": 5,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 7,
+		"loyal": 8,
+		"expansion": 6,
+		
+		"priorities": {
+			"Liberty": 30,
+			"Honor": 20,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//The Amazons
+	{
+		"name": "Courageous Matriarch",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 7,
+		"faith": 4,
+		"science": 5,
+		"food": 5,
+		"gold": 4,
+		"happiness": 6,
+		"production": 7,
+		
+		//Behaviour
+		"military": 6,
+		"aggressive": 5,
+		"declareWar": 6,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 8,
+		"expansion": 7,
+		
+		"priorities": {
+			"Liberty": 30,
+			"Honor": 20,
+			"Patronage": 10,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//The Chroniclers
+	{
+		"name": "The Historian",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 5,
+		"faith": 4,
+		"science": 9,
+		"food": 6,
+		"gold": 4,
+		"happiness": 7,
+		"production": 5,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 2,
+		"declareWar": 3,
+		"commerce": 9,
+		"diplomacy": 9,
+		"loyal": 10,
+		"expansion": 7,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Rationalism": 40,
+			"Order": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//The Eternals
+	{
+		"name": "The Lifedrinker",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 4,
+		"faith": 4,
+		"science": 8,
+		"food": 8,
+		"gold": 4,
+		"happiness": 6,
+		"production": 7,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 6,
+		"declareWar": 4,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 7,
+		"expansion": 4,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Rationalism": 20,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//The Kobolds
+	{
+		"name": "Earthrobber",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 7,
+		"faith": 3,
+		"science": 5,
+		"food": 5,
+		"gold": 7,
+		"happiness": 5,
+		"production": 8,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 6,
+		"expansion": 5,
+		
+		"priorities": {
+			"Patronage": 20,
+			"Commerce": 30,
+			"Order": 40,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//The Titans
+	{
+		"name": "Ultimate Builder",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 9,
+		"faith": 5,
+		"science": 5,
+		"food": 3,
+		"gold": 4,
+		"happiness": 5,
+		"production": 8,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 3,
+		"declareWar": 3,
+		"commerce": 6,
+		"diplomacy": 8,
+		"loyal": 8,
+		"expansion": 7,
+		
+		"priorities": {
+			"Liberty": 30,
+			"Piety": 20,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//The Walrus People
+	{
+		"name": "Hoarfrost Nomad",
+	//	"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 8,
+		"faith": 5,
+		"science": 5,
+		"food": 3,
+		"gold": 4,
+		"happiness": 6,
+		"production": 7,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 4,
+		"declareWar": 4,
+		"commerce": 8,
+		"diplomacy": 8,
+		"loyal": 7,
+		"expansion": 10,
+		
+		"priorities": {
+			"Liberty": 40,
+			"Piety": 20,
+			"Order": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//The Wizard Council
+	{
+		"name": "The Spellscriber",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 4,
+		"faith": 7,
+		"science": 8,
+		"food": 4,
+		"gold": 4,
+		"happiness": 6,
+		"production": 5,
+		
+		//Behaviour
+		"military": 3,
+		"aggressive": 4,
+		"declareWar": 2,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 8,
+		"expansion": 8,
+		
+		"priorities": {
+			"Liberty": 30,
+			"Rationalism": 30,
+			"Order": 40,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Troglodyte
+	{
+		"name": "Unbreakable Defender",
+	//	"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 6,
+		"faith": 4,
+		"science": 6,
+		"food": 5,
+		"gold": 7,
+		"happiness": 5,
+		"production": 10,
+		
+		//Behaviour
+		"military": 8,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 7,
+		"diplomacy": 5,
+		"loyal": 6,
+		"expansion": 5,
+		
+		"priorities": {
+			"Honor": 30,
+			"Commerce": 10,
+			"Rationalism": 20,
+			"Order": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Troll Tribes
+	{
+		"name": "Seasoned Hunter",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 3,
+		"faith": 3,
+		"science": 5,
+		"food": 4,
+		"gold": 6,
+		"happiness": 8,
+		"production": 7,
+		
+		//Behaviour
+		"military": 8,
+		"aggressive": 10,
+		"declareWar": 8,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 8,
+		
+		"priorities": {
+			"Honor": 30,
+			"Autocracy": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Uldra
+	{
+		"name": "Winter Survivor",
+	//	"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 6,
+		"faith": 4,
+		"science": 6,
+		"food": 8,
+		"gold": 4,
+		"happiness": 5,
+		"production": 4,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 5,
+		"declareWar": 4,
+		"commerce": 6,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 5,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Commerce": 20,
+			"Rationalism": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Undines
+	{
+		"name": "Guardian of Spirits",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 9,
+		"faith": 5,
+		"science": 5,
+		"food": 10,
+		"gold": 4,
+		"happiness": 6,
+		"production": 6,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 3,
+		"declareWar": 2,
+		"commerce": 5,
+		"diplomacy": 9,
+		"loyal": 10,
+		"expansion": 2,
+		
+		"priorities": {
+			"Tradition": 40,
+			"Piety": 30,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Vigilo Order
+	{
+		"name": "Curious Alchemist",
+		"preferredVictoryType": "Scientific",
+		
+		//Stats
+		"culture": 3,
+		"faith": 7,
+		"science": 10,
+		"food": 4,
+		"gold": 8,
+		"happiness": 6,
+		"production": 5,
+		
+		//Behaviour
+		"military": 4,
+		"aggressive": 3,
+		"declareWar": 2,
+		"commerce": 9,
+		"diplomacy": 8,
+		"loyal": 7,
+		"expansion": 3,
+		
+		"priorities": {
+			"Tradition": 40,
+			"Rationalism": 30,
+			"Freedom": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+]

@@ -6,118 +6,250 @@
         "movementType": "Land",
 		"uniques": [
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"This Unit takes [20] damage <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
 					],
     },
     {
         "name": "Sword",
         "movementType": "Land",
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 		
+					"[This Unit] takes [40] damage <upon defeating a [Volatile] unit>", 		
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-					//Spikey *Need <upon attacking> to work
-	//				"Heal this unit by [-200] HP <upon losing at least [1] HP in a single attack> <when attacking> <vs [Spikey] units>",
-					//Hellbourne
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [{Enemy} {Archdemon Azaniroth}] unit>",	
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>",
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Gunpowder",
         "movementType": "Land",
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 		
+					"[This Unit] takes [40] damage <upon defeating a [Volatile] unit>",
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>", 
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Archery",
         "movementType": "Land",
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>", 
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Ranged Gunpowder",
         "movementType": "Land",
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>", 
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Scout",
         "movementType": "Land",
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 	
+					"[This Unit] takes [40] damage <upon defeating a [Volatile] unit>",
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>", 
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Mounted",
         "movementType": "Land",
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 	
+					"[This Unit] takes [40] damage <upon defeating a [Volatile] unit>",
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>", 
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Armored",
         "movementType": "Land"
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 	
+					"[This Unit] takes [40] damage <upon defeating a [Volatile] unit>",
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>", 
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Siege",
         "movementType": "Land"
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>", 
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
 	
@@ -132,18 +264,44 @@
         "name": "Melee Water",
         "movementType": "Water"
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
-				//	"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Ranged Water",
         "movementType": "Water"
 		"uniques": [
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
@@ -151,52 +309,104 @@
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", 
 		
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>", //Hellbourne
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
     {
         "name": "Aircraft Carrier",
         "movementType": "Water"
-	//	"uniques": ["Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit> <for units without [Hellborn]>",	//Hellbourne
-	//				]
+		"uniques": [
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					]
     },
 	
 	//AIR
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep",]
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",]
     },
     {
         "name": "Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft",]
+        "uniques": ["Aircraft",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",]
     },
     {
         "name": "Atomic Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",]
     },
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted",
+		
+					/*	Still unsure on this one
+					//Wizard
+					"[-100]% Strength <vs [{non-[Mana Shield CD]} {Mana Shield}] units>",
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit>",
+					*/
+					
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",]
     },
     {
         "name": "Helicopter",
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles", 
 		
-					//Drow Vengefull stuff
-					"This Unit gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
+					//Drow
+					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit>",
 					//Celestials
-					"This Unit takes [40] damage <upon defeating a [Volatile] unit>", 	
+					"[This Unit] takes [40] damage <upon defeating a [Volatile] unit>",
 					//Healer
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
-					"Heal this unit by [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
-	//				"Heal this unit by [-20] HP <upon ending a turn in a [All] tile> <when adjacent to a [Archdemon Azaniroth] unit>" //Hellbourne
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit>",
+					//Phrygian Kingdom
+					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
+					//Troglodyte
+					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units>", 
+					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units>", 
+					//Wizard
+					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
+					//Vigilo
+					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
+					//Mixed
+					"Cannot attack <vs [Sanctuary] units>",
 					]
     },
 

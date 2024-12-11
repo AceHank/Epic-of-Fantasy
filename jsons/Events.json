@@ -1,0 +1,144 @@
+[
+	//Template
+	/*
+	{
+		"name": "Name",
+		"text": "Description",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "DescChoice",
+				"uniques": [""]
+			},
+		],
+	},
+	*/
+	
+	//Magnar Empire
+	{
+		"name": "Forced Levies",
+		"text": "We have conscripted our people for immediate military strength on the battlefield!",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "Sword & Gunpowder line unit",
+				"uniques": [
+						"Free [Warrior] appears <before discovering [Iron Working]> <hidden from users>", 
+						"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <hidden from users>",
+						"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <hidden from users>",
+						"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]> <hidden from users>",
+						"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]> <hidden from users>",
+						"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]> <hidden from users>",
+						"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]> <hidden from users>",
+						"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]> <hidden from users>"
+						]
+			},
+			{
+				"text": "Archery & Ranged Gunpowder line unit",
+				"uniques": [
+						"Free [Archer] appears <before discovering [Construction]> <hidden from users>", 
+						"Free [Composite Bowman] appears <after discovering [Construction]> <before discovering [Machinery]> <hidden from users>",
+						"Free [Crossbowman] appears <after discovering [Machinery]> <before discovering [Industrialization]> <hidden from users>",
+						"Free [Gatling Gun] appears <after discovering [Industrialization]> <before discovering [Ballistics]> <hidden from users>",
+						"Free [Machine Gun] appears <after discovering [Ballistics]> <hidden from users>", 
+						"Only available <before discovering [Mobile Tactics]> <hidden from users>",
+						]
+			},
+			{
+				"text": "Anti-Mounted line unit",
+				"uniques": [
+						"Free [Spearman] appears <before discovering [Civil Service]> <hidden from users>", 
+						"Free [Pikeman] appears <after discovering [Civil Service]> <before discovering [Metallurgy]> <hidden from users>",
+						"Free [Lancer] appears <after discovering [Metallurgy]> <hidden from users>",
+						"Only available <before discovering [Combined Arms]> <hidden from users>",
+						]
+			},
+			{
+				"text": "Mounted line unit",
+				"uniques": [
+						"Free [Horseman] appears <before discovering [Chivalry]> <hidden from users>", 
+						"Free [Knight] appears <after discovering [Chivalry]> <before discovering [Military Science]> <hidden from users>",
+						"Free [Cavalry] appears <after discovering [Military Science]> <hidden from users>",
+						"Only available <before discovering [Combustion]> <hidden from users>",
+						]
+			},
+			{
+				"text": "Anti-Armor line unit",
+				"uniques": [
+						"Free [Anti-Tank Gun] appears <before discovering [Computers]> <hidden from users>", 
+						"Free [Helicopter Gunship] appears <after discovering [Computers]> <hidden from users>",
+						"Only available <after discovering [Combined Arms]> <hidden from users>",
+						]
+			},
+			{
+				"text": "Armored line unit",
+				"uniques": [
+						"Free [Landship] appears <before discovering [Combined Arms]> <hidden from users>", 
+						"Free [Tank] appears <after discovering [Combined Arms]> <before discovering [Lasers]> <hidden from users>",
+						"Free [Modern Armor] appears <after discovering [Lasers]> <hidden from users>",
+						"Only available <after discovering [Combustion]> <hidden from users>",
+						]
+			},
+		],
+	},
+	
+	/* Scrapped for now, too much to handle, and honestly might be too stronk
+	//Shinso
+	{
+		"name": "Fortune of Learning",
+		"text": "Our pursue for knowledge has brought forth progress and new discoveries.",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "Learning Surge",
+				"uniques": ["Gain a free [buildingName] [cityFilter]"]
+			},
+		],
+	},
+	{
+		"name": "Fortune of Life",
+		"text": "Description",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "DescChoice",
+				"uniques": [""]
+			},
+		],
+	},
+	{
+		"name": "Fortune of Faith",
+		"text": "Description",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "DescChoice",
+				"uniques": [""]
+			},
+		],
+	},
+	{
+		"name": "Fortune of Wealth",
+		"text": "Description",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "DescChoice",
+				"uniques": [""]
+			},
+		],
+	},
+	{
+		"name": "Fortune of Legacy",
+		"text": "Description",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "DescChoice",
+				"uniques": [""]
+			},
+		],
+	},
+	*/
+	
+]

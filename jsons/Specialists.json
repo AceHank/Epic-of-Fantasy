@@ -35,4 +35,12 @@
 		"color": [255,20,147]
 	},
 	
+	//Holy Lunar Theocracy
+	{
+		"name":"Lunar Disciple",
+		"faith":3,
+		"greatPersonPoints": {"Lunarian Missionary": 3},
+		"color": [113,12,201]
+	},
+	
 ]

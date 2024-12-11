@@ -148,9 +148,13 @@
 		"name": "Floating City",
 		"uniqueTo": "Merfolk Council",
 		"production": 1,
-		"techRequired": "Optics",
+		"gold": 1,
+		"techRequired": "Sailing",
 		"terrainsCanBeBuiltOn": ["Ocean", "Coast"],
-		"uniques": ["Improvement", "[+1 Gold] <after discovering [Guilds]>", "[+2 Culture] <with [1] to [6] neighboring [Water resource] tiles>"],
+		"uniques": ["Improvement", 
+					"Comment [Must not be adjacent to another [Floating City]]", 
+					"Unbuildable <in tiles adjacent to [Floating City] tiles> <hidden from users>", "[+1 Culture] <during a Golden Age>",
+					"[+1 Production] <after discovering [Electricity]>", "[+1 Culture] <with [1] to [6] neighboring [Water resource] tiles>"],
 		"civilopediaText": [
 			{"text": "THe Merfolk often has cities on the sea surface."},
         ]
@@ -275,7 +279,9 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Improvement", "Pillaging this improvement yields approximately [+20 Gold]",
-					"[+1 Culture] <with [1] to [6] neighboring [Mountain] tiles>","[+1 Culture] <with [1] to [6] neighboring [Lodepit] tiles>",],
+					"Comment [+1 [Culture] if adjacent to [Mountain] tile]",
+					"Comment [+1 [Culture] if adjacent to [Lodepit] tile]",
+					"[+1 Culture] <with [1] to [6] neighboring [Mountain] tiles> <hidden from users>","[+1 Culture] <with [1] to [6] neighboring [Lodepit] tiles> <hidden from users>",],
 		"shortcutKey": "M"
 	},
 	
@@ -283,15 +289,9 @@
 	{
 		"name": "Manaline",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement", "Does not need removal of [Forest]", "Does not need removal of [Forest]", 
-					//Provides all luxury resources
-					"Provides [1] [Citrus] <in [Citrus] tiles>", "Provides [1] [Furs] <in [Furs] tiles>", "Provides [1] [Cotton] <in [Cotton] tiles>",
-					"Provides [1] [Dyes] <in [Dyes] tiles>", "Provides [1] [Gems] <in [Gems] tiles>", "Provides [1] [Gold Ore] <in [Gold Ore] tiles>",
-					"Provides [1] [Silver] <in [Silver] tiles>", "Provides [1] [Ivory] <in [Ivory] tiles>", "Provides [1] [Silk] <in [Silk] tiles>",
-					"Provides [1] [Incense] <in [Incense] tiles>", "Provides [1] [Spices] <in [Spices] tiles>", "Provides [1] [Wine] <in [Wine] tiles>",
-					"Provides [1] [Sugar] <in [Sugar] tiles>", "Provides [1] [Marble] <in [Marble] tiles>", "Provides [1] [Copper] <in [Copper] tiles>",
-					"Provides [1] [Salt] <in [Salt] tiles>", "Provides [1] [Truffles] <in [Truffles] tiles>",
-					//Provides all luxury resources
+		"uniques": ["Great Improvement",
+					"Does not need removal of [Forest]", "Does not need removal of [Forest]",
+					"Does not need removal of [Jungle]", "Does not need removal of [Jungle]",
 					"Irremovable", "Unpillagable", "Tile provides yield without assigned population",
 					"[+1 Culture] <starting from the [Classical era]>",
 					"[+1 Culture] <starting from the [Renaissance era]>",

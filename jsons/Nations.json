@@ -6,6 +6,7 @@
 		"adjective": ["Dwarven"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Ingenious Artisan",
 		
 		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwarven land surely will brings forth advances and breakthroughs.",
 		"startIntroPart2": "King Higba, your brilliant mind echoed throughout the lands. Will you stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
@@ -22,12 +23,10 @@
 		"outerColor": [ 27, 53, 63]
 		"innerColor": [213,249,255],
 		"uniqueName": "Higba's Ingenuity",
-		"uniqueText": "+1 [Production] every 2 eras for cities settled on Hill\n+1 [Science] from every Strategic Resource\n+1 [Production] from every Strategic Resource improved with Mine",
-		"uniques": ["[+1 Science] from every [Strategic resource]",
-					"[+1 Production] from every [Mine] <in [Iron] tiles>",
-					"[+1 Production] from every [Mine] <in [Coal] tiles>",
-					"[+1 Production] from every [Mine] <in [Aluminum] tiles>",
-					"[+1 Production] from every [Mine] <in [Uranium] tiles>",
+		"uniqueText": "+1 [Production] every 2 eras for cities settled on [Hill]\n+5% [Science] and +1 [Production] in all cities for every Golden Ages achieved",
+		"uniques": ["Instantly provides [1] [GA Counter] <upon entering a Golden Age>", "Gain an extra spy <upon discovering [Pottery] technology>",
+					"[+5]% [Science] [in all cities] <for every [GA Counter]>",
+					"[+1 Production] [in all cities] <for every [GA Counter]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]>",
@@ -48,6 +47,7 @@
 		"adjective": ["Drow"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
+		"personality": "Vengeful Remnant",
 		
 		"startIntroPart1": "High Chief Fasthur, the leader of Drow. Banished and exiled by the usurper of your throne, your wrath overflows, seeking revenge against those who wronged you. Your name echoed across the land of your enemy. Asking for mercy from your rage.",
 		"startIntroPart2": "Oh Fasthur, your people urged you to lead them to victory. Will you reclaim your land back? Will you retake whats rightfully yours? Can you build a civilization that will stand the test of time?",
@@ -64,20 +64,11 @@
 		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
 		"uniqueName": "Revenge of the Fallen",
-		"uniqueText": "+1 [Food], +1 [Production] for Desert tiles adjacent to City Center\nMelee Land units will avenge their fallen brother, they gain +50% Strength when attacking an enemy unit that has defeated a brethren",
+		"uniqueText": "+1 [Production] for [Desert] tiles adjacent to City Center\n+1 [Food] for [Desert] tiles within 2 tiles of [City center]\nMelee Land units will avenge their fallen brother, they gain +50% Strength when attacking an enemy unit that has defeated a brethren",
 	//	Pending \nGain [Science] boost upon founding a city within 2 tile of enemy's territory (scales with era)
-		"uniques": ["[+1 Food, +1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
+		"uniques": ["[+1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>", "New [Meo] units start with [100] Experience [in all cities]",
+					"[+1 Food] from [Desert] tiles [in all cities] <within [2] tiles of a [City center]>",
 					"[{Melee} {Land}] units gain the [Vengeful] promotion",
-				/*	Tech Stuff, BROKEN, alternatives to Vengeful
-					"Gain [18] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Ancient era]>",
-					"Gain [30] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Classical era]>",
-					"Gain [125] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Medieval era]>",
-					"Gain [250] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Renaissance era]>",
-					"Gain [500] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Industrial era]>",
-					"Gain [900] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Modern era]>",
-					"Gain [1500] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Atomic era]>",
-					"Gain [2100] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Information era]>"
-				*/
 					], 
 		"cities": ["Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argach","Lashire","Chenlaena","Ordton","Xaryna","Kurx",
 			"Alerough","Yauntyrr","Shurdriira","Zauiryn","Goyln"],
@@ -94,6 +85,7 @@
 		"leaderName": "Rog",
 		"adjective": ["Orc"],
 		"preferredVictoryType": "Domination",
+		"personality": "Greenskins Raider",
 		
 		"startIntroPart1": "Rog the Destroyer, your sheer strength, size, and power has lifted you to your throne. Respected and feared among the Orcs, you wage one war after another to your heeart desire. Violence and destruction follows your lead. None you gave mercy. Thousands you killed.",
 		"startIntroPart2": "O, mighty Destroyer, your people follows you to your victories. Will you plow through your opponent? Will you destroy those who dare to oppose? Can you ruin civilizations until the end of time?",
@@ -128,6 +120,7 @@
 		"leaderName": "Undwyck",
 		"adjective": ["Uldra"],
 		"startBias": ["Tundra"],
+		"personality": "Winter Survivor",
 		
 		"startIntroPart1": "The leader of the  Uldra, Undwyck, your people held you high of your achivement leading them. Your peaceful reign has ushered Uldra into an age of ease. Famous for uniting the various tribes of Uldra into one singular banner.",
 		"startIntroPart2": "Undwyck, your people need you once more. Will you unite your peole? Will you survive in this cold and harsh winterland? Can you build a civilization that will stand the test of time?",
@@ -164,6 +157,7 @@
 		"adjective": ["Merfolk"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Seasinger",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -199,6 +193,7 @@
 		"leaderName": "Rozagh",
 		"adjective": ["Beastmen"],
 		"preferredVictoryType": "Domination",
+		"personality": "Glorious Warrior",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -215,7 +210,12 @@
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Roar of Victory",
-		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Culture] immediately", "[+2 Happiness] [in annexed cities]"], 
+		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Culture] immediately", "[+2 Happiness] [in annexed cities]",
+					"Comment [Reduce the effectiveness of negative [Happiness] penalties by half]",
+					//Happiness penalty
+					"[+38]% growth [in all cities] <when between [-10] and [-1] Happiness> <hidden from users>",
+					"[+25]% [Production] [in all cities] <when below [-10] Happiness> <hidden from users>",
+					"[+17]% Strength <for [All] units> <when below [-10] Happiness> <hidden from users>"], 
 		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
 			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
 		"civilopediaText": [
@@ -232,6 +232,7 @@
 		"adjective": ["Elven"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Warden of Harmony",
 		
 		"startIntroPart1": "Aia Sylvanna! The Queen of the Elven, protector of the sacred lands. ",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -249,8 +250,13 @@
 		"innerColor": [ 70,  0, 4],
 		"uniqueName": "One with Nature",
 		"uniqueText": "Starts with [Archery]\n+1 [Culture] from every Forest tiles adjacent to Forest tile\n+1 [Faith] from every Jungle tiles adjacent to Jungle tile",
-		"uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Forest] tiles>", "[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Jungle] tiles>"
+		"uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Forest] tiles>", "[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Jungle] tiles>",
 	//				"[+1 Culture, +1 Faith] [in all cities connected to capital] <in cities with a [Ancestor Tree]>",
+					"[+5]% [Culture] [in Capital] <when number of [[Ancestor Tree] Buildings] is more than [1]>",
+					"[+5]% [Culture] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [3]>",
+					"[+2 Production] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [5]>",
+					"[+1 Science, +1 Faith] from each Trade Route <when number of [[Ancestor Tree] Buildings] is more than [7]>",
+					"Gain a free [Ancestor Artist] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [9]>",
 					"Starts with [Archery]"], 
 		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
@@ -268,6 +274,7 @@
 		"adjective": ["Cultist"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+		"personality": "The Blighted",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -301,6 +308,7 @@
 		"leaderName": "Baradul",
 		"adjective": ["Dragonborn"],
 		"startBias": ["Mountain"],
+		"personality": "Wise King",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -338,6 +346,7 @@
 		"leaderName": "Lavrence",
 		"adjective": ["Order"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Curious Alchemist",
 		
 		"startIntroPart1": "Glory upon the Order! Lavrence, your people always strive for knowledge, even the forbidden ones. The Order trains and nurtures the young into a fine Alchemist. Giving them knowledge and mastery of alchemy. Unveiling the secrets of this world little by little. It is now time for your people to surface and be known to the world now it needs a power balance.",
 		"startIntroPart2": "O, Lavrence, the Order relies upon your shoulder. Will you lead the Order into glory and praise? Can you create an era of enlightenment? Can you build a civilization that will stand the test of time?",
@@ -354,7 +363,9 @@
 		"outerColor": [237,197,82],
 		"innerColor": [186, 60, 3],
 		"uniqueName": "Lavrence's Opus",
-		"uniques": ["Free [Great Engineer] appears <upon discovering [Chemistry]>", "[+50 Gold, +50 Science] whenever a Great Person is expended"], 
+		"uniques": ["Free [Great Engineer] appears <upon discovering [Chemistry] technology>",
+					"Gain [50] [Gold] <upon expending a [Great Person] unit>", 
+					"Gain [50] [Science] <upon expending a [Great Person] unit>"], 
 		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
 			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
 		"civilopediaText": [
@@ -370,6 +381,7 @@
 		"leaderName": "Menedaius",
 		"adjective": ["Argonauts"],
 		"preferredVictoryType": "Domination",
+		"personality": "Heroic King",
 		
 		"startIntroPart1": "Honorable warrior Menedaius, the leader of the Argonauts. Your reign unites all surrounding smaller states into one unified great nation. Under your rule, they prosper. Your Agoge mandate recruits young and strong descendant of the gods, a demigod, into a great warrior of your caliber, leading them into a path of glory in battle.",
 		"startIntroPart2": "O, Menedaius, your people call upon your name once more. Will you lead them to glory? Will you take Argonautian States into a leading force upon this world? Can you build a civilization that will stand the test of time?",
@@ -411,6 +423,7 @@
 		"leaderName": "Goroth",
 		"adjective": ["Demons"],
 		"preferredVictoryType": "Domination",
+		"personality": "Crimson Conqueror",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -454,6 +467,7 @@
 		"name": "High Elf Concordat",
 		"leaderName": "Aellerin",
 		"adjective": ["High Elven"],
+		"personality": "Arcane Scholar",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -497,6 +511,7 @@
 		"leaderName": "Withermoore",
 		"adjective": ["Undeads"],
 		"preferredVictoryType": "Domination",
+		"personality": "The Necromancer",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -528,6 +543,7 @@
 		"name": "Sacred Sun Theocracy",
 		"leaderName": "Solaris",
 		"adjective": ["Humans"],
+		"personality": "Inward Perfection",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -545,8 +561,8 @@
 		"innerColor": [240,220,20],
 		"uniqueName": "Inward Perfection",
 		"uniques": ["Provides a [Shrine] in your first [4] cities for free", "[100]% of excess happiness converted to [Culture] <during a Golden Age>"], 
-		"cities": ["Origins"," Shūr Daraq","Kāydūn","Kalāt","Targhī","Borāk"," Mīān Deh","Jeyāvān","Kūh-e Rīg","Kūhsār","Sārī Qayeh","Shūrbek",
-			"Qalandarī","Kalīlābād","Negār","Eqbālābād","Nesā’ Kūh"],
+		"cities": ["Origins"," Shūr Daraq","K�?ydūn","Kal�?t","Targhī","Bor�?k"," Mī�?n Deh","Jey�?v�?n","Kūh-e Rīg","Kūhs�?r","S�?rī Qayeh","Shūrbek",
+			"Qalandarī","Kalīl�?b�?d","Neg�?r","Eqb�?l�?b�?d","Nes�?’ Kūh"],
 		"civilopediaText": [
 			{"text":"Sacred Sun Theocracy is a human isolationist nation. Sacred Sun Theocracy worship the Sun as their deity, making Holy Lunar Theocracy as their rival nation, which worship the Lunar. They don't like other races than human and believes strongly in human supremacy. Thus their isolationist philoshopy in regarding international relationship with non-human races."},
 			{"text":"Sacred Sun Theocracy is a civilization that has good early game Faith output. Their unique building is a Courthouse replacement that can be built on their own cities."},
@@ -561,6 +577,7 @@
 		"adjective": ["Keepers"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Keeper of the Forest",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -595,6 +612,7 @@
 		"leaderName": "David",
 		"adjective": ["Devouts"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Syncretic Cult",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -628,6 +646,7 @@
 		"leaderName": "Lord Kemm",
 		"adjective": ["Templars"],
 		"preferredVictoryType": "Domination",
+		"personality": "Zealous Inquisitor",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -661,6 +680,7 @@
 		"adjective": ["Lizardmen"],
 		"startBias": ["Fresh Water"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Enduring Survivor",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -695,6 +715,7 @@
 		"adjective": ["Centaurs"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
+		"personality": "Verdant Pioneer",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -727,6 +748,7 @@
 		"name": "Shinso",
 		"leaderName": "Takashi no Seimei",
 		"adjective": ["Shinso"],
+		"personality": "Venerated Oracle",
 		
 		"startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, taking all of which this world has to offer.",
 		"startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
@@ -743,7 +765,7 @@
 		"outerColor": [218,165,32],
 		"innerColor": [0,0,205],
 		"uniqueName": "Pillars of Heaven",
-		"uniqueText": "Gain access to 5 unique National Wonders after researching [Mathematics], [Guilds], [Writing], [Philosophy], and [Theology]\nReceive free Great Person and a unique Specialist in capital after building all 5 of them",
+		"uniqueText": "Gain access to 5 unique National Wonders after researching [Mathematics], [Guilds], [Writing], [Philosophy], and [Theology]\nReceive fortunes of choice after completing each National Wonder.",
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
 		"civilopediaText": [
@@ -760,6 +782,7 @@
 		"adjective": ["Gnomes"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Bright Tinkerer",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -776,13 +799,9 @@
 		"outerColor": [34,60,138],
 		"innerColor": [193,120,120],
 		"uniqueName": "Tink Master",
-		"uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 [Science] from every [Workshop] and [Factory]",
-		"uniques": ["[+2 Science] from every [Workshop]", "[+2 Science] from every [Factory]",
-					"Gain a free [Library Great Scientist Point] [in all cities] <in cities with a [Library]>",
-					"Gain a free [University Great Scientist Point] [in all cities] <in cities with a [University]>",
-					"Gain a free [Public School Great Scientist Point] [in all cities] <in cities with a [Public School]>",
-					"Gain a free [Observatory Great Scientist Point] [in all cities] <in cities with a [Observatory]>",
-					"Gain a free [Research Lab Great Scientist Point] [in all cities] <in cities with a [Research Lab]>"],
+	//	"uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 [Science] from every [Workshop] and [Factory]",
+		"uniques": ["Comment [+1 [Great Scientist] Point from every [Science] buildings]",
+					"Comment [+1 [Great Engineer] Point from every [University], [Public School], and [Research Lab]]"],
 		"cities": ["Ironforge","Tinkertown","Techno City","Gnomenia","Cogfrenzy","Mekatorque","Steelgrill","Mechastation","Raceway","Gadgetstan","New Tinkertown",
 			"Clockwerk City","Steeltown","Thermacog","Gears City","Windforge","Area Zero","Shocktek City"],
 		"civilopediaText": [
@@ -799,6 +818,7 @@
 		"adjective": ["Harpies"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Mountain Hermit",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -818,7 +838,7 @@
 		"uniqueText": "+1 [Food] from unimproved Hill tiles\nAll footman units gain Flying, they may pass through impassable terrains and see over obstacles",
 		"uniques": ["[Sword] units gain the [Harpy] promotion", "[Civilian] units gain the [Harpy] promotion", "[Gunpowder] units gain the [Harpy] promotion", "[Ranged Gunpowder] units gain the [Harpy] promotion",
 					"[Archery] units gain the [Harpy] promotion", "[Scout] units gain the [Harpy] promotion", 
-					"[+1 Food] from [Land] tiles [in all cities] <in [unimproved] [Hill] tiles>"],
+					"[+1 Food] from [Land] tiles [in all cities] <in [{unimproved} {Hill}] tiles>"],
 		"cities": ["Stormclaw","Alpenia Peak","Bloodfeather","Anzalor Valley","Strongbeak","Marmouth Hills","Emberwing","Sorania Cliff","Stingtail","Marsia Forest","Featherfall",
 			"Koronea Heights","Steelfang"],
 		"civilopediaText": [
@@ -836,6 +856,7 @@
 		"adjective": ["Preservers"],
 		"startBias": ["Forest", "Jungle"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Sanctuary Preserver",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -870,6 +891,7 @@
 		"leaderName": "Mårg",
 		"adjective": ["Titans"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Ultimate Builder",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -908,6 +930,7 @@
 		"leaderName": "Goldsnuffle",
 		"adjective": ["Kobolds"],
 		"startBias": ["Mountain"],
+		"personality": "Earthrobber",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -925,7 +948,7 @@
 		"innerColor": [240,200,0],
 		"uniqueName": "Dig, Dig, Dig!",
 		"uniqueText": "-25% tile improvement construction time in Hill tiles\n+2 [Gold] from resources improved with [Lodepit]",
-		"uniques": ["[-25]% tile improvement construction time <in [Hill] tiles>",
+		"uniques": ["[-25]% construction time for [All] improvements <in [Hill] tiles>",
 					"[+2 Gold] from every [Lodepit] <in [Iron] tiles>",
 					"[+2 Gold] from every [Lodepit] <in [Coal] tiles>",
 					"[+2 Gold] from every [Lodepit] <in [Aluminum] tiles>",
@@ -950,7 +973,8 @@
 		"leaderName": "Zhu Xi",
 		"adjective": ["The Fanrongs"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Renowed Merchant",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -985,6 +1009,7 @@
 		"leaderName": "Eleanor",
 		"adjective": ["The Wizards"],
 		"preferredVictoryType": "Scientific",
+		"personality": "The Spellscriber",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -1001,9 +1026,10 @@
 		"outerColor": [85,0,255],
 		"innerColor": [245,91,206],
 		"uniqueName": "Peacemaker Project",
-		"uniqueText": "Receive free [Peacemaker Spell] in capital every era\n+2 [Science] from every [Shrine] and [Temple]",
+		"uniqueText": "Receive free [Peacemaker Spell] in capital every new era\n+2 [Science] from every [Shrine] and [Temple]",
 		"uniques": ["[+2 Science] from every [Shrine]",
-					"[+2 Science] from every [Temple]"],
+					"[+2 Science] from every [Temple]",
+					"Free [Peacemaker Spell] appears <in [Capital] cities> <upon entering a new era>"],
 		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
 			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"],
 		"civilopediaText": [
@@ -1020,6 +1046,7 @@
 		"adjective": ["Trolls"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
+		"personality": "Seasoned Hunter",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -1039,15 +1066,15 @@
 		"uniqueText": "Land units gain the [Woodsman] promotion\nReceive a free Sword or Gunpowder units upon discovering the technology that unlocks them",
 		"uniques": ["[Land] units gain the [Woodsman] promotion",
 					//Receive free stuffs
-					"Receive free [Troll Headhunter] when you discover [Bronze Working]",
-					"Receive free [Swordsman] when you discover [Iron Working]",
-					"Receive free [Pikeman] when you discover [Civil Service]",
-					"Receive free [Longswordsman] when you discover [Steel]",
-					"Receive free [Musketman] when you discover [Gunpowder]",
-					"Receive free [Rifleman] when you discover [Rifling]",
-					"Receive free [Great War Infantry] when you discover [Replaceable Parts]",
-					"Receive free [Infantry] when you discover [Plastics]",
-					"Receive free [Mechanized Infantry] when you discover [Mobile Tactics]"],
+					"Free [Troll Headhunter] appears <upon discovering [Bronze Working] technology>",
+					"Free [Swordsman] appears <upon discovering [Iron Working] technology>",
+					"Free [Pikeman] appears <upon discovering [Civil Service] technology>",
+					"Free [Longswordsman] appears <upon discovering [Steel] technology>",
+					"Free [Musketman] appears <upon discovering [Gunpowder] technology>",
+					"Free [Rifleman] appears <upon discovering [Rifling] technology>",
+					"Free [Great War Infantry] appears <upon discovering [Replaceable Parts] technology>",
+					"Free [Infantry] appears <upon discovering [Plastics] technology>",
+					"Free [Mechanized Infantry] appears <upon discovering [Mobile Tactics] technology>"],
 		"cities": ["Trezzahn","Zulabar","Nuenvan","Vinji","Jinthaiya","Alunja","Vinji","Usitutie","Zulrea","Khijazi","Kizi",
 			"Katzine","Girisha","Zuljin","Teza","Zulwatha"],
 		"civilopediaText": [
@@ -1063,6 +1090,7 @@
 		"leaderName": "Silithar",
 		"adjective": ["Scazari"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Endless Swarm",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -1098,6 +1126,7 @@
 		"adjective": ["Nerubian"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
+		"personality": "Ancient Weaver",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -1133,6 +1162,7 @@
 		"adjective": ["Taurens"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
+		"personality": "Earthmother Champion",
 		
 		"startIntroPart1": "High Chieftain Bloodhoof of the Taurens, whisperer of the Spirits, defender of the Earthmother. You've proven your worth in the Rites of the Earthmother. And you continued to prove your worth, leading the Tauren various Clans into one, uniting them under one  banner. You've made the Sky Father proud of your accomplishment.",
 		"startIntroPart2": "O, Bloodhoof, your people need you once more. Will you lead them to triumph? Will you make Earthmother and Sky Father proud? Can you build a civilization that will stand the test of time?",
@@ -1167,6 +1197,7 @@
 		"adjective": ["Walrus People"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Hoarfrost Nomad",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -1183,7 +1214,7 @@
 		"outerColor": [99,39,39],
 		"innerColor": [46,133,108],
 		"uniqueName": "Howling Fjord",
-		"uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+1 [Food], +1 [Production], and +1 [Culture] in all cities with less than 5 population, +2 if settled on Tundra, +4 if settled on Snow",
+		"uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+1 [Food], +1 [Production], and +1 [Culture] in all cities with less than 5 population, +2 if settled on [Tundra], +4 if settled on [Snow]",
 		"uniques": ["Free [Settler] appears <upon founding a city> <in [Snow] tiles>",
 					"[+1 Culture, +1 Food, +1 Production] [in all cities]", "[-1 Culture, -1 Food, -1 Production] [in all cities] <in cities with at least [5] [Population]>",
 					"[+1 Culture, +1 Food, +1 Production] in cities on [Tundra] tiles", "[-1 Culture, -1 Food, -1 Production] in cities on [Tundra] tiles <in cities with at least [5] [Population]>",
@@ -1204,6 +1235,7 @@
 		"adjective": ["Lyrian"],
 	//	"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Brave Royalty",
 		
 		"startIntroPart1": "Hail King Argeon, ruler of Lyrian. Your reign is a golden age of cultural advancement. Solidifying the country's policies has ushered the Kingdom unto an age of prosperity. A new effective and efficient bureaucracy you've devised has made your Kingdom opulent.",
 		"startIntroPart2": "O, King Argeon, your people need you once more to lead them in this trying times. Will you ushered into a new prosperous era? Will you defend your people from upcoming crisis? Can you build a civilization that will stand the test of time?",
@@ -1238,6 +1270,7 @@
 		"adjective": ["Lunari"],
 		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Enlightened Mind",
 		
 		"startIntroPart1": "Celeste of Holy Lunar Theocracy, by the grace of the Moon, you've led your people through troubled times. By Her guide and Her messenger, you ruled the Theocracy with mercy while you conquer those who dared to defy with great vigor.",
 		"startIntroPart2": "O, Celeste, the Lunar has favored you, granted you power and cunningness for you to rule. Will you meet Her expectations? Will you build a nation upon Her mercy? Can you build a civilization that will stand the test of time?",
@@ -1263,7 +1296,7 @@
 		"cities": ["Lunarius","Aeris","Xyranthius","Korolia","Mirias","Yolis","Valecia","Nightfall","Estest","Mellago","Albua",
 			"Vrybergam","Rahvun","Rumul","Cygnus","Diana"],
 		"civilopediaText": [
-			{"text":"Holy Lunar Theocracy is a Lunari civilization, a nocturnal humanoid race, rival of the Sacred Sun Theocracy, often having dispute of their exact opposite believe and being a non-human civilization. Holy Lunar Theocracy often conquer other land by the Lunar's order."},
+			{"text":"Holy Lunar Theocracy is a Lunari civilization, a nocturnal humanoid race, rival of the Sacred Sun Theocracy, often having dispute of their exact opposite believe and being a non-human civilization. Holy Lunar Theocracy encourages missionarism and doesn't shy to spread their belief using swords."},
 			{"text":"Holy Lunar Theocracy unique ability pretty much guarantee a religion which is very good, especially in higher difficulty game."},
 			{"text":"Their unique building provides your specialist with extra [Faith] and [Science] yield, making their specialist good for achieving Scientific victory. The Arbiter has a really good promotions, making them quite good at warfare as well."},
         ]
@@ -1276,6 +1309,7 @@
 		"adjective": ["Magnarian"],
 	//	"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
+		"personality": "Iron Fist Emperor",
 		
 		"startIntroPart1": "The Great Emperor Vaath II of Magnar Empire! Ruthless but cunning, you lead your people with iron fist. Although your people suffer from your tyrannical rule, your empire succeded where others fall. You came and conquer one nation after another. Forced their citizen upon your uncontested rule, a cruel yet effective directive.",
 		"startIntroPart2": "You will rise once more. Rule your unwilling citizen again. Will you rule over the weak? Can you build a civilization that will stand the test of time?",
@@ -1292,9 +1326,8 @@
 		"outerColor": [54,158,94],
 		"innerColor": [0,0,0],
 		"uniqueName": "Forced Levy",
-		"uniqueText": "May purchase strongest available Melee unit with population once per city\n+2 [Gold], +2 [Production] in annexed cities",
-		"uniques": ["[+2 Gold, +2 Production] [in annexed cities]",
-					"New [Wrecker Maceman] units start with [15] Experience [in all cities]"],
+		"uniqueText": "May purchase strongest available unit (your choice) of a unitline with population once per city\n+2 [Gold], +2 [Production] in annexed cities",
+		"uniques": ["[+2 Gold, +2 Production] [in annexed cities]"],
 		"cities": ["Drogon","Taygete","Grimrock","Haruspex","Hatena","Kujata","Makantor","Moloki","Rizen","Thulu","Isenmaar",
 			"Knosph","Squelor","Atabury","Golonac","Ototh"],
 		"civilopediaText": [
@@ -1311,6 +1344,7 @@
 		"adjective": ["Lithoids"],
 		"startBias": ["Hill"],
 	//	"preferredVictoryType": "Domination",
+		"personality": "Awakened Earth",
 		
 		"startIntroPart1": "All hail mighty Kronus of the Lithoid Combine! Awakened from your deep slumber, you call forth upon your buried people. Waking them from their sleep, leading them to glory once more. Cities and countries now long gone, your people must start anew in this foreign world.",
 		"startIntroPart2": "O, Kronus, your people call upon your name once more. Will you rise and lead them to glory? Will you stand up and challenge this unknown world? Can you build a civilization that will stand the test of time?",
@@ -1327,7 +1361,7 @@
 		"outerColor": [117,67,20],
 		"innerColor": [49,173,169],
 		"uniqueName": "Deep Slumber",
-		"uniqueText": "May unearth population from adjacent Hill or Mountain up to 3 times per city",
+		"uniqueText": "May unearth population from adjacent [Hill] or [Mountain] up to 3 times per city",
 		"cities": ["Forgefall","Kiln Edge","Leevoss","Pittenrock","Bordstone","Armstane","Falkid","Eskrick","Undulonn","Rask","Ousten Bank",
 			"Ratholl","Baikenvoss","Apitea","Mennia","Lamder"],
 		"civilopediaText": [
@@ -1345,6 +1379,7 @@
 		"adjective": ["Basaltlings"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
+		"personality": "Harbinger of Ruin",
 		
 		"startIntroPart1": "Rising emperor Ash Ignimbrite, buried under the ashes and lava of an old world volcano for centuries, you and your people emerge from the desolation to roam the world once more and continue living by a determined fate. They were risen from the dead as constructs and humanoid basalt creatures by the arcane powers slumbering within the volcano. It also granted them abilities and burdens of normal human beings. Being fate-bonded to volcanic ash, you posess the power to awaken any mountain as a volcano.",
 		"startIntroPart2": "Ash Igimbrite, you and your people were given a second chance. Can you lead your people to a glorious new fate? Will you protect the volcanoes that you now call home? Can you build a civilization that will stand the test of time?",
@@ -1361,9 +1396,13 @@
 		"outerColor": [90,93,95],
 		"innerColor": [154,170,170],
 		"uniqueName": "From Ashes to a New Fate",
-		"uniqueText": "Melee Land units deal extra damage against cities, but are harder to sustain\nMountains and City Ruins yield extra [Gold]\nMay trigger an eruption once in every city next to mountain when at war (up to 12 times)",
-		"uniques": ["[+3 Gold] from every [Mountain]","[+2 Gold] from every [City ruins]","[+1 Gold] from every [City ruins] <after discovering [Civil Service]>",
-					"[{Melee} {Land}] units gain the [Besiege] promotion","[-1] Unit Supply per city","[+20]% maintenance costs <for [{Land} {Melee}] units>"],
+		"uniqueText": "Melee Land units gain [Besiege] promotion, but units cost +25% maintenance and -1 Supply per city\n+3 [Gold] from every [Mountain] and [City ruins]\nMay trigger an eruption once in every city next to [Mountain] when at war (up to 12 times)\n+1 Movement and +10% Strength for 10 turns after eruption",
+		"uniques": ["[+3 Gold] from every [Mountain]","[+3 Gold] from every [City ruins]",
+					"[{Melee} {Land}] units gain the [Besiege] promotion","[-1] Unit Supply per city","[+25]% maintenance costs <for [{Land} {Melee}] units>",
+					//Eruption Fervor
+					"Instantly consumes [1] [Eruption Fervor] <upon turn end> <when above [0] [Eruption Fervor]>",
+					"[+1] Movement <with [Eruption Fervor]>",
+					"[+10]% Strength <with [Eruption Fervor]>"],
 		"cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
 			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkulljö"],
 		"civilopediaText": [
@@ -1381,6 +1420,7 @@
 		"adjective": ["Chroniclers"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
+		"personality": "The Historian",
 		
 		"startIntroPart1": "Hail Muarakh the Lorekeeper. Your secret order now has revealed to the world. Time for you to rise and protect the history of the world. Your order has always been watching the changes of the world. Recording each and every major events that changed the course of this world.",
 		"startIntroPart2": "Oh great Lorekeeper, will you record the happenings of this new world you've been brought into? Will you defend your archive from barbarous people? Can you build a civilization that will stand the test of time?",
@@ -1413,6 +1453,7 @@
 		"leaderName": "Zalash",
 		"adjective": ["Salamanders"],
 		"startBias": ["Desert"],
+		"personality": "Flame of the Desert",
 		
 		"startIntroPart1": "Great Emperor Zalash of the Salamanders! Your name echoed through the realm, your people praised your benevolent rule. You protected the empire with honor, guarding it from those who seek destruction upon the empire. Your understanding of the Sun magic helps you construct the most beautiful of craft. The Sun Obelisk that will destroy those who dare to defy your will.",
 		"startIntroPart2": "O, mighty Zalash. Your people call upon your name once more. Will you answer them and lead them once more? Will you lead them and defend them? Can you build a civilization that will stand the test of time?",
@@ -1452,7 +1493,8 @@
 		"name": "The Eternals",
 		"leaderName": "Aetera",
 		"adjective": ["Eternals"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
+		"personality": "The Lifedrinker",
 		
 		"startIntroPart1": "Long live Aetera, leader amongst the Eternals! It has been ages since your bodies turned into mere bone. But you preserved and feed upon those who can't fight back against your might. You've led your people for centuries, and for more centuries to come. You won't let the glory of the Eternals be disrupted by others.",
 		"startIntroPart2": "O, Aetera, your people seek your wisdom once more. Will you lead them to glory? Will you live long enough to see others bend to your will? Can you build a civilization that will stand the test of time?",
@@ -1487,6 +1529,7 @@
 		"leaderName": "Aran",
 		"adjective": ["Precursors"],
 		"preferredVictoryType": "Scientific",
+		"personality": "The Firstborn",
 		
 		"startIntroPart1": "Great Aran of the Precursor! As the firstborn, your people have gone through the most out of them all. Your civilization rose and fell with the passing of times. Until finally, met with your demise from internal conflict. Your people gone, your technology lost, and this world you once ruled, have forgotten you.",
 		"startIntroPart2": "Oh venerated Aran, you and your people called once more to start all over again. Will you lead your people to golden age? Will you prevent the demise of your people? Can you build a civilization that will stand the test of time?",
@@ -1504,7 +1547,8 @@
 		"innerColor": [23,212,33],
 		"uniqueName": "We Who Came First",
 		"uniques": ["[+1 Food] from every specialist [in all cities]",
-					"Gain a free [Arcanum] [in capital]"],
+					"Gain a free [Arcanum] [in capital]",
+					"Comment [All units gain access to [Mobility] (+1 Movement) promotion]"],
 		"cities": ["Erathon","Oramath","Jinnir","Kornas","Veriban","Valdus","Nith","Nathka","Pishar","Makora","Kathon",
 			"Sarish","Iribla"],
 		"civilopediaText": [
@@ -1520,6 +1564,7 @@
 		"leaderName": "Tarqiel",
 		"adjective": ["Celestials"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Divine Envoy",
 		
 		"startIntroPart1": "Praise be Archangel Tarqiel of Celestial Beings. Your people came from the Higher Plane to preach the ignorant and primitive natives of your path. Your rule is fair and just, your people held high regards of the way you guide the people.",
 		"startIntroPart2": "O, Tarqiel, now an unprecedented challenges has been brought upon you. Will you become the light that shines in the darkness? Will you guide the ignorants on the correct path? Can you build a civilization that will stand the test of time?",
@@ -1536,8 +1581,9 @@
 		"outerColor": [237,216,184],
 		"innerColor": [  0, 54,255],
 		"uniqueName": "Enlightenment",
-		"uniqueText": "+1 [Faith] from every Defensive buildings\nWhen spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]",
+		"uniqueText": "+1 [Faith] from every Defensive buildings\nWhen spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]\n+1% Strength when defending for every [Curative Spire]",
 		"uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]",
+					"[+1]% Strength <when defending> <for every [[Curative Spire] Buildings]>",
 					"[+1 Faith] from every [Curative Spire]",
 					"[+1 Faith] from every [Walls]",
 					"[+1 Faith] from every [Castle]",
@@ -1558,6 +1604,7 @@
 		"leaderName": "Zorgorath",
 		"adjective": ["Hellborns"],
 		"preferredVictoryType": "Domination",
+		"personality": "Agent of Chaos",
 		
 		"startIntroPart1": "Great Demon Lord Zorgorath, will command to victory! The Hellbourne has risen from the depths of Hell, surfacing into an unknowing and unprepared world. You ready to conquer, your people eager to claim yet another world for their own.",
 		"startIntroPart2": "O, Zorgorath, the Hellborns need a strong leader like you. Will you rise and conquer this new world? Can you build a civilization that will stand the test of time?",
@@ -1574,10 +1621,10 @@
 		"outerColor": [245,70,22],
 		"innerColor": [  0, 0,0],
 		"uniqueName": "From the Depths of Hell",
-		"uniqueText": "Free [Archdemon Azaniroth] appears upon discovering [Theology] (can be revived at an increasing price of 400 [Faith])\n+30% [Production] when constructing Military units when at peace",
-		"uniques": ["Free [Archdemon Azaniroth] appears <upon discovering [Theology]>", "Gain a free [Altar of Azaniroth] [in capital] <after discovering [Theology]>", 
-				//	"[All] units gain the [Hellborn] promotion",
-					"May buy [Archdemon Azaniroth] units for [400] [Faith] [in all cities] at an increasing price ([400]) <after discovering [Theology]>",
+		"uniqueText": "Free [Archdemon Azaniroth] appears upon discovering [Theology] (can be revived at an increasing price of 500 [Faith])\nAzaniroth can cast various abilities using [Mana] with varying cost\n+30% [Production] when constructing Military units when at peace",
+		"uniques": ["Free [Archdemon Azaniroth] appears <upon discovering [Theology] technology>", //"Gain a free [Altar of Azaniroth] [in capital] <after discovering [Theology]>", 
+					"Instantly consumes [1] [Azaniroth Mana] <upon turn end> <when above [100] [Azaniroth Mana]>",
+					"May buy [Archdemon Azaniroth] units for [500] [Faith] [in all cities] at an increasing price ([500]) <after discovering [Theology]>",
 					"[+30]% Production when constructing [Military] units [in all cities] <when not at war>"],
 		"cities": ["Xaphempunzu","Baalakibu","Gothi","Sovil","Xellaym","Muratzo","Kragoch","Pazunatas","Xaphirou","Zothra","Vasso",
 			"Sucorei","Xgorgon"],
@@ -1594,6 +1641,7 @@
 		"leaderName": "Dreckfang",
 		"adjective": ["Gnolls"],
 		"preferredVictoryType": "Domination",
+		"personality": "Ferocious Mercenary",
 		
 		"startIntroPart1": "Mighty Dreckfang of Gnoll Warband, your strength and cunningness is respected among the Gnolls. You claim leadership of the Gnolls by force, and made them into fearsome mercenaries. Your thirst for war is unquenchable.",
 		"startIntroPart2": "O, Dreckfang, you will lead your people once more into the battlefield. Will you triumph over your opponent? Will you satisfy your thirst for war? Can you build a civilization that will stand the test of time?",
@@ -1610,8 +1658,8 @@
 		"outerColor": [81,69,55],
 		"innerColor": [212,139,80],
 		"uniqueName": "Feared Mercenaries",
-		"uniqueText": "Empire enters a 5-turn Golden Age and receive a free strongest available Melee unit upon declaring war with a major Civilization",
-		"uniques": ["Empire enters a [5]-turn Golden Age <upon declaring war with a major Civilization>",
+		"uniqueText": "Empire enters a 4-turn Golden Age and receive a free strongest available Melee unit upon declaring war with a major Civilization",
+		"uniques": ["Empire enters a [4]-turn Golden Age <upon declaring war with a major Civilization>",
 					"Free [Warrior] appears <before discovering [Iron Working]> <upon declaring war with a major Civilization>", 
 					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon declaring war with a major Civilization>",
 					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <upon declaring war with a major Civilization>",
@@ -1636,6 +1684,7 @@
 		"leaderName": "Khuldak",
 		"adjective": ["Trogs"],
 	//	"startBias": ["Mountain"],
+		"personality": "Unbreakable Defender",
 		
 		"startIntroPart1": "Khuldak of the Trogs, the survival of the Trogs relies upon your shoulders. Your reign on these troubled times only proven your worth to defend Trogs' land against any invaders. Your valiant warriors follow behind your back, ready to defen the motherland at all cost.",
 		"startIntroPart2": "Khuldak, the Trogs is once against at the mercy of other unknown forces. Will you protect your people? Will you defend against those who seek your demise? Can you build a civilization that will stand the test of time?",
@@ -1664,13 +1713,13 @@
         ]
 	},
 	
-	/*
 	//Hyghmane of Leonin Kingdom
 	{
 		"name": "Leonin Kingdom",
 		"leaderName": "Hyghmane",
 		"adjective": ["Leonins"],
-	//	"preferredVictoryType": "Domination",
+	//	"preferredVictoryType": "Cultural",
+		"personality": "Resolute King",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -1686,8 +1735,18 @@
 		
 		"outerColor": [  7,  0, 54],
 		"innerColor": [228,134,228],
-		"uniqueName": "Honor of the Pride",
-		"uniques": ["Empire enters golden age <upon declaring friendship>"],
+		"uniqueName": "Unbroken Accord",
+		"uniqueText": "Receive free Social Policy upon completing a National Wonder",
+		"uniques": ["Free Social Policy <upon constructing [Circus Maximus]>",
+					"Free Social Policy <upon constructing [National College]>",
+					"Free Social Policy <upon constructing [National Epic]>",
+					"Free Social Policy <upon constructing [Heroic Epic]>",
+					"Free Social Policy <upon constructing [Grand Temple]>",
+					"Free Social Policy <upon constructing [National Treasury]>",
+					"Free Social Policy <upon constructing [Oxford University]>",
+					"Free Social Policy <upon constructing [Ironworks]>",
+					"Free Social Policy <upon constructing [Hermitage]>",
+					"Free Social Policy <upon constructing [National Intelligence Agency]>"],
 		"cities": ["Tyrtagus","Gior","Tegez","Bathes","Irin","Rixyr","Xeoz","Axamioz","Dathakir","Prios","Ocale",
 			"Driole","Koite"],
 		"civilopediaText": [
@@ -1696,7 +1755,6 @@
 			{"text":"Their unique unit is a slower but stronger Knight replacement. During Golden Age, they can mitigate the bonus damage received from anti-cavalry units."},
         ]
 	},
-	*/
 
 	//Legion of Spirits Pact
 	{
@@ -1704,8 +1762,9 @@
 		"leaderName": "Legion",
 		"adjective": ["Spirits"],
 		"preferredVictoryType": "Domination",
+		"personality": "Spectral Legion",
 		
-		"startIntroPart1": "Welcome to this world demon called Legion. You are send to controll lesser races and let them die for your thriving domination. Your hellish origin and obsession for seizing possession over others will give you the power needed to dominate.",
+		"startIntroPart1": "Welcome to this world demon called Legion. You are send to control lesser races and let them die for your thriving domination. Your hellish origin and obsession for seizing possession over others will give you the power needed to dominate.",
 		"startIntroPart2": "Oh greatest of hostile spirits and feared character among demons, can you assert your dominance? Can you make your evil plans become reality? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "My spirits will haunt you!",
@@ -1727,10 +1786,10 @@
 			"Earn [10]% of the damage done to [Land] units as [Faith]",
 			"May buy [Spirify] buildings for [100] [Faith] [in annexed cities]",
 			"All newly-trained [All] units [in all cities] receive the [Spirit] promotion",
-			"[All] units gain the [Spirit] promotion <before [1] turns>",
+			"[All] units gain the [Spirit] promotion <before turn number [1]>",
 			"[+30]% Strength <when attacking> <for units without [Spirit]>",
 			"[-15]% Strength <when defending> <for units without [Spirit]>",
-			"Damage is ignored when determining unit Strength <for units without [Spirit]>",
+			"No damage penalty for wounded units <for units without [Spirit]>",
 			"[-10] HP when healing <for units without [Spirit]>"
 		],
 		"cities": ["Trensotio", "Spirrsoth", "Contorl", "Demonport", "Ouverthrou","Agregvatro","Ispretify","Homansleive","Enafmenas","Eimdanfur"],
@@ -1748,6 +1807,7 @@
 		"leaderName": "Hippolyta",
 		"adjective": ["Amazonian"],
 		"startBias": ["Jungle"],
+		"personality": "Courageous Matriarch",
 		
 		"startIntroPart1": "Hippolyta, the fierce and powerful Queen of the Amazons, a tribe of warrior women. Known for your exceptional strength and combat skills, as well as your leadership and wisdom, you lead your people with great vigor. The most revered among the Amazons, you dedicate yourself for the well being of the Amazons.",
 		"startIntroPart2": "O, great Hippolyta, your people seeks you once more. Will you battle through any obstacle thrown at your people? Will you stay strong and lead your people to glory? Can you build a civilization that will stand the test of time?",
@@ -1763,7 +1823,7 @@
 		
 		"outerColor": [194,160,119],
 		"innerColor": [162,9,50],
-		"uniqueName": "Fierce and Courageous ",
+		"uniqueName": "Fierce and Courageous",
 		"uniqueText": "Military land units gain +7% Strength for each promotion they gained from the promotions tree\nGain free [Palisade] for cities settled within 2 tiles of a Jungle",
 		"uniques": ["Gain a free [Palisade] [in all cities] <within [2] tiles of a [Jungle]>",
 					//Melee, Mounted, Armor
@@ -1802,6 +1862,7 @@
 		"leaderName": "Vieya",
 		"adjective": ["Undines"],
 		"startBias": ["Flood plains"],
+		"personality": "Guardian of Spirits",
 		
 		"startIntroPart1": "Vieya, the leader of Undines, you are a respected figure among your people. You guide them through difficult times, plowing through the storm that hinders your people. O, Vieya, your wisdom unites all of Undines, separated from one lake to another, from one river to another, you unite them all under one banner.",
 		"startIntroPart2": "Vieya, your people still in need of a wise leader such as yourself. Will you lead them once more? Will you survive and defend the Undines in these troubling times? Can you build a civilization that will stand the test of time?",
@@ -1818,7 +1879,7 @@
 		"outerColor": [121,201,193],
 		"innerColor": [39,112,31],
 		"uniqueName": "The Mana Flows",
-		"uniqueText": "Free [Worker] appears upon settling cities on River\nMay dowse for Manaline, the Manaline can provide yields without assigned population and gain +1 [Culture] every 2 eras\nMay dowse one more Manaline in cities with at least 10 populations",
+		"uniqueText": "Free [Worker] appears upon settling cities on River\nMay dowse for [Manaline], which provides yields without assigned population and gain +1 [Culture] every 2 eras\nMay dowse one more [Manaline] in cities with at least 10 populations",
 		"uniques": ["Free [Worker] appears <upon founding a city> <in [River] tiles>"],
 		"cities": ["Aquiline","Nereida","Lirien","Melusine","Ondine","Naiadine","Calypso","Coralene","Selkie","Tritonessa","Merrow",
 			"Syrena","Mariana"],
@@ -1836,6 +1897,7 @@
 		"leaderName": "Carolina",
 		"adjective": ["Enchanted Ones"],
 		"startBias": ["Coast"],
+		"personality": "The Enchanted",
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -1852,13 +1914,14 @@
 		"outerColor": [58, 101, 143],
 		"innerColor": [197, 230, 255]
 		"uniqueName": "The Enchanted Ones",
-		"uniqueText": "Gain [Science] upon building [Happiness] building\n+1 population in a random city upon entering new era",
+		"uniqueText": "Gain [Science] upon building [Happiness] building\n+1 population in a random city upon entering a Golden Age and a new era",
 		"uniques": ["Gain [20] [Science] <upon constructing [Circus]>",
 					"Gain [25] [Science] <upon constructing [Colosseum]>",
-					"Gain [75] [Science] <upon constructing [Dreamweaver Theatre]>",
-					"Gain [125] [Science] <upon constructing [Stadium]>",
+					"Gain [90] [Science] <upon constructing [Dreamweaver Theatre]>",
+					"Gain [140] [Science] <upon constructing [Stadium]>",
 					
 					//Extra pop stuffs
+					"[+1] population in a random city <upon entering a Golden Age>",
 					"[+1] population in a random city <upon entering the [Classical era]>",
 					"[+1] population in a random city <upon entering the [Medieval era]>",
 					"[+1] population in a random city <upon entering the [Renaissance era]>",
@@ -1877,5 +1940,45 @@
 			{"text":"Their unique unit has a low chance to duplicate themselves when constructed, albeit at a lower strength, their mastery on the art of illusions makes them harder to get damaged."},
         ]
 	},
+	
+	//King Midas of Phrygian Kingdom
+	{
+		"name": "Phrygian Kingdom",
+		"leaderName": "King Midas",
+		"adjective": ["Phrygians"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		"personality": "The Greedy King",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [139, 69, 19],
+		"innerColor": [218, 165, 32],
+		"uniqueName": "Midas' Curse",
+		"uniqueText": "+50% Yield from every Luxury resources\n+5% Strength for every 1000 [Gold] in treasury (up to +15%)",
+		"uniques": ["[+50]% Yield from every [Luxury resource]",
+					"[+5]% Strength <when number of [Gold] is more than [1000]>",
+					"[+5]% Strength <when number of [Gold] is more than [2000]>",
+					"[+5]% Strength <when number of [Gold] is more than [3000]>",
+					],
+		"cities": ["Gordium","Dorylaeum","Ancyra","Pessinus","Hierapolis","Troyon","Kybistra","Thrya","Veloria","Arsapara","Zindara",
+			"Kallithon","Olympos","Ephrona","Midasia"],
+		"civilopediaText": [
+			{"text":"."},
+			{"text":"."},
+			{"text":"."},
+        ]
+	},
+	
 	
 ]
