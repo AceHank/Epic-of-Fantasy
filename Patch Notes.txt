@@ -50,7 +50,7 @@ Civ changes:
 -Precursor: All unit now gain access to Mobility promotion as first option
 -Pyre: UU -1 Strength, promotion changed into Mark of Bane: Attack applies Baned for 3 turns, all damage received is increased by 5 and damage dealt is reduced by 5
 -Sacred Sun: UU gain 1 XP upon turn end when adjacent to a Great Prophet
--Salamander: Sun Obelisk range reduced to 1 (temporary), UU promotion reduced to 15%, UU and Sun Obelisk attack Burns target Land unit for 2 turns, taking 10 damages every turn unless in tile with access to water
+-Salamander: Sun Obelisk range increased to 2, UU promotion reduced to 15%, UU and Sun Obelisk attack Burns target Land unit for 2 turns, taking 10 damages every turn unless in tile with access to water
 -Scazari: UU promotion from 25% to 15% and 2nd part into Heal 5 HP upon taking damage
 -Shinso: Tsukaima changed Mobility I to Elusive, Onmyouji -3 Melee Strength, gain Withering Curse: Attack apllies Withered for 2 turns, can't heal/fortify, pilage, and no terrain bonus. Cooldown: 5 turns.
 -Tauren: Nerfed Strengths promotion line, UU -1 Strength and gain Enchant Totem: Activate to gain 1 free attack for thir turn. Cooldown: 8 turns.
