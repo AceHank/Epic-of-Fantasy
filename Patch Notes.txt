@@ -1,3 +1,91 @@
+v3.5 Abilities!!!
+
+This patch introduces some little new mechanics of Abilities.
+Abilities don't really require much explanation, they work as they are written (supposedly, please report for errors).
+
+Abilities:
+-Plenty of units now have abilities with cooldown, meaning they only activates when not in cooldown.
+-There are passive abilities and active abilities. Passive abilities are activated instantly when their conditions are satisfied.
+-Active abilities must be activated manually, and some of them has the same cooldown mechanic applied as well.
+
+New Civs:
+-Leonin Kingdom: The kingdom of Leonin, lion demihuman race
+-Phrygian Kingdom: The mythical kingdom of King Midas, the infamous greedy King
+
+Universal changes:
+-Water Creature promotion now lets unit attack when embarked but bonus Strength is removed and is NOT counted as Embarked
+-Bloodbath promotion changed into heals 5 HP upon damaging enemy (from "Heals 33 HP upon defeating")
+-Sentry promotion now can see invisible `Invisibility` units
+
+Civ changes:
+-Argonautian: Achiles' Bloodbath promotion changes
+-Basalt Remainers: All units gain +1 Move & +10% Strength after eruption for 10 turns, UU gain Invisibility tag, UB +1 Culture, NA +1 more Gold from City ruins, +5% more maintenance
+-Beastmen: Reduce the penalty of negative Happiness by half, Wyvern gain Wings
+-Celestials: All unit gain +1% Strength when defending for every Curative Spire in the empire
+-Centaur: UU -2 Strength, Charge promotion changed into Stampede: Attack applies Crushed, Crushed unit has -20% Strength
+-Deep Dweller: UU gain Water Creature promotion, now require Old God Monument to be built, UB now requires Pottery
+-Clockwerk: UU Cover promotion removed, UU can now sacrifice HP to gain +35% Strength for 2 turns
+-Dragonborn: UU -2 Strength, now gain Executioner: Receive +25% Strength for 1 turn and May attack again upon defeating a unit
+-Drow: UA gain +1 Food in Desert within 2 tiles of City center
+-Dwarven: +5% Science +1 Production in all cities for every Golden Age achieved, Strategic resources stats removed, UB Science reduced to +25%
+-Elven: UU -1 Strength, UB 2nd stats changed into milestones rather than static stats
+-Enkantos: Also gain random Population upon entering Golden Age
+-Fanrong: UU Cost +30, UU gain Supply promotion
+-Gaia: UU Invis now can be manually activated for 3 turns, +25% Strength during invis, Cooldown: 8 turns
+-Gnoll: UB's unique changed in cities with Courthouse, UU Fervor changed into Bonebreaker: Stun target unit for 1 turn with 15% chance
+-Gnome: Removed +2 Science from UA, +1 Great Engineer Points from Univ/Public School/Research Lab buildings, UB -1 Production, -1 Science, +1 Gold
+-Harpies: UU +2 Melee Strength & gain Galestorm Leap: Teleport up to 5 tiles from inside friendly territory. Cooldown: 10 turns.
+-Hellbourne: UU Bloodbath promotion changes, Azaniroth several abilities that need Mana to cast
+-High Elf: UU gain ability: Comebacks alive with 1 HP after defeated and is protected from all attack for 1 turn but can't attack, can only trigger once
+-Holy Lunar Theocracy: UU +1 Strength, UB now gain 1 Lunar Disciple specialist, +3 Faith & +3 Lunar Missionary Points, Lunar Missionary is a much better Missionary
+-Inquisitorial: UU -1 Strength and removed Spread Religion action UB now provide +1 Apostle Points, Apostle new UU that can spread religion like a Great Prophet once
+-Lithoid: UU -1 Strength, now may trigger an ability to attack limitlessly, but takes 30 damages everytime it attacks, duration 1 turn, can only be casted when in full health 
+-Lizardmen: UU -1 Strength, Amphibious II changed into +1 Movement & Can move after attacking in Fresh Water
+-Lyrian: UU -1 Strength, new promotion Divine Smite: Target unit takes extra 15 damage, cooldown 5 turns
+-Magnar: UU gain Bonebreaker promotion, Forced Levy now may choose its unit instead of Sword-line only
+-Merfolk: UU now may construct Floating City once, UI gain more yields but can't be next to one another, Water Creature promotion changes
+-Nature's: UU may instantly construct an improvement, +20 cost
+-Nerubian: UU -1 Strength, +2 cost, Barrage I changed into Shukuchi: Invis & +1 Movement for 2 turn, deals 15 damage on attack, buff is lost upon attacking, Cooldown: 10 turns
+-Necrontia: UU gain Ice Attack: Applies Chilled for 2 turns, -10% Strength and 10% chance of Freezing upon turn end
+-Precursor: All unit now gain access to Mobility promotion as first option
+-Pyre: UU -1 Strength, promotion changed into Mark of Bane: Attack applies Baned for 3 turns, all damage received is increased by 5 and damage dealt is reduced by 5
+-Sacred Sun: UU gain 1 XP upon turn end when adjacent to a Great Prophet
+-Salamander: Sun Obelisk range reduced to 1 (temporary), UU promotion reduced to 15%, UU and Sun Obelisk attack Burns target Land unit for 2 turns, taking 10 damages every turn unless in tile with access to water
+-Scazari: UU promotion from 25% to 15% and 2nd part into Heal 5 HP upon taking damage
+-Shinso: Tsukaima changed Mobility I to Elusive, Onmyouji -3 Melee Strength, gain Withering Curse: Attack apllies Withered for 2 turns, can't heal/fortify, pilage, and no terrain bonus. Cooldown: 5 turns.
+-Tauren: Nerfed Strengths promotion line, UU -1 Strength and gain Enchant Totem: Activate to gain 1 free attack for thir turn. Cooldown: 8 turns.
+-Amazons: UU -1 Strength, cost +10, gain Disarming Strike: Attack applies Disarmed for 1 turn, Disarmed unit can't attack. Cooldown: 5 turns.
+-Chroniclers: UU -1 Strength, promotion +33% Strength to +25%, changed +1 Move in friendly land into see over obstacle, and gain Sentry promotion
+-Walrus: UU ability changed into Frostbrand: Attack applies Frostbitten for 2, -1 Movement and takes 10 damage every turn
+-Wizard: UU -1 Strength, Mana Shield changed into every 5 turns instead of when full HP and protect from enemy Spells as well, Peacemaker Spell now Stun target for 2 turn
+-Troglodyte: UU promotion reduced to +10%, and gain Retribution: Land Melee units attacking this unit takes 10 damages, Ranged takes 5 damages
+-Troll: UU ability changed into Hunter's Mark: target unit receive 2-turn debuff that grants attacking unit +1 Move and +15% Strength
+-Uldra: UU now replaces Spearman, -1 Strength, promiton reduced to +15% Strength, and gain Winter's Grasp: Attack applies Chilled for 2 turns, -10% Strength and 10% chance of Freezing upon turn end
+-Undine: UU -1 Strength, and heals for 10 HP per turn when not in combat in the last 2 turns
+-Vigilo: UU now Uncaptureable and removes most negative statuses from nearby units
+
+Fixes:
+-Fixed plenty of obsolete uniques
+-Fixed Beastmen's Great General unable to be gained through combat
+-Fixed Inquisitorial's UU doesn't have religious strength
+-Fixed Troglodyte's Cavernhold not providing the correct yields
+-Fixed Undine's Manaline needs Jungle removal and now is improving resource instead of providing new ones
+
+Statuses list:
+-Baned: Takes extra 5 damage upon taking damage, deals 5 less damage upon dealing damage
+-Binded: Set movement to 1
+-Burning: Takes 10 damage on turn end, removed when in tile with water access
+-Chained: -3 Movement
+-Chilled: -10% Strength, 10% chance to be Frozen on turn end
+-Crushed: -20% Strength
+-Disarmed: Can't attack
+-Frostbitten: -1 Movement, takes 10 damage on turn end
+-Frozen: -50% Strength, Frozen is lost upon taking damage, otherwise same as Stunned
+-Marked: Give the attacker +1 Movement and +10% Strength
+-Stunned: -15% Strength, Can't do anything, including healing and fortifying
+-Withered: Can't heal by any means, can't Fortify, and receive no defensive terrain bonus
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v3.0
 
 New Civs:
