@@ -590,8 +590,8 @@
 	{
 		"name": "Overwhelming Attack",		
 		"uniques": ["Comment [When at full HP, attack applies [Stunned] to Wounded units for 1 turn. Cooldown: 5 turns.]",
-					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Wounded] unit> <for units without [Overwhelming Attack Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Overwhelming Attack Cooldown] status for [5] turn(s) <upon damaging a [Wounded] unit> <for units without [Overwhelming Attack Cooldown]> <hidden from users>"
+					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Wounded] unit> <when above [99] HP> <for units without [Overwhelming Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Overwhelming Attack Cooldown] status for [5] turn(s) <upon damaging a [Wounded] unit> <when above [99] HP> <for units without [Overwhelming Attack Cooldown]> <hidden from users>"
 					]
 	},
 	{
