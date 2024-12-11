@@ -32,3 +32,4 @@
 * [LOTR-Unciv](https://github.com/ravignir/LOTR-Unciv)
 * TheNounProject
 * FlatIcon
+* Freepik
