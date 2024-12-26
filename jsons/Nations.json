@@ -1,4 +1,4 @@
-[	
+[
 	//Higba of Dwarven Kingdom
 	{
 		"name": "Dwarven Kingdom",
@@ -141,7 +141,7 @@
 		"uniques": ["[+1 Food, +1 Culture, +1 Science] from every [Snow]",
 					"[+1] population [in all cities] <upon founding a city> <within [1] tiles of a [Tundra]>",
 					"[+1] population [in all cities] <upon founding a city> <within [2] tiles of a [Snow]>"], 
-		"cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nabû-Shar",
+		"cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nab\u00fb-Shar",
 			"Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
 		"civilopediaText": [
 			{"text":"Uldra is a creature of ice who lives in the arctics. They form a close relationship with their nature and can hardly live outside of it. But they tamed the unhospitable nature of arctic and it made them stronger."},
@@ -237,12 +237,12 @@
 		"startIntroPart1": "Aia Sylvanna! The Queen of the Elven, protector of the sacred lands. ",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "Ohtatimeár! A war is brewing, and it's your time to fall.",
+		"declaringWar": "Ohtatime\u00e1r! A war is brewing, and it's your time to fall.",
 		"attacked": "Damn you, I will not fall.",
 		"defeated": "The forest doesn't favor me it seems, my time has come.",
-		"introduction": "A na márië, I am Sylvanna, the Queen of Elven, what brings you to our sacred lands?",
+		"introduction": "A na m\u00e1ri\u00eb, I am Sylvanna, the Queen of Elven, what brings you to our sacred lands?",
 		
-		"neutralHello": "Namárië.",
+		"neutralHello": "Nam\u00e1ri\u00eb.",
 		"hateHello": "Begone.",
 		"tradeRequest": "We have a proposition for you.",
 		
@@ -258,7 +258,7 @@
 					"[+1 Science, +1 Faith] from each Trade Route <when number of [[Ancestor Tree] Buildings] is more than [7]>",
 					"Gain a free [Ancestor Artist] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [9]>",
 					"Starts with [Archery]"], 
-		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
+		"cities": ["Avallon\u00e8","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
 		"civilopediaText": [
 			{"text":"Elven Kingdom is a kingdom of elves who lives in Forest. They are adept at archery and has a deep cultural and faith bonds with the nature."},
@@ -475,9 +475,9 @@
 		"declaringWar": "By the decree of the highest order, we declare war upon you!",
 		"attacked": "Come then, testify our might!.",
 		"defeated": "Phacadam! This will not be the last of us!.",
-		"introduction": "Suilië, stranger. I am Aellerin of the Concordat. A master of the Arcane. Would you like to learn a trick or two?",
+		"introduction": "Suili\u00eb, stranger. I am Aellerin of the Concordat. A master of the Arcane. Would you like to learn a trick or two?",
 		
-		"neutralHello": "Suilië.",
+		"neutralHello": "Suili\u00eb.",
 		"hateHello": "Begone.",
 		"tradeRequest": "I have a request for you.",
 		
@@ -496,7 +496,7 @@
 					"Gain a free [Pantheon] belief <upon adopting [Freedom Complete]>",
 					"Gain a free [Pantheon] belief <upon adopting [Autocracy Complete]>",
 					"Gain a free [Pantheon] belief <upon adopting [Order Complete]>"], 
-		"cities": ["Aethlone","Kna Serine","Yal Taesi","Allna Aethel","Lylvatheas","Ulvenoris","E’ma Thalore","Aana Edhil","Eya Taesi","Omyveluna","Uym Allanar","Yllenhona",
+		"cities": ["Aethlone","Kna Serine","Yal Taesi","Allna Aethel","Lylvatheas","Ulvenoris","E\u2019ma Thalore","Aana Edhil","Eya Taesi","Omyveluna","Uym Allanar","Yllenhona",
 			"Ulyfalean","Nilanbel","Ollf Belanore","Narenshara","Ryne Asari"],
 		"civilopediaText": [
 			{"text":"High Elf Concordat, led by Aellerin is a high elven civilization that excels in wizardry. Their understanding of the arcane puts them one step ahead of the other civilization."},
@@ -561,8 +561,8 @@
 		"innerColor": [240,220,20],
 		"uniqueName": "Inward Perfection",
 		"uniques": ["Provides a [Shrine] in your first [4] cities for free", "[100]% of excess happiness converted to [Culture] <during a Golden Age>"], 
-		"cities": ["Origins"," Shūr Daraq","K�?ydūn","Kal�?t","Targhī","Bor�?k"," Mī�?n Deh","Jey�?v�?n","Kūh-e Rīg","Kūhs�?r","S�?rī Qayeh","Shūrbek",
-			"Qalandarī","Kalīl�?b�?d","Neg�?r","Eqb�?l�?b�?d","Nes�?’ Kūh"],
+		"cities": ["Origins"," Sh\u016br Daraq","K\u0101yd\u016bn","Kal\u0101t","Targh\u012b","Bor\u0101k"," M\u012b\u0101n Deh","Jey\u0101v\u0101n","K\u016bh-e R\u012bg","K\u016bhs\u0101r","S\u0101r\u012b Qayeh","Sh\u016brbek",
+			"Qalandar\u012b","Kal\u012bl\u0101b\u0101d","Neg\u0101r","Eqb\u0101l\u0101b\u0101d","Nes\u0101\u2019 K\u016bh"],
 		"civilopediaText": [
 			{"text":"Sacred Sun Theocracy is a human isolationist nation. Sacred Sun Theocracy worship the Sun as their deity, making Holy Lunar Theocracy as their rival nation, which worship the Lunar. They don't like other races than human and believes strongly in human supremacy. Thus their isolationist philoshopy in regarding international relationship with non-human races."},
 			{"text":"Sacred Sun Theocracy is a civilization that has good early game Faith output. Their unique building is a Courthouse replacement that can be built on their own cities."},
@@ -888,7 +888,7 @@
 	//Mårg of The Titans
 	{
 		"name": "The Titans",
-		"leaderName": "Mårg",
+		"leaderName": "M\u00e5rg",
 		"adjective": ["Titans"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Ultimate Builder",
@@ -915,8 +915,8 @@
 					"[Gold] cost of purchasing [{Military} {Land}] units [+43]%", 
 					"[Faith] cost of purchasing [{Military} {Land}] units [+43]%", 
 					"[-30]% Production when constructing [{Military} {Land}] units [in all cities]"],
-		"cities": ["Jättens Gångväg","Storafötter","Starkarm","Blodigthuvud","Skarpaögon","Stampa","Tungtben","Stålfjäder","Längtansplats","Förundrans","Undra",
-			"Bergig","Höjd"],
+		"cities": ["J\u00e4ttens G\u00e5ngv\u00e4g","Storaf\u00f6tter","Starkarm","Blodigthuvud","Skarpa\u00f6gon","Stampa","Tungtben","St\u00e5lfj\u00e4der","L\u00e4ngtansplats","F\u00f6rundrans","Undra",
+			"Bergig","H\u00f6jd"],
 		"civilopediaText": [
 			{"text":"The Titans is a civilization consisted of giants. They are peaceful civilization. But don't be fooled, they are good at war and fighting because of their sheer size and lots of training in the Arena."},
 			{"text":"The Titans has a good bonus towards wonder construction, but only the first wonder in a city. It's a little bit tricky bonus that you have to expand wide to maximize its bonus. But you also want to build tall so you can build Wonder more easily."},
@@ -1404,7 +1404,7 @@
 					"[+1] Movement <with [Eruption Fervor]>",
 					"[+10]% Strength <with [Eruption Fervor]>"],
 		"cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
-			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkulljö"],
+			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkullj\u00f6"],
 		"civilopediaText": [
 			{"text":"Basaltlings are constructs and zombie likes consisting of volcanic ash and rocks. They were once human beings that became victims of an active volcano. They now have a special relation to mountains. They are ready to defend them with their otherwise meaningless lives. They can even awaken volcanoes slumbering deep below when threatened."},
 			{"text":"Basalt Remainers are a good civ for both defense and early wars, with free besiege promotion for melee units and early Swordsman unique. You may also use eruptions to get missile-like units and gain a high military production."},
@@ -1612,7 +1612,7 @@
 		"declaringWar": "We have come to destroy and conquer.",
 		"attacked": "You will face the wrath of the Hellbourne!",
 		"defeated": "Damn you! I'll curse your blood with my last remaining power!",
-		"introduction": "Ash dägül! I am Zorgorath, the great demon lord of Hellbourne, you will bow before us!",
+		"introduction": "Ash d\u00e4g\u00fcl! I am Zorgorath, the great demon lord of Hellbourne, you will bow before us!",
 		
 		"neutralHello": "Speak.",
 		"hateHello": "Get out.",
@@ -1979,6 +1979,21 @@
 			{"text":"."},
         ]
 	},
-	
-	
 ]
+/*
+Characters:
+
+’: \u2019
+û: \u00fb
+á: \u00e1
+ë: \u00eb
+è: \u00e8
+ā: \u0101
+ū: \u016b
+ī: \u012b
+å: \u00e5
+ö: \u00f6
+ä: \u00e4
+ü: \u00fc
+
+*/
