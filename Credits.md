@@ -22,6 +22,9 @@
 #### Translations
 * foccio - Russian
 
+#### Special Thanks
+* [sls1005](https://github.com/sls1005) - for the valuable knowledge of encoding
+
 #### Discord community in general for suggestion, feedback, and criticism
 
 # Icons
