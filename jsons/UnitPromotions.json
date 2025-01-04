@@ -743,7 +743,8 @@
 		"uniques": ["Comment [Mark target unit for 2 turns. Gain +1 Movement and +15% Strength when attacking a [Marked] unit.]",
 					"[Target Unit] gains the [Marked] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 					"[This Unit] gains [1] movement <upon damaging a [IsMarked] unit> <hidden from users>",
-					"[+15]% Strength <when attacking> <vs [Marked] units> <hidden from users>"
+					"[+15]% Strength <when attacking> <vs [Marked] units> <hidden from users>",
+					"Can move after attacking",
 					]
 	},
 	{
