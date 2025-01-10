@@ -1,3 +1,52 @@
+v3.7 New Sprites are coming!!
+
+More sprites are coming with this patch! Mostly by @Indonesian Gentleman. (And one shameless AI sprite from the [Freepik](https://www.freepik.com/premium-ai-image/golden-sphinx-pixel-art-atop-books-pile_343316830.htm))
+For information, I've abandoned thinking too much about balance, I will still try to balance the Civs as much as possible, but, it is now has reduced focus.
+And because of the power creep of the new Civs, alongside the introduction of abilities (Patch 3.5), I recommend using Only Mod Civilizations by @amfauzn.
+Of course if you have suggestion on balancing I'll gladly listen and give it some thoughts!
+
+New Civs:
+-Einherjar Legion: The warriors of Valhalla has descended onto this realm
+-Kemetian Dynasty: Ancient Egyptian inspired civilization
+
+New Sprites:
+-Indonesian Gentleman
+-Bucketeer city template
+
+Universal Changes:
+-Water Creature units now has -15% Strength vs Ships
+-Chilled debuff Frozen chance up to 15% (from 10%)
+-Changed some personalities to better fit their Civilizations lore
+-Changed some Civ's color scheme to make it easier on the eyes
+
+Changes:
+-Basalt Remainers: -1 Faith from UB's City ruins bonus, City ruins now can be worked without assigned pop
+-Celestials: UB heal changed into: Adjacent unit takes 10 less damage, UU Volatile now affect Water units, but Ranged unit at half damage
+-Clockwerk: UI gain +1 Faith after completing Piety OR Rationalism, but -1 base Faith and +10 Faith when pillaged
+-Dragonborn: UU Gryphon abilities changed into 'Wings' and 'Sturdy' promotions, but -2 Strength
+-Enkantos: Slightly buffed Science gain from building Happiness buildings
+-Gnoll: UB -1 maintenance cost
+-Gnome: UU Strength reduced to 40, UA's GPP now all Science building except Library
+-Hellbourne: Infernal Regeneration now heals 50 HP, but increased mana cost to 15
+-High Elf: UU -1 Strength, Revived Zealot changed into Second Wind: Gain 25 HP upon reaching 25 HP or less, can only be activated once
+-Leonin: Removes Overwhelming Attack full HP condition but cooldown is increased to 7 turns
+-Lithoid: UU Reckless Spewing now gives "No damage penalty for wounded units"
+-Orc: Flank bonus to +25%, UI defensive bonus reduced to 15%
+-Salamander: Sun Obelisk now can't receive XP and reduced Sun Obelisk's Strength by around 10%
+-Walrus: UA free Settler now within 1 tile of Snow instead of on Snow
+-Wizard: UA -1 Science from Shrine, UB -3 Science, UB gain new specialist Spellweaver: +3 Science, +3 Peacemaker Spell Point
+-Troglodyte: Heavily Armored to +15% from +10%
+-Undines: Free Worker from River now only up to three times, Dowsing cost increased by around 40% & 2nd Manawell requires 12 pops. Also gain +1 Science when adjacent to Manawell & removed `Unpillageable`/`Irremoveable`
+
+Fixes:
+-Fixed broken encoding for words and city names, by sls1005
+-Fixed Argonautian States' doubled heal from Agathinus' promotion
+-Fixed Shinso' UA description to match actual effect
+-Fixed Spirit Pact's captured unit not destroying improvement on attack
+-Fixed Troglodyte Retribution description to matches with the in game effect
+-Fixed Withered status heals from promotions (Healer I/II, Medics, various UU's abilities)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v3.5 Abilities!!!
 
 This patch introduces some little new mechanics of Abilities.
