@@ -1,4 +1,4 @@
-[
+[	
 	//Higba of Dwarven Kingdom
 	{
 		"name": "Dwarven Kingdom",
@@ -23,14 +23,16 @@
 		"outerColor": [ 27, 53, 63]
 		"innerColor": [213,249,255],
 		"uniqueName": "Higba's Ingenuity",
-		"uniqueText": "+1 [Production] every 2 eras for cities settled on [Hill]\n+5% [Science] and +1 [Production] in all cities for every Golden Ages achieved",
-		"uniques": ["Instantly provides [1] [GA Counter] <upon entering a Golden Age>", "Gain an extra spy <upon discovering [Pottery] technology>",
-					"[+5]% [Science] [in all cities] <for every [GA Counter]>",
-					"[+1 Production] [in all cities] <for every [GA Counter]>",
-					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]>",
-					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]>",
-					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]>",
-					"[+1 Production] in cities on [Hill] tiles <starting from the [Information era]>"],
+		"uniques": ["Comment [+1 [Production] every 2 eras for cities settled on [Hill]]",
+					"Comment [+5% [Science] and +1 [Production] in all cities for every Golden Ages achieved]",
+					
+					"Instantly provides [1] [GA Counter] <upon entering a Golden Age> <hidden from users>",
+					"[+5]% [Science] [in all cities] <for every [GA Counter]> <hidden from users>",
+					"[+1 Production] [in all cities] <for every [GA Counter]> <hidden from users>",
+					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]> <hidden from users>",
+					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]> <hidden from users>",
+					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]> <hidden from users>",
+					"[+1 Production] in cities on [Hill] tiles <starting from the [Information era]> <hidden from users>"],
 		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
 			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
 		"civilopediaText": [
@@ -64,11 +66,14 @@
 		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
 		"uniqueName": "Revenge of the Fallen",
-		"uniqueText": "+1 [Production] for [Desert] tiles adjacent to City Center\n+1 [Food] for [Desert] tiles within 2 tiles of [City center]\nMelee Land units will avenge their fallen brother, they gain +50% Strength when attacking an enemy unit that has defeated a brethren",
-	//	Pending \nGain [Science] boost upon founding a city within 2 tile of enemy's territory (scales with era)
-		"uniques": ["[+1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>", "New [Meo] units start with [100] Experience [in all cities]",
-					"[+1 Food] from [Desert] tiles [in all cities] <within [2] tiles of a [City center]>",
-					"[{Melee} {Land}] units gain the [Vengeful] promotion",
+	//	"uniqueText": "\n\n",
+		"uniques": ["Comment [+1 [Production] for [Desert] tiles adjacent to [City center]]",
+					"Comment [+1 [Food] for [Desert] tiles within 2 tiles of [City center]]",
+					"Comment [Melee Land units will avenge their fallen brother, they gain +50% Strength when attacking an enemy unit that has defeated a brethren]",
+					
+					"[+1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles> <hidden from users>",
+					"[+1 Food] from [Desert] tiles [in all cities] <within [2] tiles of a [City center]> <hidden from users>",
+					"[{Melee} {Land}] units gain the [Vengeful] promotion <hidden from users>",
 					], 
 		"cities": ["Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argach","Lashire","Chenlaena","Ordton","Xaryna","Kurx",
 			"Alerough","Yauntyrr","Shurdriira","Zauiryn","Goyln"],
@@ -102,9 +107,8 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Endless Horde",
-		"uniqueText": "+15% [Production] when constructing Military Land units in all cities with [Barracks]\n+15% Flank attack bonuses",
 		"uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities] <in cities with a [Barracks]>",
-					"[+15]% to Flank Attack bonuses"], 
+					"[+25]% to Flank Attack bonuses"], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
@@ -137,10 +141,14 @@
 		"outerColor": [215,225,225],
 		"innerColor": [  0,  0,  0],
 		"uniqueName": "Chilling Touch",
-		"uniqueText": "+1 [Food], +1 [Culture], and +1 [Science] from every Snow tiles\n+1 Population from cities settled within 1 tile Tundra\n+1 Population from cities settled within 2 tiles Snow",
-		"uniques": ["[+1 Food, +1 Culture, +1 Science] from every [Snow]",
-					"[+1] population [in all cities] <upon founding a city> <within [1] tiles of a [Tundra]>",
-					"[+1] population [in all cities] <upon founding a city> <within [2] tiles of a [Snow]>"], 
+		"uniques": [
+					"Comment [+1 [Food], +1 [Culture], and +1 [Science] from every [Snow] tiles]",
+					"Comment [+1 Population in cities within 1 tile of [Tundra]]",
+					"Comment [+1 Population in cities within 2 tiles of [Snow]]",
+					
+					"[+1 Food, +1 Culture, +1 Science] from every [Snow] <hidden from users>",
+					"[+1] population [in all cities] <upon founding a city> <within [1] tiles of a [Tundra]> <hidden from users>",
+					"[+1] population [in all cities] <upon founding a city> <within [2] tiles of a [Snow]> <hidden from users>"], 
 		"cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nab\u00fb-Shar",
 			"Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
 		"civilopediaText": [
@@ -174,10 +182,16 @@
 		"outerColor": [78,244,234],
 		"innerColor": [85, 74, 32],
 		"uniqueName": "Song of the Seas",
-		"uniqueText": "+2 [Culture] for cities settled on Coastal tiles after discovering [Drama and Poetry]\nAll units may enter Ocean tiles after discovering [Compass]\nLand units gain the [Water Creature] promotion",
-		"uniques": ["[+2 Culture] in cities on [Coastal] tiles <after discovering [Drama and Poetry]>","[Land] units gain the [Water Creature] promotion",
-					"[Work Boats] units gain the [Floating City Builder] promotion",
-					"Enables embarkation for land units", "Enables [All] units to enter ocean tiles <after discovering [Compass]>"], 
+		"uniques": [
+					"Comment [+2 [Culture] for cities settled on Coastal tiles after discovering [Drama and Poetry]]",
+					"Comment [All units may enter [Ocean] tiles after discovering [Compass]]",
+					"Comment [Land units gain the [Water Creature] promotion]",
+					
+					"[+2 Culture] in cities on [Coastal] tiles <after discovering [Drama and Poetry]> <hidden from users>",
+					"[Land] units gain the [Water Creature] promotion <hidden from users>",
+					"Enables [All] units to enter ocean tiles <after discovering [Compass]> <hidden from users>",
+					"[Work Boats] units gain the [Floating City Builder] promotion <hidden from users>"], 
+					
 		"cities": ["Rimulus","Cyreus","Aenon","Seirus","Cari","Muriel","Laguna","Osharus","Nadah","Adriene","Raina","Ara",
 			"Cherith","Tishtar","Nerrocen","Orta","Tertis"],
 		"civilopediaText": [
@@ -249,15 +263,21 @@
 		"outerColor": [255,255,78],
 		"innerColor": [ 70,  0, 4],
 		"uniqueName": "One with Nature",
-		"uniqueText": "Starts with [Archery]\n+1 [Culture] from every Forest tiles adjacent to Forest tile\n+1 [Faith] from every Jungle tiles adjacent to Jungle tile",
-		"uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Forest] tiles>", "[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Jungle] tiles>",
-	//				"[+1 Culture, +1 Faith] [in all cities connected to capital] <in cities with a [Ancestor Tree]>",
-					"[+5]% [Culture] [in Capital] <when number of [[Ancestor Tree] Buildings] is more than [1]>",
-					"[+5]% [Culture] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [3]>",
-					"[+2 Production] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [5]>",
-					"[+1 Science, +1 Faith] from each Trade Route <when number of [[Ancestor Tree] Buildings] is more than [7]>",
-					"Gain a free [Ancestor Artist] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [9]>",
-					"Starts with [Archery]"], 
+	//	"uniqueText": "\n\n",
+		"uniques": [
+					"Comment [Starts with [Archery] unlocked]",
+					"Comment [+1 [Culture] from every [Forest] tiles adjacent to [Forest] tile]",
+					"Comment [+1 [Faith] from every [Jungle] tiles adjacent to [Jungle] tile]",
+		
+					"[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Forest] tiles> <hidden from users>", 
+					"[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Jungle] tiles> <hidden from users>",
+					
+					"[+5]% [Culture] [in Capital] <when number of [[Ancestor Tree] Buildings] is more than [1]> <hidden from users>",
+					"[+5]% [Culture] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [3]> <hidden from users>",
+					"[+2 Production] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [5]> <hidden from users>",
+					"[+1 Science, +1 Faith] from each Trade Route <when number of [[Ancestor Tree] Buildings] is more than [7]> <hidden from users>",
+					"Gain a free [Ancestor Artist] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [9]> <hidden from users>",
+					"Starts with [Archery] <hidden from users>"], 
 		"cities": ["Avallon\u00e8","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
 		"civilopediaText": [
@@ -291,8 +311,12 @@
 		"outerColor": [0, 43, 11],
 		"innerColor": [0,242,189],
 		"uniqueName": "Darkest Salvation",
-		"uniqueText": "Earn 50% of killed Military unit's Strength as [Faith] and [Science]\nGain a free [Old God Monument] in annexed cities",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]","Earn [50]% of killed [Military] unit's [Strength] as [Science]", "Gain a free [Old God Monument] [in annexed cities]"], 
+		"uniques": ["Comment [Earn 50% of killed Military unit's Strength as [Faith] and [Science]]",
+					"Comment [Gain a free [Old God Monument] in annexed cities]",
+					
+					"Earn [50]% of killed [Military] unit's [Strength] as [Faith] <hidden from users>",
+					"Earn [50]% of killed [Military] unit's [Strength] as [Science] <hidden from users>", 
+					"Gain a free [Old God Monument] [in annexed cities] <hidden from users>"], 
 		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
 			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
 		"civilopediaText": [
@@ -322,12 +346,15 @@
 		"hateHello": ".",
 		"tradeRequest": ".",
 		
-		"outerColor": [242,101,0],
-		"innerColor": [89, 255,0],
+		"outerColor": [225, 140, 50],
+		"innerColor": [5, 120, 65],
 		"uniqueName": "Draconic Wisdom",
-		"uniqueText": "Melee Sword and Gunpowder units gain Flying, they may pass through impassable terrains and see over obstacles\nGain 15 Influence when gifting a Flying units to City-States",
-		"uniques": ["Gain [15] Influence with a [Flying] gift to a City-State", 
-					"[Sword] units gain the [Wings] promotion", "[Gunpowder] units gain the [Wings] promotion"], 
+		"uniques": ["Comment [Melee footman units gain Flying, they may pass through impassable terrains and see over obstacles]",
+					"Comment [Gain 15 Influence when gifting a Flying units to City-States]"
+		
+					"Gain [15] Influence with a [Flying] gift to a City-State <hidden from users>", 
+					"[Sword] units gain the [Wings] promotion <hidden from users>", 
+					"[Gunpowder] units gain the [Wings] promotion <hidden from users>"], 
 		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
 				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
 				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
@@ -398,16 +425,17 @@
 		"outerColor": [0,136,230],
 		"innerColor": [255,255,255],
 		"uniqueName": "Heroic Tales",
-		"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free different unique Heroic General every era in capital",
-		"uniques": ["[Great General] is earned [-100]% faster", "[Land] units gain the [Agathinus' Recovery] promotion",
-					"Free [Achilles] appears <upon entering the [Classical era]>",
-					"Free [Orion] appears <upon entering the [Medieval era]>",
-					"Free [Agathinus] appears <upon entering the [Renaissance era]>",
-					"Free [Daedalus] appears <upon entering the [Industrial era]>",
-					"Free [Theopompus] appears <upon entering the [Modern era]>",
-					"Free [Castor] appears <upon entering the [Atomic era]>",
-					"Free [Pollux] appears <upon entering the [Atomic era]>",
-					"Free [Isagoras] appears <upon entering the [Information era]>"], 
+		"uniques": ["Comment [-100% [Great General] Point generation, but receive free different unique [Heroic General] every era in capital]",
+					
+					"[Great General] is earned [-100]% faster <hidden from users>",
+					"Free [Achilles] appears <upon entering the [Classical era]> <hidden from users>",
+					"Free [Orion] appears <upon entering the [Medieval era]> <hidden from users>",
+					"Free [Agathinus] appears <upon entering the [Renaissance era]> <hidden from users>",
+					"Free [Daedalus] appears <upon entering the [Industrial era]> <hidden from users>",
+					"Free [Theopompus] appears <upon entering the [Modern era]> <hidden from users>",
+					"Free [Castor] appears <upon entering the [Atomic era]> <hidden from users>",
+					"Free [Pollux] appears <upon entering the [Atomic era]> <hidden from users>",
+					"Free [Isagoras] appears <upon entering the [Information era]> <hidden from users>"], 
 		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
 			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
 		"civilopediaText": [
@@ -437,21 +465,27 @@
 		"hateHello": ".",
 		"tradeRequest": ".",
 		
-		"outerColor": [220,20,60],
+		"outerColor": [165,30,55],
 		"innerColor": [0,0,0],
 		"uniqueName": "Crimson Sky",
-		"uniqueText": "+1 [Happiness] from every [Barracks], [Armory], and [Military Academy]\n2 free [Pitlord]s appear upon completing your first Policy tree",
-		"uniques": ["[+1 Happiness] from every [Barracks]", "[+1 Happiness] from every [Armory]", "[+1 Happiness] from every [Military Academy]", 
-					"[2] free [Pitlord] units appear <upon adopting [Tradition Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
-					"[2] free [Pitlord] units appear <upon adopting [Liberty Complete]> <before adopting [Tradition Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
-					"[2] free [Pitlord] units appear <upon adopting [Honor Complete]> <before adopting [Liberty Complete]><before adopting [Tradition Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
-					"[2] free [Pitlord] units appear <upon adopting [Piety Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Tradition Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
-					"[2] free [Pitlord] units appear <upon adopting [Patronage Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Tradition Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
-					"[2] free [Pitlord] units appear <upon adopting [Commerce Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Tradition Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
-					"[2] free [Pitlord] units appear <upon adopting [Rationalism Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Tradition Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
-					"[2] free [Pitlord] units appear <upon adopting [Freedom Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Tradition Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
-					"[2] free [Pitlord] units appear <upon adopting [Autocracy Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Tradition Complete]><before adopting [Order Complete]>",
-					"[2] free [Pitlord] units appear <upon adopting [Order Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Tradition Complete]>",
+		"uniques": [
+					"Comment [+1 [Happiness] from every [Barracks], [Armory], and [Military Academy]]",
+					"Comment [2 free [Pitlord]s appear upon completing your first Policy tree]",
+					
+					"[+1 Happiness] from every [Barracks] <hidden from users>", 
+					"[+1 Happiness] from every [Armory] <hidden from users>", 
+					"[+1 Happiness] from every [Military Academy] <hidden from users>", 
+					
+					"[2] free [Pitlord] units appear <upon adopting [Tradition Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Liberty Complete]> <before adopting [Tradition Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Honor Complete]> <before adopting [Liberty Complete]><before adopting [Tradition Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Piety Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Tradition Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Patronage Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Tradition Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Commerce Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Tradition Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Rationalism Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Tradition Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Freedom Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Tradition Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Autocracy Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Tradition Complete]><before adopting [Order Complete]> <hidden from users>",
+					"[2] free [Pitlord] units appear <upon adopting [Order Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Tradition Complete]> <hidden from users>",
 					], 
 		"cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
 			"Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith"],
@@ -484,18 +518,21 @@
 		"outerColor": [140,190,214],
 		"innerColor": [90, 60, 80],
 		"uniqueName": "Artisan of the Arcane",
-		"uniqueText": "Gain a free Pantheon belief after completing a Policy Tree\n+2 [Culture], +2 [Production], +2 [Faith] in cities with at least 7 population",
-		"uniques": ["[+2 Culture, +2 Production, +2 Faith] <in cities with at least [7] [Population]>",
-					"Gain a free [Pantheon] belief <upon adopting [Tradition Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Liberty Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Honor Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Piety Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Patronage Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Commerce Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Rationalism Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Freedom Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Autocracy Complete]>",
-					"Gain a free [Pantheon] belief <upon adopting [Order Complete]>"], 
+		"uniques": ["Comment [Gain a free Pantheon belief upon completing a Policy Tree]",
+					"Comment [+2 [Culture], +2 [Production], +2 [Faith] in cities with at least 7 population]",
+		
+					"[+2 Culture, +2 Production, +2 Faith] <in cities with at least [7] [Population]> <hidden from users>",
+		
+					"Gain a free [Pantheon] belief <upon adopting [Tradition Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Liberty Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Honor Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Piety Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Patronage Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Commerce Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Rationalism Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Freedom Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Autocracy Complete]> <hidden from users>",
+					"Gain a free [Pantheon] belief <upon adopting [Order Complete]> <hidden from users>"], 
 		"cities": ["Aethlone","Kna Serine","Yal Taesi","Allna Aethel","Lylvatheas","Ulvenoris","E\u2019ma Thalore","Aana Edhil","Eya Taesi","Omyveluna","Uym Allanar","Yllenhona",
 			"Ulyfalean","Nilanbel","Ollf Belanore","Narenshara","Ryne Asari"],
 		"civilopediaText": [
@@ -528,8 +565,11 @@
 		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
 		"uniqueName": "Necropoleis",
-		"uniqueText": "+50% [Production] when constructing [Courthouse]\nA free strongest available Melee unit appears after you build [Courthouse]",
-		"uniques": ["[+50]% Production when constructing [Courthouse] buildings [in all cities]"], 
+		"uniques": ["Comment [+50% [Production] when constructing [Courthouse]]",
+					"Comment [A free strongest available Melee unit appears upon constructing [Courthouse]]",
+					
+					"[+50]% Production when constructing [Courthouse] buildings [in all cities] <hidden from users>"
+					], 
 		"cities": ["Necroheim","Fallenmere","Blightthorn","Shadowmoor","Amberburgh","Illmere","Deathfall","Bleakford","Nighthorne","Reaperton","Dreadmore","Grimmington",
 			"Woebrook","Weepingborough","Saurridge","Baneville","Netherbrooke"],
 		"civilopediaText": [
@@ -560,7 +600,10 @@
 		"outerColor": [153,50,204],
 		"innerColor": [240,220,20],
 		"uniqueName": "Inward Perfection",
-		"uniques": ["Provides a [Shrine] in your first [4] cities for free", "[100]% of excess happiness converted to [Culture] <during a Golden Age>"], 
+		"uniques": [
+					"Provides a [Shrine] in your first [4] cities for free", 
+					"[100]% of excess happiness converted to [Culture] <during a Golden Age>"
+					], 
 		"cities": ["Origins"," Sh\u016br Daraq","K\u0101yd\u016bn","Kal\u0101t","Targh\u012b","Bor\u0101k"," M\u012b\u0101n Deh","Jey\u0101v\u0101n","K\u016bh-e R\u012bg","K\u016bhs\u0101r","S\u0101r\u012b Qayeh","Sh\u016brbek",
 			"Qalandar\u012b","Kal\u012bl\u0101b\u0101d","Neg\u0101r","Eqb\u0101l\u0101b\u0101d","Nes\u0101\u2019 K\u016bh"],
 		"civilopediaText": [
@@ -594,9 +637,16 @@
 		"outerColor": [146,221,9],
 		"innerColor": [  0,  0,9],
 		"uniqueName": "Mother Tree Takes Root",
-		"uniqueText": "Replaces Palace with [Mother Tree]\nReveal all [Forest] and [Jungle] within 8 tile radius upon founding a city\nGain +1 Great Artist Point for cities settled adjacent to [Forest]\nGain +1 Great Scientist Point for cities settled adjacent to [Jungle]",
-		"uniques": ["Reveal up to [All] [Forest] within a [8] tile radius <upon founding a city>", "Reveal up to [All] [Jungle] within a [8] tile radius <upon founding a city>",
-					"Gain a free [Artistic Allure] [in all cities] <within [1] tiles of a [Forest]>", "Gain a free [Scientific Allure] [in all cities] <within [1] tiles of a [Jungle]>"], 
+		"uniques": ["Comment [Replaces Palace with [Mother Tree]]",
+					"Comment [Reveal all [Forest] and [Jungle] within 8 tile radius upon founding a city]",
+					"Comment [Gain +1 Great Artist Point in cities adjacent to [Forest]]",
+					"Comment [Gain +1 Great Scientist Point in cities adjacent to [Jungle]]",
+		
+					"Reveal up to [All] [Forest] within a [8] tile radius <upon founding a city> <hidden from users>", 
+					"Reveal up to [All] [Jungle] within a [8] tile radius <upon founding a city> <hidden from users>",
+					"Gain a free [Artistic Allure] [in all cities] <within [1] tiles of a [Forest]> <hidden from users>", 
+					"Gain a free [Scientific Allure] [in all cities] <within [1] tiles of a [Jungle]> <hidden from users>"
+					], 
 		"cities": ["Trillis","Haldine","Laurelena","Cinnamae","Viticella","Moraea","Fragaria","Elinoire","Aquilegia","Eucolonia","Daisis","Samisia",
 			"Nerine","Azolla","Apricis","Hemponia","Lilise"],
 		"civilopediaText": [
@@ -629,8 +679,11 @@
 		"outerColor": [139,69,19],
 		"innerColor": [128,0,0],
 		"uniqueName": "Broken God",
-		"uniqueText": "Gain access to [Priest of Cog] instead of Great Prophet that can construct [Clockwerk Temple] instead of [Holy Site]\n-15% [Faith] cost of generating [Priest of Cog]",
-		"uniques": ["[-15]% Faith cost of generating Great Prophet equivalents"], 
+		"uniques": ["Comment [Gain access to [Priest of Cog] instead of [Great Prophet]]",
+					"Comment [[Priest of Cog] may construct [Clockwerk Temple] instead of [Holy site]]",
+					"Comment [-15% [Faith] cost of generating [Priest of Cog]]",
+					
+					"[-15]% Faith cost of generating Great Prophet equivalents <hidden from users>"], 
 		"cities": ["Anachron","Trillium","Aerodrift","Cooperwall","Automaguard","Steampoint","Neddingfall","Chronoedge","Pitchpoint","Cantmourne","Blackwatch","Glockthain",
 			"Coverdrift","Steelhollow","Ironburg","Cinderguard","Blagfort"],
 		"civilopediaText": [
@@ -663,7 +716,11 @@
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
 		"uniqueName": "Heresy Watch",
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[+34]% Natural religion spread [in all cities]", "[+34]% Spread Religion Strength"], 
+		"uniques": [
+					"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", 
+					"[+34]% Natural religion spread [in all cities]", 
+					"[+34]% Spread Religion Strength"
+					], 
 		"cities": ["Serenity","Sanctum","Endurance","Forsaken","Aepligura","Knowledge","Exalted","Estuary","Erukami","Avretalis","Garden","Nutrahara",
 			"Pious","Radiant","Reliquary","Cardinal","Solstice"],
 		"civilopediaText": [
@@ -694,11 +751,13 @@
 		"hateHello": ".",
 		"tradeRequest": ".",
 		
-		"outerColor": [130,116,116],
-		"innerColor": [134,255,41],
+		"outerColor": [110,100,100],
+		"innerColor": [100,200,60],
 		"uniqueName": "Survival Instinct",
-	//	"uniqueText": "+50% Yield from every Improvement in Fresh Water tiles\n+15% Strength for Wounded units when defending"
-		"uniques": ["[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>", "[+20]% Strength <for [Wounded] units> <when defending>"], 
+		"uniques": [
+					"[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>", 
+					"[+20]% Strength <for [Wounded] units> <when defending>"
+					], 
 		"cities": ["Chauitzetl","Bhizzujix","Bhitta","Qraxl","Igriuchit","Chuttox","Quzdo","Ukeqax","Guxizo","Avretalis","Grinjoxxut","Sess",
 			"Ajiagzex","Zaetlis","Azus","Olzaro","Rhigris"],
 		"civilopediaText": [
@@ -730,10 +789,15 @@
 		"tradeRequest": ".",
 		
 		"outerColor": [150,41,41],
-		"innerColor": [74,35,35],
+		"innerColor": [246,205,137],
 		"uniqueName": "Running with the Pack",
-		"uniqueText": "+1 Movement for Land units\nMounted units resist half of Anti-Mounted units' bonus strength"
-		"uniques": ["[+1] Movement <for [Land] units>", "[Mounted] units gain the [Centaurian] promotion", "[Chariot Archer] units gain the [Centaurian] promotion"], 
+		"uniques": ["Comment [+1 Movement for Land units]",
+					"Comment [Mounted units resist half of Anti-Mounted units' bonus strength]",
+					
+					"[+1] Movement <for [Land] units> <hidden from users>", 
+					"[Mounted] units gain the [Sturdy] promotion <hidden from users>", 
+					"[Chariot Archer] units gain the [Sturdy] promotion <hidden from users>"
+					], 
 		"cities": ["Konstan","Apios","Oretus","Stergeneus","Barbadia","Naesima","Depheis","Monolea","Kaselaia","Arganassa","Haiderine","Zeran",
 			"Erasandrou","Perridas","Thomeimon","Coleros","Eusantes"],
 		"civilopediaText": [
@@ -765,7 +829,10 @@
 		"outerColor": [218,165,32],
 		"innerColor": [0,0,205],
 		"uniqueName": "Pillars of Heaven",
-		"uniqueText": "Gain access to 5 unique National Wonders after researching [Mathematics], [Guilds], [Writing], [Philosophy], and [Theology]\nReceive fortunes of choice after completing each National Wonder.",
+		"uniques": [
+					"Comment [Gain access to 5 unique National Wonders after researching [Mathematics], [Guilds], [Writing], [Philosophy], and [Theology]]",
+					"Comment [Receive a free Great Person and a Zen Overseer specialist (+2 [Food], +2 [Gold], +2 [Faith], +2 [Culture], +2 [Science]) in Capital]",
+					],
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
 		"civilopediaText": [
@@ -799,9 +866,8 @@
 		"outerColor": [34,60,138],
 		"innerColor": [193,120,120],
 		"uniqueName": "Tink Master",
-	//	"uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 [Science] from every [Workshop] and [Factory]",
-		"uniques": ["Comment [+1 [Great Scientist] Point from every [Science] buildings]",
-					"Comment [+1 [Great Engineer] Point from every [University], [Public School], and [Research Lab]]"],
+		"uniques": ["Comment [+1 [Great Scientist] & +1 [Great Engineer] points from every [Science] buildings except [Library]]",
+					],
 		"cities": ["Ironforge","Tinkertown","Techno City","Gnomenia","Cogfrenzy","Mekatorque","Steelgrill","Mechastation","Raceway","Gadgetstan","New Tinkertown",
 			"Clockwerk City","Steeltown","Thermacog","Gears City","Windforge","Area Zero","Shocktek City"],
 		"civilopediaText": [
@@ -835,10 +901,17 @@
 		"outerColor": [58,222,107],
 		"innerColor": [20,100,24],
 		"uniqueName": "Feathered Sovereign",
-		"uniqueText": "+1 [Food] from unimproved Hill tiles\nAll footman units gain Flying, they may pass through impassable terrains and see over obstacles",
-		"uniques": ["[Sword] units gain the [Harpy] promotion", "[Civilian] units gain the [Harpy] promotion", "[Gunpowder] units gain the [Harpy] promotion", "[Ranged Gunpowder] units gain the [Harpy] promotion",
-					"[Archery] units gain the [Harpy] promotion", "[Scout] units gain the [Harpy] promotion", 
-					"[+1 Food] from [Land] tiles [in all cities] <in [{unimproved} {Hill}] tiles>"],
+		"uniques": ["Comment [+1 [Food] from unimproved [Hill] tiles]",
+					"Comment [All footman units gain Flying, they may pass through impassable terrains and see over obstacles]",
+					
+					"[Sword] units gain the [Harpy] promotion <hidden from users>", 
+					"[Civilian] units gain the [Harpy] promotion <hidden from users>", 
+					"[Gunpowder] units gain the [Harpy] promotion <hidden from users>", 
+					"[Ranged Gunpowder] units gain the [Harpy] promotion <hidden from users>",
+					"[Archery] units gain the [Harpy] promotion <hidden from users>", 
+					"[Scout] units gain the [Harpy] promotion <hidden from users>", 
+					
+					"[+1 Food] from [Land] tiles [in all cities] <in [{unimproved} {Hill}] tiles> <hidden from users>"],
 		"cities": ["Stormclaw","Alpenia Peak","Bloodfeather","Anzalor Valley","Strongbeak","Marmouth Hills","Emberwing","Sorania Cliff","Stingtail","Marsia Forest","Featherfall",
 			"Koronea Heights","Steelfang"],
 		"civilopediaText": [
@@ -873,9 +946,11 @@
 		"outerColor": [94,66,66],
 		"innerColor": [227,9,9],
 		"uniqueName": "Gaia's Gift",
-		"uniqueText": "Can build improvement on Forest and Jungle tiles without removing them\n+1 [Culture] from improved Forest and Jungle tiles after discovering Acoustics",
-		"uniques": ["[+1 Culture] from every [Improvement] <in [Forest] tiles> <after discovering [Acoustics]>",
-					"[+1 Culture] from every [Improvement] <in [Jungle] tiles> <after discovering [Acoustics]>" ],
+		"uniques": ["Comment [Can build improvement on [Forest] and [Jungle] tiles without removing them]",
+					"Comment [+1 [Culture] from improved [Forest] and [Jungle] tiles after discovering [Acoustics]]",
+					
+					"[+1 Culture] from every [Improvement] <in [Forest] tiles> <after discovering [Acoustics]> <hidden from users>",
+					"[+1 Culture] from every [Improvement] <in [Jungle] tiles> <after discovering [Acoustics]> <hidden from users>" ],
 		"cities": ["Redleaf's Grounds","Gravenwoods","Snakeroot","Greenstream","Timberland","Ashengrove","Forlondbranch","Wildwoods","Cloverforest","Overgrowth","Redleaf",
 			"Nightbush","Entanglingroot"],
 		"civilopediaText": [
@@ -908,13 +983,15 @@
 		"outerColor": [77,145,129],
 		"innerColor": [15,247,193],
 		"uniqueName": "Byggare",
-		"uniqueText": "+40% [Production] when constructing World Wonder for the first time in a city\nMilitary land units are +15% stronger but more expensive to produce",
-		"uniques": ["[+40]% Production when constructing [World Wonder] wonders [in all cities]",
-					"[-40]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]",
-					"[+15]% Strength <for [{Military} {Land}] units>", 
-					"[Gold] cost of purchasing [{Military} {Land}] units [+43]%", 
-					"[Faith] cost of purchasing [{Military} {Land}] units [+43]%", 
-					"[-30]% Production when constructing [{Military} {Land}] units [in all cities]"],
+		"uniques": ["Comment [+40% [Production] when constructing World Wonder for the first time in a city]",
+					"Comment [Military land units gain +15% Strength but are more expensive to produce]",
+					
+					"[+40]% Production when constructing [World Wonder] wonders [in all cities] <in cities without a [World Wonder]> <hidden from users>",
+					"[+15]% Strength <for [{Military} {Land}] units> <hidden from users>", 
+					"[Gold] cost of purchasing [{Military} {Land}] units [+43]% <hidden from users>", 
+					"[Faith] cost of purchasing [{Military} {Land}] units [+43]% <hidden from users>", 
+					"[-30]% Production when constructing [{Military} {Land}] units [in all cities] <hidden from users>"
+					],
 		"cities": ["J\u00e4ttens G\u00e5ngv\u00e4g","Storaf\u00f6tter","Starkarm","Blodigthuvud","Skarpa\u00f6gon","Stampa","Tungtben","St\u00e5lfj\u00e4der","L\u00e4ngtansplats","F\u00f6rundrans","Undra",
 			"Bergig","H\u00f6jd"],
 		"civilopediaText": [
@@ -947,17 +1024,20 @@
 		"outerColor": [61,37,37],
 		"innerColor": [240,200,0],
 		"uniqueName": "Dig, Dig, Dig!",
-		"uniqueText": "-25% tile improvement construction time in Hill tiles\n+2 [Gold] from resources improved with [Lodepit]",
-		"uniques": ["[-25]% construction time for [All] improvements <in [Hill] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Iron] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Coal] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Aluminum] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Uranium] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Gems] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Gold Ore] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Silver] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Copper] tiles>",
-					"[+2 Gold] from every [Lodepit] <in [Salt] tiles>"],
+		"uniques": ["Comment [-25% tile improvement construction time in [Hill] tiles]",
+					"Comment [+2 [Gold] from resources improved with [Lodepit]]",
+					
+					"[-25]% construction time for [All] improvements <in [Hill] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Iron] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Coal] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Aluminum] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Uranium] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Gems] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Gold Ore] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Silver] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Copper] tiles> <hidden from users>",
+					"[+2 Gold] from every [Lodepit] <in [Salt] tiles> <hidden from users>"
+					],
 		"cities": ["Candle Rock","Whitetunnel","Gravelsnout","Highmountain","Drypickaxe","Mucksnout","Boulderslide","Mudwhisker","Flintdagger","Goldtooth","Bluewax",
 			"Silver Rock","Steel Mountain"],
 		"civilopediaText": [
@@ -991,9 +1071,12 @@
 		"outerColor": [240,200,0],
 		"innerColor": [0,0,0],
 		"uniqueName": "Abundance of Wealth",
-		"uniqueText": "+1 [Gold] from Coast\nReceive 3 [Porcelain]s in Capital upon constructing National Treasury",
-		"uniques": ["[+1 Gold] from every [Coast]",
-					"Gain a free [Qingbai Wares] [in capital] <if [National Treasury] is constructed>"],
+		"uniques": ["Comment [+1 [Gold] from [Coast]]",
+					"Comment [Receive 3 [Porcelain]s in Capital upon constructing [National Treasury]]",
+					
+					"[+1 Gold] from every [Coast] <hidden from users>",
+					"Gain a free [Qingbai Wares] [in capital] <if [National Treasury] is constructed> <hidden from users>"
+					],
 		"cities": ["Gwangjing","Fushu","Zhongging","Dong Zhe","Ba Chuan","Lauzhun","Dongguang","Chang Shi","Xinzhong","Huideguang","Jan Hai",
 			"Shijiang","Yunshan"],
 		"civilopediaText": [
@@ -1026,9 +1109,12 @@
 		"outerColor": [85,0,255],
 		"innerColor": [245,91,206],
 		"uniqueName": "Peacemaker Project",
-		"uniqueText": "Receive free [Peacemaker Spell] in capital every new era\n+2 [Science] from every [Shrine] and [Temple]",
-		"uniques": ["[+2 Science] from every [Shrine]",
-					"[+2 Science] from every [Temple]",
+		"uniques": ["Comment [Receive free [Peacemaker Spell] in Capital upon entering a new era]",
+					"Comment [+1 [Science] from every [Shrine]]",
+					"Comment [+2 [Science] from every [Temple]]",
+					
+					"[+1 Science] from every [Shrine] <hidden from users>",
+					"[+2 Science] from every [Temple] <hidden from users>",
 					"Free [Peacemaker Spell] appears <upon entering a new era> <hidden from users>",
 					],
 		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
@@ -1064,18 +1150,21 @@
 		"outerColor": [ 66,59,59],
 		"innerColor": [255,178,72],
 		"uniqueName": "The Great Hunt",
-		"uniqueText": "Land units gain the [Woodsman] promotion\nReceive a free Sword or Gunpowder units upon discovering the technology that unlocks them",
-		"uniques": ["[Land] units gain the [Woodsman] promotion",
+		"uniques": ["Comment [Land units gain the [Woodsman] promotion]",
+					"Comment [Receive a free Sword or Gunpowder units upon discovering the technology that unlocks them]",
+					
+					"[Land] units gain the [Woodsman] promotion <hidden from users>",
 					//Receive free stuffs
-					"Free [Troll Headhunter] appears <upon discovering [Bronze Working] technology>",
-					"Free [Swordsman] appears <upon discovering [Iron Working] technology>",
-					"Free [Pikeman] appears <upon discovering [Civil Service] technology>",
-					"Free [Longswordsman] appears <upon discovering [Steel] technology>",
-					"Free [Musketman] appears <upon discovering [Gunpowder] technology>",
-					"Free [Rifleman] appears <upon discovering [Rifling] technology>",
-					"Free [Great War Infantry] appears <upon discovering [Replaceable Parts] technology>",
-					"Free [Infantry] appears <upon discovering [Plastics] technology>",
-					"Free [Mechanized Infantry] appears <upon discovering [Mobile Tactics] technology>"],
+					"Free [Troll Headhunter] appears <upon discovering [Bronze Working] technology> <hidden from users>",
+					"Free [Swordsman] appears <upon discovering [Iron Working] technology> <hidden from users>",
+					"Free [Pikeman] appears <upon discovering [Civil Service] technology> <hidden from users>",
+					"Free [Longswordsman] appears <upon discovering [Steel] technology> <hidden from users>",
+					"Free [Musketman] appears <upon discovering [Gunpowder] technology> <hidden from users>",
+					"Free [Rifleman] appears <upon discovering [Rifling] technology> <hidden from users>",
+					"Free [Great War Infantry] appears <upon discovering [Replaceable Parts] technology> <hidden from users>",
+					"Free [Infantry] appears <upon discovering [Plastics] technology> <hidden from users>",
+					"Free [Mechanized Infantry] appears <upon discovering [Mobile Tactics] technology> <hidden from users>"
+					],
 		"cities": ["Trezzahn","Zulabar","Nuenvan","Vinji","Jinthaiya","Alunja","Vinji","Usitutie","Zulrea","Khijazi","Kizi",
 			"Katzine","Girisha","Zuljin","Teza","Zulwatha"],
 		"civilopediaText": [
@@ -1108,8 +1197,11 @@
 		"outerColor": [75,135,30],
 		"innerColor": [255,239,8],
 		"uniqueName": "We Are Billions",
-		"uniqueText": "+1 [Production], +1 [Happiness] in all cities\n+5% [Culture] from every [Food] buildings",
-		"uniques": ["[+1 Production, +1 Happiness] [in all cities]", "[+5]% [Culture] from every [Food]"],
+		"uniques": ["Comment [+1 [Production], +1 [Happiness] in all cities]",
+					"Comment [+5% [Culture] from every [Food] buildings]",
+					
+					"[+1 Production, +1 Happiness] [in all cities] <hidden from users>", 
+					"[+5]% [Culture] from every [Food] <hidden from users>"],
 		"cities": ["Vurl Raxl","Aklac","Raxibb","Ypaccib","Avixail","Haxizabb","Tymcrix","Oxocodolf","Varlinaca","Lobbtika","Ufpol",
 			"Laxtric","Nobhax","Pomic Krac","Leexidanaca","Crumtica"],
 		"civilopediaText": [
@@ -1215,11 +1307,19 @@
 		"outerColor": [99,39,39],
 		"innerColor": [46,133,108],
 		"uniqueName": "Howling Fjord",
-		"uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+1 [Food], +1 [Production], and +1 [Culture] in all cities with less than 5 population, +2 if settled on [Tundra], +4 if settled on [Snow]",
-		"uniques": ["Free [Settler] appears <upon founding a city> <in [Snow] tiles>",
-					"[+1 Culture, +1 Food, +1 Production] [in all cities]", "[-1 Culture, -1 Food, -1 Production] [in all cities] <in cities with at least [5] [Population]>",
-					"[+1 Culture, +1 Food, +1 Production] in cities on [Tundra] tiles", "[-1 Culture, -1 Food, -1 Production] in cities on [Tundra] tiles <in cities with at least [5] [Population]>",
-					"[+3 Culture, +3 Food, +3 Production] in cities on [Snow] tiles", "[-3 Culture, -3 Food, -3 Production] in cities on [Snow] tiles <in cities with at least [5] [Population]>"], 
+		"uniques": ["Comment [Receive free [Settler] in all cities settled within 1 tile of [Snow]]",
+					"Comment [+1 [Food], +1 [Production], and +1 [Culture] in all cities with less than 5 population, +2 if settled on [Tundra], +4 if settled on [Snow]]",
+					
+					"Free [Settler] appears <upon founding a city> <within [1] tiles of a [Snow]> <hidden from users>",
+					
+					"[+1 Culture, +1 Food, +1 Production] [in all cities] <hidden from users>", 
+					"[-1 Culture, -1 Food, -1 Production] [in all cities] <in cities with at least [5] [Population]> <hidden from users>",
+					
+					"[+1 Culture, +1 Food, +1 Production] in cities on [Tundra] tiles <hidden from users>", 
+					"[-1 Culture, -1 Food, -1 Production] in cities on [Tundra] tiles <in cities with at least [5] [Population]> <hidden from users>",
+					
+					"[+3 Culture, +3 Food, +3 Production] in cities on [Snow] tiles <hidden from users>", 
+					"[-3 Culture, -3 Food, -3 Production] in cities on [Snow] tiles <in cities with at least [5] [Population]> <hidden from users>"], 
 		"cities": ["Nainarfet","Coldstone","Ikkash","Paimejuq","Qoqnirk","So'kak","Icyrock","Mook'urna","Tusk","Darurraq","Brownfur","Uudwernot",
 			"Mook'urna","Hrewengit","Sha'iliish","Hurrachiiq","Kepvaii"],
 		"civilopediaText": [
@@ -1288,12 +1388,9 @@
 		"outerColor": [113,12,201],
 		"innerColor": [182,186,224],
 		"uniqueName": "Lunar's Blessing",
-		"uniqueText": "Receive free [Great Prophet] when you complete [Aspect of the Moon] for the first time in Capital\nReceive free [Great Scientist] when you complete a World Wonder for the first time in Capital",
-	/*	"uniques": ["Free [Great Prophet] appears <upon constructing [Aspect of the Moon] <in cities with a [Palace]> <in cities without a [Lunar's Revelation]>", 
-					"Gain a free [Lunar's Revelation] [in capital] <in cities with a [Aspect of the Moon]>", 
-					"Free [Great Scientist] appears <upon constructing [World Wonder] [in capital]> <in cities with a [Palace]> <in cities without a [Lunar's Invention]>",
-					"Gain a free [Lunar's Invention] [in capital] <in cities with a [World Wonder]>",],
-	Doesn't work	*/
+		"uniques": ["Comment [Receive free [Great Prophet] when you complete [Aspect of the Moon] for the first time in Capital]",
+					"Comment [Receive free [Great Scientist] when you complete a World Wonder for the first time in Capital]",
+					],
 		"cities": ["Lunarius","Aeris","Xyranthius","Korolia","Mirias","Yolis","Valecia","Nightfall","Estest","Mellago","Albua",
 			"Vrybergam","Rahvun","Rumul","Cygnus","Diana"],
 		"civilopediaText": [
@@ -1327,8 +1424,8 @@
 		"outerColor": [54,158,94],
 		"innerColor": [0,0,0],
 		"uniqueName": "Forced Levy",
-		"uniqueText": "May purchase strongest available unit (your choice) of a unitline with population once per city\n+2 [Gold], +2 [Production] in annexed cities",
-		"uniques": ["[+2 Gold, +2 Production] [in annexed cities]"],
+		"uniques": ["Comment [May purchase strongest available unit from a unitline of your choice using Population once per city]",
+					"[+2 Gold, +2 Production] [in annexed cities]"],
 		"cities": ["Drogon","Taygete","Grimrock","Haruspex","Hatena","Kujata","Makantor","Moloki","Rizen","Thulu","Isenmaar",
 			"Knosph","Squelor","Atabury","Golonac","Ototh"],
 		"civilopediaText": [
@@ -1362,7 +1459,7 @@
 		"outerColor": [117,67,20],
 		"innerColor": [49,173,169],
 		"uniqueName": "Deep Slumber",
-		"uniqueText": "May unearth population from adjacent [Hill] or [Mountain] up to 3 times per city",
+		"uniques": ["Comment [May unearth population from adjacent [Hill] or [Mountain] up to 3 times per city]"]
 		"cities": ["Forgefall","Kiln Edge","Leevoss","Pittenrock","Bordstone","Armstane","Falkid","Eskrick","Undulonn","Rask","Ousten Bank",
 			"Ratholl","Baikenvoss","Apitea","Mennia","Lamder"],
 		"civilopediaText": [
@@ -1397,13 +1494,20 @@
 		"outerColor": [90,93,95],
 		"innerColor": [154,170,170],
 		"uniqueName": "From Ashes to a New Fate",
-		"uniqueText": "Melee Land units gain [Besiege] promotion, but units cost +25% maintenance and -1 Supply per city\n+3 [Gold] from every [Mountain] and [City ruins]\nMay trigger an eruption once in every city next to [Mountain] when at war (up to 12 times)\n+1 Movement and +10% Strength for 10 turns after eruption",
-		"uniques": ["[+3 Gold] from every [Mountain]","[+3 Gold] from every [City ruins]",
-					"[{Melee} {Land}] units gain the [Besiege] promotion","[-1] Unit Supply per city","[+25]% maintenance costs <for [{Land} {Melee}] units>",
+		"uniques": ["Comment [+3 [Gold] from every [Mountain] and [City ruins]]",
+					"Comment [Melee Land units gain [Besiege] promotion, but units cost +25% maintenance and -1 Supply per city]",
+					"Comment [May trigger an eruption once in every city next to [Mountain] when at war (up to 12 times)]",
+					"Comment [+1 Movement, +10% Strength for 10 turns after an eruption]",
+		
+					"[+3 Gold] from every [Mountain] <hidden from users>",
+					"[+3 Gold] from every [City ruins] <hidden from users>",
+					"[{Melee} {Land}] units gain the [Besiege] promotion <hidden from users>",
+					"[-1] Unit Supply per city <hidden from users>",
+					"[+25]% maintenance costs <for [{Land} {Melee}] units> <hidden from users>",
 					//Eruption Fervor
-					"Instantly consumes [1] [Eruption Fervor] <upon turn end> <when above [0] [Eruption Fervor]>",
-					"[+1] Movement <with [Eruption Fervor]>",
-					"[+10]% Strength <with [Eruption Fervor]>"],
+					"Instantly consumes [1] [Eruption Fervor] <upon turn end> <when above [0] [Eruption Fervor]> <hidden from users>",
+					"[+1] Movement <with [Eruption Fervor]> <hidden from users>",
+					"[+10]% Strength <with [Eruption Fervor]> <hidden from users>"],
 		"cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
 			"Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkullj\u00f6"],
 		"civilopediaText": [
@@ -1471,14 +1575,17 @@
 		"outerColor": [245,93,5],
 		"innerColor": [255,255,255],
 		"uniqueName": "Incandescent Ray",
-		"uniqueText": "Receive free [Sun Obelisk] in all cities\n+1 [Food] in City Center for each adjacent Desert tiles\n+1 [Faith] in City Center for every 2 adjacent Desert tiles",
-		"uniques": ["Free [Sun Obelisk] appears <upon founding a city>",
-					"[+1 Food] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
-					"[+2 Food, +1 Faith] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
-					"[+3 Food, +1 Faith] [in all cities] <with [3] to [3] neighboring [Desert] tiles>",
-					"[+4 Food, +2 Faith] [in all cities] <with [4] to [4] neighboring [Desert] tiles>",
-					"[+5 Food, +2 Faith] [in all cities] <with [5] to [5] neighboring [Desert] tiles>",
-					"[+6 Food, +3 Faith] [in all cities] <with [6] to [6] neighboring [Desert] tiles>"],
+		"uniques": ["Comment [Receive free [Sun Obelisk] in all cities]",
+					"Comment [+1 [Food] in [City center] for each adjacent [Desert] tiles]",
+					"Comment [+1 [Faith] in [City center] for every 2 adjacent [Desert] tiles]",
+					
+					"Free [Sun Obelisk] appears <upon founding a city> <hidden from users>",
+					"[+1 Food] [in all cities] <with [1] to [1] neighboring [Desert] tiles> <hidden from users>",
+					"[+2 Food, +1 Faith] [in all cities] <with [2] to [2] neighboring [Desert] tiles> <hidden from users>",
+					"[+3 Food, +1 Faith] [in all cities] <with [3] to [3] neighboring [Desert] tiles> <hidden from users>",
+					"[+4 Food, +2 Faith] [in all cities] <with [4] to [4] neighboring [Desert] tiles> <hidden from users>",
+					"[+5 Food, +2 Faith] [in all cities] <with [5] to [5] neighboring [Desert] tiles> <hidden from users>",
+					"[+6 Food, +3 Faith] [in all cities] <with [6] to [6] neighboring [Desert] tiles> <hidden from users>"],
 		"cities": ["Ra'Bothnor","Ka'Tanab","Ata'Podossa","Pan'Kischa","Na'Valus","Bid'Tarakii","Shil'Tanask","Fal'Kaboss","Gal'Suposk","Ro'Essek","Nas'Simmir",
 			"Shi'Poltan","Ira'Monosk"],
 		"civilopediaText": [
@@ -1512,9 +1619,11 @@
 		"outerColor": [108,188,235],
 		"innerColor": [109,32,186],
 		"uniqueName": "Necrophages",
-		"uniqueText": "Military Land unit heals 20 damage if it kills a unit\n+2 [Food], +1 [Happiness] per 5 population in all cities",
-		"uniques": ["[+1 Happiness, +2 Food] per [5] population [in all cities]",
-					"[{Military} {Land}] units gain the [Eternal] promotion"],
+		"uniques": ["Comment [Military Land unit heals 20 damage if it kills a unit]",
+					"Comment [+2 [Food], +1 [Happiness] per 5 Population in all cities]",
+					
+					"[+1 Happiness, +2 Food] per [5] population [in all cities] <hidden from users>",
+					"[{Military} {Land}] units gain the [Eternal] promotion <hidden from users>"],
 		"cities": ["Cloctii","Xulzenoca","Icti","Tect","Nuitz","Mezactii","Aquetoc","Aeqantzi","Eopt","Huctl","Auiza",
 			"Eluqec","Inqotl"],
 		"civilopediaText": [
@@ -1582,14 +1691,17 @@
 		"outerColor": [237,216,184],
 		"innerColor": [  0, 54,255],
 		"uniqueName": "Enlightenment",
-		"uniqueText": "+1 [Faith] from every Defensive buildings\nWhen spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]\n+1% Strength when defending for every [Curative Spire]",
-		"uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]",
-					"[+1]% Strength <when defending> <for every [[Curative Spire] Buildings]>",
-					"[+1 Faith] from every [Curative Spire]",
-					"[+1 Faith] from every [Walls]",
-					"[+1 Faith] from every [Castle]",
-					"[+1 Faith] from every [Arsenal]",
-					"[+1 Faith] from every [Military Base]"],
+		"uniques": ["Comment [+1 [Faith] from every Defensive buildings]",
+					"Comment [When spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]]",
+					"Comment [+1% Strength when defending for every [Curative Spire] built]",
+					
+					"When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture] <hidden from users>",
+					"[+1]% Strength <when defending> <for every [[Curative Spire] Buildings]> <hidden from users>", 
+					"[+1 Faith] from every [Curative Spire] <hidden from users>",
+					"[+1 Faith] from every [Walls] <hidden from users>",
+					"[+1 Faith] from every [Castle] <hidden from users>",
+					"[+1 Faith] from every [Arsenal] <hidden from users>",
+					"[+1 Faith] from every [Military Base] <hidden from users>"],
 		"cities": ["Thraemeus","Oriel","Jazriul","Melevon","Zachriel","Jophiel","Dumah","Edelbart","Ruhiel","Zagzagel","Sealtiel",
 			"Halalia","Serradus"],
 		"civilopediaText": [
@@ -1619,14 +1731,17 @@
 		"hateHello": "Get out.",
 		"tradeRequest": "It's unusual for us to bargain, but alas.",
 		
-		"outerColor": [245,70,22],
+		"outerColor": [200,60,18],
 		"innerColor": [  0, 0,0],
 		"uniqueName": "From the Depths of Hell",
-		"uniqueText": "Free [Archdemon Azaniroth] appears upon discovering [Theology] (can be revived at an increasing price of 500 [Faith])\nAzaniroth can cast various abilities using [Mana] with varying cost\n+30% [Production] when constructing Military units when at peace",
-		"uniques": ["Free [Archdemon Azaniroth] appears <upon discovering [Theology] technology>", //"Gain a free [Altar of Azaniroth] [in capital] <after discovering [Theology]>", 
-					"Instantly consumes [1] [Azaniroth Mana] <upon turn end> <when above [100] [Azaniroth Mana]>",
-					"May buy [Archdemon Azaniroth] units for [500] [Faith] [in all cities] at an increasing price ([500]) <after discovering [Theology]>",
-					"[+30]% Production when constructing [Military] units [in all cities] <when not at war>"],
+		"uniques": ["Comment [Free [Archdemon Azaniroth] appears upon discovering [Theology] (can be revived at an increasing price of 500 [Faith])]",
+					"Comment [[Archdemon Azaniroth] can cast various abilities using [Mana] with varying cost]",
+					"Comment [+30% [Production] when constructing Military units when at peace]",
+		
+					"Free [Archdemon Azaniroth] appears <upon discovering [Theology] technology> <hidden from users>", //"Gain a free [Altar of Azaniroth] [in capital] <after discovering [Theology]>", 
+					"Instantly consumes [1] [Azaniroth Mana] <upon turn end> <when above [100] [Azaniroth Mana]> <hidden from users>",
+					"May buy [Archdemon Azaniroth] units for [500] [Faith] [in all cities] at an increasing price ([500]) <after discovering [Theology]> <hidden from users>",
+					"[+30]% Production when constructing [Military] units [in all cities] <when not at war> <hidden from users>"],
 		"cities": ["Xaphempunzu","Baalakibu","Gothi","Sovil","Xellaym","Muratzo","Kragoch","Pazunatas","Xaphirou","Zothra","Vasso",
 			"Sucorei","Xgorgon"],
 		"civilopediaText": [
@@ -1659,16 +1774,18 @@
 		"outerColor": [81,69,55],
 		"innerColor": [212,139,80],
 		"uniqueName": "Feared Mercenaries",
-		"uniqueText": "Empire enters a 4-turn Golden Age and receive a free strongest available Melee unit upon declaring war with a major Civilization",
-		"uniques": ["Empire enters a [4]-turn Golden Age <upon declaring war with a major Civilization>",
-					"Free [Warrior] appears <before discovering [Iron Working]> <upon declaring war with a major Civilization>", 
-					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon declaring war with a major Civilization>",
-					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <upon declaring war with a major Civilization>",
-					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]> <upon declaring war with a major Civilization>",
-					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon declaring war with a major Civilization>",
-					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]> <upon declaring war with a major Civilization>",
-					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]> <upon declaring war with a major Civilization>",
-					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]> <upon declaring war with a major Civilization>",
+		"uniques": [
+					"Comment [Empire enters a 4-turn Golden Age and receive a free strongest available Melee unit upon declaring war with a major Civilization]",
+		
+					"Empire enters a [4]-turn Golden Age <upon declaring war with a major Civilization> <hidden from users>",
+					"Free [Warrior] appears <before discovering [Iron Working]> <upon declaring war with a major Civilization> <hidden from users>", 
+					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon declaring war with a major Civilization> <hidden from users>",
+					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <upon declaring war with a major Civilization> <hidden from users>",
+					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]> <upon declaring war with a major Civilization> <hidden from users>",
+					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon declaring war with a major Civilization> <hidden from users>",
+					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]> <upon declaring war with a major Civilization> <hidden from users>",
+					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]> <upon declaring war with a major Civilization> <hidden from users>",
+					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]> <upon declaring war with a major Civilization> <hidden from users>",
 					],
 		"cities": ["Krohir","Thrurr","Miarguargg","Kur","Boznorr","Rixyr","Krigreh","Gohrua","Thraht","Szorr","Tagler",
 			"Kyngrath","Aagurr"],
@@ -1702,8 +1819,12 @@
 		"outerColor": [84,78,72],
 		"innerColor": [158,179,27],
 		"uniqueName": "We Withstand All",
-		"uniqueText": "+100% Yield in tiles with [Fort] unadjacent to another Fort\n+200% Yield in tiles with [Citadel]",
-		"uniques": ["[+100]% Yield from every [Land] <in [Fort] tiles> <with [0] to [0] neighboring [Fort] tiles>","[+200]% Yield from every [Land] <in [Citadel] tiles>"],
+		"uniques": ["Comment [+100% Yield in tiles with [Fort] not adjacent to another [Fort]]",
+					"Comment [+200% Yield in tiles with [Citadel]]",
+					
+					"[+100]% Yield from every [Land] <in [Fort] tiles> <with [0] to [0] neighboring [Fort] tiles> <hidden from users>",
+					"[+200]% Yield from every [Land] <in [Citadel] tiles> <hidden from users>"
+					],
 		"cities": ["Skrart","H'plezdill","Grez'takt","Min'tist","S'sluztin","Zonkikk","Kiz'lelk","Thulall","Plir'zist","Zaz'led","Mis'zess",
 			"Kroz'dall","Graz'let"],
 		"civilopediaText": [
@@ -1737,17 +1858,19 @@
 		"outerColor": [  7,  0, 54],
 		"innerColor": [228,134,228],
 		"uniqueName": "Unbroken Accord",
-		"uniqueText": "Receive free Social Policy upon completing a National Wonder",
-		"uniques": ["Free Social Policy <upon constructing [Circus Maximus]>",
-					"Free Social Policy <upon constructing [National College]>",
-					"Free Social Policy <upon constructing [National Epic]>",
-					"Free Social Policy <upon constructing [Heroic Epic]>",
-					"Free Social Policy <upon constructing [Grand Temple]>",
-					"Free Social Policy <upon constructing [National Treasury]>",
-					"Free Social Policy <upon constructing [Oxford University]>",
-					"Free Social Policy <upon constructing [Ironworks]>",
-					"Free Social Policy <upon constructing [Hermitage]>",
-					"Free Social Policy <upon constructing [National Intelligence Agency]>"],
+		"uniques": ["Comment [Receive a free Social Policy upon completing a National Wonder]",
+		
+					"Free Social Policy <upon constructing [Circus Maximus]> <hidden from users>",
+					"Free Social Policy <upon constructing [National College]> <hidden from users>",
+					"Free Social Policy <upon constructing [National Epic]> <hidden from users>",
+					"Free Social Policy <upon constructing [Heroic Epic]> <hidden from users>",
+					"Free Social Policy <upon constructing [Grand Temple]> <hidden from users>",
+					"Free Social Policy <upon constructing [National Treasury]> <hidden from users>",
+					"Free Social Policy <upon constructing [Oxford University]> <hidden from users>",
+					"Free Social Policy <upon constructing [Ironworks]> <hidden from users>",
+					"Free Social Policy <upon constructing [Hermitage]> <hidden from users>",
+					"Free Social Policy <upon constructing [National Intelligence Agency]> <hidden from users>",
+					],
 		"cities": ["Tyrtagus","Gior","Tegez","Bathes","Irin","Rixyr","Xeoz","Axamioz","Dathakir","Prios","Ocale",
 			"Driole","Koite"],
 		"civilopediaText": [
@@ -1780,18 +1903,23 @@
 		"outerColor": [198,140,60],
 		"innerColor": [108,54,35],
 		"uniqueName": "Possesion Seizing",
-		"uniqueText": "Can capture killed enemy units during a golden age, which is started automatically when reaching medieval era\nGain 10% of damage dont to Land units as [Faith]\nUnits obtained in other ways than constructing them gain a Strength bonus when attacking, destroy tile improvements on attack and ignores damage when determining unit strength, but suffer -15% Penalty when defending and -10 Health when healing",
 		"uniques": [
-			"Empire enters golden age <upon entering the [Medieval era]>",
-			"[Military] units gain the [Spirit II] promotion",
-			"Earn [10]% of the damage done to [Land] units as [Faith]",
-			"May buy [Spirify] buildings for [100] [Faith] [in annexed cities]",
-			"All newly-trained [All] units [in all cities] receive the [Spirit] promotion",
-			"[All] units gain the [Spirit] promotion <before turn number [1]>",
-			"[+30]% Strength <when attacking> <for units without [Spirit]>",
-			"[-15]% Strength <when defending> <for units without [Spirit]>",
-			"No damage penalty for wounded units <for units without [Spirit]>",
-			"[-10] HP when healing <for units without [Spirit]>"
+			
+			"Comment [May capture killed enemy units during a Golden Age]",
+			"Comment [Empire enters a Golden Age upon entering Medieval era]",
+			"Comment [Gain 10% of damage dont to Land units as [Faith]]",
+			"Comment [Units obtained in other ways than constructing them gain +30% Strength bonus when attacking, destroy tile improvements on attack and ignores damage when determining unit strength, but suffer -15% Strength when defending and -10 Health when healing]",
+			
+			"Empire enters golden age <upon entering the [Medieval era]> <hidden from users>",
+			"[Military] units gain the [Spirit II] promotion <hidden from users>",
+			"Earn [10]% of the damage done to [Land] units as [Faith] <hidden from users>",
+			"May buy [Spirify] buildings for [100] [Faith] [in annexed cities] <hidden from users>",
+			"All newly-trained [All] units [in all cities] receive the [Spirit] promotion <hidden from users>",
+			"[All] units gain the [Spirit] promotion <before turn number [1]> <hidden from users>",
+			"[+30]% Strength <when attacking> <for units without [Spirit]> <hidden from users>",
+			"[-15]% Strength <when defending> <for units without [Spirit]> <hidden from users>",
+			"No damage penalty for wounded units <for units without [Spirit]> <hidden from users>",
+			"[-10] HP when healing <for units without [Spirit]> <hidden from users>"
 		],
 		"cities": ["Trensotio", "Spirrsoth", "Contorl", "Demonport", "Ouverthrou","Agregvatro","Ispretify","Homansleive","Enafmenas","Eimdanfur"],
 		"civilopediaText": [
@@ -1825,28 +1953,30 @@
 		"outerColor": [194,160,119],
 		"innerColor": [162,9,50],
 		"uniqueName": "Fierce and Courageous",
-		"uniqueText": "Military land units gain +7% Strength for each promotion they gained from the promotions tree\nGain free [Palisade] for cities settled within 2 tiles of a Jungle",
-		"uniques": ["Gain a free [Palisade] [in all cities] <within [2] tiles of a [Jungle]>",
+		"uniques": ["Comment [Military land units gain +7% Strength for each promotion they gained from the promotions tree]",
+					"Comment [Gain free [Palisade] for cities settled within 2 tiles of a [Jungle]]",
+		
+					"Gain a free [Palisade] [in all cities] <within [2] tiles of a [Jungle]> <hidden from users>",
 					//Melee, Mounted, Armor
-					"[+7]% Strength <for units with [Shock I]>", "[+7]% Strength <for units with [Shock II]>", "[+7]% Strength <for units with [Shock III]>",
-					"[+7]% Strength <for units with [Drill I]>", "[+7]% Strength <for units with [Drill II]>", "[+7]% Strength <for units with [Drill III]>",
-					"[+7]% Strength <for units with [Charge]>", "[+7]% Strength <for units with [Besiege]>", "[+7]% Strength <for units with [Blitz]>",
-					"[+7]% Strength <for units with [Formation I]>", "[+7]% Strength <for units with [Formation II]>",
-					"[+7]% Strength <for units with [Woodsman]>", "[+7]% Strength <for units with [Amphibious]>", "[+7]% Strength <for units with [Medic]>", "[+7]% Strength <for units with [Medic II]>",
+					"[+7]% Strength <for units with [Shock I]> <hidden from users>", "[+7]% Strength <for units with [Shock II]> <hidden from users>", "[+7]% Strength <for units with [Shock III]> <hidden from users>",
+					"[+7]% Strength <for units with [Drill I]> <hidden from users>", "[+7]% Strength <for units with [Drill II]> <hidden from users>", "[+7]% Strength <for units with [Drill III]> <hidden from users>",
+					"[+7]% Strength <for units with [Charge]> <hidden from users>", "[+7]% Strength <for units with [Besiege]> <hidden from users>", "[+7]% Strength <for units with [Blitz]> <hidden from users>",
+					"[+7]% Strength <for units with [Formation I]> <hidden from users>", "[+7]% Strength <for units with [Formation II]> <hidden from users>",
+					"[+7]% Strength <for units with [Woodsman]> <hidden from users>", "[+7]% Strength <for units with [Amphibious]> <hidden from users>", "[+7]% Strength <for units with [Medic]> <hidden from users>", "[+7]% Strength <for units with [Medic II]> <hidden from users>",
 					//Ranged, Siege
-					"[+7]% Strength <for units with [Accuracy I]>", "[+7]% Strength <for units with [Accuracy II]>", "[+7]% Strength <for units with [Accuracy III]>",
-					"[+7]% Strength <for units with [Barrage I]>", "[+7]% Strength <for units with [Barrage II]>", "[+7]% Strength <for units with [Barrage III]>",
-					"[+7]% Strength <for units with [Volley]>", "[+7]% Strength <for units with [Extended Range]>", "[+7]% Strength <for units with [Indirect Fire]>",
+					"[+7]% Strength <for units with [Accuracy I]> <hidden from users>", "[+7]% Strength <for units with [Accuracy II]> <hidden from users>", "[+7]% Strength <for units with [Accuracy III]> <hidden from users>",
+					"[+7]% Strength <for units with [Barrage I]> <hidden from users>", "[+7]% Strength <for units with [Barrage II]> <hidden from users>", "[+7]% Strength <for units with [Barrage III]> <hidden from users>",
+					"[+7]% Strength <for units with [Volley]> <hidden from users>", "[+7]% Strength <for units with [Extended Range]> <hidden from users>", "[+7]% Strength <for units with [Indirect Fire]> <hidden from users>",
 					//Scout
-					"[+7]% Strength <for units with [Scouting I]>", "[+7]% Strength <for units with [Scouting II]>", "[+7]% Strength <for units with [Scouting III]>",
-					"[+7]% Strength <for units with [Survivalism I]>", "[+7]% Strength <for units with [Survivalism II]>", "[+7]% Strength <for units with [Survivalism III]>",
+					"[+7]% Strength <for units with [Scouting I]> <hidden from users>", "[+7]% Strength <for units with [Scouting II]> <hidden from users>", "[+7]% Strength <for units with [Scouting III]> <hidden from users>",
+					"[+7]% Strength <for units with [Survivalism I]> <hidden from users>", "[+7]% Strength <for units with [Survivalism II]> <hidden from users>", "[+7]% Strength <for units with [Survivalism III]> <hidden from users>",
 					//Helicopter
-					"[+7]% Strength <for units with [Mobility I]>", "[+7]% Strength <for units with [Mobility II]>", "[+7]% Strength <for units with [Anti-Armor I]>", "[+7]% Strength <for units with [Anti-Armor II]>",
+					"[+7]% Strength <for units with [Mobility I]> <hidden from users>", "[+7]% Strength <for units with [Mobility II]> <hidden from users>", "[+7]% Strength <for units with [Anti-Armor I]> <hidden from users>", "[+7]% Strength <for units with [Anti-Armor II]> <hidden from users>",
 					//Mixed but for Land only
-					"[+7]% Strength <for [Land] units> <for units with [Cover I]>", "[+7]% Strength <for [Land] units> <for units with [Cover II]>", 
-					"[+7]% Strength <for [Land] units> <for units with [March]>", "[+7]% Strength <for [Land] units> <for units with [Mobility]>",
-					"[+7]% Strength <for [Land] units> <for units with [Sentry]>", "[+7]% Strength <for [Land] units> <for units with [Logistics]>",
-					"[+7]% Strength <for [Land] units> <for units with [Ambush I]>", "[+7]% Strength <for [Land] units> <for units with [Ambush II]>",
+					"[+7]% Strength <for [Land] units> <for units with [Cover I]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Cover II]> <hidden from users>", 
+					"[+7]% Strength <for [Land] units> <for units with [March]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Mobility]> <hidden from users>",
+					"[+7]% Strength <for [Land] units> <for units with [Sentry]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Logistics]> <hidden from users>",
+					"[+7]% Strength <for [Land] units> <for units with [Ambush I]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Ambush II]> <hidden from users>",
 					],
 		"cities": ["Antiopea","Melanippe","Hippolyta","Thermodosa","Orithyia","Andromacheia","Lysippeia","Euryaleia","Cyreneia","Myrineia","Arktos",
 			"Xandar","Mynaria"],
@@ -1880,8 +2010,14 @@
 		"outerColor": [121,201,193],
 		"innerColor": [39,112,31],
 		"uniqueName": "The Mana Flows",
-		"uniqueText": "Free [Worker] appears upon settling cities on River\nMay dowse for [Manaline], which provides yields without assigned population and gain +1 [Culture] every 2 eras\nMay dowse one more [Manaline] in cities with at least 10 populations",
-		"uniques": ["Free [Worker] appears <upon founding a city> <in [River] tiles>"],
+		"uniques": [
+					"Comment [Free [Worker] appears upon settling cities on [River] (up to 3 times)]",
+					"Comment [May dowse for [Manawell], which provides yields without assigned population and gain +1 [Culture] every 2 eras]",
+					"Comment [May dowse one more [Manawell] in cities with at least 12 Populations]",
+					
+					"Instantly gain [3] [First Something] <hidden from users>",
+					"Free [Worker] appears <upon founding a city> <in cities with a [Undine Worker Cap]> <hidden from users>"
+					],
 		"cities": ["Aquiline","Nereida","Lirien","Melusine","Ondine","Naiadine","Calypso","Coralene","Selkie","Tritonessa","Merrow",
 			"Syrena","Mariana"],
 		"civilopediaText": [
@@ -1913,24 +2049,26 @@
 		"tradeRequest": "We request thy accept this aggreement.",
 		
 		"outerColor": [58, 101, 143],
-		"innerColor": [197, 230, 255]
+		"innerColor": [197, 230, 255],
 		"uniqueName": "The Enchanted Ones",
-		"uniqueText": "Gain [Science] upon building [Happiness] building\n+1 population in a random city upon entering a Golden Age and a new era",
-		"uniques": ["Gain [20] [Science] <upon constructing [Circus]>",
-					"Gain [25] [Science] <upon constructing [Colosseum]>",
-					"Gain [90] [Science] <upon constructing [Dreamweaver Theatre]>",
-					"Gain [140] [Science] <upon constructing [Stadium]>",
+		"uniques": ["Comment [Gain [Science] boost upon building [Happiness] buildings]",
+					"Comment [+1 Population in a random city upon entering a Golden Age or a new era]",
+		
+					"Gain [25] [Science] <upon constructing [Circus]> <hidden from users>",
+					"Gain [30] [Science] <upon constructing [Colosseum]> <hidden from users>",
+					"Gain [100] [Science] <upon constructing [Dreamweaver Theatre]> <hidden from users>",
+					"Gain [160] [Science] <upon constructing [Stadium]> <hidden from users>",
 					
 					//Extra pop stuffs
-					"[+1] population in a random city <upon entering a Golden Age>",
-					"[+1] population in a random city <upon entering the [Classical era]>",
-					"[+1] population in a random city <upon entering the [Medieval era]>",
-					"[+1] population in a random city <upon entering the [Renaissance era]>",
-					"[+1] population in a random city <upon entering the [Industrial era]>",
-					"[+1] population in a random city <upon entering the [Modern era]>",
-					"[+1] population in a random city <upon entering the [Atomic era]>",
-					"[+1] population in a random city <upon entering the [Information era]>",
-					"[+1] population in a random city <upon entering the [Future era]>",
+					"[+1] population in a random city <upon entering a Golden Age> <hidden from users>",
+					"[+1] population in a random city <upon entering the [Classical era]> <hidden from users>",
+					"[+1] population in a random city <upon entering the [Medieval era]> <hidden from users>",
+					"[+1] population in a random city <upon entering the [Renaissance era]> <hidden from users>",
+					"[+1] population in a random city <upon entering the [Industrial era]> <hidden from users>",
+					"[+1] population in a random city <upon entering the [Modern era]> <hidden from users>",
+					"[+1] population in a random city <upon entering the [Atomic era]> <hidden from users>",
+					"[+1] population in a random city <upon entering the [Information era]> <hidden from users>",
+					"[+1] population in a random city <upon entering the [Future era]> <hidden from users>",
 					],
 		"cities": ["Biringan","Catbalogan","Tarangnan","Motiong","Pinabacdao","Jiabong","Basey","Marabut","Matuguinao","Villareal","Daram",
 			"Laoang","Pagsanghan"],
@@ -1965,22 +2103,166 @@
 		
 		"outerColor": [139, 69, 19],
 		"innerColor": [218, 165, 32],
-		"uniqueName": "Midas' Curse",
-		"uniqueText": "+50% Yield from every Luxury resources\n+5% Strength for every 1000 [Gold] in treasury (up to +15%)",
-		"uniques": ["[+50]% Yield from every [Luxury resource]",
-					"[+5]% Strength <when number of [Gold] is more than [1000]>",
-					"[+5]% Strength <when number of [Gold] is more than [2000]>",
-					"[+5]% Strength <when number of [Gold] is more than [3000]>",
+		"uniqueName": "Midas' Greed",
+		"uniques": ["Comment [+50% Yield from every Luxury resources]",
+					"Comment [All units gain +5% Strength for every 1000 [Gold] stockpiled (up to +15%)]",
+					
+					"[+50]% Yield from every [Luxury resource] <hidden from users>",
+					"[+5]% Strength <when number of [Gold] is more than [1000]> <hidden from users>",
+					"[+5]% Strength <when number of [Gold] is more than [2000]> <hidden from users>",
+					"[+5]% Strength <when number of [Gold] is more than [3000]> <hidden from users>",
 					],
 		"cities": ["Gordium","Dorylaeum","Ancyra","Pessinus","Hierapolis","Troyon","Kybistra","Thrya","Veloria","Arsapara","Zindara",
 			"Kallithon","Olympos","Ephrona","Midasia"],
+		"civilopediaText": [
+			{"text":"Phrygian Kingdom led by King Midas was located in Gordian, Anatolia (now Turkiye). Its king was infamous for his greed and then got cursed, everything he touched turned into Gold. But, in this fantasy world, said curse is a blessing, where he propels his Kingdom ahead."},
+			{"text":"This civilization has a great uniques, mainly the +50% Yield from Luxury resource. Even though it only said Luxury resource, in actuality, it also increases the yield of the terrain with Luxury resource, making early game very powerful with the extra yields."},
+			{"text":"Other than that, this civilization also gain bonus for hoarding Gold. At 3000 Gold stockpiled, all units gain +15% Strength which of course is very strong."},
+			{"text":"Paragon, the unique unit of Phrygian Kingdom has a promotion that lets it move fast in Hill tiles as well as a debuff for any unit attacking Paragon."},
+        ]
+	},
+	
+	//Neferaset of Kemetian Dynasty
+	{
+		"name": "Kemetian Dynasty",
+		"leaderName": "Neferaset",
+		"adjective": ["Kemetian"],
+		"startBias": ["Flood plains", "Desert"],
+		"preferredVictoryType": "Cultural",
+		"personality": "The Guided Pharaoh",
+		"favoredReligion": "Ma'ati",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [178, 147, 87],
+		"innerColor": [0, 123, 58],
+
+		"uniqueName": "Black Land, My River",
+		"uniques": ["Comment [Before founding Pantheon, gain enough [Faith] for a Pantheon upon researching [Masonry]]",
+					"Comment [Receive a Pantheon belief upon completing the first [Sphinx] and World Wonder]",
+					"Comment [Gain access to exclusive Pantheon beliefs]",
+		
+					"Gain a free [Pantheon] belief <upon building a [Sphinx] improvement> <when below [2] [Kemetian First Sphinx]> <hidden from users>", 
+					"Gain a free [Pantheon] belief <upon constructing [World Wonder]> <when below [2] [Kemetian First Wonder]> <hidden from users>",
+					"Gain enough Faith for a Pantheon <upon discovering [Masonry] technology> <before founding a Pantheon> <hidden from users>",
+					
+					"Provides a [Kemetian First Four] in your first [4] cities for free <hidden from users>",
+					"Instantly gain [1] [Kemetian First Wonder] <upon constructing [World Wonder]> <when below [2] [Kemetian First Wonder]> <hidden from users>",
+					],
+		"cities": ["Ra-Hetep", "Anlakhotep", "Aket-Sekhmet", "Rahotef", "Sensedjem", "Men-Neferu", "Duat-Ka", "Kha-Horus", "Nebnebiankh",
+			"Nebethis", "Heka-Sunu", "Shen-Ma'at", "Takhathap", "Waset-Ra", "Takhathap", "Sa-Khepri", "Iah-Mut", "KNubkhecris"],
+		"civilopediaText": [
+			{"text":"Kemetian Dynasty is a civilization inspired by ancient Egypt, but of course, we focus on its mystical (or fantasy?) elements of them."},
+			{"text":"They gain access to extra Pantheon belief, up to 3. Player will always get 3 Pantheons, regardless whether they already acquired a Pantheon before they built the first Sphinx or not."},
+			{"text":"The Medjay Chariot has a unique ability that instantly kills enemy below 15 HP, this also happens when an attack made them go below 15 HP."},
+        ]
+	},
+	
+	//Thrymr of Einherjar Legion
+	{
+		"name": "Einherjar Legion",
+		"leaderName": "Thrymr",
+		"adjective": ["Einherjarian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		"personality": "Champion of Valhalla",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [45, 45, 45],
+		"innerColor": [210, 105, 30],
+
+		"uniqueName": "Warriors of Valhalla",
+		"uniques": ["Comment [Gain 25 [Faith] and 1 [Favor] upon losing a unit in battle]",
+					"Comment [Gain 1 [Favor] upon defeating a non-[Barbarian] unit]",
+					"Comment [After accumulating 40 [Favor], a [Valkyrie] will fight with us for 10 turns.]",
+					"Comment [You can't gain [Favor] when a [Valkyrie] is present]",
+					
+					//Einherjar defeated
+					"[All] units gain the [Einherjar] promotion <hidden from users>",
+					"All newly-trained [All] units [in all cities] receive the [Einherjar] promotion <hidden from users>",
+					
+					//Valkyrie related
+					"Free [Valkyrie] appears <upon turn end> <when above [39] [Favor]> <hidden from users>",
+					"Instantly gain [-1] [Valkyrie Lifespan] <upon turn end> <when above [0] [Valkyrie Lifespan]> <hidden from users>",
+					"Instantly gain [-1] [Summoned Valkyrie Lifespan] <upon turn end> <when above [0] [Summoned Valkyrie Lifespan]> <hidden from users>",
+					
+					"[+15]% Strength <when adjacent to a [Banner of Valour] unit> <hidden from users>",
+					
+					],
+		"cities": ["Valh\u00f6lmar", "Skjaldheim", "Ragnarv\u00edk", "J\u00f6tunfell", "\u00c6sgar\u00f0r", "Thrymshold", "Helmstad", "Draugfj\u00f6rd", 
+			"Mj\u00f6lndalr", "Einfast", "Skaldr\u00fan", "Brynhalla", "Hringheim", "Valkr\u00ed\u00f0", "Yggskarn"]
+
 		"civilopediaText": [
 			{"text":"."},
 			{"text":"."},
 			{"text":"."},
         ]
 	},
+	
+	/* Next update maybe?
+	//Viktor von Stahlburg of Teutonica Imperium //Still unsure on Spy on all other Civs (currently don't know how to make only on Enemy)
+	{
+		"name": "Teutonica Imperium",
+		"leaderName": "Viktor von Stahlburg",
+		"adjective": ["Teutons"],
+		"preferredVictoryType": "Domination",
+		"personality": "The Strategist",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [45, 45, 45],
+		"innerColor": [185, 0, 0],
+
+		"uniqueName": "The Grand Strategem",
+		"uniques": ["Comment [All Military units gain the [Magitek] promotion]",
+					"Comment [Gain Spy one era sooner (Medieval era) & all new spies start with 1 level]",
+					"Comment [Enemy Civilization gain only half the effectiveness of Spy buildings]",
+					
+					
+					],
+		"cities": ["Stahlburg", "Dampfstadt", "Eisenholm", "Kriegshaven", "Blitzwerk", "Schraubenheim", "Himmelsrad", "Verschleierburg", "Geheimnisheim",
+			"Funkendorf", "Kraftwerkstadt", "Kupferheim", "Zahnradstadt", "Glaslicht", "Kolbenwald", "Sturmgard"],
+		"civilopediaText": [
+			{"text":"."},
+			{"text":"."},
+			{"text":"."},
+        ]
+	},
+	*/
+	
 ]
+
 /*
 Characters:
 
@@ -1996,5 +2278,17 @@ Characters:
 ö: \u00f6
 ä: \u00e4
 ü: \u00fc
+Á → \u00c1
+Ö → \u00d6
+ø → \u00f8
+Ø → \u00d8
+ð → \u00f0
+Ð → \u00d0
+þ → \u00fe
+Þ → \u00de
+æ → \u00e6
+Æ → \u00c6
+ǫ → \u01eb
+Ǫ → \u01ea
 
 */

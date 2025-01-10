@@ -43,4 +43,12 @@
 		"color": [113,12,201]
 	},
 	
+	//Wizard Council
+	{
+		"name":"Spellweaver",
+		"science":3,
+		"greatPersonPoints": {"Peacemaker Spell": 3},
+		"color": [245,206,206]
+	},
+	
 ]

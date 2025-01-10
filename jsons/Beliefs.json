@@ -1,0 +1,20 @@
+[
+	{
+        "name": "Ra's Guidance",
+        "type": "Pantheon",
+        "uniques": ["[+3 Faith] [in cities following this religion]", "Only available <for [Kemetian Dynasty] Civilizations> <hidden from users>"]
+    },
+	{
+        "name": "Osiris' Flourishment",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Desert]", "Only available <for [Kemetian Dynasty] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Horus' Protection",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Strength for cities", "Comment [All units gain +15% Strength when defending]", 
+					"[All] units gain the [Horus' Blessing] promotion <hidden from users>",
+					"All newly-trained [All] units [in all cities] receive the [Horus' Blessing] promotion <hidden from users>",
+					"Only available <for [Kemetian Dynasty] Civilizations> <hidden from users>"]
+    },
+]

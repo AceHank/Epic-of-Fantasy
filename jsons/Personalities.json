@@ -248,7 +248,7 @@
 		
 		//Stats
 		"culture": 3,
-		"faith": 10,
+		"faith": 9,
 		"science": 9,
 		"food": 4,
 		"gold": 3,
@@ -266,7 +266,7 @@
 		
 		"priorities": {
 			"Liberty": 10,
-			"Piety": 30,
+			"Rationalism": 40
 			"Order": 20,
 		},
 		"civilopediaText": [
@@ -402,6 +402,39 @@
 			"Liberty": 20,
 			"Piety": 30,
 			"Freedom": 10,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Einherjar Legion
+	{
+		"name": "Champion of Valhalla",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 5,
+		"faith": 8,
+		"science": 5,
+		"food": 4,
+		"gold": 6,
+		"happiness": 4,
+		"production": 5,
+		
+		//Behaviour
+		"military": 8,
+		"aggressive": 6,
+		"declareWar": 6,
+		"commerce": 4,
+		"diplomacy": 4,
+		"loyal": 4,
+		"expansion": 7,
+		
+		"priorities": {
+			"Honor": 30,
+			"Piety": 20,
+			"Autocracy": 20,
 		},
 		"civilopediaText": [
 			{"text": "."}
@@ -732,6 +765,39 @@
 			"Honor": 20,
 			"Piety": 40,
 			"Autocracy": 30,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Kemetian Dynasty
+	{
+		"name": "The Guided Pharaoh",
+		"preferredVictoryType": "Cultural",
+		
+		//Stats
+		"culture": 8,
+		"faith": 8,
+		"science": 5,
+		"food": 6,
+		"gold": 4,
+		"happiness": 6,
+		"production": 5,
+		
+		//Behaviour
+		"military": 5,
+		"aggressive": 4,
+		"declareWar": 4,
+		"commerce": 8,
+		"diplomacy": 8,
+		"loyal": 7,
+		"expansion": 2,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Piety": 20,
+			"Freedom": 10,
 		},
 		"civilopediaText": [
 			{"text": "."}
@@ -1171,11 +1237,11 @@
 		
 		//Stats
 		"culture": 8,
-		"faith": 8,
+		"faith": 7,
 		"science": 6,
 		"food": 6,
 		"gold": 3,
-		"happiness": 6,
+		"happiness": 7,
 		"production": 6,
 		
 		//Behaviour
@@ -1356,6 +1422,39 @@
 		"priorities": {
 			"Liberty": 30,
 			"Honor": 20,
+			"Order": 20,
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	
+	//Teutonica Imperium
+	{
+		"name": "The Strategist",
+		"preferredVictoryType": "Domination",
+		
+		//Stats
+		"culture": 4,
+		"faith": 4,
+		"science": 9,
+		"food": 5,
+		"gold": 6,
+		"happiness": 5,
+		"production": 8,
+		
+		//Behaviour
+		"military": 7,
+		"aggressive": 5,
+		"declareWar": 7,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 3,
+		"expansion": 9,
+		
+		"priorities": {
+			"Liberty": 20,
+			"Honor": 30,
 			"Order": 20,
 		},
 		"civilopediaText": [

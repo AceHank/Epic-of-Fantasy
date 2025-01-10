@@ -46,7 +46,7 @@
 		"uniques": ["Comment [Killing this unit will incite the revenge of their brethren]", "[+50]% Strength <when attacking> <vs [Revengee] units>", "Avenged"]
 	},	
 	{
-		"name": "Revenge Target",
+		"name": "Revenge Target", //Doesn't count as debuff, only used as method
 		"uniques": ["Revengee"]
 	},	
 	
@@ -79,7 +79,7 @@
 	//Clockwerk Church~~~~~~~
 	{
 		"name": "Regenerative Bio-Steel",
-		"uniques": ["Comment [This Unit heals 5 HP on turn end]", "[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <hidden from users>"]
+		"uniques": ["Comment [This Unit heals 5 HP at turn end]", "[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <hidden from users>"]
 	},
 	
 	//Argonautian States~~~~~~~
@@ -131,7 +131,7 @@
 	//Sacred Sun Theocracy~~~~~~~
 	{
 		"name": "Devoted Learner",
-		"uniques": ["Comment [When adjacent to a [Great Prophet], this unit gain 1 XP on turn end]",
+		"uniques": ["Comment [When adjacent to a [Great Prophet], this unit gain 1 XP at turn end]",
 					"[This Unit] gains [1] XP <upon turn end> <when adjacent to a [Great Prophet] unit> <hidden from users>",
 		]
 	},
@@ -175,35 +175,35 @@
 		"name": "Honor",
 		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit>", "Only available <for units with [Strengths]>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 51,
-        "row": 1
+        "column": 50,
+        "row": 2
 	},
 	{
 		"name": "Winds",
 		"uniques": ["Withdraws before melee combat <with [66]% chance>", "Only available <for units with [Strengths]>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 52,
+        "column": 51,
         "row": 1
 	},
 	{
 		"name": "Vision",
 		"uniques": ["[+15]% to Flank Attack bonuses", "Only available <for units with [Strengths]>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 53,
-        "row": 1
+        "column": 51,
+        "row": 2
 	},
 	{
 		"name": "Wisdom",
 		"uniques": ["[+15]% Strength <when defending>","[+5] HP when healing", "Only available <for units with [Strengths]>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 54,
+        "column": 52,
         "row": 1
 	},
 	
 	//Scazari Hive~~~~~~~
 	{
 		"name": "[Motaari] ability",
-		"uniques": ["[+15]% Strength <when defending>", "[This Unit] heals [5] HP <upon losing at least [1] HP in a single attack>"]
+		"uniques": ["[+15]% Strength <when defending>", "Comment [Takes 5 less damage when defending]", "[This Unit] heals [5] HP <upon losing at least [1] HP in a single attack> <hidden from users>"]
 	},
 	
 	//Orc Horde~~~~~~~
@@ -219,13 +219,9 @@
 	//The Wizard Council~~~~~~~
 	{
 		"name": "Dome of Protection",
-		"uniques": ["Comment [+15% Strength for adjacent allies when defending against ranged attacks]", "Protection"]
+		"uniques": ["Comment [+15% Strength for adjacent allies when defending against ranged attacks]", "Protection <hidden from users>"]
 	}
 
-	//The Walrus People~~~~~~~
-	
-	//Holy Lunar Theocracy~~~~~~~
-	
 	//The Chroniclers~~~~~~~
 	{
 		"name": "[Sentinel] ability",
@@ -247,13 +243,13 @@
 	//Celestial Beings~~~~~~~
 	{
 		"name": "Volatile Core",
-		"uniques": ["Volatile", "Comment [This unit explodes when defeated, dealing 40 damage to Melee unit defeating this unit]"]
+		"uniques": ["Volatile <hidden from users>", "Comment [When defeated, deals 40 damage to Melee attacker, halved for Ranged unit]"]
 	},
 	
 	//Troglodyte~~~~~~~
 	{
 		"name": "Retribution",
-		"uniques": ["Comment [Land Melee units attacking this unit receive 10 damage, halved for Ranged units]"]
+		"uniques": ["Comment [Melee unit attacking this unit receive 10 damage, 5 damage if Ranged]"]
 	},
 	
 	//Leonin Kingdom~~~~~~~
@@ -278,7 +274,7 @@
 	},
 	{
 		"name": "Spirit II",
-		"uniques": ["May capture killed [Military] units <with [50]% chance> <during a Golden Age>","Will not be displayed in Civilopedia"]
+		"uniques": ["May capture killed [Military] units <with [50]% chance> <during a Golden Age>","Destroys tile improvements when attacking <for units without [Spirit]>","Will not be displayed in Civilopedia"]
 	},
 	
 	//Undines~~~~~~~
@@ -296,7 +292,7 @@
 	
 	{					
 		"name": "Mirage",			
-		"uniques": ["Comment [This Unit may heals 25 HP and summon [Illusion] upon losing at least 20 HP in a single attack with 25% chance]",
+		"uniques": ["Comment [Heals 25 HP and summon [Illusion] upon losing at least 20 HP in a single attack with 25% chance]",
 					"[This Unit] heals [25] HP <upon losing at least [20] HP in a single attack> <with [25]% chance> <hidden from users>",	
 					"Free [Illusion] appears <upon losing at least [20] HP in a single attack> <with [25]% chance> <hidden from users>"]
 	},
@@ -344,6 +340,63 @@
 		"uniques": ["Double movement in [Hill]"]
 	},
 	
+	//Kemetian Dynasty~~~~~~
+	{
+		"name": "Horus' Blessing",
+		"uniques": ["[+15]% Strength <when defending>"]
+	},
+	
+	//Einherjar Legion~~~~~~
+	{
+		"name": "Einherjar",
+		"uniques": ["Comment [Gain 25 [Faith] and 1 [Favor] upon being defeated]",
+					"Comment [Gain 1 [Favor] upon defeating non-Barbarian unit]",
+					"Instantly gain [25] [Faith] <upon being defeated> <hidden from users>",
+					"Instantly gain [1] [Favor] <upon being defeated> <when below [1] [Valkyrie Lifespan]> <hidden from users>",
+					"Instantly gain [1] [Favor] <upon defeating a [non-[Barbarian]] unit> <when below [1] [Valkyrie Lifespan]> <hidden from users>"]
+	},
+	{
+		"name": "Shield Wall",
+		"uniques": ["Comment [Immunity to Flanking]",
+					"Flank Immune <hidden from users>"]
+	},
+	{
+		"name": "Divine Shieldmaiden",
+		"uniques": ["Comment [+15% Strength when defending & Immunity from Flanking]",
+					"[+15]% Strength <when defending> <hidden from users>",
+					"Unified <hidden from users>",
+					"Flank Immune <hidden from users>"]
+	},
+	{
+		"name": "Indomitable",
+		"uniques": ["Comment [It's only here for icon]"]
+	},
+	{
+		"name": "Aura of Valour",
+		"uniques": ["Comment [+15% Strength to adjacent units. Stacks with Great General.]",
+					]
+	},
+	{
+		"name": "Call of Valhalla",
+		"uniques": ["Comment [It's only here for icon]"]
+	},
+	{
+		"name": "Amphibious Raider",
+		"uniques": ["Comment [When in Coastal tile, [Longboat] may transform between Land or Water unit]",
+		
+					//Transform to strongest Land
+					"Can transform to [Warrior] <for [1] movement> <before discovering [Iron Working]> <within [1] tiles of a [Land]> <in [Water] tiles> <for [non-[Warrior]] units> <hidden from users>",
+					"Can transform to [Swordsman] <for [1] movement> <after discovering [Iron Working]> <before discovering [Steel]> <within [1] tiles of a [Land]> <in [Water] tiles> <for [non-[Swordsman]] units> <hidden from users>",
+					"Can transform to [Longswordsman] <for [1] movement> <after discovering [Steel]> <within [1] tiles of a [Land]> <in [Water] tiles> <for [non-[Longswordsman]] units> <for [Galleass] units> <hidden from users>",
+					
+					//Transform to strongest Water
+					"Can transform to [Galleass] <for [1] movement> <before discovering [Navigation]> <within [1] tiles of a [Coast]> <in [Land] tiles> <for [non-[Galleass]] units> <for [Warrior] units> <hidden from users>",
+					"Can transform to [Galleass] <for [1] movement> <before discovering [Navigation]> <within [1] tiles of a [Coast]> <in [Land] tiles> <for [non-[Galleass]] units> <for [Swordsman] units> <hidden from users>",
+					"Can transform to [Galleass] <for [1] movement> <before discovering [Navigation]> <within [1] tiles of a [Coast]> <in [Land] tiles> <for [non-[Galleass]] units> <for [Longswordsman] units> <hidden from users>",
+					
+		]
+	},
+	
 	//Universal~~~~~~~
 	{
 		"name": "Woods Camouflage",
@@ -354,12 +407,19 @@
 	},
 	{
 		"name": "Water Creature",		//TLDR: yes water good, no water basic
-		"uniques": ["May travel on Water tiles without embarking", "May attack when embarked",
-					"Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river"]
+		"uniques": ["May travel on Water tiles without embarking", 
+					"Comment [Eliminates combat penalty for attacking over a Coast or River]",
+					"Comment [-15% Strength vs Ships]",
+					"Eliminates combat penalty for attacking across a coast <hidden from users>", 
+					"Eliminates combat penalty for attacking over a river <hidden from users>",
+					"[-15]% Strength <vs [Melee Water]> <hidden from users>",
+					"[-15]% Strength <vs [Ranged Water]> <hidden from users>",
+					"[-15]% Strength <vs [Submarine]> <hidden from users>"]
 	},
 	{
 		"name": "Bloodbath",
-		"uniques": ["[This Unit] heals [5] HP <upon damaging a [All] unit>"]
+		"uniques": ["Comment [This Unit heals 5 HP upon damaging a unit]",
+					"[This Unit] heals [5] HP <upon damaging a [All] unit> <hidden from users>"]
 	},
 	{
 		"name": "Decaying Aura",
@@ -367,12 +427,12 @@
 	},
 	{
 		"name": "Healer I",
-		"uniques": ["Healer 1", "Comment [All adjacent Land units heal [5] HP on turn end]"]
+		"uniques": ["Healer 1 <hidden from users>", "Comment [All adjacent Land units heal [5] HP at turn end]"]
 	},
 	{
 		"name": "Healer II",
 		"prerequisites":["Healer I"],
-		"uniques": ["Healer 2", "Comment [All adjacent Land units heal [5] HP on turn end]"]
+		"uniques": ["Healer 2 <hidden from users>", "Comment [All adjacent Land units heal [5] HP at turn end]"]
 	},
 	{
 		"name": "Divine Watch",
@@ -404,21 +464,40 @@
 	},
 	{
 		"name": "Sanctuary",		
-		"uniques": ["Comment [You are safe from any harm. Cannot attack and be attacked.]", "Cannot attack", "Ignores Zone of Control", "Ignores terrain cost"]
+		"uniques": ["Comment [You are safe from any harm. Cannot attack or be attacked.]", "Cannot attack <hidden from users>", "Ignores Zone of Control <hidden from users>", "Ignores terrain cost <hidden from users>"]
 	},
 	{
 		"name": "Heavily Armored",
-		"uniques": ["[+10]% Strength <vs [Melee] units>"]
+		"uniques": ["[+15]% Strength <vs [Melee] units>"]
+	},
+	{
+		"name": "Plunderer",
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"]		
+	},
+	{
+		"name": "Superior Defense",
+		"uniques": ["Comment [Reduces damage taken by 10]",
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>",
+					]
 	},
 	
-	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	//Promotions for/with Active & Cooldown and buffs ability are placed in the section below
-	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	//Abilities (promotions that needs more than 1 promotion to function) are placed in the section below								  //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	
 	//Dragonborn Union~~~~~~~
 	{
 		"name": "Executioner",		
-		"uniques": ["Comment [Gain +25% Strength for 1 turn and may attack once again upon defeating a unit]", 
+		"uniques": ["Comment [Gain +25% Strength for 1 turn and may attack again upon defeating a unit]", 
 					"[This Unit] gains [1] movement <upon defeating a [All] unit> <hidden from users>", 
 					"[This Unit] gains the [Executioner Active] status for [1] turn(s) <upon defeating a [All] unit> <hidden from users>"]
 	},
@@ -430,7 +509,7 @@
 	//Clockwerk Church~~~~~~~
 	{
 		"name": "Overdrive Protocol",		
-		"uniques": ["Comment [Activate to gain +35% Strength and no wounded damage penalty for 2 turns. Receive 30 damage on turn end during the duration.]", 
+		"uniques": ["Comment [Activate to gain +35% Strength and no wounded damage penalty for 2 turns. Receive 30 damage at turn end during the duration.]", 
 					"[This Unit] gains the [Overdrive Protocol Active] status for [2] turn(s) <for [0] movement> <hidden from users>"]
 	},
 	{
@@ -455,7 +534,7 @@
 	},
 	{
 		"name": "Chameleon Cloak Cooldown",
-		"uniques": ["Comment [[Chameleon Cloak] is on cooldown]", "Chameleon Cloak CD"]
+		"uniques": ["Comment [[Chameleon Cloak] is on cooldown]"]
 	},
 	
 	//Nerubian Kingdom~~~~~~~
@@ -475,7 +554,7 @@
 	},
 	{
 		"name": "Shukuchi Cooldown",
-		"uniques": ["Comment [[Shukuchi] is on cooldown]", "Shukuchi CD"]
+		"uniques": ["Comment [[Shukuchi] is on cooldown]"]
 	},
 	
 	//Harpies Tribe~~~~~~~
@@ -492,7 +571,7 @@
 	},
 	{
 		"name": "Galestorm Leap Cooldown",
-		"uniques": ["Comment [Galestorm Leap is on cooldown.]", "Galestorm Leap CD"]
+		"uniques": ["Comment [Galestorm Leap is on cooldown.]"]
 	},
 	
 	//Lyrian Kingdom~~~~~~~
@@ -504,19 +583,19 @@
 	},
 	{
 		"name": "Divine Smite Cooldown",
-		"uniques": ["Comment [Divine Smite is on cooldown.]", "Divine Smite CD"]
+		"uniques": ["Comment [Divine Smite is on cooldown.]"]
 	},
 	
 	//Lithoid Combine~~~~~~~
 	{
 		"name": "Reckless Spewing",		
-		"uniques": ["Comment [Activate to gain unlimited attack for 1 turn, but takes 30 damage with every attack. Cannot attack Cities during the duration. Can only be activated at full HP.]",
+		"uniques": ["Comment [Activate to gain unlimited attack and no damage penalty for wounded units for 1 turn, but takes 30 damage with every attack. Cannot attack Cities during the duration. Can only be activated at full HP.]",
 					"[This Unit] gains the [Reckless Spewing Active] status for [1] turn(s) <for [0] movement> <when above [99] HP> <hidden from users>",]
 	},
 	{
 		"name": "Reckless Spewing Active",
-		"uniques": ["Comment [Reckless spewing is active]", 
-					"[99] additional attacks per turn", 
+		"uniques": ["Comment [Reckless Spewing is active]", 
+					"[99] additional attacks per turn", "No damage penalty for wounded units",
 					"[This Unit] gains [1] movement <upon damaging a [All] unit>", "Cannot attack <vs cities>",
 					"[This Unit] takes [30] damage <upon damaging a [All] unit>"]
 	},
@@ -524,13 +603,13 @@
 	//Shinso~~~~~~~
 	{
 		"name": "Withering Curse",		
-		"uniques": ["Comment [Attack applies [Withered] for 2 turns. [Withered] unit can't heal, pillage, and no defensive terrain bonus. Cooldown: 5 turns.]", 
+		"uniques": ["Comment [Attack applies [Withered] for 2 turns. [Withered] unit can't heal, pillage, and receive no defensive terrain bonus. Cooldown: 5 turns.]", 
 					"[Target Unit] gains the [Withered] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Withering Curse Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Withering Curse Cooldown] status for [5] turn(s) <upon damaging a [All] unit> <for units without [Withering Curse Cooldown]> <hidden from users>"]
 	},
 	{
 		"name": "Withering Curse Cooldown",
-		"uniques": ["Comment [Withering Curse is on cooldown.]", "Withering Curse CD"]
+		"uniques": ["Comment [Withering Curse is on cooldown.]"]
 	},
 	
 	//Tauren Clan~~~~~~~
@@ -547,7 +626,7 @@
 	},
 	{
 		"name": "Enchant Totem Cooldown",		
-		"uniques": ["Comment [Enchant Totem is on cooldown.]", "Enchant Totem CD"]
+		"uniques": ["Comment [Enchant Totem is on cooldown.]"]
 	},
 	
 	//Wizard Council~~~~~~~
@@ -558,20 +637,21 @@
 	},
 	{
 		"name": "Mana Shield Cooldown",
-		"uniques": ["Comment [Mana Shield is on cooldown.]", "Mana Shield CD"]
+		"uniques": ["Comment [Mana Shield is on cooldown.]"
+					"Mana Shield CD"]
 	},
 	
 	//Undines~~~~~~~
 	{
 		"name": "Regeneration",		
-		"uniques": ["Comment [Heals 10 HP on turn end when not in combat for the last 2 turns.]", 
+		"uniques": ["Comment [Heals 10 HP at turn end if not in combat during the last 2 turns.]", 
 					"[This Unit] heals [10] HP <upon turn end> <for units without [Regeneration Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Regeneration Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 					"[This Unit] gains the [Regeneration Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"]
 	},
 	{
 		"name": "Regeneration Cooldown",
-		"uniques": ["Comment [Regeneration is on cooldown.]", "Regeneration CD"]
+		"uniques": ["Comment [Regeneration is on cooldown.]"]
 	},
 	
 	//The Amazons~~~~~~~
@@ -583,20 +663,20 @@
 	},
 	{
 		"name": "Disarming Strike Cooldown",
-		"uniques": ["Comment [Disarming Strike on cooldown.]", "Disarming Strike CD"]
+		"uniques": ["Comment [Disarming Strike on cooldown.]"]
 	},
 	
 	//Leonin Kingdom~~~~~~~
 	{
 		"name": "Overwhelming Attack",		
-		"uniques": ["Comment [When at full HP, attack applies [Stunned] to Wounded units for 1 turn. Cooldown: 5 turns.]",
-					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Wounded] unit> <when above [99] HP> <for units without [Overwhelming Attack Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Overwhelming Attack Cooldown] status for [5] turn(s) <upon damaging a [Wounded] unit> <when above [99] HP> <for units without [Overwhelming Attack Cooldown]> <hidden from users>"
+		"uniques": ["Comment [Attack applies [Stunned] to Wounded units for 1 turn. Cooldown: 7 turns.]",
+					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Wounded] unit> <for units without [Overwhelming Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Overwhelming Attack Cooldown] status for [7] turn(s) <upon damaging a [Wounded] unit> <for units without [Overwhelming Attack Cooldown]> <hidden from users>"
 					]
 	},
 	{
 		"name": "Overwhelming Attack Cooldown",
-		"uniques": ["Comment [Overwhelming Attack on cooldown.]", "Overwhelming Attack CD"]
+		"uniques": ["Comment [Overwhelming Attack on cooldown.]"]
 	},
 	
 	//Hellbourne~~~~~~~
@@ -611,17 +691,18 @@
 	},
 	{
 		"name": "Infernal Regeneration",		
-		"uniques": ["Comment [Heals Azaniroth by 25 HP. Cost: 10 Mana. Cooldown: 10 turns.]"
+		"uniques": ["Comment [Heals Azaniroth by 50 HP. Cost: 10 Mana. Cooldown: 15 turns.]"
 					]
 	},
 	{
 		"name": "Infernal Regeneration Cooldown",		
-		"uniques": ["Comment [Heals Azaniroth by 25 HP. Cost: 10 Mana. Cooldown: 10 turns.]"
+		"uniques": ["Comment [Heals Azaniroth by 50 HP. Cost: 10 Mana. Cooldown: 15 turns.]"
 					]
 	},
 	{
 		"name": "Negative Energy Touch",		
 		"uniques": ["[Target Unit] takes [30] damage <upon damaging a [All] unit>",
+					"[Target Unit] gains the [Withered] status for [2] turn(s) <upon damaging a [All] unit>",
 					"[This Unit] loses the [Negative Energy Touch] status <upon turn end>"
 					]
 	},
@@ -637,42 +718,64 @@
 					]
 	},
 	
-	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	//Promotions for debuffs related are placed in the section below
-	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	//Einherjar Legion~~~~~~
+	{
+		"name": "Unstoppable",		
+		"uniques": ["Comment [Acivate to gain +15% Strength and negative status immunity for 2 turns. Must be adjacent to a [Valkyrie] or another [Unstoppable] unit to activate. Cooldown: 8 turns]",
+					"Unified <hidden from users>", 
+					"[This Unit] gains the [Unstoppable Active] status for [2] turn(s) <for [0] movement> <for units without [Unstoppable Cooldown]> <when adjacent to a [Unified] unit> <hidden from users>", 
+					"[This Unit] gains the [Debuff Immune] status for [2] turn(s) <upon gaining the [Unstoppable Active] status> <hidden from users>"
+					]
+	},
+	{
+		"name": "Unstoppable Active",
+		"uniques": ["[+15]% Strength"]
+	},
+	{
+		"name": "Unstoppable Cooldown",
+		"uniques": ["Comment [[Unstoppable] is on cooldown]"]
+	},
+	{
+		"name": "Blinding Smite",		
+		"uniques": ["Comment [Attack deals extra 15 damage and applies [Blinded] for 1 turns. [Blinded] unit has its movement reduced to 1 and takes +50% Flank bonus. Cooldown: 3 turns.]", 
+					"[Target Unit] takes [15] damage <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Blinded] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Blinding Smite Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>"]
+	},
+	{
+		"name": "Blinding Smite Cooldown",
+		"uniques": ["Comment [Blinding Smite is on cooldown.]"]
+	},
+	{
+		"name": "Ride of the Valkyrie",
+		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory"]
+	},
+	{
+		"name": "Ride of the Valkyrie Cooldown",
+		"uniques": ["Ride of the Valkyrie CD"]
+	},
+	
+	//High Elf Concordat~~~~~~~
+	{
+		"name": "Second Wind",
+		"uniques": ["Comment [Heals 25 HP upon reaching 25 HP or less. Can only be activated once.]",
+					"[This Unit] gains the [Second Wind Active] promotion <hidden from users>",
+					"[This Unit] loses the [Second Wind Active] promotion <upon losing at least [1] HP in a single attack> <when below [26] HP> <for units with [Second Wind Active]> <hidden from users>",
+					]		
+	},
+	{
+		"name": "Second Wind Active",
+		"uniques": [
+					"Comment [Second Wind is available]",
+					"[This Unit] heals [25] HP <upon losing at least [1] HP in a single attack> <when below [26] HP> <hidden from users>",
+					]		
+	},
 	
 	//Universal~~~~~~~
 	{
 		"name": "Bonebreaker",
 		"uniques": ["Comment [Attack has a 15% chance to apply [Stunned] target Land unit for 1 turn]",
 					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Land] unit> <with [15]% chance> <hidden from users>"]
-	},
-	{
-		"name": "Stunned",
-		"uniques": ["Cannot attack", "Cannot move", "[-15]% Strength", "No defensive terrain bonus", "Can only heal by pillaging"]
-	},
-	{
-		"name": "Burning",
-		"uniques": ["[This Unit] takes [10] damage <upon turn end>",
-					"[This Unit] loses the [Burning] status <upon ending a turn in a [Water] tile>",
-					"[This Unit] loses the [Burning] status <upon ending a turn in a [River] tile>",
-					]
-	},
-	{
-		"name": "Chilled",
-		"uniques": ["[-10]% Strength", "[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn end> <with [10]% chance>",
-					]
-	},
-	{
-		"name": "Frozen",
-		"uniques": ["Cannot attack", "Cannot move", "[-50]% Strength", "No defensive terrain bonus", "Can only heal by pillaging",
-					"[This Unit] loses the [Frozen] status <upon losing at least [1] HP in a single attack>",
-					]
-	},
-	{
-		"name": "Disarmed",
-		"uniques": ["Cannot attack"
-					]
 	},
 	
 	//Pyre Clan~~~~~~~
@@ -681,22 +784,6 @@
 		"uniques": ["Comment [Attack applies [Baned] to target unit for 3 turns. [Baned] unit takes 5 extra damage and deals 5 less damage.]",
 					"[Target Unit] gains the [Baned] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},
-	{
-		"name": "Baned",
-		"uniques": ["[This Unit] takes [5] damage <upon losing at least [1] HP in a single attack>",
-					"[Target Unit] heals [5] HP <upon damaging a [All] unit>"
-					]
-	},
-	
-	//Shinso~~~~~~~
-	{
-		"name": "Shackled",
-		"uniques": ["Cannot move", "[This Unit] takes [15] damage <upon turn end>"]
-	},
-	{
-		"name": "Withered",
-		"uniques": ["No defensive terrain bonus", "Can only heal by pillaging", "Unable to pillage tiles"]
-	},
 	
 	//Centaurian Tribe~~~~~~~
 	{
@@ -704,52 +791,22 @@
 		"uniques": ["Comment [Attack applies [Crushed] to target Land unit for 2 turns. [Crushed] unit has its Strength reduced by 20%.]", 
 					"[Target Unit] gains the [Crushed] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},
-	{
-		"name": "Crushed",
-		"uniques": ["[-20]% Strength"]
-	},
 	
 	//Salamander Empire~~~~~~~
 	{
 		"name": "Scorching Blow",
-		"uniques": ["Comment [Attack applies [Burning] to target Land unit for 2 turns. [Burning] unit takes 10 damage on turn end.]",
+		"uniques": ["Comment [Attack applies [Burning] to target Land unit for 2 turns. [Burning] unit takes 10 damage at turn end.]",
 					"[Target Unit] gains the [Burning] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},
-	
-	/* 
-	Changed to Burning for now
-	{
-		"name": "Scorched I",
-		"uniques": ["[This Unit] takes [5] damage <upon turn end>", "ScorchedOne",
-					]
-	},
-	{
-		"name": "Scorched II",
-		"uniques": ["[This Unit] takes [5] damage <upon turn end>", "ScorchedTwo",
-					]
-	},
-	{
-		"name": "Scorched III",
-		"uniques": ["[This Unit] takes [5] damage <upon turn end>", "ScorchedThree"]
-	},
-	Changed to Burning for now
-	*/
-	
-	//The Amazons~~~~~~~
 	
 	//Troll Tribes~~~~~~~
 	{
 		"name": "Hunter's Mark",		
 		"uniques": ["Comment [Mark target unit for 2 turns. Gain +1 Movement and +15% Strength when attacking a [Marked] unit.]",
 					"[Target Unit] gains the [Marked] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
-					"[This Unit] gains [1] movement <upon damaging a [IsMarked] unit> <hidden from users>",
+					"[This Unit] gains [+1] movement <upon damaging a [IsMarked] unit> <hidden from users>",
 					"[+15]% Strength <when attacking> <vs [IsMarked] units> <hidden from users>",
-					"Can move after attacking",
-					]
-	},
-	{
-		"name": "Marked",
-		"uniques": ["Comment [This unit is marked. The Trolls are hunting.]", "IsMarked",
+					"Can move after attacking <vs [Mounted] units> <hidden from users>",
 					]
 	},
 	
@@ -766,11 +823,6 @@
 		"uniques": ["Comment [Attack applies [Chained] to target unit for 2 turns. [Chained] unit has its movement reduced by 3.]",
 					"[Target Unit] gains the [Chained] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},
-	{
-		"name": "Chained",
-		"uniques": ["[-3] Movement"
-					]
-	},
 	
 	//Necrontia
 	{
@@ -782,24 +834,155 @@
 	//The Walrus People~~~~~~~
 	{
 		"name": "Frostbrand",
-		"uniques": ["Comment [Attack applies [Frostbitten] to target Land unit for 2 turns. Unit affected with [Frostbitten] has -1 Movement and takes 10 damage on turn end.]",
+		"uniques": ["Comment [Attack applies [Frostbitten] to target Land unit for 2 turns. Unit affected with [Frostbitten] has -1 Movement and takes 10 damage at turn end.]",
 					"[Target Unit] gains the [Frostbitten] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},	
-	{
-		"name": "Frostbitten",
-		"uniques": ["[This Unit] takes [10] damage <upon turn end>", "[-1] Movement"
-					]
-	},
 	
 	//Phrygian Kingdom~~~~~~~
 	{
 		"name": "Gordian Knot",
 		"uniques": ["Comment [Unit attacking this unit receives [Binded] for 2 turns, reducing all their movement into 1]"]
 	},
+	
+	//Kemetian Dynasty~~~~~~
+	{
+		"name": "Kheru Hebet",
+		"uniques": ["Comment [Attack instantly kills enemy unit that is reduced to 15 HP or less]",
+					"[Target Unit] gains the [Judgement] status for [1] turn(s) <upon damaging a [non-[Judgement]] unit> <hidden from users>"]
+	},
+	{
+		"name": "Judgement",	//This doesn't counts as `debuff` because it's only used as a method/workaround
+		"uniques": ["[This Unit] takes [101] damage <upon gaining the [Judgement] status> <when below [16] HP> <hidden from users>",
+					"[This Unit] takes [101] damage <upon losing at least [1] HP in a single attack> <when below [16] HP> <hidden from users>"
+					]
+	},
+	
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	//							Debuff List																				  //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	
+	{
+		"name": "Stunned",
+		"uniques": ["Cannot attack", "Cannot move", "[-15]% Strength", "No defensive terrain bonus", "Can only heal by pillaging"]
+	},
+	{
+		"name": "Baned",
+		"uniques": ["[This Unit] takes [5] damage <upon losing at least [1] HP in a single attack>",
+					"[Target Unit] heals [5] HP <upon damaging a [All] unit>"
+					]
+	},
+	{
+		"name": "Burning",
+		"uniques": ["[This Unit] takes [10] damage <upon turn end>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [Water] tile>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [River] tile>",
+					]
+	},
 	{
 		"name": "Binded",
 		"uniques": ["[-99] Movement"
 					]
 	},
+	{
+		"name": "Blinded",
+		"uniques": ["[-99] Movement", "Comment [Takes +50% Flank bonus]"
+					]
+	},
+	{
+		"name": "Chained",
+		"uniques": ["[-3] Movement"
+					]
+	},
+	{
+		"name": "Chilled",
+		"uniques": ["[-10]% Strength", "[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn end> <with [15]% chance>",
+					]
+	},
+	{
+		"name": "Crushed",
+		"uniques": ["[-20]% Strength"]
+	},
+	{
+		"name": "Disarmed",
+		"uniques": ["Cannot attack"
+					]
+	},
+	{
+		"name": "Frostbitten",
+		"uniques": ["[This Unit] takes [10] damage <upon turn end>", "[-1] Movement"
+					]
+	},
+	{
+		"name": "Frozen",
+		"uniques": ["Cannot attack", "Cannot move", "[-50]% Strength", "No defensive terrain bonus", "Can only heal by pillaging",
+					"[This Unit] loses the [Frozen] status <upon losing at least [1] HP in a single attack>",
+					]
+	},
+	{
+		"name": "Marked",
+		"uniques": ["Comment [This unit is marked. The Trolls are hunting.]", "IsMarked",
+					]
+	},
+	{
+		"name": "Shackled",
+		"uniques": ["Cannot move", "[This Unit] takes [15] damage <upon turn end>"]
+	},
+	{
+		"name": "Withered",
+		"uniques": ["No defensive terrain bonus", "Can only heal by pillaging", "Unable to pillage tiles", 
+		
+					//Promotions counter, we need this below because `Can on heal by pillaging` doesn't work for Triggers
+					"[This Unit] takes [50] damage <upon gaining the [Infernal Regeneration] status>",
+					"[This Unit] takes [25] damage <upon losing the [Second Wind Active] status>",
+					"[This Unit] takes [5] damage <upon damaging a [All] unit> <for units with [Bloodbath]>",
+					
+					"[-5] HP when healing <for units with [Regenerative Bio-Steel]>",
+					"[-5] HP when healing <for units with [Regeneration]>",  
+					"[-15] HP when healing <for units with [True Demon Form]>",  
+					
+					"[-5] HP when healing <when adjacent to a [Healer 1] unit>", 
+					"[-5] HP when healing <when adjacent to a [Healer 2] unit>", 
+					"[-5] HP when healing <when adjacent to a [Medic] unit>", 
+					"[-5] HP when healing <when adjacent to a [Medic II] unit>", 
+					"[-5] HP when healing <when adjacent to a [Medic II] unit> <in [Foreign Land] tiles>"]
+	},
 	
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	//				DEBUFF IMMUNE 			Make sure any newly added removeable debuffs are included below								  //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	
+	{
+		"name": "Debuff Immune",
+		"uniques": [
+					//Remove new debuffs
+					"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status>",
+					"[This Unit] loses the [Baned] status <upon gaining the [Baned] status>",
+					"[This Unit] loses the [Burning] status <upon gaining the [Burning] status>",
+					"[This Unit] loses the [Binded] status <upon gaining the [Binded] status>",
+					"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status>",
+					"[This Unit] loses the [Chained] status <upon gaining the [Chained] status>",
+					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status>",
+					"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status>",
+					"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status>",
+					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status>",
+					"[This Unit] loses the [Marked] status <upon gaining the [Marked] status>",
+					"[This Unit] loses the [Shackled] status <upon gaining the [Shackled] status>",
+					"[This Unit] loses the [Withered] status <upon gaining the [Withered] status>",
+					
+					//Remove existing debuffs
+					"[This Unit] loses the [Stunned] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Baned] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Burning] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Binded] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Blinded] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Chained] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Chilled] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Crushed] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Frostbitten] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Frozen] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Marked] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Shackled] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Withered] status <upon gaining the [Debuff Immune] status>",
+		]
+	},
 ]

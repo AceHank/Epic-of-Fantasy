@@ -143,7 +143,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Alchemist": 2},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Comment [+2 Alchemist slots (+3 [Science], +5 Great Scientist Point from each)]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Comment [+2 Alchemist slots (+3 [Science], +5 [Great Scientist] Point from each)]"],
 		"requiredTech": "Education",
 		"civilopediaText": [
 			{"text": "A place to learn for young alchemist."},
@@ -407,6 +407,7 @@
 	},
 	
 	//Gnome Alliance
+		/*
 		{
 			"name": "Library R&D",
 			"uniqueTo": "Gnome Alliance",
@@ -415,6 +416,7 @@
 			"uniques": ["Only available <in cities with a [Library]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
 						"Unsellable", "Will not be displayed in Civilopedia"]
 		},
+		*/
 		{
 			"name": "University R&D",
 			"uniqueTo": "Gnome Alliance",
@@ -434,7 +436,7 @@
 		{
 			"name": "Observatory R&D",
 			"uniqueTo": "Gnome Alliance",
-			"greatPersonPoints": {"Great Scientist": 1},
+			"greatPersonPoints": {"Great Scientist": 1, "Great Engineer": 1},
 			"cost": 1,
 			"uniques": ["Only available <in cities with a [Observatory]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
 						"Unsellable", "Will not be displayed in Civilopedia"]
@@ -520,11 +522,12 @@
 		"name": "Magic Sanctuary",
 		"uniqueTo": "The Wizard Council",
 		"faith": 3,
-		"science": 3,
+	//	"science": 3,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
+		"specialistSlots": {"Spellweaver": 1},
 		"requiredTech": "Theology",
-		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured", "Comment [Only available in cities with a [Temple] and [Library]]",
+		"uniques": ["Destroyed when the city is captured", "Comment [Only available in cities with a [Temple] and [Library]]","Comment [+1 Spellweaver slot (+3 [Science], +3 [Peacemaker Spell] Points)]",
 					"Only available <in cities with a [Library]> <hidden from users>", "Only available <in cities with a [Temple]> <hidden from users>"],
 		"civilopediaText": [
 			{"text": "Place where magic scrolls and text are safe-guarded."},
@@ -571,7 +574,8 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Only available <when religion is enabled>","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion", "Destroyed when the city is captured"],
+		"uniques": ["Comment [All newly-trained Melee Land units in this city may access the [Strengths] promotion, which also grants access to multiple exclusive promotions.]",
+					"Only available <when religion is enabled>","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion <hidden from users>", "Destroyed when the city is captured"],
 		"civilopediaText": [
 			{"text": "A special rites for the Tauren to prove their worth. Consisted of six rites. Rite of Strength, Courage, Honor, the Winds, Vision and Wisdom. Unit with Strengths promotion will gain access to 5 other promotions."},
         ]
@@ -766,7 +770,8 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured","[+2 Food] from [Mountain] tiles [in this city]","[+1 Food, +2 Happiness, +1 Culture, +2 Faith] from [City ruins] tiles [in this city]",],
+		"uniques": ["Destroyed when the city is captured",
+					"[+2 Food] from [Mountain] tiles [in this city]","[+1 Food, +1 Happiness, +1 Culture, +1 Faith] from [City ruins] tiles [in this city]",],
 		"requiredTech": "Drama and Poetry",
 		"civilopediaText": [
 			{"text": "A Monument to remember the day of the eruptions, the end of a lot of mortal lives under the ashes. It's also a great place to plan wars and regulate agriculture."},
@@ -974,7 +979,9 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"requiredTech": "Agriculture",
-		"uniques": ["Destroyed when the city is captured", "[Land] Units adjacent to this city heal [15] HP per turn when healing"],
+		"uniques": ["Destroyed when the city is captured", //"[Land] Units adjacent to this city heal [15] HP per turn when healing"
+					"Comment [Unit adjacent to this city takes 10 less damage when defending]",
+					],
 		"civilopediaText": [
 			{"text": "A tower for the well-being of the Celestials."},
         ]
@@ -1008,11 +1015,11 @@
 		"uniqueTo": "Gnoll Warband",
 		"replaces": "Armory",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 0,
 		"culture": 1,
 		"gold": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["[+2 Gold, +1 Happiness] <in cities with a [Courthouse]>",
+		"uniques": ["[+2 Gold, +1 Happiness] [in annexed cities]",
 					"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel",
 		"civilopediaText": [
@@ -1089,7 +1096,6 @@
 		"name": "Pensubur",
 		"uniqueTo": "Undines",
 		"replaces": "Granary",
-	//	"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Comment [[Food] 0 vs 2]", "Comment [+1 [Food] from Land tiles adjacent to this city]",
@@ -1099,21 +1105,34 @@
 			{"text": "It's easy to fertilize a land with enough knowledge in magic."},
         ]
 	},
+		
+		//Worker Cap
+		{
+			"name": "Undine Worker Cap",
+			"uniqueTo": "Undines",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator for free Worker cap]",
+						"Only available <with [First Something]>", "Instantly gain [-1] [First Something]",
+						"Must be on [River] <hidden from users>", "Limited to [3] per Civilization <hidden from users>", "Automatically built in all cities where it is buildable <hidden from users>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
 	
 		//Manaline stuff
 		{
 			"name": "Manaline Dowsing I",
 			"uniqueTo": "Undines",
-			"cost": 30,
-			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia",
-						"Creates a [Manaline] improvement on a specific tile"]
+			"cost": 50,
+			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Cannot be purchased",
+						"Will not be displayed in Civilopedia",
+						"Creates a [Manawell] improvement on a specific tile"]
 		},
 		{
 			"name": "Manaline Dowsing II",
 			"uniqueTo": "Undines",
-			"cost": 90,
-			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Will not be displayed in Civilopedia", "Only available <in cities with at least [10] [Population]>",
-						"Creates a [Manaline] improvement on a specific tile"]
+			"cost": 125,
+			"uniques": ["Never destroyed when the city is captured", "Unsellable", "Cannot be purchased",
+						"Will not be displayed in Civilopedia", "Only available <in cities with at least [12] [Population]>",
+						"Creates a [Manawell] improvement on a specific tile"]
 		},
 	
 	//Enkantos
@@ -1154,5 +1173,53 @@
 		"requiredTech": "Metal Casting"
 	},
 	
+	//Kemetian Dynasty
+		
+		{
+			"name": "Kemetian First Four",
+			"uniqueTo": "Kemetian Dynasty",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator for first 4 cities]",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Sphinx Great Artist 1",
+			"uniqueTo": "Kemetian Dynasty",
+			"greatPersonPoints": {"Great Artist": 1},
+			"cost": 1,
+			"uniques": ["Only available <with [1] to [6] neighboring [Sphinx] tiles> <in cities with a [Kemetian First Four]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Sphinx Great Artist 2",
+			"uniqueTo": "Kemetian Dynasty",
+			"greatPersonPoints": {"Great Artist": 1},
+			"cost": 1,
+			"uniques": ["Only available <with [2] to [6] neighboring [Sphinx] tiles> <in cities with a [Kemetian First Four]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Sphinx Great Artist 3",
+			"uniqueTo": "Kemetian Dynasty",
+			"greatPersonPoints": {"Great Artist": 1},
+			"cost": 1,
+			"uniques": ["Only available <with [3] to [6] neighboring [Sphinx] tiles> <in cities with a [Kemetian First Four]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+						"Unsellable", "Will not be displayed in Civilopedia"]
+		},
+		
+	//Einherjar Legion
 	
+	/* Old version
+	{
+		"name": "Shard of Gungnir",
+		"uniqueTo": "Einherjar Legion",
+		"replaces": "Barracks",
+		"cityStrength": 3,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Faith] from [Tundra] tiles [in this city]", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	*/
 ]

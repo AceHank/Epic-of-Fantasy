@@ -1,131 +1,16 @@
 [
-	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TAGGING PURPOSE STARTS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OVERWRITES PURPOSE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	//Basalt Remainers
 	{
-		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-		"food": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water", "Improvement",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Construction",
-		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Improvement", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "L"
-	},
-	{
-		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Improvement", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "M"
-	},
-	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Improvement", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "T"
-	},
-	{
-		"name": "Camp",
-		"turnsToBuild": 7,
-		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Improvement", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "C"
-	},
-	{
-		"name": "Oil well",
-		"turnsToBuild": 9,
-		"techRequired": "Biology",
-		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Improvement", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "W"
-	},
-	{
-		"name": "Pasture",
-		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Improvement", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Plantation",
-		"turnsToBuild": 6,
-		"gold": 1,
-		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Improvement", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Quarry",
-		"turnsToBuild": 8,
-		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Improvement", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "Q"
-	},
-	{
-		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 1,
-		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Improvement", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 6,
-		"techRequired": "Engineering",
-		"uniques": ["Can be built outside your borders", "Improvement", "Gives a defensive bonus of [50]%"],
-		"shortcutKey": "O"
-	},
-	{
-		"name": "Moai",
-		"uniqueTo": "Polynesia",
+		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
-		"turnsToBuild": 4,
-		"uniques": ["Improvement", "Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", "[+1 Gold] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"techRequired": "Construction",
-		"shortcutKey": "M"
+		"uniques": ["Unpillagable", "Unbuildable"
+					"Tile provides yield without assigned population <for [Basalt Remainers] Civilizations>"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
-	{
-		"name": "Terrace farm",
-		"uniqueTo": "Inca",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"food": 1,
-		"turnsToBuild": 7,
-		"uniques": ["Cannot be built on [Bonus resource] tiles","Improvement",
-			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Construction",
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Polder",
-		"uniqueTo": "The Netherlands",
-		"food": 3,
-		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
-		"turnsToBuild": 7,
-		"uniques": ["Improvement","[+1 Production, +2 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Guilds",
-		"shortcutKey": "F"
-	},
-	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TAGGING PURPOSE ENDS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OVERWRITES PURPOSE ENDS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	//Orc Horde
 	{
@@ -135,7 +20,7 @@
 		"techRequired": "Engineering",
 		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [25]%", "Adjacent enemy units ending their turn take [10] damage",
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [15]%", "Adjacent enemy units ending their turn take [10] damage", //"Comment [Nullify ALL yields in Enemy Land]",
 					"[-10 Food, -10 Culture, -10 Science, -10 Gold, -10 Faith, -10 Production] <in [Enemy Land] tiles>",
 					"[+1 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>", "Improvement", "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>"],
 		"civilopediaText": [
@@ -151,7 +36,8 @@
 		"gold": 1,
 		"techRequired": "Sailing",
 		"terrainsCanBeBuiltOn": ["Ocean", "Coast"],
-		"uniques": ["Improvement", 
+		"uniques": ["Improvement <hidden from users>", 
+					"Comment [Unlocked at [Sailing]]",
 					"Comment [Must not be adjacent to another [Floating City]]", 
 					"Unbuildable <in tiles adjacent to [Floating City] tiles> <hidden from users>", "[+1 Culture] <during a Golden Age>",
 					"[+1 Production] <after discovering [Electricity]>", "[+1 Culture] <with [1] to [6] neighboring [Water resource] tiles>"],
@@ -180,14 +66,14 @@
 	//Clockwerk Church
 	{
 		"name": "Clockwerk Temple",
+		"uniqueTo": "Clockwerk Church",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"faith": 4,
+		"faith": 3,
 		"science": 2,
 		"production": 2,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold, +20 Science]",
-					"[+1 Faith, +3 Culture] <after adopting [Piety Complete]>","[+1 Faith, +3 Science] <after adopting [Rationalism Complete]>"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold, +20 Science, +10 Faith]",
+					"[+2 Faith, +3 Culture] <after adopting [Piety Complete]>","[+2 Faith, +3 Science] <after adopting [Rationalism Complete]>"]
 	},
-	
 	
 	//Harpies Tribe
 	{
@@ -198,29 +84,6 @@
 		"terrainsCanBeBuiltOn": ["Mountain"],
 		"replacementTextForUniques": "+1 Culture for each adjacent different-type of Improvement",
 		"uniques": ["Improvement", "[+1 Culture] for each adjacent [Improvement]",
-					/* OLD UNIQUES
-					"[+1 Culture] <with [1] to [6] neighboring [Farm] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Trading post] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Plantation] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Mine] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Lumber mill] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Camp] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Oil well] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Pasture] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Quarry] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Fort] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Fishing Boats] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Moai] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Polder] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Terrace farm] tiles>"
-					"[+1 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Floating City] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Mountain Settlement] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Farm] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Mine] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Oil well] tiles>",
-					"[+1 Culture] <with [1] to [6] neighboring [Gaia's Plantation] tiles>",
-					*/
 					]
 	},
 	
@@ -287,20 +150,53 @@
 	
 	//Undines
 	{
-		"name": "Manaline",
+		"name": "Manawell",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
-					"Does not need removal of [Forest]", "Does not need removal of [Forest]",
-					"Does not need removal of [Jungle]", "Does not need removal of [Jungle]",
-					"Irremovable", "Unpillagable", "Tile provides yield without assigned population",
+					"Does not need removal of [Forest]", "Does not need removal of [Jungle]",
+					"Tile provides yield without assigned population",
+					"[+1 Science] <within [1] tiles of a [Manawell]>",
 					"[+1 Culture] <starting from the [Classical era]>",
 					"[+1 Culture] <starting from the [Renaissance era]>",
 					"[+1 Culture] <starting from the [Modern era]>",
 					"[+1 Culture] <starting from the [Information era]>"],
 		"civilopediaText": [
-			{"text": "Manaline is a magical and spiritual energy pathway that runs through the earth. If we can find them, we can harness their energy for our cause."},
+			{"text": "Manawell is a magical and spiritual energy pathway that runs through the earth. If we can find them, we can harness their energy for our cause."},
         ]
 	},
 	
-	
+	//Kemetian Dynasty
+	{
+		"name": "Sphinx",
+		"uniqueTo": "Kemetian Dynasty",
+		"turnsToBuild": 7,
+		"techRequired": "Masonry",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"uniques": ["Comment [Unlocked at [Masonry]\n]",
+					"Comment [+1 [Culture] if on [Desert] or [River]]",
+					"Comment [+1 [Faith] for every 2 adjacent [Improvement]]",
+					"Comment [+1 [Great Artist] Point if in your first 4 cities]",
+					"Comment [Must be adjacent to [City center]]",
+					"Comment [Can't be adjacent to another [Sphinx]]",
+					"Pillaging this improvement yields approximately [+40 Gold, +15 Culture]",
+					
+					"[+1 Culture] <in [{non-[River]} {Desert}] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+1 Culture] <in [{non-[Desert]} {River}] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+1 Culture] <in [{Desert} {River}] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+1 Faith] <with [2] to [3] neighboring [Improvement] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+2 Faith] <with [4] to [5] neighboring [Improvement] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					"[+3 Faith] <with [6] to [6] neighboring [Improvement] tiles> <with [0] to [0] neighboring [Sphinx] tiles> <hidden from users>",
+					
+					//Don't be adjacent to one another pls
+					"[-1 Culture] <with [1] to [6] neighboring [Sphinx] tiles> <hidden from users>",
+					
+					"Instantly gain [1] [Kemetian First Sphinx] <when below [2] [Kemetian First Sphinx]> <hidden from users>",
+					"Unbuildable <in tiles not adjacent to [City center] tiles> <hidden from users>",
+					"Cannot be built on [All] tiles <in tiles adjacent to [Sphinx] tiles> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": "The marvels of [Kemetian Dynasty]'s engineering. These statues built upon the likeness of the mythical creature called Sphinx. A hybrid creature of man, lion, and eagle."},
+        ]
+	},
 ]
