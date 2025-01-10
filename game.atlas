@@ -2810,30 +2810,37 @@ TileSets/AbsoluteUnits/Units/Skjaldborgsdrengr v1
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Stormwing
+TileSets/AbsoluteUnits/Units/Sorcerer
   rotate: false
   xy: 107, 335
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Summoned Undead
+TileSets/AbsoluteUnits/Units/Stormwing
   rotate: false
   xy: 210, 424
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Summoned Valkyrie
+TileSets/AbsoluteUnits/Units/Summoned Undead
   rotate: false
   xy: 4, 157
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Summoned Valkyrie
+  rotate: false
+  xy: 107, 246
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Valkyrie
   rotate: false
-  xy: 4, 157
+  xy: 107, 246
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -2847,28 +2854,28 @@ TileSets/AbsoluteUnits/Units/Tauren Totemwielder
   index: -1
 TileSets/AbsoluteUnits/Units/Templar
   rotate: false
-  xy: 107, 246
+  xy: 210, 335
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Theopompus
   rotate: false
-  xy: 210, 335
+  xy: 313, 424
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Treant Worker
   rotate: false
-  xy: 313, 424
+  xy: 4, 68
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Troll Headhunter
   rotate: false
-  xy: 4, 68
+  xy: 107, 157
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -2882,7 +2889,7 @@ TileSets/AbsoluteUnits/Units/Tsukaima
   index: -1
 TileSets/AbsoluteUnits/Units/Tuskarr
   rotate: false
-  xy: 107, 157
+  xy: 210, 246
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -2899,13 +2906,6 @@ TileSets/AbsoluteUnits/Units/Wardrummer
   xy: 1709, 440
   size: 77, 65
   orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Warlock
-  rotate: false
-  xy: 210, 246
-  size: 95, 81
-  orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Wisp
