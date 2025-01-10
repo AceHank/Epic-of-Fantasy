@@ -6,7 +6,7 @@
 #### Sprites
 * [carriontrooper](https://github.com/carriontrooper) - AbsoluteUnits tileset unit sprites
 * [letstalkaboutdune](https://github.com/letstalkaboutdune) - [AbsoluteUnits](https://github.com/letstalkaboutdune/AbsoluteUnits) tileset creator
-* [musabibnumair2004](https://www.freepik.com/author/musabibnumair2004) - Sphinx
+* [musabibnumair2004](https://www.freepik.com/author/musabibnumair2004) - [Sphinx](https://www.freepik.com/premium-ai-image/golden-sphinx-pixel-art-atop-books-pile_343316830.htm)
 
 #### Nations Contributors
 * [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers, Spirit Pact
