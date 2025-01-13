@@ -10,7 +10,7 @@ Abilities themselves are divided into 2 types:
 A.  Passive ability
 B.  Active ability
 		
-- A. Passive ability 
+A. Passive ability 
 	is easy to explain, as it mostly does what it says, as long as its conditions are satisfied, it will AUTOMATICALLY does its effect, much like any normal promotion.
 	Why do I call it ability if its similiar to normal promotion? Because it has another components attached to it.
 Whether it's Cooldown or Status which require another promotion.
@@ -19,8 +19,8 @@ Other example, see "Divine Smite". The promotion by itself already doing its job
 	See B. Active ability on Cooldowns.
 	Based on 2 examples above, is why I categorized Passive ability as 'ability' as it needs more than 1 out of 3 components of `ability` to function as intended, not so similiar to normal promotion.
 	
-- B. Active ability
-     is an ability that needs to be MANUALLY triggered/activated for its effect to takes place.
+B. Active ability
+	is an ability that needs to be MANUALLY triggered/activated for its effect to takes place.
 Some active ability also has condition (Example: Chameleon Cloak) to be satisfied before you can activate it.
 Currently, all active abilities have the Status component, 
 	Example: 
