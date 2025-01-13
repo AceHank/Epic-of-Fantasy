@@ -1,61 +1,60 @@
 
-	This part is for other Modders who want to know how Abilities work but having problem understanding the mechanism by yourself/reading between the multiple promotions, 
-	I will try to explain the basic below:
-	Abilities is a mechanic that I thought of using 2 to 3 components:
-	1. Trigger
-	2. Cooldown
-	3. Status
+This part is for other Modders who want to know how Abilities work but having problem understanding the mechanism by yourself/reading between the multiple promotions, 
+I will try to explain the basic below:
+Abilities is a mechanic that I thought of using 2 to 3 components:
+1. Trigger
+2. Cooldown
+3. Status
 	
-	Abilities themselves are divided into 2 types:
-	A.  Passive ability
-	B.	Active ability
+Abilities themselves are divided into 2 types:
+A.  Passive ability
+B.  Active ability
 		
-	A. 	Passive ability 
-			is easy to explain, as it mostly does what it says, as long as its conditions are satisfied, it will AUTOMATICALLY does its effect, much like any normal promotion.
-		Why do I call it ability if its similiar to normal promotion? Because it has another components attached to it.
-		Whether it's Cooldown or Status which require another promotion.
-			For Example: See "Mark of Bane". The promotion by itself won't work because it links to another promotion called "Bane".
-		Other example, see "Divine Smite". The promotion by itself already doing its job, BUT, because I wanted it to have a Cooldown mechanic, I need another promotion called "Divine Smite Cooldown" to function.
-		See B. Active ability on Cooldowns.
-		Based on 2 examples above, is why I categorized Passive ability as 'ability' as it needs more than 1 out of 3 components of `ability` to function as intended, not so similiar to normal promotion.
+- A. Passive ability 
+	is easy to explain, as it mostly does what it says, as long as its conditions are satisfied, it will AUTOMATICALLY does its effect, much like any normal promotion.
+	Why do I call it ability if its similiar to normal promotion? Because it has another components attached to it.
+Whether it's Cooldown or Status which require another promotion.
+	For Example: See "Mark of Bane". The promotion by itself won't work because it links to another promotion called "Bane".
+Other example, see "Divine Smite". The promotion by itself already doing its job, BUT, because I wanted it to have a Cooldown mechanic, I need another promotion called "Divine Smite Cooldown" to function.
+	See B. Active ability on Cooldowns.
+	Based on 2 examples above, is why I categorized Passive ability as 'ability' as it needs more than 1 out of 3 components of `ability` to function as intended, not so similiar to normal promotion.
 	
-	B.	Active ability
-			is an ability that needs to be MANUALLY triggered/activated for its effect to takes place.
-		Some active ability also has condition (Example: Chameleon Cloak) to be satisfied before you can activate it.
-		Currently, all active abilities have the Status component, 
-			Example: 
-		See Shukuchi: Acivate to gain Invisibility, +1 Movement and extra 15 damage on attack for 2 turns. Status is lost upon dealing damage. Must be outside of combat in the last 2 turns to activate. Cooldown: 10 turns 
-		This ability has a lot of things going on, for this ability to work, it needs 3 promotions. One for each component, Trigger, Cooldown, and Status.
+- B. Active ability
+     is an ability that needs to be MANUALLY triggered/activated for its effect to takes place.
+Some active ability also has condition (Example: Chameleon Cloak) to be satisfied before you can activate it.
+Currently, all active abilities have the Status component, 
+	Example: 
+	See Shukuchi: Acivate to gain Invisibility, +1 Movement and extra 15 damage on attack for 2 turns. Status is lost upon dealing damage. Must be outside of combat in the last 2 turns to activate. Cooldown: 10 turns 
+	This ability has a lot of things going on, for this ability to work, it needs 3 promotions. One for each component, Trigger, Cooldown, and Status.
 			
-			How does this promotion work? This promotion needs 3 components to work:
-			1.  Trigger
-				First, player needs to manually activate the ability, which this line of code is doing
-				"[This Unit] gains the [Shukuchi Active] status for [2] turn(s) <for [0] movement> <for units without [Shukuchi Cooldown]> <hidden from users>", 
+	How does this promotion work? This promotion needs 3 components to work:
+	1. Trigger
+	   First, player needs to manually activate the ability, which this line of code is doing
+	   "[This Unit] gains the [Shukuchi Active] status for [2] turn(s) <for [0] movement> <for units without [Shukuchi Cooldown]> <hidden from users>", 
 				
-				Notice the <for units without [Shukuchi Cooldown]> conditional.
+	   Notice the <for units without [Shukuchi Cooldown]> conditional.
 				
-				In game, player will see a button relating to the line above. The conditions for this particular ability are 1. Require 0 Movement; and 2. The unit doesn't have Shukuchi Cooldown promotion.
-				After player activated the ability, the trigger 'This Unit gains "Shukuchi Active" for 2 turns' (which is a Status component) will activate.
+	   In game, player will see a button relating to the line above. The conditions for this particular ability are 1. Require 0 Movement; and 2. The unit doesn't have Shukuchi Cooldown promotion.
+	   After player activated the ability, the trigger 'This Unit gains "Shukuchi Active" for 2 turns' (which is a Status component) will activate.
 				
-			2. 	Cooldown
-				Because I intended this ability to have Cooldown, the next part of this mechanism is implementing the Cooldown, which is written:
-				"[This Unit] gains the [Shukuchi Cooldown] status for [10] turn(s) <upon gaining the [Shukuchi Active] status> <hidden from users>",
+	2. Cooldown
+	   Because I intended this ability to have Cooldown, the next part of this mechanism is implementing the Cooldown, which is written:
+	   "[This Unit] gains the [Shukuchi Cooldown] status for [10] turn(s) <upon gaining the [Shukuchi Active] status> <hidden from users>",
 				
-				Immediately after the unit gained "Shukuchi Active", it will also gain the Cooldown part called "Shukuchi Cooldown" for 10 turns.
-				By having "Shukuchi Cooldown" the condition to activate the ability (2.) is not satisfied, thus player can't activate this ability again until the decided cooldown duration is finished.
-				Which in this case, is 10 turns.
+	   Immediately after the unit gained "Shukuchi Active", it will also gain the Cooldown part called "Shukuchi Cooldown" for 10 turns.
+	   By having "Shukuchi Cooldown" the condition to activate the ability (2.) is not satisfied, thus player can't activate this ability again until the decided cooldown duration is finished.
+	   Which in this case, is 10 turns.
 				
-			3.	Status
-				Status is where the intended effect mainly placed. In this case, Shukuchi intended effect of +1 Movement, extra damage, and Invisibility is placed in the status "Shukuchi Active".
-				And "Shukuchi Active" can only be obtained after 1. Trigger is done.
+	3. Status
+	   Status is where the intended effect mainly placed. In this case, Shukuchi intended effect of +1 Movement, extra damage, and Invisibility is placed in the status "Shukuchi Active".
+	   And "Shukuchi Active" can only be obtained after 1. Trigger is done.
 	
 	Personal Rules (Or guide for modder who wants to be inline/faithful with this mechanic)
 	1. If you create new negative status, make sure to count for 'Debuff Immune' and Potionist from Vigilo Order, see UnitTypes.json! (and make sure to differentiate Status and Promotion)
 	2. If you create new status/promotion/any unique with `Invisible to others`, make sure to add 'Invisibility' tag
 	3. I don't know if it's bug or my mistake in the code, but, when two MELEE units with the same ability with Cooldown that is applied upon dealing damage, 
 	   only one of them will be applied but BOTH still have their Cooldown activated. Not that this mod has them right now but, it's good to have it in mind.
-	   For example: 2 MELEE units with Blinding Smite fighting each other, which has `upon dealing damage` and Cooldown, the one defending will receive both the Cooldown and Blinded, 
-					and the one attacking doesn't get Blinded even though the defender has its Cooldown activated.
+	   For example: 2 MELEE units with Blinding Smite fighting each other, which has `upon dealing damage` and Cooldown, the one defending will receive both the Cooldown and Blinded, and the one attacking doesn't get Blinded even though the defender has its Cooldown activated.
 	
 	Of course those are only the basics, you can be creative with it! Play around with GlobalUniques, UnitTypes, or anything!
 	
