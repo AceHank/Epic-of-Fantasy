@@ -852,7 +852,8 @@
 	},
 	{
 		"name": "Judgement",	//This doesn't counts as `debuff` because it's only used as a method/workaround
-		"uniques": ["[This Unit] takes [101] damage <upon gaining the [Judgement] status> <when below [16] HP> <hidden from users>",
+		"uniques": ["Comment [Instantly dies when taking damage below 16 HP]",
+					"[This Unit] takes [101] damage <upon gaining the [Judgement] status> <when below [16] HP> <hidden from users>",
 					"[This Unit] takes [101] damage <upon losing at least [1] HP in a single attack> <when below [16] HP> <hidden from users>"
 					]
 	},
@@ -863,7 +864,7 @@
 	
 	{
 		"name": "Stunned",
-		"uniques": ["Cannot attack", "Cannot move", "[-15]% Strength", "No defensive terrain bonus", "Can only heal by pillaging"]
+		"uniques": ["Cannot attack", "Cannot move", "[-15]% Strength", "No defensive terrain bonus", "Can only heal by pillaging", "No Sight"]
 	},
 	{
 		"name": "Baned",
@@ -885,7 +886,7 @@
 	},
 	{
 		"name": "Blinded",
-		"uniques": ["[-99] Movement", "Comment [Takes +50% Flank bonus]"
+		"uniques": ["[-99] Movement", "No Sight", "Comment [Takes +50% Flank bonus]"
 					]
 	},
 	{
@@ -915,12 +916,12 @@
 	{
 		"name": "Frozen",
 		"uniques": ["Cannot attack", "Cannot move", "[-50]% Strength", "No defensive terrain bonus", "Can only heal by pillaging",
-					"[This Unit] loses the [Frozen] status <upon losing at least [1] HP in a single attack>",
+					"[This Unit] loses the [Frozen] status <upon losing at least [1] HP in a single attack>", "No Sight",
 					]
 	},
 	{
 		"name": "Marked",
-		"uniques": ["Comment [This unit is marked. The Trolls are hunting.]", "IsMarked",
+		"uniques": ["Comment [This unit is marked. The Trolls are hunting.]", "IsMarked <hidden from users>",
 					]
 	},
 	{
@@ -932,19 +933,19 @@
 		"uniques": ["No defensive terrain bonus", "Can only heal by pillaging", "Unable to pillage tiles", 
 		
 					//Promotions counter, we need this below because `Can on heal by pillaging` doesn't work for Triggers
-					"[This Unit] takes [50] damage <upon gaining the [Infernal Regeneration] status>",
-					"[This Unit] takes [25] damage <upon losing the [Second Wind Active] status>",
-					"[This Unit] takes [5] damage <upon damaging a [All] unit> <for units with [Bloodbath]>",
+					"[This Unit] takes [50] damage <upon gaining the [Infernal Regeneration] status> <hidden from users>",
+					"[This Unit] takes [25] damage <upon losing the [Second Wind Active] status> <hidden from users>",
+					"[This Unit] takes [5] damage <upon damaging a [All] unit> <for units with [Bloodbath]> <hidden from users>",
 					
-					"[-5] HP when healing <for units with [Regenerative Bio-Steel]>",
-					"[-5] HP when healing <for units with [Regeneration]>",  
-					"[-15] HP when healing <for units with [True Demon Form]>",  
+					"[-5] HP when healing <for units with [Regenerative Bio-Steel]> <hidden from users>",
+					"[-5] HP when healing <for units with [Regeneration]> <hidden from users>",  
+					"[-15] HP when healing <for units with [True Demon Form]> <hidden from users>",  
 					
-					"[-5] HP when healing <when adjacent to a [Healer 1] unit>", 
-					"[-5] HP when healing <when adjacent to a [Healer 2] unit>", 
-					"[-5] HP when healing <when adjacent to a [Medic] unit>", 
-					"[-5] HP when healing <when adjacent to a [Medic II] unit>", 
-					"[-5] HP when healing <when adjacent to a [Medic II] unit> <in [Foreign Land] tiles>"]
+					"[-5] HP when healing <when adjacent to a [Healer 1] unit> <hidden from users>", 
+					"[-5] HP when healing <when adjacent to a [Healer 2] unit> <hidden from users>", 
+					"[-5] HP when healing <when adjacent to a [Medic] unit> <hidden from users>", 
+					"[-5] HP when healing <when adjacent to a [Medic II] unit> <hidden from users>", 
+					"[-5] HP when healing <when adjacent to a [Medic II] unit> <in [Foreign Land] tiles> <hidden from users>"]
 	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
@@ -953,36 +954,37 @@
 	
 	{
 		"name": "Debuff Immune",
-		"uniques": [
+		"uniques": ["Comment [Immune from ALL negative statuses]",
+					
 					//Remove new debuffs
-					"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status>",
-					"[This Unit] loses the [Baned] status <upon gaining the [Baned] status>",
-					"[This Unit] loses the [Burning] status <upon gaining the [Burning] status>",
-					"[This Unit] loses the [Binded] status <upon gaining the [Binded] status>",
-					"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status>",
-					"[This Unit] loses the [Chained] status <upon gaining the [Chained] status>",
-					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status>",
-					"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status>",
-					"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status>",
-					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status>",
-					"[This Unit] loses the [Marked] status <upon gaining the [Marked] status>",
-					"[This Unit] loses the [Shackled] status <upon gaining the [Shackled] status>",
-					"[This Unit] loses the [Withered] status <upon gaining the [Withered] status>",
+					"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status> <hidden from users>",
+					"[This Unit] loses the [Baned] status <upon gaining the [Baned] status> <hidden from users>",
+					"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>",
+					"[This Unit] loses the [Binded] status <upon gaining the [Binded] status> <hidden from users>",
+					"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
+					"[This Unit] loses the [Chained] status <upon gaining the [Chained] status> <hidden from users>",
+					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
+					"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status> <hidden from users>",
+					"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
+					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
+					"[This Unit] loses the [Marked] status <upon gaining the [Marked] status> <hidden from users>",
+					"[This Unit] loses the [Shackled] status <upon gaining the [Shackled] status> <hidden from users>",
+					"[This Unit] loses the [Withered] status <upon gaining the [Withered] status> <hidden from users>",
 					
 					//Remove existing debuffs
-					"[This Unit] loses the [Stunned] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Baned] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Burning] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Binded] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Blinded] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Chained] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Chilled] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Crushed] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Frostbitten] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Frozen] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Marked] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Shackled] status <upon gaining the [Debuff Immune] status>",
-					"[This Unit] loses the [Withered] status <upon gaining the [Debuff Immune] status>",
+					"[This Unit] loses the [Stunned] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Baned] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Burning] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Binded] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Blinded] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Chained] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Chilled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Crushed] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Frostbitten] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Frozen] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Marked] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Shackled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Withered] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 		]
 	},
 ]
