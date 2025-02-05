@@ -724,7 +724,8 @@
 		"uniques": ["Comment [Acivate to gain +15% Strength and negative status immunity for 2 turns. Must be adjacent to a [Valkyrie] or another [Unstoppable] unit to activate. Cooldown: 8 turns]",
 					"Unified <hidden from users>", 
 					"[This Unit] gains the [Unstoppable Active] status for [2] turn(s) <for [0] movement> <for units without [Unstoppable Cooldown]> <when adjacent to a [Unified] unit> <hidden from users>", 
-					"[This Unit] gains the [Debuff Immune] status for [2] turn(s) <upon gaining the [Unstoppable Active] status> <hidden from users>"
+					"[This Unit] gains the [Debuff Immune] status for [2] turn(s) <upon gaining the [Unstoppable Active] status> <hidden from users>",
+					"[This Unit] gains the [Unstoppable Cooldown] status for [8] turn(s) <upon gaining the [Unstoppable Active] status> <hidden from users>",
 					]
 	},
 	{
