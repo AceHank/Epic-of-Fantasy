@@ -1,3 +1,43 @@
+v3.8 Four Civs in one update?!
+
+New Civs:
+-Teutonica Imperium: If WWI Germany is in an arcanepunk setting, inspired by that isekai anime
+-Night Elven Enclave: Warcraft III's Night Elven inspired civilization
+-Aellenari Empire: An advanced empire led by a great Queen long gone, now ressurected by "scholars" and "academics"
+-Elmar Kingdom: A human kingdom that protects those who don't wield magic... with magic! Watch for their spellcaster! By @Basil
+
+Universal changes:
+-Updated older civs icon. By @basil.
+-Elusive changed into 100% chance (from 66%) but happens once per turn
+-Adjusted some debuffs and effects that trigger at turn end to be at turn start as initially envisioned (Burning, Frostbitten, Chilled, Valkyrie's lifespan, etc)
+
+Civ Changes:
+-Celestials: UU -1 Strength
+-Centaur: UU promotion, Crushed reduced to -15% Strength
+-Children of DD: UB -1 Culture
+-Clockwerk: UB reduced to +10% Faith and +1 Production, UI now has same yield at Rationalism or Piety Complete
+-Dwarven: Changed UA Science into flat, UB now gain +1 Golden Age Point every turn, doubled if adjacent to Mountain
+-Einherjar: Valkyrie's Favor cost reduced to 30
+-Elven: UU -1 Ranged STR, UB changed some of the threshold effects to be more scaling
+-Enkantos: UU Illusion now only last for 2 turns, but increasd chance to 35% and lowered heal to 20 HP
+-Nature's Keeper: UA reveal Forest/Jungle now into 15-tile radius but only happen once
+-Necrontia: Military Land units are now Undead
+-Nerubian: UA now only affects Land Ranged units
+-Precursor: UB Culture bonus is removed, removed Scouting I from UU but gain Detect Ruins: Activate to reveal all Ancient Ruins in a 6-tiles radius. May only be used once. Cost: 2 Move
+-Sacred Sun: UB +2 Maintenance and +2 Golden Age points every turn
+-Scazari: UU promotion changed into: Armored Exoskeleton: 50% damage reduction when below 50 HP
+-Tauren: UU Enchant Totem Cooldown increased to 10 turns.
+-The Amazons: UU Disarm cooldown to 6 from 5
+-The Chroniclers: UA +25% to construct Science building down from +34%, new UA: Empires in Golden Age gain -10% Strength when fighting vs The Chroniclers
+-The Eternals: Military Land units are now Undead, UA heals reduced into 15 HP
+-The Kobolds: UU now requires Iron and gain Forced March: Activate to gain +2 Movement and Fatigued. This ability can be toggled. Cooldown: 1 turn.
+-Wizards: UA -1 Science from Temple, buffed Peacemaker Spell Strength when vs units
+
+Fixes:
+-Fixed some weird and inconsistent wording
+-Fixed Tauren Totemwielder's Enchant Totem, now is a proper 'free' attack instead additional attack
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v3.7 New Sprites are coming!!
 
 More sprites are coming with this patch! Mostly by @Indonesian Gentleman. (And one shameless AI sprite from the [Freepik](https://www.freepik.com/premium-ai-image/golden-sphinx-pixel-art-atop-books-pile_343316830.htm))
