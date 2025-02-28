@@ -24,10 +24,10 @@
 		"innerColor": [213,249,255],
 		"uniqueName": "Higba's Ingenuity",
 		"uniques": ["Comment [+1 [Production] every 2 eras for cities settled on [Hill]]",
-					"Comment [+5% [Science] and +1 [Production] in all cities for every Golden Ages achieved]",
+					"Comment [+1 [Science] and +1 [Production] in all cities for every Golden Ages achieved]",
 					
 					"Instantly provides [1] [GA Counter] <upon entering a Golden Age> <hidden from users>",
-					"[+5]% [Science] [in all cities] <for every [GA Counter]> <hidden from users>",
+					"[+1 Science] [in all cities] <for every [GA Counter]> <hidden from users>",
 					"[+1 Production] [in all cities] <for every [GA Counter]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]> <hidden from users>",
@@ -104,8 +104,8 @@
 		"hateHello": "Hghh...",
 		"tradeRequest": "Letz banter, ey? I give you good stuff, you give us good stuff, deal?",
 		
-		"outerColor": [ 41,83,42],
-		"innerColor": [146,221,9],
+		"innerColor": [230,225,143],
+		"outerColor": [24,114,40],
 		"uniqueName": "Endless Horde",
 		"uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities] <in cities with a [Barracks]>",
 					"[+25]% to Flank Attack bonuses"], 
@@ -225,7 +225,7 @@
 		"innerColor": [156,197,237],
 		"uniqueName": "Roar of Victory",
 		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Culture] immediately", "[+2 Happiness] [in annexed cities]",
-					"Comment [Reduce the effectiveness of negative [Happiness] penalties by half]",
+					"Comment [Reduce the penalties of negative [Happiness] by half]",
 					//Happiness penalty
 					"[+38]% growth [in all cities] <when between [-10] and [-1] Happiness> <hidden from users>",
 					"[+25]% [Production] [in all cities] <when below [-10] Happiness> <hidden from users>",
@@ -272,10 +272,11 @@
 					"[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Forest] tiles> <hidden from users>", 
 					"[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Jungle] tiles> <hidden from users>",
 					
-					"[+5]% [Culture] [in Capital] <when number of [[Ancestor Tree] Buildings] is more than [1]> <hidden from users>",
-					"[+5]% [Culture] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [3]> <hidden from users>",
-					"[+2 Production] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [5]> <hidden from users>",
-					"[+1 Science, +1 Faith] from each Trade Route <when number of [[Ancestor Tree] Buildings] is more than [7]> <hidden from users>",
+					"[+5]% [Culture] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [1]> <hidden from users>",
+					"[+1 Culture] from all [Ancestor Tree] buildings <for every [4] [[Ancestor Tree] Buildings]> <when number of [[Ancestor Tree] Buildings] is more than [3]> <hidden from users>",
+					"[+2 Production] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [5]> <hidden from users>",
+					"[+10]% [Science] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [7]> <hidden from users>",
+					"[+10]% [Faith] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [7]> <hidden from users>",
 					"Gain a free [Ancestor Artist] [in all cities] <when number of [[Ancestor Tree] Buildings] is more than [9]> <hidden from users>",
 					"Starts with [Archery] <hidden from users>"], 
 		"cities": ["Avallon\u00e8","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
@@ -546,7 +547,7 @@
 	{
 		"name": "Necrontia",
 		"leaderName": "Withermoore",
-		"adjective": ["Undeads"],
+		"adjective": ["Death Cultist"],
 		"preferredVictoryType": "Domination",
 		"personality": "The Necromancer",
 		
@@ -565,9 +566,11 @@
 		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
 		"uniqueName": "Necropoleis",
-		"uniques": ["Comment [+50% [Production] when constructing [Courthouse]]",
+		"uniques": ["Comment [Military Land units are [Undead]]",
+					"Comment [+50% [Production] when constructing [Courthouse]]",
 					"Comment [A free strongest available Melee unit appears upon constructing [Courthouse]]",
 					
+					"[{Military} {Land}] units gain the [Undead] promotion <hidden from users>",
 					"[+50]% Production when constructing [Courthouse] buildings [in all cities] <hidden from users>"
 					], 
 		"cities": ["Necroheim","Fallenmere","Blightthorn","Shadowmoor","Amberburgh","Illmere","Deathfall","Bleakford","Nighthorne","Reaperton","Dreadmore","Grimmington",
@@ -637,13 +640,12 @@
 		"outerColor": [146,221,9],
 		"innerColor": [  0,  0,9],
 		"uniqueName": "Mother Tree Takes Root",
-		"uniques": ["Comment [Replaces Palace with [Mother Tree]]",
-					"Comment [Reveal all [Forest] and [Jungle] within 8 tile radius upon founding a city]",
-					"Comment [Gain +1 Great Artist Point in cities adjacent to [Forest]]",
-					"Comment [Gain +1 Great Scientist Point in cities adjacent to [Jungle]]",
+		"uniques": ["Comment [Replaces Palace with [Mother Tree], revealing all [Forest] and [Jungle] within 15 tile radius of original Capital]",
+					"Comment [Gain +1 [Great Artist] Point in cities adjacent to [Forest]]",
+					"Comment [Gain +1 [Great Scientist] Point in cities adjacent to [Jungle]]",
 		
-					"Reveal up to [All] [Forest] within a [8] tile radius <upon founding a city> <hidden from users>", 
-					"Reveal up to [All] [Jungle] within a [8] tile radius <upon founding a city> <hidden from users>",
+					"Reveal up to [All] [Forest] within a [15] tile radius <upon founding a city> <in cities with a [Mother Tree]> <hidden from users>", 
+					"Reveal up to [All] [Jungle] within a [15] tile radius <upon founding a city> <in cities with a [Mother Tree]> <hidden from users>",
 					"Gain a free [Artistic Allure] [in all cities] <within [1] tiles of a [Forest]> <hidden from users>", 
 					"Gain a free [Scientific Allure] [in all cities] <within [1] tiles of a [Jungle]> <hidden from users>"
 					], 
@@ -831,7 +833,7 @@
 		"uniqueName": "Pillars of Heaven",
 		"uniques": [
 					"Comment [Gain access to 5 unique National Wonders after researching [Mathematics], [Guilds], [Writing], [Philosophy], and [Theology]]",
-					"Comment [Receive a free Great Person and a Zen Overseer specialist (+2 [Food], +2 [Gold], +2 [Faith], +2 [Culture], +2 [Science]) in Capital]",
+					"Comment [Receive a free Great Person and a Zen Overseer specialist (+2 [Food], +2 [Gold], +2 [Faith], +2 [Culture], +2 [Science]) in Capital upon completing all 5 Pillars]",
 					],
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
@@ -898,8 +900,8 @@
 		"hateHello": ".",
 		"tradeRequest": ".",
 		
-		"outerColor": [58,222,107],
-		"innerColor": [20,100,24],
+		"outerColor": [58,162,87],
+		"innerColor": [1,68,69],
 		"uniqueName": "Feathered Sovereign",
 		"uniques": ["Comment [+1 [Food] from unimproved [Hill] tiles]",
 					"Comment [All footman units gain Flying, they may pass through impassable terrains and see over obstacles]",
@@ -984,7 +986,7 @@
 		"innerColor": [15,247,193],
 		"uniqueName": "Byggare",
 		"uniques": ["Comment [+40% [Production] when constructing World Wonder for the first time in a city]",
-					"Comment [Military land units gain +15% Strength but are more expensive to produce]",
+					"Comment [Military Land units gain +15% Strength but are more expensive to produce]",
 					
 					"[+40]% Production when constructing [World Wonder] wonders [in all cities] <in cities without a [World Wonder]> <hidden from users>",
 					"[+15]% Strength <for [{Military} {Land}] units> <hidden from users>", 
@@ -1109,12 +1111,11 @@
 		"outerColor": [85,0,255],
 		"innerColor": [245,91,206],
 		"uniqueName": "Peacemaker Project",
-		"uniques": ["Comment [Receive free [Peacemaker Spell] in Capital upon entering a new era]",
-					"Comment [+1 [Science] from every [Shrine]]",
-					"Comment [+2 [Science] from every [Temple]]",
+		"uniques": ["Comment [Receive free [Peacemaker Spell] upon entering a new era]",
+					"Comment [+1 [Science] from every [Shrine] and [Temple]]",
 					
 					"[+1 Science] from every [Shrine] <hidden from users>",
-					"[+2 Science] from every [Temple] <hidden from users>",
+					"[+1 Science] from every [Temple] <hidden from users>",
 					"Free [Peacemaker Spell] appears <upon entering a new era> <hidden from users>",
 					],
 		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
@@ -1236,8 +1237,8 @@
 		"outerColor": [213,249,255],
 		"innerColor": [139,96,230],
 		"uniqueName": "Azjol-Nerub",
-		"uniques": ["[+25]% Production when constructing [Ranged] units [in all cities]",
-					"[+10]% Strength <for [Ranged] units>"],
+		"uniques": ["[+25]% Production when constructing [{Land} {Ranged}] units [in all cities]",
+					"[+10]% Strength <for [{Land} {Ranged}] units>"],
 		"cities": ["Krezon","Za'as","Greltusab","Hertuzet","Kril'thek","Nenilrir","Krilthon","Trik'thok","Yishishral","Sakh'il","Kumos",
 			"Hunot","Susthelas"],
 		"civilopediaText": [
@@ -1542,7 +1543,9 @@
 		"outerColor": [232,230,230],
 		"innerColor": [5,125,145],
 		"uniqueName": "Shrouded Archivist",
-		"uniques": ["Gain a free [Archive] [in all cities] <within [2] tiles of a [Desert]> <after discovering [Writing]>","[+34]% Production when constructing [Science] buildings [in all cities]"],
+		"uniques": ["Gain a free [Archive] [in all cities] <within [2] tiles of a [Desert]> <after discovering [Writing]>","[+25]% Production when constructing [Science] buildings [in all cities]",
+					"Comment [Civilization in Golden Age has -10% Strength against us]",
+		],
 		"cities": ["Matabbah","Al Karak","Madai'in","Jissa","Ohakim","Abboud","Shaurya","Kumar","Nadeer","Imani","Matshediso",
 			"Kunlun","Ararat"],
 		"civilopediaText": [
@@ -1619,11 +1622,12 @@
 		"outerColor": [108,188,235],
 		"innerColor": [109,32,186],
 		"uniqueName": "Necrophages",
-		"uniques": ["Comment [Military Land unit heals 20 damage if it kills a unit]",
+		"uniques": ["Comment [Military Land units are [Undead] and heal 15 HP upon defeating a unit]",
 					"Comment [+2 [Food], +1 [Happiness] per 5 Population in all cities]",
 					
 					"[+1 Happiness, +2 Food] per [5] population [in all cities] <hidden from users>",
-					"[{Military} {Land}] units gain the [Eternal] promotion <hidden from users>"],
+					"[{Military} {Land}] units gain the [Eternal] promotion <hidden from users>",
+					"[{Military} {Land}] units gain the [Undead] promotion <hidden from users>"],
 		"cities": ["Cloctii","Xulzenoca","Icti","Tect","Nuitz","Mezactii","Aquetoc","Aeqantzi","Eopt","Huctl","Auiza",
 			"Eluqec","Inqotl"],
 		"civilopediaText": [
@@ -1907,7 +1911,7 @@
 			
 			"Comment [May capture killed enemy units during a Golden Age]",
 			"Comment [Empire enters a Golden Age upon entering Medieval era]",
-			"Comment [Gain 10% of damage dont to Land units as [Faith]]",
+			"Comment [Gain 10% of damage done to Land units as [Faith]]",
 			"Comment [Units obtained in other ways than constructing them gain +30% Strength bonus when attacking, destroy tile improvements on attack and ignores damage when determining unit strength, but suffer -15% Strength when defending and -10 Health when healing]",
 			
 			"Empire enters golden age <upon entering the [Medieval era]> <hidden from users>",
@@ -2195,17 +2199,16 @@
 		"uniqueName": "Warriors of Valhalla",
 		"uniques": ["Comment [Gain 25 [Faith] and 1 [Favor] upon losing a unit in battle]",
 					"Comment [Gain 1 [Favor] upon defeating a non-[Barbarian] unit]",
-					"Comment [After accumulating 40 [Favor], a [Valkyrie] will fight with us for 10 turns.]",
+					"Comment [After accumulating 30 [Favor], a [Valkyrie] will fight with us for 10 turns.]",
 					"Comment [You can't gain [Favor] when a [Valkyrie] is present]",
 					
 					//Einherjar defeated
 					"[All] units gain the [Einherjar] promotion <hidden from users>",
-					"All newly-trained [All] units [in all cities] receive the [Einherjar] promotion <hidden from users>",
 					
 					//Valkyrie related
-					"Free [Valkyrie] appears <upon turn end> <when above [39] [Favor]> <hidden from users>",
-					"Instantly gain [-1] [Valkyrie Lifespan] <upon turn end> <when above [0] [Valkyrie Lifespan]> <hidden from users>",
-					"Instantly gain [-1] [Summoned Valkyrie Lifespan] <upon turn end> <when above [0] [Summoned Valkyrie Lifespan]> <hidden from users>",
+					"Free [Valkyrie] appears <upon turn start> <when above [29] [Favor]> <hidden from users>",
+					"Instantly gain [-1] [Valkyrie Lifespan] <upon turn start> <when above [0] [Valkyrie Lifespan]> <hidden from users>",
+					"Instantly gain [-1] [Summoned Valkyrie Lifespan] <upon turn start> <when above [0] [Summoned Valkyrie Lifespan]> <hidden from users>",
 					
 					"[+15]% Strength <when adjacent to a [Banner of Valour] unit> <hidden from users>",
 					
@@ -2214,14 +2217,13 @@
 			"Mj\u00f6lndalr", "Einfast", "Skaldr\u00fan", "Brynhalla", "Hringheim", "Valkr\u00ed\u00f0", "Yggskarn"]
 
 		"civilopediaText": [
-			{"text":"."},
-			{"text":"."},
-			{"text":"."},
+			{"text":"Einherjar Legion is a human civilization that embodies the glory and honor of battle. Their faith ushers them to seek death in war and ascend unto Valhalla."},
+			{"text":"This civilization gain [Faith] and [Favor] everytime they lose a unit, making losing a unit is not as big of a detriment as other civilization. [Favor] is used to summon [Valkyrie], a very strong Hero unit with strong abilities that may help to turn the tide of battle for 10 turns."},
+			{"text":"They also gain [Favor] from defeating a non-Barbarian units. Track your [Favor] and times your war when a [Valkyrie] is present to snowball your foe!"},
         ]
 	},
 	
-	/* Next update maybe?
-	//Viktor von Stahlburg of Teutonica Imperium //Still unsure on Spy on all other Civs (currently don't know how to make only on Enemy)
+	//Viktor von Stahlburg of Teutonica Imperium
 	{
 		"name": "Teutonica Imperium",
 		"leaderName": "Viktor von Stahlburg",
@@ -2245,21 +2247,196 @@
 		"innerColor": [185, 0, 0],
 
 		"uniqueName": "The Grand Strategem",
-		"uniques": ["Comment [All Military units gain the [Magitek] promotion]",
+		"uniques": [
 					"Comment [Gain Spy one era sooner (Medieval era) & all new spies start with 1 level]",
-					"Comment [Enemy Civilization gain only half the effectiveness of Spy buildings]",
+					"Comment [Reduces damage taken by 2 for Military units, increased by 2 upon entering new era (up to 15)]",
+					"Earn [50]% of killed [Military] unit's [Strength] as [Science]",
 					
+					"[Military] units gain the [Magitek] promotion <hidden from users>",
+					
+					"Gain an extra spy <upon entering the [Medieval era]> <hidden from users>",
+					"New spies start with [1] level(s) <hidden from users>",
+					
+					//Older version
+				//	"[-13]% enemy spy effectiveness [in all cities] <in cities with a [Constabulary]> <when at war> <hidden from users>",
+				//	"[-13]% enemy spy effectiveness [in all cities] <in cities with a [Police Station]> <when at war> <hidden from users>",
 					
 					],
 		"cities": ["Stahlburg", "Dampfstadt", "Eisenholm", "Kriegshaven", "Blitzwerk", "Schraubenheim", "Himmelsrad", "Verschleierburg", "Geheimnisheim",
 			"Funkendorf", "Kraftwerkstadt", "Kupferheim", "Zahnradstadt", "Glaslicht", "Kolbenwald", "Sturmgard"],
+		"spyNames": ["Eisenwolf","Sturmkr\u00e4he","Totensicht","Bleicher","Dunkelgeist"],
 		"civilopediaText": [
 			{"text":"."},
 			{"text":"."},
 			{"text":"."},
         ]
 	},
-	*/
+	
+	//Mythria Moonshade of Night Elven Enclave
+	{
+		"name": "Night Elven Enclave",
+		"leaderName": "Mythria Moonshade",
+		"adjective": ["Night Elven"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Diplomatic",
+	//	"personality": "The Protector",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [72, 0, 96],
+		"innerColor": [85, 150, 60],
+
+		"uniqueName": "Sanctuary of Elune",
+		"uniques": ["Comment [Military units have 25% chance to receive [Sanctuary] for 2 turns when damaged in Friendly territory. 100% for [Wisp] and Civilian. Each unit can only receive [Sanctuary] once every 10 turns.]",
+					"Comment [[Wisp] may enchant a [Forest]/[Jungle]. Enemy moving into [Enchanted Forest] will be [Rooted] for 2 turns once every 6 turns.]",
+					"Comment []",
+					"Comment [[Rooted]: Can't move. Can't Melee attack.]",
+					"Comment [[Sanctuary]: This unit cannot be attacked. [Sanctuary] is lost upon attacking.]",
+					
+					"[All] units gain the [Elune's Protection] promotion <hidden from users>",
+					
+					],
+		"cities": ["Darnassus", "Moonshade", "Starfall", "Shalazzar", "Twilightglade", "Astra'thar", "Eldersong", "Teldrassil", "Gloomspire", "Nightvale", "Moonglade", "Silvergrove", "Dreamsong", 
+			"Lunaris", "Sylvarian", "Feywood", "Auxitalis", "Starwhisper", "Velanas", "Aeloria"]
+		"civilopediaText": [
+			{"text":"."},
+			{"text":"."},
+			{"text":"."},
+        ]
+	},
+	
+	//Keish Lightbringer of Aellenari Empire
+	{
+		"name": "Aellenari Empire",
+		"leaderName": "Keish Lightbringer",
+		"adjective": ["Aellenarian"],
+		"preferredVictoryType": "Scientific",
+	//	"personality": "The Golden Queen",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [64, 0, 128],  
+		"innerColor": [218, 165, 32] 
+
+		"uniqueName": "Together for Her",
+		"uniques": ["Comment [Gain Golden Age points upon discovering technology equal to 5 per era the technology belongs to (modified by game speed)]",
+					"Comment [Every third Military Land unit gained is spawned as [Undead]]",
+					"Comment [[Bound to Serve]: For every 10 Military Land units lost, a free strongest available Melee footman unit spawns as [Undead]]",
+					
+					//Aellenarian Sanctum
+					"[-100]% Unhappiness from [Aellenarian Scholar] [in all cities] <hidden from users>",
+					
+					//Together for Her Undead chance
+					"[{Military} {Land}] units gain the [Bound to Serve] promotion <hidden from users>",
+					
+					//Together for Her GA Points
+					"Instantly gain [5] [Golden Age points] <upon discovering [Ancient era] technology> <(modified by game speed)> <hidden from users>",
+					"Instantly gain [10] [Golden Age points] <upon discovering [Classical era] technology> <(modified by game speed)> <hidden from users>",
+					"Instantly gain [15] [Golden Age points] <upon discovering [Medieval era] technology> <(modified by game speed)> <hidden from users>",
+					"Instantly gain [20] [Golden Age points] <upon discovering [Renaissance era] technology> <(modified by game speed)> <hidden from users>",
+					"Instantly gain [25] [Golden Age points] <upon discovering [Industrial era] technology> <(modified by game speed)> <hidden from users>",
+					"Instantly gain [30] [Golden Age points] <upon discovering [Modern era] technology> <(modified by game speed)> <hidden from users>",
+					"Instantly gain [35] [Golden Age points] <upon discovering [Atomic era] technology> <(modified by game speed)> <hidden from users>",
+					"Instantly gain [40] [Golden Age points] <upon discovering [Information era] technology> <(modified by game speed)> <hidden from users>",
+					"Instantly gain [45] [Golden Age points] <upon discovering [Future era] technology> <(modified by game speed)> <hidden from users>",
+					
+					//Bound to Serve
+					"Free [Undead Warrior] appears <upon turn start> <before discovering [Iron Working]> <when above [9] [Counter Something]> <hidden from users>", 
+					"Free [Oathbound (Free)] appears <upon turn start> <after discovering [Iron Working]> <before discovering [Steel]> <when above [9] [Counter Something]> <hidden from users>",
+					"Free [Undead Longswordsman] appears <upon turn start> <after discovering [Steel]> <before discovering [Gunpowder]> <when above [9] [Counter Something]> <hidden from users>",
+					"Free [Undead Musketman] appears <upon turn start> <after discovering [Gunpowder]> <before discovering [Rifling]> <when above [9] [Counter Something]> <hidden from users>",
+					"Free [Undead Rifleman] appears <upon turn start> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <when above [9] [Counter Something]> <hidden from users>",
+					"Free [Undead Great War Infantry] appears <upon turn start> <after discovering [Replaceable Parts]> <before discovering [Plastics]> <when above [9] [Counter Something]> <hidden from users>",
+					"Free [Undead Infantry] appears <upon turn start> <after discovering [Plastics]> <before discovering [Mobile Tactics]> <when above [9] [Counter Something]> <hidden from users>",
+					"Free [Undead Mechanized Infantry] appears <upon turn start> <after discovering [Mobile Tactics]> <when above [9] [Counter Something]> <hidden from users>",
+					
+					"Instantly gain [-10] [Counter Something] <upon gaining a [Undead Warrior] unit> <hidden from users>",
+					"Instantly gain [-10] [Counter Something] <upon gaining a [Oathbound (Free)] unit> <hidden from users>",
+					"Instantly gain [-10] [Counter Something] <upon gaining a [Undead Longswordsman] unit> <hidden from users>",
+					"Instantly gain [-10] [Counter Something] <upon gaining a [Undead Musketman] unit> <hidden from users>",
+					"Instantly gain [-10] [Counter Something] <upon gaining a [Undead Rifleman] unit> <hidden from users>",
+					"Instantly gain [-10] [Counter Something] <upon gaining a [Undead Great War Infantry] unit> <hidden from users>",
+					"Instantly gain [-10] [Counter Something] <upon gaining a [Undead Infantry] unit> <hidden from users>",
+					"Instantly gain [-10] [Counter Something] <upon gaining a [Undead Mechanized Infantry] unit> <hidden from users>",
+					
+					],
+		"cities": ["Merkoth", "Tsabrabek","Yukasim","Lilytye","Afiq","Abytia","Zamata","Atharta","Eshmounbek","Maleka","Baionbek","Tipata",
+			"Qartha","Irqata"],
+		"civilopediaText": [
+			{"text":"."},
+			{"text":"."},
+			{"text":"."},
+        ]
+	},
+	
+	//Queen Siliria of Elmar Kingdom
+	{
+		"name": "Elmar Kingdom",
+		"leaderName": "Queen Siliria",
+		"adjective": ["Elmarian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Diplomatic",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [34, 85, 51],
+		"innerColor": [230, 230, 230],
+
+		"uniqueName": "Legends of the Deer Gods",
+		"uniques": ["Comment [+1 Movement for Melee units in [Tundra]/[Snow] tiles]",
+					"Comment [+1 [Faith], +1 [Culture] from every [Deer]]",
+					"Comment [+1 [Happiness] in cities adjacent to [Deer]]",
+					
+					"Retain [75]% of the happiness from a luxury after the last copy has been traded away",
+					
+					"[+1] Movement <for [Melee] units> <in [Tundra] tiles> <hidden from users>",	
+					"[+1] Movement <for [Melee] units> <in [Snow] tiles> <hidden from users>",
+					
+					"[All] units gain the [Divine Deers Blessing] promotion <hidden from users>",
+					"[+1 Faith, +1 Culture] from [Deer] tiles [in all cities] <hidden from users>",
+					"[+1 Happiness] [in all cities] <with [1] to [6] neighboring [Deer] tiles> <hidden from users>",
+					
+					],
+		"cities": ["Beinemar", "Logen Borg", "Erguhran", "Exgrad", "Xendrogard", "Skaldem", "Gunbarlarnar", "Dům a Zajm", "Distroborg", "Zbendsk", "Tenvath"],
+		"spyNames": ["Edviged","Odgneged","Aiherm","Patida","Zonida"],
+		"civilopediaText": [
+			{"text":"Elmar Kingdom is human Kingdom with Celtic culture, born in cold tundras and green spruce forests. Elmar Kingdom is the motherland of many magic sensitive people. They formed the Deer-Horned Legionaries, a strict Knight Order that won't tolerate magic use for evil."},
+			{"text":"The bonus movement in [Tundra] and [Snow] makes your unit can quickly reach the other end of the empire, making this civilization great at defending its territory. Prioritize settling adjacent to [Deer] to gain extra yields!"},
+			{"text":"The ability to trade Luxury resources with only losing 25% of its [Happiness] is really great. Always selling ALL of your Luxury resources is pretty much forced!"},
+			{"text":"This civilization values quality over quantity. Their unique units are more expensive but are much stronger than their replacement."},
+        ]
+	},
 	
 ]
 

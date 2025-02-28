@@ -47,8 +47,16 @@
 	{
 		"name":"Spellweaver",
 		"science":3,
-		"greatPersonPoints": {"Peacemaker Spell": 3},
+		"greatPersonPoints": {"Peacemaker Spell": 5},
 		"color": [245,206,206]
+	},
+	
+	//Aellenari Empire
+	{
+		"name":"Aellenarian Scholar",
+		"science":5,
+		"greatPersonPoints": {"Great Scientist":3},
+		"color": [0,0,255]
 	},
 	
 ]

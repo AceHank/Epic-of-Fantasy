@@ -1,6 +1,6 @@
 [	
 	/*
-	//Test purpose
+	//Test Purpose
 		{
 			"name": "Meo",
 			"unitType": "Sword",
@@ -9,25 +9,24 @@
 			"movement": 5,
 			"strength": 8,
 			"cost": 1,
-			"upgradesTo": "Archer",
-			"obsoleteTech": "Gunpowder",
-			"promotions": ["Sturdy", "Second Wind"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [5] XP <upon turn end>", //"[This Unit] gains the [Second Wind Active] status for [999] turn(s)",
-						"[+5] Sight", "Can move immediately once bought", "Turn this tile into a [Manaline] tile <for [0] movement>",
+			"promotions": ["Horns of Humility"],
+			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "[-50]% Strength decreasing with distance from the capital",
+						
+						"Empire enters golden age",
+						"[+5] Sight", "Can move immediately once bought",  "Cannot attack <vs cities>",
 			],
 			"attackSound": "nonmetalhit"
 		},
 		{
 			"name": "Meo 2",
-			"unitType": "Sword",
+			"unitType": "Armored",
 			"replaces": "Warrior",
 			"uniqueTo": "Drow Village",
 			"movement": 5,
 			"strength": 8,
 			"cost": 1,
-			"obsoleteTech": "Gunpowder",
-			"promotions": ["Sturdy"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains the [Second Wind] status for [999] turn(s)",
+			"promotions": ["Sturdy", "Detect Ruins"],
+			"uniques": ["Ignores terrain cost","Can build [Land] improvements on tiles",
 						"[+5] Sight", "Can move immediately once bought",
 			],
 			"attackSound": "nonmetalhit"
@@ -189,7 +188,7 @@
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 11,
-		"rangedStrength": 12,
+		"rangedStrength": 11,
 		"cost": 75,
 		"promotions": ["Woodsman"],
 		"requiredTech": "Construction",
@@ -494,7 +493,7 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"uniques": ["Comment [Unlocked at [Theology] vs [Machinery]]"],
-		"promotions": ["[Lich] ability", "Ice Attack"],
+		"promotions": ["[Lich] ability", "Ice Attack", "Undead"],
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "A high-ranking undead, an undead of great intelligence, master of necromancy, a Lich will ressurect its killed enemies to serve them."},
@@ -780,10 +779,11 @@
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Iron Working",
-	//	"requiredResource": "Iron",
+		"requiredResource": "Iron",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"promotions": ["Drill I"],
+		"uniques": ["[This Unit] gains the [Forced March (Off)] promotion <hidden from users>"],
+		"promotions": ["Forced March", "Drill I"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -841,7 +841,7 @@
 		"cost": 1,
 		"uniques": ["Comment [Stun target unit for 2 turns]", "[Target Unit] gains the [Stunned] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 					"Is part of Great Person group [Peacemaker]", "Cannot be purchased",
-					"Unbuildable", "[+400]% Strength", "[-375]% Strength <vs cities>", "[-100]% maintenance costs"],
+					"Unbuildable", "[+500]% Strength", "[-475]% Strength <vs cities>", "[-100]% maintenance costs"],
 		"attackSound": "missile",
 		"civilopediaText": [
 			{"text": "Strategic-type spell that only used in emergency. A very strong spell but limited by its long preparation. Only a limit amount of the are cast throughout the Wizard Council's history."},
@@ -881,7 +881,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
-		"promotions": ["[Motaari] ability"],
+		"promotions": ["Armored Exoskeleton"],
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -1154,7 +1154,7 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Ignore terrain cost", "Undead"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "Undead fighter has no fatigue thus can march more efficiently than regular army."}
@@ -1171,8 +1171,9 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost", "Scouting I"],
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit",
+					],
+		"promotions": ["Ignore terrain cost", "Detect Ruins"],
 		"attackSound": "nonmetalhit"
 	},
 	
@@ -1183,7 +1184,7 @@
 		"replaces": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 21,
+		"strength": 20,
 		"rangedStrength": 18,
 		"cost": 140,
 		"requiredTech": "Machinery",
@@ -1435,7 +1436,10 @@
 		"unitType": "Gunpowder",
 		"strength": 24,
 		"movement": 2,
-		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>"],
+		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
+					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
+					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
+		],
 		"promotions": ["Mirage"],
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -1552,8 +1556,8 @@
 					"[2] free [Summoned Valkyrie] units appear <for [0] movement> <costs [+300 Faith] stats> <hidden from users>",
 					
 					//Timer related
-					"Instantly gain [-40] [Favor] <hidden from users>",
-					"Instantly gain [11] [Valkyrie Lifespan] <hidden from users>",
+					"Instantly gain [-30] [Favor] <hidden from users>",
+					"Instantly gain [10] [Valkyrie Lifespan] <hidden from users>",
 					"[This Unit] takes [101] damage <upon turn end> <when below [1] [Valkyrie Lifespan]> <hidden from users>",
 					
 					//Strength scaling
@@ -1621,6 +1625,310 @@
 		"attackSound": "metalhit",
         "civilopediaText": [
 			{"text": "Valkyries are divine warriors who serve Odin, choosing the bravest fallen to join the ranks of Valhalla. Swift and powerful, Valkyrie brings glory upon battle!"}
+		]
+	},
+	
+	//Teutonica Imperium
+	{
+		"name": "Shock Trooper",
+		"uniqueTo": "Teutonica Imperium",
+		"replaces": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 325,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"promotions": ["Armor Hunter", "Shocknade"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "These are the backbone of Teutonica Imperium army, specialized in anti-armor combat. They are equipped with special grenades that would disable electronics, making any unit with electricity useless for a while."}
+		]
+	},
+	
+	{
+		"name": "Magitek Landship",
+		"uniqueTo": "Teutonica Imperium",
+		"replaces": "Landship",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Railroads",
+		"requiredResource": "Oil",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Comment [Unlocked at [Railroads] vs [Combustion]]",
+					"Comment [May be built with 2 [Coal] instead of 1 [Oil] in cities with a [Factory]]",
+					"Can move after attacking", "Never appears as a Barbarian unit",
+					],
+		"promotions": ["Force Field"],
+		"attackSound": "tankshot",
+        "civilopediaText": [
+			{"text": "The scientists of Imperium have managed, using unparalleled knowledge of magic and scientific fields, to create the first of the Landship. These unit are a moving fortress, able to withstand most punishments from their foe."}
+		]
+	},
+	{
+		"name": "Magitek Landship (Coal)",
+		"uniqueTo": "Teutonica Imperium",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Railroads",
+		"requiredResource": "Coal",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Consumes [1] [Coal]", "Only available <in cities with a [Factory]>",
+					"Can move after attacking", "Never appears as a Barbarian unit",
+					"Will not be displayed in Civilopedia",
+					],
+		"promotions": ["Magitek", "Force Field"],
+		"attackSound": "tankshot",
+        "civilopediaText": [
+			{"text": "The scientists of Imperium have managed, using unparalleled knowledge of magic and scientific fields, to create the first of the Landship. These unit are a moving fortress, able to withstand most punishments from their foe."}
+		]
+	},
+	
+	//Night Elven Enclave
+	{
+		"name": "Wisp",
+		"uniqueTo": "Night Elven Enclave",
+		"replaces": "Worker",
+		"unitType": "Sword",
+		"strength": 5,
+		"movement": 2,
+		"uniques": [
+					"Comment [May Enchant a [Forest] or [Jungle] twice after which the unit is consumed.]",
+					"Comment [Self-destructs when damaging to deal 30 damage to an enemy unit after 3 turns of being gained]",
+					"Comment [Strength scales with era]",
+					"Can build [Land] improvements on tiles",
+					
+					"[+100]% Strength <during the [Classical era]> <hidden from users>",						//10
+					"[+200]% Strength <during the [Medieval era]> <hidden from users>",							//15
+					"[+300]% Strength <during the [Renaissance era]> <hidden from users>",						//20
+					"[+400]% Strength <during the [Industrial era]> <hidden from users>",						//25
+					"[+600]% Strength <during the [Modern era]> <hidden from users>",							//35
+					"[+900]% Strength <during the [Atomic era]> <hidden from users>",							//50
+					"[+1400]% Strength <starting from the [Information era]> <hidden from users>",				//70
+					
+					"[This Unit] gains the [Cooldown] status for [3] turn(s) <hidden from users>",
+					"[Target Unit] takes [30] damage <upon damaging a [All] unit> <for units without [Cooldown]> <hidden from users>",
+					"[This Unit] takes [101] damage <upon damaging a [All] unit> <for units without [Cooldown]> <hidden from users>",
+					"Can instantly construct a [Enchanted Forest] improvement <[2] times> <after which this unit is consumed> <hidden from users>",
+					
+		],
+		"promotions": ["Hovering"],
+		"cost": 70,
+        "civilopediaText": [
+			{"text": "Flock of spirits roam around the forest. They are the lifeline of the forest and will not waver to sacrifice themselves to protect it."}
+		]
+	},
+	{
+		"name": "Night Huntress",
+		"uniqueTo": "Night Elven Enclave",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 18,
+		"range": 1,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"promotions": ["Sentry", "Ambusher"],
+		"attackSound": "arrow",
+        "civilopediaText": [
+			{"text": "The Night Huntress rode their Panther, ready to ambush any fools who dares enter their sacred forest uninvited!"}
+		]
+	},
+	
+	//Aellenari Empire
+	{
+		"name": "Oathbound",
+		"uniqueTo": "Aellenari Empire",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Restless", "Undead"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+        "civilopediaText": [
+			{"text": "The loyal followers of Keish Lightbringer will rise once more to fulfill their duty. These men willingly entered a magical Oath, that binds them to their Queen. Ready to answers Her call once more."}
+		]
+	},	
+	{
+		"name": "Oathbound (Free)",				//Need the Free version to prevent -10 Counter when building normal Oathbound normally
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia", "Never appears as a Barbarian unit"],
+		"promotions": ["Restless", "Undead"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+        "civilopediaText": [
+			{"text": "The loyal followers of Keish Lightbringer will rise once more to fulfill their duty. These men willingly entered a magical Oath, that binds them to their Queen. Ready to answers Her call once more."}
+		]
+	},	
+	
+	{
+		"name": "Undead Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia",
+					"May upgrade to [Spearman] through ruins-like effects",
+					],
+		"promotions": ["Undead"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Undead Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Undead Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Undead Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Undead Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Undead Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Undead Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Undead Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia", "Never appears as a Barbarian unit"],
+		"promotions": ["Undead"],
+		"attackSound": "tankshot"
+	},
+	
+	//Elmar Kingdom
+	{
+		"name": "Deer-Horned Legionary",
+		"uniqueTo": "Elmar Kingdom",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 25,
+		"cost": 200,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Arcane Ward", "Horns of Humility"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "They arose from a group of magicians who worshipped the Divine Deer, forming an order of knights - the Horns of Humility. Initially, they were engaged in punishing magicians who harmed those who couldn't control magic, after which Queen Silyria recruited them into her army. The order became a full-fledged part of Elmar's army, guiding those with aptitude for magic into their ranks to save innocent people."}
+		]
+	},
+	{
+		"name": "Moving Castle"
+		"uniqueTo": "Elmar Kingdom",
+		"replaces": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 260,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"promotions": ["Cannonade", "Moving Bastion"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley",
+        "civilopediaText": [
+			{"text": "A sight to behold, this Fortress of stones is set up to sail the seas. This engineering miracle is by no mean without its demerit. After all, how do you expect literal stones on a ship to fare?"}
 		]
 	},
 	

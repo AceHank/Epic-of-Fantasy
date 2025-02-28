@@ -72,7 +72,8 @@
 		"science": 2,
 		"production": 2,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold, +20 Science, +10 Faith]",
-					"[+2 Faith, +3 Culture] <after adopting [Piety Complete]>","[+2 Faith, +3 Science] <after adopting [Rationalism Complete]>"]
+					"Comment [+2 [Faith], +3 [Science] after completing [Piety] or [Rationalism]]",
+					"[+2 Faith, +3 Science] <after adopting [Piety Complete]> <hidden from users>","[+2 Faith, +3 Science] <after adopting [Rationalism Complete]> <hidden from users>"]
 	},
 	
 	//Harpies Tribe
@@ -204,4 +205,23 @@
 			{"text": "The marvels of [Kemetian Dynasty]'s engineering. These statues built upon the likeness of the mythical creature called Sphinx. A hybrid creature of man, lion, and eagle."},
         ]
 	},
+	
+	//Night Elven Enclave
+	{
+		"name": "Enchanted Forest",
+		"uniqueTo": "Night Elven Enclave",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"faith": 1,
+		"uniques": ["Comment [Improves Luxury and Strategic resources in this tile]", 
+					"Comment [Apply [Rooted] for 2 turns to any non-[Night Elven Enclave] units entering this tile. Each unit can only receive [Rooted] once every 6 turns.]",
+					"Will not be replaced by automated units <hidden from users>",
+					"Unbuildable <in [non-[Forest]] tiles> <in [non-[Jungle]] tiles> <hidden from users>",
+					"[+1 Culture] <for every [Owned [Natural Wonder] Tiles]>",
+					"Pillaging this improvement yields approximately [+10 Culture, +10 Faith] <hidden from users>",
+					],
+		"civilopediaText": [
+			{"text":"The Wisps are guarding and harvesting this Forest, channeling Elune's divine power unto those wished harm to the Forest."}
+		]
+	},
+	
 ]

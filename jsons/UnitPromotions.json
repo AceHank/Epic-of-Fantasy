@@ -43,7 +43,7 @@
 	//Drow Village~~~~~~~
 	{
 		"name": "Vengeful",
-		"uniques": ["Comment [Killing this unit will incite the revenge of their brethren]", "[+50]% Strength <when attacking> <vs [Revengee] units>", "Avenged"]
+		"uniques": ["Comment [Killing this unit will incite the revenge of their brethren]", "[+50]% Strength <when attacking> <vs [Revengee] units>", "Avenged <hidden from users>"]
 	},	
 	{
 		"name": "Revenge Target", //Doesn't count as debuff, only used as method
@@ -202,8 +202,23 @@
 	
 	//Scazari Hive~~~~~~~
 	{
-		"name": "[Motaari] ability",
-		"uniques": ["[+15]% Strength <when defending>", "Comment [Takes 5 less damage when defending]", "[This Unit] heals [5] HP <upon losing at least [1] HP in a single attack> <hidden from users>"]
+		"name": "Armored Exoskeleton",
+		"uniques": ["Comment [50% damage reduction when below 50 HP]",
+					"[+1]% Strength <when defending> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [26] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [34] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [38] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [42] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [46] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [54] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [58] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [62] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [64] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [66] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [68] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [70] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [72] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [74] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [76] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [78] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [80] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [82] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [84] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [86] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [88] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [90] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [92] HP in a single attack> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [94] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [96] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [98] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [100] HP in a single attack> <when below [50] HP> <hidden from users>",
+		]
 	},
 	
 	//Orc Horde~~~~~~~
@@ -237,7 +252,7 @@
 	//The Eternals~~~~~~~
 	{
 		"name": "Eternal",
-		"uniques": ["Heals [20] damage if it kills a unit"]
+		"uniques": ["Heals [15] damage if it kills a unit"]
 	},
 	
 	//Celestial Beings~~~~~~~
@@ -292,9 +307,9 @@
 	
 	{					
 		"name": "Mirage",			
-		"uniques": ["Comment [Heals 25 HP and summon [Illusion] upon losing at least 20 HP in a single attack with 25% chance]",
-					"[This Unit] heals [25] HP <upon losing at least [20] HP in a single attack> <with [25]% chance> <hidden from users>",	
-					"Free [Illusion] appears <upon losing at least [20] HP in a single attack> <with [25]% chance> <hidden from users>"]
+		"uniques": ["Comment [Heals 20 HP and summon [Illusion] for 2 turns upon losing at least 20 HP in a single attack with 35% chance]",
+					"[This Unit] heals [20] HP <upon losing at least [20] HP in a single attack> <with [35]% chance> <hidden from users>",	
+					"Free [Illusion] appears <upon losing at least [20] HP in a single attack> <with [35]% chance> <hidden from users>"]
 	},
 	
 	/*
@@ -397,6 +412,82 @@
 		]
 	},
 	
+	//Imperium~~~~~~~
+	{
+		"name": "Magitek",
+		"uniques": ["Comment [Reduces all damage taken by 2, increased by 2 upon entering new era (up to 15)]",
+					
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <starting from the [Classical era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <starting from the [Classical era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <starting from the [Medieval era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <starting from the [Medieval era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <starting from the [Renaissance era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <starting from the [Renaissance era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <starting from the [Industrial era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <starting from the [Industrial era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [11] HP in a single attack> <starting from the [Modern era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <starting from the [Modern era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack> <starting from the [Atomic era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <starting from the [Atomic era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <starting from the [Information era]> <hidden from users>",
+		]
+	},
+	{
+		"name": "Armor Hunter",
+		"uniques": ["Comment [Gain +1 Movement and can move after attacking vs Armored/Construct units]",
+					"Can move after attacking <vs [Armored]> <hidden from users>",
+					"Can move after attacking <vs [Construct]> <hidden from users>",
+		]
+	},
+	
+	//Night Elven Enclave~~~~~~~
+	{
+		"name": "Hovering",
+		"uniques": ["Flying",
+					"Ignores terrain cost", "May travel on Water tiles without embarking", 
+					"Can pass through impassable tiles"
+		]
+	},	
+	{
+		"name": "Enchant Charge",
+		"uniques": ["Comment [Can instantly Enchant twice after which the unit is consumed]",
+		]
+	},	
+	
+	//Aellenari Empire~~~~~~~
+	{
+		"name": "Bound to Serve",
+		"uniques": ["Comment [The loyal followers of Keish Lightbringer had willingly, conciously, & knowingly taken a binding Oath. As they will serve Her, even in Death.]",
+					"Instantly gain [1] [First Something] <hidden from users>",
+					"[This Unit] gains the [Undead] promotion <when above [2] [First Something]> <hidden from users>",
+					"Instantly gain [-3] [First Something] <when above [2] [First Something]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon being defeated> <hidden from users>",
+		]
+	},	
+	
+	//Elmar Kingdom
+	{
+		"name": "Arcane Ward",
+		"uniques": ["Comment [Immune from elemental statuses and heals 5 HP at turn end.]",
+					"[This Unit] heals [5] HP <upon turn end> <hidden from users>",
+					
+					//Immunities
+					"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>",
+					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
+					"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
+					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
+					"[This Unit] loses the [Shocked] status <upon gaining the [Shocked] status> <hidden from users>",
+					
+		]
+	},	
+	{
+		"name": "Cannonade",
+		"uniques": ["[+25]% Strength <vs [Land] units>",
+		]
+	},	
+	
 	//Universal~~~~~~~
 	{
 		"name": "Woods Camouflage",
@@ -439,10 +530,6 @@
 		"uniques": ["Prevents spreading of religion to the city it is next to", "Religious Unit"]
 	},
 	{
-		"name": "Elusive",
-		"uniques": ["Withdraws before melee combat <with [66]% chance>"]
-	},
-	{
 		"name": "Inner Flame",
 		"uniques": ["[+10]% Strength <when attacking>","[-10]% Strength <when defending>","No damage penalty for wounded units","Heals [10] damage if it kills a unit"]
 	},	
@@ -463,8 +550,16 @@
 		"uniques": ["Flying", "Can pass through impassable tiles", "Can see over obstacles"]
 	},
 	{
-		"name": "Sanctuary",		
-		"uniques": ["Comment [You are safe from any harm. Cannot attack or be attacked.]", "Cannot attack <hidden from users>", "Ignores Zone of Control <hidden from users>", "Ignores terrain cost <hidden from users>"]
+		"name": "Sanctuary",		//This should only be gained in opponent's turn, because of Sanctuary First Turn.
+		"uniques": ["Comment [This unit cannot be attacked. [Sanctuary] is lost upon attacking.]", "IsSanctuary",
+					"[This Unit] loses the [Sanctuary] promotion <upon damaging a [All] unit> <for units without [Sanctuary First Turn]> <hidden from users>",
+					"[This Unit] loses the [Sanctuary] status <upon damaging a [All] unit> <for units without [Sanctuary First Turn]> <hidden from users>",
+					"[This Unit] gains the [Sanctuary First Turn] status for [1] turn(s) <upon gaining the [Sanctuary] status> <hidden from users>",
+		],
+	},
+	{
+		"name": "Sanctuary First Turn",		
+		"uniques": ["Comment [This is here for Sanctuary 'status is lost upon attacking' mechanism]"]
 	},
 	{
 		"name": "Heavily Armored",
@@ -477,6 +572,7 @@
 	{
 		"name": "Superior Defense",
 		"uniques": ["Comment [Reduces damage taken by 10]",
+					"[+1]% Strength <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
@@ -489,10 +585,90 @@
 					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>",
 					]
 	},
+	{
+		"name": "Undead",
+		"uniques": ["Comment [Ignores penalty from terrain and wounded units]",
+					"No defensive terrain penalty <hidden from users>", "No damage penalty for wounded units <hidden from users>",
+					]
+	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//Abilities (promotions that needs more than 1 promotion to function) are placed in the section below								  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	
+	//Universal~~~~~~~
+	{
+		"name": "Bonebreaker",
+		"uniques": ["Comment [Attack has a 15% chance to apply [Stunned] target Land unit for 1 turn]",
+					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Land] unit> <with [15]% chance> <hidden from users>"]
+	},
+	{
+		"name": "Invisible",
+		"uniques": ["Invisible to others", "Invisibility"
+					"[+1]% Strength <hidden from users>",],
+	},
+	{
+		"name": "Elusive",
+		"uniques": ["Comment [Withdraws before Melee combat once per turn]",
+		
+					"[This Unit] gains the [Elusive Active] status for [1] turn(s) <upon turn end> <hidden from users>",
+		]
+	},
+	{
+		"name": "Elusive Active",		
+		"uniques": ["[+1]% Strength <hidden from users>", 
+					"Withdraws before melee combat <hidden from users>",
+					"[This Unit] loses the [Elusive Active] status <upon entering a [All] tile>",
+		]
+	},
+	
+	{
+		"name": "Shields Up",
+		"uniques": ["Comment [Block the next attack. Cooldown: 5 turns.]",
+		
+					"[This Unit] gains the [Shields Up Cooldown] status for [5] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",	
+					
+					"[+1]% Strength <when defending> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [11] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [17] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [19] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [21] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [23] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [25] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [26] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [27] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [29] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [31] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [33] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [34] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [35] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [37] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [38] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [39] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [41] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [42] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [43] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [45] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [46] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [47] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [49] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [51] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [53] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [54] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [55] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [57] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [58] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [59] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [61] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [62] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [63] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [64] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [65] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [66] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [67] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [68] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [69] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [70] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [71] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [72] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [73] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [74] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [75] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [76] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [77] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [78] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [79] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [80] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [81] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [82] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [83] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [84] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [85] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [86] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [87] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [88] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [89] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [90] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [91] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [92] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [93] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [94] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [95] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [96] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [97] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [98] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [99] HP in a single attack> <for units without [Shields Up Cooldown]> <hidden from users>",
+					
+		]
+	},
+	{
+		"name": "Shields Up Cooldown",		
+		"uniques": ["Comment [Shields Up is on cooldown.]"]
+	},
 	
 	//Dragonborn Union~~~~~~~
 	{
@@ -503,7 +679,7 @@
 	},
 	{
 		"name": "Executioner Active",
-		"uniques": ["[+25]% Strength", "[1] additional attacks per turn", "Can move after attacking"]
+		"uniques": ["[+25]% Strength", "[1] additional attacks per turn", "Can move after attacking"],
 	},
 	
 	//Clockwerk Church~~~~~~~
@@ -514,7 +690,7 @@
 	},
 	{
 		"name": "Overdrive Protocol Active",
-		"uniques": ["[+35]% Strength", "No damage penalty for wounded units", "[This Unit] takes [30] damage <upon ending a turn in a [All] tile>"]
+		"uniques": ["[+35]% Strength", "No damage penalty for wounded units", "[This Unit] takes [30] damage <upon turn end>"]
 	},
 	
 	//Gaia Preserver~~~~~~~
@@ -530,7 +706,7 @@
 	},
 	{
 		"name": "Chameleon Cloak Active",
-		"uniques": ["Invisible to others", "[+25]% Strength", "Invisibility"]
+		"uniques": ["Invisible to others", "[+25]% Strength", "Invisibility"],
 	},
 	{
 		"name": "Chameleon Cloak Cooldown",
@@ -550,7 +726,8 @@
 	},
 	{
 		"name": "Shukuchi Active",
-		"uniques": ["Invisible to others", "[+1] Movement", "[Target Unit] takes [15] damage <upon damaging a [All] unit>", "Invisibility"]
+		"uniques": ["Invisible to others", "[+1] Movement", "[Target Unit] takes [15] damage <upon damaging a [All] unit>", "Invisibility",
+					"[+1]% Strength <hidden from users>", ],
 	},
 	{
 		"name": "Shukuchi Cooldown",
@@ -567,7 +744,9 @@
 	},
 	{
 		"name": "Galestorm Leap Active",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory"]
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory"],
+		"innerColor": [0, 255, 0],
+		"outerColor": [0, 0, 0]
 	},
 	{
 		"name": "Galestorm Leap Cooldown",
@@ -579,6 +758,7 @@
 		"name": "Divine Smite",		
 		"uniques": ["Comment [Attack deals extra 15 damage. Cooldown: 5 turns.]", 
 					"[Target Unit] takes [15] damage <upon damaging a [All] unit> <for units without [Divine Smite Cooldown]> <hidden from users>",
+					"[+1]% Strength <for units without [Divine Smite Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Divine Smite Cooldown] status for [5] turn(s) <upon damaging a [All] unit> <for units without [Divine Smite Cooldown]> <hidden from users>"]
 	},
 	{
@@ -595,9 +775,10 @@
 	{
 		"name": "Reckless Spewing Active",
 		"uniques": ["Comment [Reckless Spewing is active]", 
+					"[+1]% Strength <hidden from users>", 
 					"[99] additional attacks per turn", "No damage penalty for wounded units",
 					"[This Unit] gains [1] movement <upon damaging a [All] unit>", "Cannot attack <vs cities>",
-					"[This Unit] takes [30] damage <upon damaging a [All] unit>"]
+					"[This Unit] takes [30] damage <upon damaging a [All] unit>"],
 	},
 	
 	//Shinso~~~~~~~
@@ -605,6 +786,7 @@
 		"name": "Withering Curse",		
 		"uniques": ["Comment [Attack applies [Withered] for 2 turns. [Withered] unit can't heal, pillage, and receive no defensive terrain bonus. Cooldown: 5 turns.]", 
 					"[Target Unit] gains the [Withered] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Withering Curse Cooldown]> <hidden from users>",
+					"[+1]% Strength <for units without [Withering Curse Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Withering Curse Cooldown] status for [5] turn(s) <upon damaging a [All] unit> <for units without [Withering Curse Cooldown]> <hidden from users>"]
 	},
 	{
@@ -615,14 +797,17 @@
 	//Tauren Clan~~~~~~~
 	{
 		"name": "Enchant Totem",		
-		"uniques": ["Comment [Activate to gain 1 free attack for this turn. Cooldown: 8 turns.]",
+		"uniques": ["Comment [Activate to gain 1 free attack for this turn. Cooldown: 10 turns.]",
 					"[This Unit] gains the [Enchant Totem Active] status for [1] turn(s) <for [0] movement> <for units without [Enchant Totem Cooldown]> <hidden from users>", 
-					"[This Unit] gains the [Enchant Totem Cooldown] status for [8] turn(s) <upon gaining the [Enchant Totem Active] status> <hidden from users>",
+					"[This Unit] gains the [Enchant Totem Cooldown] status for [10] turn(s) <upon gaining the [Enchant Totem Active] status> <hidden from users>",
 					]
 	},
 	{
 		"name": "Enchant Totem Active",		
-		"uniques": ["[1] additional attacks per turn", "[This Unit] gains [1] movement <upon defeating a [All] unit>", "Can move after attacking"]
+		"uniques": ["[1] additional attacks per turn", 
+					"[This Unit] gains [1] movement <upon damaging a [All] unit>", 
+					"[+1]% Strength <hidden from users>", 
+					"Can move after attacking"],
 	},
 	{
 		"name": "Enchant Totem Cooldown",		
@@ -632,7 +817,7 @@
 	//Wizard Council~~~~~~~
 	{
 		"name": "Mana Shield",
-		"uniques": ["Comment [Protect this unit from enemy's next Ranged attack. Cooldown: 4 turns.]",
+		"uniques": ["Comment [Block the next Ranged attack. Cooldown: 4 turns.]",
 					"[+1000]% Strength <when defending> <vs [Ranged] units> <for units without [Mana Shield Cooldown]> <hidden from users>"]
 	},
 	{
@@ -644,7 +829,7 @@
 	//Undines~~~~~~~
 	{
 		"name": "Regeneration",		
-		"uniques": ["Comment [Heals 10 HP at turn end if not in combat during the last 2 turns.]", 
+		"uniques": ["Comment [Heals 10 HP at turn end when not in combat in the last 2 turns.]", 
 					"[This Unit] heals [10] HP <upon turn end> <for units without [Regeneration Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Regeneration Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 					"[This Unit] gains the [Regeneration Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"]
@@ -657,9 +842,10 @@
 	//The Amazons~~~~~~~
 	{
 		"name": "Disarming Strike",
-		"uniques": ["Comment [Attack applies [Disarmed] to target Land unit for 1 turns. [Disarmed] unit can't attack. Cooldown: 5 turns.]",
+		"uniques": ["Comment [Attack applies [Disarmed] to target Land unit for 1 turns. [Disarmed] unit can't attack. Cooldown: 6 turns.]",
 					"[Target Unit] gains the [Disarmed] status for [2] turn(s) <upon damaging a [Land] unit> <for units without [Disarming Strike Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Disarming Strike Cooldown] status for [5] turn(s) <upon damaging a [Land] unit> <for units without [Disarming Strike Cooldown]> <hidden from users>"]
+					"[+1]% Strength <for units without [Disarming Strike Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Disarming Strike Cooldown] status for [6] turn(s) <upon damaging a [Land] unit> <for units without [Disarming Strike Cooldown]> <hidden from users>"]
 	},
 	{
 		"name": "Disarming Strike Cooldown",
@@ -671,6 +857,7 @@
 		"name": "Overwhelming Attack",		
 		"uniques": ["Comment [Attack applies [Stunned] to Wounded units for 1 turn. Cooldown: 7 turns.]",
 					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Wounded] unit> <for units without [Overwhelming Attack Cooldown]> <hidden from users>",
+					"[+1]% Strength <for units without [Overwhelming Attack Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Overwhelming Attack Cooldown] status for [7] turn(s) <upon damaging a [Wounded] unit> <for units without [Overwhelming Attack Cooldown]> <hidden from users>"
 					]
 	},
@@ -703,7 +890,8 @@
 		"name": "Negative Energy Touch",		
 		"uniques": ["[Target Unit] takes [30] damage <upon damaging a [All] unit>",
 					"[Target Unit] gains the [Withered] status for [2] turn(s) <upon damaging a [All] unit>",
-					"[This Unit] loses the [Negative Energy Touch] status <upon turn end>"
+					"[This Unit] loses the [Negative Energy Touch] status <upon turn end>",
+					"[+1]% Strength <hidden from users>", 
 					]
 	},
 	{
@@ -714,46 +902,9 @@
 		"name": "True Demon Form",		
 		"uniques": ["[Target Unit] takes [15] damage <upon damaging a [All] unit>",
 					"[This Unit] heals [15] HP <upon turn end>",
-					"[+1] Movement", "Flying", "Can pass through impassable tiles", "Can see over obstacles"
+					"[+1] Movement", "Flying", "Can pass through impassable tiles", "Can see over obstacles",
+					"[+1]% Strength <hidden from users>", 
 					]
-	},
-	
-	//Einherjar Legion~~~~~~
-	{
-		"name": "Unstoppable",		
-		"uniques": ["Comment [Acivate to gain +15% Strength and negative status immunity for 2 turns. Must be adjacent to a [Valkyrie] or another [Unstoppable] unit to activate. Cooldown: 8 turns]",
-					"Unified <hidden from users>", 
-					"[This Unit] gains the [Unstoppable Active] status for [2] turn(s) <for [0] movement> <for units without [Unstoppable Cooldown]> <when adjacent to a [Unified] unit> <hidden from users>", 
-					"[This Unit] gains the [Debuff Immune] status for [2] turn(s) <upon gaining the [Unstoppable Active] status> <hidden from users>",
-					"[This Unit] gains the [Unstoppable Cooldown] status for [8] turn(s) <upon gaining the [Unstoppable Active] status> <hidden from users>",
-					]
-	},
-	{
-		"name": "Unstoppable Active",
-		"uniques": ["[+15]% Strength"]
-	},
-	{
-		"name": "Unstoppable Cooldown",
-		"uniques": ["Comment [[Unstoppable] is on cooldown]"]
-	},
-	{
-		"name": "Blinding Smite",		
-		"uniques": ["Comment [Attack deals extra 15 damage and applies [Blinded] for 1 turns. [Blinded] unit has its movement reduced to 1 and takes +50% Flank bonus. Cooldown: 3 turns.]", 
-					"[Target Unit] takes [15] damage <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Blinded] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Blinding Smite Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>"]
-	},
-	{
-		"name": "Blinding Smite Cooldown",
-		"uniques": ["Comment [Blinding Smite is on cooldown.]"]
-	},
-	{
-		"name": "Ride of the Valkyrie",
-		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory"]
-	},
-	{
-		"name": "Ride of the Valkyrie Cooldown",
-		"uniques": ["Ride of the Valkyrie CD"]
 	},
 	
 	//High Elf Concordat~~~~~~~
@@ -768,15 +919,9 @@
 		"name": "Second Wind Active",
 		"uniques": [
 					"Comment [Second Wind is available]",
+					"[+1]% Strength <hidden from users>", 
 					"[This Unit] heals [25] HP <upon losing at least [1] HP in a single attack> <when below [26] HP> <hidden from users>",
-					]		
-	},
-	
-	//Universal~~~~~~~
-	{
-		"name": "Bonebreaker",
-		"uniques": ["Comment [Attack has a 15% chance to apply [Stunned] target Land unit for 1 turn]",
-					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Land] unit> <with [15]% chance> <hidden from users>"]
+					],
 	},
 	
 	//Pyre Clan~~~~~~~
@@ -789,7 +934,7 @@
 	//Centaurian Tribe~~~~~~~
 	{
 		"name": "Stampede",
-		"uniques": ["Comment [Attack applies [Crushed] to target Land unit for 2 turns. [Crushed] unit has its Strength reduced by 20%.]", 
+		"uniques": ["Comment [Attack applies [Crushed] to target Land unit for 2 turns. [Crushed] unit has -15% Strength.]", 
 					"[Target Unit] gains the [Crushed] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},
 	
@@ -835,14 +980,14 @@
 	//The Walrus People~~~~~~~
 	{
 		"name": "Frostbrand",
-		"uniques": ["Comment [Attack applies [Frostbitten] to target Land unit for 2 turns. Unit affected with [Frostbitten] has -1 Movement and takes 10 damage at turn end.]",
+		"uniques": ["Comment [Attack applies [Frostbitten] to target Land unit for 2 turns. [Frostbitten] unit has -1 Movement and takes 10 damage at turn end.]",
 					"[Target Unit] gains the [Frostbitten] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},	
 	
 	//Phrygian Kingdom~~~~~~~
 	{
 		"name": "Gordian Knot",
-		"uniques": ["Comment [Unit attacking this unit receives [Binded] for 2 turns, reducing all their movement into 1]"]
+		"uniques": ["Comment [Unit attacking this unit receives [Binded] for 2 turns. [Binded] unit has its Movement reduced to 1]"]
 	},
 	
 	//Kemetian Dynasty~~~~~~
@@ -859,79 +1004,510 @@
 					]
 	},
 	
+	//Einherjar Legion~~~~~~
+	{
+		"name": "Unstoppable",		
+		"uniques": ["Comment [Acivate to gain +15% Strength and negative status immunity for 2 turns. Must be adjacent to a [Valkyrie] or another [Unstoppable] unit to activate. Cooldown: 8 turns]",
+					"Unified <hidden from users>", 
+					"[This Unit] gains the [Unstoppable Active] status for [2] turn(s) <for [0] movement> <for units without [Unstoppable Cooldown]> <when adjacent to a [Unified] unit> <hidden from users>", 
+					"[This Unit] gains the [Debuff Immune] status for [2] turn(s) <upon gaining the [Unstoppable Active] status> <hidden from users>",
+					"[This Unit] gains the [Unstoppable Cooldown] status for [8] turn(s) <upon gaining the [Unstoppable Active] status> <hidden from users>",
+					]
+	},
+	{
+		"name": "Unstoppable Active",
+		"uniques": ["[+15]% Strength"],
+	},
+	{
+		"name": "Unstoppable Cooldown",
+		"uniques": ["Comment [[Unstoppable] is on cooldown]"]
+	},
+	{
+		"name": "Blinding Smite",		
+		"uniques": ["Comment [Attack deals 15 extra damage and applies [Blinded] for 1 turns. [Blinded] unit has its Movement reduced to 1 and takes +50% Flank bonus. Cooldown: 3 turns.]", 
+					"[Target Unit] takes [15] damage <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>",
+					"[+1]% Strength <for units without [Blinding Smite Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Blinded] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Blinding Smite Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Blinding Smite Cooldown]> <hidden from users>"]
+	},
+	{
+		"name": "Blinding Smite Cooldown",
+		"uniques": ["Comment [Blinding Smite is on cooldown.]"]
+	},
+	{
+		"name": "Ride of the Valkyrie",
+		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory"]
+	},
+	{
+		"name": "Ride of the Valkyrie Cooldown",
+		"uniques": ["Ride of the Valkyrie CD"]
+	},
+	
+	//Precursor~~~~~~~
+	{
+		"name": "Detect Ruins",		
+		"uniques": ["Comment [Activate to reveal all [Ancient ruins] in a 6-tiles radius. Can't be activated if there are no [Ancient ruins] in the radius. May only be used once. Cost: 2 Move.]",
+					"Reveal up to [all] [Ancient ruins] within a [6] tile radius <for [2] movement> <removing the [Detect Ruins] promotion/status> <hidden from users>",
+					]
+	},
+	{
+		"name": "Detect Ruins (Gamba)",		//If first option is too stronk, change into gaining this status. This status now can be activated even without any Ancient ruins in vicinity.
+		"uniques": ["Comment [Activate to reveal all [Ancient ruins] in a 6-tiles radius. Can't be activated if there are no [Ancient ruins] in the radius. May only be used once. Cost: 2 Move.]",
+					"Reveal up to [all] [Ancient ruins] within a [6] tile radius <upon gaining the [Detect Ruins (Gamba)] status> <hidden from users>",
+					]
+	},
+	
+	//Kobolds~~~~~~~
+	{
+		"name": "Forced March",		
+		"uniques": ["Comment [Activate to gain +2 Movement but is [Disarmed] and takes 10 damage at turn end. [Disarmed] unit can't attack. This ability can be toggled on/off. Cooldown: 1 turn.]",
+					"[This Unit] gains the [Forced March (On)] promotion <for [0] movement> <removing the [Forced March (Off)] promotion/status> <for units with [Forced March (Off)]> <for units without [Forced March Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Forced March (Off)] promotion <for [0] movement> <removing the [Forced March (On)] promotion/status> <removing the [Disarmed] promotion/status> <for units with [Forced March (On)]> <for units without [Forced March Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Forced March Cooldown] status for [1] turn(s) <upon losing the [Forced March (On)] promotion> <hidden from users>",
+					"[This Unit] gains the [Forced March Cooldown] status for [1] turn(s) <upon losing the [Forced March (Off)] promotion> <hidden from users>",
+					"[This Unit] gains the [Disarmed] promotion <upon losing the [Forced March (Off)] promotion> <hidden from users>",
+					"[This Unit] gains [2] movement <upon losing the [Forced March (Off)] promotion> <hidden from users>",
+					]
+					
+	},
+	{
+		"name": "Forced March Cooldown",
+		"uniques": ["Comment [Forced March is on cooldown]"]
+	},
+	{
+		"name": "Forced March (Off)",		
+		"uniques": ["Comment [Activate to gain +2 Movement but gaining [Disarmed] and takes 10 damage per turn. This ability can be toggled on/off. Cooldown: 1 turn.]",
+					]
+					
+	},
+	{
+		"name": "Forced March (On)",		
+		"uniques": ["Comment [Activate to stop gaining +2 Movement and removing [Disarmed] and 10 damage taken per turn. This ability can be toggled on/off. Cooldown: 1 turn.]",
+					"[+2] Movement <hidden from users>",
+					"[This Unit] takes [10] damage <upon turn end>"
+					]
+					
+	},
+	
+	//Teutonica Imperium~~~~~~~
+	{
+		"name": "Force Field",		
+		"uniques": ["Comment [Activate to gain immunity from Ranged attack for 2 turns. Cooldown: 12 turns. Cost: 2 Move.]",
+					"[This Unit] gains the [Force Field Active] status for [2] turn(s) <for [2] movement> <for units without [Force Field Cooldown]> <hidden from users>", 
+					"[This Unit] gains the [Force Field Cooldown] status for [12] turn(s) <upon gaining the [Force Field Active] status> <hidden from users>",
+					]
+					
+	},
+	{
+		"name": "Force Field Active",
+		"uniques": ["[+999]% Strength <when defending> <vs [Ranged]>",],
+	},
+	{
+		"name": "Force Field Cooldown",
+		"uniques": ["Comment [Force Field is on cooldown]"]
+	},
+	
+	{
+		"name": "Shocknade",		
+		"uniques": ["Comment [Attack applies [Stunned] for 1 turn to Armored/Construct units. Cooldown: 10 turns.]", 
+					"[+1]% Strength <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [{non-[IsStunned]} {non-[Construct]} {Armored}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [{non-[IsStunned]} {non-[Armored]} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [{non-[IsStunned]} {Armored} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Shocknade Cooldown] status for [10] turn(s) <upon damaging a [All] unit> <for units without [Shocknade Cooldown]> <hidden from users>"
+					]
+	},
+	{
+		"name": "Shocknade Cooldown",
+		"uniques": ["Comment [Shocknade is on cooldown.]"]
+	},
+	
+	//Night Elven Enclave~~~~~~~
+	{
+		"name": "Elune's Protection",
+		"uniques": ["Comment [This unit has gained the grace of Elune's protection]",
+					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <with [25]% chance> <for [{non-[Wisp]} {Military}] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <for [Civilian] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <for [Wisp] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Elune's Protection Cooldown] status for [10] turn(s) <upon gaining the [Sanctuary] status> <hidden from users>",
+		]
+	},
+	{
+		"name": "Elune's Protection Cooldown",
+		"uniques": ["Comment [Elune's Protection is on cooldown.]"]
+	},
+	{
+		"name": "Elune's Wrath Cooldown",
+		"uniques": ["Comment [Elune's Wrath is on cooldown.]"]
+	},	
+	{
+		"name": "Ambusher",
+		"uniques": ["Comment [Gain Invisibility in [Forest] or [Jungle] tiles upon turn start when not in combat in the last 3 turns. Invisibility is lost upon moving or attacking.]",
+					"Invisibility <hidden from users>",
+					"[This Unit] gains the [Invisible] promotion <upon turn start> <in [Forest] tiles> <for units without [Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Invisible] promotion <upon turn start> <in [Jungle] tiles> <for units without [Cooldown]> <hidden from users>",
+					"[This Unit] loses the [Invisible] promotion <upon damaging a [All] unit> <hidden from users>",
+					"[This Unit] loses the [Invisible] promotion <upon entering a [All] tile> <hidden from users>",
+					"[This Unit] gains the [Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+					"[This Unit] gains the [Cooldown] status for [3] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+		]
+	},	
+	
+	//Aellenari Empire~~~~~~~
+	{
+		"name": "Restless",
+		"uniques": ["Comment [Attack applies [Fatigued] for 1 turn. [Fatigued] unit takes 5 damage upon moving, has -10 HP when healing and cannot attack & move in the same turn.]",
+					"[Target Unit] gains the [Fatigued] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"]
+	},	
+	
+	//Elmar Kingdom
+	{
+		"name": "Horns of Humility",
+		"uniques": ["Comment [This unit gain access to unique promotions to study the spells of the Divine Deers. May only cast one Active spell every turn.]",
+		],
+        "column": 29,
+        "row": 1
+	},	
+	{
+		"name": "Warden I",
+		"prerequisites": ["Horns of Humility"],
+		"uniques": ["Comment [[Fortis]: Active. Gain +25% Strength when defending for 2 turns. Cooldown: 10 turns.]",
+					"[This Unit] gains the [Fortis] status for [2] turn(s) <for [0] movement> <for units without [Fortis Cooldown]> <for units without [Humility]> <hidden from users>",
+					"[This Unit] gains the [Fortis Cooldown] status for [10] turn(s) <upon gaining the [Fortis] status> <hidden from users>",
+					"[This Unit] gains the [Humility] status for [1] turn(s) <upon gaining the [Fortis] status> <hidden from users>",
+		],
+		"unitTypes": ["Gunpowder", "Sword"],
+        "column": 30,
+        "row": 1
+	},	
+	{
+		"name": "Fortis",		
+		"uniques": ["[+25]% Strength <when defending>",
+					]
+	},
+	{
+		"name": "Fortis Cooldown",
+		"uniques": ["Comment [Fortis is on cooldown.]"]
+	},
+	{
+		"name": "Warden II",
+		"prerequisites": ["Warden I"],
+		"uniques": ["Comment [[Armour of Frost]: Passive. Block the next attack. Cooldown: 8 turns.]",
+					
+					"[This Unit] gains the [Armour of Frost Cooldown] status for [8] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",	
+					
+					"[+1]% Strength <when defending> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [11] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [17] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [19] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [21] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [23] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [25] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [26] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [27] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [29] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [31] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [33] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [34] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [35] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [37] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [38] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [39] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [41] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [42] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [43] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [45] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [46] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [47] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [49] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [51] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [53] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [54] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [55] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [57] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [58] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [59] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [61] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [62] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [63] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [64] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [65] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [66] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [67] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [68] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [69] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [70] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [71] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [72] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [73] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [74] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [75] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [76] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [77] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [78] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [79] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [80] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [81] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [82] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [83] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [84] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [85] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [86] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [87] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [88] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [89] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [90] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [91] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [92] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [93] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [94] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [95] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [96] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [97] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [98] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [99] HP in a single attack> <for units without [Armour of Frost Cooldown]> <hidden from users>",
+				
+		],
+		"unitTypes": ["Gunpowder", "Sword"],
+        "column": 30,
+        "row": 2
+	},	
+	{
+		"name": "Armour of Frost",
+		"uniques": ["Comment [Passive. Block the next attack. Cooldown: 8 turns.]",
+					
+		]
+	},
+	{
+		"name": "Armour of Frost Cooldown",		
+		"uniques": ["Comment [Armour of Frost is on cooldown.]"]
+	},
+	{
+		"name": "Punisher I",
+		"prerequisites": ["Horns of Humility"],
+		"uniques": ["Comment [[Negate Hostility]: Active. Next attack this turn applies [Pacified] for 2 turns. [Pacified] units can't attack or be attacked. Cooldown: 8 turns.]",
+					"[This Unit] gains the [Negate Hostility] status for [1] turn(s) <for [0] movement> <for units without [Negate Hostility Cooldown]> <for units without [Humility]> <hidden from users>",
+					"[This Unit] gains the [Negate Hostility Cooldown] status for [8] turn(s) <upon gaining the [Negate Hostility] status> <for units without [Negate Hostility Cooldown]> <hidden from users>",
+					"[This Unit] loses the [Negate Hostility] status <upon damaging a [All] unit> <hidden from users>",
+					"[This Unit] gains the [Humility] status for [1] turn(s) <upon gaining the [Negate Hostility] status> <hidden from users>",
+		],
+		"unitTypes": ["Gunpowder", "Sword"],
+        "column": 31,
+        "row": 1
+	},	
+	{
+		"name": "Negate Hostility",		
+		"uniques": ["[+1]% Strength <for units without [Negate Hostility Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Pacified] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Negate Hostility Cooldown]> <hidden from users>",
+					]
+	},
+	{
+		"name": "Negate Hostility Cooldown",
+		"uniques": ["Comment [Negate Hostility is on cooldown.]"]
+	},
+	{
+		"name": "Punisher II",
+		"prerequisites": ["Punisher I"],
+		"uniques": ["Comment [[Ice Prison]: Active. Next attack this turn applies [Frozen] for 1 turn. Cooldown: 12 turns.]",
+					"[This Unit] gains the [Ice Prison] status for [1] turn(s) <for [0] movement> <for units without [Ice Prison Cooldown]> <for units without [Humility]> <hidden from users>",
+					"[This Unit] gains the [Ice Prison Cooldown] status for [12] turn(s) <upon gaining the [Ice Prison] status> <for units without [Ice Prison Cooldown]> <hidden from users>",
+					"[This Unit] loses the [Ice Prison] status <upon damaging a [All] unit> <hidden from users>",
+					"[This Unit] gains the [Humility] status for [1] turn(s) <upon gaining the [Ice Prison] status> <hidden from users>",
+		],
+		"unitTypes": ["Gunpowder", "Sword"],
+        "column": 31,
+        "row": 2
+	},	
+	{
+		"name": "Ice Prison",		
+		"uniques": ["[+1]% Strength <for units without [Ice Prison Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Frozen] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Ice Prison Cooldown]> <hidden from users>",
+					]
+	},
+	{
+		"name": "Ice Prison Cooldown",
+		"uniques": ["Comment [Ice Prison is on cooldown.]"]
+	},
+	{
+		"name": "Benediction I",
+		"prerequisites": ["Horns of Humility"],
+		"uniques": ["Comment [[Mend Wounds]: Active. Adjacent units heals 15 HP at turn end. Duration: 2 turns. Cooldown: 15 turns. Cost: 2 Move.]",
+					"[This Unit] gains the [Mend Wounds] status for [2] turn(s) <for [2] movement> <for units without [Mend Wounds Cooldown]> <for units without [Humility]> <hidden from users>",
+					"[This Unit] gains the [Mend Wounds Cooldown] status for [15] turn(s) <upon gaining the [Mend Wounds] status> <for units without [Mend Wounds Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Humility] status for [1] turn(s) <upon gaining the [Mend Wounds] status> <hidden from users>",
+		],
+		"unitTypes": ["Gunpowder", "Sword"],
+        "column": 32,
+        "row": 1
+	},	
+	{
+		"name": "Mend Wounds",		
+		"uniques": ["[+1]% Strength <for units without [Mend Wounds Cooldown]> <hidden from users>",
+					"Mend Wounds Aura <hidden from users>",
+					]
+	},
+	{
+		"name": "Mend Wounds Cooldown",
+		"uniques": ["Comment [Mend Wounds is on cooldown.]"]
+	},
+	{
+		"name": "Benediction II",
+		"prerequisites": ["Benediction I"],
+		"uniques": ["Comment [[Aura of Protection]: Passive. This and adjacent units gain 8 damage reduction.]",
+					"Aura of Protection Aura <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+					
+		],
+		"unitTypes": ["Gunpowder", "Sword"],
+        "column": 32,
+        "row": 2
+	},	
+	{
+		"name": "Aura of Protection",		
+		"uniques": ["Comment [Passive. This and adjacent units gain 8 damage reduction.]",
+					"Aura of Protection Aura <hidden from users>",
+					]
+	},
+	{
+		"name": "Humility",		
+		"uniques": ["Comment [Spellcasting is on cooldown.]"]
+	},
+	
+	{
+		"name": "Divine Deers Blessing", //Aura target
+		"uniques": ["Comment [This unit may receives the blessing of the Deer Gods]",
+					"[+1]% Strength <when adjacent to a [Mend Wounds Aura] unit> <hidden from users>",
+					"[+1]% Strength <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
+					"[This Unit] heals [15] HP <upon turn end> <when adjacent to a [Mend Wounds Aura] unit> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
+		],
+	},	
+	
+	{
+		"name": "Moving Bastion",
+		"uniques": ["Comment [Reduces damage taken by 20 once every turn, but has -2 Movement]",
+					"[-2] Movement <hidden from users>",
+					"[This Unit] gains the [Moving Bastion Cooldown] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",	
+					
+					"[+1]% Strength <when defending> <for units without [Moving Bastion Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [11] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [17] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [19] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
+		]
+	},
+	{
+		"name": "Moving Bastion Cooldown",		
+		"uniques": ["Comment [Moving Bastion is on cooldown.]"]
+	},
+	
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	//							Neutral List																				  //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	{
+		"name": "Pacified",
+		"uniques": ["Comment [This unit can't and can't be attacked.]", 
+					"IsPacified <hidden from users>", "Cannot attack <hidden from users>",
+					"[-1]% Strength <hidden from users>",
+					],
+	},
+	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Debuff List																				  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	
 	{
 		"name": "Stunned",
-		"uniques": ["Cannot attack", "Cannot move", "[-15]% Strength", "No defensive terrain bonus", "Can only heal by pillaging", "No Sight"]
+		"uniques": ["[This Unit] loses [999] movement <upon turn start>", "IsStunned <hidden from users>",
+					"Cannot attack", "Cannot move", 
+					"[-15]% Strength", 
+					"No defensive terrain bonus", 
+					"Can only heal by pillaging", 
+					"No Sight"],
 	},
 	{
 		"name": "Baned",
 		"uniques": ["[This Unit] takes [5] damage <upon losing at least [1] HP in a single attack>",
 					"[Target Unit] heals [5] HP <upon damaging a [All] unit>"
-					]
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Burning",
-		"uniques": ["[This Unit] takes [10] damage <upon turn end>",
+		"uniques": ["[This Unit] takes [10] damage <upon turn start>",
 					"[This Unit] loses the [Burning] status <upon ending a turn in a [Water] tile>",
 					"[This Unit] loses the [Burning] status <upon ending a turn in a [River] tile>",
-					]
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Binded",
 		"uniques": ["[-99] Movement"
-					]
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Blinded",
-		"uniques": ["[-99] Movement", "No Sight", "Comment [Takes +50% Flank bonus]"
-					]
+		"uniques": ["Comment [Takes +50% Flank Attack bonus]",
+					"[-99] Movement", 
+					"No Sight",  
+					"[-1] Range <for [Ranged] units>",
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Chained",
 		"uniques": ["[-3] Movement"
-					]
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Chilled",
-		"uniques": ["[-10]% Strength", "[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn end> <with [15]% chance>",
-					]
+		"uniques": ["[-10]% Strength", 
+					"[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn start> <with [15]% chance>",
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Crushed",
-		"uniques": ["[-20]% Strength"]
+		"uniques": ["[-15]% Strength"],
 	},
 	{
 		"name": "Disarmed",
-		"uniques": ["Cannot attack"
-					]
+		"uniques": ["Cannot attack",
+					"[-1]% Strength <hidden from users>",
+					],
+	},
+	{
+		"name": "Fatigued",
+		"uniques": ["[-10] HP when healing", "[This Unit] takes [5] damage <upon entering a [All] tile>",
+					"[This Unit] gains the [Disarmed] status for [1] turn(s) <upon entering a [All] tile>",
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Frostbitten",
-		"uniques": ["[This Unit] takes [10] damage <upon turn end>", "[-1] Movement"
-					]
+		"uniques": ["[This Unit] takes [10] damage <upon turn start>", 
+					"[-1] Movement",
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Frozen",
-		"uniques": ["Cannot attack", "Cannot move", "[-50]% Strength", "No defensive terrain bonus", "Can only heal by pillaging",
-					"[This Unit] loses the [Frozen] status <upon losing at least [1] HP in a single attack>", "No Sight",
-					]
+		"uniques": ["Cannot attack", 
+					"Cannot move", 
+					"[-50]% Strength", 
+					"No defensive terrain bonus", 
+					"Can only heal by pillaging",
+					"No Sight",
+					"[This Unit] loses the [Frozen] status <upon losing at least [1] HP in a single attack>", 
+					],
 	},
 	{
 		"name": "Marked",
-		"uniques": ["Comment [This unit is marked. The Trolls are hunting.]", "IsMarked <hidden from users>",
-					]
+		"uniques": ["Comment [This unit is marked. The Trolls are hunting.]", 
+					"IsMarked <hidden from users>",
+					"[-1]% Strength <hidden from users>",
+					],
+	},
+	{
+		"name": "Rooted",
+		"uniques": ["Cannot move", 
+					"Cannot attack <for [Melee] units>",
+					"[This Unit] gains the [Elune's Wrath Cooldown] status for [6] turn(s) <upon gaining the [Rooted] status> <if [Elune's Shrine] is constructed by anybody> <hidden from users>",
+					"[-1]% Strength <hidden from users>",
+		],
 	},
 	{
 		"name": "Shackled",
-		"uniques": ["Cannot move", "[This Unit] takes [15] damage <upon turn end>"]
+		"uniques": ["Cannot move", 
+					"[This Unit] takes [15] damage <upon turn start>",
+					"[-1]% Strength <hidden from users>",
+					],
+	},
+	{
+		"name": "Shocked",
+		"uniques": ["[This Unit] loses [99] movement <upon damaging a [All] unit>",
+					"[This Unit] takes [10] damage <upon damaging a [All] unit>", 
+					"[-1]% Strength <hidden from users>",
+					],
 	},
 	{
 		"name": "Withered",
-		"uniques": ["No defensive terrain bonus", "Can only heal by pillaging", "Unable to pillage tiles", 
+		"uniques": ["No defensive terrain bonus", 
+					"Can only heal by pillaging", 
+					"Unable to pillage tiles", 
 		
 					//Promotions counter, we need this below because `Can on heal by pillaging` doesn't work for Triggers
 					"[This Unit] takes [50] damage <upon gaining the [Infernal Regeneration] status> <hidden from users>",
@@ -943,10 +1519,14 @@
 					"[-15] HP when healing <for units with [True Demon Form]> <hidden from users>",  
 					
 					"[-5] HP when healing <when adjacent to a [Healer 1] unit> <hidden from users>", 
-					"[-5] HP when healing <when adjacent to a [Healer 2] unit> <hidden from users>", 
+					"[-5] HP when healing <when adjacent to a [Healer 2] unit> <hidden from users>",
+					"[-15] HP when healing <when adjacent to a [Mend Wounds Aura] unit> <hidden from users>", 
+					
 					"[-5] HP when healing <when adjacent to a [Medic] unit> <hidden from users>", 
 					"[-5] HP when healing <when adjacent to a [Medic II] unit> <hidden from users>", 
-					"[-5] HP when healing <when adjacent to a [Medic II] unit> <in [Foreign Land] tiles> <hidden from users>"]
+					"[-5] HP when healing <when adjacent to a [Medic II] unit> <in [Foreign Land] tiles> <hidden from users>",
+					
+					"[-1]% Strength <hidden from users>",],
 	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
@@ -966,10 +1546,14 @@
 					"[This Unit] loses the [Chained] status <upon gaining the [Chained] status> <hidden from users>",
 					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
 					"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status> <hidden from users>",
+					"[This Unit] loses the [Disarmed] status <upon gaining the [Crushed] status> <hidden from users>",
+					"[This Unit] loses the [Fatigued] status <upon gaining the [Fatigued] status> <hidden from users>",
 					"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
 					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
 					"[This Unit] loses the [Marked] status <upon gaining the [Marked] status> <hidden from users>",
+					"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
 					"[This Unit] loses the [Shackled] status <upon gaining the [Shackled] status> <hidden from users>",
+					"[This Unit] loses the [Shocked] status <upon gaining the [Shocked] status> <hidden from users>",
 					"[This Unit] loses the [Withered] status <upon gaining the [Withered] status> <hidden from users>",
 					
 					//Remove existing debuffs
@@ -981,11 +1565,37 @@
 					"[This Unit] loses the [Chained] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Chilled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Crushed] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Disarmed] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Fatigued] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Frostbitten] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Frozen] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Marked] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Rooted] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Shackled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Shocked] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Withered] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					
+					"[+1]% Strength <hidden from users>",
+		],
+		"innerColor": [0, 255, 0],
+		"outerColor": [0, 0, 0]
+	},
+	
+	
+	//Debuffs List
+	
+	//Back end stuff
+	{
+		"name": "Turn Start Trigger",
+		"uniques": ["Comment [This is a trigger for upon turn start]", "TurnStart"]
+	},
+	{
+		"name": "Cooldown",
+		"uniques": ["Comment [This is used as a general Cooldown mechanic]"]
+	},
+	{
+		"name": "Lifespan",
+		"uniques": ["Comment [This is used as a general Lifespan mechanic]",
 		]
 	},
 ]
