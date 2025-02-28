@@ -9,6 +9,7 @@
 * [letstalkaboutdune](https://github.com/letstalkaboutdune) - [AbsoluteUnits](https://github.com/letstalkaboutdune/AbsoluteUnits) tileset creator
 * [GeneralWadaling](https://github.com/GeneralWadaling) - Providing free to use City buildings template
 * [musabibnumair2004](https://www.freepik.com/author/musabibnumair2004) - [Sphinx](https://www.freepik.com/premium-ai-image/golden-sphinx-pixel-art-atop-books-pile_343316830.htm) sprite (AI Generated)
+* [Songs of Conquest](https://store.steampowered.com/app/867210/Songs_of_Conquest/) - A great turn-based indie game, go check it out! Butchered sprites from [Legionnaires](https://soc.th.gl/units/Loth/Oathbound)
 
 #### Nations Contributors
 * [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers, Spirit Pact
