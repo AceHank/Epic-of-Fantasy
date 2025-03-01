@@ -6,7 +6,10 @@
 		"replaces": "Observatory",
 		"maintenance": 0,
 		"percentStatBonus": {"science": 25},
-	//	"uniques": ["Comment [Can be built in all cities]"],
+		"uniques": ["Comment [Gain +1 Golden Age Point every turn, doubled if adjacent to a [Mountain]]",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <hidden from users>",
+					"Instantly gain [1] [Golden Age points] <upon turn end> <within [1] tiles of a [Mountain]> <hidden from users>"
+					],
 		"requiredTech": "Astronomy",
 		"civilopediaText": [
 			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
@@ -21,7 +24,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 1,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [25] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [25] XP [in this city]"],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
 			{"text": "Drow trains to the death in this place."},
@@ -81,12 +84,13 @@
 		"cost": 175,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["Comment [Unlocked at [Civil Service]]", "Cannot be purchased", 
-					"Comment [+5% [Culture] in Capital if you have 2 or more [Ancestor Tree]]",
-					"Comment [+5% [Culture] in all cities if you have 4 or more [Ancestor Tree]]",
-					"Comment [+2 [Production] in all cities if you have 6 or more [Ancestor Tree]]",
-					"Comment [+1 [Science], +1 [Faith] in all cities if you have 8 or more [Ancestor Tree]]",
-					"Comment [+1 Great Artist Point in all cities if you have 10 or more [Ancestor Tree]]",
+		"uniques": ["Comment [Unlocked at [Civil Service]]", "Cannot be purchased <hidden from users>", 
+					"Comment [Gain yields based on the number of [Ancestor Tree]s in your empire]",
+					"Comment [>1: +5% [Culture]]",
+					"Comment [>3: +1 [Culture] for every 4 [Ancestor Tree]]",
+					"Comment [>5: +2 [Production]]",
+					"Comment [>7: +10% [Science], +10% [Faith]]",
+					"Comment [>9: +2 [Great Artist] Points]",
 					],
 		"requiredTech": "Civil Service",
 		"civilopediaText": [
@@ -96,7 +100,7 @@
 	{
 		"name": "Ancestor Artist",
 		"maintenance": 0,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Artist": 2},
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
 					"Unbuildable"]
@@ -120,14 +124,13 @@
 	{
 		"name": "Old God Monument",
 		"uniqueTo": "Children of Deep Dweller",
-		"culture": 1,
 		"faith": 1,
 		"science": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Comment [Unlocked at [Pottery]]", "Destroyed when the city is captured", "New [Military] units start with [10] Experience [in this city]"],
+		"uniques": ["Comment [Unlocked at [Pottery]]", "Destroyed when the city is captured", "New [Military] units start with [10] XP [in this city]"],
 		"civilopediaText": [
 			{"text": "Monument for the Old God. An altar of worship."},
         ]
@@ -143,7 +146,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Alchemist": 2},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Comment [+2 Alchemist slots (+3 [Science], +5 [Great Scientist] Point from each)]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Comment [+2 Alchemist slots (+3 [Science], +5 [Great Scientist] Point)]"],
 		"requiredTech": "Education",
 		"civilopediaText": [
 			{"text": "A place to learn for young alchemist."},
@@ -226,11 +229,14 @@
 		"name": "Holy Tribunal",
 		"replaces": "Courthouse",
 		"uniqueTo": "Sacred Sun Theocracy",
-		"maintenance": 0,
+		"maintenance": 2,
 		"faith": 2,
 		"happiness": 2,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Can be built on your own cities"],
+		"uniques": ["Remove extra unhappiness from annexed cities", "Can be built on your own cities",
+					"Comment [Gain +2 Golden Age points every turn]",
+					"Instantly gain [2 [Golden Age points] [Golden Age points] <upon turn end> <hidden from users>",
+		],
 		"requiredTech": "Mathematics",
 		"civilopediaText": [
 			{"text": "Infamous for their extreme law, Holy Tribunal is a place where Sacred Sun Theocracy judge the criminal with extreme prejudices. And all non-humans are criminal."},
@@ -286,8 +292,8 @@
 		"replaces": "Temple",
 		"uniqueTo": "Clockwerk Church",
 		"faith": 2,
-		"production": 2,
-		"percentStatBonus": {"faith": 15},
+		"production": 1,
+		"percentStatBonus": {"faith": 10},
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -558,7 +564,7 @@
 		"food": 1,
 		"maintenance": 1,
 		"specialistSlots": {"Spawner Drone": 2},
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Comment [+2 Spawner Drone slots (+2 [Food], +2 [Culture] from each)]"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Comment [+2 Spawner Drone slots (+2 [Food], +2 [Culture])]"],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
 			{"text": "Place where new Scazari are bred. A place where the eggs laid by their Queen are kept and protected. A spawner drone will hatch the laid eggs."},
@@ -958,12 +964,11 @@
 		"replaces": "Shrine",
 		"faith": 1,
 		"science": 1,
-		"culture": 1,
 		"specialistSlots": {"Scientist": 1},
 		"cost": 50,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Only available <when religion is enabled>", "+1 Scientist slot"]
+		"uniques": ["Only available <when religion is enabled>", "Comment [+1 Scientist slot]"]
 		"civilopediaText": [
 			{"text": "The Precursors study the secrets of the arcane in this place."},
         ]
@@ -980,7 +985,7 @@
 		"maintenance": 0,
 		"requiredTech": "Agriculture",
 		"uniques": ["Destroyed when the city is captured", //"[Land] Units adjacent to this city heal [15] HP per turn when healing"
-					"Comment [Unit adjacent to this city takes 10 less damage when defending]",
+					"Comment [Unit adjacent to this city gain 10 damage reduction]",
 					],
 		"civilopediaText": [
 			{"text": "A tower for the well-being of the Celestials."},
@@ -1020,7 +1025,7 @@
 		"gold": 1,
 		"requiredBuilding": "Barracks",
 		"uniques": ["[+2 Gold, +1 Happiness] [in annexed cities]",
-					"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+					"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel",
 		"civilopediaText": [
 			{"text": "Spoils of war are trophy for the Gnolls."},
@@ -1098,7 +1103,8 @@
 		"replaces": "Granary",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Comment [[Food] 0 vs 2]", "Comment [+1 [Food] from Land tiles adjacent to this city]",
+		"uniques": ["Comment [+1 [Food] from Land tiles adjacent to this city]",
+					
 					"[+1 Food] from [Land] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>"],
 		"requiredTech": "Pottery",
 		"civilopediaText": [
@@ -1218,8 +1224,42 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Faith] from [Tundra] tiles [in this city]", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["[+1 Faith] from [Tundra] tiles [in this city]", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	*/
+	
+	//Night Elven Enclave
+		
+		{
+			"name": "Elune's Shrine",
+			"uniqueTo": "Night Elven Enclave",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator that Night Elven Enclave is in the game]",
+						"Automatically built in all cities where it is buildable <hidden from users>", "Only available <in [Capital] cities> <hidden from users>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+	
+	//Aellenari Empire
+	{
+		"name": "Aellenari Sanctum",
+		"uniqueTo": "Aellenari Empire",
+		"replaces": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Aellenarian Scholar": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]",
+					"Comment [Gain 10% of [Bound to Serve] requirement upon entering Golden Age]",
+					"Comment [+2 [Aellenarian Scholar] slots (+5 [Science], +3 [Great Scientist] Points, -100% Unhappiness from this Population)]",
+					
+					"Instantly gain [1] [Counter Something] <upon entering a Golden Age> <hidden from users>",
+					
+					],
+		"requiredTech": "Education"
+	},
+	
+	//Elmar Kingdom
+	
 ]
