@@ -19,6 +19,7 @@
 * gohwala - Fanrong Republic
 * Ân - The Wizard Council
 * Rendieval - Lyrian Kingdom, Scazari Hive
+* FBE Reactor - Enkantos
 * ReJack - Gnome Alliance, Hellbourne, Deep Dweller
 
 #### Nations Lines
