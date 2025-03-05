@@ -349,6 +349,13 @@
         "row": 1
 	},
 	
+	//Basalt Remainers
+	{
+		"name": "Lava Eruption",
+		"uniques": ["Turn this tile into a [Lava] tile <in tiles without [Water]> <upon gaining the [Lava Eruption] status>",
+					]
+	},
+	
 	//Phrygian Kingdom~~~~~~~
 	{
 		"name": "Mountainborn",
@@ -483,7 +490,7 @@
 		]
 	},	
 	{
-		"name": "Cannonade",
+		"name": "Crystal Beam",
 		"uniques": ["[+25]% Strength <vs [Land] units>",
 		]
 	},	

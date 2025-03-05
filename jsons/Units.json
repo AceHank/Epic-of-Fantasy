@@ -1072,7 +1072,30 @@
 		"rangedStrength": 20,
 		"range": 3,
 		"cost": 1000,
-		"uniques": ["Unbuildable", "Cannot be purchased", "[+100]% maintenance costs","[+100]% Strength <starting from the [Medieval era]>","[+150]% Strength <starting from the [Industrial era]>","[+150]% Strength <starting from the [Modern era]>","[+150]% Strength <starting from the [Atomic era]>","[+150]% Strength <starting from the [Information era]>","Self-destructs when attacking","Destroys tile improvements when attacking","[+1] Range <starting from the [Renaissance era]>","[+1] Range <starting from the [Modern era]>","[+1] Range <starting from the [Information era]>","Limited to [2] per Civilization"],
+		"uniques": [
+					"Comment [Turns attacked Land tile into [Lava]. Units ending their turn in [Lava] tile takes 30 damage.]",
+					"Comment [[Lava] can be removed by [Worker]]",
+					"[+100]% maintenance costs",
+					"Limited to [2] per Civilization",
+					"Self-destructs when attacking",
+					"Destroys tile improvements when attacking",
+					"Comment [Strength scales with era]",
+					"Comment [+1 Range upon entering Renaissance, Modern, and Information era]",
+					
+					//Backend stuffs
+					"[Target Unit] gains the [Lava Eruption] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
+					
+					"[+100]% Strength <starting from the [Medieval era]> <hidden from users>",
+					"[+150]% Strength <starting from the [Industrial era]> <hidden from users>",
+					"[+150]% Strength <starting from the [Modern era]> <hidden from users>",
+					"[+150]% Strength <starting from the [Atomic era]> <hidden from users>",
+					"[+150]% Strength <starting from the [Information era]> <hidden from users>",
+					
+					"[+1] Range <starting from the [Renaissance era]> <hidden from users>",
+					"[+1] Range <starting from the [Modern era]> <hidden from users>",
+					"[+1] Range <starting from the [Information era]> <hidden from users>",
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", 
+					],
 		"attackSound": "missile",
 		"civilopediaText": [
 			{"text": "A lava bomb is a mass of partially molten rock larger than 64 mm in diameter. It can be thrown out when an eruption is triggered.\n Because of the arcane energy within, it may leave a desolation where it lands.\n It appears to be aimed by a mysterious force pressing buttons"},
@@ -1924,7 +1947,7 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
-		"promotions": ["Cannonade", "Moving Bastion"],
+		"promotions": ["Crystal Beam", "Moving Bastion"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley",
         "civilopediaText": [
