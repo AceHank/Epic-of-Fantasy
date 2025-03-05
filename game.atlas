@@ -3148,7 +3148,7 @@ TileSets/AbsoluteUnits/Units/Juggernaut Sword
   index: -1
 TileSets/AbsoluteUnits/Units/Junk Ship
   rotate: false
-  xy: 602, 454
+  xy: 818, 454
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3176,7 +3176,7 @@ TileSets/AbsoluteUnits/Units/Lich
   index: -1
 TileSets/AbsoluteUnits/Units/Longship
   rotate: false
-  xy: 746, 454
+  xy: 1810, 543
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3218,14 +3218,14 @@ TileSets/AbsoluteUnits/Units/Motaari
   index: -1
 TileSets/AbsoluteUnits/Units/Moving Castle
   rotate: false
-  xy: 1954, 479
+  xy: 1522, 463
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Naga
   rotate: false
-  xy: 1666, 463
+  xy: 1594, 463
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3344,7 +3344,7 @@ TileSets/AbsoluteUnits/Units/Potionist
   index: -1
 TileSets/AbsoluteUnits/Units/Pride of Tyrian
   rotate: false
-  xy: 1738, 415
+  xy: 1738, 471
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3708,105 +3708,105 @@ TileSets/FantasyHex/Tiles/Gaia's Plantation+Bananas
   index: -1
 TileSets/FantasyHex/Tiles/Cotton+Gaia's Plantation
   rotate: false
-  xy: 1322, 483
+  xy: 1034, 483
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Plantation+Cotton
   rotate: false
-  xy: 1322, 483
+  xy: 1034, 483
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Farm
   rotate: false
-  xy: 1610, 490
+  xy: 1962, 211
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Mine
   rotate: false
-  xy: 1890, 371
+  xy: 274, 556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Oil well
   rotate: false
-  xy: 1832, 255
+  xy: 2000, 443
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Plantation
   rotate: false
-  xy: 1890, 335
+  xy: 2000, 407
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Manaline
   rotate: false
-  xy: 1930, 371
+  xy: 2000, 371
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Manaline Te
   rotate: false
-  xy: 1930, 371
+  xy: 2000, 371
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Silk+Gaia's Plantation
   rotate: false
-  xy: 1890, 299
+  xy: 2000, 335
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-Bottom
   rotate: false
-  xy: 890, 463
+  xy: 1954, 543
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-BottomLeft
   rotate: false
-  xy: 1738, 543
+  xy: 890, 399
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-BottomRight
   rotate: false
-  xy: 1810, 543
+  xy: 1090, 463
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-Top
   rotate: false
-  xy: 1882, 543
+  xy: 1162, 463
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-TopLeft
   rotate: false
-  xy: 1954, 543
+  xy: 1234, 463
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-TopRight
   rotate: false
-  xy: 1738, 479
+  xy: 1306, 463
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3839,128 +3839,177 @@ TileSets/HexaRealm/Tiles/Cotton+Gaia's Plantation
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Dyes+Gaia's Plantation
+TileSets/HexaRealm/Tiles/Desert+Hill+Lava
   rotate: false
   xy: 1162, 527
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Enchanted Forest
+TileSets/HexaRealm/Tiles/Dyes+Gaia's Plantation
   rotate: false
   xy: 1234, 527
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Floating City
+TileSets/HexaRealm/Tiles/Enchanted Forest
   rotate: false
-  xy: 1306, 519
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Gaia's Farm
-  rotate: false
-  xy: 1378, 527
+  xy: 1306, 527
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Gaia's Mine
+TileSets/HexaRealm/Tiles/Floating City
+  rotate: false
+  xy: 1378, 519
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Frozen Wasteland
   rotate: false
   xy: 1450, 527
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Gaia's Mine-Industrial era
+TileSets/HexaRealm/Tiles/Gaia's Farm
   rotate: false
   xy: 1522, 527
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Gaia's Oil well
+TileSets/HexaRealm/Tiles/Gaia's Mine
   rotate: false
-  xy: 1594, 526
-  size: 64, 57
-  orig: 64, 57
+  xy: 1594, 527
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Oil+Gaia's Oil well
-  rotate: false
-  xy: 1594, 526
-  size: 64, 57
-  orig: 64, 57
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Gaia's Plantation
+TileSets/HexaRealm/Tiles/Gaia's Mine-Industrial era
   rotate: false
   xy: 1666, 527
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Gaia's Oil well
+  rotate: false
+  xy: 530, 453
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Oil+Gaia's Oil well
+  rotate: false
+  xy: 530, 453
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Gaia's Plantation
+  rotate: false
+  xy: 602, 454
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+Lava
+  rotate: false
+  xy: 674, 454
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Incense+Gaia's Plantation
   rotate: false
-  xy: 530, 454
+  xy: 746, 454
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lava
+  rotate: false
+  xy: 890, 463
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lodepit
   rotate: false
-  xy: 674, 446
+  xy: 1738, 535
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Manaline
   rotate: false
-  xy: 818, 454
+  xy: 1882, 543
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Manawell
   rotate: false
-  xy: 1810, 479
+  xy: 1378, 455
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mountain Settlement
   rotate: false
-  xy: 1882, 471
+  xy: 1450, 455
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+Lava
+  rotate: false
+  xy: 1666, 463
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Silk+Gaia's Plantation
   rotate: false
-  xy: 1810, 415
+  xy: 1810, 479
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow+Hill+Lava
+  rotate: false
+  xy: 1882, 479
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Spices+Gaia's Plantation
   rotate: false
-  xy: 1882, 407
+  xy: 1954, 479
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sugar+Gaia's Plantation
   rotate: false
-  xy: 1954, 407
+  xy: 962, 447
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+Lava
+  rotate: false
+  xy: 962, 383
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Wine+Gaia's Plantation
   rotate: false
-  xy: 890, 399
+  xy: 1522, 399
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4023,1281 +4072,1281 @@ UnitPromotionsBackup/Agoge
   index: -1
 UnitPromotionIcons/Ambusher
   rotate: false
-  xy: 1982, 904
+  xy: 1594, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Ambusher
   rotate: false
-  xy: 1982, 904
+  xy: 1594, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Amphibious Raider
   rotate: false
-  xy: 1982, 846
+  xy: 1982, 904
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Amphibious Raider
   rotate: false
-  xy: 1982, 846
+  xy: 1982, 904
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Armor Hunter
   rotate: false
-  xy: 1090, 469
+  xy: 1652, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Armor Hunter
   rotate: false
-  xy: 1090, 469
+  xy: 1652, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Armored Exoskeleton
   rotate: false
-  xy: 1148, 469
+  xy: 1982, 846
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Aura of Protection
   rotate: false
-  xy: 1206, 469
+  xy: 1710, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Aura of Valour
   rotate: false
-  xy: 1378, 469
+  xy: 1768, 413
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Aura of Valour
   rotate: false
-  xy: 1378, 469
+  xy: 1768, 413
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Benediction
   rotate: false
-  xy: 1436, 469
+  xy: 1826, 421
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Binded
   rotate: false
-  xy: 1494, 469
+  xy: 1884, 421
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Binded
   rotate: false
-  xy: 1494, 469
+  xy: 1884, 421
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blinded
   rotate: false
-  xy: 1552, 468
+  xy: 1942, 421
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Blinded
   rotate: false
-  xy: 1552, 468
+  xy: 1942, 421
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blood
   rotate: false
-  xy: 746, 396
+  xy: 1768, 355
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Regeneration
   rotate: false
-  xy: 746, 396
+  xy: 1768, 355
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Blood
   rotate: false
-  xy: 746, 396
+  xy: 1768, 355
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Regeneration
   rotate: false
-  xy: 746, 396
+  xy: 1768, 355
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bloodbath
   rotate: false
-  xy: 804, 396
+  xy: 1826, 363
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Bloodbath
   rotate: false
-  xy: 804, 396
+  xy: 1826, 363
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bloodlust
   rotate: false
-  xy: 1264, 461
+  xy: 1884, 363
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Vampiric Touch
   rotate: false
-  xy: 1264, 461
+  xy: 1884, 363
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Bloodlust
   rotate: false
-  xy: 1264, 461
+  xy: 1884, 363
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Vampiric Touch
   rotate: false
-  xy: 1264, 461
+  xy: 1884, 363
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bonebreaker
   rotate: false
-  xy: 216, 530
+  xy: 1942, 363
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Bonebreaker
   rotate: false
-  xy: 216, 530
+  xy: 1942, 363
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Call of Valhalla
   rotate: false
-  xy: 216, 472
+  xy: 1826, 305
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Call of Valhalla
   rotate: false
-  xy: 216, 472
+  xy: 1826, 305
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cannonade
   rotate: false
-  xy: 215, 414
+  xy: 1884, 305
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Chilled
   rotate: false
-  xy: 215, 356
+  xy: 1942, 305
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Chilled
   rotate: false
-  xy: 215, 356
+  xy: 1942, 305
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Conqueror of Realm
   rotate: false
-  xy: 211, 298
+  xy: 1594, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Warbanner
   rotate: false
-  xy: 211, 298
+  xy: 1594, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Conqueror of Realm
   rotate: false
-  xy: 211, 298
+  xy: 1594, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Warbanner
   rotate: false
-  xy: 211, 298
+  xy: 1594, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cooldown
   rotate: false
-  xy: 210, 240
+  xy: 1652, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Humility
   rotate: false
-  xy: 210, 240
+  xy: 1652, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Lifespan
   rotate: false
-  xy: 210, 240
+  xy: 1652, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Cooldown
   rotate: false
-  xy: 210, 240
+  xy: 1652, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Lifespan
   rotate: false
-  xy: 210, 240
+  xy: 1652, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Courage
   rotate: false
-  xy: 210, 182
+  xy: 1710, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Courage
   rotate: false
-  xy: 210, 182
+  xy: 1710, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Crushed
   rotate: false
-  xy: 210, 124
+  xy: 1768, 297
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Crushed
   rotate: false
-  xy: 210, 124
+  xy: 1768, 297
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Debuff Immune
   rotate: false
-  xy: 210, 66
+  xy: 1826, 247
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Indomitable
   rotate: false
-  xy: 210, 66
+  xy: 1826, 247
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Debuff Immune
   rotate: false
-  xy: 210, 66
+  xy: 1826, 247
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Indomitable
   rotate: false
-  xy: 210, 66
+  xy: 1826, 247
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Decaying Aura
   rotate: false
-  xy: 210, 8
+  xy: 1884, 247
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Decaying Aura
   rotate: false
-  xy: 210, 8
+  xy: 1884, 247
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Detect Ruins
   rotate: false
-  xy: 1982, 788
+  xy: 1942, 247
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Devoted Learner
   rotate: false
-  xy: 274, 468
+  xy: 216, 530
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Devoted Learner
   rotate: false
-  xy: 274, 468
+  xy: 216, 530
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Disciples
   rotate: false
-  xy: 332, 468
+  xy: 216, 472
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Disciples
   rotate: false
-  xy: 332, 468
+  xy: 216, 472
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Divine Shieldmaiden
   rotate: false
-  xy: 273, 410
+  xy: 215, 414
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Divine Shieldmaiden
   rotate: false
-  xy: 273, 410
+  xy: 215, 414
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Divine Watch
   rotate: false
-  xy: 331, 410
+  xy: 215, 356
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Divine Watch
   rotate: false
-  xy: 331, 410
+  xy: 215, 356
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Einherjar
   rotate: false
-  xy: 273, 352
+  xy: 211, 298
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Einherjar
   rotate: false
-  xy: 273, 352
+  xy: 211, 298
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elune's Protection
   rotate: false
-  xy: 331, 352
+  xy: 210, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sanctuary
   rotate: false
-  xy: 331, 352
+  xy: 210, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Elune's Protection
   rotate: false
-  xy: 331, 352
+  xy: 210, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Sanctuary
   rotate: false
-  xy: 331, 352
+  xy: 210, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elune's Protection Cooldown
   rotate: false
-  xy: 269, 294
+  xy: 210, 182
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Elune's Protection Cooldown
   rotate: false
-  xy: 269, 294
+  xy: 210, 182
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elune's Wrath Cooldown
   rotate: false
-  xy: 327, 294
+  xy: 210, 124
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Elune's Wrath Cooldown
   rotate: false
-  xy: 327, 294
+  xy: 210, 124
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elusive
   rotate: false
-  xy: 268, 236
+  xy: 210, 66
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Elusive
   rotate: false
-  xy: 268, 236
+  xy: 210, 66
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Eternal
   rotate: false
-  xy: 268, 178
+  xy: 210, 8
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Eternal
   rotate: false
-  xy: 268, 178
+  xy: 210, 8
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Executioner
   rotate: false
-  xy: 326, 236
+  xy: 1982, 788
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Executioner Active
   rotate: false
-  xy: 326, 236
+  xy: 1982, 788
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Executioner
   rotate: false
-  xy: 326, 236
+  xy: 1982, 788
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Executioner Active
   rotate: false
-  xy: 326, 236
+  xy: 1982, 788
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Exposed Core
   rotate: false
-  xy: 268, 120
+  xy: 274, 468
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Exposed Core
   rotate: false
-  xy: 268, 120
+  xy: 274, 468
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fatigued
   rotate: false
-  xy: 326, 178
+  xy: 332, 468
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Fatigued
   rotate: false
-  xy: 326, 178
+  xy: 332, 468
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fight Bark
   rotate: false
-  xy: 268, 62
+  xy: 273, 410
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Fight Bark
   rotate: false
-  xy: 268, 62
+  xy: 273, 410
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Floating City Builder
   rotate: false
-  xy: 326, 120
+  xy: 331, 410
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Floating City Builder
   rotate: false
-  xy: 326, 120
+  xy: 331, 410
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Forced March
   rotate: false
-  xy: 326, 62
+  xy: 273, 352
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Frostbitten
   rotate: false
-  xy: 268, 4
+  xy: 331, 352
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Frostbitten
   rotate: false
-  xy: 268, 4
+  xy: 331, 352
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Frostbrand
   rotate: false
-  xy: 326, 4
+  xy: 269, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Frostbrand
   rotate: false
-  xy: 326, 4
+  xy: 269, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Frozen
   rotate: false
-  xy: 385, 294
+  xy: 327, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Frozen
   rotate: false
-  xy: 385, 294
+  xy: 327, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Gordian Knot
   rotate: false
-  xy: 384, 236
+  xy: 268, 236
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Gordian Knot
   rotate: false
-  xy: 384, 236
+  xy: 268, 236
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healer
   rotate: false
-  xy: 384, 178
+  xy: 268, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Healer
   rotate: false
-  xy: 384, 178
+  xy: 268, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Heavily Armored
   rotate: false
-  xy: 384, 120
+  xy: 326, 236
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Heavily Armored
   rotate: false
-  xy: 384, 120
+  xy: 326, 236
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Heroic General
   rotate: false
-  xy: 384, 62
+  xy: 268, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Heroic General
   rotate: false
-  xy: 384, 62
+  xy: 268, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Honor
   rotate: false
-  xy: 384, 4
+  xy: 326, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Honor
   rotate: false
-  xy: 384, 4
+  xy: 326, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Horns of Humility
   rotate: false
-  xy: 962, 461
+  xy: 268, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Horus' Blessing
   rotate: false
-  xy: 962, 403
+  xy: 326, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Horus' Blessing
   rotate: false
-  xy: 962, 403
+  xy: 326, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hovering
   rotate: false
-  xy: 1020, 461
+  xy: 326, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Hovering
   rotate: false
-  xy: 1020, 461
+  xy: 326, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunter's Mark
   rotate: false
-  xy: 1020, 403
+  xy: 268, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Hunter's Mark
   rotate: false
-  xy: 1020, 403
+  xy: 268, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ice Attack
   rotate: false
-  xy: 1078, 411
+  xy: 326, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Winter's Grasp
   rotate: false
-  xy: 1078, 411
+  xy: 326, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Ice Attack
   rotate: false
-  xy: 1078, 411
+  xy: 326, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Winter's Grasp
   rotate: false
-  xy: 1078, 411
+  xy: 326, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ignores ZOC
   rotate: false
-  xy: 1136, 411
+  xy: 385, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Snowman
   rotate: false
-  xy: 1136, 411
+  xy: 385, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Ignores ZOC
   rotate: false
-  xy: 1136, 411
+  xy: 385, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Snowman
   rotate: false
-  xy: 1136, 411
+  xy: 385, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Impetus
   rotate: false
-  xy: 1194, 411
+  xy: 384, 236
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Impetus
   rotate: false
-  xy: 1194, 411
+  xy: 384, 236
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Intimidation
   rotate: false
-  xy: 1252, 403
+  xy: 384, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Intimidation
   rotate: false
-  xy: 1252, 403
+  xy: 384, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Judgement
   rotate: false
-  xy: 1310, 403
+  xy: 384, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Judgement
   rotate: false
-  xy: 1310, 403
+  xy: 384, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Kheru Hebet
   rotate: false
-  xy: 1368, 411
+  xy: 384, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Kheru Hebet
   rotate: false
-  xy: 1368, 411
+  xy: 384, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Magitek
   rotate: false
-  xy: 1426, 411
+  xy: 384, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Magitek
   rotate: false
-  xy: 1426, 411
+  xy: 384, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Marked
   rotate: false
-  xy: 1484, 411
+  xy: 1034, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Marked
   rotate: false
-  xy: 1484, 411
+  xy: 1034, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountainborn
   rotate: false
-  xy: 1542, 410
+  xy: 1092, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Mountainborn
   rotate: false
-  xy: 1542, 410
+  xy: 1092, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Overdrive Protocol
   rotate: false
-  xy: 1600, 410
+  xy: 1150, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Overdrive Protocol Active
   rotate: false
-  xy: 1600, 410
+  xy: 1150, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Overdrive Protocol
   rotate: false
-  xy: 1600, 410
+  xy: 1150, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Overdrive Protocol Active
   rotate: false
-  xy: 1600, 410
+  xy: 1150, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pacified
   rotate: false
-  xy: 1658, 405
+  xy: 1208, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Protector of Realm
   rotate: false
-  xy: 1078, 353
+  xy: 1266, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Protector of Realm
   rotate: false
-  xy: 1078, 353
+  xy: 1266, 405
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Punisher
   rotate: false
-  xy: 1136, 353
+  xy: 1034, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Quick Study
   rotate: false
-  xy: 1194, 353
+  xy: 1092, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Quick Study
   rotate: false
-  xy: 1194, 353
+  xy: 1092, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reckless Spewing
   rotate: false
-  xy: 1252, 345
+  xy: 1150, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reckless Spewing Active
   rotate: false
-  xy: 1252, 345
+  xy: 1150, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Reckless Spewing
   rotate: false
-  xy: 1252, 345
+  xy: 1150, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Reckless Spewing Active
   rotate: false
-  xy: 1252, 345
+  xy: 1150, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Restless
   rotate: false
-  xy: 1310, 345
+  xy: 1208, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Restless
   rotate: false
-  xy: 1310, 345
+  xy: 1208, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Retribution
   rotate: false
-  xy: 1368, 353
+  xy: 1266, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Retribution
   rotate: false
-  xy: 1368, 353
+  xy: 1266, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rooted
   rotate: false
-  xy: 1426, 353
+  xy: 1324, 397
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Rooted
   rotate: false
-  xy: 1426, 353
+  xy: 1324, 397
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sanctuary Old
   rotate: false
-  xy: 1484, 353
+  xy: 1382, 397
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Sanctuary Old
   rotate: false
-  xy: 1484, 353
+  xy: 1382, 397
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shield Wall
   rotate: false
-  xy: 1542, 352
+  xy: 1440, 397
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Shield Wall
   rotate: false
-  xy: 1542, 352
+  xy: 1440, 397
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shocked
   rotate: false
-  xy: 1600, 352
+  xy: 1324, 339
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Shocked
   rotate: false
-  xy: 1600, 352
+  xy: 1324, 339
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shocknade
   rotate: false
-  xy: 1658, 347
+  xy: 1382, 339
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Shocknade
   rotate: false
-  xy: 1658, 347
+  xy: 1382, 339
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shocknade Cooldown
   rotate: false
-  xy: 1716, 357
+  xy: 1440, 339
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Shocknade Cooldown
   rotate: false
-  xy: 1716, 357
+  xy: 1440, 339
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Stampede
   rotate: false
-  xy: 1774, 357
+  xy: 1498, 341
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Stampede
   rotate: false
-  xy: 1774, 357
+  xy: 1498, 341
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strengths
   rotate: false
-  xy: 1716, 299
+  xy: 1498, 283
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Strengths
   rotate: false
-  xy: 1716, 299
+  xy: 1498, 283
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Stunned
   rotate: false
-  xy: 1774, 299
+  xy: 1556, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Stunned
   rotate: false
-  xy: 1774, 299
+  xy: 1556, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sturdy
   rotate: false
-  xy: 1368, 295
+  xy: 1614, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Sturdy
   rotate: false
-  xy: 1368, 295
+  xy: 1614, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Vengeful
   rotate: false
-  xy: 1426, 295
+  xy: 1672, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Vengeful
   rotate: false
-  xy: 1426, 295
+  xy: 1672, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Vision
   rotate: false
-  xy: 1484, 295
+  xy: 1556, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Vision
   rotate: false
-  xy: 1484, 295
+  xy: 1556, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Volatile Core
   rotate: false
-  xy: 1542, 294
+  xy: 1614, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Volatile Core
   rotate: false
-  xy: 1542, 294
+  xy: 1614, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Warden
   rotate: false
-  xy: 1600, 294
+  xy: 1672, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Water Creature
   rotate: false
-  xy: 1658, 289
+  xy: 1730, 239
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Water Creature
   rotate: false
-  xy: 1658, 289
+  xy: 1730, 239
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Winds
   rotate: false
-  xy: 1716, 241
+  xy: 1730, 181
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Winds
   rotate: false
-  xy: 1716, 241
+  xy: 1730, 181
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Winged Vampire
   rotate: false
-  xy: 1774, 241
+  xy: 1788, 189
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Winged Vampire
   rotate: false
-  xy: 1774, 241
+  xy: 1788, 189
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -5318,14 +5367,14 @@ UnitPromotionsBackup/Wings
   index: -1
 UnitPromotionIcons/Wisdom
   rotate: false
-  xy: 1832, 349
+  xy: 1846, 189
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Wisdom
   rotate: false
-  xy: 1832, 349
+  xy: 1846, 189
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -5374,14 +5423,14 @@ UnitPromotionsBackup/Withering Curse Cooldown
   index: -1
 UnitPromotionIcons/Woods Camouflage
   rotate: false
-  xy: 1832, 291
+  xy: 1904, 189
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionsBackup/Woods Camouflage
   rotate: false
-  xy: 1832, 291
+  xy: 1904, 189
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
