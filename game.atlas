@@ -4882,6 +4882,13 @@ UnitPromotionIcons/Ignores ZOC
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Precursor Mobility
+  rotate: false
+  xy: 384, 236
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Snowman
   rotate: false
   xy: 384, 236
