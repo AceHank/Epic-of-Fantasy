@@ -342,7 +342,7 @@
 	
 	//Precursor~~~~~~~
 	{
-		"name": "Mobility",
+		"name": "Precursor Mobility",
 		"uniques": ["[+1] Movement", "Only available <for [Precursor] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 40,
