@@ -949,7 +949,7 @@
 	{
 		"name": "Scorching Blow",
 		"uniques": ["Comment [Attack applies [Burning] to target Land unit for 2 turns. [Burning] unit takes 10 damage at turn end.]",
-					"[Target Unit] gains the [Burning] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
+					"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},
 	
 	//Troll Tribes~~~~~~~
@@ -988,7 +988,7 @@
 	{
 		"name": "Frostbrand",
 		"uniques": ["Comment [Attack applies [Frostbitten] to target Land unit for 2 turns. [Frostbitten] unit has -1 Movement and takes 10 damage at turn end.]",
-					"[Target Unit] gains the [Frostbitten] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
+					"[Target Unit] gains the [Frostbitten] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},	
 	
 	//Phrygian Kingdom~~~~~~~
