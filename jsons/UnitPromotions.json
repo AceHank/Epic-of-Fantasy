@@ -1005,9 +1005,12 @@
 	},
 	{
 		"name": "Judgement",	//This doesn't counts as `debuff` because it's only used as a method/workaround
-		"uniques": ["Comment [Instantly dies when taking damage below 16 HP]",
+		"uniques": [
+					"[This Unit] loses the [Judgement] status <upon gaining the [Judgement] status> <when above [15] HP> <hidden from users>",
 					"[This Unit] takes [101] damage <upon gaining the [Judgement] status> <when below [16] HP> <hidden from users>",
-					"[This Unit] takes [101] damage <upon losing at least [1] HP in a single attack> <when below [16] HP> <hidden from users>"
+					"[This Unit] takes [101] damage <upon losing at least [1] HP in a single attack> <when below [16] HP> <hidden from users>",
+					
+					"Not shown on world screen",
 					]
 	},
 	
