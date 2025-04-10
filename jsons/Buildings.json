@@ -1181,11 +1181,12 @@
 	
 	//Kemetian Dynasty
 		
+		
 		{
 			"name": "Kemetian First Four",
 			"uniqueTo": "Kemetian Dynasty",
 			"cost": 1,
-			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator for first 4 cities]",
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [This building is just an indicator for first 4 cities]", "Unbuildable", "Cannot be purchased",
 						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
 		},
 		{
@@ -1193,7 +1194,7 @@
 			"uniqueTo": "Kemetian Dynasty",
 			"greatPersonPoints": {"Great Artist": 1},
 			"cost": 1,
-			"uniques": ["Only available <with [1] to [6] neighboring [Sphinx] tiles> <in cities with a [Kemetian First Four]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+			"uniques": ["Only available <in cities with a [Kemetian First Four]> <with [1] to [6] neighboring [Sphinx] tiles>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
 						"Unsellable", "Will not be displayed in Civilopedia"]
 		},
 		{
@@ -1201,7 +1202,7 @@
 			"uniqueTo": "Kemetian Dynasty",
 			"greatPersonPoints": {"Great Artist": 1},
 			"cost": 1,
-			"uniques": ["Only available <with [2] to [6] neighboring [Sphinx] tiles> <in cities with a [Kemetian First Four]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+			"uniques": ["Only available <in cities with a [Kemetian First Four]> <with [2] to [6] neighboring [Sphinx] tiles>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
 						"Unsellable", "Will not be displayed in Civilopedia"]
 		},
 		{
@@ -1209,7 +1210,7 @@
 			"uniqueTo": "Kemetian Dynasty",
 			"greatPersonPoints": {"Great Artist": 1},
 			"cost": 1,
-			"uniques": ["Only available <with [3] to [6] neighboring [Sphinx] tiles> <in cities with a [Kemetian First Four]>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
+			"uniques": ["Only available <in cities with a [Kemetian First Four]> <with [3] to [6] neighboring [Sphinx] tiles>","Destroyed when the city is captured", "Automatically built in all cities where it is buildable",
 						"Unsellable", "Will not be displayed in Civilopedia"]
 		},
 		
