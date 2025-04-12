@@ -877,7 +877,7 @@
 	//Azaniroth's abilities
 	{
 		"name": "Hellstride",
-		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory"]
+		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory", "[1] additional attacks per turn"]
 	},
 	{
 		"name": "Hellstride Cooldown",
@@ -1046,7 +1046,7 @@
 	},
 	{
 		"name": "Ride of the Valkyrie",
-		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory"]
+		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory", "[1] additional attacks per turn"]
 	},
 	{
 		"name": "Ride of the Valkyrie Cooldown",
