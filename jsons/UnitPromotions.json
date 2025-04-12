@@ -745,7 +745,7 @@
 	{
 		"name": "Galestorm Leap",		
 		"uniques": ["Comment [Teleport up to 5 tiles from inside friendly territory. Cooldown: 10 turns.]", 
-					"[This Unit] gains the [Galestorm Leap Active] status for [1] turn(s) <for [0] movement> <for units without [Galestorm Leap Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Galestorm Leap Active] status for [1] turn(s) <for [0] movement> <in [Friendly Land] tiles> <for units without [Galestorm Leap Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Galestorm Leap Cooldown] status for [10] turn(s) <upon gaining the [Galestorm Leap Active] status> <hidden from users>", 
 					]
 	},
