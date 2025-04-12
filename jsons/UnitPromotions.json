@@ -680,7 +680,7 @@
 	//Dragonborn Union~~~~~~~
 	{
 		"name": "Executioner",		
-		"uniques": ["Comment [Gain +25% Strength for 1 turn and may attack again upon defeating a unit]", 
+		"uniques": ["Comment [Gain +25% Strength for 1 turn and may attack once again upon defeating a unit]", 
 					"[This Unit] gains [1] movement <upon defeating a [All] unit> <hidden from users>", 
 					"[This Unit] gains the [Executioner Active] status for [1] turn(s) <upon defeating a [All] unit> <hidden from users>"]
 	},
