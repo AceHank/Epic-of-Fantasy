@@ -1259,7 +1259,7 @@
 					"Comment [[True Demon Form]: Heals 15 HP at turn end. All damage is increased by 15. +1 Movement and gain Flying. All other abilities cost 0 [Mana]. Duration: 3 turns. Cost: 99 [Mana].]",	
 
 					//Hellstride
-					"[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement> <costs [8] [Azaniroth Mana]> <when above [7] [Azaniroth Mana]> <for units without [Hellstride Cooldown]> <for units without [True Demon Form]> <hidden from users>",
+					"[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement> <costs [8] [Azaniroth Mana]> <when above [7] [Azaniroth Mana]> <in [Friendly Land] tiles> <for units without [Hellstride Cooldown]> <for units without [True Demon Form]> <hidden from users>",
 					"[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement> <for units without [Hellstride Cooldown]> <for units with [True Demon Form]> <hidden from users>",
 					"[This Unit] gains the [Hellstride Cooldown] status for [10] turn(s) <upon gaining the [Hellstride] status> <hidden from users>", 
 					
@@ -1572,7 +1572,7 @@
 					"[This Unit] gains the [Aura of Valour] promotion <for [0] movement> <costs [+150 Faith] stats> <once> <hidden from users>",
 					
 					//Ride of the Valkyrie
-					"[This Unit] gains the [Ride of the Valkyrie] status for [1] turn(s) <for [0] movement> <costs [+50 Faith] stats> <for units without [Ride of the Valkyrie Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ride of the Valkyrie] status for [1] turn(s) <for [0] movement> <costs [+50 Faith] stats> <in [Friendly Land] tiles> <for units without [Ride of the Valkyrie Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Ride of the Valkyrie Cooldown] status for [5] turn(s) <upon gaining the [Ride of the Valkyrie] status> <hidden from users>", 
 					
 					//Call of Valhalla
