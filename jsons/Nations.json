@@ -20,8 +20,8 @@
 		"hateHello": "What now?",
 		"tradeRequest": "I think it would be beneficial for both of us to conduct in a trade.",
 		
-		"outerColor": [ 27, 53, 63]
-		"innerColor": [213,249,255],
+		"outerColor": [35, 50, 116]
+		"innerColor": [194, 194, 194],
 		"uniqueName": "Higba's Ingenuity",
 		"uniques": ["Comment [+1 [Production] every 2 eras for cities settled on [Hill]]",
 					"Comment [+1 [Science] and +1 [Production] in all cities for every Golden Ages achieved]",
