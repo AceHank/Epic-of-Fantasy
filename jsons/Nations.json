@@ -2210,7 +2210,7 @@
 					"Instantly gain [-1] [Valkyrie Lifespan] <upon turn start> <when above [0] [Valkyrie Lifespan]> <hidden from users>",
 					"Instantly gain [-1] [Summoned Valkyrie Lifespan] <upon turn start> <when above [0] [Summoned Valkyrie Lifespan]> <hidden from users>",
 					
-					"[+15]% Strength <when adjacent to a [Banner of Valour] unit> <hidden from users>",
+					"[+15]% Strength <when adjacent to a [Aura of Valour] unit> <hidden from users>",
 					
 					],
 		"cities": ["Valh\u00f6lmar", "Skjaldheim", "Ragnarv\u00edk", "J\u00f6tunfell", "\u00c6sgar\u00f0r", "Thrymshold", "Helmstad", "Draugfj\u00f6rd", 
