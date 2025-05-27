@@ -1553,7 +1553,7 @@
 					"[This Unit] loses the [Chained] status <upon gaining the [Chained] status> <hidden from users>",
 					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
 					"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status> <hidden from users>",
-					"[This Unit] loses the [Disarmed] status <upon gaining the [Crushed] status> <hidden from users>",
+					"[This Unit] loses the [Disarmed] status <upon gaining the [Disarmed] status> <hidden from users>",
 					"[This Unit] loses the [Fatigued] status <upon gaining the [Fatigued] status> <hidden from users>",
 					"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
 					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
