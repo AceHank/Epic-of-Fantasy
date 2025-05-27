@@ -1,58 +1,93 @@
 {
-    "name": "Global uniques",
-    "uniques": [
+	"name": "Global uniques",
+	"uniques": [
+		"[-50]% growth [in all cities] <when between [-5] and [-1] Happiness>",
+		"[-75]% growth [in all cities] <when between [-10] and [-6] Happiness>",
+		"Nullifies Growth [in all cities] <when below [-10] Happiness>",
+		"[-33]% [Production] [in all cities] <when below [-10] Happiness>",
+		"[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+		"Cannot build [Settler] units <when below [-10] Happiness>",
+		"Rebel units may spawn <when below [-20] Happiness>",
+		"[-1] Sight <for [Embarked] units>",
 		
-		//Epic of Fantasy Stuff
+		//Self Turn mechanic
+		"Instantly gain [1] [SelfTurn] <upon turn start>",
+		"Instantly gain [-1] [SelfTurn] <upon turn end>",
 		
-		//Universal
+		// Mercenary
+		"New [Composite Bowman] units start with [15] XP [in all cities]",
+		"[Gold] cost of purchasing [Mercenary] units [+3]% <for every [[Mercenary] Units]>", // so AI won't spam
+		
+		// Spells mechanism
+		// Deafened
+		"[+50]% to Flank Attack bonuses <vs [Deafened] units>",
+		//Blinded
+		"[+50]% to Flank Attack bonuses <vs [Deafened] units>",
+		// Aura of Protection
+		"[+15]% Strength <when defending> <when adjacent to a [Aura of Protection] unit>",
+		
+		//Mixed
+		//Flank Immune
 		"[-100]% to Flank Attack bonuses <vs [Flank Immune] units>",
-		"[+50]% to Flank Attack bonuses <vs [Blinded] units>",
 		
-		//The Chroniclers
-		"[-10]% Strength <vs [The Chroniclers] units> <during a Golden Age>",
-		//Wizard Council
-		"[+15]% Strength <when defending> <vs [Ranged] units> <when adjacent to a [Protection] unit>",
 		
-
-        // Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
-        "Aircraft"
-		
-    ],
-	"unitUniques": [
-	
-					//Celestials
-					"[This Unit] gains the [Superior Defense] status for [1] turn(s) <upon turn end> <in tiles adjacent to [City center] tiles> <in cities with a [Curative Spire]> <for [non-[Air]] units> <for [Celestial Beings] Civilizations>",
-					"[This Unit] takes [40] damage <upon defeating a [Volatile] unit> <for [Melee] units>", 
-					"[This Unit] takes [20] damage <upon defeating a [Volatile] unit> <for [Ranged] units>", 
-					//Drow
-					"[This Unit] gains the [Revenge Target] promotion <upon defeating a [Avenged] unit> <for [non-[Air]] units>",
-					//Healer
-					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 1] unit> <for [non-[Air]] units>",
-					"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Healer 2] unit> <for [non-[Air]] units>",
-					//Night Elven
-					"[This Unit] gains the [Rooted] status for [2] turn(s) <upon entering a [Enchanted Forest] tile> <in [Enemy Land] tiles> <for units without [Elune's Protection]> <if [Elune's Shrine] is constructed by anybody>",
-					//Phrygian Kingdom
-					"[This Unit] gains the [Binded] status for [3] turn(s) <upon damaging a [Gordian Knot] unit>",
-					//Troglodyte
-					"[This Unit] takes [10] damage <upon damaging a [Retribution] unit> <for [Melee] units> <for [non-[Air]] units>", 
-					"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units> <for [non-[Air]] units>",
-					//Wizard
-					"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
-	
-					//Vigilo
-					"[This Unit] loses the [Baned] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
-					"[This Unit] loses the [Binded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
-					"[This Unit] loses the [Blinded] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
-					"[This Unit] loses the [Burning] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
-					"[This Unit] loses the [Chilled] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
-					"[This Unit] loses the [Crushed] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
-					"[This Unit] loses the [Fatigued] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
-					"[This Unit] loses the [Frostbitten] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",
-					"[This Unit] loses the [Withered] status <upon ending a turn in a [All] tile> <when adjacent to a [Potionist] unit>",	
-					
-					//Mixed
-					"Cannot attack <vs [IsSanctuary] units>",
-					"Cannot attack <vs [IsPacified] units>",
-					
 	],
+	
+	"unitUniques": [
+		// Monk-related
+		//Deflect
+		"[Target Unit] gains the [Deflect Cooldown] status for [1] turn(s) <upon damaging a [{non-[Deflect Cooldown]} {Deflect}] unit> <for [{Ranged} {non-[Flying]} {Land}] units>",
+		//Ebb Stance
+		"[This Unit] takes [20] damage <upon damaging a [{non-[Ebb Stance Cooldown]} {Ebb Stance}] unit> <for [{non-[Flying]} {non-[Air]}] units>",
+		"[Target Unit] gains the [Ebb Stance Cooldown] status for [1] turn(s) <upon damaging a [{non-[Ebb Stance Cooldown]} {Ebb Stance}] unit> <for [{non-[Flying]} {non-[Air]}] units>",
+		//Flow Stance
+		"[Target Unit] loses the [Flow Stance Active] status <upon damaging a [Flow Stance Active] unit> <for [{Ranged} {non-[Flying]} {non-[Air]}] units>",
+		//Reversal
+		"[Target Unit] gains the [Reversal Requirement] status for [2] turn(s) <upon damaging a [Reversal] unit>",
+		//Tidal Counter
+		"[This Unit] gains the [Wet] status for [1] turn(s) <upon damaging a [Tidal Counter] unit>",
+		"[This Unit] gains the [Crushed] status for [1] turn(s) <upon damaging a [Tidal Counter] unit>",
+		
+		// Spells-related
+		//Blizzard
+		"[This Unit] gains the [Chilled] status for [4] turn(s) <upon turn start> <when adjacent to a [Blizzard Aura] unit>",
+		"[This Unit] gains the [Frostbitten] status for [4] turn(s) <upon turn start> <when adjacent to a [Blizzard Aura] unit>",
+		//Cleanses
+		"[This Unit] gains the [Immunity] status for [2] turn(s) <upon turn end> <when adjacent to a [Cleanses Active] unit>",
+		//Favourable Wind
+		"[+1] Movement <when adjacent to a [Favourable Wind Active] unit>",
+		//Fly
+		"Cannot attack <vs [Fly Active] units> <for [{non-[Air Battler]} {Melee}] units>",
+		//Gale Barrier
+		"[+1000]% Strength <when defending> <vs [Ranged] units> <with [50]% chance> <when adjacent to a [Gale Barrier Active] unit>",
+		//Emberfall
+		"[This Unit] gains the [Burning] status for [4] turn(s) <upon turn start> <when adjacent to a [Emberfall Aura] unit>",
+		//Wailing Tempest
+		"[This Unit] takes [10] damage <upon turn start> <when adjacent to a [Wailing Tempest Aura] unit>",
+		"[This Unit] gains the [Wet] status for [4] turn(s) <upon turn start> <when adjacent to a [Wailing Tempest Aura] unit>",
+		"[This Unit] gains the [Deafened] status for [4] turn(s) <upon turn start> <when adjacent to a [Wailing Tempest Aura] unit>",
+		"[This Unit] gains the [Disoriented] status for [4] turn(s) <upon turn start> <when adjacent to a [Wailing Tempest Aura] unit>",
+		//Pressurized Bomb
+		"[This Unit] takes [25] damage <upon turn start> <when adjacent to a [Pressurized Bomb Activator] unit>",
+		//Arcane Stitch
+		"[This Unit] gains the [Immunity] status for [12] turn(s) <upon turn end> <when adjacent to a [Arcane Stitch Active] unit>",
+		"[This Unit] heals [50] HP <upon turn end> <when adjacent to a [Arcane Stitch Active] unit>",
+		
+		//Debuffs related
+		//Blazing Retort
+		"[This Unit] takes [5] damage <upon damaging a [Blazing Retort Active] unit>",
+		"[This Unit] takes [5] damage <upon damaging a [Blazing Retort Active] unit> <for [Frostbitten] units>",
+		"[This Unit] takes [15] damage <upon damaging a [Blazing Retort Active] unit> <for [Oiled] units>",
+		"[This Unit] gains the [Burning] status for [1] turn(s) <upon damaging a [Blazing Retort Active] unit>",		
+		//Disoriented
+		"Withdraws before melee combat <with [50]% chance> <vs [Disoriented] units>",
+		//Poisonous Skin
+		"[This Unit] gains the [Poisoned] status for [2] turn(s) <upon damaging a [Poisonous Skin] unit> <for [Land] units>",	
+		//Infected
+		"[This Unit] gains the [Infected] status for [1] turn(s) <upon turn start> <when adjacent to a [Infected] unit> <for units without [Infected]>",
+		
+		//Mixed
+		"Cannot attack <vs [Invulnerable] units>",
+		"[This Unit] heals [5] HP <upon turn end> <when adjacent to a [Unicorn] unit>",
+	]
 }
