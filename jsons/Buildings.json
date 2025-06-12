@@ -1074,10 +1074,10 @@
 		"cost": 80,
 		"happiness": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["Removes extra unhappiness from annexed cities",
 			"[-10]% Unhappiness from [Population] [in this city]",
 			"Comment [Can be bought for 100 [Faith]]",
-			"Can only be built <in [in annexed cities] cities>"
+			"Can only be built <in [Annexed] cities>"
 			],
 		"requiredTech": "Mathematics"
 	},
