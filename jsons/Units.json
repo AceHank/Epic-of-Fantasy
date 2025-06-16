@@ -1462,12 +1462,64 @@
 		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
 					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
 					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
+					"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mirage"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{"text": "Kagebunshin no Jutsu?"},
         ]
+	},
+	{
+		"name": "Rifleman Illusion",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
+					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
+					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
+					"Never appears as a Barbarian unit",
+					"Will not be displayed in Civilopedia",
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Great War Infantry Illusion",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
+					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
+					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
+					"Never appears as a Barbarian unit",
+					"Will not be displayed in Civilopedia",
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Infantry Illusion",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
+					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
+					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
+					"Never appears as a Barbarian unit",
+					"Will not be displayed in Civilopedia",
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
+					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
+					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
+					"Never appears as a Barbarian unit",
+					"Will not be displayed in Civilopedia",
+		],
+		"attackSound": "tankshot"
 	},
 	
 	//Phrygian Kingdom

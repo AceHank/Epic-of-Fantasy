@@ -299,11 +299,10 @@
 	},
 	
 	//Enkantos~~~~~~~
-	/*
+	/*	OLD VERSION
 		'Dodge' attack then create an Illusion. 
 		This supposedly takes advantage of an existing same-percentage uniques bug, so it will guarantee to trigger both uniques when it does happen. 
 		But unfortunately (or fortunately?) the bug seems to only appears on Building (in my limited testing).
-	*/
 	
 	{					
 		"name": "Mirage",			
@@ -311,20 +310,25 @@
 					"[This Unit] heals [20] HP <upon losing at least [20] HP in a single attack> <with [35]% chance> <hidden from users>",	
 					"Free [Illusion] appears <upon losing at least [20] HP in a single attack> <with [35]% chance> <hidden from users>"]
 	},
+	OLD VERSION now doesn't work because percentage works indepedently
+	*/
 	
-	/*
-		This version of Mirage is what Mirage supposed to be, but because the Mirage Cooldown can't be triggered via City Attack, it is currently deactivated.
-		Relevant uniques in UnitTypes.json are removed. Will be fixed when 'upon losing HP' uniques work with '<vs units>' conditional.
 	{					
 		"name": "Mirage",			
-		"uniques": ["Comment [Free [Illusion] appears upon taking damage. Cooldown: 5 turns.]",
-					"Free [Illusion] appears <upon losing at least [1] HP in a single attack> <for [{non-[Mirage CD]} {Mirage}] units> <hidden from users>"]
+		"uniques": ["Comment [Free [Illusion] appears and heals 10 HP upon taking damage. [Illusion] has same Strength as its counterpart, but is weak when defending. Cooldown: 5 turns.]",
+					"[This Unit] gains the [Mirage Cooldown] status for [5] turn(s) <upon losing at least [1] HP in a single attack> <for [non-[Mirage Cooldown]] units> <hidden from users>"
+					]
 	},
 	{					
 		"name": "Mirage Cooldown",			
-		"uniques": ["Comment [Mirage in on cooldown.]", "Mirage CD"]
+		"uniques": ["Comment [Mirage in on cooldown.]",
+					"Free [Illusion] appears <upon gaining the [Mirage Cooldown] status> <for [Illusionist] units> <hidden from users>",
+					"Free [Rifleman Illusion] appears <upon gaining the [Mirage Cooldown] status> <for [Rifleman] units> <hidden from users>",
+					"Free [Great War Infantry Illusion] appears <upon gaining the [Mirage Cooldown] status>  <for [Great War Infantry] units> <hidden from users>",
+					"Free [Infantry Illusion] appears <upon gaining the [Mirage Cooldown] status> <for [Infantry] units> <hidden from users>",
+					"Free [Mechanized Infantry Illusion] appears <upon gaining the [Mirage Cooldown] status>  <for [Mechanized Infantry] units> <hidden from users>",
+		]
 	},
-	*/
 	
 	//Nature's Keeper~~~~~~~
 	
