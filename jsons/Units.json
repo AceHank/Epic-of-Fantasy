@@ -1509,7 +1509,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Mechanized Infantry",
+		"name": "Mechanized Infantry Illusion",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
