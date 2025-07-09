@@ -19,7 +19,7 @@
 		"revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", ],
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
@@ -43,7 +43,7 @@
 		"revealedBy": "Industrialization",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
 		"production": 1,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", ],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
 					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
@@ -65,7 +65,7 @@
 		"revealedBy": "Biology",
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
-		"improvedBy": ["Oil well", "Offshore Platform","Gaia's Oil well", "Enchanted Forest"],
+		"improvedBy": ["Oil well", "Offshore Platform","Gaia's Oil well", ],
 		"improvementStats": {"production": 3},
 		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
 					"Guaranteed with Strategic Balance resource option",
@@ -88,7 +88,7 @@
 		"revealedBy": "Electricity",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", ],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
 					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
@@ -104,7 +104,7 @@
 		"revealedBy": "Atomic Theory",
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", ],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
@@ -122,7 +122,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
-		"improvedBy": ["Camp", "Manawell"],
+		"improvedBy": ["Camp", ],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
@@ -133,7 +133,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation", "Manawell"],
+		"improvedBy": ["Plantation", ],
 		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Grassland] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
@@ -145,7 +145,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvedBy": ["Plantation", "Gaia's Plantation", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Plantation", "Gaia's Plantation",   ],
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
@@ -157,7 +157,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
 		"gold": 3,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit",   ],
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Hill] Regions>",
@@ -171,7 +171,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit",   ],
 		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -185,7 +185,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 2,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit",   ],
 		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
@@ -203,7 +203,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation", "Manawell"],
+		"improvedBy": ["Plantation", ],
 		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
 					"Generated with weight [10] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
@@ -214,7 +214,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
-		"improvedBy": ["Camp", "Manawell"],
+		"improvedBy": ["Camp", ],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
@@ -226,7 +226,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
-		"improvedBy": ["Plantation", "Gaia's Plantation", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Plantation", "Gaia's Plantation",   ],
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
@@ -238,7 +238,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvedBy": ["Plantation", "Gaia's Plantation", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Plantation", "Gaia's Plantation",   ],
 		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -253,7 +253,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation", "Manawell"],
+		"improvedBy": ["Plantation", ],
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
@@ -264,7 +264,7 @@
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
-		"improvedBy": ["Plantation", "Gaia's Plantation", "Manawell"],
+		"improvedBy": ["Plantation", "Gaia's Plantation", ],
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
@@ -277,7 +277,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"gold": 2,
-		"improvedBy": ["Quarry", "Manawell"],
+		"improvedBy": ["Quarry", ],
 		"improvementStats": {"production": 1},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in this city]",
 					"Special placement during map generation",
@@ -289,7 +289,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
 		"food": 1,
 		"gold": 1,
-		"improvedBy": ["Plantation", "Gaia's Plantation", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Plantation", "Gaia's Plantation",   ],
 		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
@@ -302,7 +302,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit",   ],
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
@@ -321,7 +321,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
 		"gold": 1,
 		"food": 1,
-		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Mine", "Gaia's Mine", "Lodepit",   ],
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
@@ -337,7 +337,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
-		"improvedBy": ["Camp", "Manawell", "Enchanted Forest"],
+		"improvedBy": ["Camp",   ],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
@@ -350,6 +350,40 @@
 	},
 	
 	//Mechanic resources
+	{
+		"name": "Marker",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	//City-level
+	{
+		"name": "City-level Counter",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"City-level resource",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Alchemical Lab Production",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"City-level resource",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
 	
 	//Universal
 	{
@@ -476,6 +510,244 @@
 		"uniques": [
 			"Not shown on world screen", "Doesn't generate naturally",
 			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	//The Kaleeki
+	{
+		"name": "Automata Parts",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "TR Limit",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "CD Limit",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "CD Count",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	//Dutushe Dynasty
+	{
+		"name": "Asha",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Mihir",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	//Bakunawa's Chosen
+	{
+		"name": "Divine Essence",	//Icon purpose
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "GBR DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "OF DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "ED DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "FoY DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "GM DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "MF DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "K DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "RoG DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "CdP DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "BC DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "MK DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "MS DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "SP DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "U DE",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
 			"Cannot be traded", 
 			"Excluded from map editor", 
 			"Will not be displayed in Civilopedia"

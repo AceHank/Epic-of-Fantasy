@@ -5,33 +5,82 @@
 			"name": "Meo",
 			"unitType": "Sword",
 			"replaces": "Warrior",
-			"uniqueTo": "Celestial Beings",
+			"uniqueTo": "Drow Village",
 			"movement": 5,
-			"strength": 8,
+			"strength": 10,
 			"cost": 1,
-			"promotions": ["Horns of Humility"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "[-50]% Strength decreasing with distance from the capital",
-						
-						"Empire enters golden age",
-						"[+5] Sight", "Can move immediately once bought",  "Cannot attack <vs cities>",
+			"hurryCostModifier": -90,
+			"promotions": ["Outmaneuver", "Relentless"],
+			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
+						"[+5] Sight", "Can move immediately once bought", "Cannot attack <vs cities>",
+						"Gain [1000] [Gold] <upon turn end> <in [City center] tiles>",
 			],
 			"attackSound": "nonmetalhit"
 		},
 		{
 			"name": "Meo 2",
 			"unitType": "Armored",
-			"replaces": "Warrior",
-			"uniqueTo": "Drow Village",
+			"replaces": "Scout",
+			"uniqueTo": "Celestial Beings",
 			"movement": 5,
-			"strength": 8,
+			"strength": 10,
 			"cost": 1,
-			"promotions": ["Sturdy", "Detect Ruins"],
-			"uniques": ["Ignores terrain cost","Can build [Land] improvements on tiles",
+			"hurryCostModifier": -90,
+			"promotions": ["Temporal Reset"],
+			"uniques": ["Ignores terrain cost","[This Unit] gains [100] XP <upon turn end>",
+						"May found a religion <for [0] movement>",
+						"May enhance a religion <for [0] movement>",
+						"Gain a free [Enhancer] belief <for [0] movement>",
+						"Can Spread Religion <for [0] movement>", "Removes other religions when spreading religion","Religious Unit", 
+						"May enter foreign tiles without open borders",
+						"Empire enters golden age <for [2] movement>",
+						"Can instantly construct a [Farm] improvement <for [2] movement>",
 						"[+5] Sight", "Can move immediately once bought",
 			],
 			"attackSound": "nonmetalhit"
+		"religiousStrength": 1000
 		},
+	{
+		"name": "Meo Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 8,
+		"cost": 1,
+		"uniques": ["[-100]% maintenance costs",
+					"Can transform to [Warrior] <for [0] movement>",
+		],
+		"attackSound": "missile"
+	},
 	*/
+		
+	//OVERWRITES STUFF
+	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mobile SAM",
+		"obsoleteTech": "Rocketry",
+		"uniques": ["Anti-Air", "[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Mobile SAM",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 65,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"uniques": ["Anti-Air", "[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "missile"
+	},
 	
 	//Dwarven Kingdom
 	{
@@ -121,23 +170,19 @@
 	
 	//Merfolk Council
 	{
-		"name": "Naga",
+		"name": "Sea Warden",
 		"uniqueTo": "Merfolk Council",
-		"replaces": "Galleass",
-		"unitType": "Ranged Water",
-		"movement": 3,
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
 		"strength": 16,
-		"rangedStrength": 16,
-		"range": 2,
 		"cost": 90,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"promotions": ["Floating City Builder"],
-		"upgradesTo": "Frigate",
-		"attackSound": "arrow",
-		"civilopediaText": [
-			{"text": "A giant creature that lurks the deep sea. Developed a mutual symbiotic relationship with the Merfolks, these monster of the sea will help them defend its territory. Or conquer others."},
-        ]
+		"requiredTech": "Civil Service",
+		"promotions": ["Sentry", "Water Creature", "Ensnare"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
 	},
 	
 	//Beastmen Empire
@@ -146,12 +191,13 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Beastmen Empire",
 		"replaces": "Great General",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
+            "Is part of Great Person group [General]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"promotions": ["Intimidation"],
+		"promotions": ["Rallying Cry"],
 		"movement": 4,
 		"civilopediaText": [
 			{"text": "The sound from a Wardrummer will intimidate its foe, while improving the morale of the Beastmen. The sounds of destruction and untold battlefield gore."},
@@ -172,7 +218,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Wings"],
+		"promotions": ["Fly"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -230,8 +276,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
-	//	"uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
-		"promotions": ["Executioner"],
+		"promotions": ["Executioner","Fly"],
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit",
@@ -252,7 +297,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Wings", "Sturdy"],
+		"promotions": ["Sturdy","Fly"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
 		"civilopediaText": [
@@ -262,16 +307,19 @@
 	
 	//Vigilo Order
 	{
-		"name": "Potionist",
-		"unitType": "Civilian",
+		"name": "Great Alchemist",
 		"uniqueTo": "Vigilo Order",
+		"replaces": "Great Scientist",
+		"unitType": "Civilian",
+		"promotions": ["Potionist", "Healer I", "Healer II"],
+		"uniques": [
+            "Can hurry technology research", 
+            "Can instantly construct a [Alchemical Lab] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2,
-		"uniques": ["Uncapturable", "Comment [Removes most negative statuses from adjacent units at turn end]"],
-		"promotions": ["Healer I", "Healer II"],
-		"requiredTech": "Guilds",
-		"cost": 50,
 		"civilopediaText": [
-			{"text": "Master of alchemy, using their knowledge to cure the wounded in battlefield, a Potionist."},
+			{"text": "Master of alchemy, using their knowledge to cure the wounded in battlefield or study the law of nature, a Great Alchemist."},
         ]
 	},
 	
@@ -538,10 +586,10 @@
         ]
 	},
 	
-	//Clockwerk Church
+	//Clockwerk Theotechnate
 	{
 		"name": "Mechanite",
-		"uniqueTo": "Clockwerk Church",
+		"uniqueTo": "Clockwerk Theotechnate",
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -558,7 +606,7 @@
 	},	
 	{
 		"name": "Priest of Cog",
-		"uniqueTo": "Clockwerk Church",
+		"uniqueTo": "Clockwerk Theotechnate",
 		"replaces": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can instantly construct a [Clockwerk Temple] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can Spread Religion <[4] times> <after which this unit is consumed>",
@@ -721,7 +769,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"promotions": ["Indirect Fire", "Galestorm Leap"],
+		"promotions": ["Indirect Fire", "Harpies Flight", "Galestorm Leap"],
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "An elite group of the Harpies, they are able to fly far and high to aim their target with magic from a height advantage anywhere."},
@@ -1259,7 +1307,7 @@
 					"Comment [[True Demon Form]: Heals 15 HP at turn end. All damage is increased by 15. +1 Movement and gain Flying. All other abilities cost 0 [Mana]. Duration: 3 turns. Cost: 99 [Mana].]",	
 
 					//Hellstride
-					"[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement> <costs [8] [Azaniroth Mana]> <when above [7] [Azaniroth Mana]> <in [Friendly Land] tiles> <for units without [Hellstride Cooldown]> <for units without [True Demon Form]> <hidden from users>",
+					"[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement> <costs [8] [Azaniroth Mana]> <when above [7] [Azaniroth Mana]> <for units without [Hellstride Cooldown]> <in [Friendly Land] tiles> <for units without [True Demon Form]> <hidden from users>",
 					"[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement> <for units without [Hellstride Cooldown]> <for units with [True Demon Form]> <hidden from users>",
 					"[This Unit] gains the [Hellstride Cooldown] status for [10] turn(s) <upon gaining the [Hellstride] status> <hidden from users>", 
 					
@@ -1462,64 +1510,12 @@
 		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
 					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
 					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
-					"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Mirage"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{"text": "Kagebunshin no Jutsu?"},
         ]
-	},
-	{
-		"name": "Rifleman Illusion",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
-		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
-					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
-					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
-					"Never appears as a Barbarian unit",
-					"Will not be displayed in Civilopedia",
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Great War Infantry Illusion",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
-					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
-					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
-					"Never appears as a Barbarian unit",
-					"Will not be displayed in Civilopedia",
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Infantry Illusion",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 70,
-		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
-					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
-					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
-					"Never appears as a Barbarian unit",
-					"Will not be displayed in Civilopedia",
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Mechanized Infantry Illusion",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 90,
-		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
-					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
-					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
-					"Never appears as a Barbarian unit",
-					"Will not be displayed in Civilopedia",
-		],
-		"attackSound": "tankshot"
 	},
 	
 	//Phrygian Kingdom
@@ -1547,21 +1543,23 @@
 	{
 		"name": "Medjay Chariot",
 		"uniqueTo": "Kemetian Dynasty",
-		"replaces": "Chariot Archer",
-		"unitType": "Archery",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 6,
-		"rangedStrength": 10,
-		"cost": 56,
+		"strength": 12,
+		"cost": 75,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "Comment [Unlocked at [The Wheel] vs [Horseback Riding]]",
+					"[-33]% Strength <vs cities> <when attacking>",
+					],
 		"promotions": ["Kheru Hebet"],
-		"attackSound": "arrow",
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
 		"civilopediaText": [
-			{"text": "The reliable desert scouts and warrior of Kemetian Dynasty. They have given the authority to punish their enemy with divine judgement."},
+			{"text": "The reliable desert warden and warrior of Kemetian Dynasty. They have given the authority to punish their enemy with divine judgement."},
         ]
 	},
 	
@@ -1676,7 +1674,7 @@
 					"[This Unit] gains the [Aura of Valour] promotion <for [0] movement> <costs [+150 Faith] stats> <once> <hidden from users>",
 					
 					//Ride of the Valkyrie
-					"[This Unit] gains the [Ride of the Valkyrie] status for [1] turn(s) <for [0] movement> <costs [+50 Faith] stats> <for units without [Ride of the Valkyrie Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ride of the Valkyrie] status for [1] turn(s) <for [0] movement> <costs [+50 Faith] stats> <in [Friendly Land] tiles> <for units without [Ride of the Valkyrie Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Ride of the Valkyrie Cooldown] status for [5] turn(s) <upon gaining the [Ride of the Valkyrie] status> <hidden from users>", 
 					
 					//Timer related
@@ -1994,7 +1992,7 @@
 		"movement": 5,
 		"strength": 30,
 		"rangedStrength": 30,
-		"cost": 260,
+		"cost": 250,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
@@ -2004,6 +2002,405 @@
 		"attackSound": "shipCannonVolley",
         "civilopediaText": [
 			{"text": "A sight to behold, this Fortress of stones is set up to sail the seas. This engineering miracle is by no mean without its demerit. After all, how do you expect literal stones on a ship to fare?"}
+		]
+	},
+	
+	//The Kaleeki
+	{
+		"name": "Clockwerk Automata (Aegis)",
+		"uniqueTo": "The Kaleeki",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 250,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization",
+		"hurryCostModifier": 50,
+		"uniques": ["Comment [Strength scales with the tech required for Gunpowder units.\nMay transform between 4 protocols: Aegis, Havoc, Hunter, and Commander with 4 turns of cooldown.\n\nAegis:]",
+					
+					"Comment [[Chrono Disruption]:\nEnemy attacking this unit enters a [Dimensional Prison] state until the end of their next turn.\nUnit in [Dimensional Prison] cannot be interacted with in any way and take 15 damage.\nOnly one unit can be in [Dimensional Prison] state at a time per Civilization, this limit can be increased.\n\nLimited to 10 units of [Clockwerk Automata].]",
+					
+					"[This Unit] gains the [Chrono Disruption] status for [1] turn(s) <upon turn end> <hidden from users>",
+					
+					//Stuffs
+					"Only available <if [Gear Hive] is constructed> <hidden from users>",
+					
+					"[+50]% Strength <after discovering [Replaceable Parts]> <hidden from users>",						//60
+					"[+65]% Strength <after discovering [Plastics]> <hidden from users>",								//86
+					"[+40]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//100
+					
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					
+					"Consumes [1] [Automata Parts] <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>",],
+		"attackSound": "metalhit",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Clockwerk Automata (Havoc)",
+	//	"uniqueTo": "The Kaleeki",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 25,
+		"cost": 250,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization",
+		"hurryCostModifier": 50,
+		"uniques": ["Comment [Strength scales with the tech required for Gunpowder and Siege units.\nMay transform between 4 protocols: Aegis, Havoc, Hunter, and Commander with 4 turns of cooldown.\n\nHavoc:]",
+					
+					"Comment [[Explosive Charge]:\nAttack deals 20 extra damage, then damage adjacent enemies for the same amount at the start of target's turn. Cooldown: 10 turns.\n\nLimited to 10 units of [Clockwerk Automata].]",
+					
+					"[Target Unit] gains the [Explosive Charge] status for [2] turn(s) <upon damaging a [non-[Explosive Charge]] unit> <for units without [Explosive Charge Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Explosive Charge Cooldown] status for [10] turn(s) <upon damaging a [non-[Explosive Charge]] unit> <for units without [Explosive Charge Cooldown]> <hidden from users>",
+					
+					//Stuffs
+					
+					"[+70]% Strength <after discovering [Replaceable Parts]> <hidden from users>",						//42an
+					"[+70]% Strength <after discovering [Plastics]> <hidden from users>",								//60an
+					"[+70]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//78
+					
+					"[+100]% Strength <vs [City]> <hidden from users>",													
+					"[+250]% Strength <vs [City]> <after discovering [Rocketry]> <hidden from users>",					
+					
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					
+					"Consumes [1] [Automata Parts] <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>",
+					],
+		"attackSound": "artillery",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Clockwerk Automata (Hunter)",
+	//	"uniqueTo": "The Kaleeki",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 2,
+		"cost": 250,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization",
+		"hurryCostModifier": 50,
+		"uniques": ["Comment [Strength scales with the tech required for Ranged Gunpowder units.\nMay transform between 4 protocols: Aegis, Havoc, Hunter, and Commander with 4 turns of cooldown.\n\nHunter:]",
+					
+					"Comment [[Prepared Shot]:\n+1 Range and deal 10 extra damage. Must be outside of combat in the last 2 turns.\n\nLimited to 10 units of [Clockwerk Automata].]",
+					
+					"[+1] Range <for units without [Prepared Shot Cooldown]> <hidden from users>",
+					"[Target Unit] takes [10] damage <upon damaging a [All] unit> <for units without [Prepared Shot Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Prepared Shot Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+					"[This Unit] gains the [Prepared Shot Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+					
+					//Stuffs
+					
+					"[+100]% Strength <after discovering [Ballistics]> <hidden from users>",							//60
+					"[+170]% Strength <after discovering [Advanced Ballistics]> <hidden from users>",					//80an
+					
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					
+					"Consumes [1] [Automata Parts] <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>",
+					],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Clockwerk Automata (Commander)",
+	//	"uniqueTo": "The Kaleeki",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 2,
+		"cost": 250,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization",
+		"hurryCostModifier": 50,
+		"uniques": ["Comment [Strength scales with the tech required for Gunpowder units.\nMay transform between 4 protocols: Aegis, Havoc, Hunter, and Commander with 4 turns of cooldown.\n\nCommander:]",
+					
+					"Comment [[Synthetic Tactician]:\n+15% Strength for adjacent units (Stacks with [Great General]).\nEach Commander Protocol unit in map increases the XP gained from combat by +10%.\n\nLimited to 10 units of [Clockwerk Automata].]",
+					
+					//Stuffs
+					
+					"[+25]% Strength <after discovering [Replaceable Parts]> <hidden from users>",						//50
+					"[+50]% Strength <after discovering [Plastics]> <hidden from users>",								//70
+					"[+50]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//90
+					
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
+					
+					"Consumes [1] [Automata Parts] <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>",
+					],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	//Dutushe Dynasty
+	{
+		"name": "Unicorn Rider",
+		"uniqueTo": "Dutushe Dynasty",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 14,
+		"cost": 85,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Radiant Rider", "Purity"],
+		"uniques": ["Can move after attacking",
+					"No defensive terrain bonus",
+					"[-33]% Strength <vs cities> <when attacking>"
+		
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	//The Blighted
+	{
+		"name": "Blightsayer",
+		"uniqueTo": "The Blighted",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Comment [Adjacent non-Scout Military units may sacrifice themselves to become a [Blight Spores]]",
+			"Comment [Can only create 1 [Blight Spores] every 8 turns]",
+			
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Is part of Great Person group [General]",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2,
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Blight Spores",
+		"uniqueTo": "The Blighted",
+		"unitType": "Archery",
+		"movement": 1,
+		"strength": 5,
+		"rangedStrength": 5,
+		"range": 3,
+		"cost": 999,
+		"uniques": ["Comment [[Pandemy]: Attack applies [Infected] for 3 turns in a radius of 1-tile at their turn start. [Infected] unit has -10% Strength and takes 10 damage at turn start.\n[Blight Spores] are removed at turn end.]",
+					"Self-destructs when attacking",
+					
+					"Limited to [1] per Civilization",
+					
+					"[-100]% maintenance costs <hidden from users>",
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", "Cannot move <hidden from users>",
+		],
+		"promotions": ["Pandemy"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	//Bakunawa's Chosen
+	{
+		"name": "Naga",
+		"uniqueTo": "Bakunawa's Chosen",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"promotions": ["Water Creature", "Boarding Party I", "Mind Spike"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},	
+	{
+		"name": "Aswang",
+		"uniqueTo": "Bakunawa's Chosen",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 25,
+		"cost": 170,
+		"promotions": ["Vampiric"],
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	//Khassiya Dynasty
+	{
+		"name": "Fahrazan",
+		"uniqueTo": "Khassiya Dynasty",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"promotions": ["Outmaneuver", "Relentless"],
+		"uniques": ["Can move immediately once bought", 
+					"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Dismounted Fahrazan",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"promotions": ["Outmaneuver", "Relentless"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", 
+					"[This Unit] takes [50] damage",
+					"[+55]% Strength <after discovering [Metallurgy]> <hidden from users>",
+					"Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"
+		],
+		"attackSound": "metalhit"
+	},
+	
+	//Aureignis Dominium
+	{
+		"name": "Homunculus Legion",
+		"uniqueTo": "Aureignis Dominium",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 28,
+		"cost": 150,
+		"uniques": [
+					"Comment [Unlocked at [Chemistry] vs [Gunpowder]]"
+		],
+		"promotions": ["Polymorphic", "Panacea"],
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Aurelionite Obelisk",
+		"unitType": "Archery",
+	//	"uniqueTo": "Aureignis Dominium",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 8,
+		"cost": 1,
+		"uniques": [
+					"Comment [Strength scales with era.]",
+					"Comment [Can be upgraded in Capital when the appropiate technology is researched.]",
+					
+					//Strength
+					"[+25]% Strength <during the [Renaissance era]> <hidden from users>",						//25
+					"[+75]% Strength <during the [Industrial era]> <hidden from users>",						//35
+					"[+175]% Strength <during the [Modern era]> <hidden from users>",							//55
+					"[+275]% Strength <during the [Atomic era]> <hidden from users>",							//75
+					"[+325]% Strength <starting from the [Information era]> <hidden from users>",				//85
+					
+					//Upgrades T1
+					"[Target Unit] takes [5] damage <upon damaging a [All] unit> <if [Focusing Crystal I] is constructed> <hidden from users>",
+					"[Target Unit] takes [5] damage <upon damaging a [All] unit> <if [Focusing Crystal II] is constructed> <hidden from users>",
+					"[Target Unit] takes [5] damage <upon damaging a [All] unit> <if [Focusing Crystal III] is constructed> <hidden from users>",
+					
+					"[+4] Range <if [Obelisk Height I] is constructed> <hidden from users>",
+					"[+4] Range <if [Obelisk Height II] is constructed> <hidden from users>",
+					"[+4] Range <if [Obelisk Height III] is constructed> <hidden from users>",
+					
+					//Upgrades T2
+					"[1] additional attacks per turn <if [Cryonite Radiator] is constructed> <hidden from users>", //Cryonite Radiator
+					
+					"[100]% chance to intercept air attacks <if [Homing Beam] is constructed> <hidden from users>", //Homing Beam
+					
+					"[Target Unit] gains the [Disoriented] status for [3] turn(s) <upon damaging a [All] unit> <if [Mindwarping Ray] is constructed> <hidden from users>",	//Mindwarping Ray
+					
+					"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <if [Heated Ray] is constructed> <hidden from users>",	//Heated Ray
+					"Destroys tile improvements when attacking <if [Heated Ray] is constructed> <hidden from users>",
+					
+					"Can see over obstacles <if [Arcane Eye] is constructed> <hidden from users>",	//Arcane Eye
+					"[+8] Sight <if [Arcane Eye] is constructed> <hidden from users>",
+					"[+4] Sight <if [Obelisk Height I] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
+					"[+4] Sight <if [Obelisk Height II] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
+					"[+4] Sight <if [Obelisk Height III] is constructed> <if [Arcane Eye] is constructed> <hidden from users>",
+					
+					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [All] unit> <if [Paralyzing Ray] is constructed> <hidden from users>",	//Paralyzing Ray
+					
+					//Stuffs
+					"Only available <in cities with a [Eternal Glory Project]> <for [Aureignis Dominium] Civilizations>",
+					"Ranged attacks may be performed over obstacles",
+					"Cannot move",
+					"Can be purchased with [Gold] [in capital]",
+					"No damage penalty for wounded units",
+					"[This Unit] gains [-60] XP",
+					"[-100]% XP gained from combat",
+					"Limited to [1] per Civilization <hidden from users>",
+					"Unbuildable <hidden from users>",
+		],
+		"promotions": ["Debuff Immune", "March"],
+		"attackSound": "choir",
+        "civilopediaText": [
+			{"text": "The ambitious project of Aureignis Dominium, an obelisk so tall that it reaches the sky above. At the peak of it, is firmly placed a charged Aurelionite crystal that may conjure ray to strike enemies."}
+			{"text": "This unit may be upgraded via buildings in Capital during a Golden Age. Those buildings will each give [Aurelionite Obelisk] different upgrades. Upgrades has prerequisite and requirements and also varying cost. You may also purchase the buildings using [Gold] to fasten it."}
+			{"text": "\nUpgrades lists and requirements:"}
+			{"text": "[Obelisk Height I]: Tech [Architecture]. +4 Range"}
+			{"text": "[Obelisk Height II]: Tech [Electricity]. Prerequisite [Obelisk Height I]. +4 Range"}
+			{"text": "[Obelisk Height III]: Tech [Nuclear Fission]. Prerequisite [Obelisk Height II]. +4 Range"}
+			{"text": "[Focusing Crystal I]: Tech [Military Science]. Attack deals 5 extra damage"}
+			{"text": "[Focusing Crystal II]: Tech [Railroads]. Prerequisite [Focusing Crystal I]. Attack deals 5 extra damage"}
+			{"text": "[Focusing Crystal III]: Tech [Rocketry]. Prerequisite [Focusing Crystal II]. Attack deals 5 extra damage\n"}
+			{"text": "All of the upgrades below require at least Tier II of both [Obelisk Height] and [Focusing Crystal]"}
+			{"text": "[Cryonite Radiator]: Tech [Refrigeration]. 1 additional attack"}
+			{"text": "[Homing Beam]: Tech [Radar]. May intercept air attacks"}
+			{"text": "[Paralyzing Ray]: Tech [Lasers]. Attack applies [Stunned] for 1 turn"}
+			{"text": "[Mindwarping Ray]: Tech [Atomic Theory]. Attack applies [Disoriented] for 1 turn"}
+			{"text": "[Heated Ray]: Tech [Combustion]. Destroys tile improvements when attacking and applies [Burning] for 2 turns"}
+			{"text": "[Arcane Eye]: Tech [Computers]. Gain unobstructed vision equal to the Obelisk's range"}
 		]
 	},
 	

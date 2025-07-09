@@ -1,4 +1,5 @@
 [	
+	
 	//Higba of Dwarven Kingdom
 	{
 		"name": "Dwarven Kingdom",
@@ -143,12 +144,13 @@
 		"uniqueName": "Chilling Touch",
 		"uniques": [
 					"Comment [+1 [Food], +1 [Culture], and +1 [Science] from every [Snow] tiles]",
-					"Comment [+1 Population in cities within 1 tile of [Tundra]]",
-					"Comment [+1 Population in cities within 2 tiles of [Snow]]",
+					"Comment [+1 Population in cities within 1 tile of [Tundra] or [Snow]]",
 					
 					"[+1 Food, +1 Culture, +1 Science] from every [Snow] <hidden from users>",
-					"[+1] population [in all cities] <upon founding a city> <within [1] tiles of a [Tundra]> <hidden from users>",
-					"[+1] population [in all cities] <upon founding a city> <within [2] tiles of a [Snow]> <hidden from users>"], 
+					"[+1] population [in all cities] <upon founding a city> <in tiles adjacent to [Tundra] tiles> <in tiles not adjacent to [Snow] tiles> <hidden from users>",
+					"[+1] population [in all cities] <upon founding a city> <in tiles adjacent to [Snow] tiles> <in tiles not adjacent to [Tundra] tiles> <hidden from users>",
+					"[+1] population [in all cities] <upon founding a city> <in tiles adjacent to [Tundra] tiles> <in tiles adjacent to [Snow] tiles> <hidden from users>",
+					],
 		"cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nab\u00fb-Shar",
 			"Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
 		"civilopediaText": [
@@ -295,7 +297,7 @@
 		"adjective": ["Cultist"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		"personality": "The Blighted",
+		"personality": "The Crimson Prince",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -350,12 +352,12 @@
 		"outerColor": [225, 140, 50],
 		"innerColor": [5, 120, 65],
 		"uniqueName": "Draconic Wisdom",
-		"uniques": ["Comment [Melee footman units gain Flying, they may pass through impassable terrains and see over obstacles]",
-					"Comment [Gain 15 Influence when gifting a Flying units to City-States]"
+		"uniques": ["Comment [Melee footman units gain the ability to Fly, they may pass through impassable terrains and cannot be attacked by Melee units during its duration]",
+					"Comment [Gain 15 Influence when gifting a unit with Flying abiility to City-States]"
 		
-					"Gain [15] Influence with a [Flying] gift to a City-State <hidden from users>", 
-					"[Sword] units gain the [Wings] promotion <hidden from users>", 
-					"[Gunpowder] units gain the [Wings] promotion <hidden from users>"], 
+					"Gain [15] Influence with a [Fly] gift to a City-State <hidden from users>", 
+					"[Sword] units gain the [Fly] promotion <hidden from users>", 
+					"[Gunpowder] units gain the [Fly] promotion <hidden from users>"], 
 		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
 				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
 				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
@@ -391,10 +393,15 @@
 		"outerColor": [237,197,82],
 		"innerColor": [186, 60, 3],
 		"uniqueName": "Lavrence's Opus",
-		"uniques": ["Free [Great Engineer] appears <upon discovering [Chemistry] technology>",
-					"Gain [50] [Gold] <upon expending a [Great Person] unit>", 
-					"Gain [50] [Science] <upon expending a [Great Person] unit>"], 
-		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
+		"uniques": ["Free [Great Alchemist] appears <upon discovering [Chemistry] technology>",
+					"Comment [National Wonder provides +2 [Great Alchemist] points]",
+					"Comment [+10% [Production] and +10% [Science] in cities with at least 1 [Alchemical Lab]]",
+					
+					"[+10]% [Production] [in all cities] <with [Alchemical Lab Production]> <hidden from users>",
+					"[+10]% [Science] [in all cities] <with [Alchemical Lab Production]> <hidden from users>",
+					
+					], 
+		"cities": ["Acathenor","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
 			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
 		"civilopediaText": [
 			{"text":"Vigilo order is a human secret society which excels at alchemy. They rose from their hide and shown themselves when they see a threat to the world's balance. They seek balance in power and scientific progression as their agenda."},
@@ -658,9 +665,9 @@
         ]
 	},
 	
-	//David of Clockwerk Church
+	//David of Clockwerk Theotechnate
 	{
-		"name": "Clockwerk Church",
+		"name": "Clockwerk Theotechnate",
 		"leaderName": "David",
 		"adjective": ["Devouts"],
 		"preferredVictoryType": "Scientific",
@@ -672,7 +679,7 @@
 		"declaringWar": "Praise be the Broken God, we shall offer Thee this tribute!",
 		"attacked": ".",
 		"defeated": ".",
-		"introduction": "I am High Priest David of Clockwerk Church. Messenger of the Broken God, leader of our devouts. You shall bear witness of His maginificence.",
+		"introduction": "I am High Priest David of Clockwerk Theotechnate. Messenger of the Broken God, leader of our devouts. You shall bear witness of His maginificence.",
 		
 		"neutralHello": "Greetings, have you heard of the Broken God?",
 		"hateHello": "Clearly not a time for this.",
@@ -689,8 +696,8 @@
 		"cities": ["Anachron","Trillium","Aerodrift","Cooperwall","Automaguard","Steampoint","Neddingfall","Chronoedge","Pitchpoint","Cantmourne","Blackwatch","Glockthain",
 			"Coverdrift","Steelhollow","Ironburg","Cinderguard","Blagfort"],
 		"civilopediaText": [
-			{"text":"Clockwerk Church is a human machine cultist civilization. They worship their machine god which is now malfunctioning and they are waiting for Its return to this world. They believes in the spirit of clockwerk and gears machinery."},
-			{"text":"Clockwerk Church is a good [Faith] generating civilization with great flexibility thanks to its unique improvement."},
+			{"text":"Clockwerk Theotechnate is a human machine cultist civilization. They worship their machine god which is now malfunctioning and they are waiting for Its return to this world. They believes in the spirit of clockwerk and gears machinery."},
+			{"text":"Clockwerk Theotechnate is a good [Faith] generating civilization with great flexibility thanks to its unique improvement."},
 			{"text":"Church of Gears has a percentage bonus to [Faith] output, making it valuable in high Faith cities. Be careful not to let enemies pillage Clockwerk Temple as they provide more to the pillager."},
         ]
 	},
@@ -904,14 +911,14 @@
 		"innerColor": [1,68,69],
 		"uniqueName": "Feathered Sovereign",
 		"uniques": ["Comment [+1 [Food] from unimproved [Hill] tiles]",
-					"Comment [All footman units gain Flying, they may pass through impassable terrains and see over obstacles]",
+					"Comment [All footman units gain the ability to Fly, they may pass through impassable terrains and cannot be attacked by Melee units during its duration]",
 					
-					"[Sword] units gain the [Harpy] promotion <hidden from users>", 
-					"[Civilian] units gain the [Harpy] promotion <hidden from users>", 
-					"[Gunpowder] units gain the [Harpy] promotion <hidden from users>", 
-					"[Ranged Gunpowder] units gain the [Harpy] promotion <hidden from users>",
-					"[Archery] units gain the [Harpy] promotion <hidden from users>", 
-					"[Scout] units gain the [Harpy] promotion <hidden from users>", 
+					"[Sword] units gain the [Harpies Flight] promotion <hidden from users>", 
+					"[Civilian] units gain the [Harpies Flight] promotion <hidden from users>", 
+					"[Gunpowder] units gain the [Harpies Flight] promotion <hidden from users>", 
+					"[Ranged Gunpowder] units gain the [Harpies Flight] promotion <hidden from users>",
+					"[Archery] units gain the [Harpies Flight] promotion <hidden from users>", 
+					"[Scout] units gain the [Harpies Flight] promotion <hidden from users>", 
 					
 					"[+1 Food] from [Land] tiles [in all cities] <in [{unimproved} {Hill}] tiles> <hidden from users>"],
 		"cities": ["Stormclaw","Alpenia Peak","Bloodfeather","Anzalor Valley","Strongbeak","Marmouth Hills","Emberwing","Sorania Cliff","Stingtail","Marsia Forest","Featherfall",
@@ -982,8 +989,8 @@
 		"hateHello": ".",
 		"tradeRequest": ".",
 		
-		"outerColor": [77,145,129],
-		"innerColor": [15,247,193],
+		"outerColor": [192, 205, 180],
+		"innerColor": [35, 77, 108],
 		"uniqueName": "Byggare",
 		"uniques": ["Comment [+40% [Production] when constructing World Wonder for the first time in a city]",
 					"Comment [Military Land units gain +15% Strength but are more expensive to produce]",
@@ -1112,11 +1119,11 @@
 		"innerColor": [245,91,206],
 		"uniqueName": "Peacemaker Project",
 		"uniques": ["Comment [Receive free [Peacemaker Spell] upon entering a new era]",
-					"Comment [+1 [Science] from every [Shrine] and [Temple]]",
+					"[+2 Science] from every [Temple]",
 					
-					"[+1 Science] from every [Shrine] <hidden from users>",
-					"[+1 Science] from every [Temple] <hidden from users>",
 					"Free [Peacemaker Spell] appears <upon entering a new era> <hidden from users>",
+					
+					"[+15]% Strength <when defending> <vs [Ranged] units> <when adjacent to a [Protection] unit> <hidden from users>",
 					],
 		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
 			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"],
@@ -1457,8 +1464,9 @@
 		"hateHello": "What?",
 		"tradeRequest": "This inquiry will certainly intrigue you.",
 		
-		"outerColor": [117,67,20],
-		"innerColor": [49,173,169],
+		"outerColor": [102, 51, 0],
+		"innerColor": [0, 204, 204]
+		
 		"uniqueName": "Deep Slumber",
 		"uniques": ["Comment [May unearth population from adjacent [Hill] or [Mountain] up to 3 times per city]"]
 		"cities": ["Forgefall","Kiln Edge","Leevoss","Pittenrock","Bordstone","Armstane","Falkid","Eskrick","Undulonn","Rask","Ousten Bank",
@@ -1699,6 +1707,7 @@
 					"Comment [When spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]]",
 					"Comment [+1% Strength when defending for every [Curative Spire] built]",
 					
+					"[non-[Air]] units gain the [Spire Damage Block] promotion <hidden from users>",
 					"When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture] <hidden from users>",
 					"[+1]% Strength <when defending> <for every [[Curative Spire] Buildings]> <hidden from users>", 
 					"[+1 Faith] from every [Curative Spire] <hidden from users>",
@@ -1917,7 +1926,7 @@
 			"Empire enters golden age <upon entering the [Medieval era]> <hidden from users>",
 			"[Military] units gain the [Spirit II] promotion <hidden from users>",
 			"Earn [10]% of the damage done to [Land] units as [Faith] <hidden from users>",
-			"May buy [Spirify] buildings for [100] [Faith] [in annexed cities] <hidden from users>",
+			"May buy [Spirify] buildings for [150] [Faith] [in annexed cities] <hidden from users>",
 			"All newly-trained [All] units [in all cities] receive the [Spirit] promotion <hidden from users>",
 			"[All] units gain the [Spirit] promotion <before turn number [1]> <hidden from users>",
 			"[+30]% Strength <when attacking> <for units without [Spirit]> <hidden from users>",
@@ -2199,8 +2208,12 @@
 		"uniqueName": "Warriors of Valhalla",
 		"uniques": ["Comment [Gain 25 [Faith] and 1 [Favor] upon losing a unit in battle]",
 					"Comment [Gain 1 [Favor] upon defeating a non-[Barbarian] unit]",
+					"Comment [Gain 10 [Favor] upon entering new era]",
 					"Comment [After accumulating 30 [Favor], a [Valkyrie] will fight with us for 10 turns.]",
-					"Comment [You can't gain [Favor] when a [Valkyrie] is present]",
+					"Comment [You can't gain [Favor] from defeating units when a [Valkyrie] is present]",
+					
+					//Favor
+					"Instantly gain [1] [Favor] <upon entering a new era> <hidden from users>",
 					
 					//Einherjar defeated
 					"[All] units gain the [Einherjar] promotion <hidden from users>",
@@ -2297,7 +2310,7 @@
 		"innerColor": [85, 150, 60],
 
 		"uniqueName": "Sanctuary of Elune",
-		"uniques": ["Comment [Military units have 25% chance to receive [Sanctuary] for 2 turns when damaged in Friendly territory. 100% for [Wisp] and Civilian. Each unit can only receive [Sanctuary] once every 10 turns.]",
+		"uniques": ["Comment [Military units have 30% chance to receive [Sanctuary] for 2 turns when damaged in Friendly territory. 100% for [Wisp] and Civilian. Each unit can only receive [Sanctuary] once every 10 turns.]",
 					"Comment [[Wisp] may enchant a [Forest]/[Jungle]. Enemy moving into [Enchanted Forest] will be [Rooted] for 2 turns once every 6 turns.]",
 					"Comment []",
 					"Comment [[Rooted]: Can't move. Can't Melee attack.]",
@@ -2383,9 +2396,13 @@
 		"cities": ["Merkoth", "Tsabrabek","Yukasim","Lilytye","Afiq","Abytia","Zamata","Atharta","Eshmounbek","Maleka","Baionbek","Tipata",
 			"Qartha","Irqata"],
 		"civilopediaText": [
-			{"text":"."},
-			{"text":"."},
-			{"text":"."},
+			{"text":"It's been millenia since the glorious days of the original Aellenari Empire. Its ruins vanished, its knowledge lost, its name forgotten, but its Queen and those who bounded themselves to Her majesty, remain buried, undisturbed."},
+			{"text":"Until one curious Scholar of history stumbled upon one such remain, then called by the Queen herself. Her voice pierce through the realm of the dead, she shows upon the Scholar a vision of the glorius past of Her empire. And thus it's easy for him to be enthralled, not only by Her power, but the long lost knowledge of such history as well."},
+			{"text":"Guided by the Queen Keish Lightbringer, the Scholar ressurected Her, along with Her loyal servant, bound by magical oath which let them serve, even in death. The newly refound ancient Empire now seeks to restore its glory, helped by modern day cult-like followers, they aim to conquer what they lost with those willingly bound themselves to the Queen."},
+			{"text":"\nAellenari Empire is a good Scientific/Domination civilization, backed by powerful Golden Age generation, taken straight out of Songs of Conquest. Its army is always 1/3 [Undead], which makes them ignores terrain penalty and damage penalty from wounded, making them stronger than normal units. For every 10 military units lost, this civ gain a free [Undead] one, making a lost of unit less punishing."}
+			{"text":"They gain Golden Age points, scaling with the era the technology in, upon researching them. Combined with plenty of cities with its unique building, the civ can gain plenty of free [Undead] units upon entering Golden Age."},
+			{"text":"The unique building, [Aellenari Sanctum] has 2 unique specialists slot that don't generate Unhappiness (They're happy to serve!), so make sure to prioritize them over other specialists."}
+			{"text":"The [Oathbound] is a very strong Swordsman replacement with +3 Strength than normal, and its attack applies [Fatigued] which punishes enemy units when they move, good for chasing and maintaining combat."}
         ]
 	},
 	
@@ -2414,11 +2431,11 @@
 		"innerColor": [230, 230, 230],
 
 		"uniqueName": "Legends of the Deer Gods",
-		"uniques": ["Comment [+1 Movement for Melee units in [Tundra]/[Snow] tiles]",
+		"uniques": ["Comment [+1 Movement for Melee units in [Tundra] or [Snow] tiles]",
 					"Comment [+1 [Faith], +1 [Culture] from every [Deer]]",
 					"Comment [+1 [Happiness] in cities adjacent to [Deer]]",
 					
-					"Retain [75]% of the happiness from a luxury after the last copy has been traded away",
+					"Retain [50]% of the happiness from a luxury after the last copy has been traded away",
 					
 					"[+1] Movement <for [Melee] units> <in [Tundra] tiles> <hidden from users>",	
 					"[+1] Movement <for [Melee] units> <in [Snow] tiles> <hidden from users>",
@@ -2437,6 +2454,408 @@
 			{"text":"This civilization values quality over quantity. Their unique units are more expensive but are much stronger than their replacement."},
         ]
 	},
+	
+	//Chronos of The Kaleeki
+	{
+		"name": "The Kaleeki",
+		"leaderName": "Zamman",
+		"adjective": ["Kaleeki"],
+		"preferredVictoryType": "Scientific",
+	//	"personality": "Architect of Time",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [64, 64, 64],
+		"innerColor": [102, 153, 255]
+
+		"uniqueName": "Architect of Time",
+		"uniques": [				
+					"Comment [-5% [Science] cost of researching new Technologies]",
+					
+					"Comment [\n[Temporal Reset]:\nWhen a unit takes damage that reduces its HP to 25 or below, it enters a [Chrono Stasis] state, rewinding all damage taken.]",
+					"Comment [While in this state, the unit heals 30 HP per turn but cannot be interacted with in any way until it reaches full HP.]",
+					"Comment [Only one unit can be in [Chrono Stasis] state at a time. This limit can be increased.]",
+					
+					"[-5]% Science cost of researching new Technologies <hidden from users>",
+					
+					"[+10]% XP gained from combat <for every [[Clockwerk Automata (Commander)] Units]> <hidden from users>",
+					
+					"Instantly gain [1] [TR Limit] <hidden from users>",
+					"Provides [10] [Automata Parts] <hidden from users>",
+					
+					],
+		"cities": ["Chronos Prime", "Aeonspire", "Gearhaven", "Tempora", "Aeonstrike", "Eonforge", "Timelash", "Ticktock Keep", "Machina Nova", 
+			"Chronospire", "Eternis", "Syncropolis", "Tempus Halt", "Mechus", "Chronolight"],
+		"spyNames": [ "Ironveil", "Steamhawk", "Cogwhisper", "Shadowcog", "Gearmist"],
+		"civilopediaText": [
+			{"text":"Zamman, the Mad Architect, was once a great Automaton engineer in Kaleeki history, a brilliant mind turned into mere gear of society, lacking of soul and purpose. In the deep ruins below the Kaleeki capital of Aeonspire, there he found an uknown device like no other, a shattered mechanism locked in time."},
+			{"text":"From it, he learned the secret of space and time. Years after years of research, exposing self to the unknowable universe, he went mad. Now he's obsessed with unlocking the secrets of time and space itself. He managed to scrape very little of the secrets this device held."},
+			{"text":"His ambition only grew worse. He made an army of automaton and take the capital of Kaleeki, along with it, he declare himself the sole ruler of Kaleeki, leading Kaleeki into an age of exploration, often with violence. Everything will be done, for his purpose to seek more of similiar device over the world."},
+			{"text":"\nThe Kaleeki is a very good mid-game Scientific/Domination civ. -5% of tech cost might seem insubstantial amount, but that adds up over the course of the game, making Kaleeki having fast research time overall."},
+			{"text":"Anytime one of its unit reaches 25 HP or below, they will heal back to full HP while being immune to enemy attack (except Nuke), guaranteeing a survival of a unit in a surprise war attack amongst other benefits. Sometimes though, it can also be a malus where instead the unit surviving with 10 HP and could run, it got surrounded because of the [Chrono Stasis] state."},
+			{"text":"Its unique unit is an expensive unit that doesn't go obsolete with tech, making sure they survive and stack their XP is of upmost priorities. They may chose between 4 protocols, each having different Strength, ability, and purpose. Make sure to read about them in the Civilopedia or try them out in battle."},
+			{"text":"Both [Temporal Reset] and the Aegis Automaton's ability, [Chrono Disruption] only has a limit of 1 at first, but they can be increased by its unique building at [Iron] and [Gold] maintenance cost."},
+        ]
+	},
+	
+	//Dutushe Dynasty
+	{
+		"name": "Dutushe Dynasty",
+		"leaderName": "Yasminar IV",
+		"adjective": ["Hilmiranian"],
+		"startBias": ["Desert", "Oasis"],
+		"preferredVictoryType": "Diplomatic",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [157, 141, 255],
+		"innerColor": [92, 0, 163],
+
+		"uniqueName": "Farr-e Dutushe",
+		"uniques": ["Comment [Golden Age's [Production] and [Culture] bonuses are increased by 50%]",
+					"Comment [[Asha]: +10% Great Person generation in all cities, is earned upon declaring friendship for the first time]",
+					"Comment [[Mihir]: +15% Strength for all units, is earned upon declaring a defensive pact for the first time]",
+					"Comment [Reset [Asha] and [Mihir] if this Civilization declares war with a major Civilization]",
+					
+					"[+10]% [Culture] <during a Golden Age> <hidden from users>",
+					"[+10]% [Production] <during a Golden Age> <hidden from users>",
+					
+					"Instantly gain [1] [Asha] <upon declaring friendship> <without [Asha]> <hidden from users>",
+					"Instantly gain [1] [Mihir] <upon declaring a defensive pact> <without [Mihir]> <hidden from users>",
+					
+					"Instantly gain [-1] [Asha] <upon declaring war with a major Civilization> <with [Asha]> <hidden from users>",
+					"Instantly gain [-1] [Mihir] <upon declaring war with a major Civilization> <with [Mihir]> <hidden from users>",
+					
+					"[+10]% Great Person generation [in all cities] <with [Asha]> <hidden from users>",
+					"[+15]% Strength <with [Mihir]> <hidden from users>",
+					
+					"Provides a [Dutushe First Five] in your first [5] cities for free <hidden from users>",
+					"Provides [1] [Marker] <when at war> <hidden from users>",
+					
+					
+					],
+		"cities": ["Tag Detusha", "Gertrapolis", "Zephisha", "Gehru", "Sthrudes", "Yasminaropolis", "Tag Azmardhan", "Athatunk", "Shradetry", "Darhius", "Pashastra", "Detushistan", "Kmintruh", "Ehmadah", "Asredi"],
+		"spyNames": ["Mitra","Zomrood","Kavak","Laila","Feraydun"],
+		"civilopediaText": [
+			{"text":"Dutushe dynasty - is dynastical kingdom of Dutushe clan, a clan of people who united all Hilimrani people, mainly human civilization with Persian culture."},
+			{"text":"Living in the Desert,the Hilmiranians built their culture on rare desertic unicorns. When desertic unicorns was almost extinct, these people tamed them, saving unicorns even nowadays."},
+			{"text":"This Civilization will do better when playing peacefully, granting Growth and Strength after declaring friendship and defensive pact. These bonus will persist on a defensive war."},
+			{"text":"Although after declaring war you can regain [Asha] and [Mihir] again, you will need to redeclare friendship and defensive pact, you will still enter a several turn of off-time for the bonus. Only declare war if you absolutely sure it's worth giving up [Asha] and [Mihir] for some time."},
+        ]
+	},
+	
+	//Baldwin of The Blighted
+	{
+		"name": "The Blighted",
+		"leaderName": "Baldwin",
+		"adjective": ["Blighted"],
+		"preferredVictoryType": "Scientific",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [112, 40, 138],
+		"innerColor": [120, 210, 215],
+
+		"uniqueName": "Per Morbus Arcanorum Vivemus",
+		"uniques": ["Comment [+34% [Production] when constructing [Settler] in cities with 5 or less Population]",
+					"Comment [-15% Growth in cities with 5 or less Population]",
+					
+					"Comment [\n[Mana Tainted]:]",
+					"Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon taking damage.]",
+					"Comment [Land units attack has a 30% chance to apply [Bleeding] for 2 turns and [Crippled] for 1 turn.]",
+					
+					"[Land] units gain the [Mana Tainted] promotion <hidden from users>",
+					"[+34]% Production when constructing [Settler] units [in all cities] <in cities with less than [6] [Population]> <hidden from users>",
+					"[-15]% growth [in all cities] <in cities with less than [6] [Population]> <hidden from users>",
+					"Instantly gain [8] [Counter Something] <upon gaining a [Blight Spores] unit> <hidden from users>",
+					"Instantly gain [-1] [Counter Something] <upon turn end> <with [Counter Something]> <hidden from users>",
+					
+					],
+		"cities": ["Sorrow's End","Witherhold","Mirefall","Blightmere","Festerreach","Ashveil","Duskhollow","Gravebloom","Vilemoor","Palecradle","Carrionrise","Thornpyre","Waning Hearth","Bleakward","Hollowstrand"],
+		"spyNames": ["Mirestalk","Ashwhisper","Crimson Veil","The Lurking One","Echo of Rot"],
+
+		"civilopediaText": [
+			{"text":"The Blight, it's what the people of its time call this sickness. A sickness of the arcane, it made any creature afflicted with it absorbs the [Mana] in the air at an abnormal rate, often exceeding their body's capabilities. When such thing occurs, the human body that can hold so little of [Mana] cannot handle the amount of [Mana] absorbed, and they die claimed by this enigma of a disease."},
+			{"text":"Some though, has plenty of [Mana] capacity, they can store huge amount of [Mana], so are spared from dying to [Mana] sickness. Their body however, cannot handle the fast rate of [Mana] absorption, begin to mutate. These kind of people are called The Blighted, as they fail to die while hosting and spreading a lethal disease. They are then shunned by the people, forced into an exile and to survive the harsh winter by their own."},
+			{"text":"One day, a great leader with the name of Baldwin led the Blighted into a miasma wasteland. They survived here where other creature rot, thanks to their mutation. This land became a Safe Haven for those struck by the Blight."},
+			{"text":"Word spread, more and more exiles seeking asylum in this country and together with them, more power. All of those here harbors resentment towards their countries, towards their own kin, and towards life itself. Their hatred, bigger, amplified by the unknown disease, is the fuel for their vengeance. They shan't shy away from sacrificing anything for their purpose."},
+			{"text":"\n[The Blighted] is a civilization with a rather unique playstyle. All of its cities have faster [Settler] production at a whopping -15% Growth rate exchange. All of their units' attack may inflict [Bleeding] and [Crippled], but all of their enemies' attack at them would do the same albeit at half the chance."},
+			{"text":"The unique building offers a trade of [Science] per 2 population with -1% Growth rate per 3. A good exchange I'd say."},
+			{"text":"The unique Great General replacement lets any non-[Scout] Military unit to be sacrificed, becoming [Blight Spores]. A suicide unit that spread damaging and Strength reducing debuff at the enemy rank. The debuff only spread at their turn start, so you can't make use of it immediately except the one you targeted the first."},
+			{"text":"This civilization is all about trading X for Y. You get more [Settler] and [Science] in for Growth, debuff-inflicting units in for debuff-inflicted units, and a sucide debuff-spreader for a unit."},
+        ]
+	},
+	
+	//Ylaga of Bakunawa's Chosen
+	{
+		"name": "Bakunawa's Chosen",
+		"leaderName": "Ylaga",
+		"adjective": ["The Chosen"],
+		"startBias": ["Coast"],
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [50, 40, 0],       
+		"innerColor": [150, 190, 30]     
+
+		"uniqueName": "The Untimely Return",
+		"uniques": ["Comment [Land units retrieve 1 [Divine Essence] upon entering tile next to a Natural Wonder]",
+					"Comment [Each [Divine Essence] retrieved provides +2 [Faith] and different empire-wide effect]",
+					"Comment [Starts with up to 2 Natural Wonders revealed]",
+					
+					"[Land] units gain the [Chosen of Bakunawa] promotion <hidden from users>",
+					"Reveal up to [2] [Natural Wonder] within a [999] tile radius <hidden from users>",
+					
+					//Divine Essence effects
+					//Great Barrier Reef
+					"[+5]% growth [in all cities] <with [GBR DE]> <hidden from users>",
+					"[+1 Science] from [Ocean] tiles [in all cities] <with [GBR DE]> <hidden from users>",
+					"[+2 Faith] <with [GBR DE]> <hidden from users>",					
+					//Old Faithful
+					"[-25]% Unhappiness from [Specialists] [in all cities] <with [OF DE]> <hidden from users>",
+					"[+2 Faith] <with [OF DE]> <hidden from users>",					
+					//El Dorado
+					"[+1 Culture] per [6] population [in all cities] <with [ED DE]> <hidden from users>",
+					"[+2 Faith] <with [ED DE]> <hidden from users>",					
+					//Fountain of Youth
+					"[All] units gain the [Vigorous] promotion <with [FoY DE]> <hidden from users>",
+					"[+2 Faith] <with [FoY DE]> <hidden from users>",					
+					//Grand Mesa
+					"[Great Engineer] is earned [+25]% faster <with [GM DE]> <hidden from users>",
+					"[+2 Faith] <with [GM DE]> <hidden from users>",					
+					//Mount Fuji
+					"[+4 Happiness] <with [MF DE]> <hidden from users>",
+					"[+2 Faith] <with [MF DE]> <hidden from users>",					
+					//Krakatoa
+					"[+15]% [Science] [in all cities] <with [K DE]> <hidden from users>",
+					"[+2 Faith] <with [K DE]> <hidden from users>",					
+					//Rock of Gibraltar
+					"[+10]% Strength <when defending> <with [RoG DE]> <hidden from users>",		
+					"[+2 Faith] <with [RoG DE]> <hidden from users>",								
+					//Cerro de Potosi
+					"Provides [1] [Silver] <with [CdP DE]> <hidden from users>",	
+					"[+2 Faith] <with [CdP DE]> <hidden from users>",									
+					//Barringer Crater
+					"[All] units gain the [Brutal] promotion <with [BC DE]> <hidden from users>",	
+					"[+2 Faith] <with [BC DE]> <hidden from users>",									
+					//Mount Kailash
+					"Gain a free [Pantheon] belief <with [MK DE]> <hidden from users>",		
+					"[+2 Faith] <with [MK DE]> <hidden from users>",								
+					//Mount Sinai
+					"[+25]% Natural religion spread [in all cities] <after founding a religion> <with [MS DE]> <hidden from users>",
+					"[+4 Faith] <before founding a religion> <with [MS DE]> <hidden from users>",			
+					"[+2 Faith] <with [MS DE]> <hidden from users>",							
+					//Sri Pada
+					"Instantly gain [6] [Golden Age points] <upon turn end> <with [SP DE]> <hidden from users>",		
+					"[+2 Faith] <with [SP DE]> <hidden from users>",								
+					//Uluru
+					"[+1] Movement <in [Desert] tiles> <with [U DE]> <hidden from users>",
+					"No defensive terrain penalty <in [Desert] tiles> <with [U DE]> <hidden from users>",		
+					"[+2 Faith] <with [U DE]> <hidden from users>",					
+					
+					],
+		"cities": ["Binukawan", "Lumaylan", "Rajinaga", "Bakulod", "Kalamburao", "Taghalang", "Mayudhan", "Dagonoy", "Sibulanok", "Tindaya", "Gumilaon", "Malatik", "Panagbanwa", "Luyongon", "Aninaw"],
+		"spyNames": ["Silak", "Banug", "Katawa", "Talukbong", "Gahum"],
+		"civilopediaText": [
+			{"text":"[Divine Essence]'s lists:"},
+			{"text":"[Great Barrier Reef]: +5% Growth in all cities; +1 [Science] from [Ocean] tiles in all cities`"},
+			{"text":"[Old Faithful]: -25% Unhappiness from Specialists in all cities"},
+			{"text":"[El Dorado]: +1 [Culture] per 6 Population in all cities"},
+			{"text":"[Grand Mesa]: [Great Engineer] is earned +25% faster"},
+			{"text":"[Cerro de Potosi]: Provides 1 [Silver]"},
+			{"text":"[Krakatoa]: +15% [Science] in all cities"},
+			{"text":"[Mount Fuji]: +4 [Happiness]"},
+			{"text":"[Mount Kailash]: Gain a free Pantheon belief"},
+			{"text":"[Mount Sinai]: +25% Natural religion spread in all cities if with religion; +4 [Faith] if without religion"},
+			{"text":"[Sri Pada]: Gain 6 Golden Age points at turn end"},
+			{"text":"[Fountain of Youth]: All units heals 5 HP at turn end"},
+			{"text":"[Barringer Crater]: All units' attack deal 5 extra damage"},
+			{"text":"[Rock of Gibraltar]: All units gain +10% Strength when defending"},
+			{"text":"[Uluru]: All units ignores [Desert] penalty and +1 Movement in [Desert] tiles"},
+			{"text":"\nBakunawa Was once a goddess of the sea, punished by other gods for her greed and arrogance. She became a mere beast ever so trying to swallow the Moon..... or so the tale goes. However, such obvious propaganda doesn't work for her loyal follower. They firmly believe Bakunawa has been unjustly punished by those who's envious of her grace."},
+			{"text":"The follower would soon spread across the land, gaining influence where they able, controlling countries and cities for their cause. In the meantime, searching for her Essences which are spread across the realm by those who have wronged her. Hoping to someday return their deities in her original form and glory."},
+			{"text":"In need of manpower to fight any of those opposing their cause, they resorted to a taboo. Using such magic to control feral magical beast of the land and incorporate them to their army of vengeful loyalist."},
+			{"text":"\nThis civilization is a take from mod creator for another '[Spain]'-like playstyle. Instead of the instant huge sum of Gold and the need to settle near Natural Wonder, this civ only needs to somehow place any of its unit in the tile adjacent to Natural Wonder to gain its benefit."},
+			{"text":"Every Natural Wonder has different effect, making sure each playthrough is somewhat different than before, and such, this civ can be quite flexible in its wincon. The instant Natural Wonder reveal is also very helpful for early point of exploration."},
+			{"text":"Its unique unit [Naga] is a Pikeman replacement that doesn't need to embark on Water tile, and can fight with Water unit without the usual malus of [Water Creature] thanks to [Boarding Party I]. Its attack also applies [Disoriented], a debuff that makes Ranged unit lose 1 range and melee units to miss 50% of its attack."},
+			{"text":"[Aswang], is the Musketman replacement. This unit can heal and deal 10 extra HP/damage every 5 turns, which is quite strong albeit more expensive than generic Musketman."}
+        ]
+	},
+	
+	//Ibn al-Haya of Khassiya Dynasty
+	{
+		"name": "Khassiya Dynasty",
+		"leaderName": "Ibn al-Haya",
+		"adjective": ["Khassiyan"],
+		"startBias": ["Desert", "Oasis"],
+		"preferredVictoryType": "Scientific",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+        "outerColor": [241, 191, 38],
+        "innerColor": [184, 75, 0],
+
+		"uniqueName": "Timeless Legacy",
+		"uniques": ["Comment [First Golden Age lasts 3x longer]",
+					"[+20]% [Science] <during a Golden Age>",
+					
+					"[+200]% Golden Age length <without [Counter Something]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon entering a Golden Age> <hidden from users>",
+					
+					],
+		"cities": ["Kasradan", "Azhraq", "Dhamr", "Qassina", "Tanmur", "Halimun", "Sufaya", "Zanqir", "Bahraja", "Jundari", "Tahrun", "Lamayah", "Mirzala", "Qudrah", "Nasaraq"],
+		"spyNames": ["Samir", "Khalid", "Zahra", "Nawfal", "Rami"]
+		"civilopediaText": [
+			{"text":"."},
+			{"text":"."},
+        ]
+	},
+	
+	//Gloria of Aureignis Dominium
+	{
+		"name": "Aureignis Dominium",
+		"leaderName": "Gloria",
+		"adjective": ["Ignisian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [210, 130, 30],
+		"innerColor": [160, 40, 40],
+		
+		"uniqueName": "Aeternus Dominus",
+		"uniques": ["Comment [May build [Aurelionite Obelisk] in Capital after discovering [Chemistry], upon which empire enters a Golden Age]",
+					"Comment [During Golden Age, you may upgrade the Obelisk from Capital with various enhancements]",
+					"Comment [+25% [Science] while researching [Chemistry] and all of its requirements]",
+					
+					"[+25]% [Science] <while researching [Archery]> <hidden from users>",
+					"[+25]% [Science] <while researching [Animal Husbandry]> <hidden from users>",
+					"[+25]% [Science] <while researching [Mining]> <hidden from users>",
+					"[+25]% [Science] <while researching [The Wheel]> <hidden from users>",
+					"[+25]% [Science] <while researching [Masonry]> <hidden from users>",
+					"[+25]% [Science] <while researching [Bronze Working]> <hidden from users>",
+					"[+25]% [Science] <while researching [Construction]> <hidden from users>",
+					"[+25]% [Science] <while researching [Mathematics]> <hidden from users>",
+					"[+25]% [Science] <while researching [Iron Working]> <hidden from users>",
+					"[+25]% [Science] <while researching [Engineering]> <hidden from users>",
+					"[+25]% [Science] <while researching [Metal Casting]> <hidden from users>",
+					"[+25]% [Science] <while researching [Steel]> <hidden from users>",
+					"[+25]% [Science] <while researching [Physics]> <hidden from users>",
+					"[+25]% [Science] <while researching [Gunpowder]> <hidden from users>",
+					"[+25]% [Science] <while researching [Chemistry]> <hidden from users>",
+					
+					],
+		"cities": ["Aurelion", "Argentopolis", "Ferriopolis", "Cuprapolis", "Stannopolis", "Plumbopolis", "Micapolis", "Gemopolis", "Corundopolis", "Quartzopolis", "Bauxopolis", "Basaltia", "Marbepolis", "Granopolis", "Lapis Aureus"],
+		"spyNames": ["Vitrum", "Mercur", "Rutilus", "Cinerus", "Fulgens"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Template
+	/*
+	{
+		"name": "Name Government-type",
+		"leaderName": "(Title) Name",
+		"adjective": ["Name-adj"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Cultural",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [100, 100, 100],
+		"innerColor": [100, 100, 100],
+
+		"uniqueName": "UniqueAbility",
+		"uniques": ["Comment [This Civ can do X, Y, and Z]",
+					
+					],
+		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],
+		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	*/
 	
 ]
 

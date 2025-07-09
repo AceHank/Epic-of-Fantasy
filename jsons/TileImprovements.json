@@ -63,10 +63,10 @@
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	
-	//Clockwerk Church
+	//Clockwerk Theotechnate
 	{
 		"name": "Clockwerk Temple",
-		"uniqueTo": "Clockwerk Church",
+		"uniqueTo": "Clockwerk Theotechnate",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 3,
 		"science": 2,
@@ -158,9 +158,11 @@
 	{
 		"name": "Manawell",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Undines",
 		"uniques": ["Great Improvement",
 					"Does not need removal of [Forest]", "Does not need removal of [Jungle]",
 					"Tile provides yield without assigned population",
+					"Improves [Luxury] resource in this tile",
 					"[+1 Science] <within [1] tiles of a [Manawell]>",
 					"[+1 Culture] <starting from the [Classical era]>",
 					"[+1 Culture] <starting from the [Renaissance era]>",
@@ -215,6 +217,7 @@
 		"uniques": ["Comment [Improves Luxury and Strategic resources in this tile]", 
 					"Comment [Apply [Rooted] for 2 turns to any non-[Night Elven Enclave] units entering this tile. Each unit can only receive [Rooted] once every 6 turns.]",
 					"Will not be replaced by automated units <hidden from users>",
+					"Improves [Luxury] resource in this tile",
 					"Unbuildable <in [non-[Forest]] tiles> <in [non-[Jungle]] tiles> <hidden from users>",
 					"[+1 Culture] <for every [Owned [Natural Wonder] Tiles]>",
 					"Pillaging this improvement yields approximately [+10 Culture, +10 Faith] <hidden from users>",
@@ -222,6 +225,22 @@
 		"civilopediaText": [
 			{"text":"The Wisps are guarding and harvesting this Forest, channeling Elune's divine power unto those wished harm to the Forest."}
 		]
+	},
+	
+	//Vigilo Order
+	{
+		"name": "Alchemical Lab",
+		"uniqueTo": "Vigilo Order",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 5,
+		"gold": 3,
+		"uniques": ["Provides [1] [Alchemical Lab Production] <hidden from users>",
+		//	"Comment [+15% [Production] in cities with at least 1 [Alchemical Lab]]",
+		//	"Comment [+15% [Production] in this city (doesn't stack)]",
+			"Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
+            "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+25 Gold]"
+			]
 	},
 	
 ]
