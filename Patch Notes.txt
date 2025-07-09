@@ -1,3 +1,47 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v3.9 
+
+New Civs:
+-Aureignis Dominium: An empire built upon alchemical and scholarly achivement, will their hubris become their downfal or their eternal glory?
+-Bakunawa's Chosen: A take on Philippines myth of the moon swallowing dragon, by FBE Reactor
+-Dutushe Dynasty: Persian inspired civ in fantasy setting, by Basil
+-Khassiya Dynasty: Fantasy take on an Arabian culture inspired dynasty
+-The Blighted: Exodus of those who survived the Mana sickness, by FastDoubloon
+-The Kaleeki: A Victorian era inspired, steampunk civilization led by the mad Architect, a chronomancer who pioneered the automaton technology, by Cosmic
+
+Universal Changes:
+-Elusive now gain a 2 turns cooldown
+-All Flying uniques are now active abilities with varying duration and cooldown depending on certain factors
+-Flying units can't be attacked by Melee units for its duration (Except vs Anti-Air Melee)
+-Healer II now also heals stacked unit
+
+Civ changes:
+-Argonautian: Healer II changes
+-Basalt Remainers: Lava Bomb now turns attacked tile into Lava. Unit ending their turn in Lava takes 30 damage. Lava can be removed using Worker.
+-Beastmen: Wardrummer now inline with new GnK's GG, and changed Intimidation into Rallying Cry: +1 attack for stacked unit; Fly changes.
+-Dragonborn: Fly changes
+-Drow: Elusive changes
+-Einherjar: New and buffed UA, gain 10 Favor every new era adn can gain Favor from defeated unit even with Valkyrie present
+-Elmar: Nerfed UA, now retains 50% Happiness from 75%; Nerfed Armour of Frost cooldown by 2 turns; Reduces Water UU cost by 10
+-Harpies: Fly changes
+-High Elf: UU Second Wind healing is reduced to 15 but now provides 1 turn of Sanctuary
+-Kemetian: UU changed, now replaces Horseman and losing range
+-Lunar Theocracy: Elusive changes
+-Lyrian: UB lose 50 City HP but gain 5 City Strength
+-Merfolk: UU changed into Sea Warden
+-Night Elven: UU Hovering no longer Flying due to changes to Flying; UA Military Sanctuary chance up to 30% and cooldown down to 8 turns
+-Sacred Sun: UU XP gain is nerfed
+-Spirit Pact: UB Faith cost increased to 150 Faith
+-Tauren: UB promotion Vision buffed (Resist half of Flank), Winds nerfed (down to 50% chance)
+-Uldra: UA now only give +1 pop max
+-Walrus: UB flat Culture reduced to 2 and +1 Maintenance
+-Wizard: UA removed +1 Science from Shrine but +2 from Temple.
+-Vigilo Order: Reworked
+
+Bug fixes:
+-Fixed Spirit Pact's UB not doing Courthouse effect
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v3.8 Four Civs in one update?!
 
 New Civs:
