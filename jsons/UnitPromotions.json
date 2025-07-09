@@ -1510,7 +1510,6 @@
 		"name": "Moving Bastion",
 		"uniques": ["Comment [Reduces damage taken by 20 once every turn, but has -2 Movement]",
 					"[-2] Movement <hidden from users>",
-					"[This Unit] gains the [Moving Bastion Cooldown] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",	
 					
 					"[+1]% Strength <when defending> <for units without [Moving Bastion Cooldown]> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
@@ -1520,7 +1519,9 @@
 					"[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [17] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [19] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",
-		]
+		
+					"[This Unit] gains the [Moving Bastion Cooldown] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Moving Bastion Cooldown]> <hidden from users>",	
+					]
 	},
 	{
 		"name": "Moving Bastion Cooldown",		
