@@ -4,4 +4,6 @@ Playing with [Only Mod Civilization](https://github.com/amfauzn/Only-Mod-Civiliz
 
 Inspired from popular fantasy lore, DnD, LotR, Warcraft, Warhammer, SCP, and many more!
 
+For modders: If you want to use the assets from this sprite, you can contact me on Unciv Discord Server! I opted to remove them to reduce mod size!
+
 *This mod uses AI Generated content.
