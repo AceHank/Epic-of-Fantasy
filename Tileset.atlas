@@ -291,9 +291,16 @@ TileSets/AbsoluteUnits/Units/Gnoll Basher
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Grovetender
+TileSets/AbsoluteUnits/Units/Great Alchemist
   rotate: false
   xy: 823, 841
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Grovetender
+  rotate: false
+  xy: 926, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -307,42 +314,42 @@ TileSets/AbsoluteUnits/Units/Gryphon
   index: -1
 TileSets/AbsoluteUnits/Units/Homunculus Legion
   rotate: false
-  xy: 926, 841
+  xy: 1029, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Homunculus Legion-1
   rotate: false
-  xy: 1029, 841
+  xy: 1132, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Homunculus Legion-2
   rotate: false
-  xy: 1132, 841
+  xy: 1235, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Hydromancer
   rotate: false
-  xy: 1235, 841
+  xy: 1338, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Illusion
   rotate: false
-  xy: 1338, 841
+  xy: 1441, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Illusionist
   rotate: false
-  xy: 1338, 841
+  xy: 1441, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -356,7 +363,7 @@ TileSets/AbsoluteUnits/Units/Isagoras
   index: -1
 TileSets/AbsoluteUnits/Units/Jatte
   rotate: false
-  xy: 1441, 841
+  xy: 1544, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -384,21 +391,21 @@ TileSets/AbsoluteUnits/Units/Junk Ship
   index: -1
 TileSets/AbsoluteUnits/Units/Katak
   rotate: false
-  xy: 1544, 841
+  xy: 1647, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Kobold Taskmaster
   rotate: false
-  xy: 1647, 841
+  xy: 1750, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Lich
   rotate: false
-  xy: 1750, 841
+  xy: 1853, 841
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -412,7 +419,7 @@ TileSets/AbsoluteUnits/Units/Longship
   index: -1
 TileSets/AbsoluteUnits/Units/Lunarian Missionary
   rotate: false
-  xy: 1853, 841
+  xy: 719, 752
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -426,7 +433,7 @@ TileSets/AbsoluteUnits/Units/Magitek Landship
   index: -1
 TileSets/AbsoluteUnits/Units/Mechanite
   rotate: false
-  xy: 719, 752
+  xy: 719, 663
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -440,7 +447,7 @@ TileSets/AbsoluteUnits/Units/Medjay Chariot
   index: -1
 TileSets/AbsoluteUnits/Units/Motaari
   rotate: false
-  xy: 719, 663
+  xy: 822, 752
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -454,7 +461,7 @@ TileSets/AbsoluteUnits/Units/Moving Castle
   index: -1
 TileSets/AbsoluteUnits/Units/Naga
   rotate: false
-  xy: 822, 752
+  xy: 822, 663
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -468,14 +475,14 @@ TileSets/AbsoluteUnits/Units/Nage (Water)
   index: -1
 TileSets/AbsoluteUnits/Units/Nerubian Weaver
   rotate: false
-  xy: 822, 663
+  xy: 925, 752
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Night Elf Archer
   rotate: false
-  xy: 925, 752
+  xy: 925, 663
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -489,28 +496,28 @@ TileSets/AbsoluteUnits/Units/Night Huntress
   index: -1
 TileSets/AbsoluteUnits/Units/Oathbound
   rotate: false
-  xy: 925, 663
+  xy: 1028, 752
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Oathbound (Free)
   rotate: false
-  xy: 925, 663
+  xy: 1028, 752
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Onmyouji
   rotate: false
-  xy: 1028, 752
+  xy: 1028, 663
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Orc Brute
   rotate: false
-  xy: 1028, 663
+  xy: 1131, 752
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -524,28 +531,28 @@ TileSets/AbsoluteUnits/Units/Orichalcum Golem
   index: -1
 TileSets/AbsoluteUnits/Units/Orion
   rotate: false
-  xy: 1131, 752
+  xy: 1131, 663
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Paladin
   rotate: false
-  xy: 1131, 663
+  xy: 1234, 752
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Paragon
   rotate: false
-  xy: 1234, 752
+  xy: 1234, 663
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Peltast
   rotate: false
-  xy: 1234, 663
+  xy: 1337, 752
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -565,13 +572,6 @@ TileSets/AbsoluteUnits/Units/Pollux
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Possessed Human
-  rotate: false
-  xy: 1337, 752
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Potionist
   rotate: false
   xy: 1337, 663
   size: 95, 81
