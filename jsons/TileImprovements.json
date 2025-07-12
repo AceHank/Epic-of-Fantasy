@@ -242,5 +242,13 @@
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+25 Gold]"
 			]
 	},
+
+	//Basalt Remainers
+	{
+		"name": "Remove Lava",
+		"turnsToBuild": 1,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
 	
 ]
