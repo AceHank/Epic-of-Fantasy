@@ -11,7 +11,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"unbuildable": true,
-		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally", "Units ending their turn on this terrain take [50] damage"],
+		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally", "Units ending their turn on this terrain take [30] damage"],
 		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
 	},
 ]
