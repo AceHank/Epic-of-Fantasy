@@ -13,13 +13,15 @@
 
 #### Nations Contributors
 * [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers, Spirit Pact
-* [Basil](https://github.com/BasilBun) - Elmar Kingdom
+* [Basil](https://github.com/BasilBun) - Elmar Kingdom, Dutushe Dynasty
+* Cosmic - The Kaleeki
+* FastDoubloon115 - The Blighted
 
 #### Nations Suggestions
 * gohwala - Fanrong Republic
 * Ân - The Wizard Council
 * Rendieval - Lyrian Kingdom, Scazari Hive
-* FBE Reactor - Enkantos
+* FBE Reactor - Enkantos, Bakunawa's Chosen
 * ReJack - Gnome Alliance, Hellbourne, Deep Dweller
 
 #### Nations Lines
