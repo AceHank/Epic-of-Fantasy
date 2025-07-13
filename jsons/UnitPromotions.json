@@ -842,16 +842,14 @@
 	//Harpies Tribe~~~~~~~
 	{
 		"name": "Galestorm Leap",		
-		"uniques": ["Comment [Teleport up to 5 tiles from inside friendly territory. Cooldown: 10 turns.]", 
-					"[This Unit] gains the [Galestorm Leap Active] status for [1] turn(s) <for [0] movement> <in [Friendly Land] tiles> <for units without [Galestorm Leap Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Galestorm Leap Cooldown] status for [10] turn(s) <upon gaining the [Galestorm Leap Active] status> <hidden from users>", 
+		"uniques": ["Comment [Teleport up to 5 tiles away. Cooldown: 12 turns.]", 
+					"[This Unit] gains the [Galestorm Leap Active] status for [1] turn(s) <for [0] movement> <for units without [Galestorm Leap Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Galestorm Leap Cooldown] status for [12] turn(s) <upon gaining the [Galestorm Leap Active] status> <hidden from users>", 
 					]
 	},
 	{
 		"name": "Galestorm Leap Active",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory"],
-		"innerColor": [0, 255, 0],
-		"outerColor": [0, 0, 0]
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away"],
 	},
 	{
 		"name": "Galestorm Leap Cooldown",
@@ -1017,7 +1015,7 @@
 	//Azaniroth's abilities
 	{
 		"name": "Hellstride",
-		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory", "[1] additional attacks per turn"]
+		"uniques": ["May Paradrop to [All] tiles up to [8] tiles away", "[1] additional attacks per turn"]
 	},
 	{
 		"name": "Hellstride Cooldown",
@@ -1189,7 +1187,7 @@
 	},
 	{
 		"name": "Ride of the Valkyrie",
-		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory", "[1] additional attacks per turn"]
+		"uniques": ["May Paradrop to [All] tiles up to [500] tiles away", "[1] additional attacks per turn"]
 	},
 	{
 		"name": "Ride of the Valkyrie Cooldown",
