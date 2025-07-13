@@ -9,8 +9,6 @@
 		"[-50]% to Flank Attack bonuses <vs [Flank Resist] units>",
 		"[+50]% to Flank Attack bonuses <vs [Blinded] units>",
 		
-		"[+1000 Gold] from [All] tiles [in all cities] <in tiles adjacent to [Capital Marker] tiles>"
-		
 		//The Chroniclers
 		"[-10]% Strength <vs [The Chroniclers] units> <during a Golden Age>",
 		//The Kaleeki
