@@ -1110,7 +1110,7 @@ TileSets/AbsoluteUnits/Units/Undead Warrior
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Unicorn Rideer
+TileSets/AbsoluteUnits/Units/Unicorn Rider
   rotate: false
   xy: 708, 64
   size: 77, 70
