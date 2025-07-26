@@ -671,35 +671,35 @@ BuildingIcons/Rites of the Earthmother
   index: -1
 BuildingIcons/Shard of Gungnir
   rotate: false
-  xy: 544, 1068
+  xy: 652, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Spawning Pool
   rotate: false
-  xy: 652, 1068
+  xy: 760, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sphinx Great Artist 1
   rotate: false
-  xy: 760, 1176
+  xy: 868, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sphinx Great Artist 2
   rotate: false
-  xy: 760, 1176
+  xy: 868, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sphinx Great Artist 3
   rotate: false
-  xy: 760, 1176
+  xy: 868, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -713,42 +713,42 @@ BuildingIcons/Spirify
   index: -1
 BuildingIcons/Spoils Depot
   rotate: false
-  xy: 868, 1284
+  xy: 544, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Throne of the Dead
   rotate: false
-  xy: 760, 960
+  xy: 868, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tinkerer's Depot
   rotate: false
-  xy: 868, 1068
+  xy: 976, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Trade Hub
   rotate: false
-  xy: 976, 1176
+  xy: 1084, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Training Ground
   rotate: false
-  xy: 1084, 1284
+  xy: 544, 636
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Transmuter
   rotate: false
-  xy: 544, 636
+  xy: 652, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -839,56 +839,56 @@ BuildingIcons/Trigger Eruption 9
   index: -1
 BuildingIcons/Troll's Hut
   rotate: false
-  xy: 868, 960
+  xy: 976, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Unearth Lithoid I (Hill)
   rotate: false
-  xy: 1192, 1284
+  xy: 544, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Unearth Lithoid I (Mountain)
   rotate: false
-  xy: 1192, 1284
+  xy: 544, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Unearth Lithoid II (Hill)
   rotate: false
-  xy: 1192, 1284
+  xy: 544, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Unearth Lithoid II (Mountain)
   rotate: false
-  xy: 1192, 1284
+  xy: 544, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Unearth Lithoid III (Hill)
   rotate: false
-  xy: 1192, 1284
+  xy: 544, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Unearth Lithoid III (Mountain)
   rotate: false
-  xy: 1192, 1284
+  xy: 544, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ziggurat Fortress
   rotate: false
-  xy: 1300, 1284
+  xy: 544, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1481,177 +1481,184 @@ UnitIcons/Scorcher
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Seer
+UnitIcons/Sea Warden
   rotate: false
   xy: 544, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Sentinel
+UnitIcons/Seer
   rotate: false
   xy: 652, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Shock Trooper
+UnitIcons/Sentinel
   rotate: false
-  xy: 652, 1176
+  xy: 544, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Skjaldborgsdrengr
+UnitIcons/Shock Trooper
   rotate: false
   xy: 760, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Sorcerer
+UnitIcons/Skjaldborgsdrengr
   rotate: false
   xy: 544, 960
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sorcerer
+  rotate: false
+  xy: 652, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warlock
   rotate: false
-  xy: 544, 960
+  xy: 652, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Stormwing
   rotate: false
-  xy: 544, 852
+  xy: 652, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Summoned Undead
   rotate: false
-  xy: 652, 960
+  xy: 760, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Summoned Valkyrie
   rotate: false
-  xy: 760, 1068
+  xy: 868, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Valkyrie
   rotate: false
-  xy: 760, 1068
+  xy: 868, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sun Obelisk
   rotate: false
-  xy: 868, 1176
+  xy: 976, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tauren Totemwielder
   rotate: false
-  xy: 976, 1284
+  xy: 544, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Templar
   rotate: false
-  xy: 544, 744
+  xy: 652, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Theopompus
   rotate: false
-  xy: 652, 852
+  xy: 760, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Treant Worker
   rotate: false
-  xy: 652, 744
+  xy: 760, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Troll Headhunter
   rotate: false
-  xy: 760, 852
+  xy: 868, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tsukaima
   rotate: false
-  xy: 976, 1068
+  xy: 1084, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tuskarr
   rotate: false
-  xy: 1084, 1176
+  xy: 1192, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unicorn Rider
   rotate: false
-  xy: 544, 528
+  xy: 652, 636
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Vanguard
   rotate: false
-  xy: 652, 636
+  xy: 760, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wardrummer
   rotate: false
-  xy: 760, 744
+  xy: 868, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wisp
   rotate: false
-  xy: 868, 852
+  xy: 976, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wolf Rider
   rotate: false
-  xy: 976, 960
+  xy: 1084, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wrecker Maceman
   rotate: false
-  xy: 1084, 1068
+  xy: 1192, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wyvern Rider
   rotate: false
-  xy: 1192, 1176
+  xy: 1300, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
