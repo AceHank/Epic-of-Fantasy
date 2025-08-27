@@ -842,7 +842,7 @@
 	//Harpies Tribe~~~~~~~
 	{
 		"name": "Galestorm Leap",		
-		"uniques": ["Comment [Teleport up to 5 tiles away. Cooldown: 12 turns.]", 
+		"uniques": ["Comment [Teleport up to 5 tiles away. Only useable as first action. Cooldown: 12 turns.]", 
 					"[This Unit] gains the [Galestorm Leap Active] status for [1] turn(s) <for [0] movement> <for units without [Galestorm Leap Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Galestorm Leap Cooldown] status for [12] turn(s) <upon gaining the [Galestorm Leap Active] status> <hidden from users>", 
 					]
