@@ -1288,7 +1288,7 @@
 					"Comment [Gain 1 [Mana] at turn end and upon defeating a non-Barbarian unit (up to 100 [Mana])\n]",
 					
 					//Abilities	
-					"Comment [[Hellstride]: Teleport up to 8 tiles away. Cost: 10 [Mana]. Cooldown: 8 turns.]", 
+					"Comment [[Hellstride]: Teleport up to 8 tiles away. Only useable as first action. Cost: 10 [Mana]. Cooldown: 8 turns.]", 
 					"Comment [[Infernal Regeneration]: Instantly heals 50 HP. Cost: 15 [Mana]. Cooldown: 10 turns.]",
 					"Comment [[Negative Energy Touch]: Until the start of your next turn, attack deals extra 30 damage for this turn and applies [Withered] for 1 turns. Cost: 15 [Mana]. Cooldown: 5 turns.]",
 					"Comment [[True Demon Form]: Heals 15 HP at turn end. All damage is increased by 15. +1 Movement and gain Flying. All other abilities cost 0 [Mana]. Duration: 3 turns. Cost: 99 [Mana].]",	
@@ -1599,7 +1599,7 @@
 					"Comment [[Indomitable]: Gain Immunity from all negative statuses. Cost: 100 [Faith]]", 
 					"Comment [[Aura of Valour]: +15% Strength for adjacent units, stacks with Great General. Cost: 150 [Faith]]",
 					"Comment [[Call of Valhalla]: Summon 2 extra [Valkyrie]s for 3 turns. Cost: 300 [Faith]]",
-					"Comment [[Ride of the Valkyrie]: Teleport anywhere on the map. Cost: 50 [Faith]. Cooldown: 5 turns.]",	
+					"Comment [[Ride of the Valkyrie]: Teleport anywhere on the map. Only useable as first action. Cost: 50 [Faith]. Cooldown: 5 turns.]",	
 					
 					//Abilities
 					//Indomitable
