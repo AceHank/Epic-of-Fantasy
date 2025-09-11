@@ -230,9 +230,9 @@
 		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Culture] immediately", "[+2 Happiness] [in annexed cities]",
 					"Comment [Reduce the penalties of negative [Happiness] by half]",
 					//Happiness penalty
-					"[+38]% growth [in all cities] <when between [-10] and [-1] Happiness> <hidden from users>",
-					"[+25]% [Production] [in all cities] <when below [-10] Happiness> <hidden from users>",
-					"[+17]% Strength <for [All] units> <when below [-10] Happiness> <hidden from users>"], 
+					"[+38]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <hidden from users>",
+					"[+25]% [Production] [in all cities] <when below [-10] [Happiness]> <hidden from users>",
+					"[+17]% Strength <for [All] units> <when below [-10] [Happiness]> <hidden from users>"], 
 		"cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
 			"Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
 		"civilopediaText": [
