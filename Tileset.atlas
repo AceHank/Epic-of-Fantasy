@@ -489,7 +489,7 @@ TileSets/AbsoluteUnits/Units/Juggernaut Sword
   index: -1
 TileSets/AbsoluteUnits/Units/Junk Ship
   rotate: false
-  xy: 865, 178
+  xy: 950, 234
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -531,7 +531,7 @@ TileSets/AbsoluteUnits/Units/Lich
   index: -1
 TileSets/AbsoluteUnits/Units/Longship
   rotate: false
-  xy: 1009, 178
+  xy: 1022, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -587,7 +587,7 @@ TileSets/AbsoluteUnits/Units/Motaari
   index: -1
 TileSets/AbsoluteUnits/Units/Moving Castle
   rotate: false
-  xy: 1183, 296
+  xy: 1310, 237
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -608,7 +608,7 @@ TileSets/AbsoluteUnits/Units/Naga
   index: -1
 TileSets/AbsoluteUnits/Units/Nage (Water)
   rotate: false
-  xy: 1255, 296
+  xy: 1310, 173
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -734,7 +734,7 @@ TileSets/AbsoluteUnits/Units/Possessed Human
   index: -1
 TileSets/AbsoluteUnits/Units/Pride of Tyrian
   rotate: false
-  xy: 1238, 232
+  xy: 1022, 114
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1131,6 +1131,13 @@ TileSets/AbsoluteUnits/Units/Wardrummer
   orig: 77, 65
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Wardrummer Ori
+  rotate: false
+  xy: 793, 265
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Warrior-Dwarven
   rotate: false
   xy: 1136, 612
@@ -1161,7 +1168,7 @@ TileSets/AbsoluteUnits/Units/Wrecker Maceman
   index: -1
 TileSets/AbsoluteUnits/Units/Wyvern Rider
   rotate: false
-  xy: 793, 265
+  xy: 793, 192
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
@@ -1175,77 +1182,77 @@ TileSets/AbsoluteUnits/Units/Zealot
   index: -1
 TileSets/FantasyHex/Tiles/Bananas+Gaia's Plantation
   rotate: false
-  xy: 1225, 4
+  xy: 761, 487
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Plantation+Bananas
   rotate: false
-  xy: 1225, 4
+  xy: 761, 487
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cotton+Gaia's Plantation
   rotate: false
-  xy: 1265, 4
+  xy: 1183, 398
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Plantation+Cotton
   rotate: false
-  xy: 1265, 4
+  xy: 1183, 398
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Farm
   rotate: false
-  xy: 761, 487
+  xy: 1382, 265
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Mine
   rotate: false
-  xy: 1183, 398
+  xy: 761, 451
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Oil well
   rotate: false
-  xy: 761, 451
+  xy: 1183, 362
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gaia's Plantation
   rotate: false
-  xy: 1183, 362
+  xy: 1382, 229
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Manaline
   rotate: false
-  xy: 695, 28
+  xy: 1183, 326
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Manaline Te
   rotate: false
-  xy: 695, 28
+  xy: 1183, 326
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Silk+Gaia's Plantation
   rotate: false
-  xy: 735, 28
+  xy: 1382, 193
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1266,42 +1273,42 @@ TileSets/HexaRealm/Tiles/Sphinx
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-Bottom
   rotate: false
-  xy: 1009, 114
+  xy: 1094, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-BottomLeft
   rotate: false
-  xy: 865, 50
+  xy: 1094, 178
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-BottomRight
   rotate: false
-  xy: 937, 42
+  xy: 937, 34
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-Top
   rotate: false
-  xy: 1009, 50
+  xy: 1166, 242
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-TopLeft
   rotate: false
-  xy: 1094, 234
+  xy: 1166, 178
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Manaline-Manaline-Manaline-TopRight
   rotate: false
-  xy: 1081, 170
+  xy: 1238, 296
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1315,77 +1322,77 @@ TileSets/HexaRealm/Tiles/Bananas+Gaia's Plantation
   index: -1
 TileSets/HexaRealm/Tiles/Citrus+Gaia's Plantation
   rotate: false
-  xy: 793, 201
+  xy: 793, 128
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Clockwerk Temple
   rotate: false
-  xy: 793, 129
+  xy: 793, 56
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cotton+Gaia's Plantation
   rotate: false
-  xy: 793, 65
+  xy: 895, 370
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Desert+Hill+Lava
   rotate: false
-  xy: 895, 370
+  xy: 967, 370
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Dyes+Gaia's Plantation
   rotate: false
-  xy: 967, 370
+  xy: 1039, 370
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Enchanted Forest
   rotate: false
-  xy: 1039, 370
+  xy: 1111, 370
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Floating City
   rotate: false
-  xy: 1111, 362
+  xy: 895, 298
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Frozen Wasteland
   rotate: false
-  xy: 895, 306
+  xy: 967, 306
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Gaia's Farm
   rotate: false
-  xy: 967, 306
+  xy: 1039, 306
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Gaia's Mine
   rotate: false
-  xy: 1039, 306
+  xy: 1111, 306
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Gaia's Mine-Industrial era
   rotate: false
-  xy: 1111, 298
+  xy: 878, 234
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1406,105 +1413,105 @@ TileSets/HexaRealm/Tiles/Oil+Gaia's Oil well
   index: -1
 TileSets/HexaRealm/Tiles/Gaia's Plantation
   rotate: false
-  xy: 878, 242
+  xy: 878, 170
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Lava
   rotate: false
-  xy: 950, 242
+  xy: 865, 106
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Incense+Gaia's Plantation
   rotate: false
-  xy: 1022, 242
+  xy: 865, 42
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lava
   rotate: false
-  xy: 865, 114
+  xy: 950, 170
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lodepit
   rotate: false
-  xy: 937, 170
+  xy: 937, 98
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Manaline
   rotate: false
-  xy: 937, 106
+  xy: 1022, 178
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Manawell
   rotate: false
-  xy: 1081, 106
+  xy: 1238, 232
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mountain Settlement
   rotate: false
-  xy: 1081, 34
+  xy: 1238, 160
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Lava
   rotate: false
-  xy: 1166, 232
+  xy: 1310, 109
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Silk+Gaia's Plantation
   rotate: false
-  xy: 1153, 168
+  xy: 1094, 114
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Hill+Lava
   rotate: false
-  xy: 1153, 104
+  xy: 1166, 114
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Spices+Gaia's Plantation
   rotate: false
-  xy: 1225, 168
+  xy: 1238, 96
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sugar+Gaia's Plantation
   rotate: false
-  xy: 1153, 32
+  xy: 1009, 42
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tundra+Hill+Lava
   rotate: false
-  xy: 1225, 104
+  xy: 1081, 50
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Wine+Gaia's Plantation
   rotate: false
-  xy: 1225, 40
+  xy: 1153, 50
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
