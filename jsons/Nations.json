@@ -1,10 +1,10 @@
 [	
 	
-	//Higba of Dwarven Kingdom
+	//Higba of Stalwart Dwarven Kingdom
 	{
-		"name": "Dwarven Kingdom",
+		"name": "Stalwart Dwarven Kingdom",
 		"leaderName": "Higba",
-		"adjective": ["Dwarven"],
+		"adjective": ["Stalwart Dwarven"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Ingenious Artisan",
@@ -27,6 +27,7 @@
 		"uniqueName": "Higba's Ingenuity",
 		"uniques": ["Comment [+1 [Production] every 2 eras for cities settled on [Hill]]",
 					"Comment [+1 [Science] and +1 [Production] in all cities for every Golden Ages achieved]",
+					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
 					
 					"Instantly provides [1] [GA Counter] <upon entering a Golden Age> <hidden from users>",
 					"[+1 Science] [in all cities] <for every [GA Counter]> <hidden from users>",
@@ -34,7 +35,10 @@
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]> <hidden from users>",
-					"[+1 Production] in cities on [Hill] tiles <starting from the [Information era]> <hidden from users>"],
+					"[+1 Production] in cities on [Hill] tiles <starting from the [Information era]> <hidden from users>",
+					
+					"Dwarven Nation <hidden from users>",
+					],
 		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
 			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
 		"civilopediaText": [
@@ -1507,6 +1511,7 @@
 		"uniques": ["Comment [+3 [Gold] from every [Mountain] and [City ruins]]",
 					"Comment [Melee Land units gain [Besiege] promotion, but units cost +25% maintenance and -1 Supply per city]",
 					"Comment [May trigger an eruption once in every city next to [Mountain] when at war (up to 12 times)]",
+					"Comment [Eruption spawns a [Lava Bomb] you can use to attack enemy units and create [Lava] on attacked tiles]",
 					"Comment [+1 Movement, +10% Strength for 10 turns after an eruption]",
 		
 					"[+3 Gold] from every [Mountain] <hidden from users>",
@@ -1791,15 +1796,15 @@
 		"uniques": [
 					"Comment [Empire enters a 4-turn Golden Age and receive a free strongest available Melee unit upon declaring war with a major Civilization]",
 		
-					"Empire enters a [4]-turn Golden Age <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Warrior] appears <before discovering [Iron Working]> <upon declaring war with a major Civilization> <hidden from users>", 
-					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]> <upon declaring war with a major Civilization> <hidden from users>",
-					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]> <upon declaring war with a major Civilization> <hidden from users>",
+					"Empire enters a [4]-turn Golden Age <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Warrior] appears <before discovering [Iron Working]> <upon declaring war on [Major] Civilizations> <hidden from users>", 
+					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]> <upon declaring war on [Major] Civilizations> <hidden from users>",
 					],
 		"cities": ["Krohir","Thrurr","Miarguargg","Kur","Boznorr","Rixyr","Krigreh","Gohrua","Thraht","Szorr","Tagler",
 			"Kyngrath","Aagurr"],
@@ -2545,8 +2550,8 @@
 					"Instantly gain [1] [Asha] <upon declaring friendship> <without [Asha]> <hidden from users>",
 					"Instantly gain [1] [Mihir] <upon declaring a defensive pact> <without [Mihir]> <hidden from users>",
 					
-					"Instantly gain [-1] [Asha] <upon declaring war with a major Civilization> <with [Asha]> <hidden from users>",
-					"Instantly gain [-1] [Mihir] <upon declaring war with a major Civilization> <with [Mihir]> <hidden from users>",
+					"Instantly gain [-1] [Asha] <upon declaring war on [Major] Civilizations> <with [Asha]> <hidden from users>",
+					"Instantly gain [-1] [Mihir] <upon declaring war on [Major] Civilizations> <with [Mihir]> <hidden from users>",
 					
 					"[+10]% Great Person generation [in all cities] <with [Asha]> <hidden from users>",
 					"[+15]% Strength <with [Mihir]> <hidden from users>",
