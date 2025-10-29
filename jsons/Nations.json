@@ -2,9 +2,9 @@
 	
 	//Higba of Stalwart Dwarven Kingdom
 	{
-		"name": "Stalwart Dwarven Kingdom",
+		"name": "Dwarven Kingdom",
 		"leaderName": "Higba",
-		"adjective": ["Stalwart Dwarven"],
+		"adjective": ["Dwarven"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Ingenious Artisan",
