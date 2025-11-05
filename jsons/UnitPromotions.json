@@ -685,7 +685,7 @@
 	},
 	{
 		"name": "Elusive",
-		"uniques": ["Comment [Withdraws before Melee combat once per turn]",
+		"uniques": ["Comment [Withdraws before Melee combat once every 2 turns]",
 		
 					"[This Unit] gains the [Elusive Active] status for [1] turn(s) <upon turn end> <for units without [Elusive Cooldown]> <hidden from users>",
 		]
