@@ -2016,12 +2016,15 @@
 					"[+65]% Strength <after discovering [Plastics]> <hidden from users>",								//86
 					"[+40]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//100
 					
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					//Transform related stuffs
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Blitz]> <hidden from users>",
+					
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>",],
@@ -2056,12 +2059,15 @@
 					"[+100]% Strength <vs [City]> <hidden from users>",													
 					"[+250]% Strength <vs [City]> <after discovering [Rocketry]> <hidden from users>",					
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					//Transform related stuffs
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Blitz]> <hidden from users>",
+					
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -2098,12 +2104,15 @@
 					"[+100]% Strength <after discovering [Ballistics]> <hidden from users>",							//60
 					"[+170]% Strength <after discovering [Advanced Ballistics]> <hidden from users>",					//80an
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [March]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Formation II]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Woodsman]> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for units with [Blitz]> <hidden from users>",
+					//Transform related stuffs
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [March]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Formation II]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Woodsman]> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Commander)] <for [1] movement> <for [non-[Transform Cooldown]] units> <for units with [Blitz]> <hidden from users>",
+					
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
@@ -2136,9 +2145,12 @@
 					"[+50]% Strength <after discovering [Plastics]> <hidden from users>",								//70
 					"[+50]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//90
 					
-					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <hidden from users>",
-					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <hidden from users>",
+					//Transform related stuffs
+					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					"Can transform to [Clockwerk Automata (Hunter)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
+					
+					"[This Unit] gains the [Transform Cooldown] status for [4] turn(s) <hidden from users>",
 					
 					"Consumes [1] [Automata Parts] <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", 
