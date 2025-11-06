@@ -1533,6 +1533,11 @@
 					],
 	},
 	{
+		"name": "Transform Cooldown",
+		"uniques": ["Comment [Chronos Battle Protocol is on cooldown.]",
+					],
+	},
+	{
 		"name": "Temporal Reset",		
 		"uniques": [
 					"Comment [[Temporal Reset]: When a unit takes damage that reduces its HP to 25 or below, it enters a [Chrono Stasis] state, rewinding all damage taken]",
