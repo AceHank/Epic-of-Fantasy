@@ -9,6 +9,24 @@
 					"Tile provides yield without assigned population <for [Basalt Remainers] Civilizations>"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor",
+			
+			//Mechanism
+			//Thanatos Imperium Black Citadel
+            "BlackCitadel <in cities with a [Black Citadel]> <hidden from users>",
+			//Just War fix compa
+            "JW Terrain <in cities with a [JW Belief] religion> <hidden from users>",
+			
+			],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OVERWRITES PURPOSE ENDS HERE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
@@ -99,6 +117,7 @@
 		"techRequired": "Agriculture",
 		"uniques": ["Cannot be built on [{non-[Fresh Water]} {Hill}] tiles",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>", "Will not be displayed in Civilopedia",
+			"Improves [Wheat] resource in this tile",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
@@ -111,9 +130,17 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>",  
-					"Pillaging this improvement yields approximately [+20 Gold]",
-					"Will not be displayed in Civilopedia", 
-					"Cannot be built on [{non-[Resource]} {non-[Hill]}] tiles",
+					"Pillaging this improvement yields approximately [+20 Gold]","Will not be displayed in Civilopedia", 
+					"Improves [Iron] resource in this tile",
+					"Improves [Coal] resource in this tile",
+					"Improves [Aluminum] resource in this tile",
+					"Improves [Uranium] resource in this tile",
+					"Improves [Gems] resource in this tile",
+					"Improves [Gold Ore] resource in this tile",
+					"Improves [Silver] resource in this tile",
+					"Improves [Copper] resource in this tile",
+					"Improves [Salt] resource in this tile",
+					"Cannot be built on [{non-[resource]} {non-[Hill]}] tiles",
 					],
 		"shortcutKey": "M"
 	},
@@ -122,7 +149,10 @@
 		"uniqueTo": "Gaia Preserver",
 		"turnsToBuild": 9,
 		"techRequired": "Biology",
-		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]","Will not be displayed in Civilopedia","Does not need removal of [Forest]","Does not need removal of [Jungle]"],
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", 
+					"Pillaging this improvement yields approximately [+20 Gold]","Will not be displayed in Civilopedia",
+					"Improves [Oil] resource in this tile",
+					"Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"shortcutKey": "W"
 	},
 	{
@@ -133,6 +163,15 @@
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource",  
 					"Pillaging this improvement yields approximately [+10 Gold]","Will not be displayed in Civilopedia",
+					"Improves [Bananas] resource in this tile",
+					"Improves [Dyes] resource in this tile",
+					"Improves [Silk] resource in this tile",
+					"Improves [Sugar] resource in this tile",
+					"Improves [Spices] resource in this tile",
+					"Improves [Wine] resource in this tile",
+					"Improves [Citrus] resource in this tile",
+					"Improves [Incense] resource in this tile",
+					"Improves [Cotton] resource in this tile",
 					"Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"shortcutKey": "P"
 	},
@@ -142,6 +181,7 @@
 	{
 		"name": "Lodepit",
 		"uniqueTo": "The Kobolds",
+		"replaces": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"culture": 1,
@@ -163,11 +203,11 @@
 					"Does not need removal of [Forest]", "Does not need removal of [Jungle]",
 					"Tile provides yield without assigned population",
 					"Improves [Luxury] resource in this tile",
+					"Improves [Strategic] resource in this tile",
 					"[+1 Science] <within [1] tiles of a [Manawell]>",
-					"[+1 Culture] <starting from the [Classical era]>",
-					"[+1 Culture] <starting from the [Renaissance era]>",
-					"[+1 Culture] <starting from the [Modern era]>",
-					"[+1 Culture] <starting from the [Information era]>"],
+					"Comment [+1 [Culture] every 2 eras]",
+					"[+1 Culture] <for every [[Era number]/2]> <hidden from users>"
+					],
 		"civilopediaText": [
 			{"text": "Manawell is a magical and spiritual energy pathway that runs through the earth. If we can find them, we can harness their energy for our cause."},
         ]
@@ -218,6 +258,7 @@
 					"Comment [Apply [Rooted] for 2 turns to any non-[Night Elven Enclave] units entering this tile. Each unit can only receive [Rooted] once every 6 turns.]",
 					"Will not be replaced by automated units <hidden from users>",
 					"Improves [Luxury] resource in this tile",
+					"Improves [Strategic] resource in this tile",
 					"Unbuildable <in [non-[Forest]] tiles> <in [non-[Jungle]] tiles> <hidden from users>",
 					"[+1 Culture] <for every [Owned [Natural Wonder] Tiles]>",
 					"Pillaging this improvement yields approximately [+10 Culture, +10 Faith] <hidden from users>",
@@ -242,7 +283,7 @@
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+25 Gold]"
 			]
 	},
-
+	
 	//Basalt Remainers
 	{
 		"name": "Remove Lava",
@@ -251,4 +292,81 @@
 		"shortcutKey": "X"
 	},
 	
+	/*
+	//Shield Dwarven Kingdom
+	{
+		"name": "Dwarven Mine",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"replaces": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+			"Provides [1] [City-level Counter] <in [Iron] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Coal] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Aluminum] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Uranium] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Gems] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Gold Ore] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Silver] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Copper] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Salt] tiles> <hidden from users>", 
+			
+			"Will not be displayed in Civilopedia",
+			"[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Dwarven Quarry",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"replaces": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+			"Provides [1] [City-level Counter] <in [Stone] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <in [Marble] tiles> <hidden from users>", 
+			
+			"Will not be displayed in Civilopedia",
+			"[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+	
+	//The Justfolk
+	{
+		"name": "Fortified Farm",
+		"uniqueTo": "The Justfolk",
+		"replaces": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]",
+			
+			"Comment [Gives a defensive bonus of 15%]",
+			"Comment [Units ending their turn in this tile heal for 5 HP]",
+			
+			"Gives a defensive bonus of [15]% <without [Marker]> <hidden from users>", 
+			"Gives a defensive bonus of [30]% <with [Marker]> <hidden from users>",
+			],
+		"shortcutKey": "F"
+	},
+	
+	//Test
+	{
+		"name": "Test UI",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 1,
+		"uniques": [
+					"Provides [1] [Counter Something]",
+					"Turn this tile into a [Snow] tile <upon turn end> <when above [2] [Counter Something]>",
+					"Instantly gain [-3] [Counter Something] <upon turn end> <when above [2] [Counter Something]>",
+					"Remove [Test UI] improvements from this tile <upon turn start> <in [Snow] tiles>",
+		],
+		"shortcutKey": "M"
+	},
+	*/
 ]
