@@ -30,7 +30,7 @@
 	//Normal and simple promotions are placed in the section below
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
-	//Dwarven Kingdom~~~~~~~
+	//Stalwart Dwarven Kingdom~~~~~~~
 	{
 		"name": "Construct",
 		"uniques": ["[+25]% Strength <when defending>"]
@@ -431,10 +431,10 @@
 		]
 	},
 	
-	//Imperium~~~~~~~
+	//Teutonica Imperium~~~~~~~
 	{
 		"name": "Magitek",
-		"uniques": ["Comment [Reduces all damage taken by 2, increased by 2 upon entering new era (up to 15)]",
+		"uniques": ["Comment [Reduces damage taken by 2, increased by 2 upon entering new era (up to 15)]",
 					
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
@@ -544,6 +544,64 @@
 		]
 	},
 	
+	//Khassiya Dynasty
+	{
+		"name": "Outmaneuver",		
+		"uniques": ["Comment [+50% Flanking bonus if Mounted, ignores Zone of Control if not]",
+					"[+50]% to Flank Attack bonuses <for [Mounted] units> <hidden from users>",
+					"Ignores Zone of Control <for [non-[Mounted]] units> <hidden from users>",
+		]
+	},
+	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Runic Armament",
+		"uniques": ["Comment [Double the combat bonus received from [Great General]]",
+			"[+15]% Strength bonus for [{Military} {Runic Armament}] units within [2] tiles <for [Great General] units> <hidden from users>",
+		]
+	},
+	
+	//Gold Dwarven Collective
+	{
+		"name": "Caravan Escort",
+		"uniques": ["Transfer Movement to [Civilian]",
+					"[+15]% Strength <when stacked with a [Civilian] unit>",
+		]
+	},
+	
+	//Thanatos Imperium
+	{
+		"name": "Disturbing Presence",
+		"uniques": ["Comment [When attacked, the attacker suffers -5% Strength for 3 turns. This effect may stacks.]",
+		]
+	},
+	
+	//The Justfolk
+	{
+		"name": "Militia",		
+		"uniques": ["Comment [This unit gain bonus in [Fortified Farm] tiles]",
+					"[This Unit] heals [5] HP <upon ending a turn in a [Fortified Farm] tile> <hidden from users>",
+					"[This Unit] heals [5] HP <upon ending a turn in a [Fortified Farm] tile> <with [Marker]> <hidden from users>",
+		]
+	},
+	{
+		"name": "Man-at-Arms",
+		"uniques": ["Comment [May build [Fortified Farm], [Road], and remove terrain features]",
+					"Can build [Road] improvements on tiles <hidden from users>",
+					"Can build [Fortified Farm] improvements on tiles <hidden from users>",
+					"Can build [Remove Jungle] improvements on tiles <hidden from users>",
+					"Can build [Remove Forest] improvements on tiles <hidden from users>",
+					"Can build [Remove Marsh] improvements on tiles <hidden from users>",
+		]
+	},
+	{
+		"name": "Unity in Misery",
+		"uniques": [
+					"[+10]% Strength <when [Wounded]>",
+					"[+10]% Strength <when adjacent to a [Wounded] unit>",
+		]
+	},
+	
 	//Universal~~~~~~~
 	{
 		"name": "Vigorous",
@@ -630,7 +688,28 @@
 	},
 	{
 		"name": "Heavily Armored",
-		"uniques": ["[+15]% Strength <vs [Melee] units>"]
+		"uniques": [
+			"Comment [25% damage reduction, up to 15 damage]",
+			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <hidden from users>",
+			]
+	},
+	{
+		"name": "Greenskin",
+		"uniques": ["[This Unit] heals [3] HP <upon turn end>"]		
 	},
 	{
 		"name": "Plunderer",
@@ -659,15 +738,6 @@
 					]
 	},
 	
-	//Khassiya Dynasty
-	{
-		"name": "Outmaneuver",		
-		"uniques": ["Comment [+50% Flanking bonus if Mounted, ignores Zone of Control if not]",
-					"[+50]% to Flank Attack bonuses <for [Mounted] units> <hidden from users>",
-					"Ignores Zone of Control <for [non-[Mounted]] units> <hidden from users>",
-		]
-	},
-	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//Abilities (promotions that needs more than 1 promotion to function) are placed in the section below								  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
@@ -685,7 +755,7 @@
 	},
 	{
 		"name": "Elusive",
-		"uniques": ["Comment [Withdraws before Melee combat once every 2 turns]",
+		"uniques": ["Comment [Withdraws before Melee combat once every 2 turns.]",
 		
 					"[This Unit] gains the [Elusive Active] status for [1] turn(s) <upon turn end> <for units without [Elusive Cooldown]> <hidden from users>",
 		]
@@ -970,7 +1040,7 @@
 	//The Amazons~~~~~~~
 	{
 		"name": "Disarming Strike",
-		"uniques": ["Comment [Attack applies [Disarmed] to target Land unit for 1 turns. [Disarmed] unit can't attack. Cooldown: 6 turns.]",
+		"uniques": ["Comment [Attack applies [Disarmed] to Land unit for 1 turns. [Disarmed] unit can't attack. Cooldown: 6 turns.]",
 					"[Target Unit] gains the [Disarmed] status for [2] turn(s) <upon damaging a [Land] unit> <for units without [Disarming Strike Cooldown]> <hidden from users>",
 					"[+1]% Strength <for units without [Disarming Strike Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Disarming Strike Cooldown] status for [6] turn(s) <upon damaging a [Land] unit> <for units without [Disarming Strike Cooldown]> <hidden from users>"]
@@ -982,19 +1052,26 @@
 	
 	//Merfolk Council
 	{
-		"name": "Ensnare",
-		"uniques": ["Comment [Attack applies [Ensnared] to enemy Land, Embarked, and pre-Renaissance era Water units for 1 turn. [Ensnared] units can't move and can't Melee attack. Cooldown: 8 turns.]",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Land}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Embarked}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Ancient era}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Classical era}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Medieval era}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[+1]% Strength <for units without [Ensnare Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Ensnare Cooldown] status for [8] turn(s) <upon damaging a [Land] unit> <for units without [Ensnare Cooldown]> <hidden from users>"]
+		"name": "Ensnaring Attack",
+		"uniques": ["Comment [Attack applies [Ensnared] to enemy Land, Embarked, and pre-Industrial era Water units for 1 turn. [Ensnared] units can't move and can't Melee attack. Cooldown: 8 turns.]",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [Land] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [Embarked] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{Water} {Ancient era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{Water} {Classical era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{Water} {Medieval era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{Water} {Renaissance era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[+1]% Strength <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [Land] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [Embarked] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [{Water} {Ancient era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [{Water} {Classical era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [{Water} {Medieval era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnaring Attack Cooldown] status for [8] turn(s) <upon damaging a [{Water} {Renaissance era}] unit> <for units without [Ensnaring Attack Cooldown]> <hidden from users>",
+					]
 	},
 	{
-		"name": "Ensnare Cooldown",
-		"uniques": ["Comment [Ensnare on cooldown.]"]
+		"name": "Ensnaring Attack Cooldown",
+		"uniques": ["Comment [Ensnaring Attack on cooldown.]"]
 	},
 	
 	//Leonin Kingdom~~~~~~~
@@ -1055,7 +1132,7 @@
 	//High Elf Concordat~~~~~~~
 	{
 		"name": "Second Wind",
-		"uniques": ["Comment [Heals 15 HP and gain immunity from attack until your turn upon reaching 25 HP or less. Can only be activated once.]",
+		"uniques": ["Comment [Heals 15 HP and cannot be attacked for 1 turn upon reaching 25 HP or less. Can only be activated once.]",
 					"[This Unit] gains the [Second Wind Active] promotion <hidden from users>",
 					"[This Unit] loses the [Second Wind Active] promotion <upon losing at least [1] HP in a single attack> <when below [26] HP> <for units with [Second Wind Active]> <hidden from users>",
 					]		
@@ -1073,21 +1150,21 @@
 	//Pyre Clan~~~~~~~
 	{
 		"name": "Mark of Bane",
-		"uniques": ["Comment [Attack applies [Baned] to target unit for 3 turns. [Baned] unit takes 5 extra damage and deals 5 less damage.]",
+		"uniques": ["Comment [Attack applies [Baned] for 3 turns. [Baned] unit takes 5 extra damage and deals 5 less damage.]",
 					"[Target Unit] gains the [Baned] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},
 	
 	//Centaurian Tribe~~~~~~~
 	{
 		"name": "Stampede",
-		"uniques": ["Comment [Attack applies [Crushed] to target Land unit for 2 turns. [Crushed] unit has -15% Strength.]", 
+		"uniques": ["Comment [Attack applies [Crushed] to Land unit for 2 turns. [Crushed] unit has -15% Strength.]", 
 					"[Target Unit] gains the [Crushed] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},
 	
 	//Salamander Empire~~~~~~~
 	{
 		"name": "Scorching Blow",
-		"uniques": ["Comment [Attack applies [Burning] to target Land unit for 2 turns. [Burning] unit takes 10 damage at turn end.]",
+		"uniques": ["Comment [Attack applies [Burning] to Land unit for 2 turns. [Burning] unit takes 10 damage at turn end.]",
 					"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},
 	
@@ -1105,28 +1182,28 @@
 	//Uldra~~~~~~~
 	{
 		"name": "Winter's Grasp",
-		"uniques": ["Comment [Attack applies [Chilled] to target unit for 2 turns. [Chilled] unit has -10% Strength and has 10% chance to be [Frozen] for 1 turn.]",
+		"uniques": ["Comment [Attack applies [Chilled] for 2 turns. [Chilled] unit has -10% Strength and has 10% chance to be [Frozen] for 1 turn.]",
 					"[Target Unit] gains the [Chilled] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},	
 	
 	//Leonin Kingdom~~~~~~~
 	{
 		"name": "Chain Shot",
-		"uniques": ["Comment [Attack applies [Chained] to target unit for 2 turns. [Chained] unit has its movement reduced by 3.]",
+		"uniques": ["Comment [Attack applies [Chained] for 2 turns. [Chained] unit has its movement reduced by 3.]",
 					"[Target Unit] gains the [Chained] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},
 	
 	//Necrontia
 	{
 		"name": "Ice Attack",
-		"uniques": ["Comment [Attack applies [Chilled] to target unit for 2 turns. [Chilled] unit has -10% Strength and has 10% chance to be [Frozen] for 1 turn.]",
+		"uniques": ["Comment [Attack applies [Chilled] for 2 turns. [Chilled] unit has -10% Strength and has 10% chance to be [Frozen] for 1 turn.]",
 					"[Target Unit] gains the [Chilled] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"]
 	},	
 	
 	//The Walrus People~~~~~~~
 	{
 		"name": "Frostbrand",
-		"uniques": ["Comment [Attack applies [Frostbitten] to target Land unit for 2 turns. [Frostbitten] unit has -1 Movement and takes 10 damage at turn end.]",
+		"uniques": ["Comment [Attack applies [Frostbitten] to Land unit for 2 turns. [Frostbitten] unit has -1 Movement and takes 10 damage at turn end.]",
 					"[Target Unit] gains the [Frostbitten] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"]
 	},	
 	
@@ -1262,9 +1339,9 @@
 		"name": "Shocknade",		
 		"uniques": ["Comment [Attack applies [Stunned] for 1 turn to Armored/Construct units. Cooldown: 10 turns.]", 
 					"[+1]% Strength <for units without [Shocknade Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[IsStunned]} {non-[Construct]} {Armored}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[IsStunned]} {non-[Armored]} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
-					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[IsStunned]} {Armored} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[Construct]} {Armored}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{non-[Armored]} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
+					"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [{Armored} {Construct}] unit> <for units without [Shocknade Cooldown]> <hidden from users>",
 					"[This Unit] gains the [Shocknade Cooldown] status for [10] turn(s) <upon damaging a [All] unit> <for units without [Shocknade Cooldown]> <hidden from users>"
 					]
 	},
@@ -1808,6 +1885,40 @@
 		]
 	},
 	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Charger",
+		"uniques": ["Comment [Attack applies [Broken] for 1 turn. [Broken] unit has no defensive terrain bonus and can't Fortify.]",
+					"[Target Unit] gains the [Broken] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+		]
+	},	
+	
+	//Goblin Horde
+	{
+		"name": "Mend",
+		"uniques": ["Comment [Activate to instantly heal 25 HP. Only available when below 50 HP. Cooldown: 15 turns.]",
+					"[This Unit] gains the [Mend Cooldown] status for [15] turn(s) <for [0] movement> <for units without [Mend Cooldown]> <when below [50] HP> <hidden from users>",
+					"[This Unit] heals [25] HP <upon gaining the [Mend Cooldown] status> <hidden from users>",
+		]
+	},	
+	{
+		"name": "Mend Cooldown",
+		"uniques": ["Comment [Mend is on cooldown.]",
+		]
+	},	
+	{
+		"name": "Ensnare",		
+		"uniques": ["Comment [Attack applies [Ensnared] to enemy Land units for 1 turn. [Ensnared] units can't move and can't Melee attack. Cooldown: 8 turns.]",
+					"[Target Unit] gains the [Ensnared] status for [2] turn(s) <upon damaging a [{non-[Ensnared]} {Land}] unit> <for units without [Ensnare Cooldown]> <hidden from users>",
+					"[+1]% Strength <for units without [Ensnare Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Ensnare Cooldown] status for [8] turn(s) <upon damaging a [Wounded] unit> <for units without [Ensnare Cooldown]> <hidden from users>"
+					]
+	},
+	{
+		"name": "Ensnare Cooldown",
+		"uniques": ["Comment [Ensnare on cooldown.]"]
+	},
+	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	//							Neutral List																			  //
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
@@ -1825,7 +1936,7 @@
 	
 	{
 		"name": "Stunned",
-		"uniques": ["[This Unit] loses [999] movement <upon turn start>", "IsStunned <hidden from users>",
+		"uniques": ["[This Unit] loses [999] movement <upon turn start>",
 					"Cannot attack", "Cannot move", 
 					"[-15]% Strength", 
 					"No defensive terrain bonus", 
@@ -1877,6 +1988,23 @@
 					],
 	},
 	{
+		"name": "Brittle",
+		"uniques": [
+			"Comment [This Unit takes 15 damage upon losing at least 15 HP in a single attack, then remove this status]",
+			
+			"[This Unit] takes [15] damage <upon losing at least [15] HP in a single attack> <hidden from users>",
+			"[This Unit] loses the [Brittle] status <upon losing at least [15] HP in a single attack> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Broken",
+		"uniques": ["No defensive terrain bonus"
+					"[-1]% Strength <hidden from users>",
+					]
+	},
+	{
 		"name": "Chained",
 		"uniques": ["[-3] Movement"
 					"[-1]% Strength <hidden from users>",
@@ -1885,8 +2013,7 @@
 	{
 		"name": "Chilled",
 		"uniques": ["[-10]% Strength", 
-					"[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn start> <with [15]% chance>",
-					"[-1]% Strength <hidden from users>",
+					"[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn end> <with [15]% chance>",
 					],
 	},
 	{
@@ -2028,6 +2155,8 @@
 					"[This Unit] loses the [Binded] status <upon gaining the [Binded] status> <hidden from users>",
 					"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>",
 					"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
+					"[This Unit] loses the [Brittle] status <upon gaining the [Brittle] status> <hidden from users>",
+					"[This Unit] loses the [Broken] status <upon gaining the [Broken] status> <hidden from users>",
 					"[This Unit] loses the [Chained] status <upon gaining the [Chained] status> <hidden from users>",
 					"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
 					"[This Unit] loses the [Crippled] status <upon gaining the [Crippled] status> <hidden from users>",
@@ -2054,6 +2183,8 @@
 					"[This Unit] loses the [Binded] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Bleeding] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Blinded] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Brittle] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Broken] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Chained] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Chilled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Crippled] status <upon gaining the [Debuff Immune] status> <hidden from users>",
