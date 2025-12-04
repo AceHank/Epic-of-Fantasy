@@ -269,7 +269,19 @@
 	{
 		"name": "Spire Damage Block",
 		"uniques": ["Comment [Reduces damage taken by 10 when adjacent to a [City center] with [Curative Spire]]",
-					"[This Unit] gains the [Superior Defense] status for [10] turn(s) <upon turn end> <for [non-[Air]] units> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					
+					"[+1]% Strength <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+			
 		]
 	},
 	
