@@ -2825,6 +2825,307 @@
         ]
 	},
 	
+	/*
+	//Birundar IV of Shield Dwarven Kingdom
+	{
+		"name": "Shield Dwarven Kingdom",
+		"leaderName": "Birundar IV",
+		"adjective": ["Shield Dwarven"],
+		"startBias": ["Mountain"],
+	//	"preferredVictoryType": "Domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [60, 70, 80],
+		"innerColor": [180, 180, 190],
+
+		"uniqueName": "Of Anvil and Hammer",
+		"uniques": [
+					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
+					"[+2 Gold] from all [Forge] buildings",
+					"Comment [Gain a free secondary [Forge] in cities with at least 3 [Mine]]",
+					"Comment [Units trained in cities with two [Forge]s receive double the combat bonus from [Great General]]",
+				//	"Comment [\n[Runic Armament]: \nDouble the combat bonus received from [Great General]]",
+					
+					//Mechanism
+					"[All] units gain the [Runic Armament] promotion <in cities with a [Forge]> <in cities with a [Dwarven Forge]> <hidden from users>",
+					"[Great General] units gain the [Runic Armament] promotion <hidden from users>",
+					"[+1 Science] from all [Dwarven Forge] buildings <hidden from users>",
+					
+					"Dwarven Nation <hidden from users>",
+					
+					],
+		"cities": ["Hammerfast", "Khazdrum", "Stonegate", "Boulderhall", "Grimforge", "Anvildeep", "Durakhelm", "Ironvein", "Thaldur’s Hold", "Orecrest", "Deephearth", "Mithrak Hall", "Bastionhold", "Granitehome", "Karn Dûm"],
+		"spyNames": ["Grimni", "Brokir", "Durin", "Thrain", "Modri"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Thaldor Goldvein of Gold Dwarven Collective
+	{
+		"name": "Gold Dwarven Collective",
+		"leaderName": "Thaldor Goldvein",
+		"adjective": ["Gold Dwarven"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",	
+		
+		"outerColor": [120, 100, 40],
+		"innerColor": [230, 200, 80],
+
+		"uniqueName": "Gilded Vault of Balgrim",
+		"uniques": [
+					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
+					"Comment [May buy National Wonder with 1000 [Gold] at an increasing price (500), bypassing its building requirements]",
+					"[+3 Culture] from [Customs house] tiles [in all cities]",
+					
+					//Mechanism
+					"May buy [BuyNatWonder] buildings for [1000] [Gold] [in all cities] at an increasing price ([500]) <hidden from users>",
+					"Dwarven Nation <hidden from users>",
+					
+					],
+		"cities": ["Balgrim's Hold", "Gildenspire", "Thaldor's Vault", "Coinreach", "Aurholm", "Barterdeep", "Silvervein", "Kazad Auric", "Prosperhall", "Gemforge", "Tradebar", "Vaultheim", "Goldenmead", "Mintgate", "Auricspire"],
+		"spyNames": ["Broker", "Appraiser", "Coinshadow", "Assayer", "Exchanger"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Mordraugr of Thanatos Imperium
+	{
+		"name": "Thanatos Imperium",
+		"leaderName": "Mordraugr",
+		"adjective": ["Thanatorian"],
+		"startBias": ["Tundra"],
+	//	"preferredVictoryType": "domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [25, 30, 25],
+		"innerColor": [70, 150, 90],
+
+		"uniqueName": "Most Profane Throne",
+		"uniques": ["Comment [Cast an [Unholy Ritual] once every era, consuming [Soul] for powerful empire-wide effects (See Civilopedia for the list)]",
+					"Comment [Gain 1 [Soul] upon defeating a non-[Barbarian] unit]",
+					"Comment [Gain 5 [Soul] upon constructing [Faith] building (once per building name per city)]",
+					
+					//Backend
+					"Instantly gain [1] [Soul] <upon defeating a [non-[Barbarian]] unit> <hidden from users>",
+					"Triggers a [Unholy Ritual] event <upon entering a new era> <hidden from users>",
+					
+					//Unholy Ritual
+					//Forbidden Knowledge
+					"[+1 Science] [in all cities] <for every [FKLimit]> <hidden from users>",
+					//Enlightenment
+					"Instantly gain [3] [Golden Age points] <upon turn end> <for every [Cities]> <for every [ELimit]> <hidden from users>",
+					//Ascencion Rite
+					"[+5]% Great Person generation [in all cities] <for every [ARLimit]> <hidden from users>",
+					//Soul Harvest
+					"Instantly gain [2] [SHLimit] <hidden from users>",
+					
+					],
+		"cities": ["Mordheim", "Thanora", "Erevos", "Blackspire", "Necropolis Prime", "Gravemarch", "Soulforge", "Obsidian Reach", "Deathwatch", "Morvath", "Vespera", "Doomgate", "Tenebris", "Ravencrown", "Cryptveil"],
+		"spyNames": ["Undertaker", "Reaper", "Whisper", "Pale Shade", "Soulstalker"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+			{"text":"Unholy Ritual list:"},
+			{"text":"Forbidden Knowledge: +25% [Science] for 10 turns. Cost 25 [Soul]. +1 [Science] in all cities for every Forbidden Knowledge casted"},
+			{"text":"Thanatos' Oath: +25% Strength and +1 Movement for 10(+Thanatos' Oath count x 2) turns. Cost 25 [Soul]. +2 turns of duration for every Thanatos' Oath casted"},
+			{"text":"Enlightenment: Empire enters golden age. Cost 30 [Soul]. +3 Golden Age points per city for every Enlightenment casted"},
+			{"text":"Ascension Rite: Gain a free Great Person. Cost 50 [Soul]. +5% Great Person generation in all cities for every Ascension Rite casted"},
+			{"text":"Soul Harvest: Gain [Faith] & [Gold] equal to 10(+Soul Harvest count) times stockpiled [Soul]. Consumes all [Soul]. +5 [Soul] multiplier for every Soul Harvest casted"},
+        ]
+	},
+	
+	//Juris Neglectia of The Justfolk
+	{
+		"name": "The Justfolk",
+		"leaderName": "Juris Neglectia",
+		"adjective": ["Justfolk"],
+		"startBias": ["Grassland"],
+	//	"preferredVictoryType": "Domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [80, 30, 30],
+		"innerColor": [180, 150, 70],
+
+		"uniqueName": "Justice Against the Oppresor",
+		"uniques": ["Comment [+100% Yield and effectiveness of [Fortified Farm] for 5 turns upon entering a war with Major Civilizations, double the duration if defensive war]",
+					"Comment [Enemy Civilizations gain [-5]% Strength against our units for every 20 Military units they own]",
+					"Starts with [Liberty] adopted",
+					
+					//backend
+					"Provides [1] [Marker] <for [5] turns> <upon declaring war on [Major] Civilizations> <hidden from users>",
+					"Provides [1] [Marker] <for [10] turns> <upon being declared war on by [Major] Civilizations> <hidden from users>",
+					"[+100]% Yield from every [Fortified Farm] <with [Marker]> <hidden from users>",
+					"[All] units gain the [Militia] promotion <hidden from users>",
+					
+					],
+		"cities": ["Thulu", "Isenmaar", "Ototh", "Tihnas", "Tulihmek", "Usimbar", "Shur", "Peromar", "Sundavey", "Yuruk", "Ziruk", "Sermith"],
+		"spyNames": ["Dah", "Dihmeth", "Asmiz", "Asai"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Ragzlin of Goblin  Horde
+	{
+		"name": "Goblin Horde",
+		"leaderName": "Ragzlin",
+		"adjective": ["Greenskins"],
+		"preferredVictoryType": "Domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [40, 60, 30],
+		"innerColor": [135, 115, 70],
+
+		"uniqueName": "Greenskin Raider",
+		"uniques": [
+					"Comment [Military units may steal a Luxury resource from an unimproved Enemy tiles, removing and gaining them for yourself (up to 3 times)]",
+					"Earn [25]% of the damage done to [City] units as [Gold] <for [Melee] units>",
+					"[+15]% Strength <within [2] tiles of a [{Enemy} {City center}]>",
+					"Comment [All units heal 1 HP upon turn end]",
+					
+					//backend
+					"[Military] units gain the [Horde Raider] promotion <hidden from users>",
+					
+					"Provides [1] [Furs] <for every [FursToken]> <hidden from users>",
+					"Provides [1] [Cotton] <for every [CottonToken]> <hidden from users>",
+					"Provides [1] [Dyes] <for every [DyesToken]> <hidden from users>",
+					"Provides [1] [Gems] <for every [GemsToken]> <hidden from users>",
+					"Provides [1] [Gold Ore] <for every [GoldOreToken]> <hidden from users>",
+					"Provides [1] [Silver] <for every [SilverToken]> <hidden from users>",
+					"Provides [1] [Incense] <for every [IncenseToken]> <hidden from users>",
+					"Provides [1] [Ivory] <for every [IvoryToken]> <hidden from users>",
+					"Provides [1] [Silk] <for every [SilkToken]> <hidden from users>",
+					"Provides [1] [Spices] <for every [SpicesToken]> <hidden from users>",
+					"Provides [1] [Wine] <for every [WineToken]> <hidden from users>",
+					"Provides [1] [Sugar] <for every [SugarToken]> <hidden from users>",
+					"Provides [1] [Marble] <for every [MarbleToken]> <hidden from users>",
+					"Provides [1] [Whales] <for every [WhalesToken]> <hidden from users>",
+					"Provides [1] [Pearls] <for every [PearlsToken]> <hidden from users>",
+					"Provides [1] [Citrus] <for every [CitrusToken]> <hidden from users>",
+					"Provides [1] [Copper] <for every [CopperToken]> <hidden from users>",
+					"Provides [1] [Crab] <for every [CrabToken]> <hidden from users>",
+					"Provides [1] [Salt] <for every [SaltToken]> <hidden from users>",
+					"Provides [1] [Truffles] <for every [TrufflesToken]> <hidden from users>",
+					
+					],
+		"cities": ["Muckgulch", "Grimtooth", "Snagga Hold", "Bogspine", "Cragbelch", "Rotfen", "Gnashpit", "Dribblemarch", "Sootmire", "Ironmaw", "Festerpeak", "Skulkshade", "Toadblight", "Mirewatch", "Stenchgate"],
+		"spyNames": ["Skiv", "Grib", "Nogga", "Twitch", "Fung"]
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	*/
+	
+	/* SHELVED cause currently no idea on how to do the cycle system
+	//Mikohime of Tsukikage Kenzoku
+	{
+		"name": "Tsukikage Kenzoku",
+		"leaderName": "Mikohime",
+		"adjective": ["Kenzoku"],
+		"startBias": ["Coast", "Mountain"],
+	//	"preferredVictoryType": "Scientific",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [50, 20, 70], 
+		"innerColor": [200, 200, 255],
+
+		"uniqueName": "Getsumei Bansho",
+		"uniques": ["Comment [Cycle between [Waning] and [Waxing] every 20 turns after discovering [Calendar]]",
+					"Comment [You may force [Waning] or [Waxing] state earlier once per era]",
+					"Comment [\n[Waning]: \n• +1 [Faith], +1 [Science] from [Moonlit Altar], +1 more to each every 2 eras\n• +15% Strength when defending]",
+					"Comment [\n[Waxing]: \n• -33%[Faith] cost of purchasing units and buildings\n• All units gain [Unobstructed Vision]]",
+					
+					//backend
+					
+					],
+		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],
+		"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	*/
+	
 	//Template
 	/*
 	{
