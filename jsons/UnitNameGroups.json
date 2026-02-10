@@ -1,0 +1,88 @@
+[
+   {
+    "name": "Priest of Cogs",
+    "unitNames": [
+        "Ferrix Null",
+        "Cogmar Vell",
+        "Ironis Pax",
+        "Mechor Thane",
+        "Cylix Ord",
+        "Brassel Keth",
+        "Autom Val",
+        "Gearon Six",
+        "Tektus Vire",
+        "Chrom Nil",
+        "Logos Marr",
+        "Axion Korr"
+    ]
+},
+{
+    "name": "Blightsayers",
+    "unitNames": [
+        "Mor Ashen",
+        "Vek Rot",
+        "Sileth Nox",
+        "Pall Grim",
+        "Keth Wane",
+        "Ulra Pox",
+        "Vire Soot",
+        "Neth Blain",
+        "Cair Fell",
+        "Rusk Mourn",
+        "Zeth Sallow",
+        "Irel Woe"
+    ]
+},
+{
+    "name": "Gilded Envoys",
+    "unitNames": [
+        "Aurik Stonehand",
+        "Brom Goldvein",
+        "Durn Coinbeard",
+        "Krag Ledgerhelm",
+        "Thrain Giltlock",
+        "Orik Vaultborn",
+        "Hald Gemcrown",
+        "Vorr Mintbeard",
+        "Baldr Oathgold",
+        "Keld Charteraxe",
+        "Morin Brassbond",
+        "Skor Bulliongrip"
+    ]
+},
+{
+    "name": "Wardrummers",
+    "unitNames": [
+        "Ghor Mak",
+        "Rakk Thrum",
+        "Ulg Bonebeat",
+        "Karn Howl",
+        "Brug Drumscar",
+        "Mok Ragepaw",
+        "Threk Bloodhorn",
+        "Zog Warcry",
+        "Bram Skullhowl",
+        "Urg Stormhide",
+        "Kroth Redmane",
+        "Vak Thunderjaw"
+    ]
+},
+{
+    "name": "Alchemists",
+    "unitNames": [
+        "Aurellin Vos",
+        "Cylas Merrow",
+        "Valen Quist",
+        "Iria Phos",
+        "Damar Lute",
+        "Selwyn Crucis",
+        "Mirel Anthe",
+        "Tovin Glass",
+        "Nysa Calder",
+        "Orrin Vial",
+        "Helia Mort",
+        "Cassir Elix"
+    ]
+},
+
+]
