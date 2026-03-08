@@ -13,7 +13,7 @@
 
 #### Nations Contributors
 * [Bamboolord](https://github.com/RealBamboolord) - Basalt Remainers, Spirit Pact
-* [Basil](https://github.com/BasilBun) - Elmar Kingdom, Dutushe Dynasty
+* [Basil](https://github.com/BasilBun) - Elmar Kingdom, Dutushe Dynasty, The Justfolk
 * Cosmic - The Kaleeki
 * FastDoubloon115 - The Blighted
 
@@ -23,6 +23,7 @@
 * Rendieval - Lyrian Kingdom, Scazari Hive
 * FBE Reactor - Enkantos, Bakunawa's Chosen
 * ReJack - Gnome Alliance, Hellbourne, Deep Dweller
+* ReallyBasicName - Aureignis Dominion
 
 #### Nations Lines
 * gohwala - Orc Horde
@@ -44,6 +45,7 @@
 * [LOTR-Unciv](https://github.com/ravignir/LOTR-Unciv)
 * [Bamboolord](https://github.com/RealBamboolord)
 * [Basil](https://github.com/BasilBun)
+* Simplified
 * TheNounProject
 * FlatIcon
 * Freepik
