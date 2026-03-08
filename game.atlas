@@ -13,21 +13,21 @@ ImprovementIcons/Alchemical Lab
   index: -1
 ImprovementIcons/Basilikoi Paides
   rotate: false
-  xy: 4, 328
+  xy: 514, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Blessed Farm
   rotate: false
-  xy: 4, 112
+  xy: 730, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Church of Gears
   rotate: false
-  xy: 946, 838
+  xy: 1054, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -41,7 +41,7 @@ ImprovementIcons/Circle
   index: -1
 ImprovementIcons/Clockwerk Temple
   rotate: false
-  xy: 1054, 838
+  xy: 1162, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -60,79 +60,86 @@ ImprovementIcons/Floating City
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Gaia's Farm
+ImprovementIcons/Fortified Farm
   rotate: false
-  xy: 220, 730
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Gaia's Mine
+ImprovementIcons/Gaia's Farm
   rotate: false
   xy: 220, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Gaia's Oil well
+ImprovementIcons/Gaia's Mine
   rotate: false
   xy: 328, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Gaia's Plantation
+ImprovementIcons/Gaia's Oil well
   rotate: false
   xy: 220, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Gaia's Plantation
+  rotate: false
+  xy: 328, 622
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Improved Barricade
   rotate: false
-  xy: 328, 406
+  xy: 328, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Lodepit
   rotate: false
-  xy: 220, 82
+  xy: 760, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Manaline
   rotate: false
-  xy: 868, 730
+  xy: 760, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Manawell
   rotate: false
-  xy: 868, 730
+  xy: 760, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Mountain Settlement
   rotate: false
-  xy: 436, 190
+  xy: 976, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Orion's Monument
   rotate: false
-  xy: 652, 298
+  xy: 544, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sphinx
   rotate: false
-  xy: 976, 514
+  xy: 976, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -144,112 +151,112 @@ NationIcons/Aellenari Empire
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Argonautian States
+NationIcons/Arata Clan
   rotate: false
   xy: 4, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Aureignis Dominium
+NationIcons/Argonautian States
   rotate: false
   xy: 298, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Bakunawa's Chosen
+NationIcons/Aureignis Dominium
   rotate: false
   xy: 4, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Basalt Remainers
+NationIcons/Bakunawa's Chosen
   rotate: false
   xy: 406, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Beastmen Empire
+NationIcons/Basalt Remainers
   rotate: false
-  xy: 514, 838
+  xy: 4, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Beastmen Empire (Old)
+NationIcons/Beastmen Empire
   rotate: false
   xy: 4, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Bladedancer
+NationIcons/Beastmen Empire (Old)
   rotate: false
   xy: 622, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Celestial Beings
+NationIcons/Bladedancer
   rotate: false
-  xy: 730, 838
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Centaur Tribes
+NationIcons/Celestial Beings
   rotate: false
   xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Children of Deep Dweller
+NationIcons/Centaur Tribes
   rotate: false
   xy: 838, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Clockwerk Theotechnate
+NationIcons/Children of Deep Dweller
   rotate: false
-  xy: 1162, 838
+  xy: 946, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Dragonborn Union
+NationIcons/Clockwerk Theotechnate
   rotate: false
   xy: 1270, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Dragonborn Union (Old)
+NationIcons/Dragonborn Union
   rotate: false
   xy: 1378, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Drow Village
+NationIcons/Dragonborn Union (Old)
   rotate: false
   xy: 1486, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Dutushe Dynasty
+NationIcons/Drow Village
   rotate: false
   xy: 1594, 838
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Dwarven Kingdom
+NationIcons/Dutushe Dynasty
   rotate: false
   xy: 1702, 838
   size: 100, 100
@@ -300,413 +307,469 @@ NationIcons/Fanrong Republic
   index: -1
 NationIcons/Gaia Preserver
   rotate: false
-  xy: 112, 4
+  xy: 220, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Gnoll Warband
   rotate: false
-  xy: 328, 622
+  xy: 436, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Gnome Alliance
   rotate: false
-  xy: 436, 730
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Harpies Tribe
-  rotate: false
   xy: 220, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Hellbourne
+NationIcons/Goblin Horde
   rotate: false
   xy: 328, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/High Elf Concordat
+NationIcons/Gold Dwarven Collective
   rotate: false
   xy: 436, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/High Elf Concordat (Old)
+NationIcons/Gold Dwarven Collective 2
   rotate: false
   xy: 544, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Holy Lunar Theocracy
+NationIcons/Harpies Tribe
   rotate: false
   xy: 220, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Inquisitorial Illuminate
+NationIcons/Hellbourne
+  rotate: false
+  xy: 328, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hide Clan
   rotate: false
   xy: 436, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Inquisitorial Illuminate (OId)
+NationIcons/High Elf Concordat
   rotate: false
   xy: 544, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Kemetian Dynasty
+NationIcons/High Elf Concordat (Old)
   rotate: false
   xy: 652, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Khassiya Dynasty
+NationIcons/Holy Lunar Theocracy
   rotate: false
   xy: 220, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Leonin Kingdom
-  rotate: false
-  xy: 328, 298
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Lithoid Combine
+NationIcons/Inquisitorial Illuminate
   rotate: false
   xy: 436, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Lithoid Combine (Old)
+NationIcons/Inquisitorial Illuminate (OId)
   rotate: false
   xy: 544, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Lizardmen Tribes
+NationIcons/Kemetian Dynasty
   rotate: false
   xy: 652, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Lizardmen Tribes (Old)
+NationIcons/Khassiya Dynasty
   rotate: false
   xy: 760, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Lyrian Kingdom
+NationIcons/Leonin Kingdom
+  rotate: false
+  xy: 220, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Lithoid Combine
   rotate: false
   xy: 328, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Lyrian Kingdom (Old)
+NationIcons/Lithoid Combine (Old)
   rotate: false
   xy: 436, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Magnar Empire
+NationIcons/Lizardmen Tribes
+  rotate: false
+  xy: 544, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Lizardmen Tribes (Old)
   rotate: false
   xy: 652, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Magnar Empire (Old)
+NationIcons/Lyrian Kingdom
   rotate: false
-  xy: 760, 622
+  xy: 868, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Merfolk Council
+NationIcons/Lyrian Kingdom (Old)
   rotate: false
   xy: 328, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Nature's Keeper
+NationIcons/Magnar Empire
   rotate: false
   xy: 544, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Nature's Keeper (Old)
+NationIcons/Magnar Empire (Old)
   rotate: false
   xy: 652, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Necrontia
-  rotate: false
-  xy: 760, 514
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Nerubian Kingdom
+NationIcons/Merfolk Council
   rotate: false
   xy: 868, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Night Elven Enclave
-  rotate: false
-  xy: 976, 730
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Orc Horde
+NationIcons/Nature's Keeper
   rotate: false
   xy: 436, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Orc Tribes
+NationIcons/Nature's Keeper (Old)
   rotate: false
   xy: 544, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Phrygian Kingdom
+NationIcons/Necrontia
+  rotate: false
+  xy: 652, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nerubian Kingdom
   rotate: false
   xy: 760, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Precursor
+NationIcons/Night Elven Enclave
   rotate: false
   xy: 868, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Pyre Clan
+NationIcons/Orc Horde
   rotate: false
   xy: 976, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Sacred Sun Theocracy
+NationIcons/Orc Tribes
   rotate: false
   xy: 1084, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Salamander Empire
-  rotate: false
-  xy: 544, 82
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Salamander Empire (Old)
+NationIcons/Phrygian Kingdom
   rotate: false
   xy: 652, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Scazari Hive
+NationIcons/Precursor
   rotate: false
   xy: 760, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Shinso
+NationIcons/Pyre Clan
   rotate: false
   xy: 868, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Spirit Pact
+NationIcons/Sacred Sun Theocracy
+  rotate: false
+  xy: 976, 514
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Salamander Empire
   rotate: false
   xy: 1084, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Sulvana
+NationIcons/Salamander Empire (Old)
   rotate: false
   xy: 1192, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Tauren Clan
+NationIcons/Scazari Hive
   rotate: false
   xy: 652, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Tauren Clan (Old)
+NationIcons/Shield Dwarven Kingdom
   rotate: false
   xy: 760, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Teutonica Imperium
+NationIcons/Shinso
   rotate: false
   xy: 868, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Amazons
-  rotate: false
-  xy: 976, 406
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/The Blighted
+NationIcons/Spirit Pact
   rotate: false
   xy: 1084, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Chroniclers
+NationIcons/Stalwart Dwarven Kingdom
   rotate: false
   xy: 1192, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Eternals
+NationIcons/Sulvana
   rotate: false
   xy: 1300, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Kaleeki
+NationIcons/Tauren Clan
   rotate: false
   xy: 760, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Kobolds
+NationIcons/Tauren Clan (Old)
   rotate: false
   xy: 868, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Titans
+NationIcons/Teutonica Imperium
   rotate: false
   xy: 976, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Walrus People
+NationIcons/Thanatos Theocracy
   rotate: false
   xy: 1084, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Wizard Council
+NationIcons/The Amazons
   rotate: false
   xy: 1192, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Wizard Council (Old)
+NationIcons/The Blighted
   rotate: false
   xy: 1300, 622
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Townfolk
+NationIcons/The Chroniclers
   rotate: false
   xy: 1408, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Troglodyte
+NationIcons/The Eternals
   rotate: false
   xy: 868, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Troll Tribes
+NationIcons/The Justfolk
   rotate: false
   xy: 976, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Uldra
+NationIcons/The Kaleeki
   rotate: false
   xy: 1084, 298
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Undines
+NationIcons/The Kobolds
   rotate: false
   xy: 1192, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Vigilo Order
+NationIcons/The Titans
   rotate: false
   xy: 1300, 514
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/The Walrus People
+  rotate: false
+  xy: 1408, 622
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Wizard Council
+  rotate: false
+  xy: 1516, 730
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Wizard Council (Old)
+  rotate: false
+  xy: 976, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Townfolk
+  rotate: false
+  xy: 1084, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Troglodyte
+  rotate: false
+  xy: 1192, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Troll Tribes
+  rotate: false
+  xy: 1300, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Uldra
+  rotate: false
+  xy: 1408, 514
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Undines
+  rotate: false
+  xy: 1516, 622
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Vigilo Order
+  rotate: false
+  xy: 1624, 730
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ReligionIcons/Ma'ati
   rotate: false
-  xy: 544, 406
+  xy: 436, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

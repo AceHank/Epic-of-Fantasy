@@ -1,3 +1,33 @@
+-Tsukikaze Kenzoku: Hare demihuman civ that worship the Moon goddess (yeah, another Moon worshipper, much creative very ideas)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v4.0
+
+New Civs:
+-Arata Clan: Sengoku period inspired civ
+-Goblin Horde: Your basic raiding greenskins tribe, with a little toxic gimmick (please ban on MP games)
+-Gold Dwarven Collective: Dwarven subrace that is famous for their craftmanship and shrewd traders
+-Hide Clan: Ninja clan inspired civ (probably toxic too lol)
+-Shield Dwarven Kingdom: A more classical approach to Dwarves, mountain, mine, and irons
+-The Justfolk: A nation risen from the oppressed common farmers, by Basil
+-Thanatos Theocracy: A necro-theocratic empire, harnessing souls for their unholy ritual.
+
+Universal Changes:
+-Chilled's chance to apply Frozen moved to turn end
+-Heavily Armored changed to 25% damage reduction, up to 15 damage
+-Any units with +Strength era/tech scaling now uses the flat +strength rather than the +% strength
+
+Civ Changes:
+-Celestials: (↓) UB Strength reduced from 3 to 2.5 (half of Walls, as originally intendeed)
+-Dwarven Kingdom: (~) UA -5% Unhappiness in cities with [Wine], Golden Age bonus changed to +5% Science, renamed to Stalwart Dwarven Kingdom
+-Centaur: (↓) UU now have -33% Strength when attacking vs cities
+-Orc: (↑) UA now heals all units for 1 HP upon turn end
+-Pyre: (↑) UA now also provides 2 Horses on completing first Policy tree
+-Shinso: (↓) UU Tsukaima Strength reduced from 14 to 13
+-The Amazons: (↓) UA STR gain reduced from +7% to +5%
+-The Blighted: (↑) UA growth rate increased from -15% to -10%
+-The Titans: (↓) UU cost increased by 10
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v3.9 
 

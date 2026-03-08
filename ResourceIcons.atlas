@@ -46,9 +46,16 @@ ResourceIcons/Mihir
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Valkyrie Lifespan
+ResourceIcons/Soul
   rotate: false
   xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Valkyrie Lifespan
+  rotate: false
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

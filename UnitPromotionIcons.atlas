@@ -20,7 +20,7 @@ UnitPromotionIcons/Ambusher
   index: -1
 UnitPromotionIcons/Amphibious Raider
   rotate: false
-  xy: 1084, 860
+  xy: 652, 320
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -34,14 +34,14 @@ UnitPromotionIcons/Arcane Ward
   index: -1
 UnitPromotionIcons/Armor Hunter
   rotate: false
-  xy: 544, 212
+  xy: 760, 428
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Armored Exoskeleton
   rotate: false
-  xy: 652, 320
+  xy: 868, 536
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -62,21 +62,21 @@ UnitPromotionIcons/Armour of Frost Cooldown
   index: -1
 UnitPromotionIcons/Aspect of Bull
   rotate: false
-  xy: 760, 428
+  xy: 976, 644
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Aspect of Eagle
   rotate: false
-  xy: 868, 536
+  xy: 1084, 752
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Aspect of Horse
   rotate: false
-  xy: 976, 644
+  xy: 1192, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -97,14 +97,14 @@ UnitPromotionIcons/Aspect of Seal
   index: -1
 UnitPromotionIcons/Aspect of Spider
   rotate: false
-  xy: 1084, 802
+  xy: 652, 262
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Aspect of Tiger
   rotate: false
-  xy: 1142, 860
+  xy: 1250, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -125,7 +125,7 @@ UnitPromotionIcons/Aura of Protection
   index: -1
 UnitPromotionIcons/Aura of Valour
   rotate: false
-  xy: 1084, 744
+  xy: 652, 204
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -139,28 +139,28 @@ UnitPromotionIcons/Baned
   index: -1
 UnitPromotionIcons/Benediction
   rotate: false
-  xy: 1142, 802
+  xy: 1308, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Binded
   rotate: false
-  xy: 1200, 860
+  xy: 394, 104
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bleeding
   rotate: false
-  xy: 394, 104
+  xy: 1366, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blinded
   rotate: false
-  xy: 1142, 744
+  xy: 452, 104
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -181,42 +181,42 @@ UnitPromotionIcons/Blinding Smite Cooldown
   index: -1
 UnitPromotionIcons/Blood
   rotate: false
-  xy: 1200, 802
+  xy: 1424, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Regeneration
   rotate: false
-  xy: 1200, 802
+  xy: 1424, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bloodbath
   rotate: false
-  xy: 1258, 860
+  xy: 510, 104
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bloodlust
   rotate: false
-  xy: 452, 104
+  xy: 1482, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Vampiric Touch
   rotate: false
-  xy: 452, 104
+  xy: 1482, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bonebreaker
   rotate: false
-  xy: 1200, 744
+  xy: 568, 104
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -228,6 +228,13 @@ UnitPromotionIcons/Bound to Serve
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Broken
+  rotate: false
+  xy: 1540, 860
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Burning
   rotate: false
   xy: 536, 918
@@ -237,21 +244,28 @@ UnitPromotionIcons/Burning
   index: -1
 UnitPromotionIcons/Call of Valhalla
   rotate: false
-  xy: 1258, 802
+  xy: 1598, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rallying Cry
   rotate: false
-  xy: 1258, 802
+  xy: 1598, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cannonade
   rotate: false
-  xy: 1316, 860
+  xy: 1656, 860
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Caravan Escort
+  rotate: false
+  xy: 1714, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -298,65 +312,72 @@ UnitPromotionIcons/Chameleon Cloak Cooldown
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Charger
+  rotate: false
+  xy: 1772, 860
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Chilled
   rotate: false
-  xy: 1258, 744
+  xy: 1830, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Chrono Disruption
   rotate: false
-  xy: 1316, 802
+  xy: 1888, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Chrono Stasis
   rotate: false
-  xy: 1374, 860
+  xy: 1946, 860
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Conqueror of Realm
   rotate: false
-  xy: 1316, 744
+  xy: 710, 320
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Warbanner
   rotate: false
-  xy: 1316, 744
+  xy: 710, 320
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cooldown
   rotate: false
-  xy: 1374, 802
+  xy: 710, 262
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Humility
   rotate: false
-  xy: 1374, 802
+  xy: 710, 262
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Lifespan
   rotate: false
-  xy: 1374, 802
+  xy: 710, 262
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Courage
   rotate: false
-  xy: 1432, 860
+  xy: 710, 204
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -370,70 +391,70 @@ UnitPromotionIcons/Crafty
   index: -1
 UnitPromotionIcons/Crippled
   rotate: false
-  xy: 1374, 744
+  xy: 818, 428
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Slowed
   rotate: false
-  xy: 1374, 744
+  xy: 818, 428
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Crushed
   rotate: false
-  xy: 1432, 802
+  xy: 926, 536
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Crystal Beam
   rotate: false
-  xy: 1490, 860
+  xy: 1034, 644
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Debuff Immune
   rotate: false
-  xy: 1432, 744
+  xy: 1142, 752
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Indomitable
   rotate: false
-  xy: 1432, 744
+  xy: 1142, 752
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Decaying Aura
   rotate: false
-  xy: 1490, 802
+  xy: 220, 46
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Detect Ruins
   rotate: false
-  xy: 1548, 860
+  xy: 278, 46
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Devoted Learner
   rotate: false
-  xy: 1490, 744
+  xy: 336, 46
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dimensional Prison
   rotate: false
-  xy: 1548, 802
+  xy: 394, 46
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -461,21 +482,28 @@ UnitPromotionIcons/Disarming Strike Cooldown
   index: -1
 UnitPromotionIcons/Disciples
   rotate: false
-  xy: 1606, 860
+  xy: 452, 46
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Disoriented
   rotate: false
-  xy: 1548, 744
+  xy: 510, 46
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disturbing Presence
+  rotate: false
+  xy: 568, 46
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Divine Shieldmaiden
   rotate: false
-  xy: 1606, 802
+  xy: 652, 146
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -496,7 +524,7 @@ UnitPromotionIcons/Divine Smite Cooldown
   index: -1
 UnitPromotionIcons/Divine Watch
   rotate: false
-  xy: 1664, 860
+  xy: 710, 146
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -510,49 +538,49 @@ UnitPromotionIcons/Dome of Protection
   index: -1
 UnitPromotionIcons/Dutushe Sanctuary
   rotate: false
-  xy: 1606, 744
+  xy: 626, 88
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elune's Protection
   rotate: false
-  xy: 1606, 744
+  xy: 626, 88
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sanctuary
   rotate: false
-  xy: 1606, 744
+  xy: 626, 88
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Einherjar
   rotate: false
-  xy: 1664, 802
+  xy: 684, 88
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elune's Protection Cooldown
   rotate: false
-  xy: 1722, 860
+  xy: 626, 30
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elune's Wrath Cooldown
   rotate: false
-  xy: 1664, 744
+  xy: 684, 30
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elusive
   rotate: false
-  xy: 1722, 802
+  xy: 742, 88
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -578,37 +606,58 @@ UnitPromotionIcons/Enchant Totem Cooldown
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Ensnare
+  rotate: false
+  xy: 742, 30
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ensnare Cooldown
+  rotate: false
+  xy: 876, 478
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ensnared
+  rotate: false
+  xy: 876, 420
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Eternal
   rotate: false
-  xy: 1780, 860
+  xy: 984, 586
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Executioner
   rotate: false
-  xy: 1722, 744
+  xy: 984, 528
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Executioner Active
   rotate: false
-  xy: 1722, 744
+  xy: 984, 528
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Exposed Core
   rotate: false
-  xy: 1780, 802
+  xy: 1092, 694
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fatigued
   rotate: false
-  xy: 1838, 860
+  xy: 1092, 636
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -622,35 +671,35 @@ UnitPromotionIcons/Fervor
   index: -1
 UnitPromotionIcons/Fight Bark
   rotate: false
-  xy: 1780, 744
+  xy: 1200, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Floating City Builder
   rotate: false
-  xy: 1838, 802
+  xy: 1258, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fly
   rotate: false
-  xy: 1896, 860
+  xy: 1316, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fly Active
   rotate: false
-  xy: 1896, 860
+  xy: 1316, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fly Cooldown
   rotate: false
-  xy: 1838, 744
+  xy: 1374, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -720,21 +769,21 @@ UnitPromotionIcons/Fortis Cooldown
   index: -1
 UnitPromotionIcons/Frostbitten
   rotate: false
-  xy: 1896, 802
+  xy: 1432, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Frostbrand
   rotate: false
-  xy: 1954, 860
+  xy: 1490, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Frozen
   rotate: false
-  xy: 1896, 744
+  xy: 1548, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -762,7 +811,7 @@ UnitPromotionIcons/Galestorm Leap Cooldown
   index: -1
 UnitPromotionIcons/Gordian Knot
   rotate: false
-  xy: 1954, 802
+  xy: 1606, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -776,14 +825,14 @@ UnitPromotionIcons/Harpy
   index: -1
 UnitPromotionIcons/Healer
   rotate: false
-  xy: 1954, 744
+  xy: 1664, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Heavily Armored
   rotate: false
-  xy: 544, 154
+  xy: 1722, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -804,56 +853,56 @@ UnitPromotionIcons/Hellstride Cooldown
   index: -1
 UnitPromotionIcons/Heroic General
   rotate: false
-  xy: 602, 212
+  xy: 1780, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Honor
   rotate: false
-  xy: 602, 154
+  xy: 1838, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Horns of Humility
   rotate: false
-  xy: 710, 320
+  xy: 1896, 802
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Horus' Blessing
   rotate: false
-  xy: 818, 428
+  xy: 1200, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hovering
   rotate: false
-  xy: 926, 536
+  xy: 1258, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunter's Mark
   rotate: false
-  xy: 1034, 644
+  xy: 1316, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ice Attack
   rotate: false
-  xy: 220, 46
+  xy: 1374, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Winter's Grasp
   rotate: false
-  xy: 220, 46
+  xy: 1374, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -874,42 +923,42 @@ UnitPromotionIcons/Ice Prison Cooldown
   index: -1
 UnitPromotionIcons/Ignores ZOC
   rotate: false
-  xy: 278, 46
+  xy: 1432, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Precursor Mobility
   rotate: false
-  xy: 278, 46
+  xy: 1432, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Snowman
   rotate: false
-  xy: 278, 46
+  xy: 1432, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Impetus
   rotate: false
-  xy: 336, 46
+  xy: 1490, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Infected
   rotate: false
-  xy: 394, 46
+  xy: 1548, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pandemy
   rotate: false
-  xy: 394, 46
+  xy: 1548, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -937,28 +986,35 @@ UnitPromotionIcons/Inner Flame
   index: -1
 UnitPromotionIcons/Intimidation
   rotate: false
-  xy: 452, 46
+  xy: 1606, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Judgement
   rotate: false
-  xy: 510, 96
+  xy: 1664, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Kheru Hebet
   rotate: false
-  xy: 568, 96
+  xy: 1722, 744
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kizuna
+  rotate: false
+  xy: 1780, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Magitek
   rotate: false
-  xy: 510, 38
+  xy: 1838, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -979,7 +1035,7 @@ UnitPromotionIcons/Mana Shield Cooldown
   index: -1
 UnitPromotionIcons/Mana Tainted
   rotate: false
-  xy: 568, 38
+  xy: 1896, 744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -993,14 +1049,28 @@ UnitPromotionIcons/Mark of Bane
   index: -1
 UnitPromotionIcons/Marked
   rotate: false
-  xy: 626, 96
+  xy: 1954, 802
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mend
+  rotate: false
+  xy: 220, 378
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mend Wounds
   rotate: false
   xy: 220, 378
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mend Cooldown
+  rotate: false
+  xy: 328, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1012,9 +1082,16 @@ UnitPromotionIcons/Mend Wounds Cooldown
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Militia
+  rotate: false
+  xy: 1954, 744
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Mind Spike
   rotate: false
-  xy: 626, 38
+  xy: 768, 370
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1028,7 +1105,7 @@ UnitPromotionIcons/Mirage
   index: -1
 UnitPromotionIcons/Mountainborn
   rotate: false
-  xy: 1092, 686
+  xy: 768, 312
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1077,21 +1154,21 @@ UnitPromotionIcons/Negative Energy Touch Cooldown
   index: -1
 UnitPromotionIcons/Outmaneuver
   rotate: false
-  xy: 1150, 686
+  xy: 768, 254
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Overdrive Protocol
   rotate: false
-  xy: 1208, 686
+  xy: 768, 196
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Overdrive Protocol Active
   rotate: false
-  xy: 1208, 686
+  xy: 768, 196
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1112,14 +1189,21 @@ UnitPromotionIcons/Overwhelming Attack Cooldown
   index: -1
 UnitPromotionIcons/Pacified
   rotate: false
-  xy: 1266, 686
+  xy: 826, 362
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Panacea
   rotate: false
-  xy: 1324, 686
+  xy: 884, 362
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Phantom Unit
+  rotate: false
+  xy: 934, 420
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1140,56 +1224,56 @@ UnitPromotionIcons/Polymorphic Cooldown
   index: -1
 UnitPromotionIcons/Protector of Realm
   rotate: false
-  xy: 1382, 686
+  xy: 942, 362
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Punisher
   rotate: false
-  xy: 1440, 686
+  xy: 1042, 528
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Purity
   rotate: false
-  xy: 1498, 686
+  xy: 992, 470
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Purity Cooldown
   rotate: false
-  xy: 1556, 686
+  xy: 1150, 636
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Quick Study
   rotate: false
-  xy: 1614, 686
+  xy: 1100, 578
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Radiant Rider
   rotate: false
-  xy: 1672, 686
+  xy: 1100, 520
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reckless Spewing
   rotate: false
-  xy: 1730, 686
+  xy: 1208, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reckless Spewing Active
   rotate: false
-  xy: 1730, 686
+  xy: 1208, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1203,21 +1287,21 @@ UnitPromotionIcons/Regenerative Bio-Steel
   index: -1
 UnitPromotionIcons/Relentless
   rotate: false
-  xy: 1788, 686
+  xy: 1266, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Restless
   rotate: false
-  xy: 1846, 686
+  xy: 1324, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Retribution
   rotate: false
-  xy: 1904, 686
+  xy: 1382, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1245,14 +1329,14 @@ UnitPromotionIcons/Ride of the Valkyrie Cooldown
   index: -1
 UnitPromotionIcons/Rooted
   rotate: false
-  xy: 1962, 686
+  xy: 1440, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sanctuary Old
   rotate: false
-  xy: 1092, 628
+  xy: 1498, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1285,30 +1369,44 @@ UnitPromotionIcons/Second Wind Cooldown
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Shadow Exit
+  rotate: false
+  xy: 1556, 686
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shadow Exit Active
+  rotate: false
+  xy: 1556, 686
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Shield Wall
   rotate: false
-  xy: 1150, 628
+  xy: 1614, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shocked
   rotate: false
-  xy: 1208, 628
+  xy: 1672, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shocknade
   rotate: false
-  xy: 1266, 628
+  xy: 1730, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shocknade Cooldown
   rotate: false
-  xy: 1324, 628
+  xy: 1788, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1343,182 +1441,203 @@ UnitPromotionIcons/Spirit
   index: -1
 UnitPromotionIcons/Stampede
   rotate: false
-  xy: 1382, 628
+  xy: 1846, 686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Strengths
-  rotate: false
-  xy: 1440, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Stunned
-  rotate: false
-  xy: 1498, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Sturdy
-  rotate: false
-  xy: 1556, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Temporal Reset
-  rotate: false
-  xy: 1614, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/True Demon Form
+UnitPromotionIcons/Stock Semangat
   rotate: false
   xy: 760, 594
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Undead
+UnitPromotionIcons/Strengths
+  rotate: false
+  xy: 1904, 686
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Stunned
+  rotate: false
+  xy: 1208, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sturdy
+  rotate: false
+  xy: 1266, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Temporal Reset
+  rotate: false
+  xy: 1324, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/True Demon Form
   rotate: false
   xy: 868, 702
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Undead
+  rotate: false
+  xy: 976, 810
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Unity in Misery
+  rotate: false
+  xy: 1382, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Unstoppable
-  rotate: false
-  xy: 976, 810
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Unstoppable Active
-  rotate: false
-  xy: 976, 810
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Unstoppable Cooldown
   rotate: false
   xy: 436, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Vampiric
+UnitPromotionIcons/Unstoppable Active
   rotate: false
-  xy: 1672, 628
-  size: 50, 50
-  orig: 50, 50
+  xy: 436, 162
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Vampiric Cooldown
-  rotate: false
-  xy: 1730, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Vengeful
-  rotate: false
-  xy: 1788, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Vision
-  rotate: false
-  xy: 1846, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Volatile Core
-  rotate: false
-  xy: 1904, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Warden
-  rotate: false
-  xy: 1962, 628
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Water Creature
-  rotate: false
-  xy: 768, 370
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Winds
-  rotate: false
-  xy: 768, 312
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Winged Vampire
-  rotate: false
-  xy: 826, 370
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Wings
+UnitPromotionIcons/Unstoppable Cooldown
   rotate: false
   xy: 544, 270
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Wisdom
-  rotate: false
-  xy: 826, 312
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Withered
+UnitPromotionIcons/Unyielding
   rotate: false
   xy: 652, 378
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Withering Curse
+UnitPromotionIcons/Vampiric
+  rotate: false
+  xy: 1440, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Vampiric Cooldown
+  rotate: false
+  xy: 1498, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Vengeful
+  rotate: false
+  xy: 1556, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Vision
+  rotate: false
+  xy: 1614, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Volatile Core
+  rotate: false
+  xy: 1672, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Warden
+  rotate: false
+  xy: 1730, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water Creature
+  rotate: false
+  xy: 1788, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Winds
+  rotate: false
+  xy: 1846, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Winged Vampire
+  rotate: false
+  xy: 1904, 628
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wings
   rotate: false
   xy: 760, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Withering Curse Cooldown
+UnitPromotionIcons/Wisdom
+  rotate: false
+  xy: 1962, 686
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Withered
   rotate: false
   xy: 868, 594
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Withering Curse
+  rotate: false
+  xy: 976, 702
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Withering Curse Cooldown
+  rotate: false
+  xy: 1084, 810
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Woods Camouflage
   rotate: false
-  xy: 984, 586
+  xy: 1962, 628
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Zealotry
   rotate: false
-  xy: 976, 702
+  xy: 544, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
