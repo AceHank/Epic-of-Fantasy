@@ -2,7 +2,7 @@
 	//Dwarven Kingdom
 	{
 		"name": "Tinkerer's Depot",
-		"uniqueTo": "Dwarven Kingdom",
+		"uniqueTo": "Stalwart Dwarven Kingdom",
 		"replaces": "Observatory",
 		"maintenance": 0,
 		"percentStatBonus": {"science": 25},
@@ -15,6 +15,17 @@
 			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
         ]
 	},
+		{
+			"name": "Dwarven Tavern",
+			"uniqueTo": "Dwarven Nation",
+			"requiredNearbyImprovedResources": ["Wine"],
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["[-5]% Unhappiness from [Population] [in this city]", 
+						"Automatically built in all cities where it is buildable",
+						"Will not be displayed in Civilopedia",
+						],
+		},
 	
 	//Drow Village
 	{
@@ -668,7 +679,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Comment [All newly-trained Melee Land units in this city may access the [Strengths] promotion, which also grants access to multiple exclusive promotions.]",
+		"uniques": ["Comment [All newly-trained Melee Land units in this city may access the [Strengths] promotion, which grants access to multiple exclusive promotions.]",
 					"Only available <when religion is enabled>","All newly-trained [{Melee} {Land}] units [in this city] receive the [Strengths] promotion <hidden from users>", "Destroyed when the city is captured"],
 		"civilopediaText": [
 			{"text": "A special rites for the Tauren to prove their worth. Consisted of six rites. Rite of Strength, Courage, Honor, the Winds, Vision and Wisdom. Unit with Strengths promotion will gain access to 5 other promotions."},
@@ -716,7 +727,7 @@
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", "Comment [+1 [Culture] every 2 era]",
+		"uniques": ["Destroyed when the city is captured", "Comment [+1 [Culture] every 2 eras]",
 					"[+1 Culture] <for every [[Era number]/2]> <hidden from users>"],
 		"civilopediaText": [
 			{"text": "Walls so tall, so wonderful, decorated with ornaments, a beautiful protective layer for the Lyrian people."},
@@ -1054,7 +1065,7 @@
 		"name": "Curative Spire",
 		"uniqueTo": "Celestial Beings"
 		"cost": 30,
-		"cityStrength": 3,
+		"cityStrength": 2.5,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -1749,33 +1760,312 @@
 							]
 			},
 	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Dwarven Forge",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"cost": 1,
+		"gold": 2,
+		"maintenance": 0,
+		"uniques": [
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <when above [2] [City-level Counter]> <hidden from users>",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]",
+			"Will not be displayed in Civilopedia",
+			]
+	},
 	
-	/*
-		{
-			"name": "Do X",
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"uniques": [
-			
+	//Gold Dwarven Collective
+	{
+		"name": "Buy Circus Maximus",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [Circus Maximus] with [Gold]]",
+					"Gain a free [Circus Maximus] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
 					
-					]
-		},
+					"Only available <if [Circus Maximus] is not constructed>",
+					
+					],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Buy National College",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 999,
+		"uniques": ["Comment [Instantly purchase [National College] with [Gold]]",
+					"Gain a free [National College] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
+					
+					"Only available <if [National College] is not constructed> <hidden from users>",
+					
+					
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Buy National Epic",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [National Epic] with [Gold]]",
+					"Gain a free [National Epic] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
 		
-	*/
+					"Only available <if [National Epic] is not constructed> <hidden from users>",
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Buy Heroic Epic",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [Heroic Epic] with [Gold]]",
+					"Gain a free [Heroic Epic] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
+		
+					"Only available <if [Heroic Epic] is not constructed> <hidden from users>",
+		],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Buy Grand Temple",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [Grand Temple] with [Gold]]",
+					"Gain a free [Grand Temple] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
+		
+					"Only available <in cities without a [Grand Temple]> <hidden from users>",
+		],
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Buy National Treasury",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [National Treasury] with [Gold]]",
+					"Gain a free [National Treasury] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
+		
+					"Only available <if [National Treasury] is not constructed> <hidden from users>",
+		],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Buy Oxford University",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [Oxford University] with [Gold]]",
+					"Gain a free [Oxford University] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
+		
+					"Only available <if [Oxford University] is not constructed> <hidden from users>",
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Buy Ironworks",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [Ironworks] with [Gold]]",
+					"Gain a free [Ironworks] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
+		
+					"Only available <if [Ironworks] is not constructed> <hidden from users>",
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Buy Hermitage",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [Hermitage] with [Gold]]",
+					"Gain a free [Hermitage] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
+		
+					"Only available <if [Hermitage] is not constructed> <hidden from users>",
+		],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Buy National Intelligence Agency",
+		"uniqueTo": "Gold Dwarven Collective",
+		"cost": 0,
+		"uniques": ["Comment [Instantly purchase [National Intelligence Agency] with [Gold]]",
+					"Gain a free [National Intelligence Agency] [in this city] <hidden from users>",
+					"Unbuildable", "BuyNatWonder <hidden from users>",
+					"Will not be displayed in Civilopedia", "Unsellable",
+		
+					"Only available <if [National Intelligence Agency] is not constructed> <hidden from users>",
+		],
+		"requiredTech": "Radio"
+	},
+	
+	//Thanatos Theocracy
+	{
+		"name": "Black Citadel",
+		"uniqueTo": "Thanatos Theocracy",
+		"replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"cost": 160,
+		"faith": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Civil Service",
+		"uniques": [
+					"Destroyed when the city is captured",
+					"Comment [Unlocked at [Civil Service] vs [Chivalry]]",
+					"Comment [Enemy units within 2-tile radius of this city suffer -5% Strength and -5 HP when healing, doubled if adjacent]",
+		],
+	},
+		{
+			"name": "Shrine Limiter",
+			"uniqueTo": "Thanatos Theocracy",
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Shrine]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Temple Limiter",
+			"uniqueTo": "Thanatos Theocracy",
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Temple]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Black Citadel Limiter",
+			"uniqueTo": "Thanatos Theocracy",
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Black Citadel]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Cathedral Limiter",
+			"uniqueTo": "Thanatos Theocracy",
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Cathedral]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Monastery Limiter",
+			"uniqueTo": "Thanatos Theocracy",
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Unbuildable", "Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Monastery]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Mosque Limiter",
+			"uniqueTo": "Thanatos Theocracy",
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Mosque]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+		{
+			"name": "Pagoda Limiter",
+			"uniqueTo": "Thanatos Theocracy",
+			"cost": 1,
+			"uniques": ["Never destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Cannot be purchased", "Instantly gain [5] [Soul]",
+						"Automatically built in all cities where it is buildable", "Only available <in cities with a [Pagoda]>",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+	
+	
+	//Arata Clan
+	{
+		"name": "Yamajiro",
+		"uniqueTo": "Arata Clan",
+		"replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Comment [Enemy units within 1-tile radius of this city has its Movement set to 1]",
+					"[+2 Culture] <after discovering [Flight]>",
+					
+					"Destroyed when the city is captured",
+		]
+	},
+		
+	//Hide Clan
+	{
+		"name": "Hidden Village",
+		"uniqueTo": "Hide Clan",
+		"replaces": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["All newly-trained [Military] units [in this city] receive the [Kizuna] promotion",
+		
+					"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"
+					],
+		"requiredTech": "Bronze Working"
+	},
+	
 	/*
 	//TEST PURPOSE
-	
 		{
 			"name": "Do X",
 			"cost": 1,
 			"hurryCostModifier": -90,
 			"uniques": [
-			
-					"Instantly gain [1] [TR Limit] <hidden from users>",
-					"Provides [10] [Automata Parts] <hidden from users>",
+					"Free [Dreadguard] appears",
+					"Free [Hammerguard] appears",
+					"Free [Custodian] appears",
+					"Free [Shinobi] appears",
+					"Free [Aragoto Blademaster] appears",
+					"Free [Hobgoblin] appears",
+					"Free [Bear Cavalier] appears",
+					"Free [Wolfrider] appears",
+					"Free [Archer Maiden] appears",
+					"Free [Gilded Envoy] appears",
 					
 					]
 		},
-	
+		{
+			"name": "Do Y",
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"uniques": [
+			
+					"Instantly gain [100] [Soul] <hidden from users>",
+					
+					]
+		},
 	*/
+	
+	/* BACKEND TEMPLATE
+		{
+			"name": "BuildingName",
+			"uniqueTo": "CivName",
+			"cost": 1,
+			"uniques": ["Destroyed when the city is captured <hidden from users>", "Comment [Ignore this building]",
+						"Unbuildable", "Cannot be purchased",
+						"Unsellable <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>"]
+		},
+	*/
+	
 ]

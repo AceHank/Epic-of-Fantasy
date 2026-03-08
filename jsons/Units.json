@@ -1,46 +1,5 @@
 [	
-	/*
-	//Test Purpose
-		{
-			"name": "Meo",
-			"unitType": "Sword",
-			"replaces": "Warrior",
-			"uniqueTo": "Drow Village",
-			"movement": 5,
-			"strength": 10,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Outmaneuver", "Galestorm Leap"],
-			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
-						"[+5] Sight", "Can move immediately once bought", "Cannot attack <vs cities>", "[This Unit] gains the [Hellstride] status for [1] turn(s) <for [0] movement>",
-						"Gain [1000] [Gold] <upon turn end> <in [City center] tiles>",
-			],
-			"attackSound": "nonmetalhit"
-		},
-		{
-			"name": "Meo 2",
-			"unitType": "Armored",
-			"replaces": "Scout",
-			"uniqueTo": "Celestial Beings",
-			"movement": 5,
-			"strength": 10,
-			"cost": 1,
-			"hurryCostModifier": -90,
-			"promotions": ["Temporal Reset"],
-			"uniques": ["Ignores terrain cost","[This Unit] gains [100] XP <upon turn end>",
-						"May found a religion <for [0] movement>",
-						"May enhance a religion <for [0] movement>",
-						"Gain a free [Enhancer] belief <for [0] movement>",
-						"Can Spread Religion <for [0] movement>", "Removes other religions when spreading religion","Religious Unit", 
-						"May enter foreign tiles without open borders",
-						"Empire enters golden age <for [2] movement>",
-						"Can instantly construct a [Farm] improvement <for [2] movement>",
-						"[+5] Sight", "Can move immediately once bought",
-			],
-			"attackSound": "nonmetalhit"
-		"religiousStrength": 1000
-		},
-	*/
+	
 		
 	//OVERWRITES STUFF
 	{
@@ -72,7 +31,7 @@
 	//Dwarven Kingdom
 	{
 		"name": "Orichalcum Golem",
-		"uniqueTo": "Dwarven Kingdom",
+		"uniqueTo": "Stalwart Dwarven Kingdom",
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -677,7 +636,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Stampede", "Sturdy"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
@@ -711,12 +670,12 @@
 		"replaces": "Horseman",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 14,
+		"strength": 13,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Elusive"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit",
@@ -794,7 +753,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
-		"cost": 75,
+		"cost": 85,
 		"requiredTech": "Iron Working",
 		"requiredResource": "Iron",
 		"upgradesTo": "Longswordsman",
@@ -1106,7 +1065,7 @@
 		"name": "Lava Bomb",
 		"unitType": "Atomic Bomber",
 		"movement": 1,
-		"strength": 5,
+		"strength": 20,
 		"rangedStrength": 20,
 		"range": 3,
 		"cost": 1000,
@@ -1123,11 +1082,11 @@
 					//Backend stuffs
 					"[Target Unit] gains the [Lava Eruption] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
 					
-					"[+100]% Strength <starting from the [Medieval era]> <hidden from users>",
-					"[+150]% Strength <starting from the [Industrial era]> <hidden from users>",
-					"[+150]% Strength <starting from the [Modern era]> <hidden from users>",
-					"[+150]% Strength <starting from the [Atomic era]> <hidden from users>",
-					"[+150]% Strength <starting from the [Information era]> <hidden from users>",
+					"[+20] Strength <starting from the [Medieval era]> <hidden from users>",		
+					"[+30] Strength <starting from the [Industrial era]> <hidden from users>",		
+					"[+30] Strength <starting from the [Modern era]> <hidden from users>",	
+					"[+30] Strength <starting from the [Atomic era]> <hidden from users>",		
+					"[+30] Strength <starting from the [Information era]> <hidden from users>",		
 					
 					"[+1] Range <starting from the [Renaissance era]> <hidden from users>",
 					"[+1] Range <starting from the [Modern era]> <hidden from users>",
@@ -1188,13 +1147,13 @@
 			"uniques": ["Unbuildable", "Cannot be purchased", "Cannot be intercepted", 
 						"[-100]% maintenance costs", "No damage penalty for wounded units", "Cannot move",
 						"[-100]% XP gained from combat",
-						"[+50]% Strength <during the [Classical era]>",					//15
-						"[+150]% Strength <during the [Medieval era]>",					//25
-						"[+250]% Strength <during the [Renaissance era]>",				//35
-						"[+350]% Strength <during the [Industrial era]>",				//45
-						"[+600]% Strength <during the [Modern era]>",					//70
-						"[+700]% Strength <during the [Atomic era]>",					//80
-						"[+900]% Strength <starting from the [Information era]>"],		//100
+						"[+5] Strength <during the [Classical era]>",					//15
+						"[+15] Strength <during the [Medieval era]>",					//25
+						"[+25] Strength <during the [Renaissance era]>",				//35
+						"[+35] Strength <during the [Industrial era]>",					//45
+						"[+60] Strength <during the [Modern era]>",						//70
+						"[+75] Strength <during the [Atomic era]>",						//80
+						"[+90] Strength <starting from the [Information era]>"],		//100
 		//	"upgradesTo": "Sun Obelisk II",
 			"promotions": ["Scorching Blow", "Air Repair"],
 			"attackSound": "shot"
@@ -1320,11 +1279,11 @@
 					"Instantly provides [1] [Azaniroth Mana] <upon defeating a [non-[Barbarian]] unit> <when below [100] [Azaniroth Mana]> <hidden from users>",
 					
 					//Stuffs
-					"[+75]% Strength <during the [Renaissance era]> <hidden from users>",
-					"[+125]% Strength <during the [Industrial era]> <hidden from users>",
-					"[+325]% Strength <during the [Modern era]> <hidden from users>",
-					"[+375]% Strength <during the [Atomic era]> <hidden from users>",
-					"[+450]% Strength <starting from the [Information era]> <hidden from users>",
+					"[+8] Strength <during the [Renaissance era]> <hidden from users>",
+					"[+15] Strength <during the [Industrial era]> <hidden from users>",
+					"[+50] Strength <during the [Modern era]> <hidden from users>",
+					"[+60] Strength <during the [Atomic era]> <hidden from users>",
+					"[+90] Strength <starting from the [Information era]> <hidden from users>",
 					"Limited to [1] per Civilization <hidden from users>",
 					"Never appears as a Barbarian unit <hidden from users>", "Unbuildable <hidden from users>"],
 		"attackSound": "nonmetalhit",
@@ -1625,13 +1584,13 @@
 					
 					//Strength scaling
 					"May travel on Water tiles without embarking <hidden from users>", 
-					"[+100]% Strength <during the [Classical era]> <hidden from users>",						//20
-					"[+150]% Strength <during the [Medieval era]> <hidden from users>",							//25
-					"[+200]% Strength <during the [Renaissance era]> <hidden from users>",						//30
-					"[+300]% Strength <during the [Industrial era]> <hidden from users>",						//40
-					"[+700]% Strength <during the [Modern era]> <hidden from users>",							//80
-					"[+800]% Strength <during the [Atomic era]> <hidden from users>",							//90
-					"[+1100]% Strength <starting from the [Information era]> <hidden from users>",				//120
+					"[+10] Strength <during the [Classical era]> <hidden from users>",							//20
+					"[+15] Strength <during the [Medieval era]> <hidden from users>",							//25
+					"[+20] Strength <during the [Renaissance era]> <hidden from users>",						//30
+					"[+30] Strength <during the [Industrial era]> <hidden from users>",							//40
+					"[+70] Strength <during the [Modern era]> <hidden from users>",								//80
+					"[+80] Strength <during the [Atomic era]> <hidden from users>",								//90
+					"[+110] Strength <starting from the [Information era]> <hidden from users>",				//120
 					
 					//Stuffs
 					"Limited to [1] per Civilization <hidden from users>", "Cannot be purchased <hidden from users>",
@@ -1674,13 +1633,13 @@
 					
 					//Strength scaling
 					"May travel on Water tiles without embarking <hidden from users>", 
-					"[+100]% Strength <during the [Classical era]> <hidden from users>",						//20
-					"[+150]% Strength <during the [Medieval era]> <hidden from users>",							//25
-					"[+200]% Strength <during the [Renaissance era]> <hidden from users>",						//30
-					"[+300]% Strength <during the [Industrial era]> <hidden from users>",						//40
-					"[+700]% Strength <during the [Modern era]> <hidden from users>",							//80
-					"[+800]% Strength <during the [Atomic era]> <hidden from users>",							//90
-					"[+1100]% Strength <starting from the [Information era]> <hidden from users>",				//120
+					"[+10] Strength <during the [Classical era]> <hidden from users>",							//20
+					"[+15] Strength <during the [Medieval era]> <hidden from users>",							//25
+					"[+20] Strength <during the [Renaissance era]> <hidden from users>",						//30
+					"[+30] Strength <during the [Industrial era]> <hidden from users>",							//40
+					"[+70] Strength <during the [Modern era]> <hidden from users>",								//80
+					"[+80] Strength <during the [Atomic era]> <hidden from users>",								//90
+					"[+110] Strength <starting from the [Information era]> <hidden from users>",				//120
 					
 					//Stuffs
 					"Limited to [2] per Civilization <hidden from users>", "Will not be displayed in Civilopedia", "Cannot be purchased <hidden from users>",
@@ -1768,13 +1727,22 @@
 					"Comment [Strength scales with era]",
 					"Can build [Land] improvements on tiles",
 					
-					"[+100]% Strength <during the [Classical era]> <hidden from users>",						//10
-					"[+200]% Strength <during the [Medieval era]> <hidden from users>",							//15
-					"[+300]% Strength <during the [Renaissance era]> <hidden from users>",						//20
-					"[+400]% Strength <during the [Industrial era]> <hidden from users>",						//25
-					"[+600]% Strength <during the [Modern era]> <hidden from users>",							//35
-					"[+900]% Strength <during the [Atomic era]> <hidden from users>",							//50
-					"[+1400]% Strength <starting from the [Information era]> <hidden from users>",				//70
+					"[+5] Strength <during the [Classical era]> <hidden from users>",							//10
+					"[+10] Strength <during the [Medieval era]> <hidden from users>",							//15
+					"[+15] Strength <during the [Renaissance era]> <hidden from users>",						//20
+					"[+20] Strength <during the [Industrial era]> <hidden from users>",							//25
+					"[+30] Strength <during the [Modern era]> <hidden from users>",								//35
+					"[+45] Strength <during the [Atomic era]> <hidden from users>",								//50
+					"[+65] Strength <starting from the [Information era]> <hidden from users>",					//70
+					
+					//Balancer
+					"[-100]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-200]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-300]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-400]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-600]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-900]% Strength <before discovering [Agriculture]> <hidden from users>",					
+					"[-1400]% Strength <before discovering [Agriculture]> <hidden from users>",				
 					
 					"[This Unit] gains the [Cooldown] status for [3] turn(s) <hidden from users>",
 					"[Target Unit] takes [30] damage <upon damaging a [All] unit> <for units without [Cooldown]> <hidden from users>",
@@ -2015,9 +1983,9 @@
 					//Stuffs
 					"Only available <if [Gear Hive] is constructed> <hidden from users>",
 					
-					"[+50]% Strength <after discovering [Replaceable Parts]> <hidden from users>",						//60
-					"[+65]% Strength <after discovering [Plastics]> <hidden from users>",								//86
-					"[+40]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//100
+					"[+20] Strength <after discovering [Replaceable Parts]> <hidden from users>",						//60
+					"[+40] Strength <after discovering [Plastics]> <hidden from users>",								//80
+					"[+60] Strength <after discovering [Mobile Tactics]> <hidden from users>",							//100
 					
 					//Transform related stuffs
 					"Can transform to [Clockwerk Automata (Havoc)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
@@ -2055,12 +2023,12 @@
 					
 					//Stuffs
 					
-					"[+70]% Strength <after discovering [Replaceable Parts]> <hidden from users>",						//42an
-					"[+70]% Strength <after discovering [Plastics]> <hidden from users>",								//60an
-					"[+70]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//78
+					"[+15] Strength <after discovering [Replaceable Parts]> <hidden from users>",						//40
+					"[+35] Strength <after discovering [Plastics]> <hidden from users>",								//60
+					"[+50] Strength <after discovering [Mobile Tactics]> <hidden from users>",							//75
 					
-					"[+100]% Strength <vs [City]> <hidden from users>",													
-					"[+250]% Strength <vs [City]> <after discovering [Rocketry]> <hidden from users>",					
+					"[+50]% Strength <vs [City]> <hidden from users>",													
+					"[+50]% Strength <vs [City]> <after discovering [Rocketry]> <hidden from users>",					
 					
 					//Transform related stuffs
 					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
@@ -2104,8 +2072,8 @@
 					
 					//Stuffs
 					
-					"[+100]% Strength <after discovering [Ballistics]> <hidden from users>",							//60
-					"[+170]% Strength <after discovering [Advanced Ballistics]> <hidden from users>",					//80an
+					"[+30] Strength <after discovering [Ballistics]> <hidden from users>",							//60
+					"[+55] Strength <after discovering [Advanced Ballistics]> <hidden from users>",					//85
 					
 					//Transform related stuffs
 					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
@@ -2144,9 +2112,9 @@
 					
 					//Stuffs
 					
-					"[+25]% Strength <after discovering [Replaceable Parts]> <hidden from users>",						//50
-					"[+50]% Strength <after discovering [Plastics]> <hidden from users>",								//70
-					"[+50]% Strength <after discovering [Mobile Tactics]> <hidden from users>",							//90
+					"[+10] Strength <after discovering [Replaceable Parts]> <hidden from users>",						//50
+					"[+20] Strength <after discovering [Plastics]> <hidden from users>",								//70
+					"[+50] Strength <after discovering [Mobile Tactics]> <hidden from users>",							//90
 					
 					//Transform related stuffs
 					"Can transform to [Clockwerk Automata (Aegis)] <for [1] movement> <for [non-[Transform Cooldown]] units> <hidden from users>",
@@ -2341,11 +2309,11 @@
 					"Comment [Can be upgraded in Capital when the appropiate technology is researched.]",
 					
 					//Strength
-					"[+25]% Strength <during the [Renaissance era]> <hidden from users>",						//25
-					"[+75]% Strength <during the [Industrial era]> <hidden from users>",						//35
-					"[+175]% Strength <during the [Modern era]> <hidden from users>",							//55
-					"[+275]% Strength <during the [Atomic era]> <hidden from users>",							//75
-					"[+325]% Strength <starting from the [Information era]> <hidden from users>",				//85
+					"[+5] Strength <during the [Renaissance era]> <hidden from users>",						//25
+					"[+15] Strength <during the [Industrial era]> <hidden from users>",						//35
+					"[+35] Strength <during the [Modern era]> <hidden from users>",							//55
+					"[+55] Strength <during the [Atomic era]> <hidden from users>",							//75
+					"[+65] Strength <starting from the [Information era]> <hidden from users>",				//85
 					
 					//Upgrades T1
 					"[Target Unit] takes [5] damage <upon damaging a [All] unit> <if [Focusing Crystal I] is constructed> <hidden from users>",
@@ -2407,4 +2375,254 @@
 		]
 	},
 	
+	//Shield Dwarven Kingdom
+	{
+		"name": "Hammerguard",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 85,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Bonebreaker", "Heavily Armored"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Bear Cavalier",
+		"uniqueTo": "Shield Dwarven Kingdom",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 37,
+		"cost": 250,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"promotions": ["Sturdy", "Charger"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	
+	//Gold Dwarven Collective
+	{
+		"name": "Custodian",
+		"uniqueTo": "Gold Dwarven Collective",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 28,
+		"cost": 200,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I", "Heavily Armored", "Caravan Escort"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Gilded Envoy",
+		"uniqueTo": "Gold Dwarven Collective",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and 30 Influence, increasing by 5 Influence per era number]",
+			"Comment [[Gilded Envoy] has different pool from other Great Person, gaining [Gilded Envoy] doesn't increase the cost of other Great Person]",
+			
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <during the [Ancient era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [35] Influence <during the [Classical era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence <during the [Medieval era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence <during the [Renaissance era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence <during the [Industrial era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [55] Influence <during the [Modern era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence <during the [Atomic era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [65] Influence <during the [Information era]> <hidden from users>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [70] Influence <during the [Future era]> <hidden from users>",
+			
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Is part of Great Person group [Dwarven Merchant] <hidden from users>",
+            "[This Unit] gets a name from the [Gilded Envoys] group",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	
+	//Thanatos Theocracy
+	{
+		"name": "Dreadguard",
+		"uniqueTo": "Thanatos Theocracy",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 21,
+		"cost": 140,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"promotions": ["Disturbing Presence"]
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	
+	//The Justfolk
+	{
+		"name": "Frontman",
+		"uniqueTo": "The Justfolk",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Militia", "Unity in Misery"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	//Goblin Horde
+	{
+		"name": "Hobgoblin",
+		"uniqueTo": "Goblin Horde",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"promotions": ["Mend"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Wolfrider",
+		"uniqueTo": "Goblin Horde",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Ensnare"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	
+	//Arata Clan
+	{
+		"name": "Archer Maiden",
+		"unitType": "Archery",
+		"uniqueTo": "Arata Clan",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 7,
+		"cost": 1,
+		"upgradesTo": "Gatling Gun",
+		"uniques": [			
+					//STR Scaling
+					"[+4] Strength <after discovering [Construction]> <hidden from users>",
+					"[+7] Strength <after discovering [Machinery]> <hidden from users>",
+					
+					//stuff
+					"Will not be displayed in Civilopedia <hidden from users>",
+					"Never appears as a Barbarian unit <hidden from users>", 
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>",
+		],
+		"promotions": ["Shock I", "Extended Range", "Rain of Arrows"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Aragoto Blademaster",
+		"uniqueTo": "Arata Clan",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+		"uniques": ["Comment [Upgrades to [Rifleman] vs [Musketman]]"],
+		"promotions": ["Shock I", "Unyielding"],
+		"obsoleteTech": "Rifling",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	
+	//Hide Clan
+	{
+		"name": "Shinobi",
+		"uniqueTo": "Hide Clan",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["Invisibility", 
+					"ActiveShinobi <in [Enemy] tiles> <hidden from users>",
+					"Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost", "Shadow Exit", "Phantom Unit", "Kizuna"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	/*
+	//Test Purpose
+		{
+			"name": "Meo",
+			"unitType": "Sword",
+			"replaces": "Warrior",
+			"uniqueTo": "Goblin Horde",
+			"movement": 5,
+			"strength": 10,
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"promotions": ["Sturdy", "Runic Armament"],
+			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
+						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
+						
+						//Put test stuffs below
+						"[+15]% Strength bonus for [All] units within [2] tiles",
+						
+						
+			],
+			"attackSound": "nonmetalhit"
+			"religiousStrength": 1000
+		},
+		{
+			"name": "Meo 2",
+			"unitType": "Sword",
+			"replaces": "Warrior",
+			"uniqueTo": "Drow Village",
+			"movement": 5,
+			"strength": 10,
+			"rangedStrength": 10,
+			"range": 3,
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"promotions": ["Disturbing Presence"],
+			"uniques": ["Ignores terrain cost", "[This Unit] gains [100] XP <upon turn end>", "May travel on Water tiles without embarking",
+						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
+						
+						//Put test stuffs below
+						
+			],
+			"attackSound": "nonmetalhit"
+			"religiousStrength": 1000
+		},
+	*/
 ]

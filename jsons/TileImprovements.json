@@ -16,6 +16,8 @@
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor",
 			
 			//Mechanism
+			//Arata Clan Yamajiro
+            "YamajiroMarker <in cities with a [Yamajiro]> <hidden from users>",
 			//Thanatos Imperium Black Citadel
             "BlackCitadel <in cities with a [Black Citadel]> <hidden from users>",
 			//Just War fix compa
@@ -292,7 +294,6 @@
 		"shortcutKey": "X"
 	},
 	
-	/*
 	//Shield Dwarven Kingdom
 	{
 		"name": "Dwarven Mine",
@@ -303,6 +304,9 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": [
+			"Provides [1] [City-level Counter] <hidden from users>", 
+			
+			/*
 			"Provides [1] [City-level Counter] <in [Iron] tiles> <hidden from users>", 
 			"Provides [1] [City-level Counter] <in [Coal] tiles> <hidden from users>", 
 			"Provides [1] [City-level Counter] <in [Aluminum] tiles> <hidden from users>", 
@@ -312,11 +316,14 @@
 			"Provides [1] [City-level Counter] <in [Silver] tiles> <hidden from users>", 
 			"Provides [1] [City-level Counter] <in [Copper] tiles> <hidden from users>", 
 			"Provides [1] [City-level Counter] <in [Salt] tiles> <hidden from users>", 
+			*/
 			
 			"Will not be displayed in Civilopedia",
 			"[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
+	
+	/*
 	{
 		"name": "Dwarven Quarry",
 		"uniqueTo": "Shield Dwarven Kingdom",
@@ -324,13 +331,18 @@
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 		"uniques": [
-			"Provides [1] [City-level Counter] <in [Stone] tiles> <hidden from users>", 
-			"Provides [1] [City-level Counter] <in [Marble] tiles> <hidden from users>", 
+			"Provides [1] [City-level Counter] <hidden from users>", 
+			
+			
+		//	"Provides [1] [City-level Counter] <in [Stone] tiles> <hidden from users>", 
+		//	"Provides [1] [City-level Counter] <in [Marble] tiles> <hidden from users>", 
+			
 			
 			"Will not be displayed in Civilopedia",
 			"[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
+	*/
 	
 	//The Justfolk
 	{
@@ -355,6 +367,7 @@
 		"shortcutKey": "F"
 	},
 	
+	/*
 	//Test
 	{
 		"name": "Test UI",

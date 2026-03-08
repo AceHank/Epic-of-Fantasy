@@ -8,7 +8,9 @@
 		"choices": [
 			{
 				"text": "DescChoice",
-				"uniques": [""]
+				"uniques": ["",
+							
+				]
 			},
 		],
 	},
@@ -78,6 +80,113 @@
 						"Free [Modern Armor] appears <after discovering [Lasers]> <hidden from users>",
 						"Only available <after discovering [Combustion]> <hidden from users>",
 						]
+			},
+		],
+	},
+	
+	//Thanatos Theocracy
+	{
+		"name": "Unholy Ritual",
+		"text": "We have ushered into a new age, the Unholy Ritual must be performed to appease to the dead gods!",
+		"presentation": "Alert",	//None, Alert, Floating
+		"choices": [
+			{
+				"text": "Forbidden Knowledge",
+				"uniques": [
+						"Only available <when above [24] [Soul]> <hidden from users>",
+						
+						"Comment [+50% [Science] for 10 turns. Cost 25 [Soul].]",
+						"Comment [+1 [Science] in all cities for every Forbidden Knowledge casted]",
+						
+						//backend
+						"[+25]% [Science] <for [10] turns> <hidden from users>",
+						"Instantly gain [1] [FKLimit] <hidden from users>",
+						"Instantly gain [-25] [Soul] <hidden from users>",
+						
+				]
+			},
+			{
+				"text": "Thanatos' Oath",
+				"uniques": [
+						"Only available <when above [24] [Soul]> <hidden from users>",
+						
+						"Comment [+25% Strength and +1 Movement for 10(+Thanatos' Oath count x 3) turns. Cost 25 [Soul].]",
+						"Comment [+3 turns of duration for every Thanatos' Oath casted]",
+						
+						//backend
+						"[+25]% Strength <for [10] turns> <when number of [TOLimit] is equal to [0]> <hidden from users>",
+						"[+25]% Strength <for [13] turns> <when number of [TOLimit] is equal to [1]> <hidden from users>",
+						"[+25]% Strength <for [16] turns> <when number of [TOLimit] is equal to [2]> <hidden from users>",
+						"[+25]% Strength <for [19] turns> <when number of [TOLimit] is equal to [3]> <hidden from users>",
+						"[+25]% Strength <for [22] turns> <when number of [TOLimit] is equal to [4]> <hidden from users>",
+						"[+25]% Strength <for [25] turns> <when number of [TOLimit] is equal to [5]> <hidden from users>",
+						"[+25]% Strength <for [28] turns> <when number of [TOLimit] is equal to [6]> <hidden from users>",
+						"[+25]% Strength <for [31] turns> <when number of [TOLimit] is equal to [7]> <hidden from users>",
+						"[+25]% Strength <for [34] turns> <when number of [TOLimit] is equal to [8]> <hidden from users>",
+						
+						"[+1] Movement <for [10] turns> <when number of [TOLimit] is equal to [0]> <hidden from users>",
+						"[+1] Movement <for [13] turns> <when number of [TOLimit] is equal to [1]> <hidden from users>",
+						"[+1] Movement <for [16] turns> <when number of [TOLimit] is equal to [2]> <hidden from users>",
+						"[+1] Movement <for [19] turns> <when number of [TOLimit] is equal to [3]> <hidden from users>",
+						"[+1] Movement <for [22] turns> <when number of [TOLimit] is equal to [4]> <hidden from users>",
+						"[+1] Movement <for [25] turns> <when number of [TOLimit] is equal to [5]> <hidden from users>",
+						"[+1] Movement <for [28] turns> <when number of [TOLimit] is equal to [6]> <hidden from users>",
+						"[+1] Movement <for [31] turns> <when number of [TOLimit] is equal to [7]> <hidden from users>",
+						"[+1] Movement <for [34] turns> <when number of [TOLimit] is equal to [8]> <hidden from users>",
+						
+						"Instantly gain [1] [TOLimit] <hidden from users>",
+						"Instantly gain [-25] [Soul] <hidden from users>",
+						
+				]
+			},
+			{
+				"text": "Enlightenment",
+				"uniques": [
+						"Only available <when above [29] [Soul]> <hidden from users>",
+						
+						"Comment [Empire enters golden age. Cost 30 [Soul].]",
+						"Comment [+3 Golden Age points per city for every Enlightenment casted]",
+						"Comment [+25% Golden Age length for every Enlightenment casted]",
+						
+						//backend
+						"Empire enters golden age <hidden from users>",
+						
+						"Instantly gain [1] [ELimit] <hidden from users>",
+						"Instantly gain [-30] [Soul] <hidden from users>",
+						
+				]
+			},
+			{
+				"text": "Ascension Rite",
+				"uniques": [						
+						"Only available <when above [44] [Soul]> <hidden from users>",
+						
+						"Comment [Gain a free Great Person. Cost 45 [Soul].]",
+						"Comment [+10% Great Person generation in all cities for every Ascension Rite casted]",
+						
+						//backend
+						"Free Great Person <hidden from users>",
+						
+						"Instantly gain [1] [ARLimit] <hidden from users>",
+						"Instantly gain [-45] [Soul] <hidden from users>",
+						
+				]
+			},
+			{
+				"text": "Soul Harvest",
+				"uniques": [
+						"Comment [Gain [Faith] & [Gold] equal to 5(+Soul Harvest count x 5) times stockpiled [Soul]. Consumes all [Soul].]",
+						"Comment [+5 [Soul] multiplier for every Soul Harvest casted]",
+						
+						//backend
+						"Instantly gain [5] [Gold] <for every [Soul]> <for every [SHLimit]> <hidden from users>",
+						"Instantly gain [5] [Faith] <for every [Soul]> <for every [SHLimit]> <hidden from users>",
+						
+						"Instantly gain [1] [SHLimit] <hidden from users>",
+						"Instantly gain [-1] [Soul] <for every [Soul]> <hidden from users>",
+					//	"Set [Soul] to [0] <hidden from users>", //Seems there is a bug when setting to 0
+						
+				]
 			},
 		],
 	},

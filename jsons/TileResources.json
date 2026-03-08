@@ -473,4 +473,251 @@
 		]
 	},
 	
+	//Goblin Horde
+	{
+		"name": "FursToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "CottonToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "DyesToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "GemsToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "GoldOreToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "SilverToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "IncenseToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "IvoryToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "SilkToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "SpicesToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "WineToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "SugarToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "MarbleToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "WhalesToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "PearlsToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "CitrusToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "CopperToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "CrabToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "SaltToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "TrufflesToken",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	
+	//Tsukikage Kenzoku
+	{
+		"name": "Waning",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[Tsukikage Kenzoku]] Civilizations>", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Waxing",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[Tsukikage Kenzoku]] Civilizations>", "Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
 ]

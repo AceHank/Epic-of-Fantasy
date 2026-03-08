@@ -281,7 +281,7 @@
 					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
-			
+
 		]
 	},
 	
@@ -569,7 +569,7 @@
 	{
 		"name": "Runic Armament",
 		"uniques": ["Comment [Double the combat bonus received from [Great General]]",
-			"[+15]% Strength bonus for [{Military} {Runic Armament}] units within [2] tiles <for [Great General] units> <hidden from users>",
+			"[+15]% Strength bonus for [{non-[Great General]} {Runic Armament}] units within [2] tiles <hidden from users>",
 		]
 	},
 	
@@ -581,23 +581,23 @@
 		]
 	},
 	
-	//Thanatos Imperium
+	//Thanatos Theocracy
 	{
 		"name": "Disturbing Presence",
-		"uniques": ["Comment [When attacked, the attacker suffers -5% Strength for 3 turns. This effect may stacks.]",
+		"uniques": ["Comment [Units attacking this unit receive [Baned] for 1 turn.]",
 		]
 	},
 	
 	//The Justfolk
 	{
-		"name": "Militia",		
-		"uniques": ["Comment [This unit gain bonus in [Fortified Farm] tiles]",
+		"name": "Armed Farmer",		
+		"uniques": ["Comment [This unit heals in [Fortified Farm] tiles]",
 					"[This Unit] heals [5] HP <upon ending a turn in a [Fortified Farm] tile> <hidden from users>",
 					"[This Unit] heals [5] HP <upon ending a turn in a [Fortified Farm] tile> <with [Marker]> <hidden from users>",
 		]
 	},
 	{
-		"name": "Man-at-Arms",
+		"name": "Militia",
 		"uniques": ["Comment [May build [Fortified Farm], [Road], and remove terrain features]",
 					"Can build [Road] improvements on tiles <hidden from users>",
 					"Can build [Fortified Farm] improvements on tiles <hidden from users>",
@@ -613,6 +613,56 @@
 					"[+10]% Strength <when adjacent to a [Wounded] unit>",
 		]
 	},
+	
+	//Hide Clan
+	{
+		"name": "Alert",
+		"uniques": [
+					"Can see over obstacles <in [Enemy] tiles>",
+		]
+	},	
+	{
+		"name": "ShinobiTransform",
+		"uniques": [
+					"[This Unit] takes [100] damage",
+		]
+	},	
+	{
+		"name": "Kizuna",
+		"uniques": ["Comment [+5% Strength for every 2 [Shinobi] in Enemy territory, up to +50%.]",
+		
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [1]> <hidden from users>",	
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [3]> <hidden from users>",	
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [5]> <hidden from users>",
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [7]> <hidden from users>", 
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [9]> <hidden from users>", 
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [11]> <hidden from users>",
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [13]> <hidden from users>", 
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [15]> <hidden from users>", 
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [17]> <hidden from users>",
+					"[+5]% Strength <when number of [[ShinobiActive] Units] is more than [19]> <hidden from users>", 
+		]
+	},	
+	{
+		"name": "Phantom Unit",
+		"uniques": ["Comment [May enter foreign tiles without open border. Invisible to non-adjacent units. [Kizuna] also provides flat +2 Strength for every 2 [Shinobi] in Enemy territory (up to +20) starting from the Renaissance era.]",
+					
+					"May enter foreign tiles without open borders <hidden from users>",
+					"Invisible to non-adjacent units <hidden from users>",
+					
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [1]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [3]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [5]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [7]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [9]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [11]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [13]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [15]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [17]> <starting from the [Renaissance era]> <hidden from users>",
+					"[+2] Strength <when number of [[ShinobiActive] Units] is more than [19]> <starting from the [Renaissance era]> <hidden from users>",
+		]
+	},	
+	
 	
 	//Universal~~~~~~~
 	{
@@ -721,7 +771,7 @@
 	},
 	{
 		"name": "Greenskin",
-		"uniques": ["[This Unit] heals [3] HP <upon turn end>"]		
+		"uniques": ["[This Unit] heals [1] HP <upon turn end>"]
 	},
 	{
 		"name": "Plunderer",
@@ -1760,7 +1810,7 @@
 	//Bakunawa's Chosen
 	{
 		"name": "Mind Spike",
-		"uniques": ["Comment [Attack applies [Disoriented] for 2 turns. [Disoriented] unit has -1 Range and will miss 50% of its Melee attack.]",
+		"uniques": ["Comment [Attack applies [Disoriented] for 2 turns. [Disoriented] unit has -1 Range if Ranged and will miss 50% of its attack if Melee.]",
 					"[Target Unit] gains the [Disoriented] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 					]
 	},
@@ -1815,7 +1865,7 @@
 			{"text": "[Aspect of Eagle]: Gain Flying"}
 			{"text": "[Aspect of Tortoise]: Reduces damage taken by 10"}
 			{"text": "[[Aspect of Horse]: +1 Movement"}
-			{"text": "[[Aspect of Owl]: +2 Sight, Can see over obstacle and invis unit"}
+			{"text": "[[Aspect of Owl]: +2 Sight, can see over obstacle and can see Invisibility unit"}
 			{"text": "[[Aspect of Seal]: This unit is [Water Creature]"}
 		]
 	},
@@ -1907,6 +1957,42 @@
 	
 	//Goblin Horde
 	{
+		"name": "Horde Raider",
+		"uniques": ["Comment [May steal a Luxury resource on this tile]",
+					"[This Unit] gains the [Steal Luxury] status for [1] turn(s) <for all movement> <in [{unimproved} {Enemy}] tiles> <in [Luxury resource] tiles> <when below [3] [Counter Something]> <hidden from users>",
+					
+					//Stockpiled
+					"Instantly gain [1] [FursToken] <upon gaining the [Steal Luxury] status> <in [Furs] tiles> <hidden from users>",
+					"Instantly gain [1] [CottonToken] <upon gaining the [Steal Luxury] status> <in [Cotton] tiles> <hidden from users>",
+					"Instantly gain [1] [DyesToken] <upon gaining the [Steal Luxury] status> <in [Dyes] tiles> <hidden from users>",
+					"Instantly gain [1] [GemsToken] <upon gaining the [Steal Luxury] status> <in [Gems] tiles> <hidden from users>",
+					"Instantly gain [1] [GoldOreToken] <upon gaining the [Steal Luxury] status> <in [Gold Ore] tiles> <hidden from users>",
+					"Instantly gain [1] [SilverToken] <upon gaining the [Steal Luxury] status> <in [Silver] tiles> <hidden from users>",
+					"Instantly gain [1] [IncenseToken] <upon gaining the [Steal Luxury] status> <in [Incense] tiles> <hidden from users>",
+					"Instantly gain [1] [IvoryToken] <upon gaining the [Steal Luxury] status> <in [Ivory] tiles> <hidden from users>",
+					"Instantly gain [1] [SilkToken] <upon gaining the [Steal Luxury] status> <in [Silk] tiles> <hidden from users>",
+					"Instantly gain [1] [SpicesToken] <upon gaining the [Steal Luxury] status> <in [Spices] tiles> <hidden from users>",
+					"Instantly gain [1] [WineToken] <upon gaining the [Steal Luxury] status> <in [Wine] tiles> <hidden from users>",
+					"Instantly gain [1] [SugarToken] <upon gaining the [Steal Luxury] status> <in [Sugar] tiles> <hidden from users>",
+					"Instantly gain [1] [MarbleToken] <upon gaining the [Steal Luxury] status> <in [Marble] tiles> <hidden from users>",
+					"Instantly gain [1] [WhalesToken] <upon gaining the [Steal Luxury] status> <in [Whales] tiles> <hidden from users>",
+					"Instantly gain [1] [PearlsToken] <upon gaining the [Steal Luxury] status> <in [Pearls] tiles> <hidden from users>",
+					"Instantly gain [1] [CitrusToken] <upon gaining the [Steal Luxury] status> <in [Citrus] tiles> <hidden from users>",
+					"Instantly gain [1] [CopperToken] <upon gaining the [Steal Luxury] status> <in [Copper] tiles> <hidden from users>",
+					"Instantly gain [1] [CrabToken] <upon gaining the [Steal Luxury] status> <in [Crab] tiles> <hidden from users>",
+					"Instantly gain [1] [SaltToken] <upon gaining the [Steal Luxury] status> <in [Salt] tiles> <hidden from users>",
+					"Instantly gain [1] [TrufflesToken] <upon gaining the [Steal Luxury] status> <in [Truffles] tiles> <hidden from users>",
+					
+					"Remove [Luxury] resources from this tile <upon gaining the [Steal Luxury] status> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon gaining the [Steal Luxury] status> <hidden from users>",
+		]
+	},	
+	{
+		"name": "Steal Luxury",
+		"uniques": ["Comment [May steal a Luxury resource on this tile]",
+		]
+	},	
+	{
 		"name": "Mend",
 		"uniques": ["Comment [Activate to instantly heal 25 HP. Only available when below 50 HP. Cooldown: 15 turns.]",
 					"[This Unit] gains the [Mend Cooldown] status for [15] turn(s) <for [0] movement> <for units without [Mend Cooldown]> <when below [50] HP> <hidden from users>",
@@ -1929,6 +2015,54 @@
 	{
 		"name": "Ensnare Cooldown",
 		"uniques": ["Comment [Ensnare on cooldown.]"]
+	},
+	
+	//Arata Clan
+	{
+		"name": "Rain of Arrows",
+		"uniques": ["Comment [Activate to gain +25% Strength and can attack over obstacle until the end of this turn. Cooldown: 7 turns.]",
+					"[This Unit] gains the [Rain of Arrows Active] status for [1] turn(s) <for [0] movement> <for units without [Rain of Arrows Cooldown]> <hidden from users>",	
+					],
+	},
+	{
+		"name": "Rain of Arrows Active",
+		"uniques": ["[+25]% Strength",
+					"Ranged attacks may be performed over obstacles",
+					
+					"[This Unit] gains the [Rain of Arrows Cooldown] status for [7] turn(s) <upon gaining the [Rain of Arrows Active] status> <hidden from users>",
+					"[This Unit] loses the [Rain of Arrows Active] status <upon turn end> <hidden from users>",
+					]
+	},
+	{
+		"name": "Rain of Arrows Cooldown",
+		"uniques": ["Comment [Rain of Arrows is on Cooldown]"]
+	},
+	{
+		"name": "Unyielding",
+		"uniques": ["Comment [Gain [Debuff Immune] for 1 turn upon reaching 50 HP and 25 HP.]",
+					
+					"[This Unit] gains the [Debuff Immune] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <when below [51] HP> <hidden from users>",
+					"[This Unit] gains the [Debuff Immune] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <when below [26] HP> <hidden from users>",
+		]
+	},
+	
+	//Hide Clan
+	{
+		"name": "Shadow Exit",
+		"uniques": ["Comment [Activate to gain Invisibility for 2 turn and may teleport 3-tiles away. Only useable as first action. Can only be used once.]",
+					"[This Unit] gains the [Shadow Exit Active] status for [1] turn(s) <for [0] movement> <if it hasn't used other actions yet> <removing the [Shadow Exit] promotion/status> <hidden from users>",	
+					],
+	},
+	{
+		"name": "Shadow Exit Active",
+		"uniques": ["Invisible to others",
+					"May Paradrop to [All] tiles up to [3] tiles away",
+					
+					]
+	},
+	{
+		"name": "Shadow Exit Cooldown",
+		"uniques": ["Comment [Shadow Exit is on Cooldown]"]
 	},
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
@@ -2220,6 +2354,7 @@
 		],
 	},
 	
+	/*
 	//TEST PURPOSE
 	{
 		"name": "Light Foot",
@@ -2236,8 +2371,7 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
-	
-	//Debuffs List
+	*/
 	
 	//Back end stuff
 	{

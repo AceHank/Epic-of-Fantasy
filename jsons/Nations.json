@@ -2,9 +2,9 @@
 	
 	//Higba of Stalwart Dwarven Kingdom
 	{
-		"name": "Dwarven Kingdom",
+		"name": "Stalwart Dwarven Kingdom",
 		"leaderName": "Higba",
-		"adjective": ["Dwarven"],
+		"adjective": ["Stalwart Dwarven"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Ingenious Artisan",
@@ -25,13 +25,13 @@
 		"outerColor": [35, 50, 116]
 		"innerColor": [194, 194, 194],
 		"uniqueName": "Higba's Ingenuity",
-		"uniques": ["Comment [+1 [Production] every 2 eras for cities settled on [Hill]]",
-					"Comment [+1 [Science] and +1 [Production] in all cities for every Golden Ages achieved]",
+		"uniques": [
 					"Comment [-5% Unhappiness from Population in cities with [Wine]]",
+					"Comment [+1 [Production] every 2 eras for cities settled on [Hill]]",
+					"Comment [+5% [Science] in all cities for every Golden Ages achieved]",
 					
 					"Instantly provides [1] [GA Counter] <upon entering a Golden Age> <hidden from users>",
-					"[+1 Science] [in all cities] <for every [GA Counter]> <hidden from users>",
-					"[+1 Production] [in all cities] <for every [GA Counter]> <hidden from users>",
+					"[+5]% [Science] [in all cities] <for every [GA Counter]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]> <hidden from users>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]> <hidden from users>",
@@ -114,7 +114,11 @@
 		"outerColor": [24,114,40],
 		"uniqueName": "Endless Horde",
 		"uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities] <in cities with a [Barracks]>",
-					"[+25]% to Flank Attack bonuses"], 
+					"[+25]% to Flank Attack bonuses",
+					"Comment [All units heal 1 HP upon turn end]",
+					
+					"[All] units gain the [Greenskin] promotion <hidden from users>",
+					], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
@@ -483,22 +487,35 @@
 		"uniqueName": "Crimson Sky",
 		"uniques": [
 					"Comment [+1 [Happiness] from every [Barracks], [Armory], and [Military Academy]]",
-					"Comment [2 free [Pitlord]s appear upon completing your first Policy tree]",
+					"Comment [2 free [Pitlord]s appear upon completing your first Policy tree (also provides 2 [Horses])]",
 					
 					"[+1 Happiness] from every [Barracks] <hidden from users>", 
 					"[+1 Happiness] from every [Armory] <hidden from users>", 
 					"[+1 Happiness] from every [Military Academy] <hidden from users>", 
 					
-					"[2] free [Pitlord] units appear <upon adopting [Tradition Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Liberty Complete]> <before adopting [Tradition Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Honor Complete]> <before adopting [Liberty Complete]><before adopting [Tradition Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Piety Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Tradition Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Patronage Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Tradition Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Commerce Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Tradition Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Rationalism Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Tradition Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Freedom Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Tradition Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]> <hidden from users>", 
-					"[2] free [Pitlord] units appear <upon adopting [Autocracy Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Tradition Complete]><before adopting [Order Complete]> <hidden from users>",
-					"[2] free [Pitlord] units appear <upon adopting [Order Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Tradition Complete]> <hidden from users>",
+					"Provides [2] [Horses] <with [Counter Something]> <hidden from users>",
+					
+					"[2] free [Pitlord] units appear <upon adopting [Tradition Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Liberty Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Honor Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Piety Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Patronage Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Commerce Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Rationalism Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Freedom Complete]> <without [Counter Something]> <hidden from users>", 
+					"[2] free [Pitlord] units appear <upon adopting [Autocracy Complete]> <without [Counter Something]> <hidden from users>",
+					"[2] free [Pitlord] units appear <upon adopting [Order Complete]> <without [Counter Something]> <hidden from users>",
+					
+					"Instantly gain [1] [Counter Something] <upon adopting [Tradition Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Liberty Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Honor Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Piety Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Patronage Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Commerce Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Rationalism Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Freedom Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Autocracy Complete]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <upon adopting [Order Complete]> <hidden from users>",
 					], 
 		"cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
 			"Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith"],
@@ -1972,30 +1989,30 @@
 		"outerColor": [194,160,119],
 		"innerColor": [162,9,50],
 		"uniqueName": "Fierce and Courageous",
-		"uniques": ["Comment [Military land units gain +7% Strength for each promotion they gained from the promotions tree]",
+		"uniques": ["Comment [Military land units gain +5% Strength for each promotion they gained from the promotions tree]",
 					"Comment [Gain free [Palisade] for cities settled within 2 tiles of a [Jungle]]",
 		
 					"Gain a free [Palisade] [in all cities] <within [2] tiles of a [Jungle]> <hidden from users>",
 					//Melee, Mounted, Armor
-					"[+7]% Strength <for units with [Shock I]> <hidden from users>", "[+7]% Strength <for units with [Shock II]> <hidden from users>", "[+7]% Strength <for units with [Shock III]> <hidden from users>",
-					"[+7]% Strength <for units with [Drill I]> <hidden from users>", "[+7]% Strength <for units with [Drill II]> <hidden from users>", "[+7]% Strength <for units with [Drill III]> <hidden from users>",
-					"[+7]% Strength <for units with [Charge]> <hidden from users>", "[+7]% Strength <for units with [Besiege]> <hidden from users>", "[+7]% Strength <for units with [Blitz]> <hidden from users>",
-					"[+7]% Strength <for units with [Formation I]> <hidden from users>", "[+7]% Strength <for units with [Formation II]> <hidden from users>",
-					"[+7]% Strength <for units with [Woodsman]> <hidden from users>", "[+7]% Strength <for units with [Amphibious]> <hidden from users>", "[+7]% Strength <for units with [Medic]> <hidden from users>", "[+7]% Strength <for units with [Medic II]> <hidden from users>",
+					"[+5]% Strength <for units with [Shock I]> <hidden from users>", "[+5]% Strength <for units with [Shock II]> <hidden from users>", "[+5]% Strength <for units with [Shock III]> <hidden from users>",
+					"[+5]% Strength <for units with [Drill I]> <hidden from users>", "[+5]% Strength <for units with [Drill II]> <hidden from users>", "[+5]% Strength <for units with [Drill III]> <hidden from users>",
+					"[+5]% Strength <for units with [Charge]> <hidden from users>", "[+5]% Strength <for units with [Besiege]> <hidden from users>", "[+5]% Strength <for units with [Blitz]> <hidden from users>",
+					"[+5]% Strength <for units with [Formation I]> <hidden from users>", "[+5]% Strength <for units with [Formation II]> <hidden from users>",
+					"[+5]% Strength <for units with [Woodsman]> <hidden from users>", "[+5]% Strength <for units with [Amphibious]> <hidden from users>", "[+5]% Strength <for units with [Medic]> <hidden from users>", "[+5]% Strength <for units with [Medic II]> <hidden from users>",
 					//Ranged, Siege
-					"[+7]% Strength <for units with [Accuracy I]> <hidden from users>", "[+7]% Strength <for units with [Accuracy II]> <hidden from users>", "[+7]% Strength <for units with [Accuracy III]> <hidden from users>",
-					"[+7]% Strength <for units with [Barrage I]> <hidden from users>", "[+7]% Strength <for units with [Barrage II]> <hidden from users>", "[+7]% Strength <for units with [Barrage III]> <hidden from users>",
-					"[+7]% Strength <for units with [Volley]> <hidden from users>", "[+7]% Strength <for units with [Extended Range]> <hidden from users>", "[+7]% Strength <for units with [Indirect Fire]> <hidden from users>",
+					"[+5]% Strength <for units with [Accuracy I]> <hidden from users>", "[+5]% Strength <for units with [Accuracy II]> <hidden from users>", "[+5]% Strength <for units with [Accuracy III]> <hidden from users>",
+					"[+5]% Strength <for units with [Barrage I]> <hidden from users>", "[+5]% Strength <for units with [Barrage II]> <hidden from users>", "[+5]% Strength <for units with [Barrage III]> <hidden from users>",
+					"[+5]% Strength <for units with [Volley]> <hidden from users>", "[+5]% Strength <for units with [Extended Range]> <hidden from users>", "[+5]% Strength <for units with [Indirect Fire]> <hidden from users>",
 					//Scout
-					"[+7]% Strength <for units with [Scouting I]> <hidden from users>", "[+7]% Strength <for units with [Scouting II]> <hidden from users>", "[+7]% Strength <for units with [Scouting III]> <hidden from users>",
-					"[+7]% Strength <for units with [Survivalism I]> <hidden from users>", "[+7]% Strength <for units with [Survivalism II]> <hidden from users>", "[+7]% Strength <for units with [Survivalism III]> <hidden from users>",
+					"[+5]% Strength <for units with [Scouting I]> <hidden from users>", "[+5]% Strength <for units with [Scouting II]> <hidden from users>", "[+5]% Strength <for units with [Scouting III]> <hidden from users>",
+					"[+5]% Strength <for units with [Survivalism I]> <hidden from users>", "[+5]% Strength <for units with [Survivalism II]> <hidden from users>", "[+5]% Strength <for units with [Survivalism III]> <hidden from users>",
 					//Helicopter
-					"[+7]% Strength <for units with [Mobility I]> <hidden from users>", "[+7]% Strength <for units with [Mobility II]> <hidden from users>", "[+7]% Strength <for units with [Anti-Armor I]> <hidden from users>", "[+7]% Strength <for units with [Anti-Armor II]> <hidden from users>",
+					"[+5]% Strength <for units with [Mobility I]> <hidden from users>", "[+5]% Strength <for units with [Mobility II]> <hidden from users>", "[+5]% Strength <for units with [Anti-Armor I]> <hidden from users>", "[+5]% Strength <for units with [Anti-Armor II]> <hidden from users>",
 					//Mixed but for Land only
-					"[+7]% Strength <for [Land] units> <for units with [Cover I]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Cover II]> <hidden from users>", 
-					"[+7]% Strength <for [Land] units> <for units with [March]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Mobility]> <hidden from users>",
-					"[+7]% Strength <for [Land] units> <for units with [Sentry]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Logistics]> <hidden from users>",
-					"[+7]% Strength <for [Land] units> <for units with [Ambush I]> <hidden from users>", "[+7]% Strength <for [Land] units> <for units with [Ambush II]> <hidden from users>",
+					"[+5]% Strength <for [Land] units> <for units with [Cover I]> <hidden from users>", "[+5]% Strength <for [Land] units> <for units with [Cover II]> <hidden from users>", 
+					"[+5]% Strength <for [Land] units> <for units with [March]> <hidden from users>", "[+5]% Strength <for [Land] units> <for units with [Mobility]> <hidden from users>",
+					"[+5]% Strength <for [Land] units> <for units with [Sentry]> <hidden from users>", "[+5]% Strength <for [Land] units> <for units with [Logistics]> <hidden from users>",
+					"[+5]% Strength <for [Land] units> <for units with [Ambush I]> <hidden from users>", "[+5]% Strength <for [Land] units> <for units with [Ambush II]> <hidden from users>",
 					],
 		"cities": ["Antiopea","Melanippe","Hippolyta","Thermodosa","Orithyia","Andromacheia","Lysippeia","Euryaleia","Cyreneia","Myrineia","Arktos",
 			"Xandar","Mynaria"],
@@ -2168,9 +2185,9 @@
 
 		"uniqueName": "Black Land, My River",
 		"uniques": ["Comment [Before founding Pantheon, gain enough [Faith] for a Pantheon upon researching [Masonry]]",
-					"Comment [Receive a Pantheon belief upon completing the first [Sphinx] and World Wonder]",
+					"Comment [Adopt a Pantheon belief upon completing the first [Sphinx] and World Wonder]",
 					"Comment [Gain access to exclusive Pantheon beliefs]",
-		
+					
 					"Gain a free [Pantheon] belief <upon building a [Sphinx] improvement> <when below [2] [Kemetian First Sphinx]> <hidden from users>", 
 					"Gain a free [Pantheon] belief <upon constructing [World Wonder]> <when below [2] [Kemetian First Wonder]> <hidden from users>",
 					"Gain enough Faith for a Pantheon <upon discovering [Masonry] technology> <before founding a Pantheon> <hidden from users>",
@@ -2596,7 +2613,7 @@
 
 		"uniqueName": "Per Morbus Arcanorum Vivemus",
 		"uniques": ["Comment [+34% [Production] when constructing [Settler] in cities with 5 or less Population]",
-					"Comment [-15% Growth in cities with 5 or less Population]",
+					"Comment [-10% Growth in cities with 5 or less Population]",
 					
 					"Comment [\n[Mana Tainted]:]",
 					"Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon taking damage.]",
@@ -2604,7 +2621,7 @@
 					
 					"[Land] units gain the [Mana Tainted] promotion <hidden from users>",
 					"[+34]% Production when constructing [Settler] units [in all cities] <in cities with less than [6] [Population]> <hidden from users>",
-					"[-15]% growth [in all cities] <in cities with less than [6] [Population]> <hidden from users>",
+					"[-10]% growth [in all cities] <in cities with less than [6] [Population]> <hidden from users>",
 					"Instantly gain [8] [Counter Something] <upon gaining a [Blight Spores] unit> <hidden from users>",
 					"Instantly gain [-1] [Counter Something] <upon turn end> <with [Counter Something]> <hidden from users>",
 					
@@ -2825,7 +2842,6 @@
         ]
 	},
 	
-	/*
 	//Birundar IV of Shield Dwarven Kingdom
 	{
 		"name": "Shield Dwarven Kingdom",
@@ -2917,9 +2933,9 @@
         ]
 	},
 	
-	//Mordraugr of Thanatos Imperium
+	//Mordraugr of Thanatos Theocracy
 	{
-		"name": "Thanatos Imperium",
+		"name": "Thanatos Theocracy",
 		"leaderName": "Mordraugr",
 		"adjective": ["Thanatorian"],
 		"startBias": ["Tundra"],
@@ -2954,11 +2970,11 @@
 					//Forbidden Knowledge
 					"[+1 Science] [in all cities] <for every [FKLimit]> <hidden from users>",
 					//Enlightenment
-					"Instantly gain [3] [Golden Age points] <upon turn end> <for every [Cities]> <for every [ELimit]> <hidden from users>",
+					"[+25]% Golden Age length <for every [ELimit]> <hidden from users>",
 					//Ascencion Rite
-					"[+5]% Great Person generation [in all cities] <for every [ARLimit]> <hidden from users>",
+					"[+10]% Great Person generation [in all cities] <for every [ARLimit]> <hidden from users>",
 					//Soul Harvest
-					"Instantly gain [2] [SHLimit] <hidden from users>",
+					"Instantly gain [1] [SHLimit] <hidden from users>",
 					
 					],
 		"cities": ["Mordheim", "Thanora", "Erevos", "Blackspire", "Necropolis Prime", "Gravemarch", "Soulforge", "Obsidian Reach", "Deathwatch", "Morvath", "Vespera", "Doomgate", "Tenebris", "Ravencrown", "Cryptveil"],
@@ -2967,11 +2983,11 @@
 			{"text":"Desc"},
 			{"text":"Desc"},
 			{"text":"Unholy Ritual list:"},
-			{"text":"Forbidden Knowledge: +25% [Science] for 10 turns. Cost 25 [Soul]. +1 [Science] in all cities for every Forbidden Knowledge casted"},
-			{"text":"Thanatos' Oath: +25% Strength and +1 Movement for 10(+Thanatos' Oath count x 2) turns. Cost 25 [Soul]. +2 turns of duration for every Thanatos' Oath casted"},
-			{"text":"Enlightenment: Empire enters golden age. Cost 30 [Soul]. +3 Golden Age points per city for every Enlightenment casted"},
-			{"text":"Ascension Rite: Gain a free Great Person. Cost 50 [Soul]. +5% Great Person generation in all cities for every Ascension Rite casted"},
-			{"text":"Soul Harvest: Gain [Faith] & [Gold] equal to 10(+Soul Harvest count) times stockpiled [Soul]. Consumes all [Soul]. +5 [Soul] multiplier for every Soul Harvest casted"},
+			{"text":"Forbidden Knowledge: +50% [Science] for 10 turns. Cost 25 [Soul]. +1 [Science] in all cities for every Forbidden Knowledge casted"},
+			{"text":"Thanatos' Oath: +25% Strength and +1 Movement for 10(+Thanatos' Oath count x 3) turns. Cost 25 [Soul]. +3 turns of duration for every Thanatos' Oath casted"},
+			{"text":"Enlightenment: Empire enters golden age. Cost 30 [Soul]. +25% Golden Age length for every Enlightenment casted"},
+			{"text":"Ascension Rite: Gain a free Great Person. Cost 45 [Soul]. +10% Great Person generation in all cities for every Ascension Rite casted"},
+			{"text":"Soul Harvest: Gain [Faith] & [Gold] equal to 5(+Soul Harvest count) times stockpiled [Soul]. Consumes all [Soul]. +5 [Soul] multiplier for every Soul Harvest casted"},
         ]
 	},
 	
@@ -3008,7 +3024,7 @@
 					"Provides [1] [Marker] <for [5] turns> <upon declaring war on [Major] Civilizations> <hidden from users>",
 					"Provides [1] [Marker] <for [10] turns> <upon being declared war on by [Major] Civilizations> <hidden from users>",
 					"[+100]% Yield from every [Fortified Farm] <with [Marker]> <hidden from users>",
-					"[All] units gain the [Militia] promotion <hidden from users>",
+					"[All] units gain the [Armed Farmer] promotion <hidden from users>",
 					
 					],
 		"cities": ["Thulu", "Isenmaar", "Ototh", "Tihnas", "Tulihmek", "Usimbar", "Shur", "Peromar", "Sundavey", "Yuruk", "Ziruk", "Sermith"],
@@ -3046,11 +3062,14 @@
 		"uniques": [
 					"Comment [Military units may steal a Luxury resource from an unimproved Enemy tiles, removing and gaining them for yourself (up to 3 times)]",
 					"Earn [25]% of the damage done to [City] units as [Gold] <for [Melee] units>",
-					"[+15]% Strength <within [2] tiles of a [{Enemy} {City center}]>",
+					"Comment [+15% Strength within 2-tiles of an Enemy [City center]]",						//needed this because I can't stand the "a Enemy" instead of "an Enemy"
 					"Comment [All units heal 1 HP upon turn end]",
 					
 					//backend
 					"[Military] units gain the [Horde Raider] promotion <hidden from users>",
+					"[All] units gain the [Greenskin] promotion <hidden from users>",
+					
+					"[+15]% Strength <within [2] tiles of a [{Enemy} {City center}]> <hidden from users>",
 					
 					"Provides [1] [Furs] <for every [FursToken]> <hidden from users>",
 					"Provides [1] [Cotton] <for every [CottonToken]> <hidden from users>",
@@ -3081,7 +3100,95 @@
 			{"text":"Desc"},
         ]
 	},
-	*/
+	
+	//Arata Takemura of Arata Clan
+	{
+		"name": "Arata Clan",
+		"leaderName": "Arata Takemura",
+		"adjective": ["The Arata"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [160, 20, 20],
+		"innerColor": [230, 200, 120],
+
+		"uniqueName": "Indomitable Resolve",
+		"uniques": ["No damage penalty for wounded units",
+					"Comment [Gain 10 [Culture] per Era number upon expending a Great Person unit]",
+					"Comment [Free [Archer Maiden] appears upon gaining a Great Person unit before Industrial Era]",
+					"Comment [\n[Archer Maiden]: Archery unit with Strength that scales with the strongest available Archer-line unit. They have [Shock I], [Extended Range], and an active ability to gain Attack Over Obstacle and +25% Strength]",
+					
+					//backend
+					"Free [Archer Maiden] appears <upon gaining a [Great Person] unit> <before the [Industrial era]> <hidden from users>",
+					"Gain [10] [Culture] <upon expending a [Great Person] unit> <for every [Era number]> <hidden from users>",
+					
+					],
+		"cities": ["Aratake", "Masashiro", "Tetsumori", "Katsuyama", "Takashiro", "Nobukawa", "Tadamori", "Kenryuzaka", "Masatora", "Shigemura", "Katsuhara", "Motokane", "Takemori", "Yoshikawa", "Muneshima"],
+		"spyNames": ["Masakatsu", "Tadanori", "Katsutora", "Shigemasa", "Nobuyori"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	
+	//Hide Kageyoshi of Hide Clan
+	{
+		"name": "Hide Clan",
+		"leaderName": "Hide Kageyoshi",
+		"adjective": ["The Hide"],
+		"startBias": ["Mountain"],
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [45, 45, 45],
+		"innerColor": [0, 100, 90],
+
+		"uniqueName": "Shadow Network",
+		"uniques": [
+					"[+1] Sight",
+					"Comment [Starts with [Shinobi] instead of [Warrior]]",
+					"Comment [Military units can see over obstacles in Enemy territory]",
+					"Comment [+100% spy effectiveness for 10 turns upon entering a war with Major Civilizations]",
+					
+					//backend
+					"[+100]% spy effectiveness [in all cities] <for [10] turns> <upon entering a war with [Major] Civilizations> <hidden from users>",
+					"[+100]% spy effectiveness [in enemy cities] <for [10] turns> <upon entering a war with [Major] Civilizations> <hidden from users>",
+					"[Military] units gain the [Alert] promotion <hidden from users>",
+					"[Warrior] units gain the [ShinobiTransform] promotion <before turn number [1]> <hidden from users>",
+					"Free [Shinobi] appears <hidden from users>",
+					
+					],
+		"cities": ["Kageyama", "Kurokawa", "Shinokage", "Yamishiro", "Kagemori", "Kurotsuki", "Hisame", "Oborozaka", "Kagehara", "Tsukigakure", "Kurohama", "Shirakage", "Yorukawa", "Kageishi", "Kurozane"],
+		"spyNames": ["Kagemaru", "Hayakage", "Shiranui", "Kuroto", "Yamikaze"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
 	
 	/* SHELVED cause currently no idea on how to do the cycle system
 	//Mikohime of Tsukikage Kenzoku
@@ -3129,11 +3236,11 @@
 	//Template
 	/*
 	{
-		"name": "Name Government-type",
-		"leaderName": "(Title) Name",
-		"adjective": ["Name-adj"],
-		"startBias": ["Desert"],
-		"preferredVictoryType": "Cultural",
+		"name": "EmpireName",
+		"leaderName": "LeaderName",
+		"adjective": ["PeopleName"],
+		"startBias": ["TerrainName"],
+		"preferredVictoryType": "VictoryName",
 	//	"personality": "",
 		
 		"startIntroPart1": ".",
@@ -3152,7 +3259,7 @@
 		"innerColor": [100, 100, 100],
 
 		"uniqueName": "UniqueAbility",
-		"uniques": ["Comment [This Civ can do X, Y, and Z]",
+		"uniques": ["Comment [ThisCivCanDoXYandZ]",
 					
 					],
 		"cities": ["City1", "City2", "City3", "City4", "City5", "City6", "City7", "City8", "City9", "City10", "City11", "City12", "City13", "City14", "City15"],
