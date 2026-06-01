@@ -5,7 +5,8 @@
 
 #### Sprites
 * [carriontrooper](https://github.com/carriontrooper) - AbsoluteUnits tileset unit sprites
-* [Basil](https://github.com/BasilBun) - AbsoluteUnits tileset unit sprites
+* [Basil](https://github.com/BasilBun) - AbsoluteUnits tileset unit sprites, Dwarven styles
+* Noverts - AbsoluteUnits tileset unit sprites, Elven styles
 * [letstalkaboutdune](https://github.com/letstalkaboutdune) - [AbsoluteUnits](https://github.com/letstalkaboutdune/AbsoluteUnits) tileset creator
 * [GeneralWadaling](https://github.com/GeneralWadaling) - Providing free to use City buildings template
 * [musabibnumair2004](https://www.freepik.com/author/musabibnumair2004) - [Sphinx](https://www.freepik.com/premium-ai-image/golden-sphinx-pixel-art-atop-books-pile_343316830.htm) sprite (AI Generated)
