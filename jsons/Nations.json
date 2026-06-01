@@ -258,6 +258,7 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Warden of Harmony",
+		"style": "ForestElven",
 		
 		"startIntroPart1": "Aia Sylvanna! The Queen of the Elven, protector of the sacred lands. ",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
