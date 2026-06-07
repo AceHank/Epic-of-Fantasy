@@ -3166,7 +3166,7 @@
 		"tradeRequest": ".",
 					
 		"outerColor": [45, 45, 45],
-		"innerColor": [0, 100, 90],
+		"innerColor": [15, 145, 126],
 
 		"uniqueName": "Shadow Network",
 		"uniques": [
