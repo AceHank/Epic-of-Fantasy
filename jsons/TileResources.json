@@ -11,6 +11,16 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	{
+		"name": "Marker II",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
 	
 	//City-level
 	{
@@ -50,6 +60,17 @@
 	},
 	{
 		"name": "Counter Something",	
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", "Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Counter Something II",	
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen", "Doesn't generate naturally",
