@@ -25,37 +25,51 @@ ResourceIcons/Mana
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Divine Essence
+ResourceIcons/Cooldown Base
   rotate: false
   xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Favor
+ResourceIcons/Elune Protection Cooldown
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Divine Essence
   rotate: false
   xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Mihir
+ResourceIcons/Favor
   rotate: false
   xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Soul
+ResourceIcons/Mihir
   rotate: false
   xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Valkyrie Lifespan
+ResourceIcons/Soul
   rotate: false
   xy: 652, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Valkyrie Lifespan
+  rotate: false
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
