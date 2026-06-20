@@ -2342,7 +2342,7 @@
 					
 					"[All] units gain the [Elune's Protection] promotion <hidden from users>",
 					
-					"Instantly gain [-1] [Counter Something II] <upon turn start> <when above [0] [Counter Something II]> <hidden from users>",
+					"Instantly gain [-1] [Elune Protection Cooldown] <upon turn start> <when above [0] [Elune Protection Cooldown]> <hidden from users>",
 					
 					],
 		"cities": ["Darnassus", "Moonshade", "Starfall", "Shalazzar", "Twilightglade", "Astra'thar", "Eldersong", "Teldrassil", "Gloomspire", "Nightvale", "Moonglade", "Silvergrove", "Dreamsong", 
