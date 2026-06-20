@@ -1723,30 +1723,21 @@
 		"movement": 2,
 		"uniques": [
 					"Comment [May Enchant a [Forest] or [Jungle] twice after which the unit is consumed.]",
-					"Comment [Self-destructs when damaging to deal 30 damage to an enemy unit after 3 turns of being gained]",
+					"Comment [Self-destructs when declaring an attack to deal 15 damage to an enemy unit. Only active when this and target units are in your territory and after 3 turns of being gained.]",
 					"Comment [Strength scales with era]",
 					"Can build [Land] improvements on tiles",
 					
-					"[+5] Strength <during the [Classical era]> <hidden from users>",							//10
-					"[+10] Strength <during the [Medieval era]> <hidden from users>",							//15
-					"[+15] Strength <during the [Renaissance era]> <hidden from users>",						//20
-					"[+20] Strength <during the [Industrial era]> <hidden from users>",							//25
-					"[+30] Strength <during the [Modern era]> <hidden from users>",								//35
-					"[+45] Strength <during the [Atomic era]> <hidden from users>",								//50
-					"[+65] Strength <starting from the [Information era]> <hidden from users>",					//70
-					
-					//Balancer
-					"[-100]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-200]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-300]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-400]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-600]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-900]% Strength <before discovering [Agriculture]> <hidden from users>",					
-					"[-1400]% Strength <before discovering [Agriculture]> <hidden from users>",				
+					"[+3] Strength <during the [Classical era]> <hidden from users>",							//8
+					"[+7] Strength <during the [Medieval era]> <hidden from users>",							//12
+					"[+13] Strength <during the [Renaissance era]> <hidden from users>",						//18
+					"[+15] Strength <during the [Industrial era]> <hidden from users>",							//20
+					"[+24] Strength <during the [Modern era]> <hidden from users>",								//29
+					"[+37] Strength <during the [Atomic era]> <hidden from users>",								//42
+					"[+55] Strength <starting from the [Information era]> <hidden from users>",					//60		
 					
 					"[This Unit] gains the [Cooldown] status for [3] turn(s) <hidden from users>",
-					"[Target Unit] takes [30] damage <upon damaging a [All] unit> <for units without [Cooldown]> <hidden from users>",
-					"[This Unit] takes [101] damage <upon damaging a [All] unit> <for units without [Cooldown]> <hidden from users>",
+					"[Target Unit] takes [15] damage <upon entering combat> <when attacking> <in [your] tiles> <for units without [Cooldown]> <hidden from users>",
+					"[This Unit] takes [101] damage <upon entering combat> <when attacking> <in [your] tiles> <for units without [Cooldown]> <hidden from users>",
 					"Can instantly construct a [Enchanted Forest] improvement <[2] times> <after which this unit is consumed> <hidden from users>",
 					
 		],
