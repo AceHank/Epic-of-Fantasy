@@ -2334,13 +2334,15 @@
 		"innerColor": [85, 150, 60],
 
 		"uniqueName": "Sanctuary of Elune",
-		"uniques": ["Comment [Military units have 30% chance to receive [Sanctuary] for 2 turns when damaged in Friendly territory. 100% for [Wisp] and Civilian. Each unit can only receive [Sanctuary] once every 10 turns.]",
+		"uniques": ["Comment [When damaged in your territory, all units gain [Sanctuary] until the start of its turn. Only one unit can be in a [Sanctuary]. This ability has 5 turns of cooldown.]",
 					"Comment [[Wisp] may enchant a [Forest]/[Jungle]. Enemy moving into [Enchanted Forest] will be [Rooted] for 2 turns once every 6 turns.]",
 					"Comment []",
 					"Comment [[Rooted]: Can't move. Can't Melee attack.]",
 					"Comment [[Sanctuary]: This unit cannot be attacked. [Sanctuary] is lost upon attacking.]",
 					
 					"[All] units gain the [Elune's Protection] promotion <hidden from users>",
+					
+					"Instantly gain [-1] [Counter Something II] <upon turn start> <when above [0] [Counter Something II]> <hidden from users>",
 					
 					],
 		"cities": ["Darnassus", "Moonshade", "Starfall", "Shalazzar", "Twilightglade", "Astra'thar", "Eldersong", "Teldrassil", "Gloomspire", "Nightvale", "Moonglade", "Silvergrove", "Dreamsong", 
