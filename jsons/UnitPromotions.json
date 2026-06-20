@@ -1416,10 +1416,10 @@
 	{
 		"name": "Elune's Protection",
 		"uniques": ["Comment [This unit has gained the grace of Elune's protection]",
-					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <with [30]% chance> <for [{non-[Wisp]} {Military}] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <for [Civilian] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Sanctuary] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <for [Wisp] units> <for units without [Elune's Protection Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Elune's Protection Cooldown] status for [8] turn(s) <upon gaining the [Sanctuary] status> <hidden from users>",
+		
+					"[This Unit] gains the [Sanctuary] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for [All] units> <in [your] tiles> <without [Counter Something II]> <for units without [Elune's Protection Cooldown]> <hidden from users>",
+					"Instantly gain [5] [Counter Something II] <upon gaining the [Sanctuary] status> <when below [1] [Counter Something II]> <hidden from users>",
+					
 		]
 	},
 	{
