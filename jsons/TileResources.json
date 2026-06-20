@@ -746,7 +746,7 @@
 		"name": "Elune Protection Cooldown",	
 		"resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
+			"Not shown on world screen <for [non-[Night Elven Enclave]] Civilizations>", "Doesn't generate naturally",
 			"Stockpiled", 
 			"Cannot be traded", 
 			"Excluded from map editor", 
