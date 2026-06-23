@@ -10,6 +10,13 @@
 		"[+50]% to Flank Attack bonuses <vs [Blinded] units>",
 		//Arata Clan
 		"[-99] Movement <within [1] tiles of a [YamajiroMarker]> <in [Enemy] tiles>",
+		//Ekkimil Empire
+		"85orBelow <when below [86] HP>",
+		"70orBelow <when below [71] HP>",
+		"55orBelow <when below [56] HP>",
+		"40orBelow <when below [41] HP>",
+		"25orBelow <when below [26] HP>",
+		"10orBelow <when below [11] HP>",
 		//Thanatos Theocracy
 		"[-5]% Strength <within [2] tiles of a [BlackCitadel]> <in [Enemy] tiles>",
 		"[-5]% Strength <within [1] tiles of a [BlackCitadel]> <in [Enemy] tiles>",
@@ -51,8 +58,6 @@
 		"[This Unit] takes [5] damage <upon damaging a [Retribution] unit> <for [Ranged] units> <for [non-[Air]] units>",
 		//Vigilo Order
 		"[This Unit] gains the [Debuff Immune] status for [1] turn(s) <upon turn end> <when stacked with a [Potionist] unit>",
-		//Wizard
-		"[Target Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon damaging a [{non-[Mana Shield CD]} {Mana Shield}] unit> <for [Ranged] units>",
 			
 		//Mixed
 		"Cannot attack <vs [IsSanctuary] units>",	//Sanctuary

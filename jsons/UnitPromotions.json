@@ -209,21 +209,21 @@
 	//Scazari Hive~~~~~~~
 	{
 		"name": "Armored Exoskeleton",
-		"uniques": ["Comment [50% damage reduction when below 50 HP]",
-					"[+1]% Strength <when defending> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [26] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [34] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [38] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [42] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [46] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [54] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [58] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [62] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [64] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [66] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [68] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [70] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [72] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [74] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [76] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [78] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [80] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [82] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [84] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [86] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [88] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [90] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [92] HP in a single attack> <when below [50] HP> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [94] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [96] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [98] HP in a single attack> <when below [50] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [100] HP in a single attack> <when below [50] HP> <hidden from users>",
+		"uniques": ["Comment [50% damage reduction when below 40 HP]",
+					"[+1]% Strength <when defending> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [26] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [34] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [38] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [42] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [46] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [54] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [58] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [62] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [64] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [66] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [68] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [70] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [72] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [74] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [76] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [78] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [80] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [82] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [84] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [86] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [88] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [90] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [92] HP in a single attack> <when below [40] HP> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [94] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [96] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [98] HP in a single attack> <when below [40] HP> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [100] HP in a single attack> <when below [40] HP> <hidden from users>",
 		]
 	},
 	
@@ -268,7 +268,7 @@
 	},
 	{
 		"name": "Spire Damage Block",
-		"uniques": ["Comment [Reduces damage taken by 10 when adjacent to a [City center] with [Curative Spire]]",
+		"uniques": ["Comment [Reduces damage taken by 6 when adjacent to a [City center] with [Curative Spire]]",
 					
 					"[+1]% Strength <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
@@ -277,10 +277,10 @@
 					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <in cities with a [Curative Spire]> <in tiles adjacent to [City center] tiles> <hidden from users>",
 
 		]
 	},
@@ -329,26 +329,26 @@
 		But unfortunately (or fortunately?) the bug seems to only appears on Building (in my limited testing).
 	*/
 	
+	/*
 	{					
 		"name": "Mirage",			
 		"uniques": ["Comment [Heals 20 HP and summon [Illusion] for 2 turns upon losing at least 20 HP in a single attack with 35% chance]",
 					"[This Unit] heals [20] HP <upon losing at least [20] HP in a single attack> <with [35]% chance> <hidden from users>",	
 					"Free [Illusion] appears <upon losing at least [20] HP in a single attack> <with [35]% chance> <hidden from users>"]
 	},
+	*/
 	
-	/*
-		This version of Mirage is what Mirage supposed to be, but because the Mirage Cooldown can't be triggered via City Attack, it is currently deactivated.
-		Relevant uniques in UnitTypes.json are removed. Will be fixed when 'upon losing HP' uniques work with '<vs units>' conditional.
 	{					
 		"name": "Mirage",			
-		"uniques": ["Comment [Free [Illusion] appears upon taking damage. Cooldown: 5 turns.]",
-					"Free [Illusion] appears <upon losing at least [1] HP in a single attack> <for [{non-[Mirage CD]} {Mirage}] units> <hidden from users>"]
+		"uniques": ["Comment [Free [Illusion] appears upon being attacked. Cooldown: 5 turns.]",
+					"Free [Illusion] appears <upon entering combat> <when defending> <for [{non-[Mirage CD]} {Mirage}] units> <hidden from users>",
+					"[This Unit] gains the [Mirage Cooldown] status for [5] turn(s) <upon entering combat> <when defending> <for [{non-[Mirage CD]} {Mirage}] units> <hidden from users>",
+					]
 	},
 	{					
 		"name": "Mirage Cooldown",			
 		"uniques": ["Comment [Mirage in on cooldown.]", "Mirage CD"]
 	},
-	*/
 	
 	//Nature's Keeper~~~~~~~
 	
@@ -446,23 +446,18 @@
 	//Teutonica Imperium~~~~~~~
 	{
 		"name": "Magitek",
-		"uniques": ["Comment [Reduces damage taken by 2, increased by 2 upon entering new era (up to 15)]",
+		"uniques": ["Comment [Reduces damage taken by 2, increased by 1 upon entering new era (up to 10)]",
 					
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <starting from the [Classical era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <starting from the [Classical era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <starting from the [Medieval era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <starting from the [Medieval era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <starting from the [Renaissance era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <starting from the [Renaissance era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <starting from the [Industrial era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <starting from the [Industrial era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [11] HP in a single attack> <starting from the [Modern era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <starting from the [Modern era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack> <starting from the [Atomic era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <starting from the [Atomic era]> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <starting from the [Information era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <starting from the [Medieval era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <starting from the [Renaissance era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <starting from the [Industrial era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <starting from the [Modern era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <starting from the [Atomic era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <starting from the [Information era]> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <starting from the [Future era]> <hidden from users>",
 		]
 	},
 	{
@@ -663,6 +658,22 @@
 		]
 	},	
 	
+	//Ekkimil Empire
+	{
+		"name": "Blood Rite",
+		"uniques": [
+					"Comment [+5% Strength for every 15 HP missing from the target enemy]",
+					"Earn [25]% of killed [Military] unit's [Strength] as [Faith]",
+					
+					"[+5]% <vs [85orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [70orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [55orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [40orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [25orBelow] units> Strength <hidden from users>",
+					"[+5]% <vs [10orBelow] units> Strength <hidden from users>",
+					
+		]
+	},			
 	
 	//Universal~~~~~~~
 	{
@@ -738,9 +749,9 @@
 	},
 	{
 		"name": "Sanctuary",		//This should only be gained in opponent's turn, because of Sanctuary First Turn.
-		"uniques": ["Comment [This unit cannot be attacked. [Sanctuary] is lost upon attacking.]", "IsSanctuary",
-					"[This Unit] loses the [Sanctuary] promotion <upon damaging a [All] unit> <for units without [Sanctuary First Turn]> <hidden from users>",
-					"[This Unit] loses the [Sanctuary] status <upon damaging a [All] unit> <for units without [Sanctuary First Turn]> <hidden from users>",
+		"uniques": ["Comment [This unit cannot be attacked. [Sanctuary] is lost upon attacking.]", "IsSanctuary", "[+1]% Strength",
+					"[This Unit] loses the [Sanctuary] promotion <upon entering combat> <for units without [Sanctuary First Turn]> <hidden from users>",
+					"[This Unit] loses the [Sanctuary] status <upon entering combat> <for units without [Sanctuary First Turn]> <hidden from users>",
 					"[This Unit] gains the [Sanctuary First Turn] status for [1] turn(s) <upon gaining the [Sanctuary] status> <hidden from users>",
 		],
 	},
@@ -751,7 +762,7 @@
 	{
 		"name": "Heavily Armored",
 		"uniques": [
-			"Comment [25% damage reduction, up to 15 damage]",
+			"Comment [25% damage reduction, up to 10 damage]",
 			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
 			"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
 			"[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <hidden from users>",
@@ -762,11 +773,11 @@
 			"[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <hidden from users>",
 			"[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <hidden from users>",
 			"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <hidden from users>",
-			"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <hidden from users>",
-			"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <hidden from users>",
-			"[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <hidden from users>",
-			"[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <hidden from users>",
-			"[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <hidden from users>",
+		//	"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <hidden from users>",
+		//	"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <hidden from users>",
+		//	"[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <hidden from users>",
+		//	"[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <hidden from users>",
+		//	"[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <hidden from users>",
 			]
 	},
 	{
@@ -937,8 +948,7 @@
 					"[This Unit] gains the [Chameleon Cloak Active] status for [3] turn(s) <for [0] movement> <for units without [Chameleon Cloak Cooldown]> <hidden from users>", 
 					"[This Unit] loses the [Chameleon Cloak Active] status <upon damaging a [All] unit> <hidden from users>",
 					"[This Unit] gains the [Chameleon Cloak Cooldown] status for [8] turn(s) <upon gaining the [Chameleon Cloak Active] status> <hidden from users>",
-					"[This Unit] gains the [Chameleon Cloak Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
-					"[This Unit] gains the [Chameleon Cloak Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
+					"[This Unit] gains the [Chameleon Cloak Cooldown] status for [2] turn(s) <upon entering combat> <hidden from users>",
 					]
 	},
 	{
@@ -957,8 +967,7 @@
 					"[This Unit] gains the [Shukuchi Active] status for [2] turn(s) <for [0] movement> <for units without [Shukuchi Cooldown]> <hidden from users>", 
 					"[This Unit] loses the [Shukuchi Active] status <upon damaging a [All] unit> <hidden from users>",
 					"[This Unit] gains the [Shukuchi Cooldown] status for [10] turn(s) <upon gaining the [Shukuchi Active] status> <hidden from users>",
-					"[This Unit] gains the [Shukuchi Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
-					"[This Unit] gains the [Shukuchi Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
+					"[This Unit] gains the [Shukuchi Cooldown] status for [2] turn(s) <upon entering combat> <hidden from users>",
 					]
 	},
 	{
@@ -1076,8 +1085,10 @@
 	//Wizard Council~~~~~~~
 	{
 		"name": "Mana Shield",
-		"uniques": ["Comment [Block the next Ranged attack. Cooldown: 4 turns.]",
-					"[+1000]% Strength <when defending> <vs [Ranged] units> <for units without [Mana Shield Cooldown]> <hidden from users>"]
+		"uniques": ["Comment [Block the next Ranged attack from units. Cooldown: 4 turns.]",
+					"[+1000]% Strength <when defending> <vs [Ranged] units> <for units without [Mana Shield Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon entering combat> <when defending> <vs [Ranged] units> <for units without [Mana Shield Cooldown]> <hidden from users>",
+					]
 	},
 	{
 		"name": "Mana Shield Cooldown",
@@ -1090,8 +1101,7 @@
 		"name": "Regeneration",		
 		"uniques": ["Comment [Heals 10 HP at turn end when not in combat in the last 2 turns.]", 
 					"[This Unit] heals [10] HP <upon turn end> <for units without [Regeneration Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Regeneration Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
-					"[This Unit] gains the [Regeneration Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+					"[This Unit] gains the [Regeneration Cooldown] status for [2] turn(s) <upon entering combat> <hidden from users>",
 					]
 	},
 	{
@@ -1194,7 +1204,7 @@
 	//High Elf Concordat~~~~~~~
 	{
 		"name": "Second Wind",
-		"uniques": ["Comment [Heals 15 HP and cannot be attacked for 1 turn upon reaching 25 HP or less. Can only be activated once.]",
+		"uniques": ["Comment [Heals 15 HP and cannot be attacked for 1 turn upon being reduced to 25 HP or less. Can only be activated once.]",
 					"[This Unit] gains the [Second Wind Active] promotion <hidden from users>",
 					"[This Unit] loses the [Second Wind Active] promotion <upon losing at least [1] HP in a single attack> <when below [26] HP> <for units with [Second Wind Active]> <hidden from users>",
 					]		
@@ -1417,7 +1427,7 @@
 		"name": "Elune's Protection",
 		"uniques": ["Comment [This unit has gained the grace of Elune's protection]",
 		
-					"[This Unit] gains the [Sanctuary] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for [All] units> <in [your] tiles> <without [Elune Protection Cooldown]> <for units without [Elune's Protection Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Sanctuary] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <in [your] tiles> <without [Elune Protection Cooldown]> <hidden from users>",
 					"Instantly gain [5] [Elune Protection Cooldown] <upon gaining the [Sanctuary] status> <when below [1] [Elune Protection Cooldown]> <hidden from users>",
 					
 		]
@@ -1438,8 +1448,7 @@
 					"[This Unit] gains the [Invisible] promotion <upon turn start> <in [Jungle] tiles> <for units without [Cooldown]> <hidden from users>",
 					"[This Unit] loses the [Invisible] promotion <upon damaging a [All] unit> <hidden from users>",
 					"[This Unit] loses the [Invisible] promotion <upon entering a [All] tile> <hidden from users>",
-					"[This Unit] gains the [Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
-					"[This Unit] gains the [Cooldown] status for [3] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+					"[This Unit] gains the [Cooldown] status for [3] turn(s) <upon entering combat> <hidden from users>",
 		]
 	},	
 	
@@ -1609,11 +1618,11 @@
 	{
 		"name": "Benediction II",
 		"prerequisites": ["Benediction I"],
-		"uniques": ["Comment [[Aura of Protection]: Passive. This and adjacent units gain 8 damage reduction.]",
+		"uniques": ["Comment [[Aura of Protection]: Passive. This and adjacent units gain 5 damage reduction.]",
 					"Aura of Protection Aura <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
 					
 		],
 		"unitTypes": ["Gunpowder", "Sword"],
@@ -1638,8 +1647,9 @@
 					"[+1]% Strength <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
 					"[This Unit] heals [15] HP <upon turn end> <when adjacent to a [Mend Wounds Aura] unit> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <when adjacent to a [Aura of Protection Aura] unit> <hidden from users>",
 		],
 	},	
 	
@@ -1754,11 +1764,11 @@
 	
 	{
 		"name": "Purity",		
-		"uniques": ["Comment [This unit gain [Sanctuary] for 1 turn when damaged. [Sanctuary] unit cannot be attacked. Cooldown: 12 turns.]",
+		"uniques": ["Comment [This unit gain [Sanctuary] for 1 turn when attacked. [Sanctuary] unit cannot be attacked. Cooldown: 12 turns.]",
 					
-					"[This Unit] gains the [Sanctuary] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Purity Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Sanctuary] status for [1] turn(s) <upon entering combat> <when defending> <for units without [Purity Cooldown]> <hidden from users>",
 					
-					"[This Unit] gains the [Purity Cooldown] status for [12] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Purity Cooldown]> <hidden from users>",
+					"[This Unit] gains the [Purity Cooldown] status for [12] turn(s) <upon entering combat> <when defending> <for units without [Purity Cooldown]> <hidden from users>",
 		]
 	},
 	{
@@ -1769,10 +1779,10 @@
 	//The Blighted
 	{
 		"name": "Mana Tainted",	
-		"uniques": ["Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon taking damage.]",
+		"uniques": ["Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon being attacked.]",
 					"Comment [Land units attack has a 30% chance to apply [Bleeding] for 2 turns and [Crippled] for 1 turn.]",
 					
-					"[This Unit] gains the [Mana Tainted Activator] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <with [15]% chance> <hidden from users>",
+					"[This Unit] gains the [Mana Tainted Activator] status for [1] turn(s) <upon entering combat> <when defending> <with [15]% chance> <hidden from users>",
 					
 					"[Target Unit] gains the [Mana Tainted Activator] status for [1] turn(s) <upon damaging a [All] unit> <with [30]% chance> <hidden from users>",
 					
@@ -1781,7 +1791,7 @@
 	},
 	{
 		"name": "Mana Tainted Activator",		
-		"uniques": ["Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon taking damage.]",
+		"uniques": ["Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon being attacked.]",
 					"Comment [Land units attack has a 30% chance to apply [Bleeding] for 2 turns and [Crippled] for 1 turn.]",
 					
 					"Will not be displayed in Civilopedia", "Not shown on world screen",
@@ -1909,13 +1919,13 @@
 	},
 	{
 		"name": "Aspect of Tortoise",		
-		"uniques": ["Comment [Reduces damage taken by 10]",
+		"uniques": ["Comment [Reduces damage taken by 6]",
 					
 					"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
-					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+				//	"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>",
 		
 					"[This Unit] gains the [Polymorphic Cooldown] status for [5] turn(s) <upon gaining the [Aspect of Tortoise] status> <hidden from users>",
 		]
@@ -2039,7 +2049,7 @@
 	},
 	{
 		"name": "Unyielding",
-		"uniques": ["Comment [Gain [Debuff Immune] for 1 turn upon reaching 50 HP and 25 HP.]",
+		"uniques": ["Comment [Gain [Debuff Immune] for 1 turn upon being reduced to 50 HP or below and again at 25 HP or below.]",
 					
 					"[This Unit] gains the [Debuff Immune] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <when below [51] HP> <hidden from users>",
 					"[This Unit] gains the [Debuff Immune] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <when below [26] HP> <hidden from users>",
@@ -2237,6 +2247,16 @@
 					],
 	},
 	{
+		"name": "Poisoned",
+		"uniques": ["Comment [Take 5 damage upon turn end and -5 HP when healing.]",
+					
+					"[This Unit] takes [5] damage <upon turn end> <hidden from users>",
+					"[-5] HP when healing <hidden from users>",
+					
+					"[-1]% Strength <hidden from users>",
+					]
+	},
+	{
 		"name": "Rooted",
 		"uniques": ["Cannot move", 
 					"Cannot attack <for [Melee] units>",
@@ -2315,6 +2335,7 @@
 					"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
 					"[This Unit] loses the [Infected] status <upon gaining the [Infected] status> <hidden from users>",
 					"[This Unit] loses the [Marked] status <upon gaining the [Marked] status> <hidden from users>",
+					"[This Unit] loses the [Poisoned] status <upon gaining the [Poisoned] status> <hidden from users>",
 					"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
 					"[This Unit] loses the [Elune's Rooted] status <upon gaining the [Elune's Rooted] status> <hidden from users>",
 					"[This Unit] loses the [Shackled] status <upon gaining the [Shackled] status> <hidden from users>",
@@ -2343,6 +2364,7 @@
 					"[This Unit] loses the [Frozen] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Infected] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Marked] status <upon gaining the [Debuff Immune] status> <hidden from users>",
+					"[This Unit] loses the [Poisoned] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Rooted] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Elune's Rooted] status <upon gaining the [Debuff Immune] status> <hidden from users>",
 					"[This Unit] loses the [Shackled] status <upon gaining the [Debuff Immune] status> <hidden from users>",

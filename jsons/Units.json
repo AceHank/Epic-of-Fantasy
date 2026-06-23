@@ -1457,7 +1457,7 @@
 		"strength": 24,
 		"movement": 2,
 		"uniques": ["Unbuildable", "Cannot be purchased", "[-99]% Strength <when defending>",
-					"[This Unit] gains the [Cooldown] status for [2] turn(s)",
+					"[This Unit] gains the [Cooldown] status for [3] turn(s)",
 					"[This Unit] takes [101] damage <upon turn end> <for units without [Cooldown]>",
 		],
 		"promotions": ["Mirage"],
@@ -1723,7 +1723,7 @@
 		"movement": 2,
 		"uniques": [
 					"Comment [May Enchant a [Forest] or [Jungle] twice after which the unit is consumed.]",
-					"Comment [Self-destructs when declaring an attack to deal 15 damage to an enemy unit. Only active when this and target units are in your territory and after 3 turns of being gained.]",
+					"Comment [Self-destructs when declaring an attack to deal 15 damage to an enemy unit. Only active when target unit is in your territory and after 3 turns of being gained.]",
 					"Comment [Strength scales with era]",
 					"Can build [Land] improvements on tiles",
 					
@@ -1736,13 +1736,13 @@
 					"[+55] Strength <starting from the [Information era]> <hidden from users>",					//60		
 					
 					"[This Unit] gains the [Cooldown] status for [3] turn(s) <hidden from users>",
-					"[Target Unit] takes [15] damage <upon entering combat> <when attacking> <in [your] tiles> <for units without [Cooldown]> <hidden from users>",
+					"[Target Unit] takes [100] damage <upon entering combat> <when attacking> <in [your] tiles> <for units without [Cooldown]> <hidden from users>",
 					"[This Unit] takes [101] damage <upon entering combat> <when attacking> <in [your] tiles> <for units without [Cooldown]> <hidden from users>",
 					"Can instantly construct a [Enchanted Forest] improvement <[2] times> <after which this unit is consumed> <hidden from users>",
 					
 		],
 		"promotions": ["Hovering"],
-		"cost": 70,
+		"cost": 1,
         "civilopediaText": [
 			{"text": "Flock of spirits roam around the forest. They are the lifeline of the forest and will not waver to sacrifice themselves to protect it."}
 		]
@@ -2058,8 +2058,7 @@
 					
 					"[+1] Range <for units without [Prepared Shot Cooldown]> <hidden from users>",
 					"[Target Unit] takes [10] damage <upon damaging a [All] unit> <for units without [Prepared Shot Cooldown]> <hidden from users>",
-					"[This Unit] gains the [Prepared Shot Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
-					"[This Unit] gains the [Prepared Shot Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+					"[This Unit] gains the [Prepared Shot Cooldown] status for [2] turn(s) <upon entering combat> <hidden from users>",
 					
 					//Stuffs
 					
@@ -2571,13 +2570,46 @@
 		"attackSound": "nonmetalhit"
 	},
 	
+	//Ekkimil Empire
+	{
+		"name": "Herald",
+		"unitType": "Civilian",
+		"uniqueTo": "Ekkimil Empire",
+		"uniques": [
+			"Comment [Gain +3 [Science], +3 [Faith] when ending turn adjacent to a Friendly or Allied City-State's [City center]]",
+            "Can Spread Religion <for [4] movement> <[2] times>",
+			"Can remove other religions from cities <in [Friendly] tiles> <once>",
+			"Prevents spreading of religion to the city it is next to",
+            "May enter foreign tiles without open borders",
+			"Gain [3] [Science] <upon turn end> <within [1] tiles of a [{Friendly} {CityStatesMarker}]> <hidden from users>",
+			"Gain [3] [Faith] <upon turn end> <within [1] tiles of a [{Friendly} {CityStatesMarker}]> <hidden from users>",
+			"Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia", "Religious Unit"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Balam Champion",
+		"uniqueTo": "Ekkimil Empire",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Blood Rite"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
 	/*
 	//Test Purpose
 		{
 			"name": "Meo",
 			"unitType": "Sword",
 			"replaces": "Warrior",
-			"uniqueTo": "Goblin Horde",
+			"uniqueTo": "Night Elven Enclave",
 			"movement": 5,
 			"strength": 10,
 			"cost": 1,
@@ -2587,7 +2619,8 @@
 						"[+5] Sight", "Can move immediately once bought", "Can see over obstacles",
 						
 						//Put test stuffs below
-						"[+15]% Strength bonus for [All] units within [2] tiles",
+						"[This Unit] gains the [Mana Shield Cooldown] status for [4] turn(s) <upon entering combat> <when defending> <vs [Ranged] units> <hidden from users>",
+						
 						
 						
 			],
@@ -2598,7 +2631,7 @@
 			"name": "Meo 2",
 			"unitType": "Sword",
 			"replaces": "Warrior",
-			"uniqueTo": "Drow Village",
+			"uniqueTo": "Aellenari Empire",
 			"movement": 5,
 			"strength": 10,
 			"rangedStrength": 10,

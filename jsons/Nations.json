@@ -284,6 +284,9 @@
 					"[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Forest] tiles> <hidden from users>", 
 					"[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Jungle] tiles> <hidden from users>",
 					
+					"Free [Swordsman] appears",
+					"Free [Longswordsman] appears",
+					
 					"[+5]% [Culture] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [1]> <hidden from users>",
 					"[+1 Culture] from all [Ancestor Tree] buildings <for every [4] [[Ancestor Tree] Buildings]> <when number of [[Ancestor Tree] Buildings] is more than [3]> <hidden from users>",
 					"[+2 Production] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [5]> <hidden from users>",
@@ -2286,7 +2289,7 @@
 		"uniqueName": "The Grand Strategem",
 		"uniques": [
 					"Comment [Gain Spy one era sooner (Medieval era) & all new spies start with 1 level]",
-					"Comment [Reduces damage taken by 2 for Military units, increased by 2 upon entering new era (up to 15)]",
+					"Comment [Reduces damage taken by 2 for Military units, increased by 1 upon entering new era (up to 10)]",
 					"Earn [50]% of killed [Military] unit's [Strength] as [Science]",
 					
 					"[Military] units gain the [Magitek] promotion <hidden from users>",
@@ -2317,6 +2320,7 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Diplomatic",
 	//	"personality": "The Protector",
+	//	"style": "ForestElven",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
@@ -2380,7 +2384,7 @@
 		"uniqueName": "Together for Her",
 		"uniques": ["Comment [Gain Golden Age points upon discovering technology equal to 5 per era the technology belongs to (modified by game speed)]",
 					"Comment [Every third Military Land unit gained is spawned as [Undead]]",
-					"Comment [[Bound to Serve]: For every 10 Military Land units lost, a free strongest available Melee footman unit spawns as [Undead]]",
+					"Comment [[Bound to Serve]: For every 10 Military Land units lost, a free strongest available Melee footman unit spawns as [Undead] at next turn start]",
 					
 					//Aellenarian Sanctum
 					"[-100]% Unhappiness from [Aellenarian Scholar] [in all cities] <hidden from users>",
@@ -3192,6 +3196,60 @@
 			{"text":"Desc"},
         ]
 	},
+	
+	/*
+	//Tʼaan of Ekkimil Empire
+	{
+		"name": "Ekkimil Empire",
+		"leaderName": "Tʼaan",
+		"adjective": ["Ekkimili"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+	//	"personality": "",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": "Greetings!",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+					
+		"outerColor": [20, 30, 60],
+		"innerColor": [120, 180, 140],
+
+		"uniqueName": "Heir of the Dying Star",
+		"uniques": ["Comment [A [Herald] appears upon ending a Golden Age and upon losing a city]",
+					"Comment [After ending a Golden Age, all units gain +1 Movement for 5 turns]",
+					"Comment [The first time a Major Civilization declares war on you, a [Great Scientist] appears]",
+					"Comment [[Herald]: This unit has both [Missionary] and [Inquisitor] ability without having to be consumed. Also provides +2 [Science], +2 [Faith] when ending a turn adjacent to a Friendly or Allies City-States' [City center]]",
+					
+					//backend
+					"Free [Herald] appears <upon ending a Golden Age> <hidden from users>",
+					"Free [Herald] appears <upon losing a city> <hidden from users>",
+					
+					"Free [Great Scientist] appears <upon being declared war on by [Major] Civilizations> <when below [1] [First Something]> <hidden from users>",
+					"Instantly gain [1] [First Something] <upon being declared war on by [Major] Civilizations> <when below [1] [First Something]> <hidden from users>",
+							
+					"Provides [1] [Marker] <for [5] turns> <upon ending a Golden Age> <hidden from users>",					
+					"[+1] Movement <with [Marker]> <hidden from users>",					
+					
+					"[+1 Science, +1 Faith] from every [Jungle] <in tiles adjacent to [Patlani Witz] tiles> <hidden from users>",
+					
+					],
+		"cities": ["Ekʼbalamtuun", "Kʼinichnal", "Yaxkʼulha", "Tzʼikinhaab", "Saknikteʼ", "Chakmolha", "Itzamkʼan", "Bʼalamha", 
+			"Nojwitz", "Kʼuhulchan", "Ixmutal", "Ahaukin", "Tuunilnah", "Kʼabnal", "Uxlajchan"],
+		"spyNames": ["Ajk'in","Chak Tok","Balam","Ikal","K'an Ek"],
+		"civilopediaText": [
+			{"text":"Desc"},
+			{"text":"Desc"},
+        ]
+	},
+	*/
 	
 	/* SHELVED cause currently no idea on how to do the cycle system
 	//Mikohime of Tsukikage Kenzoku
