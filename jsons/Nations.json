@@ -2623,7 +2623,7 @@
 					"Comment [-10% Growth in cities with 5 or less Population]",
 					
 					"Comment [\n[Mana Tainted]:]",
-					"Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon taking damage.]",
+					"Comment [Land units has a 15% chance to gain [Bleeding] for 2 turns and [Crippled] for 1 turn upon being attacked.]",
 					"Comment [Land units attack has a 30% chance to apply [Bleeding] for 2 turns and [Crippled] for 1 turn.]",
 					
 					"[Land] units gain the [Mana Tainted] promotion <hidden from users>",
